@@ -1,0 +1,1320 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "狼戾亡命，群凶未定",
+    "pageId": 13227,
+    "revisionId": 79737,
+    "parentRevisionId": 44383,
+    "revisionTimestamp": "2026-03-02T08:04:31Z",
+    "fetchedAt": "2026-09-28T00:20:33.961Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%8B%BC%E6%88%BE%E4%BA%A1%E5%91%BD%EF%BC%8C%E7%BE%A4%E5%87%B6%E6%9C%AA%E5%AE%9A",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%8B%BC%E6%88%BE%E4%BA%A1%E5%91%BD%EF%BC%8C%E7%BE%A4%E5%87%B6%E6%9C%AA%E5%AE%9A&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "狼戾亡命，群凶未定",
+    "region": "仙舟「罗浮」",
+    "type": "开拓续闻",
+    "version": "2.4",
+    "number": "09",
+    "series": "明霄竞武试锋芒·上",
+    "description": "在局外人的操弄之下，罗浮仙舟羁押许久的巨恶，步离人战首呼雷最终脱出牢笼大开杀戒。此刻幽囚狱中的局势危如累卵，你们唯一能做的，只有在他逃出此间前，关上幽囚狱的大门。",
+    "requirements": "完成任务诘辩无愧，折狱论非",
+    "requiredLevel": "21",
+    "characters": [
+      "丹恒",
+      "寒鸦",
+      "雪衣",
+      "椒丘",
+      "貊泽",
+      "景元",
+      "飞霄",
+      "怀炎"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "星琼",
+        "amount": "50"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "6"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "6"
+      },
+      {
+        "item": "《啸月狼奔》",
+        "amount": "1"
+      },
+      {
+        "item": "《生苦不绝，烦漏难尽》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "30000"
+      }
+    ],
+    "previousMissions": [
+      "诘辩无愧，折狱论非"
+    ],
+    "nextMissions": [
+      "烽举烟传，枕弧待战"
+    ],
+    "objectives": [
+      "前往幽狱之底，查看曜青来使的状况",
+      "恢复狱层间的通路",
+      "前往幽狱之底，查看曜青来使的状况",
+      "前往幽狱之底",
+      "修复残破的机巧鸟",
+      "追逐劫狱者的脚步",
+      "恢复狱层间的通路",
+      "追逐劫狱者的脚步",
+      "恢复狱层间的通路",
+      "与曜青使者交谈",
+      "追逐劫狱者的脚步"
+    ],
+    "synopsis": [],
+    "extra": {
+      "相关成就": "通往群星的轨道#狩猎的时间",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与此同时，开拓者、丹恒与寒鸦察觉到了狱中的情况业已失控……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "幽府武弁",
+      "text": "寒鸦大人，各区域武弁正在重整队伍。那些机巧敌人正在到处游走，杀伤了不少同僚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "幽府武弁",
+      "text": "不止如此，那些铁狼还破坏囚笼，放走了罪犯！我们已经向外求援了，但看起来所有的通讯都被阻绝了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "保存实力为先，优先镇伏落单的囚犯和劫狱者。奉十王敕，凡有脱狱、劫狱者，不禁杀伤。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "金人勾魂使",
+      "text": "一刻之前，「断狱轮钥」的机关启动。想来是雪衣大人和曜青使节进入幽狱之底进行探视了。以眼下失联的情况来看，贼人的目标正是此处。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "绝不可让那头恶兽从牢笼中脱出！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "金人勾魂使",
+      "text": "已清点尚能战斗的狱卒，即将开赴各层搜捕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "去吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "那些劫狱者如此胆大妄为，一定为这次行动计划了许久。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "你说的不错。只是奇怪步离人从来更乐衷于暴力杀伤，制定如此精密周详的计划…不像他们一贯的风格。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "眼下情势危急，不是复盘审视的时候。两位，请先助我一臂之力！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "证言的事先放一边吧？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "果然咱们所到之处没有太平。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "寒鸦小姐，最快前往幽狱之底的通路在什么地方？若不能在时间上争分夺秒，恐怕整个幽囚狱都会成为我们的敌人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "为今之计，只有使些取巧的办法了，诸位随我来。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往幽狱之底，查看曜青来使的状况"
+    },
+    {
+      "type": "objective-description",
+      "text": "幽囚狱中，来历不明的机械与劫狱者横行无忌，意在救出步离战首。而曜青的使节生死不明。受寒鸦请托，你们不得不深入幽囚狱之底，确认犯人是否依然在押……",
+      "location": "仙舟「罗浮」-幽囚狱"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "奉十王敕，凡有脱狱、劫狱者，不禁杀伤！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "武弁",
+      "text": "是！"
+    },
+    {
+      "type": "fold",
+      "title": "调查倒地的公司机甲",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "巨大的金属残骸横陈在地，但不知为何你很清楚它并未完全死去。它的外壳下仿生组织正在不断修复。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "守住此地。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "金人勾魂使",
+      "text": "遵命！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "要想尽快抵达幽狱之底，必须借助某些工具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "随我去下一层。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "前往中转狱层"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "恢复狱层间的通路"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "道路断了？一定是有人更动了机关。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "无妨，稍加操作便能打通。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "操纵机关"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往幽狱之底，查看曜青来使的状况"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "前往焦热狱层"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "幽囚狱中道路难行，有些冥差偶尔为了贪图脚程便捷，借用工造司里的机巧来去穿梭。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "狱内本是禁止使用「换境画屏」之类的装置，以免便利了犯人逃离。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "如今事急从权，也顾不得什么命令了。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "通过「换境画屏」前往断狱轮钥"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往幽狱之底"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "「断狱轮钥」已打开了通路，希望我们来得还不算晚……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "姐姐，你要坚持住啊！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们到达了幽狱之底"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "看起来就在不久前，这里经历了一场恶战。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "狱门与囚笼洞天断开了联系，还是让呼雷逃出来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "曜青使者呢？姐姐呢？他们还活着吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "四下找找，应该会有眉目的。"
+    },
+    {
+      "type": "fold",
+      "title": "调查倒地的步离人",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "这名步离人似乎尚未来得及反应便被人从后方刺穿。你不清楚这究竟是曜青使者做的，还是判官的手笔。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "调查倒地的幽府武弁",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "显然这名武弁在殉职前经历了一场激烈的战斗。你将她的面具重新盖回她的脸上，祈祷她的英灵能得享安息。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "调查倒地的幽府武弁",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "力战倒下的武弁。她的武器不翼而飞，也许遗落在了监狱某处。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "调查倒地的步离人",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "肢体扭曲的步离遗骸，这头巨狼肢体似曾被牢牢捆锁。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "关押呼雷的牢笼大门",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "关押呼雷的牢笼之门，如有实质的虚空黑暗中透出令人胆寒的死寂气息。\n它本该是个稳妥的关押之处，可惜即便是这样的牢笼也没能困住恶兽。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "调查倒地的穿着云骑服饰的人",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "你察觉到这个身着云骑甲胄的死者似乎并非普通的狐人，他的身躯似乎经历过剧烈的变形——来不及缩回的鬣毛布满了脖颈。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们在角落里发现了浑身短路的雪衣…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "雪衣…在这儿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "雪衣小姐壮烈成仁…寒鸦小姐，请节哀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "哀悼？我没那个意思。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "你误会了。蒙十王恩赐，姐姐在数百年前早已成了机巧之身。死亡后其「灵魂」回归因果殿的案牍库，对她来说早已是家常便饭。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "虽然我也不想看到她每次如此轻率地消耗自己的身体，就像一个可以被轻率替换的零件那般。但……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "对了，有没有找到可能是曜青使节的伤亡者？其中一人是衣装华美的狐人，另一个披挂暗色袍子，瞧着像是个亡命之徒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…不，除去步离人之外，这里的遗骸中我没瞧见长得像狐人的死者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "也就是说，劫狱者和呼雷挟持了曜青使者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "这真是最糟糕的情况了。人质在手，狱卒们对这些家伙恐怕也无能为力。万一有什么闪失，罗浮仙舟与曜青仙舟的关系…恐怕也将陷入不可挽回的撕裂。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "必须救下使节，逃离此处，向外递送消息。只要还有一线希望，就绝不能放弃！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "寒鸦小姐发现了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "损坏的机巧鸟",
+      "text": "寒…寒……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么鬼！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "赛博幽灵！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "损坏的机巧鸟",
+      "text": "重…重新……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "是姐姐。看来她的灵魂恪尽职守，暂时还没回到因果殿中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "恰恰是在这节骨眼上…姐姐的「死亡」反倒成了我们的情报优势。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "修复残破的机巧鸟"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "让我瞧瞧，损坏倒也不太严重。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "若是能修好它，姐姐便有了暂时的凭寄之身。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "修复机巧鸟"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "修复的机巧鸟",
+      "text": "寒鸦！吾吾吾…回来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "欢迎回来，姐姐。我不知道这时候该做什么表情好。高兴？喜极而泣？算了，我已经习惯了你用各种面目回来。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "赛博幽灵！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "雪衣（机巧鸟版）",
+              "text": "只是是是权宜之计。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "好方便的能力！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "雪衣（机巧鸟版）",
+              "text": "切莫让吾再再再次损坏…会丢失记记记记忆。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "新造型有点可爱…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "雪衣（机巧鸟版）",
+              "text": "眼下不不不是说笑的时候！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪衣（机巧鸟版）",
+      "text": "这东西无法承载….吾的的的全部部部……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "姐姐，在「死后」，你看到了什么？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "机巧鸟虽然断断续续，但简明扼要地为你们提供了情报。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "有一名曜青使者逃脱了？另外一人被挟持向上逃去？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪衣（机巧鸟版）",
+      "text": "除步离人外…还有…别的…入侵者…看不见……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "看不见的入侵者？这是什么意思？到底有多少阴谋掺和到这里来了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "姐姐，帮我个忙，劫狱者们切断了幽囚狱对内与对外的一切联系。眼下只有你是唯一能不受阻碍逃离此处的人…呃，鸟？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "务必，务必将消息递往外界。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪衣（机巧鸟版）",
+      "text": "吾…明白。小妹…保重，汝和吾…毕竟不同……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "机巧鸟扑腾起来，它颤颤巍巍地飞离幽囚狱底部，一头扎进幽深的通道深处。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "追逐劫狱者的脚步"
+    },
+    {
+      "type": "objective-description",
+      "text": "在局外人的操弄之下，罗浮仙舟羁押许久的巨恶，步离人战首呼雷最终脱出牢笼大开杀戒。此刻幽囚狱中的局势危如累卵，你们唯一能做的，只有在他逃出此间前，关上幽囚狱的大门。",
+      "location": "仙舟「罗浮」-幽囚狱"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "寒鸦小姐，时间紧迫，再拖延下去，步离人恐怕将会逃离监狱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "好，若是路上能发现那位逃脱的曜青使者……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "不，阻止呼雷逃离也许才是最优先的目标。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "恢复狱层间的通路"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "追逐劫狱者的脚步"
+    },
+    {
+      "type": "fold",
+      "title": "调查倒地的幽府武弁",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "尽管幽囚狱的狱卒饱经训练，但在步离人恐怖的冲击之下，仍然死伤惨重。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "等等，不对劲，有什么东西在靠近我们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "看不见的入侵者？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "诸位，小心！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "这些孽物不是幽囚狱中关押的犯人…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "罗浮的监狱管理，真是堪忧…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "你又是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "你们不是正在找我吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "专心战斗吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得胜利"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "恢复狱层间的通路"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与曜青使者交谈"
+    },
+    {
+      "type": "text",
+      "text": "男人仿佛是从监狱的幽暗角落里突然出现，又仿佛下一刻会随时消失。\n这个寒鸦口中「身披暗色袍子的亡命之徒」站在你们面前。虽然他冷漠的脸上没有任何表情，但…不知为何，你能读懂那没有任何表情的表情似乎在说「你们终于来了」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "罗浮的监狱管理，真是堪忧……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你刚才已经说过了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "貊泽",
+              "text": "这是事实，再说一遍又如何？罗浮的监狱管理，真是堪忧……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你不说话看起来更棒。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "貊泽",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "貊泽",
+              "text": "真的吗？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你就是那个逃脱的曜青使者！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "貊泽",
+              "text": "是「战略撤退的曜青使者」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "至少有两拨来历不同的劫狱者闯进了这里，{{狼崽子们|步离人}}，还有这些魔阴身士卒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "这种藏形匿影的技法…和曜青「天风君」座下持明掌握的「风幔」颇为相似。你们有眉目吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "不知道就算了，眼下也不是交流杀手技巧的时候。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "我是貊泽，我的{{朋友|椒丘}}落在了{{头狼|呼雷}}的手里。我本打算离开这里尽快报信，但现在看起来……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "我必须承认，罗浮的监狱设计得很复杂。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "貊泽先生，我们会尽可能保证你朋友的生命安全。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "你们做不到的。眼下也不应该考虑他的安危。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你好无情！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "他不是你朋友吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你的朋友落在了呼雷手里，你却要抛下他？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "我是曜青将军的卫士，不是他的。我见过那头巨狼战斗，我有足够的判断力。要救人，等于送死。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "不知道你怎么想，我不会把生命浪费在这种毫无意义的选项上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "听好了，我一直潜踪蹑迹尾随这些逃犯。我知道他们接下来打算做什么。他们的计划是闭锁整座幽囚狱出入的门户，拖延此事被外界知晓的时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "最坏的结果是，我们全都折在那头巨狼爪下，幽囚狱被封死。无人知道我们的情况，很长一段时间里，也没人知道他们逃走了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "最好的结果是——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们大获全胜！",
+          "content": [
+            {
+              "type": "text",
+              "text": "他用冷漠的表情上下打量着你。不知为何，你能读懂那没有任何表情的表情似乎在说「这个人脑壳坏掉了，真可怜啊」。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我们将他们锁死在监狱里。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "貊泽",
+              "text": "做不到。因为我们比他们晚了一步。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "双方一同被锁死在这里。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "貊泽",
+              "text": "啊，这里还是有聪明人的嘛。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "最好的结果便是封锁大门，与敌同埋于深狱之中。绝对不能让那头巨狼离开此处。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "如此一来，时间久了，外界察觉便会有援兵赶到。至于那时候我们是不是还活着，这也不是我们该考虑的选项。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "貊泽先生真是知道如何安慰人心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "作为曜青人，我们的一生都在追寻为有价值的事情献身。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我必须活着离开此处，我的伙伴还在等我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "寒鸦身为冥世之人，早已死过一次。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那我也豁出去了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "不到最后一刻，还不是放弃的时候。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我也想活着出去。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "不必担心，有我在这儿，就算有牺牲，也绝不让你成为第一个。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "寒鸦",
+              "text": "你也和貊泽先生一样会安慰人。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "真的没有别的选项了吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "三位都不是十王司属僚，断没有为此牺牲的理由。我身为判官，把守幽狱是分内之责。若有人能阻止呼雷逃离为害，这个人也应当是我，而不是你们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "抵达门关处，我希望各位能竭力协助我将门户封死。之后我会尽我所能与步离人战斗，各位请找个地方躲起来，保护好自己。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "现在，我们向上去！"
+    },
+    {
+      "type": "fold",
+      "title": "调查倒地的步离人",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "步离人巨大的身形充满压迫感。即便死去多时，这堆肉山仍仿佛能随时跃起扑杀猎物一般，令人颤栗。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "调查倒地的金人勾魂使",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "这具金人勾魂使似乎在一击之间被敌人击碎。如此惊人的力量，也许是呼雷的手臂。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "试图乘坐悬梯",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "悬梯的机关似乎被捷足先登的劫狱者们早早破坏，无论如何摆弄都毫无动静。\n眼下你们只能靠自己的双腿追上那些犯人。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "追逐劫狱者的脚步"
+    },
+    {
+      "type": "spoiler",
+      "text": "穿过「换境画屏」后警惕隐身的魔阴身"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "我们必须在步离逃犯离开前封死大门。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "幽狱武弁和机关拖不了他们太久，随我来！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "快到了！前方不远处就是门关！"
+    },
+    {
+      "type": "fold",
+      "title": "调查倒地的金人勾魂使",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "勾魂使金属的头颅中似乎仍然闪动着一丝火花，它在击毙数倍于己的敌人后终于丧失了还手之力，惨遭拆解。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（幸存的幽府武弁）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "幽府武弁",
+          "text": "逃犯众多，大人请务必小心。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（被包围的金人勾魂使）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "待机文本\n\n金人勾魂使：吾等必恪尽职守…"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "金人勾魂使",
+          "text": "逃犯正在冲击门关，大人请务必小心。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "步离狼卒",
+      "text": "（嚎叫声）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "诸位，我来拖住他们，请务必阻止呼雷逃脱！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗并获胜"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与此同时，另一边，椒丘视角…"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "幽囚狱已成杀场。狱卒们奋力抵抗，但椒丘只能眼看着他们倒下……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "A Rraaa——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "如此…如此熟悉的回忆！那些追逐、啃噬、撕扯的回忆…回来了，都回来了！它们统统都回来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "末度",
+      "text": "大人，离自由仅有一步之遥了。穿过大门，就再也没人能阻止我们了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "那么这个人质也就毫无价值了？末度，杀了他。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "（他要离开了…快想想办法…就像过去那样，椒丘，你这个无能为力的废物…想想办法啊……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "末度",
+      "text": "也许，曜青的使节可以为了活下来和我们做笔交易，用他的身份帮助我们离开仙舟。我说的对吗，椒丘先生？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "我不在的日子里，你们到底堕落成了何等可悲的模样？竟然开始向牲畜讨价还价？在我的记忆里，曜青人根本不会和都蓝的子孙谈这笔交易。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "（我必须…让这畜生留下…不管是为了飞霄，还是为了曜青……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "成交。我当然有我活着的价值……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "我的身份，我对仙舟的了解，还有，我知道许多战首的部下们不知道的事情。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "贱畜，鼓动你那条可怜的舌头，为自己残存的性命摇旗呐喊吧。说说看。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "想必战首不知道，击败你的那个女人…「镜流」。她最近回到了罗浮。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "您复仇的机会，近在眼前。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "末度",
+      "text": "大人！这个奴隶是在胡说八道，我从未听过这样的消息！请允许我立刻杀了他！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "闭嘴，末度！至于你，奴隶…从现在起，你必须寸步不离地跟在我身边。我让你开口，你才能开口；我让你迈步，你才能迈步。否则我会将你从头到尾，寸寸剐碎。你明白吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "末度",
+      "text": "大人——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "末度，我们必须在这儿停留片刻了。不过你不用害怕。从踏出监狱的那一刻起，该害怕的是仙舟人。因为我将会让他们理解，什么是真正的灾难。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "现在，都蓝的崽子们，跟我走！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "步离狼卒",
+      "text": "是狱卒，拦住他们！为了呼雷大人，万死不辞！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "步离狼卒",
+      "text": "（嚎叫声）"
+    },
+    {
+      "type": "fold",
+      "title": "调查倒地的步离人",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "这些入侵者拥有非凡的力量，他们无需持配武器，他们自己就是最危险的武器。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "步离人陆续逃出幽囚狱，开拓者一行奋力追赶。\n与此同时，镇恶门正在缓缓关上，呼雷已逃至门外。\n丹恒掷出击云试图攻击呼雷，但击云被关闭的镇恶门夹住，攻击被阻断。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与此同时，神策府内…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "报！幽囚狱消息断绝，我们接到了一只机巧鸟的传讯……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "狱中犯人暴动，重犯…呼雷不知去向！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "曜青使者，还有无名客呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "暂无消息！我们正在尽快恢复与幽囚狱的联系！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "退下吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "景元将军，怀炎将军，如我们所料…建木升起并非事情的结束，而是开始。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "那只自烬灭军团伸向仙舟的手，已经将「毁灭」的种子埋下了。从这一刻开始直至不可见的未来，仙舟联盟将要面对更可怕的挑战——来自「毁灭」与丰饶孽物的双重挑战。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "如果这就是他们想要的，我随时奉陪！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "我将以元帅特使的身份调度罗浮云骑，展开对呼雷的追捕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "池水下的东西终于按捺不住了。而我要做的，如我之前所说，「激浊扬清」。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "经历短暂却致命的失联，被封锁幽囚狱重回掌控。尽管列车无名客一行并无大碍，但曜青来使中却有一人遭到劫持。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与此同时…长久镇于幽狱之底的步离人战首呼雷，已失去了踪迹。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "猎人与猎物，将在罗浮仙舟上展开追逐。"
+    }
+  ],
+  "warnings": []
+}

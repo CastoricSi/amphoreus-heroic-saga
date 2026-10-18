@@ -1,0 +1,857 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "无限之剑制",
+    "pageId": 39876,
+    "revisionId": 100418,
+    "parentRevisionId": 100043,
+    "revisionTimestamp": "2026-08-02T11:51:54Z",
+    "fetchedAt": "2026-09-28T00:21:22.822Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%97%A0%E9%99%90%E4%B9%8B%E5%89%91%E5%88%B6",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%97%A0%E9%99%90%E4%B9%8B%E5%89%91%E5%88%B6&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "无限之剑制",
+    "region": "二相乐园",
+    "type": "开拓续闻",
+    "version": "4.4",
+    "number": "05",
+    "series": "幻造：圣杯战争",
+    "description": "你们与女神的对决以胜利告终。一切行将结束时，凛不仅与女神和解，还与某位意料之外的旧友迎来了命中注定的重逢……",
+    "requirements": "完成任务命运之长夜",
+    "requiredLevel": "21",
+    "characters": [
+      "远坂凛",
+      "Archer",
+      "吉尔伽美什",
+      "Saber",
+      "白厄",
+      "Lancer"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "200"
+      },
+      {
+        "item": "星琼",
+        "amount": "30"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "2"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "2"
+      },
+      {
+        "item": "信用点",
+        "amount": "20000"
+      }
+    ],
+    "previousMissions": [
+      "命运之长夜"
+    ],
+    "nextMissions": [
+      "黎明之金星"
+    ],
+    "objectives": [
+      "击败幕后黑手，伊什塔尔"
+    ],
+    "synopsis": [
+      "你即将迈向与伊什塔尔的决战。远坂凛鼓励你秉持优雅，然后，全力以赴吧。",
+      "你们在星铁FES的高塔上遭遇伊什塔尔，Archer受令咒控制而与你们敌对。远坂凛表示，她的「从者们」中有不少弑神的行家。",
+      "伊什塔尔幻造出天空泰坦艾格勒并附身其中。吉尔伽美什从王之宝库中向同伴们分发众多宝具，众人做好战斗准备。",
+      "你与Archer共同投影出星穹列车，装填于吉尔伽美什从宝库中拉出的天弓玛安娜。众人一同解放宝具，将伊什塔尔击溃。",
+      "吉尔伽美什与众人登场。伊什塔尔被激怒，命令Archer退下，决定亲自迎战。",
+      "世界曾是「天」「地」「冥界」三者交织的地狱，直到久违挚友的见证之人以穹极之星开天辟地，此即「天地乖离开辟之星」。",
+      "伊什塔尔祝贺远坂凛在旅途中找到了属于自己的至珍贵之物。远坂凛选择接纳伊什塔尔，要把伊什塔尔一起安然无恙地带回去。",
+      "Archer出现在远坂凛身边，请求远坂凛正式告知姓名，以作告别。远坂凛报上名字，表示无论在哪个世界，他们都一定还会再见。"
+    ],
+    "extra": {
+      "相关活动": "「幻造：圣杯战争」",
+      "相关成就": "通往群星的轨道#超越晨星的少女们",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "击败幕后黑手，伊什塔尔"
+    },
+    {
+      "type": "objective-description",
+      "text": "象征着结局的大决战，舞台正是本次故事的起点，属于星穹列车的主题乐园……\n…还真是令人感慨呢。",
+      "location": "二相乐园-鸽川区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "马上就要迈向决战了…大家都已经准备好了，你呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "走吧，该结束这一切了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "秉持优雅——然后，全力以赴吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "终于来了，凛。能找到这里对你而言还真辛苦呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "顶着我的脸说大话，真没礼貌。跟谁学的，Archer吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "真想不明白，他怎么会无条件站在你这边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Archer",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "他一开始确实想反抗……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "但，就算是正义的伙伴，也不得不拜倒在石榴裙下呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "别侮辱人了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "是令咒，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "难道我是被激怒就会像山猪横冲直撞的菜鸟吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "只是女神的魅力，再加上谈判技巧而已：「如果配合我，身为丰穰与美之女神，我还愿意考虑发发慈悲；但要反抗……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "「你一定会再次见证战争的恐怖。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "凛，已经没人需要你了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "为了你的毕生心愿，请消失吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "…别虚张声势了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "你描绘的未来，绝不会实现。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "蝼蚁也想和神明抗衡？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "要论弑神，*我的从者里*可有不少行家呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "什么…？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "这可是你说的：从一开始，我就被这场圣杯战争排除在外——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "也正因此，我才能成为这场战争里最大的作弊者啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "伊什塔尔——你我的全部恩怨，是时候一刀两断了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "哦？阵仗不小嘛。但对堂堂金星女神而言，说到底只是一群抱团取暖的可怜虫罢了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "那你呢？堂堂金星女神，不也一直在靠Archer和火花，像个缩头乌龟一样躲在幕后么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "…退下吧，Archer。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Archer",
+      "text": "…可以么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "当然。我乃诸神中独尊的存在，一切供奉来者不拒，哪怕最卑微的尘土。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "听好了，凛，这是最后通牒：束手就擒，交出肉体，早日结束孤独前行的痛苦吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "只有你这种被宠坏的家伙才会觉得坚强自立是一种痛苦…况且，我身边不是有这么多同伴一路陪伴着我吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "看着吧——我会证明你的错误，然后超越你，超越神明！"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "伊什塔尔",
+          "text": "自无际之天，至无垠之地——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "伊什塔尔",
+          "text": "赞美天之女主人——并心怀喜悦顶礼膜拜吧——！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "吉尔伽美什",
+          "text": "哼，不知天高地厚的女人……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "吉尔伽美什",
+          "text": "本王就让你们见识见识，何为真正的王之器量。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "远坂凛",
+          "text": "要上了——Trailblazer！"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔·胡姆巴巴-艾格勒",
+      "text": "欢迎光临——「破碎灵峰·艾比夫山巅」——！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔·胡姆巴巴-艾格勒",
+      "text": "只要投入我的怀抱——你就可以成为魔道中极致的存在——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "我拒绝——这条路，我会亲自去开拓！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "宣告令咒：Saber，解放宝具——向女神展示何为真正的欢笑吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "圣剑，解放——{{「誓约与胜利之剑」|Excalibur}}——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "宣告令咒：白厄，解放宝具——烧尽女神自缚以冷血的枷锁吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "你的愿望，我也收下了——{{「夙愿骄阳」|Dawnmaker}}——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "宣告令咒：Lancer，解放宝具——刺穿女神遮蔽以贪欲的双眸吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "睁大眼睛看好了——{{「突穿死翔之枪」|Gáe Bolg}}——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "宣告令咒：吉尔……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哼，想对本王用令咒？还早了五千年呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "不过，勇气可嘉——就当赏你了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔·胡姆巴巴-艾格勒",
+      "text": "为何要反抗——？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哼，还没闹够么……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "去吧，Faker——向本王证明你的价值。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Archer",
+      "text": "别擅自给人估价。要不是可怜这位被女神缠上的倒霉女人，我现在应该在对面才对。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "Archer…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Archer",
+      "text": "好久不见了，两位。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Archer",
+      "text": "跟得上吗？一起为我们的御主争取时间——不过，提前打倒她也没关系吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这台词也太不吉利了…！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "宣告令咒：Archer，解放宝具——为这个世界的正义而战吧！"
+    },
+    {
+      "type": "text",
+      "text": "点燃吧\n哪怕终究无法违抗，哪怕终究无法拯救——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Archer",
+      "text": "哪壶不开提哪壶。但，如果只此一次……"
+    },
+    {
+      "type": "text",
+      "text": "抗争吧\n也请燃起冶炼之火，抗争命运吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Archer",
+      "text": "来吧，开拓者：以此幻造身躯为代价——"
+    },
+    {
+      "type": "text",
+      "text": "无限剑制\n「不要忘记，应想象的永远都是最强的自己。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Archer",
+      "text": "就让我来让你领教——如何具现心中的风景！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "宣告令咒：{{开拓者|Trailblazer}}，解放宝具——将所有不讲道理的规则统统打破吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "交给我——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "万千世界之流星，系于我身——"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "吉尔伽美什",
+          "text": "去吧——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "吉尔伽美什",
+          "text": "让那女人认清现实。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "远坂凛",
+          "text": "自无际之天，"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "远坂凛",
+          "text": "至无垠之地——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Saber",
+          "text": "集结的星之吐息——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "白厄",
+          "text": "以新生的烈阳撕裂长空——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Lancer",
+          "text": "你的心脏，我收下了——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "以「开拓」显映全部过去与未来之偏振——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "远坂凛",
+          "text": "闪耀吧——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "远坂凛",
+          "text": "属于我们的"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "远坂凛",
+          "text": "「命运/银河铁道之夜」——！"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "真是丑陋啊。就算被歼灭，执念却还在苦苦挣扎吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "无法褪去的夙愿",
+      "text": "丑陋？身为神明，回应她的愿望，不对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哼，还没认清现实吗？这正是区别你我的根本——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "你自顾自回应她时，就已经亲手将她至珍贵的宝物夺走了啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "无法褪去的夙愿",
+      "text": "可你也要亲手摧毁它？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哼，所谓珍贵之物，正因为可望不可即才显得美丽。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "如果是她，自有办法夺回；况且，如此不知天高地厚的愿望，要说谁有资格粉碎——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "本王若不出手，还有谁能？！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "吉尔伽美什释放「天地乖离·开辟之星」，终结无法散去的夙愿"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "其一为「天」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "其二为「地」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "其三为「冥界」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "三者回转交织，为世界应有正身——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "开天辟地前曾为地狱的「宇宙」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "对此，久违挚友的见证之人高举权杖，宣告："
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "「穹极之星啊——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "「乖违天空吧。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "「分裂大地吧。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "「于死地生辉吧。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "这就是巴比伦尼亚神话的创世史诗——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "{{「天地乖离开辟之星」|Enuma Elish}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "父神们啊，这就是你们曾亲眼见证的事物吗…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "所以，你们才想以楔与锁锚定，直到永恒吗…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "原来如此，果然与人类背道而驰……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊什塔尔",
+      "text": "他们所追求的不是凝固的片刻…而是一条无限前进的旅路啊。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "…伊什塔尔。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "无法褪去的夙愿",
+      "text": "祝贺你，在旅途尽头找到了属于自己的至珍贵之物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "无法褪去的夙愿",
+      "text": "回到现实吧。我会离开这个世界，让这份夙愿回到它应至之地。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "说什么呢……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "行啦，别这么消沉。就算你之前对我出言不逊，我也还是愿意大发慈悲，把你一起带回去也不是不行哦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "无法褪去的夙愿",
+      "text": "哈…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "谁教我非要耍酷呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "即便我一直都在把大家推离身边，我还是会坚持走下去，尽全力把大家拥入怀中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "就像你下冥界的神话：就算财宝首饰被剥个精光，那再一件一件亲手夺回来，不就是了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "所以，现在，我要把你也抱在怀里，安然无恙地带回去——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "来吧——让这具承载着前进信念的身躯，重新和我融为一体吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "无法褪去的夙愿",
+      "text": "…真是败给你了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "无法褪去的夙愿",
+      "text": "那，约好了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "无法褪去的夙愿",
+      "text": "一定要把我们安然无恙地带回去啊。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "但……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "到底要怎么从这种天崩地裂的结界摔在地上还毫发无伤啊——？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "哼，还真是一如既往地关键时刻掉链子……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "只能最后再拉你一把了啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "怎么可能…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "你应该没办法维持现界了才对……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "没办法。谁教这是个扎根{{想象|幻造}}的世界呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "更不必说，我可是为了实现愿望，可以无条件把自尊全部踩碎的男人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "所以，最后一刻，请告诉我你的名字——让我了无遗憾地结束这场冒险吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "什么意思啊，事到如今还装不熟？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "毕竟我的设定是正体不明的从者，这次当然也……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "…玩笑罢了。只是没想到，你竟然会倒霉到在那场圣杯战争之后和我再次相见。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "既然如此，不正式打个招呼，实在是对不起远坂家那严格的礼仪要求吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "真拿你没办法…那我就再说一遍吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "那可真是多谢款待了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "真是的…都这种时候了，就不能坦率点吗！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "记好了哦？我的名字，也不是说给随便什么人都可以的——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "我叫远坂凛——请多关照，Archer。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "远坂…凛……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "啊啊…这美妙的回响真是太配你了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "那么，该送你最后一程了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "搞得好像永别似的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "就像大家一样——无论在哪个世界，我们都一定还会再见。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "但愿如此。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "就让我们今后一起为此努力，继续前进吧。"
+    }
+  ],
+  "warnings": []
+}

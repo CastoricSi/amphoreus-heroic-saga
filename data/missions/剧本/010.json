@@ -1,0 +1,4137 @@
+{
+  "schemaVersion": 2,
+  "id": "010",
+  "title": "茸客鸣呦，穷途梼杌",
+  "chapter": "",
+  "characters": {
+    "visible": [
+      "三月七",
+      "开拓者",
+      "停云",
+      "瓦尔特",
+      "符玄",
+      "景元",
+      "公输师傅",
+      "医士着装的女子",
+      "垂死的云骑",
+      "药王秘传信徒",
+      "云骑守卫",
+      "驻守云骑",
+      "「药王秘传」魁首",
+      "停云（？）",
+      "？？？",
+      "幻胧",
+      "素裳",
+      "丹恒",
+      "罗刹",
+      "往昔的回声"
+    ],
+    "hidden": []
+  },
+  "createdAt": "2026-10-01T23:25:49.224Z",
+  "updatedAt": "2026-10-02T00:02:14.775Z",
+  "blocks": [
+    {
+      "id": "04b4ad12-0fc1-4760-aaf9-7e118775e9a7",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 49
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "卡芙卡跑了？可恶，这下怎么向那位太卜交代啦！"
+      }
+    },
+    {
+      "id": "2fb6cb42-faf5-4d1b-b2f3-bb5d95f0d104",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "如果她没有骗我，我们应该不用交代什么了…"
+      }
+    },
+    {
+      "id": "2004b364-07e4-4fb6-8e3a-d5a2e58b794b",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "…喂，你不会被她洗脑了吧？！"
+      }
+    },
+    {
+      "id": "b6d9c5b5-ba02-4deb-b2fe-ae9f2955d939",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 52
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "找到符玄与景元，向他们回报建木重生的异象。"
+      }
+    },
+    {
+      "id": "83b4aed7-0831-4b11-bd41-265e79b9023d",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 54
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "这是青雀带咱们看过的那半截枯木吧，怎么突然长起来了？"
+      }
+    },
+    {
+      "id": "f7a67242-dd96-4172-b336-6e1beb369f36",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 55
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "精彩，太精彩了！我好幸运喔，长生种活一辈子也没几个能看到这种奇观哇！"
+      }
+    },
+    {
+      "id": "23fbe875-af47-4361-8142-c7fce81c9a74",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "这么异常的能量…是「星核」。"
+      }
+    },
+    {
+      "id": "a6da6637-c39e-43e2-a31d-09bba01a0658",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 58
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "杨叔的意思是…是星核导致了「建木」生长？"
+      }
+    },
+    {
+      "id": "231c8904-30dd-45ed-9e47-446b883709d4",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 59
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "对，仙舟云骑在搜寻的那颗星核，八成就是这异相的元凶！"
+      }
+    },
+    {
+      "id": "6b856b51-26e2-476b-925d-c90f0b870f1f",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 60
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "347385d9-4f00-4230-97c6-81063755d6c0",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "除非卡芙卡欺骗了穷观阵……"
+      }
+    },
+    {
+      "id": "5880e626-35bb-4e9a-a15f-87760e318dec",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 64
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "不要慌张，符卿，相信穷观阵是不会说谎的。你所述的卡芙卡之逻辑非常可靠，它正为我添上了一块拼图。"
+      }
+    },
+    {
+      "id": "8df0e043-9e75-41e7-8ee9-345008fd0521",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 65
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "我知晓罗浮必有外敌，因为星核不可能凭空出现，一定有人用某种手段将它混入仙舟；罗浮之内患，则必是以丰饶之民自居的隐恶组织：药王秘传。"
+      }
+    },
+    {
+      "id": "4a560a58-800e-4d2d-8e5f-1d63259aef16",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 66
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "卡芙卡的事实，恰好佐证我的猜想。"
+      }
+    },
+    {
+      "id": "a0582372-3974-4b32-89eb-010b39805876",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "你…将军，你什么时候想到的？"
+      }
+    },
+    {
+      "id": "9b48c35a-4481-408f-99aa-20817845049b",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 68
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "星核方露头之时。仙舟有帝弓司命护佑，若非另一位星神的令使出手，焉能混入罗浮而我却不知？故必有外敌。"
+      }
+    },
+    {
+      "id": "76707310-d8c0-4ecb-99eb-f2c039c83fd0",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 69
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "星核侵蚀诸处，却绕过神策府、幽囚狱两大机要，显然别有图谋。敌人如此谋划，定然掌握罗浮内部情报，故内患将出。想明白这两点没什么难的……"
+      }
+    },
+    {
+      "id": "6ecb8ac0-472c-476d-bcf1-38198a6bbee4",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 70
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "星核猎手不是幕后之人，这，我在看见那家伙的时候就明白了。但他为何而来，又为何引来星穹列车？…这块拼图，我却始终找不到。"
+      }
+    },
+    {
+      "id": "86621157-e891-4e6b-bc9e-fb437608331b",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 71
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "符卿带来的消息，让这块拼图合上了——哈哈，星核猎手果然有趣，绕这么大个弯子，目的竟是为了令仙舟与列车牵上线，谁又能想到呢？"
+      }
+    },
+    {
+      "id": "818aadf7-b72f-4b38-bf33-6bc0b1a70b21",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 72
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "将军，这时候就别慢悠悠的了！「建木」那里……"
+      }
+    },
+    {
+      "id": "1581ea96-6a79-4267-a825-983768077bac",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 73
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "无需费心寻找了，那是「星核」。叛徒将它投入了建木所在的洞天，使建木重新生长——瞧，「药王秘传」终于忍不住动手了。"
+      }
+    },
+    {
+      "id": "5bd797a2-d52f-4184-953d-02906ef23517",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 74
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "危机也是转机，知道问题所在，一切都好办了。"
+      }
+    },
+    {
+      "id": "d473fc4e-77d6-4896-af41-da26f2adcf42",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 75
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "…又是我出主意？"
+      }
+    },
+    {
+      "id": "3a3cbe72-caa8-41ae-bbdb-8ab6838b7adb",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 76
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "是呀，我就知道符卿必有对策。"
+      }
+    },
+    {
+      "id": "b46fbe5c-4046-40b1-9fbf-c03ab124b13d",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 77
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "依本座之见，眼下要务是召集云骑军，赶往「建木」根植的洞天，拔除星核邪祟，止住它重生的势头。"
+      }
+    },
+    {
+      "id": "57ba0c65-6bcd-49a0-a3af-9dab8db02e17",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 78
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "唔唔，符卿法眼洞见，必是解决问题最快的捷径。但有时候，最快未必最优。你猜猜，我早知星核所在，为何按兵不动？"
+      }
+    },
+    {
+      "id": "5639e107-0e5a-493d-aeb4-80f15aff20d4",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 79
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "将军。"
+      }
+    },
+    {
+      "id": "70050720-de9e-4d32-831a-33eb49aeef00",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 80
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "如何？"
+      }
+    },
+    {
+      "id": "cc22fb91-840a-4ff8-8977-25d77403fcc2",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 81
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "…你这个坏蛋。"
+      }
+    },
+    {
+      "id": "9814dd79-d33f-404d-9fa6-391932451318",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 82
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "哈哈，斩草要除根。再等上一等，「药王秘传」选在这个时机动手，就说明云骑已经控制了整体局势，叛徒沉不住气了，现在师出有名，正适合一网打尽。"
+      }
+    },
+    {
+      "id": "091e5f08-273c-404d-bc7c-7ac2a96a892f",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 83
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "就这么白白坐着，万一有什么意外，将军如何担得起损失？！"
+      }
+    },
+    {
+      "id": "454500aa-ade7-4443-bb1f-5b26fd536aca",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 84
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "符卿呀符卿，我还有一支奇兵没用呢。"
+      }
+    },
+    {
+      "id": "d83431fc-3e0a-4d66-b296-a8b2e12e06aa",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 85
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "景元看向正在走近的你们一行人…"
+      }
+    },
+    {
+      "id": "884ef691-c5b9-4800-8e75-508fbe9894da",
+      "source": {
+        "mission": "神木重萌，掣转天衡",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/神木重萌，掣转天衡.json",
+        "contentIndex": 86
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "正值用人之际，既然星核猎手有心让列车与我们缔结盟谊，景元就不客气啦。"
+      }
+    },
+    {
+      "id": "5fffe924-14ea-4e5e-9915-3ac54e7797c7",
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "05bf8d3e-55cb-42af-b76c-d981c891ad57",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 104
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "前往造化洪炉所在处"
+      }
+    },
+    {
+      "id": "a5aad265-e0c7-4630-a42f-bed99132088d",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 105
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你们看，「建木」的根系……"
+      }
+    },
+    {
+      "id": "b1424b85-3e52-4e92-af82-0a1b4fd031d1",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 106
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "公输师傅",
+        "text": "它缠绕的是工造司至宝：「造化洪炉」！"
+      }
+    },
+    {
+      "id": "b6af08ff-3ec6-4e32-bc63-b4772bd986a4",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 107
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "公输师傅",
+        "text": "小娃儿，快来帮帮老夫！咱们齐心协力把它斫断，别让它穿透了洪炉！"
+      }
+    },
+    {
+      "id": "16d472a7-7195-47c5-bc26-99f156e0c24d",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 108
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "dialogue",
+            "speaker": "瓦尔特",
+            "text": "小心！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "瓦尔特",
+            "text": "那东西正在变化……"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "根系处的花苞绽开，从中走出了一只鹿…"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6757be9c-f62b-4d9b-a567-21f97858d74c",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 109
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "进入战斗"
+      }
+    },
+    {
+      "id": "c5afdbb5-7db8-42bc-b63b-afc127cec4ad",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "公输师傅",
+        "text": "这到底……是什么怪物啊？"
+      }
+    },
+    {
+      "id": "385561f3-b0d2-4210-8735-22d135d6b02e",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 111
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "不愧是神迹，信手造化生命。这股力量，真了不得……"
+      }
+    },
+    {
+      "id": "31341edc-c018-4d27-9932-984082034e85",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 112
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "丰饶玄鹿召唤建木枝梢…"
+      }
+    },
+    {
+      "id": "27b8f4eb-a465-4fa7-96b6-fdd57bcd8038",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 113
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "这东西在守卫「建木」根须和洪炉……"
+      }
+    },
+    {
+      "id": "07b61808-b4ef-402e-b1fa-64439e184797",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 114
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "丰饶玄鹿再次召唤建木枝梢…"
+      }
+    },
+    {
+      "id": "9925ec55-c4df-41f8-aa2d-87b362ab4600",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 115
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "鹿的脚下有更多根须钻出来了？"
+      }
+    },
+    {
+      "id": "e0d624c0-e4c2-4a0f-acda-a3d4ff01d298",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 116
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "4acd9c48-91dc-4004-a02a-503f82dfdad1",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 117
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "丰饶玄鹿回生两次之后…"
+      }
+    },
+    {
+      "id": "7fdbbee7-c2cc-47a3-a84d-22dff048eae4",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 118
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "伤到哪里都能复原…这也太离谱了吧！"
+      }
+    },
+    {
+      "id": "1dc4274d-c451-47f0-ba26-23307f819431",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 119
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "只能暂时撤退了。跟我走！"
+      }
+    },
+    {
+      "id": "03ef5f81-dfb7-478b-b0d2-0da23e3ead0f",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 120
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "4d3a3e13-5bf1-466c-84de-a9dfd8be65b8",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 121
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "妈呀，怪不得仙舟这么恐惧「丰饶孽物」，这恢复能力根本不讲道理！"
+      }
+    },
+    {
+      "id": "5efc44e7-187b-413a-932d-c580f8e2275d",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 122
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "停云小姐，仙舟的长生种…不会都这样吧？"
+      }
+    },
+    {
+      "id": "32c914d3-4c91-4444-8e5b-5c71a2df5c6c",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 123
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "这头玄鹿恐怕是「建木」诞下用来拱卫它的灵物，与根系联结紧密。仙舟众生大多没这般离谱的本事……"
+      }
+    },
+    {
+      "id": "82e887c0-52b4-4780-9f4a-133b3a74f67a",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 124
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "唉，看来只要它还在，咱们几个就寸步难行。"
+      }
+    },
+    {
+      "id": "b3449d4f-70e7-4095-a0d3-72de75cc6f36",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 125
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "未必。玄鹿看似能在转眼间愈合伤口，真相未必如此，也许它是从某个地方汲取补给……"
+      }
+    },
+    {
+      "id": "9032e923-d951-41cd-b286-ca8767570bad",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 127
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "那怪物只在「建木」附近活动。我们四下看看，也许能有什么发现。"
+      }
+    },
+    {
+      "id": "7785a0f6-11a5-4a4c-bf79-fae728f2f17b",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 157
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "重返造化洪炉所在处，击败丰饶玄鹿"
+      }
+    },
+    {
+      "id": "c3994707-67ec-47a9-a317-9328594da63f",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 158
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "公输师傅",
+        "text": "各位，瞧见那缠着「造化洪炉」的根系了吗？它们都枯萎啦！"
+      }
+    },
+    {
+      "id": "46af3b13-6f08-4059-af50-beb1261abb72",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 159
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "公输师傅",
+        "text": "这下好极了，没什么能够阻挡各位了！"
+      }
+    },
+    {
+      "id": "6e5b8b96-61e7-4f88-ac91-8dcc7471c8c6",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 160
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "进入战斗"
+      }
+    },
+    {
+      "id": "ee410b08-a859-4637-8670-41402d2e3a95",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 161
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "丰饶玄鹿进入二阶段并召唤建木枝梢…"
+      }
+    },
+    {
+      "id": "b45cbf95-267e-4230-925d-a498921904e8",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 162
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "结果了？好大的桃子啊…有点想摘一个尝尝。"
+      }
+    },
+    {
+      "id": "50dc2f14-7ba7-4ec9-9a28-3425e05facdc",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 163
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "三月。"
+      }
+    },
+    {
+      "id": "b592fdc8-af3d-4707-a220-da1fd21bf39d",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 164
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "没别的意思啊，挂在那儿打烂了也挺可惜的。"
+      }
+    },
+    {
+      "id": "64d73ed8-c3f8-4abe-8610-a01398cca01f",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 165
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "丰饶玄鹿剩余极少生命值并被击破弱点后…"
+      }
+    },
+    {
+      "id": "508f6343-b86b-4765-946c-4a8b593ee2dc",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 166
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "那头鹿不行了，就趁现在，一鼓作气！"
+      }
+    },
+    {
+      "id": "ea696d9a-874f-4211-b82b-daf25a91bc87",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 167
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败丰饶玄鹿…"
+      }
+    },
+    {
+      "id": "e7bf0edb-7f07-400a-a654-8fecdd0099fc",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 168
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "景元将军说，「建木」是不可思议的仙道神通……"
+      }
+    },
+    {
+      "id": "cbfda69c-7cbf-4891-9548-aebbfddfdafa",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 169
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "那头鹿看似与寻常生命无异，但即便受了致命伤也能瞬间愈合。我算是明白仙舟人为何要追随「巡猎」，铲除「丰饶」了。"
+      }
+    },
+    {
+      "id": "07864f84-29b2-4eb0-9df6-0517b37c1d1b",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 170
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "不死不灭的造物，一旦放任它开枝散叶，会让整个世界的生态系统彻底崩溃——"
+      }
+    },
+    {
+      "id": "84f9a395-d355-484e-b068-c53853a5d320",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 171
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "怪不得仙舟人随星舰流浪宇宙，从不在某个星球定居……"
+      }
+    },
+    {
+      "id": "4e5bbd9d-f267-4323-9d77-08a337190f8c",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 172
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "公输师傅",
+        "text": "杨先生很有见地。可惜八千年前，身为「求药使」的先人们不能洞见这背后的隐忧——"
+      }
+    },
+    {
+      "id": "e0c3ae54-c3cc-4138-8f27-1b6da17016bf",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 173
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "公输师傅",
+        "text": "也许他们中有人想到了，拒绝了{{寿瘟祸祖|药师}}的「馈赠」。然而作为一整个文明，真的能抗拒长生不死的诱惑吗？"
+      }
+    },
+    {
+      "id": "d4c81179-de78-45a7-80da-c90074b284e1",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 174
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "公输师傅",
+        "text": "真是讽刺，智者埋泉下，愚者长不灭啊……"
+      }
+    },
+    {
+      "id": "7f2f1cde-9817-405c-8a47-876d26d66824",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 175
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "公输师傅",
+        "text": "仙舟悔愧于曾受「丰饶」蛊惑，才最终决定踏上「巡猎」征途。也许这一切还有挽回的余地。"
+      }
+    },
+    {
+      "id": "0bc588d4-506e-45bc-adca-04a4f34d9cde",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 176
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "公输师傅",
+        "text": "多谢各位的援手。我知道你们接下来要去「丹鼎司」。那里与「建木」毗邻，瞧眼前这番景象，那里一定更为凶险。"
+      }
+    },
+    {
+      "id": "d0b563ea-4085-485f-850e-0305ad7cc2f3",
+      "source": {
+        "mission": "茸客鸣呦，玉角盘虬",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/茸客鸣呦，玉角盘虬.json",
+        "contentIndex": 177
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "公输师傅",
+        "text": "去吧，各位，一路小心。老夫在此祝你们顺利。"
+      }
+    },
+    {
+      "id": "d1337ab0-d2fa-4fd3-a881-541dd1b27435",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "通过工造司的捷径，前往丹鼎司"
+      }
+    },
+    {
+      "id": "ded0bfcb-5bcf-4867-99e4-17462bd3e660",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 2
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "进入丹鼎司后，你们看到地上横七竖八躺着各类尸体…"
+      }
+    },
+    {
+      "id": "fe3a1206-35b5-4059-b5a1-b40d9cf3182d",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 3
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "战况真激烈呀……"
+      }
+    },
+    {
+      "id": "c427f559-080e-4bec-8616-bb993d7e3a62",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 4
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "看来我们在工造司耽搁时，太卜大人已先行开拔出征啦。"
+      }
+    },
+    {
+      "id": "ea0f770c-4fe1-431d-84ec-63a6ea75ebfb",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 6
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "幸好将军没让咱们跟着云骑…打仗和冒险真的不一样啊，这满地的人…我、我见不得这种大场面。"
+      }
+    },
+    {
+      "id": "1f306873-3d75-4ab3-8244-6445d3ab89dc",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 7
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "恩公说哪里话，这也算不得什么场面……"
+      }
+    },
+    {
+      "id": "7a6acb64-cab5-4b26-ad3c-542c22acb501",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 8
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "数百年前，某「丰饶」的令使为了劫夺「建木」，率军压境罗浮，几乎摧毁半数洞天，杀得云骑军十不存一。"
+      }
+    },
+    {
+      "id": "f0f98bef-f4f3-4c4a-8a1e-33769593d7be",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "这样的过去，对长生种来说甚至不算历史，称「昨天」也不为过。与之相比，眼前这不过是小打小闹罢了。"
+      }
+    },
+    {
+      "id": "3c016875-11b3-4004-874f-3246d98256dc",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "哇，哪有你这么安慰人的！"
+      }
+    },
+    {
+      "id": "788c17a4-2e86-4ed6-9480-bebdaf8892bc",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "也不知道太卜这一仗是输是赢？"
+      }
+    },
+    {
+      "id": "66201ffc-f415-4189-84ed-0b20d8a12e88",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 12,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "想必是大获全胜！"
+      }
+    },
+    {
+      "id": "fbefa2db-9d97-4f63-a641-838eda59d49a",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 12,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "我觉得也是。倒下的都没几个云骑军，这一仗仙舟应该打得很漂亮。"
+      }
+    },
+    {
+      "id": "d878f880-87e5-4e69-af57-834b9c9bd729",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 13
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "…未必。如果行军大捷，通常会留下据点和部队置后策应。但这里却没有。"
+      }
+    },
+    {
+      "id": "83a1d471-9c24-4d9d-9c8d-1c44f3d66e10",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 15
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "查看战斗的幸存者"
+      }
+    },
+    {
+      "id": "6320aa00-a4c7-412b-95ac-94fb46be11b2",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 19
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "快看，那儿有人。"
+      }
+    },
+    {
+      "id": "1da7ce47-1d6e-4c9e-b8e1-026afbb3881b",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 20
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "02219adb-991b-4479-b781-e67ec9e88534",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 21
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "这里！这里还有人活着……"
+      }
+    },
+    {
+      "id": "ee4deae8-2bfa-407a-b730-8e8c4493f9fe",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 22
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "……"
+      }
+    },
+    {
+      "id": "02133d46-0162-45da-96ce-7af075d8c438",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "医士着装的女子",
+        "text": "咦，你们不是云骑啊…来这里做什么？很危险的。"
+      }
+    },
+    {
+      "id": "741090c9-d594-4988-821f-7fbc985b41dd",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 24
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "我们是将军请来的援助。请问其他人都到哪儿去了？"
+      }
+    },
+    {
+      "id": "76c0e670-7863-484c-913f-0cc0b8ebc344",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 25
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "医士着装的女子",
+        "text": "竟把短生种搬来当救兵…嘿嘿，景元真是无人可用了。"
+      }
+    },
+    {
+      "id": "7223be6e-0b72-4efb-9a9e-c18405343788",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 26
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "垂死的云骑",
+        "text": "快逃！这家伙是…「药王秘传」！"
+      }
+    },
+    {
+      "id": "17f6bc28-cae1-43de-a729-68babc8a40f5",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "医士着装的女子",
+        "text": "多嘴多舌。我若把你医好，你也会是我们中的一员啊。"
+      }
+    },
+    {
+      "id": "2ab1ceab-8327-4e2f-bc4e-981a259d6a64",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 28
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "医士着装的女子",
+        "text": "所以，你不会让他们逃走的，对不对？"
+      }
+    },
+    {
+      "id": "2a195524-a0df-4597-a511-410fa3c2be9f",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 29
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "进入战斗"
+      }
+    },
+    {
+      "id": "051774a8-9757-4282-accb-86ae1f23101b",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "垂死的云骑",
+        "text": "赶快…离开这儿…"
+      }
+    },
+    {
+      "id": "cd6503c9-b717-4096-bfc7-6d4328ae5d91",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "垂死的云骑",
+        "text": "我控制不住我自己了——"
+      }
+    },
+    {
+      "id": "0a5cec84-97e8-48ab-b6a2-297478121715",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败变异为魔阴身士卒的云骑军"
+      }
+    },
+    {
+      "id": "6b5d51ec-ac27-48af-8959-e0d08720961a",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 33
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "出现三只丰饶灵兽"
+      }
+    },
+    {
+      "id": "01d8167d-2d05-4bed-a456-02d74b26c3c6",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 34
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "药王秘传信徒",
+        "text": "短生种的寿命转眼即逝，何必自蹈死路？"
+      }
+    },
+    {
+      "id": "0ecf56b1-518f-424d-836e-381cd8213fe8",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 35
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败丰饶灵兽"
+      }
+    },
+    {
+      "id": "53737d34-28a4-4245-b7ef-611ae02e1751",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "又出现两只丰饶灵兽和「药王秘传」器元士"
+      }
+    },
+    {
+      "id": "4bd2f49a-9119-4c75-8cab-ae4c756ebbeb",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "药王秘传信徒",
+        "text": "你们来仙舟是为什么，想求得长生么？"
+      }
+    },
+    {
+      "id": "ce6d6671-3863-4aeb-9501-aebaa44e1c15",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 38
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "药王秘传信徒",
+        "text": "用不着看景元的脸色！「药王秘传」可以给你们想要的！"
+      }
+    },
+    {
+      "id": "65873112-21aa-45c8-b3c2-f727e8699739",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 39
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败三波敌人"
+      }
+    },
+    {
+      "id": "f1d8d219-34bd-4e7f-813c-eb8a3d617d9b",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 40
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你、你再坚持一下，我们找人来救你……"
+      }
+    },
+    {
+      "id": "4b22b889-7874-4a54-b491-b3dcc6c76299",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 41
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "垂死的云骑",
+        "text": "别浪费时间了，我已被那家伙「转变」，要不了多久……"
+      }
+    },
+    {
+      "id": "fffd4805-6fc9-46db-a5a8-4dbd116fd47a",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "垂死的云骑",
+        "text": "你们快走吧…太卜的人就在前边……"
+      }
+    },
+    {
+      "id": "f5819e94-1489-4375-b86a-38766d106c81",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 43
+      },
+      "node": {
+        "type": "text",
+        "text": "他不再言语，仿佛耗尽了力气，又像是在等你们离开。"
+      }
+    },
+    {
+      "id": "40d08e63-f524-4109-beb2-f599f6fcbe8a",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 44
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "…走吧。"
+      }
+    },
+    {
+      "id": "cbf2c5b9-3c64-4769-a8d1-b461eb8b5743",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 46
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "与符玄率领的云骑军汇合"
+      }
+    },
+    {
+      "id": "62ef7efc-3534-495c-a91c-064230293ba6",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 48
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "潜伏已久的「药王秘传」竟在这个节骨眼现身了，不知那位太卜有没有算到这一节……"
+      }
+    },
+    {
+      "id": "8623b63a-4bdd-4784-a762-99cc39b59e36",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 49
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "恩公，你们要小心了。药王秘传信奉寿瘟祸祖「药师」，是仙舟的心腹大敌。"
+      }
+    },
+    {
+      "id": "1f51ac6a-ee05-4b2e-816b-073741908dfb",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "数千年来，联盟一直想祓除这隐秘组织，始终未能如愿。选在这个时刻出世，一定不是偶然。"
+      }
+    },
+    {
+      "id": "2e760779-75ce-49c8-b840-4185d67577fe",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "9289ff83-bc39-4b4f-9aa2-0e30b2c37902",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "云骑守卫",
+        "text": "是谁！报上来意！"
+      }
+    },
+    {
+      "id": "755aaff0-ee21-4d40-b061-060c58bf2d09",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 58
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "云骑守卫",
+        "text": "等等，是你们啊——几位快些进来，外边危险。"
+      }
+    },
+    {
+      "id": "ab41865e-870b-41f9-a872-a3374811ab00",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 59
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你认得咱们？"
+      }
+    },
+    {
+      "id": "a648f0ad-8d85-4a52-b791-90fe1e09f5c1",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 60
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "云骑守卫",
+        "text": "你们不是将军请来的客人吗？太卜算到了各位。她吩咐过，一定要等候几位到来。"
+      }
+    },
+    {
+      "id": "a1fc0461-4d8b-4552-b6d1-6b2cc7aa3ad0",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 66
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "云骑军驻守在此，裹足不前，看来形势并不乐观。「药王秘传」…我在哪里听过这名字，记得是潜伏在仙舟内部，阴谋颠覆联盟的丰饶秘系……"
+      }
+    },
+    {
+      "id": "898d8264-f598-4112-bc7c-1f7c153f2a47",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "星核的确引起了与丰饶有关的异象，难道药王秘传因此放弃了伪装？不应该啊……"
+      }
+    },
+    {
+      "id": "9f92d56c-981d-477e-a87a-e633f0a99711",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "与驻守云骑对话"
+      }
+    },
+    {
+      "id": "092ec298-97c2-4211-97ee-a869f7ac1ffa",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 92
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驻守云骑",
+        "text": "我们按照太卜的军令，几个时辰前攻陷此处。之后我们才知道，原来此行的对手是信奉{{寿瘟祸祖|药师}}的「药王秘传」。"
+      }
+    },
+    {
+      "id": "fa93810f-9dec-47ff-9e3c-c2b7f85b4672",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 93
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驻守云骑",
+        "text": "原本一切顺利，无论是「药王秘传」的妖人，还是受他们驱使的异兽都不是我们的对手。"
+      }
+    },
+    {
+      "id": "f46a7255-987d-4044-b21d-b1a775026616",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 94
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驻守云骑",
+        "text": "但没过多久，行伍里的弟兄姐妹突然不分敌我、肆意砍杀起来……"
+      }
+    },
+    {
+      "id": "0261260a-cfe8-4ae6-9d79-016642c5232c",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 95,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "是魔阴身…"
+      }
+    },
+    {
+      "id": "b1caab2d-b2c8-4f96-87a2-974159f46133",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 95,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驻守云骑",
+        "text": "可恨！「药王秘传」到底使了什么妖法！"
+      }
+    },
+    {
+      "id": "ae13b1be-2d5d-48f2-bf30-52c9b778cfdc",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驻守云骑",
+        "text": "仙舟人最忌讳将「魔阴身」展露人前，因为那意味着放弃为人，输给了埋藏在长生血脉中的「孽物」…也违背了帝弓的训诫。"
+      }
+    },
+    {
+      "id": "11a48fdf-9644-45bc-843c-7df336dfe045",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 97
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驻守云骑",
+        "text": "「药王秘传」所为的，是每个联盟子弟最痛恨的卑劣行径！"
+      }
+    },
+    {
+      "id": "d2c73ea7-3fbc-433f-adfb-7564f33dd97c",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 98
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驻守云骑",
+        "text": "…我对帝弓咒誓，必为同袍报仇雪恨。"
+      }
+    },
+    {
+      "id": "9b677c3a-00a6-47ec-94fb-36f6fe74e189",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 101
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们等待了一会后，符玄回到了云骑戍守区…"
+      }
+    },
+    {
+      "id": "6060784c-869a-45fb-8020-1e3bacfb034a",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 102
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "云骑守卫",
+        "text": "太卜大人，您回来了！"
+      }
+    },
+    {
+      "id": "baf4a7c8-f576-430e-b2ca-a795430cb5ba",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 103
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "久等了，诸位。我已查明「药王秘传」的玄虚。"
+      }
+    },
+    {
+      "id": "95eb1334-49f7-43fc-bace-3a99db0b9f63",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 104,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "何不早说药王秘传的事？"
+      }
+    },
+    {
+      "id": "2454e0ba-85c9-4379-89ce-c9ac8e68165d",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 104,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "抱歉，为防机密外泄，「药王秘传」之事只有我和将军知晓。"
+      }
+    },
+    {
+      "id": "c306f021-153f-4815-95a3-e5dc8b56a970",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 104,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "这是一个阴谋颠覆联盟的隐秘组织。他们常年潜伏在暗处，这次星核作祟，终于忍不住露了行踪。并且，这一场灾乱与他们也有非同寻常的关系。"
+      }
+    },
+    {
+      "id": "3554812e-526f-44a0-8070-33034c2ee04b",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 105
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "战事不利，太卜身先士卒，亲自探察敌情，令人钦佩。"
+      }
+    },
+    {
+      "id": "e11a384a-c859-4ef3-bb3d-5d059025a896",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 106
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "那…那倒也没什么！演算之事，须卜者亲炙，获得一手情报方能趋近正确结果……"
+      }
+    },
+    {
+      "id": "952a2410-6ff9-4b80-9663-be442d0afc6b",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 107
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "等等…谁说战事不利来着？「药王秘传」蓄谋已久，手段了得，但我军也未见劣势，怎能说战事不利？"
+      }
+    },
+    {
+      "id": "a3fa5adc-c8ed-4deb-86ed-bda453e6b39c",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 108,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "你等我们，怕是又有所求吧？"
+      }
+    },
+    {
+      "id": "1911b2e4-4182-4fab-85c8-d8b189cd7d73",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 108,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "看来你已有准备啊。"
+      }
+    },
+    {
+      "id": "0eba950e-018b-44db-a09d-dc7648ff458c",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 108,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "唉，头一回见你们家驭空大人，她有句话说的可好：「这是仙舟内务，不劳各位挂怀」。"
+      }
+    },
+    {
+      "id": "dcbb7c66-a542-42e8-b210-1f5c36c9f103",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 108,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "怎么一眨眼，什么苦差事都塞给我们了？公司都没你们会差遣人。"
+      }
+    },
+    {
+      "id": "e9e70024-36b6-46f3-926e-eaae705814ff",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 109
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "咱猜猜，这回你打算让我们做什么？不会是打头阵…和云骑军一起…冲锋吧？"
+      }
+    },
+    {
+      "id": "1d59a6cd-e6ea-42ae-86d8-47308d23be37",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "不去不去！本姑娘晕大场面！"
+      }
+    },
+    {
+      "id": "06e682bc-55e3-43c2-8538-8def5e114387",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 111
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "谁说要让各位上战场了……"
+      }
+    },
+    {
+      "id": "5b60c239-bce4-4f2f-8a60-6a1ffa3684c9",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 112
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "没、没有吗？"
+      }
+    },
+    {
+      "id": "f7cb7ea9-208b-4fbb-b12a-05096da6b007",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 113
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "景元吩咐过，各位是因缘际会而来的奇兵，端得一个「奇」字。适才云骑的强攻，乃是示敌以正。用奇之时，就在此刻。"
+      }
+    },
+    {
+      "id": "7d93d24e-809e-408c-9d40-bbab6c30fe43",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 114
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "各位，请随本座来。"
+      }
+    },
+    {
+      "id": "c04b9569-2418-458c-a3f3-6785e7ed049b",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 115
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "跟随符玄"
+      }
+    },
+    {
+      "id": "4dbd5985-4a77-41d0-8826-ebada834351a",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 117
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "受赐「建木」后，丹鼎司曾是罗浮仙舟最重要的司部。"
+      }
+    },
+    {
+      "id": "08831f94-add7-429c-9fb7-91c06ba40ade",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 118
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "毕竟，是他们将所有仙舟人转变成了长生种…也是他们自「建木」中研究出了种种不可思议的技术。"
+      }
+    },
+    {
+      "id": "4b09a0af-06dd-4b31-b3e2-966eb7034692",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 119
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "可到最后，丹士们仍不满足，开始以操纵生命为乐。对「建木」的研究，就像饮鸩止渴…越深入，越渴望。"
+      }
+    },
+    {
+      "id": "ecd0c9fc-5a05-4e84-8e5f-f430011be07e",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 120
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "1bd5ff18-e923-4247-b575-51a9586e6c7a",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 121
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "「晓钟觉迷梦中梦，烟霞聚散身外身」…各位，瞧见那边了罢？"
+      }
+    },
+    {
+      "id": "aff7007d-a0c9-476a-888d-146869ca9d71",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 122
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "好大的丹炉，还在冒烟呢。"
+      }
+    },
+    {
+      "id": "441d11cb-19bf-4219-b3ff-a1c6b1308dcf",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 123
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "这是古时候丹士们阐演仙道的地方。他们在此建起丹炉，汲取「建木」之力，化奇想为现实。因为炉中烟霭不息，故得名「云霞紫府」。"
+      }
+    },
+    {
+      "id": "97697396-866c-4407-90d2-034b86168c83",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 124
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "名字虽然风雅，却是兵法上的死地。只要丹炉不熄，云霞缭绕，我们便寸步难近。"
+      }
+    },
+    {
+      "id": "86522278-2a7b-4121-afa1-fbe08cc76cbe",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 125
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "这就是云骑军失控入魔的原因？"
+      }
+    },
+    {
+      "id": "a6de8e2b-6c4e-4c2c-a996-c486acad6a1b",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 126
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "正是。「药王秘传」在这散入洞天各处的雾霭中，混入了诱发魔阴身的丹药。"
+      }
+    },
+    {
+      "id": "8866ac25-bc8f-4a46-a0cf-861139056d88",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 127
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "除非能闭气行军，不然云骑军将不战自溃。因为没人知道身边的战友会在什么时候堕入魔阴身。还有什么比猜忌能更好地瓦解一支军队的士气？"
+      }
+    },
+    {
+      "id": "a4f9b535-274a-4bcc-8867-d46c29ab0d93",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 128
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "云骑的第一次强攻只是掩护，太卜用云骑主力吸引敌人注意，而让我们去熄灭丹炉，止住烟雾。"
+      }
+    },
+    {
+      "id": "933c61f4-2133-4990-81db-ad1fab8ca270",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 129
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "「药王秘传」放弃百年潜伏，选择现在示身，说明其有必胜把握；然而准备再充分，终究是冲着云骑军而来。各位的能力与存在，「药王秘传」丝毫不知，也无法防备。"
+      }
+    },
+    {
+      "id": "cb1c6757-35b7-4416-8024-f65e42fde6ca",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 131
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "景元将军所说的奇兵，就是这个意思么？"
+      }
+    },
+    {
+      "id": "3d8a03f6-8356-4686-b8b2-17ed8f195a7c",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 132
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "本座不敢妄言。只能说，星核猎手的预言比本座的卜算更准。卡芙卡所求的未来正在一一应验。"
+      }
+    },
+    {
+      "id": "9df5ce8e-9185-4912-8093-4e15378ff285",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 133,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "我也不想受人摆布。但人们行于命途之上并非独来独往，不受羁绊。每个人的选择除了造就自身，也将同行之人推向前方。"
+      }
+    },
+    {
+      "id": "9537c5ac-2375-41f0-8277-9411f7d3ec05",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 134
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "言归正传，熄灭丹炉而不受其害，这件事只有你们能办到。意下如何？"
+      }
+    },
+    {
+      "id": "9dc7d9df-155a-4376-8992-20484718a768",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 135
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "好吧，虽然太卜这回没有说「请」，但谁教这个忙只有咱们能帮。开拓者，杨叔，我说的对吧？"
+      }
+    },
+    {
+      "id": "8419fae2-9804-4dc2-9b2a-aa9583113935",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 136
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你和瓦尔特赞同地点了点头…"
+      }
+    },
+    {
+      "id": "eacd95a8-7abc-4e77-b303-28a39e8bf837",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 137
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "一旦烟雾止息，我会立刻前来，绝不让各位孤军奋战。"
+      }
+    },
+    {
+      "id": "17ce6cd7-aa5b-42eb-bed0-14d58af9eba4",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 139
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "关闭三座小型丹炉"
+      }
+    },
+    {
+      "id": "5e801d34-51c1-47ea-a205-5751cd352f96",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 141
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "唉，我总觉得，虽然长生种能活很久……"
+      }
+    },
+    {
+      "id": "35843a42-9330-44e4-a2ff-11c9f55c7909",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 142
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "但论烦恼和痛苦，和咱们这些短生种也没什么两样。"
+      }
+    },
+    {
+      "id": "af5152e1-88b1-4b78-bb2d-b19305a35e1a",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 143
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "ae011682-bf64-4fba-966a-147c8a0eeb0e",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 144
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "等等，停云小姐，你怎么还不回去！这里离丹炉很近了！"
+      }
+    },
+    {
+      "id": "ba6a295e-4b87-483a-8c81-bccadbb43a4f",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 145
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "承蒙关心，小女子没事～谁叫将军命令我跟着各位呢，可不敢违抗军令呀。"
+      }
+    },
+    {
+      "id": "3c14476c-2ee9-429d-aa73-269bee3ee68a",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 146
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "人命关天。停云小姐，你回去吧，将军那儿我们解释。"
+      }
+    },
+    {
+      "id": "578aeb8b-5b92-46cf-a51f-27e2551fb1cb",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 147
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "真不必。嘻，小女子常年在宇宙中航行，别看年纪不小，实际满打满算也只有十几年阅历呢。"
+      }
+    },
+    {
+      "id": "d7b2c859-c388-4777-97bf-8b8b2bd04262",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 148
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "几位恩公怕是都比我活得长些。"
+      }
+    },
+    {
+      "id": "58261dea-459a-4484-a0fb-b515398f2242",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 149
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "f2a20760-b4b7-4c00-aa8d-3b963c1d9178",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 151
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "关闭第一座小型丹炉"
+      }
+    },
+    {
+      "id": "13f063c0-0b5d-430c-b1e6-0f6b26c051f5",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 152
+      },
+      "node": {
+        "type": "text",
+        "text": "炉身渐渐停止震动，不停涌出的烟霭渐渐止息。"
+      }
+    },
+    {
+      "id": "4fc761b6-2ae3-4e2c-afd1-068559e3914f",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 153
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "烟雾似乎变淡了一点……"
+      }
+    },
+    {
+      "id": "4f9ea807-6a46-4849-a707-c7243725b8a0",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 154
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "哪有这么快。咱们得加紧脚步了。"
+      }
+    },
+    {
+      "id": "ab9001aa-6bd8-4c71-a575-c36e33ca1dbc",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 159
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "关闭第三座小型丹炉"
+      }
+    },
+    {
+      "id": "c5a4452c-210a-4380-af60-ee89e77cbff5",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 160
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "好嘞，完成了！这下烟雾瞧不见了。"
+      }
+    },
+    {
+      "id": "3f54b652-38cf-400f-a093-6f3dba695b25",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 161
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "好…好极了。本座这就率军前来汇合。"
+      }
+    },
+    {
+      "id": "daba455d-e720-4cd8-8d2d-9dd93fd35f47",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 162
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "前往太真丹室，迎战药王秘传"
+      }
+    },
+    {
+      "id": "90c2763c-d6ac-4036-abb9-9828cae45671",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 164
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "炉鼎…熄灭了。"
+      }
+    },
+    {
+      "id": "bc8de55a-0ecb-4eab-9622-eebd88d186eb",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 165
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "不要紧，该来的终究还是来了。"
+      }
+    },
+    {
+      "id": "9becc6ac-f98b-4c30-a421-332f7528dae3",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 166
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "是你啊，丹枢……"
+      }
+    },
+    {
+      "id": "1dfc45d7-f93c-4133-b605-c215c7b7f437",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 167
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "丹士长见过太卜大人…您好像并不意外。"
+      }
+    },
+    {
+      "id": "f21c5e02-e7b1-4863-95e2-ac205b65dd15",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 168
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "嗯，「药王秘传」必藏身丹鼎司，将军和本座心知肚明。只是捉不住把柄，没法问六司的罪，只好等你自己跳出来了。"
+      }
+    },
+    {
+      "id": "1e12575b-fc56-4c19-b460-2944f519febb",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 169
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "也好，将星核邪祟引入仙舟，重生建木，诱人堕入魔阴身…这些大罪，十王司会一条一条同你清算。"
+      }
+    },
+    {
+      "id": "eebfc779-7bfb-4176-9da8-af8434e003d5",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 170
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "罪？如果我所为有罪，那末仙舟的先祖将与我同罪！是他们接受了「丰饶」之赐，将后裔转化成了长生种……"
+      }
+    },
+    {
+      "id": "88e35620-2508-469c-90e9-1bb5468b8be9",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 171
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "「药王秘传」只是走在他们曾经走过的道路上，追求超脱，何罪之有？"
+      }
+    },
+    {
+      "id": "ebf4338d-e3f5-497e-96af-cbd469f970f3",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 172
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "彼时，建木玄根包覆罗浮仙舟，宛如有生之物。我族捭阖星海，无可匹敌。人人皆能得道成仙，自在变化。丰饶神迹降于九艘仙舟，那是何等荣光的时代……"
+      }
+    },
+    {
+      "id": "1c3b88f6-1694-448f-8d78-e51027ef7eb3",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 173
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "再瞧现在，仙舟沦落成了何等模样？！甘受妖弓驱使，屡遭丰饶之民涂炭，「十王司」甚至逼迫我们放弃长生……"
+      }
+    },
+    {
+      "id": "15bd5c7f-980c-4f45-b98e-ccf809ef189c",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 174
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "可叹啊，我不怪你无知。因为我们没能出生在建木初降的时代，见证那时的奇迹。但现在，我们还有机会，恢复古制……"
+      }
+    },
+    {
+      "id": "194a949f-d8c0-40c0-92f1-8bab92700687",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 175
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "我以为你有何高论，不过是些追求力量再不做人的老套说辞。"
+      }
+    },
+    {
+      "id": "edfa7943-d252-4f6c-b2f0-96932b6ad9f2",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 176
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "仙舟先民与帝弓同战，毁弃建木，设立「十王司」划定生死，正是为了重新以人类的姿态活下去。"
+      }
+    },
+    {
+      "id": "1767176e-a9c9-4753-9aab-d6d6cb095916",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 177
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "仙人？仙舟之上并无仙人。什么「丰饶」神迹，什么操弄生死，你们的所作所为，不过是妖孽行止罢了！"
+      }
+    },
+    {
+      "id": "963714d8-2bcc-4ba4-bcf1-203b77317536",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 178
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "话不投机半句也多。太卜大人，您已做出选择，您抛弃了力量…那是最愚蠢的选择。"
+      }
+    },
+    {
+      "id": "1a3680b2-f431-496b-8735-186c1e76e446",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 179
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "进入战斗"
+      }
+    },
+    {
+      "id": "3acc2478-4696-421c-a8a6-b7a4576d03b0",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 180
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "太卜，容我向您展示「仙人」们曾做到的事情。"
+      }
+    },
+    {
+      "id": "f3a47750-8b1c-4f83-bb62-e0cc696e986d",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 181
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败第一波敌人后，小 × 承露天人药王秘传·魁首进入战斗"
+      }
+    },
+    {
+      "id": "8bbdaffe-db0d-47b2-9e60-0e208d519b98",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 182
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "慈怀药王，听我呼召！"
+      }
+    },
+    {
+      "id": "e519f7f4-4d44-4c8b-9603-c38bcf3a2782",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 183
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败小 × 承露天人药王秘传·魁首"
+      }
+    },
+    {
+      "id": "46eb295f-c4d4-4bff-afc8-9021f9f3d285",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 184
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "为何…为何如此？她明明说过……"
+      }
+    },
+    {
+      "id": "04c801da-d1f1-4760-a223-6732481f3f7a",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 185
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "8dac69e4-c26f-43fb-8a3c-5992bbbb3e0b",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 186
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "「建木」降临…会带来不死的仙躯——"
+      }
+    },
+    {
+      "id": "2355f8e7-04ca-45e6-abbd-57c92a03c00f",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 187
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "赐予我们星核的人…这么说……"
+      }
+    },
+    {
+      "id": "d2a83fcc-6210-48a9-8d3c-a26c3ca4706a",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 188
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "幻胧…「药王秘传」做到了……"
+      }
+    },
+    {
+      "id": "497f7644-8604-4057-8804-a5a844d894cd",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 189
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "「药王秘传」魁首",
+        "text": "「绝灭大君」也该兑现承诺…快！就是现在！"
+      }
+    },
+    {
+      "id": "812b7e15-b9f4-4a0a-9e7c-338a6378a28b",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 190
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "啧啧，为什么要逼我亲自出手呢，这有悖我的「毁灭」美学呀…小卒子。"
+      }
+    },
+    {
+      "id": "865a0425-2758-4fd0-89ba-9763bea754ca",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 191
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "罢了，看来要从内部崩裂仙舟，还得用别的法子……"
+      }
+    },
+    {
+      "id": "f0cfde5a-a822-4a39-aa3e-ff8466771f00",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 192
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "停云（？）缓缓走向魔阴身士卒…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "停云（？）",
+            "text": "真可惜"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "停云（？）",
+            "text": "还想多观察一阵子呢……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "停云（？）",
+            "text": "既然领受了「丰饶」的恩赐"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "停云（？）在魔阴身士卒身上轻轻一弹，便将它们变为了虚卒…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "停云（？）",
+            "text": "你们应该承受得住「毁灭」的"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "停云（？）",
+            "text": "祝福吧？"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "停云（？）以诡异的角度扭动脖子后瘫倒在地上…"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "她全身散发光芒，一团金色的火焰从中升起，随后停云的身体凭空消失了…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "三月七",
+            "text": "停云小姐！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "列位「恩公」"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "容我重新介绍——"
+          }
+        ]
+      }
+    },
+    {
+      "id": "542eaca1-b667-45bd-be06-7cc5c5e8fae4",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 193
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "进入战斗"
+      }
+    },
+    {
+      "id": "acf77ea7-3526-4947-b014-f29c658a7f1d",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 194
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "我是「绝灭大君」幻胧。"
+      }
+    },
+    {
+      "id": "58ef84fc-01d3-429d-9a67-63eb6b71d1d6",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 195
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "我来此，乃是让这仙舟分崩离析，自灭而亡！"
+      }
+    },
+    {
+      "id": "abca0c11-93ce-43bc-9e59-443adba1dc60",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 196
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "停云小姐是…军团的「绝灭大君」？！这、这到底是怎么回事啊？！"
+      }
+    },
+    {
+      "id": "fb46fce5-a09e-4308-8bb2-edea281dc4b5",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 197
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "诸位，冷静！大敌当前，切不可乱了阵脚！"
+      }
+    },
+    {
+      "id": "2dc1f838-b635-4c22-bcd3-cc63cf0a94bb",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 198
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败两波敌人"
+      }
+    },
+    {
+      "id": "979fc265-dc98-4208-9bb8-b3ced18cb57f",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 199
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "盯上仙舟的不是「焚风」，不是「星啸」，你们很幸运哦。"
+      }
+    },
+    {
+      "id": "94390f34-f6c7-4689-881d-05c1cbf9fc45",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 200
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "我嘛，是最不喜欢亲手制造毁灭的了……"
+      }
+    },
+    {
+      "id": "97b40b25-9bbd-47a6-97d1-a88a488ad002",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 201
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "可惜那位将军执意要我登台，幻胧也只得献丑一番。"
+      }
+    },
+    {
+      "id": "a5d21a3c-b324-4120-9829-8a6c76ecfcfc",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 202
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "该赴约了，请容我先行告退，希望你们能同这些戏子…玩得开心。"
+      }
+    },
+    {
+      "id": "89ea44a6-f281-4383-9b6f-322764f1a7e0",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 203
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败所有反物质军团"
+      }
+    },
+    {
+      "id": "299c22ab-0b46-4fa8-bdf3-b5005669191b",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 204
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "8335840a-da78-4ecf-bf11-0f14cd634661",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 205
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "这…这…所以，和我们一路同行的停云小姐是军团的人？！"
+      }
+    },
+    {
+      "id": "243f3e2b-d5b3-4a7b-9ccd-feaa09a3e202",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 206
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "她身上冒出的那团火又是什么东西？停云小姐的身体…她的身体又去哪儿了？"
+      }
+    },
+    {
+      "id": "4b376e4d-1628-4edd-9f6b-e2f4c08d432a",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 207
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "杨叔，你见多识广，刚才到底发生了什么？！"
+      }
+    },
+    {
+      "id": "fd0b95ca-bc57-4f36-8f7f-a9ff05c26065",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 209
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "……"
+      }
+    },
+    {
+      "id": "62d9844f-96ee-4961-8701-ebc9ea723ee4",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 210
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "那团火焰自称绝灭大君，幻胧。这个名字，我曾经从其他无名客口中听过。"
+      }
+    },
+    {
+      "id": "b20f5610-932b-4aa8-ab87-5a9c6c211529",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 211
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "她是纳努克座下的七位大君之一，钟爱凡人的自毁，许多生灵被她诱入过万劫不复的深渊……"
+      }
+    },
+    {
+      "id": "6678d153-ac45-4947-8893-be19bd996001",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 212
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "言下之意是，那位天舶司的姑娘早已遭其蛊惑，成了军团的走卒？"
+      }
+    },
+    {
+      "id": "7b7c6731-a390-4d1d-a691-1bde254a3fd8",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 213
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "…我不这么认为。幻胧钟情于精神与物质双方面的毁灭，由心灵的溃败导向肉体的消亡。"
+      }
+    },
+    {
+      "id": "999fc439-60b2-4d0d-9ad1-bc71ad450264",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 214
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "但停云的言谈举止却不像是受蛊惑，或被操纵，若她不是原本的停云，那更可能是幻胧的化形。"
+      }
+    },
+    {
+      "id": "de5dbd64-d76b-4dd5-bc98-3f459f685311",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 216
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "杨叔的意思是，真正的停云还……"
+      }
+    },
+    {
+      "id": "0075d1c4-adbd-4365-ae20-34c9273c37c1",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 217
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "抱歉，三月七，我无法给出肯定的答复。原本的停云身在何方，又是何时被偷梁换柱，随着那具身躯的消散，我们已无从查究。"
+      }
+    },
+    {
+      "id": "edfec9e8-21f4-44c5-9031-bc960fc657f8",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 218
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "这只是我个人的猜想…和希望。如果那就是停云，幻胧为何要多此一举湮灭证据。将遗体扔于故人面前，岂不更符合她的毁灭「美学」？"
+      }
+    },
+    {
+      "id": "cae2e10a-8c29-48cd-a9fc-1a6df96deee8",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 219
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "我相信这才是幻胧的目的——让我们因此身陷混乱和猜疑，彻底落入她的毒计。"
+      }
+    },
+    {
+      "id": "2183b473-f428-4e70-907f-ff5c46e6c5f7",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 220
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "难怪「药王秘传」兴起叛乱，原来是与军团大君暗中勾结。她伪装仙舟人的样貌，将星核送入罗浮，让我们自相毁灭……"
+      }
+    },
+    {
+      "id": "11bf9750-7e5e-41c4-a23f-1583c70097bc",
+      "source": {
+        "mission": "金鼎灵树，穷途梼杌",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/金鼎灵树，穷途梼杌.json",
+        "contentIndex": 221
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "她的目标一定是建木！染指建木，有如夺走罗浮的根源，如此一来，覆灭仙舟轻而易举。事不宜迟，必须阻止她！"
+      }
+    },
+    {
+      "id": "d5b2cb88-2ecd-4a2d-9736-620b87e96944",
+      "node": {
+        "type": "section",
+        "level": 2,
+        "title": "螣蛇无穴，旧梦亡阙"
+      }
+    },
+    {
+      "id": "c9c173bf-8ebf-4c60-af38-dccba5127b1f",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 1
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "载着丹恒、素裳与罗刹的小舟姗姗来迟，停靠在丹鼎司…"
+      }
+    },
+    {
+      "id": "2da27200-0840-4cb8-84eb-a955e8fa4064",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 2
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "素裳",
+        "text": "唔，这里是……"
+      }
+    },
+    {
+      "id": "f0d7f295-3885-48dd-ac15-7fe11733099a",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 3,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "丹鼎司。"
+      }
+    },
+    {
+      "id": "3ecdca81-e067-4536-8bc9-eda1b4da48f4",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 3,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "毗邻鳞渊境的洞天。"
+      }
+    },
+    {
+      "id": "fa302dd7-e4e6-45fc-8623-53c941344faa",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 4
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "素裳",
+        "text": "咦，你倒是很熟嘛……"
+      }
+    },
+    {
+      "id": "90eefc30-b607-48f0-89ca-c02fa026065b",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 5
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "素裳",
+        "text": "嗯，是丹鼎司没错，难怪船半路上断断续续收到几条军令，说云骑在此集结，想必是为了解决星核的问题。"
+      }
+    },
+    {
+      "id": "584b4726-8300-4397-8ef8-4b80e28a0696",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 6
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "素裳",
+        "text": "终于！走了这一路，终于能见着云骑的影子。可算归队了！"
+      }
+    },
+    {
+      "id": "ae0180af-ffb3-4079-be31-e56625de9e3c",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 7
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "素裳",
+        "text": "我没骗你们吧？说把你们带到安全的地方，就言出必践！虽然…绕了点远路……"
+      }
+    },
+    {
+      "id": "895cfb9e-a5cb-4d2a-bd54-f11b71727a66",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 8
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "罗刹",
+        "text": "我去星槎海前，曾找一位卜者测算此次出行的吉凶。他说「随而有获」，让我不必在意去向，只要随波逐流，便能有所收获。"
+      }
+    },
+    {
+      "id": "48607084-5395-4b6e-8608-1f71a03d394d",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "素裳",
+        "text": "…呃，什么意思。"
+      }
+    },
+    {
+      "id": "1b42132f-4bf7-46a1-afa5-1288f937f004",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "罗刹",
+        "text": "就是说，谢谢素裳姑娘了。"
+      }
+    },
+    {
+      "id": "c1b30e75-96fd-4bc0-873c-5142de9bf045",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "素裳",
+        "text": "哦…好吧，我去向这儿的云骑长官报备了。"
+      }
+    },
+    {
+      "id": "fcdd9c6d-297e-452a-a167-5b3729984a3d",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "素裳",
+        "text": "你们在这附近转转吧，可别乱跑，一会儿会有云骑来送你们回去。有缘再见啦！"
+      }
+    },
+    {
+      "id": "cd51944e-afa1-48c2-a11a-d7e7b4ee3c30",
+      "node": {
+        "type": "fold",
+        "title": "短信",
+        "content": [
+          {
+            "type": "message-thread-start",
+            "title": "开拓者",
+            "subtitle": ""
+          },
+          {
+            "type": "message",
+            "side": "left",
+            "speaker": "开拓者",
+            "contentType": "text",
+            "text": "云骑军邀请我们一起行动"
+          },
+          {
+            "type": "message",
+            "side": "left",
+            "speaker": "开拓者",
+            "contentType": "text",
+            "text": "你老家的丹炉可真够大的"
+          },
+          {
+            "type": "message",
+            "side": "right",
+            "speaker": "丹恒",
+            "contentType": "text",
+            "text": "你们在「太真丹室」那边做什么？"
+          },
+          {
+            "type": "message-system",
+            "text": "信息发送失败"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cb2a1c36-68f3-4397-8dad-78a2161d14a4",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 22
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "（永远接不通的消息…真麻烦。也不知开拓者，三月和杨叔那边发生了什么……）"
+      }
+    },
+    {
+      "id": "ad215ef3-abc5-408f-b8db-a8070aa9b11e",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "（云骑军似乎正在为了星核灾变而集结…但卡芙卡为什么要我们过来？他们怎么样了，刃又怎么样了？）"
+      }
+    },
+    {
+      "id": "cb94fec9-dc3c-4744-a9fd-a5a6391ba28f",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "（抱歉了，两位，我必须赶上我的朋友，这一路来多谢照顾了……）"
+      }
+    },
+    {
+      "id": "9ee6eb58-2352-4141-8834-d32b513d142e",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 44
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "追寻开拓者等人的去向"
+      }
+    },
+    {
+      "id": "a4677926-efb3-4b56-ab3d-5399c382fe65",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 46
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你丹恒的耳畔传来模糊的回声，视线似乎也开始模糊…"
+      }
+    },
+    {
+      "id": "68967b43-1767-4eca-bfe1-8ffe773dc759",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 47
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "好大好高的鼎。"
+      }
+    },
+    {
+      "id": "db36d5a7-dc3d-49ce-93e4-f25a179063e3",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 48
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "这太真鼎是以我持明族的云吟术驱动，汲饮古海之水，如鲸吞虹吸，炼化丹药……"
+      }
+    },
+    {
+      "id": "71320df2-2bda-4638-8740-2675a05f4524",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 49
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "……"
+      }
+    },
+    {
+      "id": "04884fed-ba35-44c5-adbc-3052bd579fde",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "a891f754-b95d-4822-b1d1-a5db00b80406",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你面前出现了一大一小两道由水构成的人影…"
+      }
+    },
+    {
+      "id": "b686cee3-bc69-498b-bab4-0d0fd591fe8b",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 52
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "这持明协助建造的丹炉中均存有云吟术，少主可借此多加体会……"
+      }
+    },
+    {
+      "id": "b74b17ac-7f90-4b84-a62a-0d4970f7f603",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 53
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "是么？我不借机关便可御水，体会又有何用？"
+      }
+    },
+    {
+      "id": "ba2f9aec-975d-45ff-a041-a923e8b9c005",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 54
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "您是受选之人，资质不可限量，但云吟术毕竟是基础……"
+      }
+    },
+    {
+      "id": "14ff0911-79bf-4f09-9cad-018269f572d6",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 55
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "持明蜃影…这些过去的影子还没有消散吗？"
+      }
+    },
+    {
+      "id": "a78b4a79-92d8-4783-b452-86218a9fcb36",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "58d81eb1-41a1-46c9-afbe-41c2c32d42c1",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "这些回忆…"
+      }
+    },
+    {
+      "id": "fc4a0f92-9b88-4f20-a6e9-bcfa40969a12",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 58
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "不，这些事情都与我无关了。"
+      }
+    },
+    {
+      "id": "71b85c6e-911b-45ed-a284-558f8b265218",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 59
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "乘坐星槎进入鳞渊境"
+      }
+    },
+    {
+      "id": "09a0de80-81b4-436b-89de-046ae4b91db4",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 60,
+        "contentPath": [
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "他们说你是真龙再传，真的吗？"
+      }
+    },
+    {
+      "id": "38f5a6ca-8f5e-4025-ae55-cc9d75073f52",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 60,
+        "contentPath": [
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "哼……"
+      }
+    },
+    {
+      "id": "79e6550f-db91-40b8-a9b9-0760678cb8e6",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 60,
+        "contentPath": [
+          "content",
+          2
+        ]
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "94cb8c27-675a-4a5b-9d4e-750735ca6b3f",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 60,
+        "contentPath": [
+          "content",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "龙…"
+      }
+    },
+    {
+      "id": "aec8d4a5-c43e-4530-ba6a-6dfa2a01f00c",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 60,
+        "contentPath": [
+          "content",
+          4
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "如今的我已被逐出仙舟，不再是「不朽」的龙裔了。"
+      }
+    },
+    {
+      "id": "86270e89-0e18-4f3b-b666-43cea171e951",
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "e5fd6d6c-fc83-4757-893f-119aab1b80d7",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 61,
+        "contentPath": [
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "您独当一面的时候，我怕是看不到了…"
+      }
+    },
+    {
+      "id": "180207f5-92fa-4154-b4d8-74ddac56e12d",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 61,
+        "contentPath": [
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "不必伤心，持明一族生灭循环，常存此世。"
+      }
+    },
+    {
+      "id": "f7451c43-69f4-4015-8b4b-c23507a0c701",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 61,
+        "contentPath": [
+          "content",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "待您成为龙尊时，我多半已蜕生成了小娃娃，望您好生照拂。"
+      }
+    },
+    {
+      "id": "b8126251-d5a5-436e-8670-86bee9d6db1d",
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "7b79d2ba-c6dc-4067-b708-c03f4b0c4dbf",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "这股澎湃的力量…您是…是龙尊大人回来了。"
+      }
+    },
+    {
+      "id": "ca4c4772-0cd2-4c8f-80f4-3507d0dd746e",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "5691d263-a5a2-41b2-99ff-ddd3105fec73",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 64
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "鳞渊境中正在发生可怕的事情。请不要再前进了，您的敌人…您的敌人在等您。"
+      }
+    },
+    {
+      "id": "919274c5-f686-4bfa-8d84-3c1a1837690f",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 65
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "抱歉，我不能在此驻足。我的朋友已经离开了，我必须追上他们。"
+      }
+    },
+    {
+      "id": "992558f8-a83f-447d-b31b-4a38692aeee3",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 66
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "您依然一意孤行啊，您不肯听我们的…就像当年那样。"
+      }
+    },
+    {
+      "id": "fd03c1e1-1c21-4b96-95fd-b68b79257fbc",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "往昔的回声",
+        "text": "那么，前往鳞渊境的船就在岸边，请您登上它吧。"
+      }
+    },
+    {
+      "id": "2438f548-2901-49e6-8d72-0841391d49ae",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 68
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "……"
+      }
+    },
+    {
+      "id": "890186f4-5801-41c4-ad79-785cad841caf",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 69
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "d15e277b-adbe-4ed2-bc71-5e8c5c3d41a4",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 70
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你丹恒乘坐星槎进入了鳞渊境。岸上，星核猎手似乎正在等你…"
+      }
+    }
+  ]
+}

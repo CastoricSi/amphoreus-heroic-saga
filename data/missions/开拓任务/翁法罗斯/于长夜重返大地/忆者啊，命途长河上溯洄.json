@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "忆者啊，命途长河上溯洄",
+    "pageId": 24074,
+    "revisionId": 77808,
+    "parentRevisionId": 69711,
+    "revisionTimestamp": "2026-02-12T19:21:46Z",
+    "fetchedAt": "2026-09-28T00:18:43.934Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%BF%86%E8%80%85%E5%95%8A%EF%BC%8C%E5%91%BD%E9%80%94%E9%95%BF%E6%B2%B3%E4%B8%8A%E6%BA%AF%E6%B4%84",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%BF%86%E8%80%85%E5%95%8A%EF%BC%8C%E5%91%BD%E9%80%94%E9%95%BF%E6%B2%B3%E4%B8%8A%E6%BA%AF%E6%B4%84&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "忆者啊，命途长河上溯洄",
+    "region": "翁法罗斯",
+    "type": "开拓任务",
+    "version": "3.6",
+    "number": "04",
+    "series": "于长夜重返大地",
+    "description": "黑天鹅借助着星期日与「长夜月」的接触，深入命途的河流，见识到擅自闯入翁法罗斯的「忆者」的下场……",
+    "requirements": "完成任务旅者啊，徘徊中忘却失真",
+    "requiredLevel": "21",
+    "characters": [
+      "黑天鹅",
+      "昔涟"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "200"
+      },
+      {
+        "item": "星琼",
+        "amount": "30"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "2"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "2"
+      },
+      {
+        "item": "无序秘酿",
+        "amount": "80"
+      },
+      {
+        "item": "信用点",
+        "amount": "30000"
+      }
+    ],
+    "previousMissions": [
+      "旅者啊，徘徊中忘却失真"
+    ],
+    "nextMissions": [
+      "烈阳啊，为迷途照明前路"
+    ],
+    "objectives": [
+      "沿着命途长河逆流而上",
+      "调查忆者尸体"
+    ],
+    "synopsis": [
+      "黑天鹅步入忆域深处。窃忆者们本该由此大量涌入翁法罗斯，却不知为何，只沦为遍地空骸。",
+      "黑天鹅触碰一位窃忆者，发现维持这具法身的心识已经消失。或是被干净利落地处理，或是献祭了自身。",
+      "黑天鹅阅读一组窃忆者的记忆，得知它们在此寻找「记忆」的种子。",
+      "黑天鹅得知，长夜月及其忆灵是忆者的天敌，能将一切记忆吞噬。黑天鹅感到恐惧，正当她将要离开时，长夜月自黑暗中现身。",
+      "在你关于黑塔空间站的记忆中，昔涟打败长夜月留下的忆灵们。昔涟必须想办法找到你的下落，在长夜月得手前回到你身边。",
+      "昔涟发现你的照相机。一只可爱的忆灵从中飘出，呼唤你和丹恒的名字。昔涟意识到那就是「三月七」的精魄。"
+    ],
+    "extra": {
+      "角色": "黑天鹅",
+      "命路群像": "逆流河",
+      "相关成就": "通往群星的轨道#记忆碎片",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "沿着命途长河逆流而上"
+    },
+    {
+      "type": "objective-description",
+      "text": "多亏了星期日与长夜月的短暂碰撞，得以让潜伏起来的黑天鹅锁定了长夜月的藏身处，并沿着命途的河流逆流而上。\n忆庭决不允许黑天鹅擅自行动，而黑天鹅也不知道自己将面对什么……",
+      "location": "命途狭间"
+    },
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "正在切换至【黑天鹅】视角…\n趁着长夜月与星期日的短暂的接触，黑天鹅沿着命途的河流逆流而上……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "话虽如此，我也得为长远考虑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "本想潜伏在暗处，避免正面冲突。但……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "为何是一片死寂？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "空间中弥漫着浓郁的忆质，却又驳杂不堪，像是破碎的记忆被糅合在一起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "窃忆者本该大量涌入翁法罗斯，这里应该「热闹非凡」才对……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "但他们…怎么变成了这样？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查忆者尸体"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "这下子，我的好奇心也上来了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "黑天鹅触碰一位窃忆者"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "…空壳。维持这具法身的心识消失了。手段干脆利落，不留半点痕迹。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "另一种可能性是，为了某种更隐秘的目的，她献祭了自身。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "无论出于哪种原因。究竟是什么，让这群狂热的信徒落得如此下场？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "「记忆」啊…果然是诱人又危险的深海。水面下，总是藏着令人着迷的秘密。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "毫无反应的窃忆者。像是在中深海域中遭遇海难而溺毙的尸体，缓缓地漂浮，空无一物。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "总觉得，这一幕在匹诺康尼也上演过。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "黑天鹅触碰另一位窃忆者"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "冷静的窃忆者",
+      "text": "「准备好，该启程了。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "犹豫的窃忆者",
+      "text": "「没问题么？那个世界被一团混沌的物质包裹着。那条白色光带…已经害我们的计划失败很多次了。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "冷静的窃忆者",
+      "text": "「别担心。自从星穹列车的粉色姑娘闯入翁法罗斯后……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "冷静的窃忆者",
+      "text": "「那道将忆庭隔绝在外的阻力就消失了。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "冷静的窃忆者",
+      "text": "「到底是『开拓』的无名客，帮了大忙。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "犹豫的窃忆者",
+      "text": "「你高兴什么？不相干的人越多，事情不是越麻烦？万一那帮开拓者先一步找到了『记忆』的种子……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "冷静的窃忆者",
+      "text": "「那我们再把它偷过来，不就完事了？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "冷静的窃忆者",
+      "text": "「说到这个，那列车上有一个信使，一个忆者，立场不明。动手时，可别被她们察觉了。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "真是无孔不入啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "和上一具空壳不同，这些窃忆者……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "似乎和开拓者有过接触。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「窃忆者」",
+      "text": "为了取得你的信任，咱们就先自报家门——流光忆庭，你应该再熟悉不过了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "记忆戛然而止，仿佛被一只无形的手掐灭了烛火。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "如此看来，前方的秘密比想象中还要浑浊得多。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "毫无反应的窃忆者。像是被掏空了一切空余皮囊的瘪气球，在不高不低的位置漂浮着。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "黑天鹅继续触碰另一位窃忆者"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "真是…诡异的光景。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「失控了，完全失控了……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「为什么没人告诉我们？！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「那女孩…是忆者的天敌……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "她说的，是三月七？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「那片长夜…那些黑色的忆灵…它们吞噬了一切……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「先出发的人…全都被淹没了…连一丝心识都没有留下……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「我后悔了…我不想再和翁法罗斯扯上任何关系了！求求你！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「别、别靠近我——不——！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "为了「神陨的记忆」，你们牵连了太多无辜的人。罪有应得。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "但我不是为了谴责而来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "被你们称作「长夜」的存在，告诉我有关她的一切。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "或许，这还能为幸存者换来一线生机。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「善见…天……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "嗯…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「原来。是这样。我们。被骗了。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「我们。是牺牲品。忆庭。利用了我们。『无漏净子』。抛弃了我们。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「她只想。找到。失散的姐妹。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「找到她们。杀死她们。回收她们。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「新的生命若要萌芽。它的种子须是死的。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「死的。死的。死的。死的。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的窃忆者",
+      "text": "「死的死的死的死的死的死的死的死的死的死的死的死的——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "现在，我终于能理解你们的恐惧了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "感谢你提供的情报。这些信息…很有价值。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "作为答谢，我会将你们仅存的心识带离此地。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "既是保护，也是惩罚。在一位天才的镜子里，你们能够与同伴重逢，好好反省自己的作为。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "但，这一切的前提是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "我能够从她面前，全身而退。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "黑天鹅转身面对不知从何处出现的长夜月"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "在「长夜月」阻止星期日的同时，滞留在开拓者记忆世界中的昔涟另有发现……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "这群小家伙，看上去可怕…其实也不难搞定嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "可是，翻涌的忆潮把{{开拓者|伙伴}}卷走了，必须要赶在「长夜月」小姐得手前，回到他/她身边……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "又是这种潜入剧本，也行吧！帮帮我，{{开拓者|伙伴}}的内心世界……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "{{炙热又危险|「毁灭」}}的气息，这是…和白厄同源的力量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "还有，像是在午夜惊醒的，{{神秘又深不见底|「忘却」}}的气息…想必是「长夜月」小姐吧，必须得绕开才行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "嗯？那里有一束光……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "充满朝气，又不受控制，比其他的更熟悉，似乎就来自人家身边……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "是…{{开拓者|伙伴}}吗！也许，是他/她提起过的「星核」吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "有关「星核」的记忆，就在忆潮深处流淌……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "去那里寻找{{开拓者|伙伴}}的下落吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "真是的。居然聚集了这么多…小家伙们，是知道我会来吗？未免有些太热情了呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "幸好开拓者的气息没有变弱，感觉又靠近了几分……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "咦，它们在守着什么…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "{{开拓者|伙伴}}的留影石机？怎么会在这儿？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "仔细一看，这些忆灵一动不动，像是被它吸引了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "这是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "一只…更可爱的忆灵？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "难怪留影石机装不下更多回忆，是因为你一直躲在里面吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "找到…我……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "旅途…伙伴……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "这…怎么会……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "莫非……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "{{开拓者…丹恒……|我的…伙伴……}}"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "你是…「三月七」？"
+    }
+  ],
+  "warnings": []
+}

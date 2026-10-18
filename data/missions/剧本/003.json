@@ -1,0 +1,4212 @@
+{
+  "schemaVersion": 2,
+  "title": "她等待刀尖已经太久",
+  "createdAt": "2026-10-01T04:09:12.738Z",
+  "updatedAt": "2026-10-06T06:32:24.375Z",
+  "blocks": [
+    {
+      "id": "7c3d4e1f-85d6-47ab-9ed6-9688af1cfa4e",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 201
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "观隅反三——"
+      }
+    },
+    {
+      "id": "3c2db9ca-f4ba-41fc-90a3-b24cdc8a4409",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 204
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "君命无二——"
+      }
+    },
+    {
+      "id": "bfd57216-d7a5-432c-b80f-ae6d5af8aa65",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 206
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "——凭城借一！"
+      }
+    },
+    {
+      "id": "6f8d1a1b-2b1a-4d7b-b311-359d814b845f",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 207
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "丹恒拉着三月七朝裂界跑去，你拿出棒球棍挥向银鬃铁卫…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "三月七",
+            "text": "诶，啊呀呀呀"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "银鬃铁卫想要开枪，但枪口被三月七用六相冰都封住了…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "三月七",
+            "text": "先跳为敬啦各位！"
+          }
+        ]
+      }
+    },
+    {
+      "id": "81433fd8-c1bf-4e60-aa4f-80ec9af6b975",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 216
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "逃进裂界的你们…"
+      }
+    },
+    {
+      "id": "4b0415aa-0f91-4b6a-a66b-fd99b6043f33",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 217
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "哈！瞧，他们果然没跟进来！自由啦！"
+      }
+    },
+    {
+      "id": "3d2ac7ed-3c8d-4bf3-8ada-42204d750c6c",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 218
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "活该！哈哈，想逮住我们，还早了几百年哪！"
+      }
+    },
+    {
+      "id": "36385820-012f-4420-998c-250916ec8086",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 220
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "银鬃铁卫只是被我们打了个出其不意，用不了多久，他们一定会追进来的。"
+      }
+    },
+    {
+      "id": "5a2ccffe-784a-4b95-92b3-a27e6d91b2a6",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 221
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "沿着道路移动吧，先确保安全，再作下一步计划。"
+      }
+    },
+    {
+      "id": "4f8634f9-a3cc-4a80-8618-e34cfb5753c4",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 2
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "到底发生了什么事，为什么那个大守护者突然派人来抓我们啊？"
+      }
+    },
+    {
+      "id": "795b3c40-e464-4eec-8b5e-cd985482bb30",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 3
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "在人家睡得正香的时候搞突然袭击，也太卑鄙了吧！"
+      }
+    },
+    {
+      "id": "ad6481b8-1bac-42b4-9b67-91ff525cd079",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 4
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "那个女人身上有种令人不安的气息…直觉果然不会撒谎。"
+      }
+    },
+    {
+      "id": "cf390ca3-28a1-4af6-a48e-3017d5383808",
+      "node": {
+        "type": "section",
+        "level": 2,
+        "title": "回忆"
+      }
+    },
+    {
+      "id": "47e5535d-219f-40ae-ae11-99c8d84c0d11",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 60,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "应是我谢谢你们，来自天外的客人。"
+      }
+    },
+    {
+      "id": "7f34077c-bbec-4153-bac1-1d7da4a91ca0",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 61
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "我也需要点时间，调查一下所有可能与「星核」有关的记载…恕不远送。"
+      }
+    },
+    {
+      "id": "571b4a4d-6b40-41bf-82a5-fa52256be5d4",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "转身离开「大守护者」的办公室前，你回头瞥了一眼…"
+      }
+    },
+    {
+      "id": "9c5f0c50-fb8a-48bf-8d35-a5fb3e075dc6",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "…而你们走后，一个晦涩难懂的声音出现，而「大守护者」竟能与之对话…"
+      }
+    },
+    {
+      "id": "db4369a5-322f-40b6-b9a3-07758c0443cb",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 64
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "……"
+      }
+    },
+    {
+      "id": "dd5fe7d4-ab04-401a-9216-bc0990a390d6",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 65
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "…我当然明白。"
+      }
+    },
+    {
+      "id": "f67b73c3-3706-42b0-88b8-2abf2fe1418e",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 66
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "不必着急，我自有办法。"
+      }
+    },
+    {
+      "id": "f395345c-4c44-4c8e-8e9a-1e805c357dc2",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "6178dc2c-74d0-437e-96ec-42d49be1e4fd",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "你们奋力奔向裂界出口，但布洛妮娅带人出现在了前方…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "丹恒",
+            "text": "小心！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "三月七",
+            "text": "还真的…追来了…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "三月七",
+            "text": "连埋伏都设好了……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "布洛妮娅",
+            "text": "哼，被小看了啊。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6980793d-b749-4d08-85d3-6b8da7b07add",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 28
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "就算遭到了裂界的侵蚀，这里始终是贝洛伯格的一部分，是我们曾经的家园。铁卫对这里了若指掌。"
+      }
+    },
+    {
+      "id": "33f24b7e-ece3-4e28-8a40-f3a6e738050d",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 29
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "逃亡游戏结束了，放下武器，跟我回去吧。"
+      }
+    },
+    {
+      "id": "10fee246-8c67-48e0-8ae1-7714d351bb71",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你真是死缠烂打啊…搞不懂我们到底犯了什么罪，让你一直追到这儿都不罢手！"
+      }
+    },
+    {
+      "id": "bf11c9c4-2e70-4375-97b8-4c0f1a8d8474",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我接收的命令是捉拿你们，至于详细的罪责和判罚，裁判团会向你们解释。"
+      }
+    },
+    {
+      "id": "117e458f-9906-431a-a2b1-440505ac5343",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "你昨天见过我们，还记得吗？那时我们是作为可可利亚女士的贵客被招待的。"
+      }
+    },
+    {
+      "id": "efdf1b6e-4f61-46a9-b3d0-551620bf3f91",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 33
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "一夜之间这翻天覆地的变化，我们也很难接受。"
+      }
+    },
+    {
+      "id": "e666bc3f-a51a-4cc9-9c45-5b7c4eb676c0",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 34
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "…守护者大人调查了你们的背景。"
+      }
+    },
+    {
+      "id": "5ebe0163-61d7-4fb5-a7ce-b9a30a3dee4f",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 35
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "她在昨晚召见我，说你们欺骗了她；你们的身份和目的皆是伪造的，意在破坏筑城者对贝洛伯格的掌控。"
+      }
+    },
+    {
+      "id": "035d9ebf-76a2-43ef-ad5e-da1276f8dde5",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "啊，这老巫婆怎么人前一套人后一套！"
+      }
+    },
+    {
+      "id": "8f7e45c5-580e-49b3-afde-742fef04f0d1",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "公开侮辱大守护者只会让你们罪加一等，放下武器投降吧！"
+      }
+    },
+    {
+      "id": "716c61a2-2740-41fb-ae1c-d1955d7d8d06",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 38
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "多言无益了，三月。至少有一件事很清楚：现在我们绝不能被逮捕。"
+      }
+    },
+    {
+      "id": "c62c7ae2-40e1-4ef9-b53d-54a999298f77",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 39
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "既然没路可逃了，那就让他们见识下{{列车组|星穹列车}}的厉害！"
+      }
+    },
+    {
+      "id": "e0b1ba2e-9821-4342-ae6b-9763f74b8ab1",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 49
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "呃，我不是故意要破坏这个紧张的气氛哈~"
+      }
+    },
+    {
+      "id": "7fe1a549-92b5-401f-858f-9aad920b17f9",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "几枚烟雾弹被人扔了过来…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "布洛妮娅",
+            "text": "什么…人……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "三月七",
+            "text": "…呛死了…咳……"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "桑博从烟雾中走出…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "桑博",
+            "text": "我只是想说"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "桑博",
+            "text": "桑博绝不让帮过咱的朋友吃亏。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "桑博",
+            "text": "瞧，我·桑·博·说·话·算·话。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c3ae61b2-fe5e-46bc-b4f2-9135c5470851",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "172778d1-9731-4fd6-b7c0-34967ce29af1",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 52
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你晕了过去…"
+      }
+    },
+    {
+      "id": "4a0c8cec-9273-46d0-b7fb-f4b39ff43adc",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 53
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "…你似乎又看见了什么…"
+      }
+    },
+    {
+      "id": "b45e6a32-6529-4eb3-893e-29a120d610e7",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 54
+      },
+      "node": {
+        "type": "image",
+        "file": "开拓任务-躲得过初一躲不过十五-CG.png",
+        "displayWidth": "600px",
+        "align": "center",
+        "asset": "assets/sr-images/开拓任务-躲得过初一躲不过十五-CG.png"
+      }
+    },
+    {
+      "id": "ffd0645e-98a5-4a5f-8edf-4cdd174445db",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 55
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "年轻的可可利亚",
+        "text": "…他们会痛苦，会牺牲，会因我的命令而死。"
+      }
+    },
+    {
+      "id": "1d519fab-028f-49fd-ac74-e1796464db79",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星核之声",
+        "text": "恭迎他们的并非死亡…他们会被裹入新世界的襁褓。"
+      }
+    },
+    {
+      "id": "24b27832-42af-474c-9a77-c55a264378cd",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "年轻的可可利亚",
+        "text": "那下层的人民呢？他们会失去筑城者的庇护。他们会视我为…暴君。"
+      }
+    },
+    {
+      "id": "b7d23215-bc8f-419d-bbda-51f4ce59b73f",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 58
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星核之声",
+        "text": "你见过了…我们承诺的世界。"
+      }
+    },
+    {
+      "id": "826c93af-f0ef-4556-9fff-4afd15586153",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 59
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星核之声",
+        "text": "短暂的误解…换来永恒的繁荣。"
+      }
+    },
+    {
+      "id": "9a7d6598-23cc-4026-accb-4c4ec38996b4",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 60
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星核之声",
+        "text": "由你决定…我们尊重。"
+      }
+    },
+    {
+      "id": "257e226a-91fa-4df9-91fa-ea790a3e681c",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 61
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "年轻的可可利亚",
+        "text": "……"
+      }
+    },
+    {
+      "id": "1bbd4aa3-23aa-4157-929f-e987558ae6cf",
+      "source": {
+        "mission": "躲得过初一，躲不过十五",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/躲得过初一，躲不过十五.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "年轻的可可利亚",
+        "text": "我明白了。"
+      }
+    },
+    {
+      "id": "bd88fcf3-84df-4f6a-ac87-e81d9ac6e79a",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你缓缓睁开眼睛…"
+      }
+    },
+    {
+      "id": "2fa9b2e9-1503-4fb8-9eb3-3e450c975dfc",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 1
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "——清醒点吧，你的小玩意没那么大破坏力。"
+      }
+    },
+    {
+      "id": "93def1ba-a94a-46c9-9f85-8cdaa25d5b85",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 2
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "呃，那为啥他还没醒呢？"
+      }
+    },
+    {
+      "id": "40156dd1-4879-43e8-82b4-0d80c26b254f",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 3
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "因为他睡着啦，刚刚还嘟囔着说梦话呢…真可怜，一定是非常可怕的噩梦。"
+      }
+    },
+    {
+      "id": "1f867ff8-7f3a-437a-91ad-9d77cabcdb31",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 4
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "跟我说实话，桑博，你打算怎么处理那个上层区的小丫头？"
+      }
+    },
+    {
+      "id": "3b398dbd-f721-450b-9aba-47845d1b9c4d",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 5
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "怎么处理？和其他几个一起处理呗，找机会给送回去…等等，你为什么——"
+      }
+    },
+    {
+      "id": "dee6d431-6d17-423b-98a4-ad5c359244f1",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 6
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "你觉得能瞒得住我吗，桑博·科斯基。"
+      }
+    },
+    {
+      "id": "dcc51498-d5ea-498e-b3ad-0ab7d16ec64e",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 7
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "…我没想带上她，烟雾太重了，我也迷迷糊糊的，不知怎么就带下来了。"
+      }
+    },
+    {
+      "id": "9d69ff15-86c7-488a-98f3-434f8fa0cfeb",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 8
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "真不知道你想搞什么鬼，桑博。上层的事和你有什么关系，干嘛非要趟这摊浑水？你还嫌自己不够显眼，非得被「地火」盯上才满意？"
+      }
+    },
+    {
+      "id": "3561dbb5-e080-45a3-b169-257ab13a72e2",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "别这么说嘛！我桑博一向关照朋友，这几人帮了我的忙，怎么也得把人情还上啊。"
+      }
+    },
+    {
+      "id": "e9c13d35-755e-4fe2-96bf-31385b7e45bf",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "再说了，「地火」又怎么…没准我带来的这几位人物能捞「地火」一把呢，这可不好说嘛。"
+      }
+    },
+    {
+      "id": "fb794707-a235-4ca7-894c-d634a3769e58",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "这就是你放任他们几个在地底乱跑的理由？"
+      }
+    },
+    {
+      "id": "5b96634e-e360-4e2f-b83b-2756e2017959",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "哎哟，意外，纯属意外！我这就去把他们都找回来。"
+      }
+    },
+    {
+      "id": "a4e9e551-0260-454b-aa07-ca5796f86606",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 13
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "那个小姑娘…你最好赶紧找到人，把她看住了。地下被封锁十几年，孩子都快忘记地上人长什么样了，突然冒出个穿银鬃铁卫衣服的姑娘……"
+      }
+    },
+    {
+      "id": "c8e65ebc-bbf1-4db2-8fa7-993158e97613",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 14
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "你想想「地火」要是知道了，会怎么对她，怎么对你？"
+      }
+    },
+    {
+      "id": "bd8040bf-4034-4b96-9b13-ee592dcc7237",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 15
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "我懂，我懂！我这就去找人——大姐头，咱这位「客人」就劳烦您受累照顾了！"
+      }
+    },
+    {
+      "id": "4fc059ce-8cc1-4315-9635-e72c3f969b91",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 16
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "小瞌睡虫，你可算睡醒了啊。"
+      }
+    },
+    {
+      "id": "ddbf0c2b-f8b2-4330-a405-dcc3010c6047",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 17
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "与陌生女性交谈，厘清现状"
+      }
+    },
+    {
+      "id": "747f3836-dde3-4930-8df4-29acb1eec3c2",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 19
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "感觉怎么样？身体有哪里不舒服吗？"
+      }
+    },
+    {
+      "id": "7a750edf-d179-46ac-8516-3c6f33b222eb",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 21
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "我是娜塔莎，地下的医生。你已经在我的诊所里躺了一整天了。"
+      }
+    },
+    {
+      "id": "60f45ec1-06d9-4b5e-a7f9-ee1314c09f4c",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "桑博去收拾自己惹的烂摊子了，我先替他照料你。不过看你这样子，脑袋和身体应该都没什么情况，很健康。"
+      }
+    },
+    {
+      "id": "3b7c6752-7cab-4131-83a1-ddd15c09a355",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 24
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "如果你没什么事的话，我就先去照顾其他病人啦？"
+      }
+    },
+    {
+      "id": "7ab4580f-f770-410b-bc4d-062def3297fb",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 25,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "请问，我的同伴他们……？"
+      }
+    },
+    {
+      "id": "703d2960-8cad-4f56-9d8e-ccc07ce0b8cb",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 25,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "他们醒得比你早。黑头发的青年是第一个，桑博把他带走了。"
+      }
+    },
+    {
+      "id": "f109511a-9b86-4872-93d9-03b7f4c53bcd",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 25,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "那个有点闹腾的女孩子，醒过来没多久就跑出去了，估计在附近转悠吧？"
+      }
+    },
+    {
+      "id": "7b8d9a62-e8fd-4913-9873-92a694b72217",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 25,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "还有个铁卫打扮的小姑娘，我特地嘱咐桑博看住她。但她趁桑博出门的时候，一眨眼就不见了。"
+      }
+    },
+    {
+      "id": "e2d705f4-7f31-4c07-b660-0aae26035add",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 26,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "桑博到底是什么人？"
+      }
+    },
+    {
+      "id": "b889240c-08e4-4fa3-812e-813a346c03de",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 26,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "谁知道呢，神神秘秘的。他自称是倒货商，也不晓得在地下有什么货供他倒，但那家伙确实有不少门路。"
+      }
+    },
+    {
+      "id": "1d882e56-c5cc-4cff-961e-2b3e394addee",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 26,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "他帮我弄到了很多急需的药品，也帮过「地火」不少忙…至少，他应该没什么坏心眼吧。"
+      }
+    },
+    {
+      "id": "bf34723f-f92a-4514-8a7f-f3e34f924519",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "「地火」？"
+      }
+    },
+    {
+      "id": "f12ee2da-1a39-43a4-b590-7583e5c60daf",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 28
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "地下的民间组织，你就当成是地底的银鬃铁卫吧——只是比他们更有人情味些。"
+      }
+    },
+    {
+      "id": "8babc042-68b6-4485-b5a9-b16edb1a6bd4",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 29,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "谢谢你，娜塔莎医生。"
+      }
+    },
+    {
+      "id": "caec8b9e-2d92-408a-bb61-58f42aaf6c71",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "用不着谢我，治病疗伤是医生的天职。"
+      }
+    },
+    {
+      "id": "7360a2ea-4555-43e7-b468-33e27b9e633c",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "寻找三月七和丹恒"
+      }
+    },
+    {
+      "id": "0286c6aa-4756-45b4-99eb-11726cb309aa",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "…说好了喔，捉迷藏赢了就把秘密一五一十告诉姐姐。"
+      }
+    },
+    {
+      "id": "c4902153-71eb-409c-926b-5922f62b7fc6",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 38
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "虎克",
+        "text": "一五一十！…是什么意思？"
+      }
+    },
+    {
+      "id": "409218c0-a5ab-4495-839c-f809dc45f95b",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 39
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "就是全部说出来，不能隐瞒，也不能骗姐姐。"
+      }
+    },
+    {
+      "id": "db909dcd-a9a6-4238-9592-22d4affbc0ec",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 40
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "虎克",
+        "text": "哼，虎克又不是地上人，才不会说谎呢！"
+      }
+    },
+    {
+      "id": "e98d263c-d679-499a-8526-6f4443abfb5b",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 41
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "尤利安",
+        "text": "才不会说谎！"
+      }
+    },
+    {
+      "id": "79167f27-e469-428c-b1ef-d6b5972463a4",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "一言为定~那我们来玩吧……咦？"
+      }
+    },
+    {
+      "id": "17263f42-fe0b-487e-a287-4da086364a05",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 43
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你…什么时候来的？"
+      }
+    },
+    {
+      "id": "73789569-e832-4eea-9bcd-8699e0b4af90",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 44,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "没多久，姐姐。"
+      }
+    },
+    {
+      "id": "7366cd14-a4a4-4a77-853c-b30a42e90e02",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 44,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "不要学小孩子说话的语气！"
+      }
+    },
+    {
+      "id": "161bee9f-2af8-4089-a82a-f3ccdd026ce3",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 45
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "是这样的：我醒来以后，医生说丹恒被那个坏蛋桑博带走了。我绕了一圈都没找着，恰好遇到这几个孩子说知道他的下落。"
+      }
+    },
+    {
+      "id": "ecc1eee4-c759-425c-bfec-0d4091f96b13",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 46
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "但他们说，想知道就得加入什么「鼹鼠党」，要加入鼹鼠党，就得一起玩游戏，赢了才能证明我的实力…这样你明白了吧？"
+      }
+    },
+    {
+      "id": "eb4dbb55-dd36-4d7c-990b-52820384f434",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 47,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "明白了，你搞不定这些孩子。"
+      }
+    },
+    {
+      "id": "85c87461-afd7-4ab5-8623-16437807a888",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 47,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "…虽然很火大但确实没法反驳——要不你来帮我吧！"
+      }
+    },
+    {
+      "id": "d8e4708c-3072-4d84-a971-b7ca000fcd4b",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 48
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "虎克",
+        "text": "喂，你们还要说悄悄话到什么时候啊！鼹鼠党的时间可是很宝贵的！"
+      }
+    },
+    {
+      "id": "dc1036f4-3af0-4ce1-94dd-a7146cdfcba5",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 49
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "尤利安",
+        "text": "很宝贵的！"
+      }
+    },
+    {
+      "id": "045c81a8-6f63-4969-8383-cc01a2d2631a",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "这就开始这就开始，对了，这位也想加入鼹鼠党，可以一起玩吗？漆黑的虎克大人？"
+      }
+    },
+    {
+      "id": "a212fa6e-cb8e-4789-a212-56fe378f40a7",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "虎克",
+        "text": "呣呣呣呣…行吧？好像也没啥不妥，你们就一起负责捉人吧！"
+      }
+    },
+    {
+      "id": "de9ab757-20db-47ab-b07a-9d52205f1ae6",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "虎克",
+        "text": "那现在就开始咯！数到五十再睁眼，大姐姐你可不许耍赖！"
+      }
+    },
+    {
+      "id": "79cc5c76-2ed7-44e6-b849-bf1d6b97caaa",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "四十七…四十八…四十九…五十！"
+      }
+    },
+    {
+      "id": "0551e1c9-5473-4fbf-883f-bcae318d4932",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 64
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "哼哼~准备好了吗？藏好尾巴，姐姐要来抓坏孩子咯……"
+      }
+    },
+    {
+      "id": "be054f36-b66a-437e-8649-b31c8df90125",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 65
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "找到所有躲起来的小朋友，赢得胜利"
+      }
+    },
+    {
+      "id": "cdc6d058-d478-409c-a9e1-f4d46c077a25",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 97
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "虎克",
+        "text": "可恶！你们到底是何方神圣！"
+      }
+    },
+    {
+      "id": "22fa775d-ee2b-4267-b99e-8d60c6ddeb48",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 98
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "嘻嘻，明察秋毫，心细如发——说的就是本姑娘我啦！"
+      }
+    },
+    {
+      "id": "ab21dd16-c616-48f3-87fd-3c516a37541b",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 100
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "怎么样，漆黑的虎克大人，现在可以把秘密告诉我们了吧？"
+      }
+    },
+    {
+      "id": "b529f8b4-441d-4786-9724-a4afc454be9b",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 101
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "虎克",
+        "text": "呣呣呣…鼹鼠党的老大，说到就要做到！"
+      }
+    },
+    {
+      "id": "f88913be-1d1a-41cb-9b25-a52856bfc7f4",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 102
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "虎克",
+        "text": "虎克看到黑色头发的大哥哥，被蓝色头发的叔叔带去搏击俱乐部了。"
+      }
+    },
+    {
+      "id": "8aa9b2c2-33b3-4d06-9bca-6f94bbafc4de",
+      "source": {
+        "mission": "捉迷藏",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/捉迷藏.json",
+        "contentIndex": 103
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "搏击俱乐部？"
+      }
+    },
+    {
+      "id": "412229dd-396a-42a6-acaf-7c94cc6c61e6",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "进入「搏击俱乐部」"
+      }
+    },
+    {
+      "id": "8ce758a0-79cf-4cde-9c20-ce0faaee2a13",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 5
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "掘掘博士",
+        "text": "——兄弟姐妹们！接下来这场，将是今天最精彩，最刺激，最震撼的对决！"
+      }
+    },
+    {
+      "id": "aa82bf6b-e781-47be-b083-266a350d3236",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 6
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "掘掘博士",
+        "text": "不苟言笑，实力超群的超级新人——「冷面小青龙」！由深蓝帅哥推荐！"
+      }
+    },
+    {
+      "id": "35fdf62f-c683-4643-b8e5-c24a08becd85",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 7
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "掘掘博士",
+        "text": "他的对手是——没得感情，易燃易爆的机器小分队！赞美史瓦罗大佬！"
+      }
+    },
+    {
+      "id": "10ffdd58-46b7-43f1-8e95-da5623b015e3",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 8
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "掘掘博士",
+        "text": "由于没有其他选手愿意与机器小分队对抗，这场比赛只好由「冷面小青龙」独自出战，他本人也放出豪言壮语：「随便」！"
+      }
+    },
+    {
+      "id": "c7a2349b-4c43-4010-928b-91bdae505a85",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "掘掘博士",
+        "text": "那么，第一千七百五十八届搏击擂主挑战赛半决赛，现在开始！"
+      }
+    },
+    {
+      "id": "f5b8652f-b1b7-4ad3-935b-edefa66cc860",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "快！我们去帮他！"
+      }
+    },
+    {
+      "id": "74d4e09c-ad75-40f6-a6d2-e923eb5905b0",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你和三月七冲进擂台…"
+      }
+    },
+    {
+      "id": "3e2e5151-cab6-44ed-830f-5f7f63d0c0a9",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "掘掘博士",
+        "text": "哦？这是…意外的情况出现了！两位观众闯入了八角笼！他们似乎想和「冷面小青龙」组队？"
+      }
+    },
+    {
+      "id": "81b2de80-c954-495f-9fb0-8cb1a9e61c3f",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 13
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…总算醒了？"
+      }
+    },
+    {
+      "id": "65b8eac4-4182-42fe-bcf6-76d5181019c4",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 14
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "是啊，醒来第一件事就是到处找你，这不，看见你有难，我们赶来救场啦，感谢我们吧~"
+      }
+    },
+    {
+      "id": "f2795e6b-fd5a-4afd-a3d6-d34a8b26a066",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 15
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "掘掘博士",
+        "text": "我感受到了他们的热情！这项运动就是这么热血，这么有吸引力！不过我必须重申，搏击比赛是专业的，危险的——"
+      }
+    },
+    {
+      "id": "6aefe672-bda3-4346-b5e4-8c2cb47ff502",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 16
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "掘掘博士",
+        "text": "——但是小青龙选手示意比赛继续！他已经迫不及待了！好啊！看看是这帮家伙的拳头硬，还是机器人的铁皮更硬！"
+      }
+    },
+    {
+      "id": "24a50b5f-c2a5-4621-9df4-a09fed816864",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 17
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "就算你们不来，我一个人也能解决。"
+      }
+    },
+    {
+      "id": "ed0f80b1-fb4b-4313-bf27-c91591328750",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 18
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "…哎，真是不能指望你的情商。"
+      }
+    },
+    {
+      "id": "9417f08e-36ac-4ac4-9b00-83e566b72afc",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 21
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "赢得比赛…"
+      }
+    },
+    {
+      "id": "8dbed427-67d7-445a-b61e-61d069bd3ed1",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 22
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "掘掘博士",
+        "text": "漂亮的一击！胜利者是「冷面小青龙」——以及两位临时参战的观众！"
+      }
+    },
+    {
+      "id": "0633943c-55a3-4aff-a348-497219e1109f",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "「观众」…就不能给我俩也想个绰号嘛。"
+      }
+    },
+    {
+      "id": "b39ca53d-4d5a-41cd-99d6-ade3f520f157",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 24,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "冷面小粉龙！"
+      }
+    },
+    {
+      "id": "462c25d6-c389-4739-b605-cf2fc5e3b9e3",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 25
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "呃，那算了，品味太差。"
+      }
+    },
+    {
+      "id": "a42f54c4-50e7-422c-973e-55e8d7a24fb9",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 26
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "啊，快看，桑博在那儿！"
+      }
+    },
+    {
+      "id": "fa6de617-d368-468a-a07d-e94e53193ea2",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 28
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我们追。"
+      }
+    },
+    {
+      "id": "8da327d1-ff7e-48c5-bbf9-e8208a1bb645",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 29
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "抓住并质问桑博"
+      }
+    },
+    {
+      "id": "133cd525-5043-4c9c-bf01-313a81353063",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 34
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "找到桑博…"
+      }
+    },
+    {
+      "id": "b15be4fc-175b-4cea-a800-d361f8d936db",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 35
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "呃…嗨！原来是你们啊，我说怎么有几个人跟在后面，寻思是不是遇见劫道的了，忍不住越走越快…早知道是你们，我就张开双臂来相见了呀。"
+      }
+    },
+    {
+      "id": "d0baa384-6c70-49a7-b039-84fef3c5395e",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "少来这套，你明明是看见我们心虚才跑的。"
+      }
+    },
+    {
+      "id": "e7b72816-b3f4-4358-9c20-e04f15e80cd0",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "我？我哪有心虚，哈哈哈，我桑博一向问心无愧…天哪，难道我无意中做了什么得罪各位好朋友的事吗！"
+      }
+    },
+    {
+      "id": "5c324c83-5ba5-4fb8-ba57-2621c4d0f09e",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 38,
+        "contentPath": [
+          "options",
+          2,
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你把我们弄到地下来，到底有什么企图！"
+      }
+    },
+    {
+      "id": "15739a74-145d-4551-b505-296e47bd5eb3",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 39
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "把你们弄到这儿…真的是迫不得已。留在地上太危险了，咱们都是铁卫悬赏捉拿的要犯；地下纵有千般不好，至少铁卫绝对不会追下来，是个安全的去处……"
+      }
+    },
+    {
+      "id": "a5712815-0369-4e25-a1a2-5afca04f0b53",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 40
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "即使如此，也没有迷晕我们的必要吧？"
+      }
+    },
+    {
+      "id": "8a4af054-07ad-4a02-9cc6-be95c4ee8325",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 41
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "当时局势那么危急，哪有琢磨的时间，手头有什么就扔什么咯。"
+      }
+    },
+    {
+      "id": "0fc82c9e-5f66-4b2c-990b-b0904375888e",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "不是为了隐藏什么吗？某个不想让任何人，比如我们，知道的秘密？"
+      }
+    },
+    {
+      "id": "8b55763e-9309-4866-a1a3-93248d695e23",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 43
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "……"
+      }
+    },
+    {
+      "id": "e9461998-a429-40ef-b923-0ffe78a19bc6",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 44
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "丹恒，是什么秘密啊？"
+      }
+    },
+    {
+      "id": "758023e2-00ab-4a45-a5d1-4d5edf63b4e0",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 45
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "还不清楚具体内容…但我知道你背后有鬼。"
+      }
+    },
+    {
+      "id": "e2f547c3-edee-4cdc-8932-fa1936d91377",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 46
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "好了！我会帮助你们，毫不保留，分文不收！只求小哥千万别到处乱说！"
+      }
+    },
+    {
+      "id": "c07c5c2a-350b-494f-8b4c-c556bb6ac4e6",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 47
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "为表诚意，我先引荐各位认识「地火」。如果你们想在地下找什么，问他们就对了！"
+      }
+    },
+    {
+      "id": "4c2b2555-dbad-4b5c-ba61-48eb99d736fa",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 48,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "「地火」凭什么要帮我们？"
+      }
+    },
+    {
+      "id": "98a4e168-3d0d-42ef-89ef-75c2bbd269bf",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 48,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "因为你们有需求啊，这还用问？丹恒小哥说你们在找什么「星核」——这种听着就很厉害的玩意，也就「地火」那儿可能有线索了。"
+      }
+    },
+    {
+      "id": "4123075c-f90a-4d92-a3fb-2ac65d0e0026",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 48,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "你不是说在搏击俱乐部拿到冠军，才能得到线索吗？"
+      }
+    },
+    {
+      "id": "2de35954-c3d6-4614-b45f-5896324af903",
+      "source": {
+        "mission": "第八条、也是最后一条规则",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/第八条、也是最后一条规则.json",
+        "contentIndex": 48,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "呃…呃，对、对啊。你拿到冠军就有名气了，出名了「地火」就愿意见你了，没毛病啊。"
+      }
+    },
+    {
+      "id": "bd60d69f-4e63-4c73-a856-e06e2eb2721a",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "寻找「地火」的踪迹"
+      }
+    },
+    {
+      "id": "2beb9a5d-8c43-4ba5-973b-9900bfbf67d9",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们看到了一个熟悉的身影…"
+      }
+    },
+    {
+      "id": "ccb7803e-02fa-4fc1-9f84-2ed9d3a238e7",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 28
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "喂，你们快看，那是谁！"
+      }
+    },
+    {
+      "id": "7134b01f-7640-4268-87c5-5a3141c730bb",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "dialogue",
+            "speaker": "流浪者",
+            "text": "这么嚣张，那就别怪我不客气了！"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "流浪者对布洛妮娅开了一枪…"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "一道紫色的身影出现，砍断了子弹…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "敢在我们的地盘上出手……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "要接着过几招吗？"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e4cee057-f0e8-4e80-b9ec-f93004cb173f",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "流浪者落荒而逃…"
+      }
+    },
+    {
+      "id": "cb665037-48e4-4d56-ba54-cc0d87dc96ef",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 38
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "流浪者",
+        "text": "糟了，快走！"
+      }
+    },
+    {
+      "id": "42267bb0-8a0e-4834-ab81-184b12199745",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 39
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "…欺软怕硬的渣滓！"
+      }
+    },
+    {
+      "id": "7509125b-0991-4586-a91c-da841dbe8d78",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 40
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "希儿小姐！呼，幸好你出手及时，感激不尽啊~"
+      }
+    },
+    {
+      "id": "75ee540a-ee5f-43ca-84a9-b351f5bd2537",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 41
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "这帮流浪者还真够嚣张的，竟然敢在「地火」的地盘上动武——"
+      }
+    },
+    {
+      "id": "aa7faa7f-8212-4b6d-8603-4a93a7faec82",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "闭嘴吧桑博，这件事你也逃不了干系。「地火」现在有一堆麻烦事要处理，你非得在这时候添乱吗？"
+      }
+    },
+    {
+      "id": "741c26ec-9530-4d6d-83c4-1f5a77e70e45",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 43
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "我听说有个银鬃铁卫跑到下层区来了…是你么？"
+      }
+    },
+    {
+      "id": "a2345e5a-b62a-4a4a-b770-a69ef5ae0a30",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 44
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "你们把我绑架到地底，到底有什么企图？"
+      }
+    },
+    {
+      "id": "fd66143f-e757-43ab-a38d-cbbe7a4c7af5",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 45
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "哼，「到底有什么企图」…她以为自己还是上面的大小姐呢。"
+      }
+    },
+    {
+      "id": "eb4764c9-0208-4add-98a5-6b431d80c384",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 46
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "待在地上很舒服吧？你们知道地下变成什么样了吗？你们有考虑过下层人的死活吗？"
+      }
+    },
+    {
+      "id": "3d68e979-f1a8-4cb1-bd61-30d077100a5d",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 47
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "银鬃铁卫不是「舒服」地待在地上。铁卫一直在与敌人战斗，从怪物手中保卫贝洛伯格…保护地上和地下的每个人。"
+      }
+    },
+    {
+      "id": "09810c35-b130-4a4e-986a-a2d9e8d60eef",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 48
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "嘿，说的比唱的还好听，你们保护了地下什么？把铁卫全调上去，封锁上下通路，说好听点还不是为了保护所谓的「筑城者」么？"
+      }
+    },
+    {
+      "id": "498d6bea-a56f-4839-8771-d151b198937e",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 49
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "守护者大人有她的考量……"
+      }
+    },
+    {
+      "id": "78ac8547-ab8a-4b36-bfaa-f1138ac98fb8",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "哼。"
+      }
+    },
+    {
+      "id": "ac93b67a-36cc-4fd9-b536-b52a3a80bd7c",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "总之，你跟我走一趟。奥列格头儿要见你，他好像有很多问题要问。"
+      }
+    },
+    {
+      "id": "cf1a8b54-4cca-4002-87ba-898aa573757b",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 52
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "好巧啊，希儿小姐！我们也有事情想要拜会首领大人！搭个伙一起走呗？"
+      }
+    },
+    {
+      "id": "159e664f-fecb-44cb-8643-48d1bd2c9086",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 53
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "谁要跟你搭伙。"
+      }
+    },
+    {
+      "id": "e3f52730-be56-4214-837d-521838b80253",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 54
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "…这几个人是谁？"
+      }
+    },
+    {
+      "id": "06a5ad92-58e9-42ee-b2e9-a07deb2a6804",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "是这样的，这几位是头儿迫切需要的人才，我正要带他们去拜见奥列格……"
+      }
+    },
+    {
+      "id": "a5d56e6b-0a65-4cb6-ac06-6c923219cb6d",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "我们来这儿寻找一种叫「星核」的东西，它是所有灾难的罪魁祸首，只要找到它，我们就能——"
+      }
+    },
+    {
+      "id": "f6db7b29-cc5e-4315-85d2-a6a6b356b8a8",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 58
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "小姐姐，这事你也别见谁跟谁说啊，奥列格才是头儿，希儿小姐不懂这些的。"
+      }
+    },
+    {
+      "id": "755e21b4-3192-49eb-a86c-94c0221ba346",
+      "source": {
+        "mission": "她等待刀尖已经太久",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/她等待刀尖已经太久.json",
+        "contentIndex": 59
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "我是不懂，而且也没打算帮你们传话。「地火」在大矿区遇到了点麻烦，头儿正在忙着处理。你们要是真想见他，就到矿区入口来找我吧。"
+      }
+    },
+    {
+      "id": "66e78db8-7e53-4a10-9d45-e8ab41027b0d",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 15
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "进入「大矿区」"
+      }
+    },
+    {
+      "id": "346e62ae-1689-4e17-9665-9963b4196e70",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 19
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "咦？那不是医生姐姐吗？"
+      }
+    },
+    {
+      "id": "70c30c8c-b250-4737-989a-1992e6d8ac67",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 24
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "娜塔！没想到连你都来了，奥列格去哪了？"
+      }
+    },
+    {
+      "id": "dba04fc8-4309-4f86-8734-1b319f2a7d36",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 25
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "嗨，希儿，还有…桑博的客人们。看来你们已经认识啦？"
+      }
+    },
+    {
+      "id": "1e4181db-dce0-4c2c-a2e9-44c0abad907e",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 26
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "我也没见着奥列格。矿民说看到他带一批人往深处去了。"
+      }
+    },
+    {
+      "id": "a3cee2f1-ac41-479c-ae93-6f77b9f10c79",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 27,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "这些人是…"
+      }
+    },
+    {
+      "id": "64b1bd59-212d-408c-a55f-0f79364039bd",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 27,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "矿民和家属，都是来找挑事的地痞讨说法的。"
+      }
+    },
+    {
+      "id": "44556f5e-3d7a-4b24-9570-2a617869271d",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 27,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "这前面是流浪者的聚集地，现在入口被封起来了。估计是怕愤怒的矿民报复吧。"
+      }
+    },
+    {
+      "id": "9a2b1c80-3f5a-4742-b498-053a528347a3",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 27,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "听说冲突导致了不少人受伤，我就赶来看看能不能帮上忙。"
+      }
+    },
+    {
+      "id": "79338f35-b340-402a-a48c-23f1280989c0",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 28
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "怎么会闹到这个地步？"
+      }
+    },
+    {
+      "id": "895c7ede-c437-4986-9361-b4f261592dac",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 29
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "据说是第一矿队发现了一片「地髓」矿脉，储量惊人…初步估计，大概是近三十年发现的最大矿藏。"
+      }
+    },
+    {
+      "id": "b890d3a2-4392-41f3-a69f-c412c7b932ee",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "真的假的？这么大的新闻，我怎么一个字都没听说？"
+      }
+    },
+    {
+      "id": "49475f8d-7d43-4eee-a989-18428324d041",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "他们才不想声张呢。大部分矿区都被裂界污染了，很多人都丢了工作。这消息要是传出去，怕不是矿工都要挤破头了。"
+      }
+    },
+    {
+      "id": "11946ebe-e580-41e4-b651-9b27270c551b",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "但是矿队瞒不过这儿的流浪者，毕竟他们眼睛也不瞎。有些流氓地痞想借此捞一笔，向矿队勒索封口费…这就触犯了他们的底线。"
+      }
+    },
+    {
+      "id": "d6140b06-9f96-4408-b8e6-8079f57b0d8a",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 34
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "结果就是两拨人发生了剧烈冲突，损失惨重。"
+      }
+    },
+    {
+      "id": "9f2d6ab1-9e42-4dd2-8490-ad452766ff83",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 35
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "你们来这里，是打算帮忙解决矿区的矛盾吗？"
+      }
+    },
+    {
+      "id": "35e7bc1e-f99e-4166-8733-86a269c10224",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "那倒不是他们的本意。这几个人有求于奥列格首领，所以我把他们带来了。"
+      }
+    },
+    {
+      "id": "fdbeb567-48e3-451b-8d47-bc962be3d72e",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "既然有事相求，顺手帮个忙应该不算过分吧？"
+      }
+    },
+    {
+      "id": "f6df001a-3dfa-4a11-92ce-7434b5caf4f6",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 38
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "…听上去咱们好功利啊！"
+      }
+    },
+    {
+      "id": "3dc332d2-863b-4c6c-9d49-98b203d2fe22",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 39,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "等价交换，这很合理。"
+      }
+    },
+    {
+      "id": "6c38ec1e-6335-497f-bbbf-427401e7f18c",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 39,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "哼，是啊，天底下哪有无缘无故的善意。"
+      }
+    },
+    {
+      "id": "7e0b45cb-bb44-4b76-89a5-fc5a1a47a0ee",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 40
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "哈哈，我觉得这几位都是心地善良的人哦。"
+      }
+    },
+    {
+      "id": "4063fada-e353-4393-b81d-fac4438892da",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 41
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "娜塔莎",
+        "text": "如你们所见，地底的情况真的…很艰难。如果方便的话，希望你们帮帮地下的百姓吧。"
+      }
+    },
+    {
+      "id": "77d14042-8ccd-48fd-a5e2-7a2a933ee19e",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "深入矿区，救助沿途的矿民"
+      }
+    },
+    {
+      "id": "76a3258c-daeb-425e-94b2-4b1a56c5cfda",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "新发现的巨大矿脉…那儿应该就是冲突的中心吧？"
+      }
+    },
+    {
+      "id": "3d7fbe22-afe9-4ee7-8411-e35b568069b2",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 64
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "走，我们上高处看看。"
+      }
+    },
+    {
+      "id": "90b35014-a1df-496b-a147-80d10bf2db04",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 65
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "fa2add90-ece2-4913-b01e-a857d26d36c5",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 81
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "希儿看到了一个熟悉的身影…"
+      }
+    },
+    {
+      "id": "3499ec58-e70b-4236-afe7-df7ae55fc93f",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 82
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "我认得那边的姑娘，是第一矿队的伊蕾恩！快，快上去看看她伤势如何。"
+      }
+    },
+    {
+      "id": "6b4847f6-42e4-486e-b453-ad8bd7d25d90",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 83
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "伊蕾恩！你还好吗，伤势严重吗？"
+      }
+    },
+    {
+      "id": "898885d0-e5d5-4ba6-8387-576e22d45c1e",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 84
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "伊蕾恩",
+        "text": "希儿！谢谢，我还好，只是关节有两处扭伤。"
+      }
+    },
+    {
+      "id": "e2071d6e-6d85-4ae0-800d-46fa6bdf5335",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 85
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "伊蕾恩",
+        "text": "你们来得正是时候，那些流浪者一直在问机器人的事，可我真的什么也不知道……"
+      }
+    },
+    {
+      "id": "343c9992-de84-4b30-a4d4-eaa57db01d1b",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 87
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "伊蕾恩",
+        "text": "啊，你们还不清楚里面的情况吧？大矿区里圈已经被一群机器人占领了！矿队还是流浪者都没法靠近。"
+      }
+    },
+    {
+      "id": "0fe05351-a060-4579-abe8-daba415f477a",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "…第三方势力「机器人」出现啦！我就说嘛，要真是人和人斗，这故事就没意思了。"
+      }
+    },
+    {
+      "id": "b6aee2f1-3482-4e5c-9648-9d265d098fef",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 89
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "没人知道机器人的来历吗？"
+      }
+    },
+    {
+      "id": "c18c39dd-b7ac-4d6c-a9a6-e35a0b04e19f",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 90
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "伊蕾恩",
+        "text": "我们一开始以为是采掘机出了集体故障，后来却发现那些机器根本就不是矿队的资产。"
+      }
+    },
+    {
+      "id": "17a2157f-7437-4f9b-a627-baef8a9bff1d",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 91
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "伊蕾恩",
+        "text": "它们不知从哪儿涌了出来，一股脑就把我们和流浪者全赶出去了，还堵住了下到里圈的必经矿道。"
+      }
+    },
+    {
+      "id": "110e9fd3-a333-4fed-ad72-30a4ebe8b23c",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 92
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "难道有人在背后捣鬼？"
+      }
+    },
+    {
+      "id": "1f026863-c42e-4608-8f8c-75e9fc985cd0",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 93
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "伊蕾恩",
+        "text": "肯定不是矿队的人…单是操作一台矿机就够累的了。同时操控这么多？不可能的。"
+      }
+    },
+    {
+      "id": "2f8968f5-d115-4a45-8eb7-7ccf7649aa7e",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 94
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "那只有一个答案了：「史瓦罗大佬」……"
+      }
+    },
+    {
+      "id": "df00e0cb-81cf-485e-acc5-3c7f7200a8ef",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 95
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "史瓦罗？这名字听着耳熟……"
+      }
+    },
+    {
+      "id": "247ecdb4-e095-4d17-989b-13e7d42f7667",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "记得在拳馆击败的机器人吗？"
+      }
+    },
+    {
+      "id": "bffd80ea-fc41-488f-8da2-e33071ac5f79",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 100
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "继续深入矿区"
+      }
+    },
+    {
+      "id": "2272fc57-645f-498b-86c9-2b4f34b110f5",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 136
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "安东尼娜",
+        "text": "…欺软怕硬的货色，怎么在史瓦罗的喽啰前头就支棱不起来了啊？你们爹妈没教过什么叫骨气吗？"
+      }
+    },
+    {
+      "id": "7091f3df-2a28-4fe4-a661-661ba95c2143",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 137
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "流浪者",
+        "text": "开玩笑！跟机器人拼命，老子图个啥？你们也别装干净，挖出这么大一片地髓还遮着掩着，独食好吃吗？"
+      }
+    },
+    {
+      "id": "ca3c0287-0a89-4ebe-a35a-193cab2ee5cf",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 138
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "安东尼娜",
+        "text": "这矿山本就是我们的地盘，矿队没日没夜拼命赶工的时候，也没见你们出半点力气，连个耍嘴皮子放酸屁的都没有！"
+      }
+    },
+    {
+      "id": "fcfeb4c1-a636-42d6-b38b-9c1010eeb5f6",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 139
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "安东尼娜",
+        "text": "成天好吃懒做，一门心思只想占别人便宜，居然还这么理直气壮…真不要脸！"
+      }
+    },
+    {
+      "id": "3afd0965-6320-4582-8ae0-98bcc18e7ea6",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 140
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "流浪者",
+        "text": "肚子都填不饱了，要脸管个屁用——我懂喽，你就盼着咱们全饿趴下，给你们矿队省点口粮喽。"
+      }
+    },
+    {
+      "id": "1c00b5a1-5d68-494e-a9b3-78194d440607",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 141
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "安东尼娜",
+        "text": "…跟你们讲道理真是浪费口水。现在好了，你们闹这一出大动静，整片矿脉都被机器人霸占了，谁都落不着好。"
+      }
+    },
+    {
+      "id": "d1bf82ab-ad97-49c3-94dc-2612ca33f21d",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 142
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "流浪者",
+        "text": "哼哼，是哦，矿脉是指望不上了…但你可别忘了，上了膛的家伙现在在谁手里呢？"
+      }
+    },
+    {
+      "id": "1a965ab6-813e-44f9-b6c3-32d68faf708e",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 143
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "安东尼娜",
+        "text": "你…你们想干什么？我警告你，「地火」还在附近……"
+      }
+    },
+    {
+      "id": "aa111e8a-6638-46cc-bc42-fe1bc6510a7f",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 144
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "流浪者",
+        "text": "少拿「地火」吓唬咱！他们忙着跟史瓦罗的喽啰玩儿呢，哪有空管你们？不想身上多个窟窿，就把带的物资跟装备都交出来！"
+      }
+    },
+    {
+      "id": "3bb5beba-dc4c-4e85-ba7a-618db633138d",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 145
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "他们要动手！对面那群矿工没带武器。"
+      }
+    },
+    {
+      "id": "6a7490a4-dd34-43ce-93ad-b879b81221a0",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 146
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "岂有此理——"
+      }
+    },
+    {
+      "id": "fd945eba-fbaa-4038-a335-f0b1cd939747",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 148
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我也要参战，不能让这伙流氓为所欲为！"
+      }
+    },
+    {
+      "id": "032f20ce-72bc-47ec-a55d-8ccb06504ac8",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 153
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败地痞…"
+      }
+    },
+    {
+      "id": "be0739f7-7a81-4617-99ea-86621447713c",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 154
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "安东尼娜",
+        "text": "希儿！还好你来了，要不然我们就——"
+      }
+    },
+    {
+      "id": "08bfe45e-a57f-49e1-a9da-a31b2a289d4d",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 155
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "几个混混而已，你们没事就好。对了，安东尼娜，你见到奥列格首领了吗？"
+      }
+    },
+    {
+      "id": "10804466-9f96-4560-889b-63cbde68f132",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 156
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "安东尼娜",
+        "text": "奥列格？他带着一帮人下去里圈了，说是打算把侵入的机器人都给赶走。"
+      }
+    },
+    {
+      "id": "db6ea6b1-46ed-4050-ba8f-105b39372754",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 157
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "安东尼娜",
+        "text": "他们去了有一阵子了。哼…要不是「地火」不在，那群混混哪敢这么嚣张。"
+      }
+    },
+    {
+      "id": "0cc178a5-2bc8-4e91-a3d7-f6e7c6beb4e6",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 158
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "看来问题的核心还是史瓦罗的机器人……"
+      }
+    },
+    {
+      "id": "3b40d084-7458-40fb-8c50-bdd77801ca50",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 159,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "该聊聊这位「大佬」了。史瓦罗，到底是什么人？"
+      }
+    },
+    {
+      "id": "8b5c461e-a8eb-4d7e-8928-cf825e9c6857",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 160
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "这个「大佬」…他是在银鬃铁卫被调离以后突然出现的，很快就成了下层区的地方一霸。"
+      }
+    },
+    {
+      "id": "2c83ee86-760d-476f-b5da-444d6bc388ba",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 161
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "史瓦罗自称是人类的守护者，所有无主的机器人都听他的号令。它们占据了炉心枢纽，不允许任何人靠近。"
+      }
+    },
+    {
+      "id": "fd1de55d-5fd5-49f7-9706-9b6aa23f0ce8",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 162
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "没人知道史瓦罗为什么要这么干…他平时很少离开炉心，但如果下层区哪里发生了骚乱，他总会掺一脚。"
+      }
+    },
+    {
+      "id": "1e4f3d1b-6cd1-4459-bb67-975d1eaf0b6d",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 163
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "能号令机器人的…「人类守护者」？我从没听说过这种事……"
+      }
+    },
+    {
+      "id": "a295bb1e-80ad-44c8-a86e-db1bc94748da",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 164
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "哼，你们那什么筑城者，看来也不是全知全能啊。"
+      }
+    },
+    {
+      "id": "beec492a-88d7-4a2b-8ef8-594f361606d8",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 171
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "继续深入矿区"
+      }
+    },
+    {
+      "id": "9073a837-520e-45ff-a388-df359c9dcec3",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 223
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "继续深入矿区，寻找奥列格"
+      }
+    },
+    {
+      "id": "3b5dd9d7-ed60-436c-a2e2-21805957c7ac",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 236
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们来到最下层…"
+      }
+    },
+    {
+      "id": "4ad99e45-4dcc-44f4-ae48-4b95daacecf1",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 237
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "克拉拉",
+        "text": "这片矿脉…大家就是为了它……"
+      }
+    },
+    {
+      "id": "a8f787c4-692a-4191-bda2-d716cf256de7",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 238
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "克拉拉",
+        "text": "史瓦罗先生，你看——好大的矿脉呀。克拉拉从来没见过这么多地髓……"
+      }
+    },
+    {
+      "id": "0a72e65e-ad87-492b-8061-01fe3c31ce11",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 239
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "史瓦罗",
+        "text": "正在计算——基于平均开采效率，这片矿脉可以维系贝洛伯格两百三十一天，正负误差七天的能量供给。"
+      }
+    },
+    {
+      "id": "0070dad9-cfe2-48ce-b99b-f49188451f1b",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 240
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "史瓦罗",
+        "text": "但你召唤我来，应该不是为了这些矿石。说出你真正的想法吧，克拉拉。"
+      }
+    },
+    {
+      "id": "05543294-b9bf-4e5e-bc0a-5d04d7eea102",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 241
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "克拉拉",
+        "text": "…对。我是想让史瓦罗先生看到，有很多流浪者和矿工因此受了伤…你能帮帮他们吗？"
+      }
+    },
+    {
+      "id": "60c43363-173c-43b5-8129-86ae6c8e187b",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 242
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "史瓦罗",
+        "text": "我已经阻止了双方阵营的争端，暂时控制了开采区域。评估结果——三十日内，无突发变量，不会发生大规模械斗冲突。"
+      }
+    },
+    {
+      "id": "e1d1d2ad-523b-473c-a7da-ee37ea5cb1c4",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 243
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "克拉拉",
+        "text": "我明白史瓦罗先生的用意！只是…克拉拉觉得，只有这样还不够。"
+      }
+    },
+    {
+      "id": "902d3e36-0eaa-4c88-b87b-90357ad7f042",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 244
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "克拉拉",
+        "text": "矿队、还有「地火」的各位，还是不理解史瓦罗先生的初衷…要是我们能为大家多做些事……"
+      }
+    },
+    {
+      "id": "09859bff-53bc-4c96-9ca3-46c55d985308",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 245
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "史瓦罗",
+        "text": "我的任务是「存护」下层区，少数样本的信任在计算中是多余的。"
+      }
+    },
+    {
+      "id": "7930f743-9561-42e5-b121-2718369b1c9e",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 246
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "史瓦罗",
+        "text": "人类的行为永远偏离理性的计算，克拉拉——"
+      }
+    },
+    {
+      "id": "4262ce33-033a-4e83-89a2-b8f8d9273069",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 247
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "史瓦罗",
+        "text": "他们会出现在这里就是证明。"
+      }
+    },
+    {
+      "id": "b5f1be93-d5be-4c8d-b46c-03480ec312f0",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 248
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "史瓦罗！上次的账还没跟你算清楚呢。"
+      }
+    },
+    {
+      "id": "b775e9eb-3e06-4ed6-84b1-5a976122f7f6",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 249
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "史瓦罗",
+        "text": "隶属「地火」的希儿…你们的抵抗是无价值的。计算结果非常清晰：留在下层是最优的生存策略。"
+      }
+    },
+    {
+      "id": "8d099661-3df8-4774-a015-1cbe53b47428",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 250
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "又来了——什么计算结果，生存策略，我可没空听你长篇大论。赶紧把你手下的杂鱼撤走，不然别怪我不客气！"
+      }
+    },
+    {
+      "id": "29724e75-daec-4f23-b2a2-5e8be06d049d",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 251
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "史瓦罗",
+        "text": "你看，克拉拉。即使在极端恶劣的生存条件下，人类也无法避免分裂与争斗。"
+      }
+    },
+    {
+      "id": "953c0308-7596-4001-a699-74e427872a6e",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 252
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "克拉拉",
+        "text": "但是，史瓦罗先生……"
+      }
+    },
+    {
+      "id": "e26988e3-d978-4e27-9a99-d51fe749b90b",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 253
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "史瓦罗",
+        "text": "试图颠覆计算结果的人类，是对下层区生存战略的巨大威胁。计算完成，结论已经明确：用武力使「地火」及其同伙服从是效率最高的方案。"
+      }
+    },
+    {
+      "id": "1b590f26-97ce-40ad-b5d6-85c09bb1dd39",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 255
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "史瓦罗",
+        "text": "我们走，克拉拉。出现外来变量，计算重启，炉心枢纽需要有人守卫。"
+      }
+    },
+    {
+      "id": "33ab7846-4726-4ac4-abd6-2830517df28a",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 254,
+        "contentPath": [
+          "options",
+          1,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "啊，那个红衣服的小姑娘怎么办？大机器人要把她带走了！"
+      }
+    },
+    {
+      "id": "854bff1a-864f-449d-b4fd-635789415397",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 262,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "你说克拉拉？不用在意，那丫头似乎跟史瓦罗关系很好，总是跟在他身后。史瓦罗不会伤害她的。"
+      }
+    },
+    {
+      "id": "fac87ccd-0735-4822-80d6-ea51676a06c3",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 263
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "我第一次看见的时候也理解不了，现在早就见怪不怪了。赶紧去找首领吧。"
+      }
+    },
+    {
+      "id": "5626a48e-59b6-4ed2-bc89-97b6d09f7e0f",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 264
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "——不用到处找我啦，希儿。"
+      }
+    },
+    {
+      "id": "34c87cec-0182-4881-8081-607a366151a7",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 265
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "干得不错，希儿。我们被一群不知哪儿来的机器人前后夹攻，本来都以为要打场持久战了，哈哈哈！"
+      }
+    },
+    {
+      "id": "184c498e-e205-4fb6-9c83-e010c3a0e67c",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 266
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "首领！大家都还好吗，有没有人受伤？"
+      }
+    },
+    {
+      "id": "e31d3e2a-24ba-4770-a518-a19414863690",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 267
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "没事，早习惯了。难缠的机器人杂牌军都被赶回去了，矿区应该能暂且消停一阵。"
+      }
+    },
+    {
+      "id": "f66c4783-a730-4e05-ae72-d32adf98cc7c",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 268
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "你的这几位同伴是……"
+      }
+    },
+    {
+      "id": "15b5bf3f-d99d-4d73-a26b-e13b7038da51",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 269
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "啊，他们啊，是桑博不知从哪带下来的「外来者」，因为有求于「地火」才跟我一起下来的。说来话长，还是留给他们自己解释吧。"
+      }
+    },
+    {
+      "id": "b3614cb6-ca5d-46f2-8d6b-dada69d45e22",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 270,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "您就是首领？千呼万唤始出来。"
+      }
+    },
+    {
+      "id": "c6a89313-e90e-4931-a1c0-e5b55fa864e7",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 270,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "哈哈哈！这家伙，初次见面就这么嚣张，我记住了。"
+      }
+    },
+    {
+      "id": "0f75f2c7-2696-4e3e-a9d6-fc02170922a0",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 271
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "所以，你们费这么大的力气来这儿找「地火」，是要我们帮什么忙吗？"
+      }
+    },
+    {
+      "id": "24061d9e-c966-44f5-8433-072e9d25d87a",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 272
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "将此前发生的事和寻找「星核」的诉求全部转述给了奥列格和希儿……"
+      }
+    },
+    {
+      "id": "91f83378-7eb8-46b2-87d9-0e4dbc788640",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 273
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "哈！没想到你们还在上面演了这么一出戏，真是精彩。"
+      }
+    },
+    {
+      "id": "e5374376-a8ff-4d1c-84a0-6f93afd357d1",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 274
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "嚯！这还真新鲜，「地火」连地下都快顾不过来了，没想到还有外来者找咱们帮忙。"
+      }
+    },
+    {
+      "id": "7fb011ea-66d7-442e-b870-4680472fdfd1",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 275
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "你们说的这个「星核」…我没听过，不知道。但如果是连本地人都没听说过的秘密，我脑袋里倒是有个名字……"
+      }
+    },
+    {
+      "id": "0646427f-1d3e-4098-85f5-f9c8e901915e",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 276,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "…你不会想说可可利亚吧？"
+      }
+    },
+    {
+      "id": "d0b35feb-f15a-45e9-8c8e-39bcb22d1997",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 277
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "现任「大守护者」不过是个骗子，她用花言巧语欺骗了下层区，而且压根不在乎我们的生存——"
+      }
+    },
+    {
+      "id": "a895114c-fc2f-4e0e-9a6d-f8a6fd66bbd3",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 278
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "别再说了，我不容许你在我面前侮辱守护者大人。"
+      }
+    },
+    {
+      "id": "d74ba87e-4fec-47fe-b8e3-b7fd388426a0",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 279
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "上层区的丫头，我说的话听着刺耳，但是句句属实。你可以跟矿镇的人打听打听，看看他们这些年是怎么捱过来的。"
+      }
+    },
+    {
+      "id": "36c89d92-2560-4094-9f93-95238871d207",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 280
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "……"
+      }
+    },
+    {
+      "id": "d9c73e03-8add-4447-a41d-9e1c02861d34",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 281
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "下层区对你们的怨气，光靠这两三句话可解释不清，铁卫丫头。但我尊重你的要求，不说了，不说了。"
+      }
+    },
+    {
+      "id": "07481c3b-6a02-4086-93e4-3ee7a3572d25",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 282
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "说回正题吧，我刚才想到的「人」，就是史瓦罗。"
+      }
+    },
+    {
+      "id": "a0667826-9acc-43bd-9e80-80defa938884",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 283
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "欸…欸？！那个史瓦罗，他是你们「地火」的死对头吧？"
+      }
+    },
+    {
+      "id": "9e4b7b0b-2bcf-4211-8cc7-3835e3926f42",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 284
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "他只是地下的一台机器人，为何会知道重要的秘密？"
+      }
+    },
+    {
+      "id": "33d98b48-d776-49c0-9101-61d497812996",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 285
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "死对头？我可不这么想。在我看来，他就像这位小哥说的，是台冷冰冰的机器，只认自己「计算」出来的死道理。"
+      }
+    },
+    {
+      "id": "1973cbd3-b718-4dd8-8b8e-40714b917bb5",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 286
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "史瓦罗不是在和「地火」作对…或者该说，那家伙根本没把我们放在眼里。他可是经历过「那场战争」的远古机器人……"
+      }
+    },
+    {
+      "id": "7a74ccec-7190-4a48-a087-85ff8fbb2752",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 287
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "如果你们在找的是个有点年头的东西…那没有比他更好的消息源了。"
+      }
+    },
+    {
+      "id": "4f2713af-02ad-44f2-b8da-1830d5d436ad",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 288,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "是指和反物质军团的战争吧。"
+      }
+    },
+    {
+      "id": "0ab08ada-257f-4552-9d05-1aaf152c2fe0",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 288,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "嗯，记得这个世界在好几百年前，遭到过军团的入侵。"
+      }
+    },
+    {
+      "id": "161b947f-347f-403e-bfeb-cba9e435c0e1",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 289
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "机器人不会遗忘。如果连史瓦罗都不知道「星核」是什么，那我真的爱莫能助了。"
+      }
+    },
+    {
+      "id": "4ac13b86-4be8-4682-897a-069ba69a1c56",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 290
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "所以，我们得想办法让史瓦罗愿意和我们沟通。"
+      }
+    },
+    {
+      "id": "581c2e91-01f8-4e8a-84ef-fda335d4a656",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 291
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "或者交出他的记忆库，我们自己找也行。"
+      }
+    },
+    {
+      "id": "1df4139e-482b-4f42-82cd-82f03d704132",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 293
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "我们一直想跟那家伙谈判，但每次都被拒之门外。他认定「地火」是个威胁。不过，如果是你们几个的话……"
+      }
+    },
+    {
+      "id": "b3508803-2351-4160-8e68-453528ed377b",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 294
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "嗯…可不好说。"
+      }
+    },
+    {
+      "id": "40cd833f-76f4-425a-8724-3691bf27e2f8",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 295
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "——具体办法，等明天再讨论也不迟。时候不早了，你们也折腾坏了吧？回镇上休息吧，一切我来安排。"
+      }
+    },
+    {
+      "id": "4c92fb0b-2787-4d80-8c1c-5c73c8888281",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 296
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "又安排休息？我对这个世界的休息都有心理阴影了……"
+      }
+    },
+    {
+      "id": "0fd278d6-4e3c-4dfb-9163-e3b4bfc97346",
+      "source": {
+        "mission": "他们有多少人已掉进深渊",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/他们有多少人已掉进深渊.json",
+        "contentIndex": 297
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "至于你…铁卫丫头，有空吗？我想单独跟你聊聊。"
+      }
+    }
+  ],
+  "id": "003",
+  "chapter": "第一幕・雅利洛-Ⅵ",
+  "characters": {
+    "visible": [
+      "丹恒",
+      "三月七",
+      "可可利亚",
+      "布洛妮娅",
+      "桑博",
+      "娜塔莎",
+      "穹",
+      "虎克",
+      "希儿",
+      "克拉拉",
+      "史瓦罗",
+      "奥列格"
+    ],
+    "hidden": [
+      "？？？",
+      "年轻的可可利亚",
+      "星核之声",
+      "尤利安",
+      "掘掘博士",
+      "流浪者",
+      "伊蕾恩",
+      "安东尼娜"
+    ]
+  }
+}

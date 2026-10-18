@@ -1,0 +1,1012 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "悲音啊，莫让生者空垂涕",
+    "pageId": 16681,
+    "revisionId": 77767,
+    "parentRevisionId": 58178,
+    "revisionTimestamp": "2026-02-12T18:45:06Z",
+    "fetchedAt": "2026-09-28T00:17:47.990Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%82%B2%E9%9F%B3%E5%95%8A%EF%BC%8C%E8%8E%AB%E8%AE%A9%E7%94%9F%E8%80%85%E7%A9%BA%E5%9E%82%E6%B6%95",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%82%B2%E9%9F%B3%E5%95%8A%EF%BC%8C%E8%8E%AB%E8%AE%A9%E7%94%9F%E8%80%85%E7%A9%BA%E5%9E%82%E6%B6%95&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "悲音啊，莫让生者空垂涕",
+    "region": "翁法罗斯",
+    "type": "开拓任务",
+    "version": "3.1",
+    "number": "04",
+    "series": "门扉之启，王座之终",
+    "description": "经历一场恶战，你们带着那刻夏和瑟希斯火种安全返回奥赫玛，准备向阿格莱雅复命。在面见阿格莱雅之前，那刻夏提出了自己的要求：前去慰问黑潮之灾牺牲者的家属。",
+    "requirements": "完成任务谧林啊，寤思者缘何失语",
+    "requiredLevel": "21",
+    "characters": [
+      "遐蝶",
+      "那刻夏",
+      "丹恒"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "600"
+      },
+      {
+        "item": "星琼",
+        "amount": "80"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "6"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "6"
+      },
+      {
+        "item": "仙馔秘酿",
+        "amount": "240"
+      },
+      {
+        "item": "《理性的薄暮》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "80000"
+      }
+    ],
+    "previousMissions": [
+      "谧林啊，寤思者缘何失语"
+    ],
+    "nextMissions": [
+      "旧忆啊，热雾中显隐扑朔"
+    ],
+    "objectives": [
+      "慰问罹难者家属",
+      "向阿格莱雅复命",
+      "返回私人浴宫，结束这一天"
+    ],
+    "synopsis": [
+      "缇安使用「百界门」将你们传回奥赫玛。在面见阿格莱雅前，那刻夏要慰问在抗击黑潮中牺牲的学者家属，你与遐蝶陪其同去。",
+      "你们慰问库娜涅和阿塔卡玛的父亲。原本还担心女儿们在树庭闯祸的老者，在得知噩耗后，唯余震惊与轻微的啜泣。",
+      "你们慰问卡林尼库斯的妻子。这位悬锋女人坦然接受与丈夫的永别，她将拿起长枪重返战场，向黑潮怪物们讨回仇债。",
+      "你们慰问老提图斯的儿子。小提图斯在悲愤中痛斥父亲的倔强之举，自己早已在圣城为父亲做好养老准备，最终竟连最后一面也未得见。",
+      "那刻夏慰问完他所能找到的同僚家属之后，由遐蝶带领，前往面见阿格莱雅。",
+      "你与遐蝶、那刻夏前往浴宫，却被卫兵拒之门外。卫兵称阿格莱雅无暇接待任何人，遐蝶尝试用通信石板与阿格莱雅联络。",
+      "那刻夏先行告退。遐蝶与你谈论黑潮，认为需要万敌尽快完成「纷争」的试炼。遐蝶好奇你在树庭接住她时，为何不受「死亡」的影响。",
+      "你与丹恒汇总消息。丹恒称翁法罗斯的天空被「天空」泰坦艾格勒封锁，而风堇的先祖正是天空祭司，她或许能提供更多关于此的线索。"
+    ],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "不久后 奥赫玛城下"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "呼…真是险之又险的逃生。但幸好，终究是安全抵达奥赫玛了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "奥赫玛，你的球棒侠回来了！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我都想躲在圣城不出去了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇安",
+      "text": "唔…小小蝶，缇安还是…头疼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇安",
+      "text": "对不起…明明你都，嘱咐过我，不要开门了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "不对，缇安大人。若不是你挺身而出，我们早已葬身树庭了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇安",
+      "text": "缇安，好不舒服…要先回去，睡觉……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "缇安大人自从醒来，状态就一直很不好…自己回去真的没关系吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "真是嘈杂…奥赫玛还是老样子啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…您现在，是那刻夏老师吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "不必怀疑，那泰坦不出声了。是我，智种学派的阿那克萨戈拉斯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…会这么称呼自己，确实是本人没错。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…老师，我直说了：阿格莱雅大人给我们的任务是，寻找幸存者、弄清树庭之灾的原委，以及…回收{{瑟希斯|理性之泰坦}}的火种。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "嗯，我丝毫不感到意外。如你所见，我既是幸存者，又了解灾变始末，在身负一颗火种的同时，还毫无反抗能力。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "所以，你要将我呈给阿格莱雅复命么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "那是我的义务。但我不想将您以俘虏或战利品的形式交给她。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "也罢，我不为难你。面见那女人，我不反对。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "只是在那之前，我还有些事情要办。树庭有几位同僚的家属就住在圣城，我想在面见阿格莱雅前…先去慰问一下他们。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "为什么是面见阿格莱雅前？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "因为阿格莱雅大人…恐怕不会允许。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "呵…我猜猜，她不但会拒绝让我慰问死者家属，还会封锁树庭的消息，那女人就是这般冷血。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "树庭的一些朋友为了和我一起捍卫火种，抗击黑潮，不幸牺牲，他们的家属…有权利得知这一切。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "您打算先斩后奏？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "就算我不节外生枝，老老实实跑去向那女人献忠心，她就会给我好脸色？我可不惮往她的脸上多宣泄几分忿怒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "你要阻止我么，遐蝶？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…我陪您同去。但您也要明白，阿格莱雅大人同样有她的考虑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "…呵，换位思考，你的确是读书的料。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "走吧，我会保持分寸的。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "慰问罹难者家属"
+    },
+    {
+      "type": "objective-description",
+      "text": "在面见阿格莱雅之前，那刻夏提出了自己的要求：前去慰问黑潮之灾牺牲者的家属。",
+      "location": "翁法罗斯-「永恒圣城」奥赫玛"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "老师，这么多年了，您与阿格莱雅大人还是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "我们都不是小肚鸡肠的人。矛盾的根本，你应该很清楚。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与表情温柔的家属对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "表情温柔的女人",
+      "text": "几位，你们是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "你好。没记错的话，你是卡林尼库斯的妻子吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "表情温柔的女人",
+      "text": "是的。啊，你是信使吗？哎呀，我就说消息怎么来得这么迟，原来是换了个人呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "女士，卡林尼库斯在几日前，为了保护树庭，牺牲在抗击黑潮的过程中了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "表情温柔的女人",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "表情温柔的女人",
+      "text": "那么，树庭…他守住了么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…什么？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "听闻噩耗，第一反应竟然是……",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "是的，他誓死守住了{{瑟希斯|理性之泰坦}}的火种。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "表情温柔的女人",
+      "text": "知道了。我会择日整理好遗物，给他挑一处好的坟墓。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…女士，如果你需要帮助，请尽管吩咐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "表情温柔的女人",
+      "text": "我是悬锋人。死亡、牺牲…我皆能坦然面对。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "表情温柔的女人",
+      "text": "卡林尼库斯…他虽是一名学者，但每次回来探望我的时候，都会向我讨教武艺。可笑吗？一名黄金裔，竟向我这样的普通人学艺。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "表情温柔的女人",
+      "text": "我早已做好了心理准备…在这个时代，每一次平凡的道别都可能是永别。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "我很抱歉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "表情温柔的女人",
+      "text": "没什么可抱歉的。我曾是一名战士…也终会重新投身于战场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "表情温柔的女人",
+      "text": "如今，悬锋的新王要降临了。丈夫的仇债，我自会用手中的长枪问黑潮怪物们讨回。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与身材瘦小的老人对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "身材瘦小的老人",
+      "text": "你们好呀，年轻人。找老费贝尔有什么事情么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "您是库娜涅和阿塔卡玛的父亲么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "老费贝尔",
+      "text": "啊呀，是的。我那俩女儿又在学校闯了什么祸——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "老费贝尔",
+      "text": "哎哟，你瞧我，都老糊涂了。我那俩争气的女儿，早就毕业啦，现在在树庭做学者呢。你说我，年纪大了，总是一个晃神，就看到好多年前的事情。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "老费贝尔",
+      "text": "怎么啦，年轻人，怎么不说话？总不能是我的女儿们，真闯祸了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "老费贝尔",
+      "text": "她们要不肯道歉，尽管和我说，我这个老父亲在她们那儿，还是有些脸面的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…怎么办，阁下，我开不了口……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "别问我，看不出我眼圈也红了么？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "…费贝尔先生，库娜涅和阿塔卡玛她们…被黑潮杀死了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "老费贝尔",
+      "text": "…啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "…她们为了保护树庭、抗争黑潮，战至最后一刻了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "老费贝尔",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "我是驻留树庭的黄金裔，没能保护好她们，费贝尔先生，如果您有怒火……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "老费贝尔",
+      "text": "…瞧你说的。我家的阿塔卡玛，即便并非预言中的黄金裔，但不也是英雄么？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与年轻的家属对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻男子",
+      "text": "什么事？我正忙着，最近城里可不太平，大小事务弄得我头昏眼花……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "先生，还请你拨冗……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻男子",
+      "text": "…啊，是遐蝶女士？莫非是我工作上出了什么差错，阿格莱雅大人派你来敲打我？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "冷静，提图斯。我是神悟树庭的阿那克萨戈拉斯，与你的父亲老提图斯是同道。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "不久前…你的父亲，去世了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "提图斯",
+      "text": "什…什么？老爷子他？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "提图斯",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "提图斯",
+      "text": "哈…倒也正常。老爷子一把年纪，什么时候掉进冥河里都不稀奇……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你别太过分！他可是……",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "提图斯",
+      "text": "哈…混账老爷子，走得倒是轻巧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "提图斯",
+      "text": "我早和他说过，一把年纪了，老老实实回圣城养老不好么？非要去什么树庭，和一群神神叨叨的学者瞎折腾。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "提图斯",
+      "text": "吵了那么多回，愣是不肯听话…老犟种！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "提图斯",
+      "text": "他回心转意后住的房子我都物色好了…现在，别说养老，连最后一面都没见上……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "提图斯",
+      "text": "…老犟种！老倔牛！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "…就这样吧。我记得的同僚家属，就这些了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "牺牲者和家属们都令人敬佩。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…辛苦了，开拓者阁下…那刻夏老师。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "走吧，带我去见阿格莱雅。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "好…我来带路。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向阿格莱雅复命"
+    },
+    {
+      "type": "objective-description",
+      "text": "阿格莱雅因事务繁多，暂时无法与树庭归来的众人面议。舟车疲顿的开拓者一行人决定先休息一番。",
+      "location": "翁法罗斯-「永恒圣城」奥赫玛"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卫兵",
+      "text": "遐蝶小姐，开拓者阁下，你们回来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "你好，我们有要事求见阿格莱雅大人，麻烦通报一下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卫兵",
+      "text": "抱歉，遐蝶小姐…阿格莱雅女士此前已吩咐过我，她现在无暇接待任何人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "呵，这下倒好——她甚至不愿意见我一面。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "这位朋友，换我来问问，阿格莱雅有没有命令你，直接将我扭送至监狱？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卫兵",
+      "text": "你…又是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "请别开玩笑了…她大概确实在忙。我们稍等片刻，我尝试用石版联络一下。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "message-thread",
+      "title": "阿格莱雅、遐蝶、开拓者的群聊",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "阿格莱雅",
+          "contentType": "text",
+          "text": "开拓者一行：\n树庭始末已悉，感戴诸位努力，非言语所能鸣谢。\n然而世局多故，圣城近日枝节横生，杂务缠身，未能亲迎，甚歉。\n况且舟车劳顿，休整为要。至于变故细节，明日再议可也。此嘱。"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "收到。",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "111收到"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你说话文绉绉的。",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你说话怎么文绉绉的"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "遐蝶",
+                  "contentType": "text",
+                  "text": "……"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "遐蝶",
+          "contentType": "text",
+          "text": "这个行文风格，应该是衣匠"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "遐蝶",
+          "contentType": "text",
+          "text": "衣匠，请转告阿格莱雅大人：已知悉，我们今日先行休息，祝安好"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "阿格莱雅",
+          "contentType": "text",
+          "text": "遵命。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "阿格莱雅",
+          "contentType": "text",
+          "text": "此处是一个【阿格莱雅思考表情包】"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "不用拖着病躯与那女人对峙，真是一桩幸事。遐蝶，还有这位来不及认识的朋友，我今日就先行告退了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "那泰坦自顾自对我做了一番手脚…到现在脑袋还是隐隐作痛。如果可能，我不想在这聒噪的城里再多晃悠一秒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "还请小心。奥赫玛不是树庭，这里……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "——遍地都是她的金丝，我知道。那女人相当自信，笃定我逃不出她的掌心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "放心吧，就如我之前所说，我会保持分寸。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "开拓者阁下，这趟树庭之行…实在发生了太多意料外的事情，我们本无意将你卷入危险，遑论直面黑潮……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "麻烦是老朋友了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "活着回来了，黑潮也不过如此。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "阁下，万不可小觑黑潮这等威胁。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "黑潮是奥赫玛，乃至整个翁法罗斯的大敌。曾经，纷争的势力对圣城虎视眈眈，但不可否认的是，那群战争眷属也将黑潮阻拦在悬锋城外。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "如今{{尼卡多利|纷争之泰坦}}火种缺位，黑潮卷土重来…作为对黑潮研究最深的学院城邦，树庭绝非不堪一击之辈，却在朝夕之间倾覆，徒留一城英灵血泪……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "「纷争」的试炼已是迫在眉睫，希望万敌…能尽早下定决心吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "还有那黑袍的剑士…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "树庭的可怕敌人，也是黑潮造物？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "缇宝大人为了抗击黑潮踏上旅途，然而自旅途伊始，到走过万千城邦，她们都未曾在黑潮中遭遇如此强敌。说不定是「纷争」陨落，暗中激起了更为骇人的影响……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "至于我…我在它身上探到了浓厚的死亡气息——并非是它与{{塞纳托斯|死亡之泰坦}}有什么关联，恐怕…单单只因它无数次手握他人的死亡吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "说到{{塞纳托斯|死亡之泰坦}}…开拓者阁下，还有一事，希望与你确认。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "阁下对我背负的…诅咒，应该已经有所了解。我生来便是死亡的影子，是其它有生之物避之不及的剧毒……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "但当时，在树庭，你接下我的时候……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…我只是好奇，为何开拓者阁下能不被我的力量影响？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你不说我都想不起来这事。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "时间太短，还没奏效？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "如果只是以指尖轻触，或许还能解释。但当时的情况……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "习惯了，我就是这么特别。",
+          "content": []
+        },
+        {
+          "id": 4,
+          "text": "这么说来，在涡心时似乎也…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "抱歉，是我的提问太唐突了。迄今为止的人生，我始终在思考：死亡一事，于我而言究竟为何，我又为何与{{塞纳托斯|死亡之泰坦}}有着千丝万缕的联系……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "奔波数日，想必开拓者阁下也很疲惫了吧？请暂时将树庭的惨剧抛在脑后，好好休息一日吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "返回私人浴宫，结束这一天"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（遐蝶说得对，先回去休息吧。估计迷迷也累坏了，一直都没出声。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（不知道丹恒这些天如何……）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "回到私人浴宫，丹恒似乎在阳台上欣赏风景"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（哦，看来过得不错。）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "好久不见。你的遭遇，我听白厄说了…真是辛苦了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不辛苦，为「开拓」服务。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "呵…没想到翁法罗斯还能锤炼无名客的意志。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "生命是种挣扎。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "…但愿你不会堕入「开拓」的黑暗面。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "亲爱的朋友，我想死你啦！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "…看来你受的打击不小。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我不在的时候，你在做什么？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "整理日志，顺便从风堇那里要了些树庭的研究资料。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "发现一件很有趣的事。还记得么？翁法罗斯的天空被一位泰坦封锁了，{{艾格勒|天空之泰坦}}…它的存在让这个世界与天外隔绝。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "而风堇的先祖…似乎就是信仰{{艾格勒|天空之泰坦}}的天空祭司。要找到返回星穹列车的办法，也许她能提供更多线索。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这几日，圣城没什么突发状况，也不用和人打交道。独处的感觉还不坏。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "别急，你的好日子要到头咯！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "树庭事发，接下来肯定又会有几番动荡。事已至此，先休息吧。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "苦啊！还不如陪你整理文件呢。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "…恐怕你整理到一半一样会叫苦罢工吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "看你满脸疲惫，明日出发前还是多睡会儿为好……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…对了。我听到一些风声…如果你要出去闲逛，建议先避开高温浴池。"
+    }
+  ],
+  "warnings": []
+}

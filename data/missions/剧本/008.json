@@ -1,0 +1,5112 @@
+{
+  "schemaVersion": 2,
+  "id": "008",
+  "title": "乘槎驭风仙舟游，紫府通谒神策筹",
+  "chapter": "",
+  "characters": {
+    "visible": [
+      "？？？",
+      "犯人",
+      "丹恒",
+      "三月七",
+      "帕姆",
+      "卡芙卡",
+      "姬子",
+      "瓦尔特",
+      "开拓者",
+      "断断续续的信号",
+      "信号",
+      "云骑军士卒",
+      "停云",
+      "航务官",
+      "驭空",
+      "景元",
+      "符玄",
+      "彦卿"
+    ],
+    "hidden": []
+  },
+  "createdAt": "2026-10-01T21:57:30.287Z",
+  "updatedAt": "2026-10-06T05:16:06.651Z",
+  "blocks": [
+    {
+      "id": "c0205f0c-4cea-4f25-a596-92d49fab0069",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 6
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": true,
+        "content": [
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "这次你没有做噩梦，但是丹恒做了…"
+          },
+          {
+            "type": "text",
+            "text": "罗浮仙舟·幽囚狱"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "一个人被押了进来…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "彦卿。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "是，将军。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "待会儿，你看清楚这个人"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "…你记得我么？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "犯人",
+            "text": "记得。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "犯人",
+            "text": "人有五名"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "犯人",
+            "text": "代价有三个……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "犯人",
+            "text": "景元，你不是其中之一。"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "丹恒的梦中…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "犯人",
+            "text": "人有五名"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "犯人",
+            "text": "代价有三个……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "犯人",
+            "text": "你，是其中之一"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "丹恒从噩梦中惊醒…"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5da665ff-8ecc-47e8-a218-e371db8fe002",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 7
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "稍等，我…我这就来。"
+      }
+    },
+    {
+      "id": "a8e4188f-0809-4524-bbdd-faa6a7203361",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 8
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "我就说吧，开拓者，他肯定在睡懒觉。"
+      }
+    },
+    {
+      "id": "6eddcb36-00e0-4feb-b7c3-a1269e5b74d2",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "我们列车上这伙人啊，几天不睡都没问题，但一觉就要全睡回来。"
+      }
+    },
+    {
+      "id": "3759ed67-f48b-4d79-a368-447e73ca5fb2",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你啊，早晚也会掌握这技能的。"
+      }
+    },
+    {
+      "id": "4a9e8517-9f7c-435b-8a30-0abbb14147c5",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "好啦，大好时光别在走廊里耽搁了。"
+      }
+    },
+    {
+      "id": "94681d51-a15c-41b0-b7b3-7a813dee4305",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "列车长让咱们来吱一声：航线会议就要开始啦。老地方，别迟到咯~"
+      }
+    },
+    {
+      "id": "72495139-c424-4ad4-a829-d6d196a160b1",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "咱们先去吧。对了……"
+      }
+    },
+    {
+      "id": "7dff6625-5c7f-46be-b287-c05215bff1a5",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "愿赌服输，开拓者。这周洗咖啡杯的活儿就由你包啦。"
+      }
+    },
+    {
+      "id": "d628e8fa-dba3-4b8f-9055-bd8bf546d147",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 24
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "参与航线会议"
+      }
+    },
+    {
+      "id": "d2c255c4-a86d-470c-8e91-3b23c4fb4253",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 26
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "各位乘客！跃迁航线会议正式开始！"
+      }
+    },
+    {
+      "id": "f2e68ab4-a056-4580-b151-1d4fe16ac7a6",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "首先，帕姆要感谢各位无名客成功解决了本站点的问题"
+      }
+    },
+    {
+      "id": "1ad92dfb-a67b-43f0-b0bf-b4628cc3182f",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "让列车能继续在星轨上奔驰！"
+      }
+    },
+    {
+      "id": "577187c5-832a-488b-b731-df75aa126042",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 28
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "这可是我们三个的功劳哦，对吧开拓者！"
+      }
+    },
+    {
+      "id": "cc82c414-b423-4ffc-b5fc-7b9e84eb93eb",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 29
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "接下来，本列车长要宣布下一站的名字——"
+      }
+    },
+    {
+      "id": "2068476d-d5aa-4d68-a794-e5ae0f2996c8",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": true,
+        "content": [
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "列车上凭空出现了一个女人的影像…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "卡芙卡",
+            "text": "好久不见，星穹列车上的各位。我是卡芙卡。"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "姬子厌恶地移开了视线…"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "你仔细打量着卡芙卡…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "卡芙卡",
+            "text": "啊，时机不错呢，大家都在——似乎都在。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "姬子",
+            "text": "迷人的自我介绍就大可不必了，星核猎手。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "卡芙卡",
+            "text": "…姬子，对吗？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "卡芙卡",
+            "text": "很抱歉打断了你们的聚会。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "卡芙卡",
+            "text": "但相信听完我的请求，你们会理解我的冒昧。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "卡芙卡",
+            "text": "我要请你们——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "卡芙卡",
+            "text": "——变更目的地。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f9a530cf-0a94-4b3e-a0e1-2ac220598d42",
+      "node": {
+        "type": "fold",
+        "title": "千星紀遊「耶佩拉叛亂：第47場」",
+        "content": [
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "星核猎手"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "卡芙卡"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "你是否认罪？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "你们犯下的罪行无可饶恕"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "但耶佩拉兄弟会"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "尊重每个人上天堂的权利"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "认罪伏诛"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "「泯灭帮」会赐你解脱"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "嗯"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "我在听"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "那么，你，及「星核猎手」其他成员"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "是否承认对以下罪行负责——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "你们闯入阿图因普世拍卖会现场"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "操纵会场来宾"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "破坏虔心观者麾下的艺术瑰宝"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "造成总价值八千六百亿信用点以上的损失"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "并窃走了那件{{「拍品」|星核}}——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "你是否认罪？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "我承认"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "但虔心观者并不虔诚"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "你们潜入电子圣狱因奴庇斯"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "窃夺西格玛节杖关闭封印械咒的防火墙"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "令大量数据恶魔涌入现实"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "致使该世界提前进入审判日阶段"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "以便你们带走{{「元代码」|星核}}——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "你是否认罪？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "我承认"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "但数据恶魔理应获得自由"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "你们入侵环形世界戈尔康达"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "向所有殖民地散布悖论病毒"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "致使四千六百万无机生命沦为失控的机械…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "并带走了戈尔康达引力平衡点上的「钢核」"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "令整个世界静默——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "你是否认罪？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "哦？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这不是耶佩拉兄弟会的手笔吗…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "但我们的确带走了{{「那件东西」|星核}}"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "以及特洛维斯星系失踪案"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "洛尔-51星核事件"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "说来惭愧，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这仙舟上鲜有传说。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "毕竟长生久视，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "哪儿有什么可供传说的余地。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "不过，谈及云骑将军的故事，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "却又不得不从遥远的「传说」讲起了…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这段历史始于八千年前。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "一位古国帝王渴求长生不灭，功业永垂。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟的先祖遂扬帆天海，苦旅迢迢…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "一时可谓是"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "「星汉阔万里，孤舟无四邻」。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "经历两千余年漫长的孤航，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟人终于得见神明。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "「寿瘟祸祖」示现垂迹，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "赐予仙舟人无量寿数。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "然而恩赐亦是诅咒。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "超越寿限的生灵们，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "却成了荼毒寰宇的不死劫。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "可叹、可叹！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙染寿疫，盟谊谗阋。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "外患烽起，战骨支离。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "当此危急存亡之刻，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "「帝弓司命」降世临凡，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "庇佑了星海中飘摇无依的仙舟。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟驰骋星海，追魔扫秽，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "巡猎五千载，奉神旨、讨寿瘟。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "而统领这六艘仙舟的，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "乃是「巡猎」之锋镝——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "帝弓七天将！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "且看，元帅之侧，乃是六位仙舟将军——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "威冲霄汉，气凌穹苍。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "天击将军，飞霄！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "无垠旷照，劫焰明光。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "烛渊将军，怀炎！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "乾坤密藏，六合弥放。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "戎韬将军，爻光！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "沧溟横绝，吞吐大荒。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "伏波将军，玄全！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "恍兮惚兮，死生同齐。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "尘冥将军，有无！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "踰凌玉界，麾斥天戈。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "神策将军，景元！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这帝弓七将各有奇能长才。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "而说到咱们「罗浮」的景元将军，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "无人不赞一句智计超凡，远略深谋。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这正是，巧施连环剿步离，瞒天过海妙夺旗。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "决胜千里，谋无遗计…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "若无全军上下万众一心，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "谋无遗计又有何用？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仰赖诸位云骑交托性命"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "我必不负所托。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟翾翔，云骑常胜！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟翾翔，云骑常胜！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟翾翔，云骑常胜！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "先生所说…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "甚是有趣。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "说来惭愧，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这仙舟上鲜有传说。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "毕竟长生久视，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "哪儿有什么可供传说的余地。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "不过，谈及云骑将军的故事，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "却又不得不从遥远的「传说」讲起了…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这段历史始于八千年前。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "一位古国帝王渴求长生不灭，功业永垂。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟的先祖遂扬帆天海，苦旅迢迢…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "一时可谓是"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "「星汉阔万里，孤舟无四邻」。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "经历两千余年漫长的孤航，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟人终于得见神明。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "「寿瘟祸祖」示现垂迹，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "赐予仙舟人无量寿数。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "然而恩赐亦是诅咒。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "超越寿限的生灵们，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "却成了荼毒寰宇的不死劫。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "可叹、可叹！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙染寿疫，盟谊谗阋。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "外患烽起，战骨支离。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "当此危急存亡之刻，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "「帝弓司命」降世临凡，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "庇佑了星海中飘摇无依的仙舟。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟驰骋星海，追魔扫秽，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "巡猎五千载，奉神旨、讨寿瘟。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "而统领这六艘仙舟的，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "乃是「巡猎」之锋镝——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "帝弓七天将！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "且看，元帅之侧，乃是六位仙舟将军——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "威冲霄汉，气凌穹苍。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "天击将军，飞霄！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "无垠旷照，劫焰明光。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "烛渊将军，怀炎！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "乾坤密藏，六合弥放。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "戎韬将军，爻光！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "沧溟横绝，吞吐大荒。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "伏波将军，玄全！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "恍兮惚兮，死生同齐。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "尘冥将军，有无！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "踰凌玉界，麾斥天戈。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "神策将军，景元！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这帝弓七将各有奇能长才。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "而说到咱们「罗浮」的景元将军，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "无人不赞一句智计超凡，远略深谋。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这正是，巧施连环剿步离，瞒天过海妙夺旗。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "决胜千里，谋无遗计…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "若无全军上下万众一心，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "谋无遗计又有何用？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仰赖诸位云骑交托性命"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "我必不负所托。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟翾翔，云骑常胜！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟翾翔，云骑常胜！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟翾翔，云骑常胜！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "先生所说…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "甚是有趣。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "针对螺丝星的黑客袭击"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "庇尔波因特入侵案"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "等等等等——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "总计46宗罪案！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "你是否承认"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "以上恶性事件"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "皆由「星核猎手」所为？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "就我所知"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这些事多少都和「泯灭帮」有关"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "但…我承认"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "不过，你们好像还漏了一桩——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "「耶佩拉叛乱案」"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "你得改掉玩弄猎物的习惯"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "卡芙卡"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "知道了"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "下次吧"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这一次……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "已经来不及了"
+          }
+        ],
+        "collapsed": true
+      }
+    },
+    {
+      "id": "875bb1cb-1a88-446b-bdfa-abc25f4ec02c",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "「星核猎手」，我见过你，不过是在公司的悬赏令上"
+      }
+    },
+    {
+      "id": "727fb8c1-bf74-43ac-bc68-982fa583ae2a",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "那可是天文数字的赏金——而且不论死活。"
+      }
+    },
+    {
+      "id": "dc622b57-8971-4d57-ada6-28e693873cca",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "你知道自己的悬赏是多少吗？"
+      }
+    },
+    {
+      "id": "7018c206-9abe-42d3-b231-4743526fe43d",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "不太关心。"
+      }
+    },
+    {
+      "id": "168e9fa8-449c-42c9-8ae3-e0a239af6252",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "公司的悬赏令么，与其说恶名，倒不如说是盛赞。"
+      }
+    },
+    {
+      "id": "e5ad0ba4-4a4a-4e5a-8a63-8369996d6232",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "数字越大，赞美越盛。"
+      }
+    },
+    {
+      "id": "36417515-736c-4cfe-a07e-189ec36eac3f",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 33
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你们通缉犯想得还挺开……"
+      }
+    },
+    {
+      "id": "0f658871-a6b7-4993-b813-9adff8880b47",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 34
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "…如此说来，黑塔也盛赞过你们："
+      }
+    },
+    {
+      "id": "2e3c930e-ab9b-4e1e-aa6c-504020c119dd",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 34
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "「一个自称能看见命运的{{狂人|艾利欧}}，带着一群不要命的{{疯子|星核猎手}}，追逐宇宙中最危险的东西！」"
+      }
+    },
+    {
+      "id": "46eb342f-541d-4397-a219-ca12aacc7a93",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 34
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "——黑塔可是很少夸人的喔。"
+      }
+    },
+    {
+      "id": "cefa79c0-7caf-45b2-9f3e-5ca279f3b05e",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 35
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "「追逐宇宙中最危险的东西」吗？"
+      }
+    },
+    {
+      "id": "7387e688-e161-4a96-98c9-5d70917a0fc5",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 35
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "…在这点上，你们列车和我是同一类人吧。"
+      }
+    },
+    {
+      "id": "28bd90b3-9e92-40ac-93ba-5d27293a0bf3",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "你来错地方了，卡芙卡。"
+      }
+    },
+    {
+      "id": "3e71a0c9-3a3f-4af4-9659-cc6e70fb8f6d",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "我们不打算接受你的请求，也不打算和星核猎手扯上什么关系。"
+      }
+    },
+    {
+      "id": "c1e8bc59-2fe0-4416-bc9e-cd9403356006",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "很高兴和你聊天"
+      }
+    },
+    {
+      "id": "ef62ea94-5056-4e5c-8c94-a971351ea78a",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "也许哪天你愿意亲自登门拜访，届时我们可以再谈。"
+      }
+    },
+    {
+      "id": "9747084a-8043-4938-a21b-654e52d9b927",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "各位听说过「罗浮」吗？"
+      }
+    },
+    {
+      "id": "2f36fd91-199a-4be8-b85b-547057706ad7",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 38
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "…仙舟联盟的六艘巨舰之一，仙舟「罗浮」。我们知道。"
+      }
+    },
+    {
+      "id": "9f78abbf-a37f-4dd3-ae21-4075080a6ffb",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 39
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "唔，但你不知道的是：这艘仙舟现在离你们很近"
+      }
+    },
+    {
+      "id": "6a6e0b89-526f-4f2c-a98c-0b7f95af74b9",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 39
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "是通过两次折跃就能抵达的距离。"
+      }
+    },
+    {
+      "id": "2029094c-3ce8-4724-99c5-6ae120af218a",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 40
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "而且，在四十五系统时前，一颗星核在罗浮上…爆发了。"
+      }
+    },
+    {
+      "id": "722ed7cd-527f-4a44-9a1d-8910995d7f6b",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 41
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "无妄之灾啊…是不是？"
+      }
+    },
+    {
+      "id": "751fa9d6-ca35-4580-abcd-83ebb2861f4e",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "星核猎手，你们在打什么主意…"
+      }
+    },
+    {
+      "id": "28a4d5be-b870-47fb-bf83-f97a31abeae9",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "仙舟联盟可不像我们这么好说话。"
+      }
+    },
+    {
+      "id": "f254e1d9-93b2-4e75-91d0-7954987f472c",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "被「{{巡猎|岚}}」盯上，你们就不再是猎手，而是猎物了"
+      }
+    },
+    {
+      "id": "32a4fceb-7141-4046-a9fc-c6dafe814226",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "联盟会追逐你们到宇宙尽头——"
+      }
+    },
+    {
+      "id": "8ffb9909-88c3-4c75-b0a4-d8832e0ecfbf",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 43
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "有话直说吧。别打机锋了，卡芙卡。"
+      }
+    },
+    {
+      "id": "7147ce00-eaa2-4d4c-908d-4314d64b9063",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 44
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "…很简单，这颗星核与我们无关"
+      }
+    },
+    {
+      "id": "55558e6a-7c2d-476b-a776-d6b2b74946b8",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 44
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "但仙舟已经把罪责按在了星核猎手头上；"
+      }
+    },
+    {
+      "id": "00880dd3-aeef-432d-9bda-fc25ee05bb28",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 45
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "我的同伴刃被云骑军带走了，我要把他带回来"
+      }
+    },
+    {
+      "id": "9a0f1874-4d0d-4f23-80dd-d21e9d185057",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 45
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "解除这次的星核危机，洗脱我们的嫌疑。"
+      }
+    },
+    {
+      "id": "ab8f7b2c-eece-4a35-b327-10a154a647a7",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 46
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "与你们无关？"
+      }
+    },
+    {
+      "id": "cf9e9b53-28d0-41c0-8c3e-cafde71f55ad",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 46
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "谁信啊，哪有这么巧的事情，星核刚爆发你就出现了……"
+      }
+    },
+    {
+      "id": "939e9ea3-2542-4314-ab7f-525ef69f3b1a",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 47
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "再说，你和我们又没什么交情"
+      }
+    },
+    {
+      "id": "a60475ae-7b2b-49e9-ad1e-f557b98b5d37",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 47
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "星核猎手清不清白和咱们有什么关系~"
+      }
+    },
+    {
+      "id": "ad3640a1-ff59-4a86-b96a-27fb960ca8f4",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "你们当然可以置身事外。"
+      }
+    },
+    {
+      "id": "1be7a895-f77d-4538-b1ab-35d343b01c95",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "趁现在星核还没污染这片空域，启动跃迁，你们就可以去下一个世界。"
+      }
+    },
+    {
+      "id": "834fd821-8a37-4005-bb0e-6c0fe7045235",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "但假以时日，这段星轨将再度被阻断。"
+      }
+    },
+    {
+      "id": "2eca5788-6c94-4bb3-8d91-f39c3da692a3",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "我可以告诉你们未来会如何："
+      }
+    },
+    {
+      "id": "0621ee93-47e3-4e82-93bf-f106fbb9a902",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "如果你们没有前往「罗浮」，星核最终将污染整艘仙舟"
+      }
+    },
+    {
+      "id": "f42d920b-b35a-4f9b-bdce-74a64aab4d29",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "飞船上大约一半的住民将会丧生……"
+      }
+    },
+    {
+      "id": "ca51170d-0eed-4f32-a069-a7f558a70bec",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 52
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "勇敢无畏的开拓者，天行为善的无名客，想来不会坐视不理。"
+      }
+    },
+    {
+      "id": "238d33fd-f477-4487-a54e-db98dd0d992c",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 53
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "…你的那位同伴，叫刃的，也无法幸免，对吗？"
+      }
+    },
+    {
+      "id": "c745a3c4-a88e-459f-afd9-9fe6da4c17f5",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 54
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "这一点嘛，无可奉告。"
+      }
+    },
+    {
+      "id": "fdca3f8a-afef-4b88-9b80-0f09e0058c7e",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 55
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "坐标在这里，一切交由你们自己决定。"
+      }
+    },
+    {
+      "id": "93cf3d68-3f76-4edb-a287-498e37d43ca7",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "虽然追求的目标截然不同，但群星的轨道终将彼此交汇。"
+      }
+    },
+    {
+      "id": "548491b3-3ae5-405c-bd09-2797b02738b7",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "再见。"
+      }
+    },
+    {
+      "id": "01bccb3b-36e2-4668-b326-6482e74a96aa",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "卡芙卡的身影消失了…"
+      }
+    },
+    {
+      "id": "6c1ad228-7bd1-4e4a-b145-db26ee684051",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 58
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "三月，把丹恒找来。"
+      }
+    },
+    {
+      "id": "f4b146e1-1f07-4f3b-af63-11dc18c04e50",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 70
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "返回观景车厢，为你们的目的地投票"
+      }
+    },
+    {
+      "id": "737e6bfd-6cea-472d-af02-f4ae65ee24ad",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 72
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们三人回到观景车厢"
+      }
+    },
+    {
+      "id": "d2214d82-39c0-4790-b633-db6e438dd660",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 73
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "你还好吗，丹恒？小三月把事情都告诉你了吧？"
+      }
+    },
+    {
+      "id": "6bb0dd8b-1825-4887-b1db-e8863706a89d",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 74
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我没事，情况也了解了。"
+      }
+    },
+    {
+      "id": "40be0e61-06a9-4aa5-9d7b-3acda2a17506",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 75
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "嗯，那么，针对这一特别事项，我们投票决定前进的方向吧。"
+      }
+    },
+    {
+      "id": "de9b8e8d-66b4-4713-ba6b-441e810ccb24",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 76
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "星核猎手声称一颗星核在仙舟「罗浮」上爆发了，而列车离它很近。"
+      }
+    },
+    {
+      "id": "405b7fbc-eb2b-450f-95c3-9fe34ec994b8",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 76
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "如果我们前往罗浮，可能有机会拯救许多无辜者的生命。"
+      }
+    },
+    {
+      "id": "3c1fb0ba-b070-42ed-b399-23e16115d33a",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 77
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "…也有可能，我们只是被星核猎手利用，上当受骗了而已。"
+      }
+    },
+    {
+      "id": "371c3e91-d012-4f9d-967b-69764623df34",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 77
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "瓦尔特和我都认为星核猎手没说实话，但也不能完全无视她的情报……"
+      }
+    },
+    {
+      "id": "22081ae2-c606-496b-a1d1-ff52b11d7fc3",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 78
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "所以，是否转向前往仙舟，我们用民主投票的方式来决议："
+      }
+    },
+    {
+      "id": "cf31706e-2a40-4d31-bc1a-fbe17d131296",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 78
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "伸出手掌代表同意，不伸手代表反对。"
+      }
+    },
+    {
+      "id": "a65990ea-87bc-4937-9848-2d65f633bd05",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 79
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "三、二、一——"
+      }
+    },
+    {
+      "id": "ccc310fb-a852-4bfc-bd3f-16190f7daa6d",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 80,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "伸手！"
+      }
+    },
+    {
+      "id": "e13bddd1-7d10-490e-a282-db211a244504",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 80,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "四对一，那么，列车团以多数票同意前往仙舟！"
+      }
+    },
+    {
+      "id": "75bcb51f-0640-4f7c-bc3d-88038a6f6a85",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 81
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你看向三月七…"
+      }
+    },
+    {
+      "id": "2c74eeab-1d29-43d1-a926-8895c352bcef",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 83
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "呃，冷静下来转念一想，万一那女人没撒谎"
+      }
+    },
+    {
+      "id": "8c128b32-b327-454a-912e-1cbba2c0f5f8",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 83
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "我们不去仙舟会有很多无辜者受害耶…"
+      }
+    },
+    {
+      "id": "c13f243a-5a07-4aa9-9457-78beac214c52",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 83
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "现在不是任性的时候…嘻嘻。"
+      }
+    },
+    {
+      "id": "680d73e6-0f7b-4286-8675-f47e0f6c550c",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 85
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "好啦好啦，小三月就是这样的，我们都习惯啦。"
+      }
+    },
+    {
+      "id": "f424c47c-97a0-4390-937d-be33661e6b34",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 86
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "怎么说，丹恒？你要留下来吗？"
+      }
+    },
+    {
+      "id": "6bf9f3f8-527e-439c-9816-e8337e509bfa",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 87
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "嗯，这次我就不去了。"
+      }
+    },
+    {
+      "id": "bb06f07d-93bd-4451-b496-3772a801a330",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "那这次的「开拓之旅」就交给你啦，瓦尔特？"
+      }
+    },
+    {
+      "id": "45c042a9-aa2d-4644-bf3e-ee372ad846a7",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "看你摩拳擦掌很久了。要把开拓者和小三月照顾好喔。"
+      }
+    },
+    {
+      "id": "94bf7edb-3982-439d-9dc6-2ac9295f0ff0",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 89
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "放心吧。"
+      }
+    },
+    {
+      "id": "d9791686-6df9-474b-8898-e268e8219a88",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 90
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "目标仙舟——出发喽！"
+      }
+    },
+    {
+      "id": "a9d6e1ba-f982-4d5c-9b46-3d05104b61e9",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 91
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "565d7d7e-38e2-4169-bb78-55e4d29df108",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 92
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "跃迁动画…"
+      }
+    },
+    {
+      "id": "9c2715cb-2839-4de8-88c9-fe3ffed01d32",
+      "node": {
+        "type": "fold",
+        "title": "千星纪游「仙舟通鉴•帝弓七天将」",
+        "content": [
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "说来惭愧，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这仙舟上鲜有传说。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "毕竟长生久视，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "哪儿有什么可供传说的余地。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "不过，谈及云骑将军的故事，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "却又不得不从遥远的「传说」讲起了…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这段历史始于八千年前。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "一位古国帝王渴求长生不灭，功业永垂。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟的先祖遂扬帆天海，苦旅迢迢…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "一时可谓是"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "「星汉阔万里，孤舟无四邻」。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "经历两千余年漫长的孤航，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟人终于得见神明。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "「寿瘟祸祖」示现垂迹，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "赐予仙舟人无量寿数。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "然而恩赐亦是诅咒。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "超越寿限的生灵们，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "却成了荼毒寰宇的不死劫。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "可叹、可叹！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙染寿疫，盟谊谗阋。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "外患烽起，战骨支离。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "当此危急存亡之刻，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "「帝弓司命」降世临凡，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "庇佑了星海中飘摇无依的仙舟。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟驰骋星海，追魔扫秽，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "巡猎五千载，奉神旨、讨寿瘟。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "而统领这六艘仙舟的，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "乃是「巡猎」之锋镝——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "帝弓七天将！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "且看，元帅之侧，乃是六位仙舟将军——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "威冲霄汉，气凌穹苍。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "天击将军，飞霄！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "无垠旷照，劫焰明光。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "烛渊将军，怀炎！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "乾坤密藏，六合弥放。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "戎韬将军，爻光！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "沧溟横绝，吞吐大荒。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "伏波将军，玄全！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "恍兮惚兮，死生同齐。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "尘冥将军，有无！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "踰凌玉界，麾斥天戈。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "神策将军，景元！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这帝弓七将各有奇能长才。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "而说到咱们「罗浮」的景元将军，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "无人不赞一句智计超凡，远略深谋。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "这正是，巧施连环剿步离，瞒天过海妙夺旗。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "决胜千里，谋无遗计…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "若无全军上下万众一心，"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "谋无遗计又有何用？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仰赖诸位云骑交托性命"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "我必不负所托。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟翾翔，云骑常胜！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟翾翔，云骑常胜！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "？？？",
+            "text": "仙舟翾翔，云骑常胜！"
+          }
+        ],
+        "collapsed": true
+      }
+    },
+    {
+      "id": "d4227db8-9b06-4cb7-9aee-b71cb39db657",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 93
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "哇！这就是「仙舟」？看起来比雅利洛-Ⅵ还大！"
+      }
+    },
+    {
+      "id": "1247f20b-da96-4fc3-bc91-1cf482e83852",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 94
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "对仙舟人来说，这艘船就是他们的「星球」。"
+      }
+    },
+    {
+      "id": "7ae7de47-1890-406e-b216-718fad0f28be",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 95
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "大地是文明生存与发展不可或缺的摇篮。不过，也有文明能脱离童年，驾驭星舰巡游在虚空中……仙舟联盟就是如此。"
+      }
+    },
+    {
+      "id": "98ee5f5f-665b-4ea8-8373-b550d7c9169e",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我只看过几次，但，依旧这么壮丽……"
+      }
+    },
+    {
+      "id": "12c1e86a-c2c2-4d35-8b36-e40713c7a33c",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 97
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你到底是什么情况啊，看你一副怀念又寂寞的样子？"
+      }
+    },
+    {
+      "id": "b646bb46-bff3-485d-bc55-8d9fdff756c8",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 98
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "……"
+      }
+    },
+    {
+      "id": "f41be4ec-e5a6-4a93-9ed2-f6f8c0653ef9",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 99
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "这里是星穹列车，重复一遍，这里是星穹列车。我已抵达仙舟空域，向地面…也许应该说「甲板」，请求登陆许可。"
+      }
+    },
+    {
+      "id": "3ee2aa90-a675-4b2c-9b63-f4c2c8fd440e",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 100
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "断断续续的信号",
+        "text": "欢迎抵达…「罗浮」空港…星槎海……"
+      }
+    },
+    {
+      "id": "59b50562-fc19-4e99-90f2-0894301213b4",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 101
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "断断续续的信号",
+        "text": "请耐心等待接驳…请耐心等待接驳…请耐心等待接驳……"
+      }
+    },
+    {
+      "id": "e42eef4e-d05f-44db-b7ca-ed13abb948ed",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 103
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "…怎么了？"
+      }
+    },
+    {
+      "id": "da69d5cc-2cf9-44f1-8535-4967f28ca23d",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 104
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "信号还在重复，但没有任何引导停泊的迹象。"
+      }
+    },
+    {
+      "id": "3029da32-8fe4-478e-a6ed-347b7f919121",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 105
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "星核猎手也许没骗我们，仙舟真的出事了……"
+      }
+    },
+    {
+      "id": "1a44379e-5d46-4381-b022-3ba379ab2098",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 106
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "一艘飞船抵达空无一人的太空港——许多恐怖电影都这么开头！"
+      }
+    },
+    {
+      "id": "9445db63-d405-467b-83ce-b86a2df819bb",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 107
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "别胡思乱想。"
+      }
+    },
+    {
+      "id": "a7ff4d7c-a6c7-416c-95e1-34cb6cb514ab",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 108
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "断断续续的信号",
+        "text": "请耐心等待接驳…请耐心等待接驳…请耐心等待接驳……"
+      }
+    },
+    {
+      "id": "1c5dd23c-3284-4d8c-9c02-50123a48588f",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 109
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "还是智能信号吗？"
+      }
+    },
+    {
+      "id": "41019571-a732-4303-b5be-d2fcb67d2db5",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "是的，还在重复——啊，好了！"
+      }
+    },
+    {
+      "id": "fbd36421-f973-4199-adf5-31521bfbc421",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 111
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "信号",
+        "text": "——玉界门正在开启，我代表「仙舟联盟：罗浮」，欢迎远道而来的客人，请您按照指引，有序停靠——"
+      }
+    },
+    {
+      "id": "bb0f197b-172b-431b-8edf-ab876c419136",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 112
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "咦？是有工作人员出现了吗？"
+      }
+    },
+    {
+      "id": "e38b94b6-0fae-4809-b331-d43477e2fb99",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 113
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "信号中断了，对面什么也没说。"
+      }
+    },
+    {
+      "id": "26400cf6-2535-4859-804e-bbb42acee58f",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 114
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "我们走了，姬子，你在列车上也要多加小心。"
+      }
+    },
+    {
+      "id": "be7db822-a6d0-4313-8bd9-99fef3a82994",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 115
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "不要紧的，这不是还有丹恒在嘛。"
+      }
+    },
+    {
+      "id": "a47feca2-e088-4d7a-b370-da56487fdc41",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 117
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "走之前记得做好整备工作噢。"
+      }
+    },
+    {
+      "id": "6a0bf037-9605-4bdc-8e2f-da50ad2c68ee",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 122
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "与瓦尔特、三月七一同出发"
+      }
+    },
+    {
+      "id": "fcc639da-423d-494b-8cbb-0beb49bb4da6",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 124
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "在出发前，我要先同两位明确此行的目的——"
+      }
+    },
+    {
+      "id": "66373d46-d5f8-401a-83b5-0ec4e73c45a2",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 125
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "虽然星核猎手抛出了许多烟雾弹，但这次仙舟之行最重要的是……"
+      }
+    },
+    {
+      "id": "ab4234dd-d417-4c56-a1bd-7ed3d149b674",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 126,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "品尝当地美食。"
+      }
+    },
+    {
+      "id": "fa474c76-697c-47b9-ba4f-78adc9fca6dd",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 126,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "别光顾着吃啊，应该多拍些漂亮的风景。"
+      }
+    },
+    {
+      "id": "2dac981a-b661-4afe-98b5-3b07a5268e1c",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 127
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "星核猎手一定别有所图，但考虑到他们的名声，和卡芙卡言语的侧重：仙舟里有一颗星核应是不会错的。"
+      }
+    },
+    {
+      "id": "a084b1b9-9a65-4598-bee6-a9fef1efaaf7",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 128
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "联盟和列车过去没什么来往，我们的到来并不一定受到欢迎。但开拓者并不图名利，我们要为仙舟提供力所能及的帮助，尽可能地消弭祸端。"
+      }
+    },
+    {
+      "id": "a48d205d-f6c0-47ea-8c4b-346e558c9843",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 129
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "保持住这一本心，贯彻「探索」、「了解」、「建立」、「连结」的开拓之道吧。"
+      }
+    },
+    {
+      "id": "067aa8e6-4542-4a96-baf4-fadafcfb3f46",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 130
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "噢噢噢！"
+      }
+    },
+    {
+      "id": "7f0b8824-dc57-4d5b-94c7-c3385cca41f1",
+      "source": {
+        "mission": "旅进青霄，不速之邀",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/旅进青霄，不速之邀.json",
+        "contentIndex": 131
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "出发！"
+      }
+    },
+    {
+      "id": "852812b5-568b-4e09-bafa-fb7b4f374b5b",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们登陆仙舟「罗浮」…"
+      }
+    },
+    {
+      "id": "51f8a8e0-6bd1-4041-bceb-4d4abddf5479",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 1
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "好家伙，全是密密麻麻的集装箱，一眼都望不到边。"
+      }
+    },
+    {
+      "id": "b4d56281-c9e3-4ae7-a54e-97b7704b400e",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 2
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "这哪是让旅客登陆的地方呀，这是卸货的码头吧！谁给咱们指引来的？"
+      }
+    },
+    {
+      "id": "8562fa70-642b-4522-ac38-d2547a22fffa",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 3
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "吞吐量这么大的港口，连个人影也见不着，真瘆人……"
+      }
+    },
+    {
+      "id": "03f5858d-e19d-427e-9bdd-47706e3dc540",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 6
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "杨叔，咱们怎么办？"
+      }
+    },
+    {
+      "id": "dd22d907-c05b-457b-af27-5703bd5aea4d",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 7
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "从找到开启玉界门的人入手。如果此人别有用心，正好替我们省点麻烦；如果是工作人员，就从对方那里问出发生了什么。"
+      }
+    },
+    {
+      "id": "77805459-8a95-4f8a-928b-9c1311a26c0b",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "走吧，提高警惕。"
+      }
+    },
+    {
+      "id": "b170b1b3-8078-44be-95c9-ae1b3b3a5660",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "调查仙舟港口的异常状况"
+      }
+    },
+    {
+      "id": "5c949c47-57e1-4185-9ca2-bb717cc28cf5",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们继续前进，见到了更多的伤者…"
+      }
+    },
+    {
+      "id": "f052e98c-947b-47e8-bc70-1685d5b1495b",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 24
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "到处都有人受伤……"
+      }
+    },
+    {
+      "id": "7005f8c5-6fdc-45a7-85ec-a3736e164d68",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 25
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "不必担心，从四周留下的痕迹来看，并没有平民遇害……"
+      }
+    },
+    {
+      "id": "02d79c2b-df70-4675-9579-4560652a3ba2",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 26
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "仙舟应该及时对港口进行了疏散，只留下士兵对抗危机。但这些受到「侵蚀」的怪物究竟是……"
+      }
+    },
+    {
+      "id": "b2b710c0-e4ae-482b-848f-c38a813ed8ca",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 33
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "远处传来说话声…"
+      }
+    },
+    {
+      "id": "e0f58722-7365-4c96-b308-406fcc726290",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 34
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "云骑军士卒",
+        "text": "停云小姐，请退后！"
+      }
+    },
+    {
+      "id": "96a82043-869c-4b90-a917-79c3ebb3fa0e",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 35
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "云骑军士卒",
+        "text": "他们已经堕入{{魔阴身|「长生病」}}，不再是我们的战友了……"
+      }
+    },
+    {
+      "id": "626bfca1-e43a-48c5-bf4a-af4d3f937cc5",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "9404f0a6-19d9-4e3c-b541-a4f2515cea8a",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们看到一位女子被怪物包围…"
+      }
+    },
+    {
+      "id": "b8b03d32-9876-472e-a642-893b1c54c010",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 38
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "喂，你们几个！快来帮忙呀~"
+      }
+    },
+    {
+      "id": "219eb984-db01-4649-8a78-d9193fed9ce4",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 39
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "进入战斗"
+      }
+    },
+    {
+      "id": "c0b950a8-3388-48cc-bdab-162f535a3375",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 40
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "谢谢你们英雄救美啦~"
+      }
+    },
+    {
+      "id": "70d5316d-9d74-4ff0-a7ee-87c224c0c241",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 41
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "下次这种话让我们来讲！你自己说很奇怪耶！"
+      }
+    },
+    {
+      "id": "14ba2eba-3cc9-49fc-b3c3-426f746dae7d",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败魔阴身士卒…"
+      }
+    },
+    {
+      "id": "934b333a-7be2-4a85-b64c-4d10c8fa0b20",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 43
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "云骑军士卒",
+        "text": "停云小姐，魔阴身已除，但不知附近还有几多凶险。"
+      }
+    },
+    {
+      "id": "ad7ca668-bbac-4f58-8035-1f80d183dd1f",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 44
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "云骑军士卒",
+        "text": "情况不容乐观，请尽快随我们返回天舶司吧。"
+      }
+    },
+    {
+      "id": "76f7b8f6-c0a5-4985-9657-fe2097c352e6",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 45
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "知道知道，急什么。这几位恩公还没谢过，一走了之也太失礼了吧。"
+      }
+    },
+    {
+      "id": "8a092893-90bc-41b7-b433-b011353910ef",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 46
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "小女子是罗浮天舶司商团接渡使「停云」。敢请教恩公尊姓大名？"
+      }
+    },
+    {
+      "id": "7fa1e875-5ecc-4e1a-8bef-38d9ebf6ed37",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 47
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "「尊姓大名」…太客气了吧，我叫三月七，这位是杨叔，不对，瓦尔特·杨先生。还有这位——"
+      }
+    },
+    {
+      "id": "d8ea0a76-d223-4172-a0db-b829e9884673",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 48,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "我是…银河球棒侠。"
+      }
+    },
+    {
+      "id": "ccca4cfd-a0bc-4168-83ab-b1d19a0a4a49",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 48,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "喔…球棒侠。很豪迈的名字。"
+      }
+    },
+    {
+      "id": "232c66bd-7c45-47f4-9a13-4ed2d99fdc92",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 48,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "这是开拓者。你别理她/他，这家伙每次自我介绍都要玩点花样。"
+      }
+    },
+    {
+      "id": "0ca70aca-71c4-4e6b-9f5f-ccbbc484dcbf",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 48,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "（小声）万一这次又被通缉…"
+      }
+    },
+    {
+      "id": "adb55177-6b99-417d-bbb1-a4ef910c74f6",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 48,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "（小声）还是留个假名安全…"
+      }
+    },
+    {
+      "id": "1d1d4346-aae9-4d6c-b1a0-ebdd82eb74e8",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 48,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你早说啊，名字我都报出去了。"
+      }
+    },
+    {
+      "id": "1698e60a-b693-49bc-be6b-454e39d1da0b",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 49
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "原来如此，感谢各位仗义相助。但小女子有一事不明：星槎海已全面封锁，恩公们并非仙舟人士，在此何干呢？"
+      }
+    },
+    {
+      "id": "4d87d816-a307-4fea-acb5-a1e338d2506f",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "若是没个合理的解释，一旁这几位云骑大哥怕是不得不押各位一程啦。"
+      }
+    },
+    {
+      "id": "59bf2fb3-4d72-4e0d-9cae-f123f909cee8",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "我们呼叫港口接驳，起初没有回应，突然有人替我们打开了玉界门。进入仙舟后，我们见不到人影，只好一路寻找过来。"
+      }
+    },
+    {
+      "id": "8af818b0-1bd2-4c62-93be-76570a18a120",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 52
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "怎么可能？我的舰船最后入港，玉界门随后关闭，天舶司已将星槎海彻底封锁——"
+      }
+    },
+    {
+      "id": "ba4c9551-2b77-4af2-97f0-c1189f64c288",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 53
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "我没有说谎，仙舟一查玉界门的开启记录就知真伪。"
+      }
+    },
+    {
+      "id": "2427bdfa-cbf7-4ed2-951e-79b25c062ee4",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 54
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "开门的人一言不发，我也怀疑其中有鬼。"
+      }
+    },
+    {
+      "id": "2fda23fa-eceb-46bd-8597-710d4784996b",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 55
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "……"
+      }
+    },
+    {
+      "id": "d5b30a18-c1e9-44f8-b1d8-70cec1479d0e",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "你们是…星穹列车？"
+      }
+    },
+    {
+      "id": "8b824a21-6f0c-43e2-9a6a-f860d8e4ca0e",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "你知道我们？"
+      }
+    },
+    {
+      "id": "b24fed07-0a5d-4c9d-b15c-6c16c916a911",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 58
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "早有耳闻，唉…恩公们来得不巧，仙舟出了意外，本不适合待客。无论几位是来观光、求医还是经商，怕是什么事情都做不了啦。"
+      }
+    },
+    {
+      "id": "b246079c-6d63-4c76-81df-c64f6bd5b52f",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 59
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "出于安全考虑，你们还是尽快前往星槎海的中枢避难吧。我带各位觐见执掌天舶司的驭空大人，交予她来定夺。"
+      }
+    },
+    {
+      "id": "7d681610-6b33-4403-ae94-c1cf6f791334",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 60
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "仙舟的意外我们也略知一二。停云小姐，我们此行，正是为帮助仙舟封印「星核」而来。"
+      }
+    },
+    {
+      "id": "fe84c263-d507-4757-acfc-78c1e85d323e",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 61
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "呵呵，各位仗义相助时，小女子就知道恩公们是大大的善人！可惜…停云也无能为力呀！你们毕竟是外人，未经司舵驭空大人的授权，谁敢擅作主张。"
+      }
+    },
+    {
+      "id": "db492eb6-d72b-47d6-829a-5ea71cee4f2a",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "别怕，驭空大人为人和善，跟我来吧！"
+      }
+    },
+    {
+      "id": "a47b8eb3-c981-4329-bddc-5801d4524e16",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "与停云一同前往星槎渡口"
+      }
+    },
+    {
+      "id": "2daf9906-b12c-492e-8d0a-18d28c0cb971",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 66
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "刚才那些被打倒的怪物……"
+      }
+    },
+    {
+      "id": "e3e2acaa-14dc-4e15-97ec-22b85349fb36",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "云骑军士卒",
+        "text": "他们才不是什么怪物！"
+      }
+    },
+    {
+      "id": "698c983f-6cfc-4f80-8351-45da73c21ac1",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 68
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "不是怪物，恩公，那是「{{魔阴身|「长生病」}}」"
+      }
+    },
+    {
+      "id": "ea3bc12a-e443-43ba-858a-eeff1cc86db0",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 69
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "da58de26-b1cc-43d8-9deb-68862b8d9d9c",
+      "source": {
+        "mission": "行遏流云，身入魔阴",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/行遏流云，身入魔阴.json",
+        "contentIndex": 82
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "只消穿过这里，搭上去星槎海的舶船，到了安全地带就用不着再东躲西藏啦。"
+      }
+    },
+    {
+      "id": "f5de78d7-faf3-493e-84cc-26bfe93497c6",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们搭乘星槎来到了星槎海中枢…"
+      }
+    },
+    {
+      "id": "d00b2784-f56e-49f6-8bd4-7924e7e7949d",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 1
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "那么，请允许小女子代表天舶司，欢迎各位恩公光临「星槎海」。"
+      }
+    },
+    {
+      "id": "fdcebea7-2389-4283-ac1a-92487031fa80",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 2
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "「罗浮」仙舟上，举凡空域、航行和贸易事务，一应由位列六司的「天舶司」主掌。作为最大的港口，星槎海也在我们治下。"
+      }
+    },
+    {
+      "id": "784986b4-4435-41aa-9340-0d8fe9f4c721",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 3
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "不愧是…呃，什么渡使，说起话来好有气场。"
+      }
+    },
+    {
+      "id": "32c6d8ea-d867-4399-9690-3ff25be77895",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 4
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "见笑了。我负责接渡来往的商客。这些文绉绉的场面话，我隔三差五要说一通的。"
+      }
+    },
+    {
+      "id": "6749a135-f7d5-4490-8854-80cebaf6e977",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 5
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "总之，到这儿就安全了。本该带大家游览一番，让小女子尽尽地主之谊。但眼下非常时期，我们先走一趟司辰宫，向驭空大人禀报各位的来意。"
+      }
+    },
+    {
+      "id": "4a1b397c-fc5e-4acc-ad9f-3771d70f24f1",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 6
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "司辰宫？"
+      }
+    },
+    {
+      "id": "26abc24c-3fbf-4e48-a5a9-461114eb636b",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 7
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "瞧见了没，城里最高的建筑。那儿就是天舶司的总部。事不宜迟，咱们快些去吧。"
+      }
+    },
+    {
+      "id": "cf80846e-94ac-41be-b4cc-2008a2970ba5",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "觐见六司，总得有些准备。停云小姐放心，我们不去他处。劳烦你先通报一声，我们稍后在司辰宫门口等候。"
+      }
+    },
+    {
+      "id": "57f84141-9f22-4146-8b79-6afdd38c17eb",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "停云",
+        "text": "…好吧。"
+      }
+    },
+    {
+      "id": "664326ff-ba2c-4ad0-896b-48ab86814ee7",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 13
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "停云点头致意后离开了…"
+      }
+    },
+    {
+      "id": "2e16c1d5-291c-4969-991a-56dfc1cdf1f7",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 14
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "e33b3d11-704a-43ef-8a88-e31de29d9e4d",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 15
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "那位狐狸姑娘做事节奏太快，我都难以适应，也许是闲得太久了…抓住这点时间好好喘口气吧，这会是我们唯一空闲的时光了。"
+      }
+    },
+    {
+      "id": "d6d752db-b16f-4758-90a6-b7d4aa57e9ac",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 19
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "先给两位打个预防针。接下来的谒见环节，务必打起精神，认真应对。"
+      }
+    },
+    {
+      "id": "5b4dc34c-bb08-4e1d-ba42-e1cdfc63ea57",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 20
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "杨叔是担心这次面见仙舟的长官，我们会重蹈贝洛伯格的覆辙嘛…？"
+      }
+    },
+    {
+      "id": "baf07a54-1331-491d-be48-0fc0d8e7a038",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 22
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "不会，仙舟联盟不至于如此失礼。但这位驭空接见我们时，一定会问出一连串问题——"
+      }
+    },
+    {
+      "id": "c79b4f39-4e60-4c7a-ad63-e174ff7cf0e6",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "为什么我们选择这个时机来到仙舟？我们如何得知这场灾变与星核有关？什么人向我们透露仙舟的消息？……"
+      }
+    },
+    {
+      "id": "c606b88a-1e53-491a-a93c-890a974c701e",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 24
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "回答若有不慎，很可能换来戒备与敌意，行事也会倍加困难。"
+      }
+    },
+    {
+      "id": "7a9d210b-7d2a-4482-8bbe-5a0d2189a9d6",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 25
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "这可糟了，我和开拓者都是笨嘴笨舌，一不小心就说错话的类型……"
+      }
+    },
+    {
+      "id": "8649c466-1100-44d9-b055-d1b380a9611c",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "车到山前必有路。你们不必为难，到时候由我来应答就行。"
+      }
+    },
+    {
+      "id": "8e66a642-61d6-4bea-b0d7-8a77f30ec280",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 41
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "前往司辰宫，谒见驭空"
+      }
+    },
+    {
+      "id": "8c751f41-c8ab-41de-a9f1-fa87f18a4dda",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 47
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "航务官",
+        "text": "——是，大人。"
+      }
+    },
+    {
+      "id": "73a1add4-e61e-4297-a4f1-45046256d24f",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 48
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "将损失数据呈报给景元将军，再把太卜司的人找来。这么大的乱子，他们岂能置身事外……"
+      }
+    },
+    {
+      "id": "1b89cc75-87b0-4bc3-add4-7d4e7814b8a3",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 49
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "「星穹列车」的客人，你们好。"
+      }
+    },
+    {
+      "id": "e33418e5-5676-47fa-a593-a33f0f4dfbfd",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "你们的来意，停云已经悉数向我禀报过了。本来我的职责并不包括接见旅客。"
+      }
+    },
+    {
+      "id": "f0c3d79f-f203-4615-b457-cfba1874c479",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "但既然你们知道星核，又言明要帮助「罗浮」。那么于情于理，我都要给各位一个面对面的机会……"
+      }
+    },
+    {
+      "id": "4b73bc3d-6373-4cae-9aec-d7f09c6f5c30",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 52
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "亲口谢绝各位。"
+      }
+    },
+    {
+      "id": "19ab8635-f577-484c-8653-f2417ec50930",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 54
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "区区星核而已，联盟早已知悉此物，自有办法应对。仙舟翾翔八千载，见惯了危急存亡。眼下的灾难虽来势汹汹，仙舟亦有余力自处，不需假借外人之力来平息祸端"
+      }
+    },
+    {
+      "id": "6d414a9c-3343-4d70-b276-d90a8679dcdc",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 55
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "各位远到是客，断无理由卷入此事——我这么说，你们可明白？"
+      }
+    },
+    {
+      "id": "e9de695c-68a0-44a6-9c6c-48df66354f63",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "从目前的状况来看，星核的影响尚未完全深入。"
+      }
+    },
+    {
+      "id": "c10fada7-1423-41a7-8802-6ceccd84da2c",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "如果能及时找到位置，对其进行遏制，无论是被侵蚀的空间，还是遭受侵染的人，都有复原的可能。"
+      }
+    },
+    {
+      "id": "2ad0bcea-d315-48a4-add1-a8896d86fe0e",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 58
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "我们曾经阻止过星核的灾难，这一次前来，也只是为了助各位一臂之力。"
+      }
+    },
+    {
+      "id": "574028c6-4429-4c54-99ec-06266187e8d2",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 59
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "我已说得很清楚：这是仙舟联盟的内部事务，不劳星穹列车插手。为示尊重，我特意接见各位，传达最终的决定，不容更改。"
+      }
+    },
+    {
+      "id": "d4f1af29-8727-4676-bc81-7e5b90b83152",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 60
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "可是——"
+      }
+    },
+    {
+      "id": "1d70dadb-589e-43f5-ba15-558b25d2e4a8",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 61
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "算啦杨叔，联盟自己能搞定，咱们还费那个心干嘛。我们走就是了。"
+      }
+    },
+    {
+      "id": "a195de51-798e-4b04-bf4d-198bafd4beca",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "不，你们走不得。"
+      }
+    },
+    {
+      "id": "5db29fd0-3040-4ee6-b734-466a3218fb55",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "…喂，这就有点过分了啊。"
+      }
+    },
+    {
+      "id": "c3fc3ead-5d85-4a80-8b84-0767ce4429e7",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 64
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "「罗浮」上发现星核不过数日，星槎海全面封闭，无人离开——各位如何未卜先知，又怎么认定这一切与星核有关？"
+      }
+    },
+    {
+      "id": "20a036bf-4289-4cc7-9872-1bef42062674",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 65
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "我调取了星槎海的出入记录，在不久前，有人骇入系统，打开玉界门，指引一艘舰船入港，那就是你们：星穹列车……"
+      }
+    },
+    {
+      "id": "ef3ac78a-26cc-4c85-b3d1-4c20bfb67330",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 66
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "而骇入系统的人手段高明，甚至故意留下了一道印戳，仿佛挑衅——「银狼」，星核猎手的一员。"
+      }
+    },
+    {
+      "id": "8605acfa-8775-43ff-a107-340a45a42b81",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "对此，你们又作何解释？"
+      }
+    },
+    {
+      "id": "8342e122-73b2-4a89-ae9b-b3dc5e8b7fe4",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 69
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "在上述疑团查清前，你们不得离开天舶司。"
+      }
+    },
+    {
+      "id": "177080a9-4269-4114-82ed-7112a6f039f9",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 70
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "驭空，别这么凶嘛，要是传出去，岂不让银河耻笑仙舟联盟不得待客之道？"
+      }
+    },
+    {
+      "id": "8c4a0052-d63d-49e9-ab0e-9bd6f1d31210",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 71
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "景元将军——"
+      }
+    },
+    {
+      "id": "02266add-1336-42da-8b19-65293452a6bc",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 72
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "星穹列车怎么可能和星核猎手同盟呢，他们可是死对头呀。"
+      }
+    },
+    {
+      "id": "8fa50ee9-4b18-4544-b800-60ebea83abf3",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 73
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "打扰各位的会面，我是「罗浮」云骑将军：景元。"
+      }
+    },
+    {
+      "id": "6eb73e34-7829-43bd-90e9-dcfc6a0e29c3",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 74
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "将军，这是罗浮的内部事务……"
+      }
+    },
+    {
+      "id": "50de5a6d-b4ca-4bd7-8a84-3987c53c17ec",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 75
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "对，对，内部事务——我完全赞同驭空司舵的意见。"
+      }
+    },
+    {
+      "id": "5d3ef7ca-c8ad-4ad4-b834-702d96deb94c",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 76
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "很抱歉，列车团的各位。「罗浮」上确实有一颗星核，但我必须拒绝你们的好意：这是仙舟的问题，只能由我们自己解决。"
+      }
+    },
+    {
+      "id": "fd681498-5e2e-4666-98f1-c94c224329e9",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 77
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "—但是来都来了，怎能让各位无功而返！虽然「星核」一事不能接受列车团的帮助，但我确实另有一事，非得拜托各位不可！请！"
+      }
+    },
+    {
+      "id": "f6c9697a-6f5e-44bc-84d6-f3029bee1b0d",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 78
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "驭空",
+        "text": "……"
+      }
+    },
+    {
+      "id": "26f404d1-7626-4cc9-9784-b1384a939974",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 79
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "45bb7275-3a8f-40f1-a1ed-c83381850fbf",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 80
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "星穹列车——在下闻名已久，心驰神往，今日得见，幸甚至哉！"
+      }
+    },
+    {
+      "id": "a1ca93da-66a5-47b5-9d5d-088e2e29cdd7",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 82
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "久仰将军大名，您有什么事要拜托我们？"
+      }
+    },
+    {
+      "id": "46c3d621-adac-4199-8b72-f382a06a5343",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 83
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "噢，那可是非各位莫属。数日前，我们抓住了一位擅闯仙舟重地的星核猎手，叫做「刃」。"
+      }
+    },
+    {
+      "id": "7faff330-b02c-4cd9-9ca4-d75fdc38f342",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 84
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "审讯刃的期间，太卜司——仙舟负责情报与信息推演的部门——截获了他潜藏在仙舟上的同党「卡芙卡」发出的通信。至于通讯对象嘛……"
+      }
+    },
+    {
+      "id": "3cf10683-565c-4eba-8a21-95a021a1e006",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 86
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "……"
+      }
+    },
+    {
+      "id": "74aa87f6-b393-4092-b6d8-1b3bd0644ccd",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 87
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "各位与星核猎手之间的关系，我也略知一二。太卜司认为你们必是同党！我说不可能。星穹列车行事正派，见义勇为的美名诸界传扬，岂能与宵小之辈同流合污？"
+      }
+    },
+    {
+      "id": "5e2cabd5-b528-4951-88c8-f3604b1e5f3a",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "因此这则通信，必是星核猎手祸水东引的毒计。"
+      }
+    },
+    {
+      "id": "92e4d2bb-2ab6-4b69-9a6a-942fc1e98faa",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 90
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "「星核」之灾，仙舟确有解决法子。但平定灾患需要时间，需得投入云骑军主力方能成事。但这卡芙卡潜藏在仙舟上，终究是个祸患，不得不防。"
+      }
+    },
+    {
+      "id": "b944f8bf-1058-4684-9167-2716299c5bc9",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 91
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "既然星核猎手故意将各位引来罗浮，你我正好顺水推舟。我以将军身份给予诸位在仙舟便宜行事的权限，将下落不明的卡芙卡引出，一举捉拿。"
+      }
+    },
+    {
+      "id": "beab2655-a078-461f-a11f-f417891d7a99",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 92
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "如此，一来洗清各位被星核猎手泼上的污水，二来也好得知这猎手潜入仙舟的目的，又与爆发的星核有何关联。列车团的诸位，意下如何？"
+      }
+    },
+    {
+      "id": "79bbe540-b64e-4fcf-b481-3f0542785e42",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 93
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "…开拓者，你认为呢？"
+      }
+    },
+    {
+      "id": "34f02ff4-4861-4512-81f4-3f3e855fda82",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 94,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "我们也没得选。"
+      }
+    },
+    {
+      "id": "6e72e9e0-69be-4cbc-afff-593f5e747aeb",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 94,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "各位当然有的选。无情人遭拒，抽身离去便是。但你们依然心念帮助仙舟。"
+      }
+    },
+    {
+      "id": "78c1dcee-c8a6-4379-a8de-e8dc23b3a713",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 95
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "君如以赤诚待我，「罗浮」理当报以赤诚。"
+      }
+    },
+    {
+      "id": "9dd878c3-c8d9-4bff-855d-b44cd93bcc77",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "…好吧。"
+      }
+    },
+    {
+      "id": "2bfda07c-d739-4dd8-9649-eb084cb81d0e",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 97
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "妙极，一言为定。我这便下令，着驭空分享一切情报，拨出精锐人手，助各位展开搜捕。"
+      }
+    },
+    {
+      "id": "793b0264-7767-412c-866e-2b94df34a292",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 98
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "滞留仙舟期间，如有用得上天舶司和云骑军的地方，不用客气。"
+      }
+    },
+    {
+      "id": "e2cf26be-5aca-4f44-9a40-5f49dc04c304",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 99
+      },
+      "node": {
+        "type": "text",
+        "text": "闲谈落定，瓦尔特暗暗对你比了个手势。你明白，下面是列车团自己的谈话时间。"
+      }
+    },
+    {
+      "id": "8bbb0586-6be2-412a-9f4e-b21c0b945b30",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 105
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "这个景元…不简单哪。"
+      }
+    },
+    {
+      "id": "7849d040-90a8-4c57-bc82-f9c02c00b640",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 106,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "杨叔觉得有古怪？"
+      }
+    },
+    {
+      "id": "12c5bf8b-bdc0-4fe4-8c2a-dab04673ad4a",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 106,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "古怪倒也谈不上，只是总觉得哪里不大对劲。"
+      }
+    },
+    {
+      "id": "d59a05af-6fb8-4816-aeae-5bd68db39b60",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 106,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "……"
+      }
+    },
+    {
+      "id": "1aec0384-46e2-4e1e-9e2f-1d738ac1e6c5",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 107
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "我想到了！有一个奇怪的地方，非常微小——他刻意跳过了「刃」！"
+      }
+    },
+    {
+      "id": "bdb1c430-927c-4ba6-a9ef-884964073193",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 108
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "既然云骑军抓住了星核猎手的成员，以此为线索追捕卡芙卡就行了。何必要请我们「引出」卡芙卡？"
+      }
+    },
+    {
+      "id": "e05271d6-f549-4463-a048-7ec362467e97",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 109
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "仙舟既不愿让外人插手「星核」灾害，又为何在「星核猎手」一事上如此大度？"
+      }
+    },
+    {
+      "id": "e1783255-6562-4958-a04c-ea39e2f999ab",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 111
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "我只能想到一个合理的解释：不论「刃」被捕一事是否属实，至少现在，「刃」很可能已经脱离了仙舟的掌控。"
+      }
+    },
+    {
+      "id": "3c77107a-b7e1-43e0-8c8a-e6a23025de31",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 112
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "因此，景元如果想钓出星核猎手，就只有我们这个与卡芙卡产生联系的诱饵。"
+      }
+    },
+    {
+      "id": "8ce374d9-b596-4995-bc4d-b2dbff59c14a",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 113
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "所以他才拐着弯地请我们帮忙——因为「刃」的逃脱不能让别人知道！"
+      }
+    },
+    {
+      "id": "6bdcdb0d-d06b-4e8a-aa6a-4d19a497331d",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 114
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "想通了这一节，也许我们开始接近事件的核心了。"
+      }
+    },
+    {
+      "id": "581e191a-93c6-4398-9152-0101c88170c2",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 118
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "另一边，景元和彦卿在与符玄通话…"
+      }
+    },
+    {
+      "id": "2716b387-7108-42b7-a74c-cfc7b05bf53f",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 119
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "太卜大人，我与他们的谈话你都听见了，有何看法？\""
+      }
+    },
+    {
+      "id": "91fb97ce-222d-4456-b669-bd572a94846d",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 120
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "什么看法？「天道昭邈，人心幽微」，你要我给这几位卜一卦，占测来意吉凶么？"
+      }
+    },
+    {
+      "id": "26df0ee6-f7cd-4950-b30a-2f9e6d750c51",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 121
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "这倒不必，星穹列车与此事无干，这我十拿九稳。你我不必深究他们的来意，只要饵吞下，鱼钓出，也就够了。"
+      }
+    },
+    {
+      "id": "d92597b2-9cf4-4136-bf84-3c2df75cfca2",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 122
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "这是我的提议吧，将军。"
+      }
+    },
+    {
+      "id": "f4f129e8-2aa6-447e-afc6-c17746e65f29",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 123
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "嗯，多得有符卿智珠在握，之后的事情，也全都仰仗你了。"
+      }
+    },
+    {
+      "id": "117399d2-a61b-4ded-9578-25464b8cbadb",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 124
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "哼，那你倒是早些退位啊。"
+      }
+    },
+    {
+      "id": "490c548a-f8d6-4c6f-ab36-1fbffc5db4b4",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 125
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "还不是时候，万一有甚变数，我得在将军之位上承担罪责，可不能现在一走了之，陷符卿于不义呀。"
+      }
+    },
+    {
+      "id": "d62d1198-3398-49c4-9f82-f941c6baf594",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 126
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "你早将星核猎手交到我手里，眼下也没这烦恼。"
+      }
+    },
+    {
+      "id": "7d8c14b5-e482-4693-8a76-4899eb7a5164",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 127
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "你到底在想什么啊？景元！该不会…难道是你故意把人放跑的？！"
+      }
+    },
+    {
+      "id": "afc68314-e49a-413e-baa9-6c2d7a0d76e1",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 128
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "我？我又怎能像符卿一样未卜先知？云骑军看守不力，我有责任。"
+      }
+    },
+    {
+      "id": "c0fa61ea-7fbe-4671-bc6e-dc80693fb086",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 129
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "哼，我能理解。仙舟诸务繁杂，你难免精力不济。要不是有我在底下撑着……"
+      }
+    },
+    {
+      "id": "e7590eb3-b541-4e04-8af6-5da75089e8f3",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 130
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "说来，下次「六御」议政，你该履行举荐我继任将军的诺言了吧……"
+      }
+    },
+    {
+      "id": "52129e40-7564-4cb4-bd53-2cdf55783d28",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 131
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "嗯嗯嗯，好好好，知道了，我还有要事。之后就全拜托「天赋异禀」的符卿了。"
+      }
+    },
+    {
+      "id": "221c4142-48a1-4adb-9620-4da6006e3d82",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 132
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "符玄的影像消失…"
+      }
+    },
+    {
+      "id": "91bfd800-7335-46d7-9ae0-bb99f6cf9308",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 133
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "仙舟上的麻烦，桌案上的文牍，花坛里的杂草，唯有这三样东西是无论怎么努力也打扫不干净啊。"
+      }
+    },
+    {
+      "id": "911700be-aa34-49e2-ae54-971c663a0b90",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 134
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "将军，符太卜想接您的位置，路人皆知。"
+      }
+    },
+    {
+      "id": "c3c62fa9-f921-4f8d-8bd8-fc4dc8a5e7e8",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 135
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "她是很有能力啦，不过心智上还要再磨磨，什么时候磨去了直脾性，我大概会考虑退休吧。"
+      }
+    },
+    {
+      "id": "02fda7a7-a0ed-47a8-ad27-c3a9fe3ae9b2",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 136
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "星核这事，说麻烦也不麻烦。人跑了，再抓回来就是。将军一声令下，我彦卿立刻替您排忧解难。"
+      }
+    },
+    {
+      "id": "cb694960-b16d-459f-8c1c-9d7b964b8cbb",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 137
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "我知你心急，想做些什么，并且做成些什么，但现在还不是时候。你欲得「剑首」之名，不可随意动手，尤其不可与重犯械斗。"
+      }
+    },
+    {
+      "id": "c019a6fe-b484-4177-a509-fc9fe8c55f18",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 138
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "将军难道以为我会输给那个「刃」不成？"
+      }
+    },
+    {
+      "id": "0120cbeb-4d1d-405f-9fc4-e77f66a09a31",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 139
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "我是要你耐下性子，彦卿。仙舟治平与剑术不同，徐徐图之，方能成势。何况这棋局中的暗手还没揭开呢……"
+      }
+    },
+    {
+      "id": "cdc7c66b-d695-452a-80d2-5dffc42baf1d",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 140
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "有一个疑团，只要它还没解开，这盘棋就只能僵持不动。那就是「星核」。"
+      }
+    },
+    {
+      "id": "6f2a73c3-90e5-4032-990f-907979145ccc",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 141
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "它如何掩人耳目，绕过天舶司的核查与太卜司的推演，又被置于何处？"
+      }
+    },
+    {
+      "id": "8b3ad5df-0745-411e-9e38-5e1acc40bf69",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 142
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "我看，把两个星核猎手都抓回来送去符太卜那儿一审是最快的法子。"
+      }
+    },
+    {
+      "id": "80419142-6a9f-4b22-9fe7-b3d11c9f5e64",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 143
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "这件事我已托了列车上的客人去做。不忙，之后大局底定，自有你的用武之地。"
+      }
+    },
+    {
+      "id": "82e73acd-400c-4331-b3dd-20d995b91161",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 144
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "你是我最信任的人，有些事，我只有交给你才放心。彦卿，有个差事……"
+      }
+    },
+    {
+      "id": "3ff9ee30-f921-4d36-af71-8dc73e258e6d",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 145
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "这孩子……"
+      }
+    },
+    {
+      "id": "7d95ba98-d185-45f7-868e-78412773f003",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 146
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "是我不好，少年在家里待久了，难免要生出些事情来。「匣中久藏三尺水，何日可待试锋芒？」…呵呵……"
+      }
+    },
+    {
+      "id": "30a153a0-c1a0-4719-ac2f-df9d2bf2e65b",
+      "source": {
+        "mission": "紫府通谒，将军定策",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/乘槎驭风仙窟游/紫府通谒，将军定策.json",
+        "contentIndex": 147
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "只怕这次要受的挫折，大过他的洋洋意气呵……"
+      }
+    }
+  ]
+}

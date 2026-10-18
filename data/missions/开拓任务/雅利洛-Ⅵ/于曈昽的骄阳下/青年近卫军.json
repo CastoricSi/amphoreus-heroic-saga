@@ -1,0 +1,695 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "青年近卫军",
+    "pageId": 2529,
+    "revisionId": 77311,
+    "parentRevisionId": 64372,
+    "revisionTimestamp": "2026-01-19T18:18:40Z",
+    "fetchedAt": "2026-09-28T00:15:17.096Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E9%9D%92%E5%B9%B4%E8%BF%91%E5%8D%AB%E5%86%9B",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E9%9D%92%E5%B9%B4%E8%BF%91%E5%8D%AB%E5%86%9B&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "青年近卫军",
+    "region": "雅利洛-Ⅵ",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "03",
+    "series": "于曈昽的骄阳下",
+    "description": "你们与邓恩的交涉堪称轻松写意：堂堂铁卫队长被各位打到昏迷、生死未卜，而你们拿到了解锁能源中枢大门的密钥。\n整个禁区的铁卫闻讯纷纷赶来，现在的你们只要像对付邓恩那般对付其他人即可。\n还等什么？快去解锁能源中枢大门吧！",
+    "requirements": "完成不可制造偶像",
+    "requiredLevel": "24",
+    "characters": [
+      "希儿",
+      "希露瓦",
+      "三月七",
+      "丹恒",
+      "杰帕德"
+    ],
+    "relatedItems": [
+      "机关密钥"
+    ],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "1000"
+      },
+      {
+        "item": "星琼",
+        "amount": "80"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "3"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "3"
+      }
+    ],
+    "previousMissions": [
+      "不可制造偶像"
+    ],
+    "nextMissions": [
+      "兵士们默默无言"
+    ],
+    "objectives": [
+      "打开能源中枢大门",
+      "操作能源中枢，激活栈桥控制终端",
+      "前往操作栈桥控制终端",
+      "操作栈桥控制终端",
+      "前往禁区的最前线"
+    ],
+    "synopsis": [
+      "邓恩战败昏迷，希露瓦从其身上找到「密钥」。敌袭警报响起，营区全面戒备，你们已经别无退路，必须找到「星核」。",
+      "希露瓦检修「能源中枢」，成功将机械栈桥控制终端激活。现在可以去创造新通路了。",
+      "一个大家伙挡住了你们的去路。在操控栈桥机关之前，你们必须清除阻碍。",
+      "能源恢复供应，希露瓦成功取得操控栈桥的权限。",
+      "你们在禁区深处遇到杰帕德。希露瓦尝试向其解释关于「星核」的禁忌真相，但杰帕德不为所动。杰帕德下令铁卫列队捉拿你们。",
+      "禁区中唯有杰帕德仍在战斗。你出示布洛妮娅的信，成功说服杰帕德服从军令。杰帕德希望你们能阻止灾难，拯救贝洛伯格的人民。"
+    ]
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "打开能源中枢大门"
+    },
+    {
+      "type": "objective-description",
+      "text": "你们与邓恩的交涉堪称轻松写意：堂堂铁卫队长被各位打到昏迷、生死未卜，而你们拿到了解锁能源中枢大门的密钥。\n整个禁区的铁卫闻讯纷纷赶来，现在的你们只要像对付邓恩那般对付其他人即可。\n还等什么？快去解锁能源中枢大门吧！",
+      "location": "雅利洛-Ⅵ-铁卫禁区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "早知道「密钥」就在他身上…我一个人潜进去拿走就好了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "别马后炮了，希儿姑娘！只要机械栈桥启动，咱们迟早都要暴露的。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "消耗道具机关密钥打开能源中枢大门"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "搞定！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "门开了！谢啦邓恩！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "操作能源中枢，激活栈桥控制终端"
+    },
+    {
+      "type": "objective-description",
+      "text": "你们与邓恩的交涉堪称轻松写意：堂堂铁卫队长被各位打到昏迷、生死未卜，而你们拿到了解锁能源中枢大门的密钥。\n你们成功用密钥打通了前往能源中枢的道路，接下来就该轮到机械专家希露瓦大展身手了。",
+      "location": "雅利洛-Ⅵ-铁卫禁区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "给我一点时间……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "可恶，这操作系统谁设计的啊，这么繁琐！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "「应急消防疏散系统」…肯定不是这个……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "「舞池摇滚氛围模式」…这谁加的？还用我的歌！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "「机关栈桥控制终端」——哈，还不是让我找到了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "搞定，能源系统已经重新上线了！去操作栈桥终端吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往操作栈桥控制终端"
+    },
+    {
+      "type": "objective-description",
+      "text": "能源中枢在希露瓦的操作下成功上线，连接栈桥控制终端的管线不出意外已经全部打通。\n趁着还没被银鬃铁卫彻底团团包围，迅速前往操作栈桥控制终端，通过栈桥吧！",
+      "location": "雅利洛-Ⅵ-铁卫禁区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那个，希露瓦…就算咱们通过了栈桥，对面不还有更多铁卫守着？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "对，没错。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那怎么办呀！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "要么一路冲过封锁线，要么以理服人——随机应变！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "呃……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "控制终端前守着一个自动机兵…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "小心！前面有个大家伙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "没有别的路…只能正面应战了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "哼，我们连史瓦罗都赢过，还会怕它不成？上吧！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败自动机兵·灰熊"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "操作栈桥控制终端"
+    },
+    {
+      "type": "objective-description",
+      "text": "能源中枢在希露瓦的操作下成功上线，连接栈桥控制终端的管线不出意外已经全部打通。\n打倒了盘踞在终端附近的自动机兵后，启动终端只不过是时间问题。\n然而对各位而言，眼下最宝贵的事物就是时间——在此处稍有拖沓便可能前功尽弃。\n不要浪费时间，迅速操作终端，通过栈桥吧！",
+      "location": "雅利洛-Ⅵ-铁卫禁区"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "操作控制终端…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "能源供应恢复…系统上线…开启验证…快点，快点！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "百分之四十…六十五…八十五……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "哈，总算好了！这下我们有操作栈桥的权限了，动作快！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "成了！走吧，咱们该去前线了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…没问题吗？令弟可能也在那里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "大概吧…遇不到是最好，要是碰上了，就只能试着跟他谈谈了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你有把握说服他吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "把握，不到三成吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…那就是还有动武的可能性了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你没发现我们不管想说服谁，结果都是要打一顿吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "容我确认一下，希露瓦。如果我们和令弟无法达成一致——你会站在我们这边吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "…那当然，姐姐我言出必行。既然承诺了要跟你们站到最后，我绝对不会食言。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往禁区的最前线"
+    },
+    {
+      "type": "objective-description",
+      "text": "在沉闷的机械结构鸣响中，旋转栈桥来到了它应至的位置。对抗裂界的最前线与你们仅一桥之隔。\n在桥的那边只有渺无边际的异界——无数赴死的战士在这条残酷的战线上浴血搏杀，直到彻底失去对身体的控制为止。\n现在，他们中最勇猛的战士已将枪头调转，恭候你们前来应战。",
+      "location": "雅利洛-Ⅵ-铁卫禁区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "下次冒险之前，咱可得好好跟姬子姐姐请教下谈判技巧。总靠打架解决问题，也太不符合少女的优雅了吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "老弟入伍后，我就没再跟他打过架了。小的时候他可打不过我，现在嘛……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们见到了杰帕德…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "姐姐…真的是你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "等等，杰帕德！听我说——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "哨卫向我报告的时候，我还在想这其中是不是有什么误会。也许是入侵者挟持了你，也许你进入禁区和警报完全无关。但……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "姐姐，离开入侵者，慢慢走到我身后来。你和他们不一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "抱歉，老弟——我说好了要站在他们这边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "给我几分钟时间，只要几分钟，我会解释清楚——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "——别说了，希露瓦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "……！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "这是什么地方，你应该很清楚，不是吗？朗道家族最熟悉的就是这里，它是抵御裂界的最前线，守护贝洛伯格安宁的核心要塞。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "这里的银鬃铁卫，这里的每一个人，都做好了随时为人民牺牲的觉悟——时刻准备好为贝洛伯格抛洒热血……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "而你带领这群罪犯冲入禁区，伤害铁卫兄弟，劫持能源中枢…事到如今仍然执迷不悟…你对得起朗道这个姓氏吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "你以为我为什么要出现在这里？我们找到了驱散寒潮、封印裂界的办法，那可能是这个世界的最后一线生机！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "若当真如此，为什么不禀报可可利亚大人？为什么偷偷摸摸混入禁区，制造混乱？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "你不明白，阻止我们接近真相的人…就是可可利亚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "你和那边的三个人都亲自见过大守护者，既然她不认可你们的说法，岂能擅作主张！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "听我说，杰帕德！裂界的诞生和蔓延与「星核」有关，筑城者记录中的那颗陨星，它——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "我知道「星核」，你身后那几个犯人就是为它而来，但守护者大人已经对我说出了真相！这几人别有用心，想要偷窃筑城者的宝物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "守护者大人一早提醒过我，你异想天开，触碰禁忌的知识，会给贝洛伯格带来灾祸…但我相信你，姐姐，我相信你对人民的忠诚！可是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "铁卫，列队！捉住他们。裂界怪物随时可能进犯，没有时间浪费在这群人身上！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "禁忌之所以为禁忌，正是因为真相隐藏其中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "可可利亚害怕我们掌握这些知识，她畏惧真相大白于天下——为了拯救世界，我们只好孤注一掷。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "好了，我要解释的就这么多！至于你信不信，才不关我事！反正老姐我一直都这么任性。遇到讨厌的事或人就要站起来反抗…该坚持的事就绝对要坚持到底！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "说得好啊，姐姐！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "三思吧，杰帕德！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "你的智取就这？！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "将你的解释留给审判官吧。现在，我以戍卫官的身份，下令捉拿破坏铁卫禁区的犯人！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "这不是小时候的打闹游戏了，姐姐。我不会手下留情的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "「壁垒」的故障还没修好呢，别大言不惭了，弟弟！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…唉，我就说凡是要交涉的情节，最后都会开打吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败杰帕德"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "呼…呼……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "这家伙…好扛打啊。我从没遇到过这么顽强的对手！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哈…好像怎么都打不倒他……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "因为他是个一根筋！辩论也好打架也罢，只要他认定了一件事，是死也不会让步的…所以才不可爱啊，这家伙！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "差不多了吧，杰帕德！看看你周围，只剩你还站着了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…就算只有我一个人，我也不会屈服……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不需要你的屈服。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "拜托你快屈服吧。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "谁来智取一下？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我们并非要以武力镇服你，那样的服从毫无意义。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "是啊，我们的目的和你、希露瓦、布洛妮娅明明是一致的呀，都是要「存护」这个世界！根本没有敌对的理由好嘛！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "杰帕德…老弟，到了这份上，你也该懂得变通一下了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "就算你不相信这些外来的朋友，也该相信我——呃，可能姐姐我确实把你的信任都消磨光了——那就至少，相信布洛妮娅吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…布洛妮娅小姐？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们将所知道的一切告知杰帕德，并交出了布洛妮娅的信件。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "该说的都说了，老弟，该怎么做你自己决定吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "我是银鬃铁卫的戍卫官，职责所在，必须执行「大守护者」的命令。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你要不再好好想想…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "还是我们替你决定吧。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "好啊，我还没打够呢！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "——但布洛妮娅小姐是前线实际上的指挥官。根据军规，当前线指挥与后方筑城者的指令发生冲突时，应原地等待进一步的指令。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "谢谢你的理解。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "情商终于上线了？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "好小子，被你玩明白了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "对银鬃铁卫而言，守护者的命令是至高、绝对的。但在誓言里，还有一样东西和她的命令同等重要……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "…贝洛伯格的人民。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "失去了人民，铁卫的意义也就不复存在。与裂界怪物的作战是为了「存护」，但和你们的战斗…我现在不明白它的意义。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "如果你们真的能阻止不断膨胀的灾难，那贝洛伯格的所有人都欠你们一份感激。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "但如果你们是在用一层又一层的谎言粉饰真实目的，利用布洛妮娅和姐姐…我对克里珀发誓，一定会毫不留情地制裁你们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "他们没有说谎，我向你保证。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "你就是希儿？身手不错，但不像是铁卫的战法。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "不管你信不信，这些人的确帮了下层区很大的忙，很多人都愿意为他们做担保。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…我知道了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "想继续向北方进发，要穿过一整片被完全侵蚀的裂界，才能到达另一头的雪原。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "在下一拨袭击到来之前，铁卫还能争取一些时间。"
+    }
+  ],
+  "warnings": []
+}

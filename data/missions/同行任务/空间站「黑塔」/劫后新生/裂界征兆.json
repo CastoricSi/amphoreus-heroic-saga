@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "裂界征兆",
+    "pageId": 2721,
+    "revisionId": 34386,
+    "parentRevisionId": 8921,
+    "revisionTimestamp": "2024-03-17T10:56:51Z",
+    "fetchedAt": "2026-09-28T00:21:39.158Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E8%A3%82%E7%95%8C%E5%BE%81%E5%85%86",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E8%A3%82%E7%95%8C%E5%BE%81%E5%85%86&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "裂界征兆",
+    "region": "空间站「黑塔」-收容舱段",
+    "type": "同行任务",
+    "version": "1.0",
+    "number": "",
+    "series": "劫后新生",
+    "description": "了解封锁区域的现况。",
+    "requirements": "【待补充】",
+    "requiredLevel": "14",
+    "characters": [],
+    "relatedItems": [
+      "备用电源"
+    ],
+    "rewards": [],
+    "previousMissions": [
+      "知名不具"
+    ],
+    "nextMissions": [],
+    "objectives": [],
+    "synopsis": [],
+    "extra": {
+      "相关成就": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向附近科员了解封锁区域的现况"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "防卫科员",
+      "text": "你是…阿兰大哥的朋友！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "发生什么事了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "防卫科员",
+              "text": "是这样，防卫科收到了「军团」残党在这附近的目击情报。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "防卫科员",
+              "text": "但就在刚刚，我们确认到这里还存在着前所未见的怪物。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "防卫科员",
+              "text": "虽然防卫科紧急封锁了这片区域，但已经有人失去了联系。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "帕梅拉在这里么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "防卫科员",
+              "text": "帕梅…拉？我看看，救援人员名单上确实有她的名字。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "防卫科员",
+      "text": "是阿兰大哥托你来调查的吗？太好了，正巧我有些新发现。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "防卫科员",
+      "text": "看到没有，这痕迹…空间站有「裂界」化迹象的传闻看来也不是毫无根据。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "维修人员",
+      "text": "是什么原因我不管。我只知道，怪物破坏了这里的电源设备。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "维修人员",
+      "text": "现在电梯开不了，困在下面的人也上不来。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你们怎么不下去？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "防卫科员",
+              "text": "事发突然，防卫科的支援还在路上。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "防卫科员",
+              "text": "目前人手不太够，只能先守住入口不让怪物上来。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我能做些什么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "防卫科员",
+              "text": "或许，你可以协助我们重启中央电梯。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "维修人员",
+      "text": "收容舱段的备用电源有很多，没记错的话对面就有。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "防卫科员",
+      "text": "只要能恢复供电，就能重启电梯下去救人。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往供电房间，收集备用电源"
+    },
+    {
+      "type": "objective-description",
+      "text": "要重启电梯，必须找齐备用电源。尽管供电房间附近有怪物出没，但你还是决定深入险境……",
+      "location": ""
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得三个备用电源"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "交还备用电源，重启电梯"
+    },
+    {
+      "type": "objective-description",
+      "text": "幸得你身手过人，此去有惊无险，总算找齐了所有的备用电源。\n现在该带着电源与希望回到电梯口了，科员们还在等着你。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "维修人员",
+      "text": "怎么样，备用电源还在吗？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "提交三个备用电源"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "维修人员",
+      "text": "嘶，还好有你在，这下够用了。稍等我去调试一下电梯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "维修人员",
+      "text": "好了，现在你可以下去了，注意安全。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "乘坐电梯，前往下层区域"
+    },
+    {
+      "type": "objective-description",
+      "text": "维修人员接过备用电源，成功重启了电梯，你乘坐电梯前往下层。\n迎接你的不知会是「瓜农」帕梅拉，还是未知的危险。",
+      "location": ""
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "击败怪物，救出帕梅拉"
+    },
+    {
+      "type": "objective-description",
+      "text": "被困于此的科员告诉你，帕梅拉和人群走丢，失散在怪物附近。\n想不到想找「瓜农」竟如此曲折，但事已至此，还是救人要紧。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "慌张的科员",
+      "text": "救命啊，救命——等等，电梯来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "怯弱的科员",
+      "text": "那个，帕梅拉她跟我们走丢了。那边有个很吓人的怪物，我们不敢过去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "怯弱的科员",
+      "text": "请你赶紧去救救她，我、我们自己坐电梯回去就好了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "慌张的科员",
+      "text": "拜托了！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "继续深入"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向帕梅拉打听匿名者的身份"
+    },
+    {
+      "type": "objective-description",
+      "text": "你击退了怪物，成功救出「瓜农」帕梅拉。\n你本以为她会知恩图报。但「瓜农」恪守着自己的职业道德，坚持要你付出某种代价。\n你答应了她的要求，但在出人意料的是，帕梅拉所要求的「代价」竟是姬子的照片。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕梅拉",
+      "text": "妈耶，吓死姑奶奶我了…你、你怎么才来啊！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你就是「瓜农」？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕梅拉",
+      "text": "没错，我就是你要找的人。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你知道我会来找你？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕梅拉",
+      "text": "当然。我不仅知道你会来，我还知道你为什么而来。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我找你打听点事…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕梅拉",
+      "text": "呵，你不就是想知道黑粉群里的「瓜田里猹」到底是谁么？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "黑粉？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帕梅拉",
+              "text": "黑塔女士的粉丝，简称黑粉。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你怎么知道？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帕梅拉",
+              "text": "我要是连这都不知道，岂不枉称个「瓜农」虚名？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕梅拉",
+      "text": "我是个生意人，生意人有生意人的规矩。你想知道消息，就得付出代价。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我救了你，这还不够？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帕梅拉",
+              "text": "那必须不能够啊。我这才值多少点，人总得有个自知之明不是？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "那么，代价是什么呢？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帕梅拉",
+              "text": "放心，生意人讲的就是个公道，我又怎么会为难你？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕梅拉",
+      "text": "我这人吧，平时也没啥爱好，就爱听听八卦，然后…崇拜崇拜…这个，科学家。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕梅拉",
+      "text": "那什么，我听说你跟星穹列车那伙人是一起打过小怪兽的关系？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕梅拉",
+      "text": "巧了不是，在下就喜欢姬子姐姐这种美貌与智慧并兼，优雅又不失温和的…科学家。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "所以？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "……",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕梅拉",
+      "text": "所以你能不能帮人家弄到姬子姐姐的高清无死角正脸笑容照嘛～"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕梅拉",
+      "text": "要眼里能放出十万伏特的微笑电力，能把人家都电晕的那种笑容哦～"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你别这样，正常一点…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帕梅拉",
+              "text": "干嘛啦～你和姬子姐姐很熟的吧？你去求她，她肯定会愿意的啦～"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "没听过这么奇怪的要求。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帕梅拉",
+              "text": "干嘛啦～你和姬子姐姐很熟的吧？你去求她，她肯定会愿意的啦～"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "好吧，试试就逝世！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帕梅拉",
+              "text": "我就欣赏你这种年少有为的勇士！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕梅拉",
+      "text": "一张超绝美丽电光四射的姬子姐姐大头照换「瓜田里猹」的小秘密。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕梅拉",
+      "text": "照片到手，你直接发消息给我就好。一物换一物，我做生意一向公平。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "回到任务知名不具"
+    }
+  ],
+  "warnings": []
+}

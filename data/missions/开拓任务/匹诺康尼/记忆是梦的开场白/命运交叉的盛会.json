@@ -1,0 +1,1444 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "命运交叉的盛会",
+    "pageId": 28085,
+    "revisionId": 77824,
+    "parentRevisionId": 77823,
+    "revisionTimestamp": "2026-02-12T19:33:51Z",
+    "fetchedAt": "2026-09-28T00:17:20.833Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%91%BD%E8%BF%90%E4%BA%A4%E5%8F%89%E7%9A%84%E7%9B%9B%E4%BC%9A",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%91%BD%E8%BF%90%E4%BA%A4%E5%8F%89%E7%9A%84%E7%9B%9B%E4%BC%9A&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "命运交叉的盛会",
+    "region": "匹诺康尼",
+    "type": "终末任务",
+    "version": "3.8",
+    "number": "03",
+    "series": "记忆是梦的开场白",
+    "description": "・在迎接你入梦后，知更鸟尝试调查梦境中的「不协和音」，并发觉其源头在流萤身上——此时，对方被认为是偷渡犯，正被猎犬家系追捕。\n・通过「调律」，知更鸟对流萤进行了一段时间的监视，试图确认对方的身份。\n・在发现流萤与银狼进行远程通讯后，知更鸟确认对方的身份并不简单，一路追索到了筑梦边境。\n・在筑梦边境，知更鸟遇到了伪装成星期日的花火。一番言语试探后，知更鸟因「同谐」力量异常加剧，难以压制花火，遭其「杀害」。\n・花火伪装成星期日，在筑梦边境杀死知更鸟，并以一副面具提示知更鸟真相。\n・杀死知更鸟后，发现了一位不怀好意的来客——花火试图与对方达成某种交易。\n・伪装成桑博，将开拓者和流萤送入了原始梦境。",
+    "requirements": "完成任务不存在的铁骑",
+    "requiredLevel": "21",
+    "characters": [
+      "大丽花",
+      "星期日",
+      "知更鸟",
+      "加拉赫",
+      "流萤",
+      "桑博",
+      "舒翁",
+      "花火",
+      "银狼"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "600"
+      },
+      {
+        "item": "星琼",
+        "amount": "80"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "3"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "3"
+      },
+      {
+        "item": "金表钞",
+        "amount": "300"
+      },
+      {
+        "item": "信用点",
+        "amount": "80000"
+      }
+    ],
+    "previousMissions": [
+      "不存在的铁骑"
+    ],
+    "nextMissions": [
+      "分成两半的迷梦"
+    ],
+    "objectives": [
+      "梳理现状",
+      "进行调律",
+      "讨论现状",
+      "寻找「不协和音」",
+      "在对方身上留下音符",
+      "确认神秘少女的身份",
+      "寻找流萤",
+      "找到一个僻静的角落",
+      "和星期日谈谈"
+    ],
+    "synopsis": [
+      "大丽花称美梦分成两条平行的道路，你行于「开拓」，流萤则行于「终末」。为抵达二者相交的时刻，要找出更多记忆的矛盾之处。",
+      "大丽花提及知更鸟，她曾在你入梦后为你「调律」，之后却成为一场凶案的受害者。是谁杀死了知更鸟？",
+      "知更鸟利用「同谐」力量为初入梦境的你调律，但依然感到力不从心。在星期日的帮助下，对你的调律才得以顺利完成。",
+      "知更鸟的失声只是表象，根源在于匹诺康尼的「同谐」掺有杂音，家族中存在叛徒。知更鸟希望为星期日分担压力，查明真相。",
+      "知更鸟追踪不协和音，找到被猎犬家系围堵的流萤，并目睹你和加拉赫为流萤解围。知更鸟不宜直接露面，得使用其它的调查手段了。",
+      "知更鸟使用能力，得知流萤自称是鸢尾花家系的艺者，但知更鸟从她的声音里听不见共鸣。",
+      "流萤与你在游乐场分开，随后收到银狼来讯，提醒她别忘了「第一次死亡」。流萤发觉自己可能被人跟踪，知更鸟认为流萤果然不简单。",
+      "舒翁偶遇知更鸟，邀请她前往惊梦酒吧。当下有更重要的事，知更鸟不得不婉拒邀约。分别之际，舒翁询问知更鸟为何而歌唱。",
+      "不协和音消失。知更鸟感知你和流萤走过的路径，发现你们借助地下通道去往了筑梦边境。",
+      "似乎是因为此处梦境尚未完工，知更鸟无法在筑梦边境继续追踪。知更鸟难以理解，为何有人要在此时对家族和匹诺康尼图谋不轨。",
+      "知更鸟向猎犬家系成员打听你和流萤的去向，没有得到结果。星期日出现在筑梦边境，将知更鸟带至僻静处交谈。",
+      "星期日询问知更鸟到此地的动机，知更鸟称自己在调查忆域迷因「死亡」。知更鸟识破对方的伪装，容忍至此只为从其口中问出真相。",
+      "花火现出真身。知更鸟尝试动用「同谐」力量将其抓捕，却力不从心。花火向知更鸟递出面具，称她为「秩序」的双子，并将其杀害。",
+      "知更鸟遇害，花火变作桑博模样，准备赶往下一场戏。一团神秘的黑雾出现在花火身后，花火与之对峙交谈，询问对方来意。"
+    ],
+    "extra": {
+      "角色": "知更鸟",
+      "命路群像": "坠物之声",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "梳理现状"
+    },
+    {
+      "type": "objective-description",
+      "text": "你看到了流萤潜入匹诺康尼时的记忆——可那怎么会存在于你的意识之中？",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "好啦——虽然不合时宜，但初次尝试，只能先到这里了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "怎么样，有什么不舒服的地方吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这是流萤的记忆？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "大丽花",
+              "text": "严格来说，是我的记忆。我不能擅自代表他人。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "什么时候的事？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "大丽花",
+              "text": "那时，你刚刚抵达匹诺康尼，正在酒店办理入住。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "为什么要打断我？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "如今的你，应当知晓「记忆」珍贵又危险。我必须非常小心，才能让过去一点一滴浮出水面。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "如果海量回忆一同涌现，你会难以承受。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "可我还是没想起来…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "告诉我流萤的后续。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "恕我不能亲口告诉你。如果用言语复述，无论是否有意，都会为回忆平添不实。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "放轻松。尘埃正在被一一拂去，看——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "尽管其中一部分遭人窃取，但「匹诺康尼」的记忆，已再度清晰起来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "你刚才看见的，是属于她的「开端」。这场美梦分成两条平行的道路——你行于的，名为「开拓」；她行于的，名为「终末」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "这两条路终会相交，为了抵达那一刻，我们要找出更多…记忆的矛盾之处。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "还记得她吧——无人不知的知更鸟，在现实酒店，你们早早相遇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "在你入梦后，也是她使用「同谐」的力量，帮助你适应美梦。只是，自那场告别后——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "再相见时，她已成了一场阴谋的受害者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "两点之间，她究竟发现了什么，才会遭受如此可怕的命运？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "小心，这一次，我们要更加深入……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "与你的「记忆」…全然不符的过去。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "进行调律"
+    },
+    {
+      "type": "objective-description",
+      "text": "尝试使用调律帮开拓者适应忆质吧——但愿还能做到。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "【知更鸟】的记忆正在逐渐浮现……\n那是你的第一次入梦，迎接你的知更鸟正经受失声的困扰……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "无眠之夜的开端 你初次入梦的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "开拓者！你没事吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "意外地没什么感觉……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "呵呵，毕竟这里是「梦境」嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "看来这位客人还不习惯从现实到梦境的变化啊。别担心，这种「失重」在初入梦境的旅客间很常见。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "知更鸟，请你帮助我们的朋友更好地适应这场美梦吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "…知更鸟？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "啊…交给我吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "没事的，放轻松，很快就会过去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "（话虽如此……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "（「调律」依然力不从心……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "别担心，继续吧，我会帮你的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "可是哥哥，这……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你对我做了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "别担心。她只是利用「同谐」的共鸣对你进行了调律，以便你能更自如地在梦境中掌控自己的身体。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "匹诺康尼的美梦本质上是由「忆质」构成的世界。只有掌握它的性质，你才能在其中自由行动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "除了流光忆庭的忆者，一般人很难随心所欲地操纵忆质。但没关系，在「同谐」的调律下——基本上，你可以依赖现实的物理法则理解梦中世界。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "哎呀…你瞧我，职业病又犯了。我总是改不掉这好为人师的毛病。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "别在意，他从来都是这样。请好好享受家族为各位打造的美梦乐园吧，我们就先失陪了。祝你玩得开心！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "讨论现状"
+    },
+    {
+      "type": "objective-description",
+      "text": "失声仍然非常严重，甚至连同谐的力量也开始出现异常，问问哥哥是否知道些什么吧。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "抱歉，哥哥，我……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "该道歉的人是我。明知道你状态不佳，还提出这种过分的要求。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我早该料到，失声只是表象，真正的问题出在「同谐」，对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "果然，你也看出来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "你那封信，我一直带在身上——"
+    },
+    {
+      "type": "fold",
+      "title": "知更鸟的来信",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "亲爱的兄长：\n\n近来可好？我本想一回来就去朝露公馆看你，可谐乐大典在即，见你忙前忙后，怎么也不好意思过来给你添麻烦，只能作罢。但现在情况紧急，有些事必须马上告诉你。\n\n自从回到匹诺康尼，我的声音就开始出现异常。原以为是过度劳累或疾病的影响，但问诊后医生们却说我的身体非常健康，没有任何异常。这否定了我的猜想，但随着时间推移，嗓音的问题变得愈发严重，乃至不时陷入失声的状态。\n\n为此，我私自开展了许多调查（当然，是在排练之外的时间）。终于，我意识到一件事：匹诺康尼的「同谐」并不纯粹。其中掺杂的一丝杂音令我「同谐」的歌声也受到影响——这就是我失声的根本原因。\n\n我立刻意识到，要想产生这种程度的干扰，异物要么来自外界且极其强大，要么就得在家族中身居要位。遗憾的是，根据我进一步调查，结论是后者。\n\n这是个极其危险的信号：匹诺康尼分家出现了叛徒，且此人极有可能是四大家主之一（我无条件相信你，哥哥，因为我们的约定）。而眼下正值谐乐大典前夕，此人恐怕意图阻碍谐乐大典的推进，甚至利用谐乐大典本身做些什么。无论如何，我会建议关注其他家主的近期动向，但也请你一定要保护好自己。你是我唯一的亲人了。\n\n另有一事值得重点关注。我在调查中了解到忆域迷因「死亡」一事，并在之后的调查中发现指使它引发一系列事件的幕后黑手，和家族的叛徒很可能是同一人。我目前已经掌握了进一步线索，准备前去验证。你安心准备谐乐大典就好，不必挂心。等我彻查「死亡」一事就过来找你，应该不会花费太久时间。\n\n你工作繁忙，闲暇之余务必注重身体。别老待在梦里，多到现实走走。又及，我给你带了些其他星系的特产：摩里伦斯的巨恐鸟布丁蛋挞、阿空亚科野草莓（这种草莓又大又甜，你一定喜欢），还有美第奇杏仁蛋白奶油脆饼。一定要记得吃！\n\n愿希佩与我们同在！\n\n你的妹妹\n知更鸟"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "别担心，事关重大，大典开幕前，我定会查明真相。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "偶尔也让我为你分担一些吧。匹诺康尼…是不是出事了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "…谐乐大典将至，宾客鱼龙混杂，{{歌斐木先生|「梦主」}}必须全心投入筹备，无暇他顾。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "这给了一些人可乘之机。倘若家族真有叛徒，现在就是行动的最佳时机。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "听说「梦主」抱恙在身。我回来后，还一次都没见过他……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "不久前，发生了一场意外。他病得很重，短时间内，恐怕无法以人形现身了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "所以，我们更要替先生分忧。追查一事就交给我，你什么都不用想，只需专注于舞台。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "可是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "没有可是。听着，知更鸟——切勿和梦中的「死亡」扯上关系。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "你要放声歌唱。我向你保证，等到开幕时，不会有任何杂音掩盖你的光芒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "即便是「同谐」自身的影子，也不行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "也对。从小到大，没有什么事是哥哥办不到的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "那我就去准备啦？不占用你的时间了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "多加小心，哥哥。记得给自己留个好位置。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "当然。我不介意为此徇私。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "回头见。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "星期日离开后…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "哥哥，总是这样言不由衷啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "装作无事发生，但我在朝露公馆看见…你明明已经焦头烂额了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "写那封信时，我还能勉强进行「调律」，可后来，情况却越来越糟……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "直觉告诉我，一定是*梦境*出现了什么问题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "以我现在的状态，不知能否感知到异常……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "尽力而为吧。但愿，这只是虚惊一场。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找「不协和音」"
+    },
+    {
+      "type": "objective-description",
+      "text": "梦境一定出现了什么问题，而哥哥似乎对此有所隐瞒，趁着还能勉强进行「调律」，尝试寻找梦境中「不协和音」的源头吧。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "从刚才起，我就很在意……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "附近，似乎有一道微弱的「不协和音」。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "是…她？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "干练的猎犬家系成员",
+      "text": "别想跑！你这个偷渡犯！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "不、不好意思！请帮帮我……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "怎么了，我来帮你。保护美少女我义不容辞！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "干练的猎犬家系成员",
+      "text": "伙计们，她还有共犯！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "凶狠的猎犬家系成员",
+      "text": "正好！给我一起拿下！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "偷渡犯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "看来不是偶然，猎犬也和我一样，捕捉到了那一丝杂音。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "还是…先不出面了。如果那女孩真是外来者，对我而言，这是个机会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "加拉赫",
+      "text": "行了行了，小子们——到此为止。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "干练的猎犬家系成员",
+      "text": "长、长官？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "加拉赫",
+      "text": "你们是怎么办事儿的？睁大眼睛瞧瞧，这姑娘是我们要找的偷渡犯吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "凶狠的猎犬家系成员",
+      "text": "咦，这…这人是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "干练的猎犬家系成员",
+      "text": "你不知道么？棕色头发、灰马甲——这位就是家族派来看护谐乐大典的治安官啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "凶狠的猎犬家系成员",
+      "text": "原、原来如此…报告长官，我们正在捉拿偷渡犯——就是这个小姑娘，可疑得很，一定是她！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "加拉赫",
+      "text": "放屁。你们再好好看看？目击报告说是个银色的家伙，你们给我抓银色头发的小姑娘？能是一回事儿吗？还和客人打上架了？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "加拉赫",
+      "text": "行了，滚吧。让我来处理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "遵命！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "不对劲。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "他…没有说谎。可为什么？猎犬家系的治安官，不应该察觉不到异常。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "加拉赫",
+      "text": "放心吧，小姐。我相信这是一场误会，这么可爱的女孩怎么会是偷渡犯呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…谢谢。如果没有您出手相助，我真的不知道该怎么办了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "加拉赫",
+      "text": "小意思。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "加拉赫",
+      "text": "我还有事，先告辞了。如果你们有需要，就找附近的幼犬联络我吧。祝你们享受这场美梦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "认识我的人太多，直接跟上去恐怕不合适。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "看来，只能使用一些手段了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在对方身上留下音符"
+    },
+    {
+      "type": "objective-description",
+      "text": "奇怪，这位少女身上的确存在一丝杂音，可那位自称治安官的男人却毫无察觉。\n直接跟上去的话，自己很容易被其他人认出来，打草惊蛇，先使用「调律」进行监视吧。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "得靠近些，找个隐蔽的角落。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "知更鸟",
+          "text": "得小心些，不能被人发现。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "希望我还有余力做到……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "虽然被猎犬家系的人当成了偷渡犯，但我其实是本地人哦——鸢尾花家系的艺者「流萤」！尽管只是临时演员……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "成功了！万幸，没有被发觉……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "那女孩…自称鸢尾花家系的艺者？可她的声音里，我听不见共鸣……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…不说这个了！我带你去游览城镇…我们走吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "如果是我误会了…事后，我会认真补偿。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "确认神秘少女的身份"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "考虑到你是第一次来，不如就从最简单的开始吧，美梦排排乐和幸运转盘都很容易上手哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "只是…来玩游戏的吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "看来是我多虑了。抱歉，开拓者…还有流萤小姐。也许这只是一段美好的相遇，仅此而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "我还是离开梦境看看吧，不知回到现实中，情况会不会好转……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "时间不多了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "咦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "他们/她们分开了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "该入场的人都齐了。不是我扫兴，但提醒一句……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "别忘了你的「第一次死亡」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "她在和谁说话？「死亡」又是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "嘘…现在别聊这个。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我可能被人跟踪了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "玩得还开心吗，开拓者？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "不，我的直觉没错…那女孩果然不简单。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "现在，必须得小心了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "啊…他来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "哟，这不是我忠实的大顾客——{{开拓者|开拓者兄弟/姐妹}}嘛！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "真是好久不见啊，亲爱的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "他又是谁？同伴吗……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "总觉得，场面越来越混乱了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "好久不见，大明星。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "还有人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "…舒翁女士？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "依旧那么光芒四射啊，远远瞧见一眼，就知道是你了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "来打个招呼，你在这做什么呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "（太引人注意，果然不是好事……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "喔，让我想起那句熟悉的格言：「远远看着聚光灯下的人，会觉得她魅力无穷……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "「但只有走近了，才知道那颗心多么魂不守舍。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "让你见笑了。我只是出来散散心…谐乐大典举办在即，多少有些紧张。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "嗓音的事，我听说了。有空来惊梦酒吧，我帮你看看是怎么回事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "多谢。没想到，时至今日，我仍要麻烦舒翁女士。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "看来你是挺紧张的，跟我说话都这么端着了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "看来我说中了？来吧，二位——让我老桑博带你们好好体验一下大人的世界！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "（恐怕得先走一步了……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "我会登门拜访的，只是现在……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "需要些私人时间，我明白。那就约好了，改天见，大明星。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "嗯，一言为定。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "对了，毕竟是「谐乐大典」——用人们的话说，你会为「同谐」献唱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "还记得么？某次巡演前，我问过你一个问题。算算时间，也过去很久了，不知道你有没有找到答案——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "知更鸟，你是为了什么而歌唱？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "我想，我已经有答案了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "但比起言语，我更想用歌声来回答。这样才更有说服力吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "相比一个笃定的回答，这倒令人更加信服。期待你的演出。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "舒翁离开了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "抱歉，舒翁女士。如果有时间，我们本该好好聊聊的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "现在，先办正事吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找流萤"
+    },
+    {
+      "type": "objective-description",
+      "text": "流萤一直在和某位同伴进行通讯，从她们的交流来看，她们的身份和目的都绝不简单。\n继续追索吧，联想到此前感知到的杂音，她们一定与梦境的异常有关。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "距离…好远。他们这是去哪儿了？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "咦，杂音消失了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "这…他们走过了商业中心……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "然后是皮皮西俱乐部……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "再然后…声音就消失了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "难道她回到了现实？不应该，那里又没有出入口……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "又出现了？比之前更遥远，这次是在……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "筑梦边境？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "原来如此，是地下通道啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "也对。早该想到，那里时常会有偷渡案件。是我粗心了，当时应该问问那两位猎犬的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "无论如何，过去看看吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "到这里就无法追踪了。是因为梦境施工还没完成么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "家族仍在一刻不停地编织美梦，匹诺康尼也向来不与外界交恶……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "为何偏偏在这个时候，有人要图谋不轨？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "劳驾，前方是——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "前方是——知更鸟女士？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "你好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "没想到能在这遇见您！我、我刚加入猎犬家系的日子，正是您送来了家族问候。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "您肯定不记得我了。不，这么说太失礼，我还没资格……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "我当然记得，洛卡先生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系的洛卡",
+      "text": "这，竟然……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "我留在匹诺康尼的时间不多，能为「同谐」代劳的机会更少。只要愿意前往，我会事先熟悉每一个人——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "毕竟家族的问候不能是场面话，得是真心诚意送给每一位家人的祝福。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系的洛卡",
+      "text": "知更鸟小姐…太光芒四射了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系的洛卡",
+      "text": "不过，您怎么会来筑梦边境？是有什么吩咐么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "打扰了，您见过两位游客吗？都是灰发，其中一位…是戴着发卡的少女。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系的洛卡",
+      "text": "您是在找人吗？还真没印象…要不，我帮您留意留意？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "哦，这个……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "不必劳烦了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系的洛卡",
+      "text": "星、星期日先生？您怎么也……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "听闻有人心术不正，我特地前来看看。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系的洛卡",
+      "text": "啊？我……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "开个玩笑，别紧张。知更鸟久未还乡，我特意带她来这边看看，追忆些童年旧事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "至于方才提到的二位，是我们遇见的客人。他们/她们遗落了些物品，我已经归还了。不必再向任何人探问。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系的洛卡",
+      "text": "明白。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "前方是施工重地，我们就不深入了。告辞。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "多谢啦，洛卡先生。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "找到一个僻静的角落"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "和星期日谈谈"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "刚才不便直言。知更鸟，你为何要来这里？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "就像你说的，是来追忆一些旧事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "你呢，你又为何而来？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "追查要犯本就是我的职责。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "而你，我的妹妹…你从小就这么执拗，每到这时，我都会希望你从未拥有这项品质。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "你听不进我的话，仍在擅自调查？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "是啊。我实在放心不下「死亡」，才一路追踪到这里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "毕竟在朝露公馆，我亲眼看见了那副*惨状*。我做不到让你独自硬撑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "是吗？你看见了啊，那些身处美梦，却被「死亡」带走的家人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "嗯。我只看见资料凌乱地摆放在桌面上，但凡有半分余力，哥哥都不会容忍那种杂乱无章的景象。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "就像现在，如果不是为了从你口中问出真相……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "我也绝对不会容忍，你傲慢又无礼的伪装。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日（？）",
+      "text": "在说什么呢，亲爱的妹妹？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "「开个玩笑，别紧张」——但哥哥他，从来不会对陌生人开玩笑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "我亲眼看着他一一磨去自己的棱角，把它们藏到内心的最深处。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "别再冒犯我的兄长，否则——除去家族公事，你要再担上一份我的私怨了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日（？）",
+      "text": "哈哈哈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "我还以为，你会喜欢我的「二次创作」呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "不觉得那样的他，更讨人喜欢吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "在匹诺康尼冒充一位家主，想必你已做好了心理准备。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "哎呀，我倒是没料到，会被一只小鸟套了话。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "不过，你真觉得自己有能耐？想抓我的家伙多的是，鸡翅膀女孩，你又凭什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "这里仍由五大家系管理，一路上，你也能看到有多少成员驻守。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "更何况，在这梦境边缘，我也可以……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "…？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "可以什么？觉得自己能拿回失去的力量？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "不得不说，你是很有天赋，才会被选中成为「谐乐大典」的调弦师。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "你也很聪明，几乎把一切都猜对了，唯独搞错了一件事——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "失声的小鸟，有没有一种可能，美梦从来都没有变。它之所以不再欢迎你，只是因为你「长大」了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "就像面具，一旦戴太久，就再也摘不下来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "属于你的那一副，真的叫做「同谐」么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "嗯？「秩序」的双子？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "人们都说，「知更鸟」维护领地时，总是连命都不在乎。没想到，这个名字还挺适合你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "哦，算算时间，小灰毛也快完事了吧？花火大人，要赶下一场戏咯~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博（？）",
+      "text": "出发出发。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博（？）",
+      "text": "…哎呀，本以为在梦境边缘，能瞒过你的眼睛的。看来主场就是主场，哪儿都躲不掉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博（？）",
+      "text": "怎么，动了你的人，要找我算账？要不先坐下来谈谈呢，我看你也挺有耐心的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博（？）",
+      "text": "所以，说说吧，你想从我这里…拿走什么？"
+    }
+  ],
+  "warnings": []
+}

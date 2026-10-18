@@ -1,0 +1,766 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "岂曰无持，同气连枝",
+    "pageId": 13863,
+    "revisionId": 71918,
+    "parentRevisionId": 44442,
+    "revisionTimestamp": "2025-11-14T03:12:38Z",
+    "fetchedAt": "2026-09-28T00:20:49.785Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%B2%82%E6%9B%B0%E6%97%A0%E6%8C%81%EF%BC%8C%E5%90%8C%E6%B0%94%E8%BF%9E%E6%9E%9D",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%B2%82%E6%9B%B0%E6%97%A0%E6%8C%81%EF%BC%8C%E5%90%8C%E6%B0%94%E8%BF%9E%E6%9E%9D&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "岂曰无持，同气连枝",
+    "region": "仙舟「罗浮」",
+    "type": "开拓续闻",
+    "version": "2.5",
+    "number": "10",
+    "series": "明霄竞武试锋芒·下",
+    "description": "演武台上，呼雷横刀，群狼咆哮，誓要令此地成为这场「血之演武」的舞台；残刀败剑森然林立，三位年轻剑士齐聚于此，撄锋抗衡恶兽，誓要令其有来无回。",
+    "requirements": "完成任务挽澜扶危，舍我其谁",
+    "requiredLevel": "21",
+    "characters": [
+      "三月七",
+      "云璃",
+      "彦卿",
+      "飞霄"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "星琼",
+        "amount": "50"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "6"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "6"
+      },
+      {
+        "item": "《剑葬生死斗》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "70000"
+      }
+    ],
+    "previousMissions": [
+      "挽澜扶危，舍我其谁"
+    ],
+    "nextMissions": [
+      "霜刃飞光，天狐迷狂"
+    ],
+    "objectives": [
+      "与云璃汇合，前往演武擂台",
+      "与云璃汇合，前往演武擂台"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "三月七",
+      "命路群像": "猎野围城",
+      "相关成就": "通往群星的轨道#久砺霜锋须一试",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "正在切换至【三月七】视角…\n三月七察觉到了危机来临的征兆，试剑之刻终于到来…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "刚才的震动…到底是什么情况？似乎整座舰船渐渐慢了下来？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "应该是步离人真的入侵了竞锋舰。按照怀炎将军的指示…我也该行动起来了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与云璃汇合，前往演武擂台"
+    },
+    {
+      "type": "objective-description",
+      "text": "另一边，三月七也察觉到了竞锋舰上的异样，试剑的时刻终于来临。",
+      "location": "仙舟「罗浮」-竞锋舰"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "凶狠的狼卒",
+      "text": "（低吼）！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你们…肯定不是负责扮演步离人的云骑军吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你们…是真正的步离人吧？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "凶狠的狼卒",
+      "text": "（低吼）！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "将军的安排终于还是派上了用场…我必须尽快找到云璃他们。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得胜利"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "按照计划，一旦呼雷出现，云骑们会全员集合，尽可能制伏他。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "云璃师父你在哪儿？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "三月，我正在擂台下方！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与云璃汇合，前往演武擂台"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "擂台下面的大厅…我记得是在这边。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "在将军们计谋运筹之下，接下来你们将要直面步离强敌了，理应做好准备再继续前进。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我已经准备好了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "让我再喘口气。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…彦卿师父，你怎么回来了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "当然是因为心系竞锋舰和弟子的安危啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "彦卿小弟，你想要猎的狼，此刻正站在咱们头顶上演武仪典的擂台里，挑战云骑……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "这场「演武仪典」的实况不会出现在仙舟人们的眼中，它也不是什么点到为止的剑斗。这是一场没有荣誉，只有凶险的死斗。三月，你准备好了吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我可是三月七。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "拜托，我可是代表罗浮出战的剑士，三月七！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我可是两位的弟子。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "做师父的上阵，怎么能少得了我这个弟子呢！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "唉，来都来了！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "还得引用景元将军的名言吧，「嗐，来都来了。」"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "云璃，三月小姐，祝两位宝剑常锋，登擂夺胜！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "也祝你们宝剑常锋，登擂夺胜！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "咱也一样，祝你们…算了，还是祝大家旗开得胜吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "走吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "演武仪典「猎狼守擂」 开始"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "云骑死伤惨重…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "呼雷",
+          "text": "孱弱不堪，真是孱弱不堪！"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "久候你多时了，呼雷！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "竟然派几个幼崽来送死…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "给我记好了，我叫三月七！罗浮的守擂剑士！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "难道罗浮仙舟上没有其他够格的战士了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "那你可得留神，被幼崽打败的滋味，你这头老狼未必消化得了啊！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "你们以为设下了埋伏，人多就能取胜？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "我会让你们明白，你们错得彻底！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "好惊人的力量——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "罢了，在飞霄到来之前，就由你们来充当余兴节目吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "小崽子们，尽全力挥剑吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "你们以为我会逃跑？狼所行之路，只有前进，没有逃离！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "飞霄为什么还不来？这些小崽子实在无趣！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "再这样下去，我可要杀光他们啦！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "击败呼雷至1%血量"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "不错！但还远远不够！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "我的身躯百杀不死，你们的刀剑弱如芒草！"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "呼雷轻松挡下你们的进攻…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "呼雷",
+          "text": "我厌倦了…那就玩到这儿吧！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "正在呼雷一只手抓起彦卿时，一阵眩晕传来…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "呼雷",
+          "text": "…怎么回事？"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "不久之前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "对于狩猎而言，秘密是不可或缺的武器。没有秘密的人，只是被撕开皮肉，悲惨等死的猎物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "这么说来，在你眼中，我已经是一头毫无秘密可言、随时待死的猎物了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "难道你还有其他的路可逃么？椒丘，我已将你的伪装和防御层层撕开，你和你所侍奉的将军，你们深藏的秘密，我已了如指掌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "可是战首也将自己的秘密告诉了我，我已了如指掌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "你永远也用不上它了。你会和它一同埋葬在这儿。不过，你始终是个幸运的家伙……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "毕竟你不用去活着见证你的将军所要面临的悲惨未来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "我想她比你更明白自己的结局——终有一日，她将在战斗中被一次比一次更猛烈的「月狂」压倒，最终在变形和狂怒中四分五裂。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "就连你们所{{信奉的神|「巡猎」的岚}}也无法将她从这个结局中拯救出来…相反，祂倒是可以为她带去解脱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "而唯一的救治之道，在我手中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "到底你是医士我是医士啊？你就对自己的判断这么自信吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "我该走了，狐人。在离去之前，你知道我要做什么，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "「饮血酒」…听说步离人的战俗，是在上阵前杀俘饮血，激发狂性……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "你真是花了不少工夫研究我们…不过，你的路就到此为止了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "啊啊啊……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻的声音",
+      "text": "你…就是椒丘医士？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "找我有什么事吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻的声音",
+      "text": "我听说那个时候是你救下了我？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "不必客气。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻的声音",
+      "text": "你是医士的话，能治好我的「月狂」之症吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "治好了又如何？看你再次登上战场去送死？听我一句劝，孩子，你的身体状况，不适合再上战场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻的声音",
+      "text": "那么，你能「治好」战争吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "你说什么？我只是个医士！我能做的只有——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻的声音",
+      "text": "所以，你能做的便是治好我们，让我们去「医治」战争。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "真是大言不惭啊，小姑娘。这场战争持续了几千年，还会继续打下去！说什么「医治」战争，你们不过是在送死！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻的声音",
+      "text": "就像你们这些医士拼命救死扶伤，但这世上依旧会有疾病和死亡一样。我们也会一直战斗下去的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻的声音",
+      "text": "我不能代替那些已经不在的人发言。但我知道，月御将军…还有所有一去不回的战士们不是白白送死。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻的声音",
+      "text": "他们是为了让更多的人活着回到故乡，就像你做的那样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "椒丘，我命令你！治好我！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "如何让挑食的小孩吃下青椒？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "如何让多疑的恶狼服下毒药？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "答案，我早已告诉过你。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "…没有秘密的人…只是被撕开皮肉，悲惨等死的猎物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "尽情痛饮我的鲜血吧…呼雷。只可惜，我不是一个没有秘密的人啊。我还藏着一个微不足道的秘密……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "「颠踬散」…我早早喝下了它，药毒已流遍我的全身…迟早…会在你身上见效。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "世间至毒…若能换回无辜的生命，便也可被称作良药……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "「我将尽力医治」…飞霄，我兑现承诺了。用这条微不足道的性命……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "椒丘",
+      "text": "…为「曜青」带来胜利。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "呼雷",
+          "text": "真是…不择手段啊。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "呼雷",
+          "text": "空气…变冷了？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "我的剑…更冷。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "彦卿周身散发出寒气…"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "呼雷的动作变迟钝了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "别放过眼前的机会！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "咱们一起，让他屁股向后，狗头着地！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "椒丘，你竟然…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "一剂毒药罢了…以为靠这样的手段能扭转战局？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "我确实变慢了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "可这不代表你们能赢……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "你确实很难杀死，但绝不代表你无法被制服！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "呼雷！看仔细了，云骑天威，尽在此剑！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得胜利"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "呼雷",
+          "text": "怎么可能？区区幼崽…怎么可能打败我？！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "呼雷一跃而起向彦卿发动攻击…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…这一刻，彦卿领悟到镜流的那一剑…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…却依旧未能将呼雷制服…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…所幸飞霄将军终于赶到，制服了呼雷…"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 2,
+      "title": "考据"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "depth": 1,
+      "text": "标题格式取自《诗经·秦风·无衣》“岂曰无衣，与子同袍。”"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,3559 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "比雪原更遥远",
+    "pageId": 6676,
+    "revisionId": 37930,
+    "parentRevisionId": 34317,
+    "revisionTimestamp": "2024-05-03T01:46:14Z",
+    "fetchedAt": "2026-09-28T00:21:54.910Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%AF%94%E9%9B%AA%E5%8E%9F%E6%9B%B4%E9%81%A5%E8%BF%9C",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%AF%94%E9%9B%AA%E5%8E%9F%E6%9B%B4%E9%81%A5%E8%BF%9C&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "比雪原更遥远",
+    "region": "雅利洛-Ⅵ",
+    "type": "同行任务",
+    "version": "1.3",
+    "number": "11",
+    "series": "炉前百态",
+    "description": "朗道家的小妹玲可极富冒险精神，这也让她的哥哥姐姐十分操心…",
+    "requirements": "完成同行任务「只是孩子」且阅读指定短信后开放。",
+    "requiredLevel": "21",
+    "characters": [
+      "玲可",
+      "佩拉",
+      "杰帕德",
+      "希露瓦"
+    ],
+    "relatedItems": [
+      "冰鲜霜纹鲑生鱼片",
+      "拟态雪蛞蝓",
+      "地髓激活元件"
+    ],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "星琼",
+        "amount": "100"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "8"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "6"
+      },
+      {
+        "item": "生命之芽",
+        "amount": "6"
+      },
+      {
+        "item": "信用点",
+        "amount": "80000"
+      }
+    ],
+    "previousMissions": [],
+    "nextMissions": [],
+    "objectives": [
+      "前往博物馆整理间寻找朗道姐弟",
+      "与朗道姐弟交谈",
+      "前往行政区近城郊雪原入口，寻找玲可",
+      "寻找合适的露营地",
+      "搭建露营地",
+      "询问佩拉是否可以修好暖炉",
+      "收集地髓激活原件和露营食材",
+      "返回露营地，准备晚餐",
+      "（可选）为神秘的生物拍照",
+      "（可选）消灭神秘的生物",
+      "调查神秘生物遗留的物品",
+      "修复暖炉",
+      "与佩拉和玲可暂时分别",
+      "回复朗道姐弟的短信",
+      "向朗道姐弟汇报雪原见闻",
+      "回复玲可的短信",
+      "前往博物馆寻找二人",
+      "聆听朗道一家交谈"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "佩拉、玲可",
+      "相关成就": "与你同行的回忆#雪原的原风景"
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "任务接取短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "杰帕德、希露瓦、开拓者的群聊",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "希露瓦",
+          "contentType": "text",
+          "text": "开拓者！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "杰帕德",
+          "contentType": "text",
+          "text": "在吗？",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "在。",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "在啊"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "什么事？"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "不在。",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "您好，您所呼叫的用户不在贝洛伯格服无"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "服务区"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "杰帕德",
+                  "contentType": "text",
+                  "text": "你不必这样……",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "这什么群？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "呃，怎么还拉了个群"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你们想做什么！"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "希露瓦",
+          "contentType": "text",
+          "text": "呃，估计你也猜到了",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "杰帕德",
+          "contentType": "text",
+          "text": "我们想请你帮个忙",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "帮。",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "行啊，你们说吧"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "不帮。",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "您好，您所呼叫的用户暂时无法接替"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "接听"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "……"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "希露瓦",
+                  "contentType": "text",
+                  "text": "别闹嘛！这事真的很重要",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "帮什么忙？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "细说"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "杰帕德",
+          "contentType": "text",
+          "text": "能请你来一趟贝洛伯格大博物馆的整理间吗？我们可以在这里聊",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "好，马上到。",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "行，马上就来"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "希露瓦",
+                  "contentType": "text",
+                  "text": "不愧是你！那我们就在这里等你啦",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "不能直接告诉我？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "什么事搞得这么神秘……"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "直接短信告诉我呗"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "希露瓦",
+                  "contentType": "text",
+                  "text": "嘿嘿，这就叫仪式感",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "杰帕德",
+                  "contentType": "text",
+                  "text": "…我们就在这边等你了",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往博物馆整理间寻找朗道姐弟"
+    },
+    {
+      "type": "objective-description",
+      "text": "你接到了来自朗道姐弟的短信。毫不意外地，他们和其他人一样，联系你只是因为有事相求。然而，与他人不同的是，朗道姐弟特意为你设置了一个悬念——只有按照他们的要求前往博物馆的整理间，他们才会将需求和盘托出。\n这是求人应有的态度吗？你不理解，因为你才从空间站「黑塔」出生没多久——但想必你已经习惯这种无厘头的任务领取方式了。\n前往贝洛伯格历史文化博物馆的整理间，听听他们的请求吧。",
+      "location": "雅利洛-Ⅵ-行政区-历史文化博物馆"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你来到博物馆整理间，朗道姐弟已经到了，并正在闲聊…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "嘿，这里稀罕宝贝可真不少啊！老弟你不会是嘴上说做义工，其实偷偷在这里寻宝吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "不，没这回事……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "哎，这是什么机器？还有屏幕跟键盘…难道是操控自动机兵用的终端？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "你看，这里还贴着纸条呢！「佩妮娅·谢尔盖耶夫娜」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "这是物主的名字吗？怎么听着有点熟悉……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…姐姐，这都是文物，你别乱动。万一弄坏了就不好了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与朗道姐弟交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "你应邀来到博物馆整理间，果然在这里找到了等待已久的朗道姐弟。\n上前听听他们究竟有何请求吧。",
+      "location": "雅利洛-Ⅵ-行政区-历史文化博物馆"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你走上前打招呼…"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我来了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "哟，{{开拓者|你}}来啦！我们俩正等你呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "好久不见，开拓者。我本来提议直接在群里聊，但姐姐坚决不肯…辛苦你特地跑一趟了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "到底是什么事？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "一定要在这种地方聊吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "哎…这都是姐姐的主意。她说这样比较有密谋的感觉。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "不过我也碰巧在博物馆帮忙，索性就随她在这里等你了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "其实，这次请你来这里，是想和你聊聊我们家玲可的事。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "玲可是谁？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "她是我们俩的妹妹，也是朗道家年纪最小的孩子。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "原来是她啊。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "原来你们认识啊，那就好说了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "她最近刚从雪原科考归来，但状态一直不大好，似乎有什么心事……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "她也不想告诉我们到底发生了什么。我们很担心她，想帮她的忙，但又实在毫无头绪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "我上次遇见她的时候，她似乎正准备去雪原跟某人见面，还问我要了一套炉具……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "可不管我们怎么旁敲侧击，她都不肯告诉我到底要去见谁…嗐，我这姐姐当的，真是憋屈。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "所以，我和老弟不得已才想了这一招，想请你代我们去侦查一下！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "还有一个请求…希望你务必不要被她发现，否则玲可肯定又要对我们发脾气了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "包在我身上！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "谢谢你，开拓者！我们确实是放心不下她随便和陌生人见面……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "她经常一个人前往雪原考察，我们也一直相信她能保护好自己。但毕竟这次情况特殊——要是她被坏人利用，陷入危险就糟了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这样不太好吧…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "话是这么说，她也确实经常一个人前往雪原考察，我们也一直相信她能保护好自己……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "但这次情况特殊，我们确实放心不下她随便和陌生人见面——要是她被坏人利用，陷入危险就糟了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "哦，对了！你要去找玲宝的话，还得知道她长什么样吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "放心，她很显眼的：她跟我俩一样，一头金发，然后…唔，个子比较小，平时总会戴一顶白绒帽…如果我没猜错，她应该会在靠近雪原的出入口等人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "总之，我们最可爱的妹妹就拜托你了——要是发现了什么情况，记得随时联系我们啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "拜托你了，开拓者。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往行政区近城郊雪原入口，寻找玲可"
+    },
+    {
+      "type": "objective-description",
+      "text": "你应邀来到博物馆整理间，这才得知所谓神秘感不过又是希露瓦特有的一时心血来潮。\n朗道姐弟向你表明了请求——他们希望你能暗中照管朗道家的幺女玲可，并且千万不能被她发现。\n听起来有些微妙，但事已至此，你也只好照办——前往贝洛伯格行政区近城郊雪原的出入口，看看玲可究竟想要做什么吧。",
+      "location": "雅利洛-Ⅵ-行政区"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "在前往雪原入口时，你一眼看到了在路边等人的玲可…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（哎？那边那个孩子…和希露瓦描述的有点像。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（那应该就是玲可了。先在这里观察状况吧。）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "不多时，一个熟悉的身影走向玲可…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "玲宝～我来啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "我们出发吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "佩拉和玲可来到了雪原…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "呼…原来从行政区到雪原要花这么久啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "好大的雪…感觉比北方山脉里见到的还要大。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "玲可：准备好防寒衣物了吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "不出意外的话，雪在入夜前还会越下越大…你有好好准备防寒的衣物吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "嗯，都按你说的准备好啦。多亏了你的露营手册。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "然后，按你手册里说的——我们该找一处合适的露营地了，对吧？平整干燥、背风背阴，还得是地势比较高的地方……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "玲可：要先找一处合适的露营地。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "不出意外的话，雪在入夜前还会越下越大…我们得先找个合适的地方扎营才行。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "嗯，我记得这个——你在露营手册上也是这么写的：露营地必须平整干燥、背风背阴，最好是地势较高的地方……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…不愧是你，记什么都这么清楚。不过，这附近应该很难找到完美符合所有条件的露营地。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "我们就一起边走边看吧——当然，还得方便观测极光才行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "嘿嘿，谢谢玲宝。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "那就交给你啦——我会乖乖跟着你的。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找合适的露营地"
+    },
+    {
+      "type": "objective-description",
+      "text": "佩拉和玲可此行的目的原来是「观测极光」——为了达成这一目标，两人必须首先找到一处合适的露营地才行。",
+      "location": "雅利洛-Ⅵ-城郊雪原"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "平整干燥、背风背阴、地势要高……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "还要方便观测极光…好难挑啊。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "试图离开任务范围",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "玲可",
+          "text": "（还是不要跑太远吧……）"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "佩拉和玲可一路向前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "这个坡道的视野好像很好…观测极光感觉会很方便欸。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "不。这里是风口，还有冰原狼活动的痕迹…在这里扎营会有危险的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "原来如此…那我们还是继续向前找找吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "嗯…这里倒是背风背阴，地面也很平整。但……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "但四周都是山崖，如果遇到落石或者塌方就危险了。而且这里视野也不是很好……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…啊！我想到一个好地方——离这里不远，跟紧我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "咦？…啊，好！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "搭建露营地"
+    },
+    {
+      "type": "objective-description",
+      "text": "佩拉和玲可已经找到了合适的露营地。就在此处将露营用具准备好，等待极光的到来吧。",
+      "location": "雅利洛-Ⅵ-城郊雪原"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "我们好像走进死胡同了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "难道…玲宝说的「好地方」，就是这里？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "没错。这里是通向坎特谷的必经之路。虽然两边有矮崖，但我先前已经为了通行方便清理过了，不必担心坍塌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "而且，这个季节的山风通常是北风，这两座矮崖正好可以为我们挡住雪原的强风——这也是不能在刚才坡道上扎营的原因之一。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…我完全没注意到这些细节！露营原来这么深奥吗……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…也不是啦，只是贝洛伯格之外的自然条件比较恶劣而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "如果这里的天气像城里一样好，那只要找个舒服的地方扎营就可以了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "也是。希望那一天能早点到来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "啊，不过这里的视野似乎不是很好…看极光的话，这里没问题吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "嘿嘿，这个悬念留到最后再揭晓——我们先把帐篷搭好，然后一起去收集今晚要用的食材吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "欸，好——那让我来试试吧！露营手册上相关的部分，我已经全都背下来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "好啊，那我先安装炉具好了。如果觉得拿不准，随时来问我哦。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "（咦？暖炉怎么启动不了……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "（糟糕，查不出原因……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "（问问佩拉吧……）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "询问佩拉是否可以修好暖炉"
+    },
+    {
+      "type": "objective-description",
+      "text": "玲可似乎在架设暖炉时遇到了麻烦。眼下，她只有向佩拉求助了。",
+      "location": "雅利洛-Ⅵ-城郊雪原"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "奇怪…手册上是这样说的没错啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "啊，玲宝！你快来看看这是怎么回事！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "——我明明已经按手册上说的来了，可这个帐篷怎么还是摇摇晃晃的……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "玲可：检查一下。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "唔，我来检查一下……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "支架、横杆、缆绳…都没问题……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…啊，原来是地钉！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "这样就好了，是地钉的问题——忘记说了，在这种积雪比较深的地方，要用实心的铅铁钉才行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "原来如此。现在看起来确实稳固多了…不愧是玲宝！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "这就别夸啦…毕竟是我疏忽了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "呃，然后不巧的是——你能看看这个炉具吗？它好像坏掉了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "哎？好啊，让我看看。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "嗯…应该是地髓燃料的激活元件坏掉了。你有备用的吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "没有…姐姐和我说，这个是全新的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "（该不会是我拿错了吧…那今天岂不是只能用地髓生火了？亏我特地跟姐姐要了这个……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "没事没事，这种元件很常见，保不齐附近的废墟里就有能用的替换件呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "你先忙其他的吧，我去附近帮你找找——啊，顺便也收集一下食材！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…我、我也来！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "收集地髓激活原件和露营食材"
+    },
+    {
+      "type": "objective-description",
+      "text": "佩拉和玲可已经将露营地搭建完毕。接下来，她们决定为露营餐收集食材——顺便寻找不大可能出现在城郊雪原的地髓激活元件。",
+      "location": "雅利洛-Ⅵ-城郊雪原"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "收集食材是可以，但那个元件肯定很难找……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "先找找看，实在不行就按你在手册上说的——砍柴生火好啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "啊，其实我有备用的地髓块……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查废弃房屋"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "这座废墟里或许就能找到炉具的备用件。让我看看……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "你不会是想钻进去吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "当然，毕竟想要的东西不可能自己钻出来嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "那…注意安全。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "嘿咻，嘿咻……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "找到什么了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "元件没找到，但是找到了这个…不知道能不能吃就是了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "嗯……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "可以哦，没有变质。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "多亏了寒潮啊…不然我们根本吃不到七百年前的生鱼片。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "七百年？！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品冰鲜霜纹鲑生鱼片"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查废弃房屋旁边的树干"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "咦？这个树干里……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "怎么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…好像有好吃的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "嗯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "就这样…把它撬开……！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…有了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "呃，这是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "是拟态雪蛞蝓。它会根据周围环境将自身重塑成与之接近的模样，以此伪装自己，非常可爱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "可这东西，看着不像很好吃的样子……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "不。这种蛞蝓在火上烤过之后，口感会变得非常好——可能有点像…雪地鼠？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…后面那个听上去也不能吃吧？！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品拟态雪蛞蝓"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查雪堆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "这座雪堆里似乎有什么东西……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…哎？！我来挖就好了！你不用动手……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "这也是露营的一环嘛——就让我体验一下吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "啊…好吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "啊——果然有东西！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "这个…好像是萝卜？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "没错，这是雪地萝卜。味道甜甜的，很好吃……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…不对。这应该是正在冬眠的雪地萝卜兔。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "啊？这原来是只兔子？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "是的，这种兔子的外形特别像雪地萝卜——耳朵是叶，身子是茎。它冬眠的时候会用土块包裹身体，看上去就和地里的萝卜没有任何区别了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "原来如此…那我们还是把它放回去吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "嗯…这样对雪原生态比较好。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查路边的箱子"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "这个板条箱…看起来很可疑啊。说不定能找到炉具的替换件……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "那让我来打开它看看吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "哎，不用不用——玲宝你别操心，放着我来吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "咦…这是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "这是…一捆红肠？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "看起来是的，而且大概是不久前才被放在这里……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…难道是贝洛伯格野人囤的食物吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "什、什么，贝洛伯格野人是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "是一种传说中的生物——它的外形介于人与猿之间，近似成年男性，毛发是深蓝色的；而且它神出鬼没，整个贝洛伯格都找不到能证明它存在的确切证据……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "我也只是偶然看到过几次，但刚想认真拍个照的时候，就发现它已经消失不见了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "我觉得…这捆红肠，有可能成为轰动贝洛伯格的科考发现！我们把它带回去吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "啊…可是你看，这里好像写着字哎："
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…「桑」什么什么「基」。中间看不清楚，但好像是个名字。桑博·科斯基，不愧是你"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "这应该不是那个什么野人的屯粮吧…还是说，野人也会写字？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "唉……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "别、别伤心！玲宝肯定还能找到其他证据的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "至于这捆红肠…还是留在这里，等物主来拿吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "完成露营地周围调查"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "这附近应该搜索得差不多了…佩拉，我们回去吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "只能回去了…可惜没找到炉具的替换件。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "没关系，我们用地髓生火就好了——一起回去吃饭吧。"
+    },
+    {
+      "type": "fold",
+      "title": "试图离开任务范围",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "佩拉",
+          "text": "（还是留在营地附近比较好……）"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "返回露营地，准备晚餐"
+    },
+    {
+      "type": "objective-description",
+      "text": "尽管没能找到地髓激活元件，但佩拉和玲可已经集齐了当晚需要的食材。现在，是时候让两人返回露营地了。",
+      "location": "雅利洛-Ⅵ-城郊雪原"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "佩拉……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "嗯？怎么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "其实…没有那个炉具也能生火做饭的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…我知道啊。反正也要出来收集食材嘛，顺便的事而已。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "佩拉和玲可回到营地，发现了一只形似扑满的生物…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "营地里好像有什么东西…我们小心一点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "难道是什么小动物吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…玲宝，等等。营地里的那个东西，是很危险的裂界生物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "嗯，我也看到了。可它好像没什么敌意，长得也挺可爱，圆滚滚的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "别被外表骗了。历年在裂界里失踪的银鬃铁卫，有两成就是因为不听指挥、擅自追逐这种裂界生物才没能归队的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "我们还没研究清楚这类生物的习性，但有一点很确定…它肯定具备某种蛊惑人心的能力，我们还是谨慎一点为好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "哎？但是这个小家伙上次还给了我件好东西呢，也没有伤害我的意思……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "那应该就是它蛊惑人心的伎俩了。还好你没遇到危险。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "为了安全着想，我们还是消灭它吧——裂界生物是贝洛伯格的敌人，不值得信任。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "啊，但是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "之前我都没来得及给它拍照，但现在是个好机会……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "至少让我拍张照吧，佩拉——身为科考人员，这也是我的义务。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…我明白了。但快门的声音和闪光灯很有可能会激怒它……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…啊，它注意到我们了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "它可能正在寻找袭击我们的机会…小心。"
+    },
+    {
+      "type": "tabs",
+      "tabs": [
+        {
+          "id": 1,
+          "title": "为神秘的生物拍照",
+          "content": [
+            {
+              "type": "section",
+              "level": 3,
+              "title": "（可选）为神秘的生物拍照"
+            },
+            {
+              "type": "objective-description",
+              "text": "佩拉和玲可对于如何处置神秘生物产生了分歧——为它拍照？还是及时出手将未知的危险扼杀在摇篮里？女孩们需要做出选择。",
+              "location": "雅利洛-Ⅵ-城郊雪原"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "总算是拍到了……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "佩拉：它好像消失了。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "佩拉",
+                      "text": "它好像消失了…是逃走了吗？"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "玲可",
+                      "text": "嗯…那个小家伙的习性就是如此。只要受到惊吓，它就会以一种奇妙的方式立刻消失不见。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "佩拉：它有可能还在周围。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "佩拉",
+                      "text": "它不见了…玲宝，小心偷袭。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "玲可",
+                      "text": "不用紧张啦，佩拉。那个小家伙的习性就是如此——只要受到惊吓，它就会以一种奇妙的方式消失不见。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "这是我经过长期观察总结出的经验。至于那些失踪的铁卫…我想应该是在追逐中迷了路，所以才都没能全身而退吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "对不起，是我太敏感了……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "不用道歉，谨慎一点是好事。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "总之，危机解除——我们可以好好准备露营餐了……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "…咦？那个小家伙好像掉了什么东西？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "消灭神秘的生物",
+          "content": [
+            {
+              "type": "section",
+              "level": 3,
+              "title": "（可选）消灭神秘的生物"
+            },
+            {
+              "type": "objective-description",
+              "text": "佩拉和玲可对于如何处置神秘生物产生了分歧——为它拍照？还是及时出手将未知的危险扼杀在摇篮里？女孩们需要做出选择。",
+              "location": "雅利洛-Ⅵ-城郊雪原"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "小心，玲可——它要发动进攻了！"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "进入战斗并获胜"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "呼…这样就算是把它赶走了——虽然不知道去了哪里，但一时半会大概不会出现了吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "这次也莫名其妙地消失了……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "应该只是利用了裂界的某种性质吧。你很在意它去哪里了吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "没，只是有点好奇。它以前受到惊吓时，好像也是通过这种奇妙的方式消失不见的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "总之，危机解除——我们可以好好准备露营餐了……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "…咦？那个小家伙好像掉了什么东西？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查神秘生物遗留的物品"
+    },
+    {
+      "type": "objective-description",
+      "text": "无论如何，次元扑满离开了两人的露营地——但它似乎为两位女孩留下了某些物什。\n两位女孩决定上前检查，看看那神秘生物究竟准备了怎样的惊喜。",
+      "location": "雅利洛-Ⅵ-城郊雪原"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "咦？这是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "太好了！玲宝，你快看——居然是地髓激活元件！没想到在这里找到了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "你呢玲宝，找到什么好东西了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…啊！没、没什么。好像只是一些古董……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "能、能找到这个零件真是太好了！快让我们把炉子修好吧——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "嗯？玲宝…你是不是有什么话想说？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…没有没有，是你的错觉！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…好吧，不逗你玩啦。你先休息一下，让我来看看这座炉子吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品地髓激活元件"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "修复暖炉"
+    },
+    {
+      "type": "objective-description",
+      "text": "两位女孩意外获得了她们期待已久的地髓激活元件——现在是时候让佩拉大显身手，修好暖炉了。",
+      "location": "雅利洛-Ⅵ-城郊雪原"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "嗯，好啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…这莫非是什么魔法？！我怎么什么问题都看不出来……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "不是什么高深的技巧啦，我只是先前跟着希露瓦学了两手而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "姐姐……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "是啊，就是她。怎么了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "啊…没什么。只是，偶尔…挺羡慕姐姐的，毕竟她什么都会……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…你不也是嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…哎？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "你想，极地探险专家和机械专家不都是专家嘛。在我看来，你和希露瓦一样厉害哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "而且，玲宝想从她那里学点什么的话应该不难吧？她肯定很乐意教你——毕竟你是她亲妹妹嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "话是这么说没错……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…先不聊这个啦。天色不早了，我们开始做饭吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "好！我最期待的环节终于——啊，不是，我最期待的当然还是看极光啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "总之，我们先清点下食材吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "（根据经验，每种食材都有自己独特的功效，组合在一起更会有意想不到的功效出现……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "（究竟会产生怎样的效果呢？随意试试吧。）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "提交物品冰鲜霜纹鲑生鱼片",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "啊…是七百年前的生鱼片。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "就不用再强调一遍七百年了吧……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "年份越长越稀有嘛。而且还是佩拉你特地钻进废墟里找到的……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "…这个也不用再特地强调一遍啦！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "那么，今晚的主菜就决定是这个了——嘿嘿，让你见识下我的厨艺吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "那个…要不让我来做吧！玲宝你就休息一下……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "哎呀，没事——交给我就好啦。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "锵锵——霜纹鲑面包做好了！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "啊…好香！我要开动了——！"
+            },
+            {
+              "type": "text",
+              "text": "从露营料理中感受到了奇妙的力量……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "提交物品拟态雪蛞蝓",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "啊…是可爱的拟态雪蛞蝓。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "我们真的要吃掉它吗……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "别害怕，虽然看上去不怎么美味——但只要尝试过一次，你肯定会爱上这种食物的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "说到底，它根本不是食物吧……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "那么，今晚的主菜就决定是这个了——嘿嘿，让你见识下我的厨艺吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "那个…要不让我来做吧！玲宝你就休息一下……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "哎呀，没事——交给我就好啦。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "锵锵——岩烧山珍串做好了！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "啊…好香！我要开动了——！"
+            },
+            {
+              "type": "text",
+              "text": "从露营料理中感受到了奇妙的力量……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "提交物品冰鲜霜纹鲑生鱼片和拟态雪蛞蝓",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "啊…是七百年前的生鱼片，还有可爱的拟态雪蛞蝓。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "感觉…好像都不太适合放进嘴里啊。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "没关系，做成火锅就没问题了。只要加入奶油和饼干碎，再加入我准备好的鲱鱼罐头……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "鲱鱼罐头也要加进去吗？！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "那么，今晚的主菜就决定是这个了——就让你见识下我的厨艺吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "那个…要不让我来做吧！玲宝你就休息一下……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "哎呀，没事——交给我就好啦。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "锵锵——超级美味的雪原大乱炖做好啦！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "啊…好香！我要开动了——！"
+            },
+            {
+              "type": "text",
+              "text": "从露营料理中感受到了奇妙的力量……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "佩拉和玲可吃完神奇的晚饭后开始等待极光，然而她们却没注意到一个灰色头发的少年/少女出现在了营地后面…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "吃得好饱…现在，我们只要等极光出来就好了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "应该再过不久就会出来了。在那之前…就聊聊天吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "佩拉…为什么忽然想一起来露营？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "哎？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "你以前不是说过嘛——「平时太忙了，休息时间只想瘫在床上」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "啊！我是不是给你添麻烦了？对不起……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "哪有什么添麻烦一说。虽然我确实不喜欢和人打交道，但这毕竟是和好朋友一起露营嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "我很开心。一点都不麻烦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "你老是这样——这次露营也是。从开始到现在，你就一直在揽活。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "真的没这个必要啊，交给我就好了嘛。露营就是要放松，不用老是紧绷绷的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…是啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "但是——我觉得这次露营还是很开心的！毕竟终于能试着做自己想做的事了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "给《奇谭》画的那些漫画不算吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "嗯。毕竟还得藏着掖着，总觉得不自在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "你太在意别人的看法了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "也许吧。要是我也能像你一样就好了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "我啊…也没什么好羡慕的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "我只是有点受不了哥哥姐姐…受不了他们总把我当成小孩子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "他们两个都是很厉害，很优秀的人…但也正是因为这样，和他们相处的时候我总会感到压力……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "我明明已经长大了…已经有足够的能力去做自己想做的事了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "为什么他们就是不能停止操心，让我放手去做呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…家人就是这样的呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…啊，对不起，不该说这个的。我有点太激动了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "没事没事，反正我连她的样子都没见过……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "极光啊…什么时候才会出现呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "玲可，当心——有怪物靠近了！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "在佩拉和玲可即将陷入危险之际，你不能再隐藏自己了，上前加入战斗吧…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "你为什么会在这里啊？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "不管怎么样…先专注于战斗吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "战胜裂界怪物"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "没想到裂界怪物会突然出现……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "大概是被我们的炉光吸引来的吧。星核危机明明都已经解除了，怪物怎么还是到处都是啊……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "裂界影响的消除需要时间。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "喔，原来如此……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "不用担心，因为有我在！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "你突然耍什么帅啊……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "等等，不对——你为什么会在这里啊？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "佩拉，这个人是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "呃…他/她就是那个拯救了贝洛伯格的大英雄开拓者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "原来如此。谢谢你，不光拯救了贝洛伯格，这次还救了我们两个。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "不过，其实我也想问…大英雄为什么会出现在这里？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你的哥哥姐姐派我来的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "哎…我就知道。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "呃…这个……",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "算了…我已经能猜到个大概了。是哥哥姐姐找你来保护我们的吧？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…他们总是这样。做那两个人的妹妹，想拥有点私人空间真的很难。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我也觉得他们的做法不好。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "那你就更不应该出现在这里了啊……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "家人就是这样的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "没错……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "等一下，这不是我刚才的台词吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "好啦好啦。说到底还是因为哥哥姐姐太爱操心，况且{{开拓者|大英雄}}也救了我们……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "既然你跟了我们一路，想必也知道我们来这里露营是为了什么——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "留下来，我们一起看极光吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "深夜……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "应该快要到极光出现的时间了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…喂，玲宝玲宝！你快看！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "极光按时出现在了天上……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "跟我来——这边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "哇……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "星核事件之后…这应该是规模最大的一次极光了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "我们很幸运。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "是啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…很幸运。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们三人回到了贝洛伯格…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "真好呀，吃了玲宝做的饭，还看到了极光…这次雪原之行，圆满结束啦——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "佩拉看起来很开心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "哎？我……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "咳…也没有很开心啦，真的。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "实话实说不好吗！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "对呀。实话实说嘛，佩拉。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "我……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "玲可会伤心的…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "哎？！对、对不起！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "放心吧，不会的。我能感受到佩拉真实的心情。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "和我一起露营，你不满意？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "佩拉",
+              "text": "本来我是想承认的…现在突然没有那种欲望了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "我能感受到佩拉真实的心情，你没必要藏啦。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "好吧好吧…确实是一次开心的经历。多亏了玲宝…还有你，开拓者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "那，接下来怎么说——就这么解散吗？还是说，晚上要不要再约个夜宵？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "好啊。听说行政区南边新开了家不错的肉排馆，正好我们一起去试试看吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "听着不错～那就这么定了。现在暂时解散，夜里再见咯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "啊，佩拉！稍等一下……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "嗯？怎么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "这个…给你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "这…这是？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "修好炉具之前，我在地上找到的——我猜，大概是那个圆滚滚的裂界生物留下的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "我觉得…你还是亲自确认一下比较好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "「佩妮娅·谢尔盖耶夫娜」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…我知道啦。谢谢你，玲宝。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "那…我们晚些时候就在这里会合吧，我先失陪了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "嗯……"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与佩拉和玲可暂时分别"
+    },
+    {
+      "type": "objective-description",
+      "text": "雪原极光观测之旅到这里就全部结束了，结局可谓是皆大欢喜，但两位女孩似乎还想让这趟旅行变得更加完美。\n她们与你相约晚些时候一起享用夜宵——当下就先想办法打发时间，等待两位收拾停当吧。",
+      "location": "雅利洛-Ⅵ-行政区"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "回复朗道姐弟的短信"
+    },
+    {
+      "type": "objective-description",
+      "text": "雪原极光观测之旅到这里就全部结束了，结局可谓是皆大欢喜，但两位女孩似乎还想让这趟旅行变得更加完美。\n她们已经各回各家，为晚些时候的夜宵各做准备，而此时的你则受到了来自朗道姐弟的短信。\n闲着也是闲着，看看他们又想找你请教些什么吧。",
+      "location": "雅利洛-Ⅵ-行政区"
+    },
+    {
+      "type": "message-thread",
+      "title": "杰帕德、希露瓦、开拓者的群聊",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "希露瓦",
+          "contentType": "text",
+          "text": "嘿，开拓者！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "杰帕德",
+          "contentType": "text",
+          "text": "之前说的那件事，进展如何？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "基本搞定了"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "你们在机械屋吗？我当面找你们说吧"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "短信可能说不清楚"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "希露瓦",
+          "contentType": "text",
+          "text": "哈哈，还挺巧～",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "杰帕德",
+          "contentType": "text",
+          "text": "那我们就在机械屋等你了",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向朗道姐弟汇报雪原见闻"
+    },
+    {
+      "type": "objective-description",
+      "text": "雪原极光观测之旅到这里就全部结束了，结局可谓是皆大欢喜，但两位女孩似乎还想让这趟旅行变得更加完美。\n她们已经各回各家，为晚些时候的夜宵各做准备，而此时的你则受到了来自朗道姐弟的短信。\n时间刚好，就趁这个机会向二人汇报你们在雪原的种种见闻吧。",
+      "location": "雅利洛-Ⅵ-行政区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（去机械屋找朗道姐弟聊聊吧……）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你刚来到机械屋门口，就听到朗道姐弟正在讨论玲可…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "玲可好不容易回来一趟…怎么还是不愿意见见我们呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "嗐，别急。这不是还有{{开拓者|他/她}}帮忙嘛。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你走进机械屋"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "哟，开拓者，我和老弟刚刚才聊到你呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "玲可的那件事…怎么样了？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "向朗道姐弟汇报了雪原中的见闻……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "原来那个「陌生人」就是佩拉啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "该怎么说呢…这倒确实是玲宝的风格。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你们不会对她生气吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "怎么会呢——只要玲宝她能保护好自己，不管做什么，我都支持！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "姐姐这次说得倒没错…这是玲可自己的选择，我们不会对她生气的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "只是，雪原探险这种事，多少还是有点危险……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "好啦好啦，别这么紧张。她肯定能照顾好自己的。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我的任务，完成了？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "不管怎么说，这次多亏有开拓者你在——不然，老弟怕是要担心得觉都睡不好了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "我…你太夸张了，姐姐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "至于之后该怎么和玲宝沟通…我们俩还得再考虑考虑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "你这次真的是帮了我们大忙啊——谢谢你啦，开拓者！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "回复玲可的短信"
+    },
+    {
+      "type": "objective-description",
+      "text": "雪原极光观测之旅到这里就全部结束了，结局可谓是皆大欢喜，但两位女孩似乎还想让这趟旅行变得更加完美。\n玲可似乎已经准备完毕，并给你发来了短信。看看她想说些什么吧。",
+      "location": "雅利洛-Ⅵ-行政区"
+    },
+    {
+      "type": "message-thread",
+      "title": "玲可",
+      "subtitle": "您呼叫的用户不在服务区",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "玲可",
+          "contentType": "text",
+          "text": "开拓者",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "玲可",
+          "contentType": "text",
+          "text": "你那边，怎么样了",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "还有事没处理。",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "还有点事没处理"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "稍等一下"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "准备去会合了。",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "在路上了在路上了"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "马上到"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "玲可",
+          "contentType": "text",
+          "text": "我现在在博物馆",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "玲可",
+          "contentType": "text",
+          "text": "佩拉她也在这里……",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "玲可",
+          "contentType": "text",
+          "text": "如果你忙完了，就到这里来吧",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往博物馆寻找二人"
+    },
+    {
+      "type": "objective-description",
+      "text": "雪原极光观测之旅到这里就全部结束了，结局可谓是皆大欢喜，但两位女孩似乎还想让这趟旅行变得更加完美。\n玲可似乎已经准备完毕，并邀请你一同前往博物馆寻找佩拉。\n应她的要求前往博物馆，与二人会合吧。",
+      "location": "雅利洛-Ⅵ-行政区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "啊，开拓者，你也来啦。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我来了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "那我们一起等等佩拉吧——她就在整理间里面。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "玲可来得好早。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "嗯，只是回去放了行李，顺便冲了个澡。花不了多久。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "我们一起等等佩拉吧——她就在整理间里面。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "佩拉还没来吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "她在整理间里面——我们一起等等她吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她在里面干什么？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "我觉得，她应该是在检查那枚软盘的内容…让她一个人静静吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "软盘里有什么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "我也不清楚具体内容。但……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "她遇上什么事了吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "我猜，你应该不知道佩拉母亲的事吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "佩妮娅·谢尔盖耶夫娜——十六年前意外罹难的、贝洛伯格最优秀的极地探险家。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这个名字听起来很熟悉。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "嗯…毕竟是贝洛伯格的名人，你可能在哪也听别人提起过吧。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "完全没听她提起过。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "嗯，她一般不会主动对别人说这些。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "就这么告诉我了，没问题吗？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "玲可",
+                      "text": "我问过了…她说没问题。看来，她真的很信任你。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "能看出来，她的性格如此。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "玲可",
+                      "text": "…看来佩拉信任你是有理由的。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "可可利亚竟然允许外出科考？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "当时的极地探险队隶属于银鬃铁卫，所以是有官方许可的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…还是言归正传吧。其实，十六年前还发生了一件大事……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "——那一年，佩拉出生了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "……",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你的意思是…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…嗯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "听说那时的佩妮娅女士不顾自己的身孕，坚持驻扎在雪原营地里。虽然不能上一线，但是还可以留在后方做些文书工作。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "然后，终于有一天…重要的时候到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "不幸的是，那天发生了严重的意外…再加上探险队遇上了暴风雪，营地的人和外界断了联系…大家当时都束手无策。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "唯一值得庆幸的…大概就是佩拉能够顺利诞生吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "没想到还有这种故事。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "那软盘又是怎么回事？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "软盘——如果科考队的前辈们说的是真的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…那应该就是佩妮娅女士留下的遗物了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "整理间内，佩拉看着软盘里的内容……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "佩妮娅女士生前委托了同事，请他把自己的终端机和软盘带回贝洛伯格。据说，那里面存着她给佩拉留下的「宝物」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "她说，等到佩拉成年，自然就能够读懂其中的内容了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…………"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "然而，那位受佩妮娅女士委托的同事，在返程途中遭到了裂界生物袭击。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "慌乱中，软盘不知道被落在了哪里…到最后，他只保住了那台终端机。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "至于具体内容，除了佩妮娅女士本人，谁都没有读到过。他们只说她给佩拉留下了好多好多封信——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "从她感知到佩拉时起，一直到分娩那天……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "……！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…一天都没有落下过。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…………"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "妈妈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "妈妈…妈妈……！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你还好吗，玲可？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "玲可",
+              "text": "我没事……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "……",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…………"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "{{开拓者|你}}，陪我去个地方吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好，我跟你走。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "哪里？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…机械屋。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "我在那里等你。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "聆听朗道一家交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "玲可似乎因为佩拉有些触动。她请求你陪她一起返回机械屋「永动」，且似乎有话想对自己的哥哥姐姐说。\n听听玲可究竟想说什么吧。",
+      "location": "雅利洛-Ⅵ-行政区"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你陪着玲可来到了机械屋……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "哥哥，姐姐……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…………"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "…我回来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "玲可！你终于回来了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "嗯？你的眼睛怎么这么红？发生什么事了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "…你怎么还是像块木头一样啊，老弟！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "欢迎回家，玲宝。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "玲可",
+      "text": "嗯……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "乖，没事没事……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "雪原里一定发生了不少事吧——辛苦你了，开拓者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "接下来…让我们稍微独处一会儿吧，谢谢你啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（给他们一点私人空间吧……）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "佩拉已成为列车的访客，回到列车将有机会遇到佩拉"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "玲可已成为列车的访客，回到列车将有机会遇到玲可"
+    },
+    {
+      "type": "fold",
+      "title": "后续剧情（在机械屋外旁听朗道一家交谈）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "玲可",
+          "text": "对不起…以前是我太任性了……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "希露瓦",
+          "text": "没关系，我和杰帕德都理解的…对吧，老弟？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "杰帕德",
+          "text": "嗯？啊…对，当然。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "杰帕德",
+          "text": "但是，我还是想说，玲可…我觉得你一个人去城外太危险了……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "希露瓦",
+          "text": "…哎呀，行了行了，你还是别说了！"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "后续剧情（回复佩拉的短信）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "message-thread",
+          "title": "佩拉",
+          "subtitle": "情报提供请备注姓名",
+          "owner": "开拓者",
+          "collapsed": false,
+          "content": [
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "开拓者",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "right",
+              "speaker": "开拓者",
+              "contentType": "text",
+              "text": "怎么了？"
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "之前",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "在博物馆",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "你都听到了",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "对吧？",
+              "acknowledged": true
+            },
+            {
+              "type": "choice",
+              "presentation": "message",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "听到了",
+                  "content": [
+                    {
+                      "type": "message",
+                      "side": "right",
+                      "speaker": "开拓者",
+                      "contentType": "text",
+                      "text": "确实"
+                    },
+                    {
+                      "type": "message",
+                      "side": "right",
+                      "speaker": "开拓者",
+                      "contentType": "text",
+                      "text": "对不住……"
+                    },
+                    {
+                      "type": "message",
+                      "side": "right",
+                      "speaker": "开拓者",
+                      "contentType": "sticker",
+                      "sticker": "07-04",
+                      "file": "聊天表情-07-04.png",
+                      "asset": "assets/sr-images/聊天表情-07-04.png"
+                    },
+                    {
+                      "type": "message",
+                      "side": "left",
+                      "speaker": "佩拉",
+                      "contentType": "text",
+                      "text": "…我就知道",
+                      "acknowledged": true
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "没听到",
+                  "content": [
+                    {
+                      "type": "message",
+                      "side": "right",
+                      "speaker": "开拓者",
+                      "contentType": "text",
+                      "text": "啊？"
+                    },
+                    {
+                      "type": "message",
+                      "side": "right",
+                      "speaker": "开拓者",
+                      "contentType": "text",
+                      "text": "没听到啊"
+                    },
+                    {
+                      "type": "message",
+                      "side": "right",
+                      "speaker": "开拓者",
+                      "contentType": "sticker",
+                      "sticker": "07-06",
+                      "file": "聊天表情-07-06.png",
+                      "asset": "assets/sr-images/聊天表情-07-06.png"
+                    },
+                    {
+                      "type": "message",
+                      "side": "left",
+                      "speaker": "佩拉",
+                      "contentType": "text",
+                      "text": "…你这反应，肯定是听到了",
+                      "acknowledged": true
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "听到什么？",
+                  "content": [
+                    {
+                      "type": "message",
+                      "side": "right",
+                      "speaker": "开拓者",
+                      "contentType": "text",
+                      "text": "啊？"
+                    },
+                    {
+                      "type": "message",
+                      "side": "right",
+                      "speaker": "开拓者",
+                      "contentType": "text",
+                      "text": "听到什么"
+                    },
+                    {
+                      "type": "message",
+                      "side": "right",
+                      "speaker": "开拓者",
+                      "contentType": "sticker",
+                      "sticker": "07-05",
+                      "file": "聊天表情-07-05.png",
+                      "asset": "assets/sr-images/聊天表情-07-05.png"
+                    },
+                    {
+                      "type": "message",
+                      "side": "left",
+                      "speaker": "佩拉",
+                      "contentType": "text",
+                      "text": "…还装傻",
+                      "acknowledged": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "算了",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "其实没什么",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "……",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "那天露营，很开心",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "谢谢你们",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "right",
+              "speaker": "开拓者",
+              "contentType": "text",
+              "text": "客气什么"
+            },
+            {
+              "type": "message",
+              "side": "right",
+              "speaker": "开拓者",
+              "contentType": "text",
+              "text": "有空再一起去玩吧"
+            },
+            {
+              "type": "message",
+              "side": "right",
+              "speaker": "开拓者",
+              "contentType": "text",
+              "text": "也别忘了夜宵"
+            },
+            {
+              "type": "message",
+              "side": "right",
+              "speaker": "开拓者",
+              "contentType": "sticker",
+              "sticker": "07-01",
+              "file": "聊天表情-07-01.png",
+              "asset": "assets/sr-images/聊天表情-07-01.png"
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "嗯",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "一言为定哦",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "至于夜宵嘛…今天先让我调整一下状态",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "佩拉",
+              "contentType": "text",
+              "text": "下次一定",
+              "acknowledged": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

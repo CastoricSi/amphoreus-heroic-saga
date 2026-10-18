@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "诸天无安，迷途难返",
+    "pageId": 3205,
+    "revisionId": 77413,
+    "parentRevisionId": 38265,
+    "revisionTimestamp": "2026-02-01T16:42:48Z",
+    "fetchedAt": "2026-09-28T00:15:42.506Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E8%AF%B8%E5%A4%A9%E6%97%A0%E5%AE%89%EF%BC%8C%E8%BF%B7%E9%80%94%E9%9A%BE%E8%BF%94",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E8%AF%B8%E5%A4%A9%E6%97%A0%E5%AE%89%EF%BC%8C%E8%BF%B7%E9%80%94%E9%9A%BE%E8%BF%94&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "诸天无安，迷途难返",
+    "region": "仙舟「罗浮」",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "11",
+    "series": "乘槎驭风仙窟游",
+    "description": "另一边，你丹恒、罗刹、素裳三人随星槎流离，辗转来到一处人迹杳然的洞天。",
+    "requirements": "神木重萌，掣转天衡中开启",
+    "requiredLevel": "34",
+    "characters": [
+      "丹恒",
+      "素裳",
+      "罗刹",
+      "雪衣"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "材料名",
+        "amount": "个数"
+      }
+    ],
+    "previousMissions": [
+      "神木重萌，掣转天衡"
+    ],
+    "nextMissions": [
+      "神木重萌，掣转天衡"
+    ],
+    "objectives": [
+      "穿过空无一人的洞天",
+      "消灭魔阴身，救下受伤的少女",
+      "跟随雪衣，查看此处发生的奇异变故"
+    ],
+    "synopsis": [
+      "罗刹向素裳讲述星神的争斗与陨落，并称自己受托将一具灵柩送回仙舟。丹恒称持明族是「不朽」星神的后裔，能够传承化龙之力。",
+      "丹恒等人路遇被魔阴身士卒围攻的少女。素裳带领丹恒、罗刹速战速决，救下那个女孩。",
+      "素裳检查少女情况，发现对方是属于「十王司」的机巧偃偶判官雪衣。雪衣请求素裳将其送去地衡司，罗刹却称他有能力将雪衣治愈。",
+      "罗刹携带灵柩于雪衣身侧俯身，使用吊坠施展治疗。在某种神奇力量的作用下，机巧工造之身如血肉凡胎般复原。",
+      "雪衣的身体恢复原形，罗刹称自己使用的是「丰饶」的力量。雪衣本为捉拿星核猎手而来，却在此遭遇了奇异变故，并请众人随她前去。",
+      "雪衣带领众人行进，远远望见从未有过的奇异景象——建木苏生。"
+    ],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与此同时，在罗浮的另一边…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "喂，罗刹，「{{繁育|星神}}」的事你才说了一半，接着讲嘛，怪有意思的。真稀奇啊，星神也会死？祂们不是无敌的吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "世上没有绝对的无敌，也没有永恒的不朽，这只是凡人视角下的夸张而已。不过「繁育」的陨落，倒确实超越凡人的尺度。祂陨于其祂星神之手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "…不明白。都是星神，为啥要打打杀杀呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "你…真的是仙舟人吗？！别的星神不提，{{「岚」|「巡猎」的星神}}与{{「药师」|「丰饶」的星神}}的故事，你总该知道吧？联盟的夙愿，不就是消灭星神药师吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "当然知道啦！唔，知道一点儿。我整天被我娘监督练剑，没怎么上过学……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "那…还是换个话题吧。既然你连巡猎和丰饶的死仇都不清楚，很多事情解释起来太费劲了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "好吧，那我换个话题：这个大盒子里装的是啥？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "这具白匣子吗？它是「灵柩」，俗名「棺材」，专用于收殓逝者的遗体。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "逝者…你，你不是行商么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "这也是商旅的一部分工作。在下受了嘱托，要将这具灵柩顺路送回仙舟。呵，对动辄寿抵千年的长生种而言，「死亡」大概是个遥远的概念吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "也不是啦，云骑军人投身沙场，死亡也是平常事。但我们没有用盒子……呃，灵柩盛装遗体的习惯。仙舟人辞别同袍的习俗，是将名字和玉兆供奉在{{「十王司」|长生管理机构}}的因果殿里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "而且，狐人和持明各有自己的告别仪式。我见过狐族战士将离世同胞安置在星槎里，任它飘向遥远的星辰——他们管这叫「正首青丘」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "持明嘛，他们…就比较神秘了。听说持明活得久了，又或受伤濒死，会化作一颗珍珠般的蛋，然后以幼子形貌破壳新生……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "我娘管持明叫「龙裔」。小时候听娘讲的故事里，持明族还都能化身巨龙哩，也不知是不是真的……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是真的。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "只有特殊的持明能化龙。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "传说罢了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "好家伙，「闷葫芦」先生开腔啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…令堂说的不错，持明是「龙裔」，亦即星神「{{不朽|龙}}」的后代。因此持明之中，曾经是有人能化龙的，却不是人人都有此资质。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这份力量是珍稀之传，必须经由繁多的仪式和考验方能承接。对接掌者…也难说是幸事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "…我听说过「不朽的龙」和其子裔的故事。许多神话故事都称颂祂拥有完满不朽的生命。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "但不知为何，祂在群星间消失无踪，就像从未存在过一般——只留下了孑遗子嗣。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "天年有尽，但凡生命皆有定数的极限。即便星神也难称不朽，终会抵达逝去的那一刻吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "呃，我多嘴问一句……棺材里的人，你认识么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "认识。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "朋友？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "不是。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "那…呃，恋人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "哈哈，姑娘想哪儿去了？棺中躺着的与我非亲非故，仅有一面之缘。巧合之下答应了别人，只好走这一趟罢了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "就聊到这儿吧？诸位休息得也差不多了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "穿过空无一人的洞天"
+    },
+    {
+      "type": "objective-description",
+      "text": "另一边，你丹恒、罗刹、素裳三人随星槎流离，辗转来到一处人迹杳然的洞天。",
+      "location": "仙舟「罗浮」-工造司"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…是魔阴身。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "好像有人受伤了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "等等！别轻举妄动。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "消灭魔阴身，救下受伤的少女"
+    },
+    {
+      "type": "objective-description",
+      "text": "另一边，你丹恒、罗刹、素裳三人随星槎流离，辗转来到一处人迹杳然的洞天。\n在寻找出路之时，你们目睹一位少女受魔阴身所困，危在旦夕。",
+      "location": "仙舟「罗浮」-工造司"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "「闷葫芦」、罗刹，咱们一起上，速战速决搞定这些家伙，救下那个女孩！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "之前不是说都交给你就好吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "我、我这是双拳难敌四手呀！拜托啦，事成后，我给你俩颁发「见义勇为」奖！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "别磨蹭了，上吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败魔阴身士卒…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "姑娘，你没事吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "…明知故问。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "啊…抱歉，我没瞧着血迹，还以为没事…原来你是{{机巧偃偶|机械改造人}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "运动机杼坏了，动不了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "你是云骑军？…很好，请送吾去地衡司。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "啊这…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "罗刹，闷葫芦，不好意思，可能咱们又得耽搁一下了…这姑娘是属于{{「十王司」|长生管理机构}}的偃偶判官，我身为云骑，得优先配合她的指示。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "抱歉…早知道不让你俩跟我走了，你们要是自己走，没准都到了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "在下略懂医术，不妨让我试试能否医治姑娘的伤势。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "呃，你不知道啦，她是{{偃偶|机械改造人}}。咱们还是把她送去地衡司吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "不要紧，素裳姑娘——交给我吧。"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-诸天无安，迷途难返-CG.png",
+      "displayWidth": "600px",
+      "align": "center",
+      "asset": "assets/sr-images/开拓任务-诸天无安，迷途难返-CG.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "应该不疼，但会有些奇怪的感觉……或许酸，或许麻，可以忍住不动吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪衣",
+      "text": "没用的…吾身是机巧工造之物，并非血肉凡胎——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "机巧也好、血肉也罢…都不过是有形之物。只要姑娘不介意我用的手段……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪衣",
+      "text": "…神奇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "你、你是怎么做到的——这根本不是医术吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "「{{丰饶|星神}}」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪衣",
+      "text": "很好，不必回地衡了，任务继续。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪衣",
+      "text": "按「十王司」律条，吾身为判官，不牵外缘。但你们助吾脱身，吾便规劝一句：趁早离去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪衣",
+      "text": "吾到此是为正本清源，捉拿要犯——星核猎手。此人剑技非凡，手持神兵，危险至极。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "……！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪衣",
+      "text": "若不是遭遇了奇异变故，吾的「阳寿」也许就此折损了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "奇异的…变故？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪衣",
+      "text": "随吾来。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随雪衣，查看此处发生的奇异变故"
+    },
+    {
+      "type": "objective-description",
+      "text": "救下自称「十王司判官」的少女后，你们得知仙舟之上正在发生一些不可思议的变故。",
+      "location": "仙舟「罗浮」-工造司"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪衣",
+      "text": "吾还没见过这样的景象呢。"
+    }
+  ],
+  "warnings": []
+}

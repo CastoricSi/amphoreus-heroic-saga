@@ -1,0 +1,789 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "鸣的锣，响的钹",
+    "pageId": 38319,
+    "revisionId": 97156,
+    "parentRevisionId": 96894,
+    "revisionTimestamp": "2026-05-31T15:01:17Z",
+    "fetchedAt": "2026-09-28T00:19:33.729Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E9%B8%A3%E7%9A%84%E9%94%A3%EF%BC%8C%E5%93%8D%E7%9A%84%E9%92%B9",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E9%B8%A3%E7%9A%84%E9%94%A3%EF%BC%8C%E5%93%8D%E7%9A%84%E9%92%B9&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "鸣的锣，响的钹",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.2",
+    "number": "06",
+    "series": "如是，众生欢笑不已",
+    "description": "海原市爆发乐变化天人骚乱，满愿声称是「同谐」力量导致丰饶血肉开始传染，并宣布取消电视辩论。为制裁满愿的暴行，爻光鼓励绯英行使仲裁威权，但这需要有违规谒者出现。绯英决定亲自犯禁，向爻光吐露这场星神游戏的真实目的。",
+    "requirements": "完成嚎叫、白噪音，或个人的体验",
+    "requiredLevel": "21",
+    "characters": [
+      "丹恒",
+      "姬子",
+      "瓦尔特",
+      "星期日",
+      "三月七",
+      "真珠",
+      "不死途",
+      "满愿",
+      "绯英",
+      "爻光"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "500"
+      },
+      {
+        "item": "星琼",
+        "amount": "60"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "5"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "5"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "200"
+      },
+      {
+        "item": "信用点",
+        "amount": "60000"
+      },
+      {
+        "item": "材料名",
+        "amount": "个数"
+      }
+    ],
+    "previousMissions": [
+      "嚎叫、白噪音，或个人的体验"
+    ],
+    "nextMissions": [
+      "大量死与侦探小说"
+    ],
+    "objectives": [
+      "",
+      "前往电视台，准备参加电视辩论",
+      "完成大量死与侦探小说"
+    ],
+    "synopsis": [
+      "众人同步情报信息，商讨下一步对策。丹恒看守因倏忽血肉而躁动的刃，真珠会拒绝满愿的辩论邀请并将丰饶异动视作第一目标，爻光寻找救治接受幸福手术者的方法。瓦尔特与三月七留守列车，你与姬子前往电视台，与准备参与公开辩论的不死途、星期日会合。",
+      "海原市街头，大量民众变异为乐变化天人，引起严重骚乱。绯英使用「真律灵枝」，尝试控制局势。「该是履行职责的时候了。」",
+      "爻光质问满愿的暴行是否违规，绯英表示这只是数千年幻月游戏中寻常的灾厄。只要谒者能汲取愿力，充盈幻月，游戏就百无禁忌。",
+      "绯英表示，幻月游戏只有一项禁忌——游戏必须进行，永无休止。绯英之所以能担任仲裁者，是因为她拥有诛除僭越之人的力量。",
+      "绯英讲述了一段似是而非的神话故事：阿哈曾将一支受丰饶赐福的「折枝」移栽于此，并藉此将最恐怖的事物囚禁在了最可笑的游戏里。在幻月游戏的轮回中，「折枝」逐渐明白何为欢愉，绯英由此诞生。千年来，绯英曾三次动用丰饶力量来挽救危机，每一次都留下不可挽回的后果。现在，绯英害怕再次动用这种力量。",
+      "爻光鼓励绯英行使仲裁威权，但这需要有违规者的出现。当下并无逾矩谒者，绯英决定亲自犯禁，向爻光吐露这场星神游戏的真实目的。"
+    ],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "正在回到开拓者视角…\n当你有机会做出选择的时候不要让自己后悔。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与此同时，一场紧急会议正在列车上展开"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…情况就是这样。因为倏忽血肉，刃也有些躁动，我得留在这边，防止他彻底失控。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "注意安全，不必担心我们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "幸研会许诺的幸福，竟然是丰饶令使的血肉…满愿的阴谋，恐怕远不止重现告死魔。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "老日，你那边怎么样？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "我和不死途先生已经到电视塔了——这里仍在布置辩论现场，看上去并无异常。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "姬子",
+              "text": "你们已经认识了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "说来话长，还是之后再解释吧。借助调律，我会隐藏谒者的身份，全力配合开拓者。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "爻光将军呢？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "她去找寻救治受术者的方法了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "怪了…搞出这么大的乱子，她还邀请别人去辩论，不怕被当众戳穿吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "此事一旦为民众所知，必然会引起恐慌——她知道我们不敢贸然公开。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "容我补充：公司已经查明幸研会的规模，接受过幸福手术的民众超过二十万人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "进一步推算：这些支持者能为满愿带来的优势微乎其微。几位取胜的概率是…71%。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "竟然这么高…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "姬子",
+              "text": "满愿在挑战所有谒者，胜算本就不高——她一定留有后手，我们得时刻当心。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "公司有什么打算？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我会公开拒绝邀请，将丰饶异动视作第一目标。逻辑：比起谒者，现在二相乐园更需要一位「首席执行官」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "倘若局势失去控制,我会立即中止幻月游戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "但在那之前，媒体宣传部会尽力为各位提供支持，化解满愿的舆论攻势。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "这就足够了，多谢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "眼下危机四伏，所有人都赶往海原市，我觉得不妥。我和三月留在二维市，以备不测。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "对哦，还得看好列车，万一有人偷家就坏了。辩论这种场合，本来也不适合我。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "交给我们吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "行！到时候，我帮你多刷几条弹幕。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "可是谐星会更受欢迎。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "你才谐星呢！本姑娘也能又美又强！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "那我们这就动身，之后再联络吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往电视台，准备参加电视辩论"
+    },
+    {
+      "type": "objective-description",
+      "text": "身为「谒者」，你不得不参加满愿为你们举办的电视辩论。\n作为「狸狸报社」的社长，你最清楚舆论的可怕了。\n一定要做好万全之策，绝不能在节目上给列车组丢份！",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往电视台，准备参加电视辩论"
+    },
+    {
+      "type": "objective-description",
+      "text": "身为「谒者」，你不得不参加满愿为你们举办的电视辩论。\n作为「狸狸报社」的社长，你最清楚舆论的可怕了。\n一定要做好万全之策，绝不能在节目上给列车组丢份！",
+      "location": "二相乐园-海原市"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "没想到，二相乐园还有这么清净的地方……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "算是有利有弊吧，这么多年过去，附近的市政交通还是很麻烦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "电视塔还有一段距离，我们得自己走过去了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "完成大量死与侦探小说"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入电视塔，完成任务大量死与侦探小说"
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "身为「谒者」，你不得不参加满愿为你们举办的电视辩论。\n作为「狸狸报社」的社长，你最清楚舆论的可怕了。\n一定要做好万全之策，绝不能在节目上给列车组丢份！",
+      "context": "任务介绍"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "周围人群的指责声愈演愈烈"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "有人在此期间变异为了乐变化天人，引起了群众的恐慌"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "与此同时，海原市的街头也有大量民众出现了变异"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "广播",
+          "text": "紧急通知：一名谒者正以「同谐」的力量袭击海原市……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "广播",
+          "text": "请…各位…市民……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绯英",
+          "text": "闲聊到此为止……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绯英",
+          "text": "该是履行职责的时候了。"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "欢笑的肉块",
+      "text": "让我们…融为一体，共享无边的欢愉！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "欢笑的肉块",
+      "text": "一个我，感受一份快乐…两个我，享受双倍的极乐！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "结束战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "欢笑的肉块",
+      "text": "痛？那是什么味道的糖果？我要更多！哈哈哈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "他们的感官已经完全扭曲。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "欢笑的肉块",
+      "text": "靠近一点…再、再来……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "他…死了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "不，肉身正在复原。要不了多久，他就会再度爬起来——不管被杀死几次。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "如此，确实当得起头顶的大吉之签。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "这就是满愿的目的？将植入倏忽细胞的市民，扭曲成只知发笑的孽物，向所有谒者开战？确实惊悚。但是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "不过一介凡人，她到底是怎么做到的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "将军，请不要{{那样|孽物}}称呼他们。这些人和你熟悉的丰饶之民并非同类。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "他们…只是海原市的普通人，日复一日为柴米油盐奔波，没有你我这般力量，也不曾看见乐园外的世界。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "他们只是想停下来喘口气…哪怕这口气，是满愿递来的毒药。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "你说得对，他们本该得到底护。但此刻，还有另一群人需要我们保护。既然你我拥有力量，就去做些什么吧——无论是为幸存者，还是为受害者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "你本是幻月游戏的裁判，即便被黑幕推下了场，但多少留有一点仲裁的权利吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "如今遍地行尸走肉，生灵涂炭，难道造下这等恶业的谒者，仍不算犯规吗？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "这不过是数千年游戏中最为寻常的一幕：灾厄。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "只要谒者能汲取愿力，充盈幻月,游戏就百无禁忌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "「欢愉」之主放任谒者行一切最善、最美、最真、最贪、最妄——乃至最恶之事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "那幻月游戏的边界，到底在哪里？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "阿哈的游戏，哪有边界可言？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "你不明白，将军。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "那就对我说个明白。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "…如你所愿。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "两人来到了幻月秘庭"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "不知将军是否听说过十五年前「血涂游戏」的惨剧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "相较幻月游戏过去灾难深重的历史，那恐怕只是个微不足道的插曲吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "无数次，我想伸出手去，触碰那些沉默的心脏，让它们再度跳动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "但我不可能拯救每一个人，从来都是这样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "幻月游戏只有一项禁忌，我恪守的规则也只有一条——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "游戏必须进行，如天之恒，如月之升，永无休止。有违此律者，当逐、当斩、当受无间苦楚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "爻光将军，你是否想过：仲裁者为何是我？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "只因你拥有诛除僭越之人的力量。"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-鸣的锣，响的钹-CG1.png",
+      "displayWidth": "810px",
+      "fullWidth": "1440px",
+      "asset": "assets/sr-images/开拓任务-鸣的锣，响的钹-CG1.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "恒久之前，长生主的玄圃中，花木繁盛，迫得众生难以喘息。一位好事者悄然潜入其中，摘折下最妖娆丰盛的一枝。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "折枝高声抗议，只因她受赐永生前，曾是率领族人寻求不死药的神使，她是爱憎无明之兽，是吞食赤月的剑歌者——她如此高傲，从不知屈服为何物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "除却仙舟炽烈的火之鸟外，她从未败于旁人之手，又如何能容忍…好事者染指她的芬芳。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "你说的究竟是神话…还是真实存在的历史？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "当一段往事遥远得如同星辰的余晖，追问它是神话还是历史，还重要吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "那位好事者将她移栽他乡。借由此法，祂将最恐怖的事物囚禁在了最可笑的游戏里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "你自己…就是那最恐怖的事物？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "你误会了…也许没有。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "好事的神明许诺点化她，教她知晓真正的喜乐——而在幻月游戏的反复轮回中，好事者并未食言。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "她曾目睹烈焰焚尽沧海，见证文明自尘埃中开谢枯荣；她仰视过至善灵魂燃尽辉光，也默许极恶在大地上血宴狂欢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "终于，她渐渐自蝼蚁的爱恨中窥见了易逝生命的本质：何为欢愉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "终于，她成为了我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "所以，你害怕唤醒她，你害怕再一次成为她。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "千年来，我曾三次呼唤她的力量，挽救危机。每一次，都在大地上留下了不可挽回的创痕。爻光这就是「丰饶」…治愈和折磨相依相存。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "在知道一切后，你仍然要我戴上那枚狐面，行使仲裁的威权吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "绯英小姐，你所恐惧的并非这张狐面。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "恰恰相反，「绯英」才是你的面具。你所恐惧的，是你本来的模样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "我也曾恐惧我的面具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "你的面具？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "一张名为「帝弓天将」的面具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "每当战局需要时，我就不得不戴上它，成为那个——冷眼旁观血泪牺牲，在戎韬府星图前运筹卜算，即便被殉难者的遗孤詈骂，也要促成光矢落下的「杀生将军」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "我不明白。身为仙舟的将军，为何你一路以来，力劝我…力劝我这个「丰饶」的造物展露本相……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "说来可笑。我抵达二相乐园，正是为了邀「欢愉」之主入我卦中，改写已定的命数。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "但牵引星辰的辙迹，又谈何容易。无论是倾天的光矢，还是欢愉的游戏…竭尽一切，也难以把握。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "自幻月宣言加注的时刻起，我的卜算已经失控——我的命数在否泰生死中不停变化，再难测度。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "星神入局、卜算无用。唯一能相信的，只有人而已。正如我曾相信我的老师，能顺利践行天命——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "我也相信你，绯英小姐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "…有没有人说你像个赌徒？竟敢在星神下场的牌局里，把筹码推给我这个未知的变量？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "初见面时，我无法洞见你的命数吉凶，但我愿意相信你，你也是这场无人能窥见结局的游戏里改写命运的关键。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "为什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "绯英小姐，守护我的威灵名唤「时轮天雉明王」，是「巡猎」预视、决断与自制的象征。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "杀伐果断的天弓之神，为何有如此面相？良久思索后，我终于领悟。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "若知晓自制之可贵，丰饶造物便不是孽物。而不知节制，巡猎的后果也与毁灭无异。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "我不是什么赌徒，我也不是星神目光下的蝼蚁……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "是我献出自己微不足道的命运的一部分，铸就了{{祂们的轨迹|命途}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "外界形势瞬息万变，容不下片刻闲谈了。绯英小姐，我给出了答案，也想换来你的答案。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "在你察觉满愿并非谒者，无法裁断时，为何我从你的双眼中读到了犹豫、迟疑，而非司空见惯的漠然？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "我知道，你心中已有破局办法。只是尚未准备好使用它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "请告诉我，你的办法。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "如您所请。欲行仲裁之权，需有铁证如山——证明幻月游戏中，确有谒者逾越规则，祸乱秩序。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "而今遍观此局，未见一人越轨。既无罪人…那便由我，来成为这「罪人」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "爻光将军，你曾问我，幻月游戏的边界何在？我现在回答你：边界不在其外，而在核心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "现在，我将逾越禁忌，向你吐露这场星神游戏的目的——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "借由此法，欢愉之主将最恐怖的事物囚禁在了最可笑的游戏里。沉睡在二相乐园世界核心的恐怖之物是——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "████"
+    }
+  ],
+  "warnings": []
+}

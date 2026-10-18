@@ -1,0 +1,1002 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "不存在的国度",
+    "pageId": 38900,
+    "revisionId": 102477,
+    "parentRevisionId": 99001,
+    "revisionTimestamp": "2026-09-18T15:24:24Z",
+    "fetchedAt": "2026-09-28T00:19:51.314Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%9B%BD%E5%BA%A6",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%9B%BD%E5%BA%A6&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "不存在的国度",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.3",
+    "number": "07",
+    "series": "沉于生者的忘川",
+    "description": "于「贪饕」兽口中，刃将倏忽锻囚于己身，涅槃归来。被姬子揭穿伪装后，归寂不再掩饰自身并同时显现于二相乐园多地，宣布要为乐园众生带来迟到的「毁灭」。",
+    "requirements": "完成任务昨日的世界",
+    "requiredLevel": "21",
+    "characters": [
+      "归寂",
+      "绘世",
+      "银狼",
+      "刃",
+      "隆介",
+      "姬子",
+      "瓦尔特",
+      "不死途"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "300"
+      },
+      {
+        "item": "星琼",
+        "amount": "40"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "3"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "3"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "120"
+      },
+      {
+        "item": "《始作画者》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "40000"
+      }
+    ],
+    "previousMissions": [
+      "昨日的世界"
+    ],
+    "nextMissions": [
+      "我如何遇到你的父亲"
+    ],
+    "objectives": [],
+    "synopsis": [
+      "归寂现身画中世界，称绘世背弃了他赐下的「毁灭」力量，令自己和后裔饱受风化诅咒的灼烧。归寂重返二相乐园，是因为一位货真价实的无名客——姬子回来了。",
+      "归寂转动骰子，将朝向他的攻击尽数闪避，并激活绘世体内的「毁灭」力量。「万分之一的概率，在我掷出骰子的那一刻，就是定数。」",
+      "绘世催动「吞天无量塔」向你袭来，刃为你抵挡冲击，并将其劈成两半。你冲向狂暴中的绘世，以攻击令其恢复清醒。",
+      "刃决定成为谒者，加入幻月游戏。绘世的力量被削弱，画中世界对「贪饕」的封印正在动摇。她表示归寂具有某种不可思议的力量，可以同时现身于多地。",
+      "姬子揭穿隆介的伪装。对方坦承，在姬子与父亲第一次见面时，他就毁灭并取代了隆介。与此同时，二相乐园多地传来归寂袭击的报告。",
+      "隆介声称，真正的姬子害怕宇宙，早就死在了二相乐园。带着姬子的愿望走向星空的，不过是她按照自身模样创造的幻造种。",
+      "归寂彻底撕下隆介的伪装。与此同时在二相乐园各地大肆发动袭击，并向乐园民众宣告灾难降临。「现在，请享用那些迟到的意外吧。」"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#刃之为物、通往群星的轨道#归于空寂的玩笑",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "你们，要一直留在这儿，直到结果揭晓吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "他可能很久以后才会回来，也可能不回来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "或者，我只要抱怨一声「要是刃在就好了」，他就会出现。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "无论如何，这是刃的选择。我们道过别了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "谢谢你们，送了他最后一程。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "现在，该处理你的事了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "灰发少年/少女，你带着{{她|绯英}}的信物寻我，所为何事？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我和你说过我的来意。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "绘世",
+              "text": "来意？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "是你让我来这儿的？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "绘世",
+              "text": "我不太明白。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "驱舟来到此地前，我们应该是第一次见面。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "若非你持有绯英绘制的面具，我也不会应愿力召唤而来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "…所以，你口中的「我」是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "当然是，我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "混球永远是混球，又是你……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我和厄运有个共同点：喜欢不请自来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "时隔千年的重逢。绘世，好久不见。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "归寂……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你终于现身了，绝灭大君。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我就知道，没那么简单。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "绘世的宿敌…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "归寂",
+              "text": "不不，我们可不只是「宿敌」这么简单……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "先前在渡画泉隐，故事只讲到一半。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "千年前，我在哈托彼亚的废墟中看见了一名濒死的女婴。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "她冰冷的躯体，让我想起「欢愉」的传说。阿哈听见婴儿的啼哭，于是放声大笑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "可惜，我不明白这有什么好笑的。所以，我编了个更有趣的笑话……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我将「毁灭」的力量赐给那个孩子，让她如虚卒一般重生。我教导她以「贪饕」的生命为颜料，绘制凶恶的巨兽，施行军团的天旨。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "绘世，你的名字是「画出世界」——「刻下荣光存在的痕迹，在世界毁灭的前夕。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "你一直做得很好。直到…目睹列车坠毁，它带给了你不切实际的幻想。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "自那天起，我和你们的「毁灭」再无瓜葛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "摧毁列车，是你失败的开始。无名客的精神成了反抗的旗帜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "你给我的力量，我用它拯救无辜。你让我记录世界的毁灭，我却创造了一座天国。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "自以为戴上人类的面具，就能成为「开拓」的一员。哈哈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "睁开眼看看吧，风化诅咒仍在灼烧你和你的后裔，那是身为毁灭子嗣，却要背弃命途的惩罚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "画中世界？一场彻头彻尾的惨败，竟也能被你渲染成胜利。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "知道这一千年，我为什么对哈托彼亚不闻不问么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "因为——你，让我感到无聊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "但现在，情况不同了。一个比你更有趣的人回来了。和你不同，她是个货真价实的无名客。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "所以，我回来了。我来这里，只是为了跟你说这些。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "另一位无名客…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "姬子？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "瓜吃够了，我的拳头已经准备好往你脸上砸了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "这千年里，我一遍又一遍地描绘烬土纪元里，死于你手的无辜生命……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "归寂，准备好接受它们的怒火了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我还有更重要的事，恕不奉陪。至于你准备的这份饯别礼物……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "不如，就留给他们/她们享用吧？"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "绘世向归寂发起攻击…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "来吧——向我展示你们的反抗！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "你和银狼带上面具发起攻击…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "…结束了？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "银狼",
+          "text": "小心！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "可惜，如此漂亮的一击……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "但成功率，为零。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "银狼",
+          "text": "拘束判定失败？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "万分之一的概率……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "在我掷出骰子的那一刻……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "……就是定数。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "归寂躲开你的攻击，并向绘世发起攻击…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "摘掉面具吧，「主角」，它不适合你。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "至于你，结局已定，永别了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "绘世！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绘世",
+          "text": "抱歉……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绘世",
+          "text": "我…失败了。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入与始作画者，无量塔绘世战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "毁灭的走卒！我要将你们…逐出这个世界！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "必须，让她冷静下来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "咱们要动真格吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "当然不行！那不就着了混球的道了嘛！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入第二阶段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "…必须速战速决！追上归寂！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "没办法，看来要再用一次LV.999了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "没必要——到了用剑的时候，让我来吧。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "应星",
+          "text": "想清楚了吗……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "应星",
+          "text": "何物为刃？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "刃",
+          "text": "万般销磨后，依然保留的那点锋利……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "刃",
+          "text": "我将以贪饕为炉，丰饶为铁……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "刃",
+          "text": "万死此身……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "刃",
+          "text": "千冶成刃。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "刃",
+          "text": "怎么"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "刃",
+          "text": "不说声欢迎回来？"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我的天！点刀哥！你真的显灵了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "九死一生，我选择「一生」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "她怎么成了这副模样？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "是归寂干的好事，先帮她冷静下来！"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "刃拦下绘世的进攻，你乘机击败绘世"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "希望我没有来晚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "哪儿的话，你到得太及时了，阿刃！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "但是，过分了吧，怎么连衣服都换了一身？下面发生了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "我借助兽口，将倏忽囚禁了起来。但这不重要。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "重要的是，你活了下来，同时完成了任务。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "还没有。我做了一个决定……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "我会留在这里，成为谒者，加入幻月游戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "啊？你也要留在这个世界多管闲事？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "先解决完眼前的事情再说吧。你还好吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "…谢谢你们。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们会阻止归寂的！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "绘世",
+              "text": "我也会尽力帮助你们的——"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你真的没事吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "只要画卷依然存在，归寂就无法杀死我。你已经完成了绯英的嘱托。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "是我…是我在这漫长的千年来，执迷于将一切责任背负在自己身上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "归寂说得一点没错，我被困在了一千年前，自以为画中世界的封印无人能破解，自以为只靠累积的愿力，就能在归寂再次现身时给他致命一击。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "我们面对的还是那个鏖战了一整个烬土纪元，仍然没能战胜的对手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "这家伙到底是怎么潜入画中世界的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "在踏进渡画泉隐前，曾有个奇怪的尘灵试图附在我身上，但它没有得逞……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "也许，那就是归寂试图渗透的第一步。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "而后，他又伪装成绘世的模样，对我的面具动了手脚，还教给了我召唤真正绘世的方法…最终让他得逞了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "所以，这家伙心心念念想踏进这里的目的恐怕只有一个。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "削弱绘世的力量…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "破坏画中世界的隔绝…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "还有…唤醒「贪饕」的兽蜕。我们得尽快离开这儿了，那个吞下我的巨口，似乎正在不断活化。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "但是那家伙还说要去赴一个重要的约定…那是啥？他日理万机，总不见得掰成好几截一块行动吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "千年之前，界外天魔主入侵哈托彼亚，他所展现的是某种不可思议的力量……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "他会在同一时间现身相距千里之遥的地方，犹如拥有无数身外化身——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "啊？？？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "他说「要去见一位真正的无名客」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…姬子，有麻烦了！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "最大的麻烦，是说爸爸我吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你说那间教室是你幻造的隐秘场所，满愿却对它了如指掌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你对列车的情况过分熟悉，可父亲绝不会有登上它的机会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "还有，初次见面时，你说「十五年没见」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "但父亲明明在更早的时候就离开了。漏洞百出，不如说，你根本没打算隐藏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "唯独在你面前，我没办法说谎。至于最后一条，只是口误而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "别再惺惺作态了。你不是他。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "冒充我父亲的人，现出你的原形。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "看来，愉快的父女谈心结束了啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "这一路上，你做得很棒。拖延时间，牵制住我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "如果我比想象中更危险，你也能先一步，为同伴保驾护航。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "但「领航员」，你还是漏算了一种可能性，最致命的那一种——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "猜猜看，是从什么时候开始，我取代了隆介？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "答案是，从他为了妻子和女儿，追溯风化诅咒的源头，却反过来被我毁灭的那天起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "那一年，姬子六岁。在母亲的葬礼上，她和她的父亲第一次见面。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你在说谎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "这辈子，我只对女儿说过一句谎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "「初次见面。我是你的父亲，隆介。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "费尽心思，陪我度过如此漫长的时光，你究竟有什么阴谋？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "我这个人啊，脑袋里在想什么，有时候连自己都搞不明白。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "但现在，看见你的表情，我终于明白了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "扮演一位爸爸，我*玩得*很开心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "更美妙的是，这甚至不是今天最有乐子的事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "喂！听得见吗？疑似归寂的人出现在了酒馆。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我们遭遇了归寂的袭击，我和丹恒会尽可能掩护爻光——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "都陪你演到这儿了，何不再来点仪式感，为即将开场的好戏多点缀一份血色？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "你证明了自己的猜想，撕下了「隆介」的面具。礼尚往来，让我也撕开你的伪装吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "「开拓」最丑陋的谎言，被隐瞒了十五年的真相——"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-不存在的国度CG1.png",
+      "displayWidth": "810px",
+      "fullWidth": "1440px",
+      "asset": "assets/sr-images/开拓任务-不存在的国度CG1.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "红发的女性",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "红发的女性",
+      "text": "「下一次幻月满盈，我一定会赴约的。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "红发的女性",
+      "text": "「带着满满当当的故事，回来讲给你听。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "仰望星空的少女，却从心底里害怕启程。她害怕宇宙，更害怕那份沉重的责任。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "最后，她将愿望托付给了另一个人，自己则躺在坟墓里，永远留在了乐园。"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-不存在的国度CG2.png",
+      "displayWidth": "810px",
+      "fullWidth": "1440px",
+      "asset": "assets/sr-images/开拓任务-不存在的国度CG2.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "隆介的女儿，姬子，早就死了。面对无垠的星空，她逃走了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "就像「开拓」总会与「毁灭」相交，然后，化作壮美的埃灭。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "你果然是冒牌货。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "姬子",
+          "text": "彼此彼此。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "与此同时，归寂同时出现在二相乐园中的其他地方…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "沉溺于繁荣中的乐园众生啊——我曾在此目睹星穹列车再度飞向星空。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "此后，你们已享用了整整十五年平稳时光。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "好久不见了，老朋友。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "十五年来，是我，归寂！将所有美好的可能性提前赠予这片乐园——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "现在……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "请享用那些迟到的意外吧。"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,728 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "得其雨露，安其壤土",
+    "pageId": 4394,
+    "revisionId": 77419,
+    "parentRevisionId": 69475,
+    "revisionTimestamp": "2026-02-01T16:53:50Z",
+    "fetchedAt": "2026-09-28T00:15:50.027Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%BE%97%E5%85%B6%E9%9B%A8%E9%9C%B2%EF%BC%8C%E5%AE%89%E5%85%B6%E5%A3%A4%E5%9C%9F",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%BE%97%E5%85%B6%E9%9B%A8%E9%9C%B2%EF%BC%8C%E5%AE%89%E5%85%B6%E5%A3%A4%E5%9C%9F&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "得其雨露，安其壤土",
+    "region": "仙舟「罗浮」",
+    "type": "开拓任务",
+    "version": "1.2",
+    "number": "03",
+    "series": "云树百丈蔽重楼",
+    "description": "在踏入鳞渊境时，你丹恒，后同并未想到自己会遭遇如此纷乱的局势。旧恨寻仇拦住你的去路，而追猎他行踪的少年剑士也决意不放你们二人离开。及至景元将军登场，你才明白，自己在仙舟上的过去终于还是卷土重来。\n身为持明龙尊的转世之身，有人将你引至此处，有人要你重现过去的奇迹——唯独没有人问你，你是否接受这一切。",
+    "requirements": "完成任务螣蛇无穴，旧梦亡阙",
+    "requiredLevel": "34",
+    "characters": [
+      "景元",
+      "丹恒·饮月",
+      "三月七",
+      "瓦尔特",
+      "符玄"
+    ],
+    "relatedItems": [],
+    "rewards": [],
+    "previousMissions": [
+      "螣蛇无穴，旧梦亡阙"
+    ],
+    "nextMissions": [
+      "有龙矫矫，其渊渺渺"
+    ],
+    "objectives": [
+      "前往显龙大雩殿",
+      "（可选）与殿中众人交谈",
+      "以龙尊之力开启通往建木的「道路」"
+    ],
+    "synopsis": [
+      "景元重提旧事，丹恒却称自己不再是前世罪人丹枫。景元要丹恒以「丹枫」身份再帮他一个忙，就任由其前世彻底死去。",
+      "丹恒与景元看到正与反物质军团作战的同伴，快步上前助阵。",
+      "丹恒、景元与你们汇合，展现出隐藏的力量。景元请列车组协助封印星核、对抗幻胧，并尝试帮助丹恒拾回龙尊的记忆。",
+      "在龙尊造像前，景元讲述「建木」的斫断与封印。在古代龙尊的主持下，持明族引古海之水淹没鳞渊境，作为封存「建木」的容器。",
+      "描绘龙尊形象的石雕早已历尽风蚀沧桑，过去的记忆却如蕴潮暗涌。丹恒靠近龙尊雕像，尝试感应此地的力量。",
+      "丹恒催动持明龙尊伟力，令古海水体分向两侧，开辟出一条通往建木封印的道路。"
+    ],
+    "extra": {
+      "角色": "丹恒·饮月",
+      "相关成就": "通往群星的轨道#饮月君临",
+      "相关书籍": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往显龙大雩殿"
+    },
+    {
+      "type": "objective-description",
+      "text": "在踏入鳞渊境时，你丹恒，后同并未想到自己会遭遇如此纷乱的局势。旧恨寻仇拦住你的去路，而追猎他行踪的少年剑士也决意不放你们二人离开。及至景元将军登场，你才明白，自己在仙舟上的过去终于还是卷土重来。\n身为持明龙尊的转世之身，有人将你引至此处，有人要你重现过去的奇迹——唯独没有人问你，你是否接受这一切。",
+      "location": "仙舟「罗浮」-鳞渊境"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "开拓者，三月和杨叔…你把他们带到这儿来了？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "对，就在前方的「显龙大雩殿」上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "走吧，你的朋友们在等着你呢。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查一处地上的军团碎片）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "我提防着丰饶孽物、星核猎手、药王秘传…可千算万算，终是没料到「反物质军团」的出现。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "巡猎未已，又要同邪魔交战…哼哼，此役之后，不论罗浮存在与否，联盟必与军团不死不休。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查另一处地上的军团碎片）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "军团从未对联盟出手。在情报里，他们是一群疯狂破坏的战争机器。大意啦，七大君各自的军团都有鲜明的风格，真不好办。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "「幻胧」大君喜爱事物自身的内部崩解，所以炮制了星核之乱，撺掇药王秘传走上前台。如今阴谋败露，她不得不亲自下场。不对，此举不符合她的毁灭美学。幻胧必有后着……"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（持明蜃影）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "青年的声音",
+          "text": "她蜕生了…抛下我独自一人。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "青年的声音",
+          "text": "但我却依旧要等待蜕生降临的那一日，等上许久许久……"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查第三处军团碎片）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "你知道吗？当初丹枫犯下重罪，十王司力主将你毁去。持明呢，半数赞同，半数反对。哈哈，因为化龙传承只完成了一半。持明长老恨极了你，却又不敢杀你。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "为了对十王司和天舶司有个交代，迫于压力，他们还是对丹枫执行了强制褪鳞之术，不过，故意留下了一道瑕疵。长老以为能瞒得过十王司，哼，好个如意算盘，但纸是包不住火的……"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（持明蜃影）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "苍老的声音",
+          "text": "依古籍所载，这泓水体是我族自故乡带出的「汤海」的一部分，无染无垢。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "苍老的声音",
+          "text": "龙祖以生命之水化育我等，赐予持明不朽。我等出于此处，亦当回归此处。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（持明蜃影）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "女性的声音",
+          "text": "古海之水，澡洁吾心；古海之水，疗护吾身。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "女性的声音",
+          "text": "此世善缘，俱已完纳；此生恶业，悉已净空。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "看，你的朋友正在和军团的爪牙作战…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "加快脚步，帮他们一把。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗，击败反物质军团"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "景元！你可算是来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "哈哈，我来迟了，这一路多亏符卿的撑持。神策府送来的战报我已收到，至于幻胧的计划么……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "「建木」，最大的异象就在那里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "据说绝灭大君幻胧的手段是令事物内乱自亡。她定是想要染指建木，广播寿瘟祸祖之力…将罗浮变成不死孽物横行的泥犁地狱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "嗯，我已有分晓。列车团的各位，我带来了一个人，你们一定想见见他。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你、你是…丹恒？！不会吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你…是丹恒对吧？你头上这对角是怎么回事……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "说来话长，三月。是我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "不是，你还真有隐藏的力量啊？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "好了，朋友叙旧的事且先放一放罢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "诸位抵达罗浮时曾言列车团是为解决星核灾变而来，那时景元未敢应承，因为怀疑星核猎手另有图谋；如今看来，倒是我过度忧虑了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "星核猎手确有图谋不假，哈哈，她把各位送来，故意把事态扩大，好让各位与仙舟并肩作战。事到如今，诸位的诚意已无可置疑…罗浮欠诸位一份感激，本不该再有索求。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "但诚如符卿所说，幻胧的出现令事态不再可控。身为罗浮将军，我不得不借丹恒的力量，也要请各位全力相助。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "罗浮之危机就算与星核无关，以我的个性也不会坐视不理。但我一人的意愿，并不能代表星穹列车。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "探索、了解、建立、连结…列车团奉行的开拓信条，不外乎八个字。旅途艰险，要贯彻它们却难于登天。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "畏惧、险境、敌人、死亡…种种阻碍横亘在旅途上，能走下去的无名客屈指可数。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "前进也好，离开也罢，无名客的目的地应该由他们自己选择…就像在列车上决定目的地时，亲手投出那一票一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "丹恒，你…？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（伸出手）",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "谢谢你，丹恒。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "（不伸出手）",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "我不勉强，丹恒。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我并非以无名客的身份站在这里。因为此行的来去，我受人摆布，并无自由可言……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "但我会以持明后裔的身份，完成我对罗浮的责任。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "好啊，大家和来时一样深明大义。那么，接下来将军有什么妙计？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "妙计没有，只有赌一把。赌持明长老的半截褪鳞之术，赌丹恒还能拾回龙尊的记忆……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "龙尊？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们走到了神似丹恒的一尊雕像前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "当年，「建木」虽被帝弓司命斫断，寿瘟祸祖的诅咒仍有少许残留。为了将之封印，罗浮请动「不朽」龙裔的力量，使驯服「建木」残骸成了可能。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "在古代龙尊的主持下，持明族导引古海之水，淹没鳞渊境洞天，将它作为封存「建木」的容器。为了纪念如此壮举和牺牲，仙舟联盟在鳞渊境中竖起显龙大雩碑，留下持明的造像。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这雕像好像丹恒啊，难道说……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "雕像上那人就是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "丹恒的兄弟！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "哈，少许相似罢了，那是很久以前的事啦。硬要说起来，历代龙尊的形象确实相差无几——本代除外。现在持明龙尊的继任者只是个袭名的小娃娃白露，没有继承全部的力量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "丹恒，你明白了吗？丹枫死后，罗浮的持明已没有能办到此事的人了。曾守望建木的你，应该能为我们开启前往「建木」的道路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "接下来，就要看你的了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）与殿中众人交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "身为持明龙尊的转世之身，你丹恒，后同的前世曾身负守望建木的职责，是众人仰止的英雄。但一桩冲动引致的罪行却改变了所有人的命运。\n你曾决心不再重蹈覆辙，不再履踏故土，也绝不以那位龙尊的面目现身人前…可惜，一切终究只是你自己的愿望罢了。",
+      "location": "仙舟「罗浮」-鳞渊境"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（试图离开）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "云骑",
+          "text": "将军与您还有要事相商。请留步。"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与三月七对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你真是吓我一跳。还以为你惹了什么麻烦，被将军逮住了呢！本来还盘算怎么搭救你，闹了半天，原来你们早就认识哇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "之前就想问了，你怎么突然下车过来了啊。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我担心你们的安全。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "哇，我有感动到！但有开拓者和杨叔在，你还不放心嘛！你瞧，咱们这一路帮忙，帮着帮着就快成仙舟的大英雄了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "……",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我懂我懂，要是为难就不说了。谁还没点自己的秘密嘛。何况现在也不是刨根挖地满足好奇心的时候。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "丹恒，你能来，真是太好了！"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（三月七）",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "这么一说，这雕像和你确实没那么像……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "不过酷酷的气质倒是一脉相承，哈哈。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与符玄对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "饮月君…的转世，丹恒，对吧？我听过你的名字。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不可能，我的名字被抹去了…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "为什么要记流放者的名字？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "你的名字只是被十王司从公众面前抹去了。但身为太卜，本座知道、也应当知道罗浮上的陈年公案、旧事秘辛，以备不时之需。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "你作为「云上五骁」的英雄大放异彩时，我还没出生呢。亲眼见到当年的传奇……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "怎么样？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "你和绘影图形里记录的样子所差无几，持明的转生真的会让人蜕变新生吗？"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（符玄）",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "符玄",
+          "text": "虽然窥探持明的秘密有些不妥……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "符玄",
+          "text": "但，你和绘影图形里记录的样子所差无几，持明的转生真的会让人重获新生吗？"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与开拓者对话"
+    },
+    {
+      "type": "text",
+      "text": "开拓者与你对视一眼，互相沉默了起来。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你就没什么想问的吗？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "……",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "开拓者摇了摇头。他/她不想说话时，谁也没法让他/她开口。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（开拓者）",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "……"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与瓦尔特对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我知道你会来的，因为提到仙舟时，你的眼神有着强烈的悲伤。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "他们放逐了你，但罗浮还是你的家乡。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "多谢你们一路的照顾…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "很抱歉，我从未提起…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "你是列车组的一员，丹恒。赶紧把事情解决吧，我们还要继续旅行呢。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（瓦尔特）",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "开拓者、三月一路上都在嚷嚷，要是你也在就好了。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（景元）",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "来到这个地方，记忆可有松动？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "解开禁制吧，你身负的力量便是打开通往「建木」之路的钥匙。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "以龙尊之力开启通往建木的「道路」"
+    },
+    {
+      "type": "text",
+      "text": "描绘龙尊形象的石雕早已历尽风蚀沧桑，靠近底座处镌刻了一行小字。\n「为止若木苏生，孽寇侵陵，祷而引古海之水掩覆洞天，镇伏玄根。勒石铭之，垂鉴后世，万勿擅移……」"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "感应此地的力量…",
+          "content": [
+            {
+              "type": "text",
+              "text": "万顷波涛之下，古老的建木玄根躁动蔓生，犹如一头伏形千年，大梦初醒的兽。\n那些由历任持明龙尊所编织的禁制，那些驯驭、分散巨兽力量的缠结，构成了一张衰朽将破的罗网，脱落在即。\n过去的记忆自黑暗中浮现，紧紧攫住了你……"
+            },
+            {
+              "type": "fold",
+              "title": "过场动画",
+              "collapsed": false,
+              "content": [
+                {
+                  "type": "narration",
+                  "tone": "描述",
+                  "text": "龙尊饮月与此天地相感应…"
+                },
+                {
+                  "type": "narration",
+                  "tone": "描述",
+                  "text": "沉于海中的宫殿重现眼前…"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "切断与鳞渊境的感应。",
+          "content": []
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

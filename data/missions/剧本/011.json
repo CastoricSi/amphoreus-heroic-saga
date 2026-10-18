@@ -1,0 +1,2890 @@
+{
+  "schemaVersion": 2,
+  "id": "011",
+  "title": "",
+  "chapter": "",
+  "characters": {
+    "visible": [
+      "刃",
+      "卡芙卡",
+      "丹恒",
+      "？？？",
+      "彦卿",
+      "景元",
+      "符玄",
+      "三月七",
+      "瓦尔特",
+      "云骑士卒",
+      "幻胧"
+    ],
+    "hidden": []
+  },
+  "createdAt": "2026-10-01T23:39:32.841Z",
+  "updatedAt": "2026-10-01T23:42:47.469Z",
+  "blocks": [
+    {
+      "id": "6f455e38-0b12-4456-9574-0e634260973a",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 70
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你丹恒乘坐星槎进入了鳞渊境。岸上，星核猎手似乎正在等你…"
+      }
+    },
+    {
+      "id": "b873aa86-35c7-40e2-953f-ad11d79db3b9",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 71
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "他来了。"
+      }
+    },
+    {
+      "id": "acd641bd-66eb-4b8e-95b9-d2cbecd568cf",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 72
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "嗯，时间正好。"
+      }
+    },
+    {
+      "id": "3141b545-b489-4ba5-abba-fa1ef0f311c7",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 73
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "…那些情绪出现了，卡芙卡，我感觉到了。又是这种感觉！这种……"
+      }
+    },
+    {
+      "id": "6ca4c0c3-77af-4d5a-a187-8b44d4da6ee2",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 74
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "那就释放吧，「魔阴身」……"
+      }
+    },
+    {
+      "id": "1cd97440-b15e-4878-98c6-2a4e16114a2b",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 75
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你丹恒来到了刃和卡芙卡面前…"
+      }
+    },
+    {
+      "id": "3e93e914-6168-4183-9e4b-1b6adc7c4d92",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 76
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "你来了。"
+      }
+    },
+    {
+      "id": "7ef114f2-0273-4fca-b664-19ba593644e8",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 77
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "该是偿还代价的时候了！时候到了！！"
+      }
+    },
+    {
+      "id": "1c64368c-0696-4003-9650-7402d6d286cb",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 78
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "你以为变成这副样子就能逃得掉么？！逃得掉么……"
+      }
+    },
+    {
+      "id": "79dda81b-8040-4a0a-a143-8e854f6bcf50",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 79
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我已经和你，还有那个女人说过很多遍了…我是「丹恒」。"
+      }
+    },
+    {
+      "id": "a97e15bb-425b-43d6-a7a0-c3d81b398e40",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 80
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我和你们的过去毫无瓜葛。"
+      }
+    },
+    {
+      "id": "db5f34aa-bb99-4a1d-939c-c5c44951454c",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 81
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "丹恒…你以为换上另一副面貌，改成另一个身份，往日的罪孽就能一笔勾销了？你…你甚至连「死」都没有经受过……"
+      }
+    },
+    {
+      "id": "f9df948c-4b1e-4e5b-af83-fb89278bcd93",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 82
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "要让你感受这种痛苦，「丹恒」，我要让你知道「死」的痛苦！"
+      }
+    },
+    {
+      "id": "99f1ca65-fb2a-413d-9c5a-5496929bb74f",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 83
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "？？？",
+        "text": "啊，那可不行。"
+      }
+    },
+    {
+      "id": "19e11225-7a17-4fc1-927e-ac40fa354557",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 84
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "一个少年的声音从背后传来…"
+      }
+    },
+    {
+      "id": "9511a25e-ebaf-406f-8618-d37eeafab2d8",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 85
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "今天你谁也杀不了，通缉犯，因为你得跟我走。"
+      }
+    },
+    {
+      "id": "e155573b-63b1-4dd8-a90a-9460a64f6d88",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 86
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "景元的跟班小子…景元没教你审时度势么……"
+      }
+    },
+    {
+      "id": "1d036de8-0f11-455e-a20a-5f438a94f74b",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 87
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "喂，你快走远些。待会儿刀剑无眼——咦？"
+      }
+    },
+    {
+      "id": "a52d516e-eb0d-45d3-8aa9-9d5e6414c48b",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "你的模样，有点眼熟啊……"
+      }
+    },
+    {
+      "id": "86e6f5ea-23ad-4c81-bb9c-b0b2af69f97d",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 89
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "小心！"
+      }
+    },
+    {
+      "id": "e1cf8568-1aff-41fe-9809-a3c3061366f9",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 90
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "刃瞬间绕到丹恒背后，发起了攻击…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "刃",
+            "text": "别藏了"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "刃",
+            "text": "把真正的模样"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "刃",
+            "text": "亮出来吧！"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "彦卿拦下了刃的攻击…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "彦卿",
+            "text": "住手！"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "…但没有完全拦下，丹恒还是被刃的剑刺穿胸膛…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "彦卿",
+            "text": "你……！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "刃",
+            "text": "小子，我来介绍一下。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "刃",
+            "text": "你身后这位可是身犯十恶逆…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "刃",
+            "text": "…叛出仙舟、掀起大乱"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "刃",
+            "text": "被永世放逐的罪人。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "刃",
+            "text": "持明龙尊"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "刃",
+            "text": "「饮月君」"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "在刃对彦卿说明现状的同时，丹恒变身为龙，解放了所有的力量…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "刃",
+            "text": "如何，你以为潜入仙舟的只有猎手吗？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "彦卿",
+            "text": "既然如此，只能将你和他一同拿下，交由将军裁断！"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b90d994d-04b8-47d7-b37c-90307a0c6310",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 91
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "进入战斗"
+      }
+    },
+    {
+      "id": "93c989d2-ce7e-4c79-85c1-f98b7bc23621",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 92
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "我听过你的恶名，饮月君。"
+      }
+    },
+    {
+      "id": "7c892c04-fd7f-4aa3-8a04-40b8044f6aea",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 93
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "真想不到，除去星核猎手，竟还有一名重犯混入仙舟……"
+      }
+    },
+    {
+      "id": "83114344-3951-459c-8415-a8b716a0dba6",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 94
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…我无意挑起争端。来到仙舟，只为确认朋友安全。"
+      }
+    },
+    {
+      "id": "74d37607-0a0c-4c14-9436-dc6db3ab5f5b",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 95
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "狡辩之词，进幽囚狱再说也不迟。"
+      }
+    },
+    {
+      "id": "116a4479-1744-47a1-8c89-fe79a29d8cc0",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…让开！"
+      }
+    },
+    {
+      "id": "3904bdba-e0bf-4a54-a27b-acffab6c5da7",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 97
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "5872dd07-a2ae-47bb-9e21-98a8233da78b",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 98
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "进行一次攻击"
+      }
+    },
+    {
+      "id": "a4a1099d-36f2-44e8-8fc7-fda48a56a2bf",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 99
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "很好，很好，就是这样！饮月，你恐怕再也见不着你的朋友了…"
+      }
+    },
+    {
+      "id": "6f9ee1fa-af58-4ebe-b43f-b741534db74a",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 100
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "他们此刻正身陷苦战呢。"
+      }
+    },
+    {
+      "id": "100003c0-5a94-403c-85da-b13831ab04d9",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 101
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "闭嘴，你也休想离开！"
+      }
+    },
+    {
+      "id": "f8c5b6d6-e24e-47cf-bdbf-cd95205a15ff",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 102
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "…好啊，那就再添把火吧。卡芙卡！"
+      }
+    },
+    {
+      "id": "70904f1d-151d-4a52-98a6-117288ccb0a5",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 103
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "嗯，阿刃，听我说，解开「束缚」吧。"
+      }
+    },
+    {
+      "id": "735f4f6b-6c7c-4b9c-b295-451fff876d78",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 104
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "…那么，开始吧！"
+      }
+    },
+    {
+      "id": "e5c2c2a4-1036-4c1e-bc46-d934acf64c49",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 105
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "速速投降！"
+      }
+    },
+    {
+      "id": "ae4e6cf6-8baf-455d-86f1-484f2956c956",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 106
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "35ad68dd-e73e-4d33-972b-0bca94502bf0",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 107
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "怎么，面对这小子，下不了重手？"
+      }
+    },
+    {
+      "id": "0cf36d70-7e99-4f29-93c1-fd84f2f6ce1e",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 108
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "（不知三月他们到底情况如何…）"
+      }
+    },
+    {
+      "id": "cce62220-e29a-4620-9a44-32b4204a0de1",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 109
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "（必须速战速决…）"
+      }
+    },
+    {
+      "id": "62fc999b-68fe-4537-812b-27558a62c45b",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "3a7f18c5-7788-404d-85d0-2307f3abebe3",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 111
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "你们俩确实棘手。"
+      }
+    },
+    {
+      "id": "f4f2cb7c-cb35-4b76-90fe-99a516b89df1",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 112
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "看来要留下你们，非得用上这招了！"
+      }
+    },
+    {
+      "id": "244c47d1-4fac-4dba-867c-38b19842bf7b",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 113
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "这一剑…真眼熟啊。"
+      }
+    },
+    {
+      "id": "5365e8c7-56dc-4093-8eec-90f5e548eb0e",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 114
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "是那个女人镜流教你的？"
+      }
+    },
+    {
+      "id": "e20a45b1-63b8-46cc-844e-358456e1a6e8",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 115
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "那你只有死路一条了！"
+      }
+    },
+    {
+      "id": "27bcf5c6-a715-4f18-a2a1-de47b97574b3",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 116
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "（不能再拖延了…）"
+      }
+    },
+    {
+      "id": "c1de37c7-acc1-4788-b9c6-2a36f836288b",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 117
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我本不欲大动干戈，但眼下别无他法…抱歉。"
+      }
+    },
+    {
+      "id": "ea2beab8-ab22-4dfe-b419-aa42a2ec57e0",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 118
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败云骑骁卫·彦卿"
+      }
+    },
+    {
+      "id": "0778cc94-e494-49e3-83c0-c4e772ad2978",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 119
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "我还能…再战…"
+      }
+    },
+    {
+      "id": "54fa5ab1-c66b-42f8-9918-75c243f99a79",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 120
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "好了，各位，听我说：住手吧。"
+      }
+    },
+    {
+      "id": "59294a1f-a962-4004-8a07-7fb54b21514b",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 121
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "如何，阿刃，你满意了吗？"
+      }
+    },
+    {
+      "id": "4cc34573-200d-47f6-be56-628732435d30",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 122
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "……"
+      }
+    },
+    {
+      "id": "ee34563a-b79f-4159-8ec0-bc5f032b434f",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 123
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "……"
+      }
+    },
+    {
+      "id": "a9870843-bb8c-4217-9d39-8406fd2b80f8",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 124
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "……"
+      }
+    },
+    {
+      "id": "0944342f-165f-4a97-9b93-74f4136a18a4",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 125
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "哼。"
+      }
+    },
+    {
+      "id": "203c5dd6-7ae6-4f26-912b-209fd0496cfe",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 126
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…你刚刚做了什么？"
+      }
+    },
+    {
+      "id": "b49f2b7d-fedc-4255-a738-17ee590cec28",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 127
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "卡芙卡",
+        "text": "只是一点准备工作，好迎接大人物的大驾光临——总不能让堂堂罗浮将军，看我家阿刃和你们两个的笑话呀。"
+      }
+    },
+    {
+      "id": "a7fa8383-282a-4482-89cd-1ed78b8536a5",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 128
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "哈哈哈。"
+      }
+    },
+    {
+      "id": "9e73e553-2c4c-4320-8484-7cab1d7c46a9",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 129
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "一声熟悉的声音传来…"
+      }
+    },
+    {
+      "id": "ce1f8d36-c3d9-4c1c-ae9b-cc1fe1ba229c",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 130
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "景元……"
+      }
+    },
+    {
+      "id": "3289ab4f-1687-4d76-9965-8fd4390bc55b",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 131
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "将军！"
+      }
+    },
+    {
+      "id": "1d7222be-146d-4fbd-b2e4-cf55a954eb0e",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 132
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "二位久别重回仙舟，却总是在些尴尬的场合。如念故人之交，应该早些通知我才是。"
+      }
+    },
+    {
+      "id": "6e542687-6568-4f8e-a17b-d7f8e425962b",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 133
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "刃",
+        "text": "我要做的事已经完了。"
+      }
+    },
+    {
+      "id": "8a2025d8-6475-45ef-b36a-2a3528cc5add",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 134
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "嗯，完了。"
+      }
+    },
+    {
+      "id": "0d659cbd-847b-4fc6-ab9d-47d72fe4f74e",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 135
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "你们帮了仙舟一个小忙，我很感谢。带这人走吧，这一次，我可以当做没看见。"
+      }
+    },
+    {
+      "id": "72c75aa4-89d2-431e-aaf8-c7b73111dc94",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 136
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "彦卿",
+        "text": "将军？！我……"
+      }
+    },
+    {
+      "id": "95df14b3-9d7a-4987-86a8-da55d52d7f07",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 137
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "现在不是说这个的时候。"
+      }
+    },
+    {
+      "id": "8fcaea44-0865-4500-8847-5ef0133e87dd",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 138
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "卡芙卡和刃离开了…"
+      }
+    },
+    {
+      "id": "b0d6bf97-81ca-4a04-af59-30478f045b95",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 139
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "好久不见了…老朋友。"
+      }
+    },
+    {
+      "id": "472b54fb-5bd7-4d19-b24a-49ce0bd6b83c",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 140
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我不是他。"
+      }
+    },
+    {
+      "id": "8f1349d9-9ca0-44a3-92d3-420dbe34f22f",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 141
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "嗯…抱歉。"
+      }
+    },
+    {
+      "id": "fc85aa20-c987-458a-be59-d41ae5eb73ce",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 142
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你丹恒也正欲离开，却被景元拦下…"
+      }
+    },
+    {
+      "id": "4cc9173c-6384-4bac-b7ba-fdaa824f7f0d",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 143
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "你还不能走，因为你的列车朋友们正在「鳞渊境」里等你呢。咱们一同去见见吧？"
+      }
+    },
+    {
+      "id": "e080698d-8250-48c3-a793-0e6480e4b432",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 144
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "10627362-e5b4-48f3-94c7-4f2aadc2ccb6",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 145
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "景元将你丹恒带到了另一处地方…"
+      }
+    },
+    {
+      "id": "ed5a8080-34e9-42da-b166-825d7b0d9fda",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 146
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "「波月古海，殊胜妙境」，这鳞渊境的景色同上次亲睹时一样，未曾变改。而如今站在这里的你我，却各自不同了。可见即使肉身不朽的长生种，也无法与天地并举。"
+      }
+    },
+    {
+      "id": "e15acf24-bd00-49f3-b2f4-2c13c70872db",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 147
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "将军应该知道持明轮回蜕生的习性。古海之水已涤尽了丹枫的罪愆。当初与你共同站在这里的人，已经不在了。"
+      }
+    },
+    {
+      "id": "5e5c7035-251e-4c07-93e3-1798f3f1c716",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 148
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我是丹恒。那位丹枫是英雄也好，罪人也罢，都与我无关。我已承担了他的刑罚，接受永久的放逐——这我没有怨言，但将军看我时，请务必弃去过去的影子。"
+      }
+    },
+    {
+      "id": "4cdd544e-85a6-43f4-870e-fe524de9db8e",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 149
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "啊，重提旧事就像搅浑一潭浊水，徒然惹引不快。大概是你的模样…大概是那龙角，依稀仿佛的龙尊气质，总让我把你和故人联系起来吧。"
+      }
+    },
+    {
+      "id": "823f3b52-a9b3-4a74-ac15-0ffd97801da1",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 150
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…我已说过——"
+      }
+    },
+    {
+      "id": "9d25639b-62fe-4eb5-bcfa-b16b8260655a",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 151
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "是的，你说了，那又如何？若用一句话就能改变他人对自己的态度，世上也就没那么多争端了。你要我不再视你为丹枫，可以，为我做一件事。"
+      }
+    },
+    {
+      "id": "bf03ba28-b0fc-4e62-95f7-f991715b0d9f",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 152
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "以丹枫的身份帮我最后一个忙，此间事毕，我就由他死去，撤销对你的放逐令。往后我可以保证：至少在罗浮之上，你不再是任何人的影子。"
+      }
+    },
+    {
+      "id": "27a40e73-dafd-403a-b460-4491557bdbd8",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 153
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "丹枫能做到的事情，我未必做得到。"
+      }
+    },
+    {
+      "id": "08671bae-af50-486e-977f-f51a263506a5",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 154
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "你必须做到，不然一切许诺都不作数。要怪就怪你的前世吧，若不是他当初做了那件混账事，若化龙之力能够完整传承，我根本用不着逼你。"
+      }
+    },
+    {
+      "id": "5544e5d8-3317-45ae-97d1-bc3949f04c15",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 155
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "方才说过：今天站在这里的你我，各自不同。丹枫不再，只有丹恒。而我……"
+      }
+    },
+    {
+      "id": "b42018b4-240e-420a-b3ba-7b6b3269b843",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 156
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "我已是罗浮将军，有些事纵使不情愿，也仍然要去做的。"
+      }
+    },
+    {
+      "id": "d1357110-0b92-4229-8ec6-ae0361aed59d",
+      "source": {
+        "mission": "螣蛇无穴，旧梦亡阙",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/螣蛇无穴，旧梦亡阙.json",
+        "contentIndex": 157
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "聊些高兴的话题吧。你在列车上结交的朋友，眼下正在此间，不想见上一面吗？"
+      }
+    },
+    {
+      "id": "a940b611-5ec9-4f70-bd25-bfb925b2f0e4",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "前往显龙大雩殿"
+      }
+    },
+    {
+      "id": "57f4f7e2-a48d-48dc-887e-fef2af42b6de",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 2
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "开拓者，三月和杨叔…你把他们带到这儿来了？！"
+      }
+    },
+    {
+      "id": "057cd6db-4258-48c4-a86b-4823e7b5e73a",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 3
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "对，就在前方的「显龙大雩殿」上。"
+      }
+    },
+    {
+      "id": "e9f06e83-8e07-4b7d-9d9e-61a4090f6a63",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 4
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "走吧，你的朋友们在等着你呢。"
+      }
+    },
+    {
+      "id": "fa136632-ba79-4592-a6b6-bbdd0400b7d1",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 5
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "ac8c1ee9-4800-4de4-b05c-53557fb81b7a",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 16
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "景元！你可算是来了！"
+      }
+    },
+    {
+      "id": "2af328af-7671-4634-8429-17c8aa0dfd3a",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 17
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "哈哈，我来迟了，这一路多亏符卿的撑持。神策府送来的战报我已收到，至于幻胧的计划么……"
+      }
+    },
+    {
+      "id": "e4629fd9-6a20-44b1-9755-0717ee9322ec",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 18
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "「建木」，最大的异象就在那里。"
+      }
+    },
+    {
+      "id": "e52568e0-dd85-490e-b7e0-e18b2210c5aa",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 19
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "据说绝灭大君幻胧的手段是令事物内乱自亡。她定是想要染指建木，广播寿瘟祸祖之力…将罗浮变成不死孽物横行的泥犁地狱。"
+      }
+    },
+    {
+      "id": "7684ae97-f37a-4c9e-8d61-176efef22096",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 20
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "嗯，我已有分晓。列车团的各位，我带来了一个人，你们一定想见见他。"
+      }
+    },
+    {
+      "id": "c18ee7b8-c1fe-4467-a16d-4c79af707d47",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 21
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你、你是…丹恒？！不会吧……"
+      }
+    },
+    {
+      "id": "3bbf2ccd-5eae-437b-b1a3-eba645c65264",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 22
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你…是丹恒对吧？你头上这对角是怎么回事……"
+      }
+    },
+    {
+      "id": "63a749c6-c89c-40d9-913a-a88065536a71",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "说来话长，三月。是我。"
+      }
+    },
+    {
+      "id": "c35b00bc-a514-4897-988a-14e59d4d855c",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 24
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "不是，你还真有隐藏的力量啊？！"
+      }
+    },
+    {
+      "id": "e8831f55-e592-4800-90fb-912a2aed757b",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 25
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "好了，朋友叙旧的事且先放一放罢。"
+      }
+    },
+    {
+      "id": "b37891ee-eedc-496d-92d4-d376f7d32a66",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 26
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "诸位抵达罗浮时曾言列车团是为解决星核灾变而来，那时景元未敢应承，因为怀疑星核猎手另有图谋；如今看来，倒是我过度忧虑了。"
+      }
+    },
+    {
+      "id": "a4eb1ceb-de92-4f9a-a0d4-4249671faab8",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "星核猎手确有图谋不假，哈哈，她把各位送来，故意把事态扩大，好让各位与仙舟并肩作战。事到如今，诸位的诚意已无可置疑…罗浮欠诸位一份感激，本不该再有索求。"
+      }
+    },
+    {
+      "id": "99dcc0fa-3937-4f97-8294-7bce548ce0bc",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 28
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "但诚如符卿所说，幻胧的出现令事态不再可控。身为罗浮将军，我不得不借丹恒的力量，也要请各位全力相助。"
+      }
+    },
+    {
+      "id": "dc9bee63-bb41-4810-9b4e-8dc9f58b1fd2",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 29
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "罗浮之危机就算与星核无关，以我的个性也不会坐视不理。但我一人的意愿，并不能代表星穹列车。"
+      }
+    },
+    {
+      "id": "f4519b2b-039b-41b7-b2d2-d225106dade1",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "探索、了解、建立、连结…列车团奉行的开拓信条，不外乎八个字。旅途艰险，要贯彻它们却难于登天。"
+      }
+    },
+    {
+      "id": "0cfa3200-87b5-4c3e-b743-9a4ce93822ec",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "畏惧、险境、敌人、死亡…种种阻碍横亘在旅途上，能走下去的无名客屈指可数。"
+      }
+    },
+    {
+      "id": "655e19cf-5615-43d5-9ca1-72f762d0a62d",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "前进也好，离开也罢，无名客的目的地应该由他们自己选择…就像在列车上决定目的地时，亲手投出那一票一样。"
+      }
+    },
+    {
+      "id": "9ada33e1-cd21-4672-9478-b36cc97fee8d",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 33
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "丹恒，你…？"
+      }
+    },
+    {
+      "id": "d635744a-8569-46ea-a087-92ca95a305d9",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 34,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "（伸出手）"
+      }
+    },
+    {
+      "id": "b76db397-0df4-4274-8311-4e2d25e3c5d4",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 34,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "谢谢你，丹恒。"
+      }
+    },
+    {
+      "id": "d69d01fe-3a98-4a4f-83bc-71b134fb4ce6",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 35
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我并非以无名客的身份站在这里。因为此行的来去，我受人摆布，并无自由可言……"
+      }
+    },
+    {
+      "id": "b7f86ced-5932-465a-8ad2-860dfd8de512",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "但我会以持明后裔的身份，完成我对罗浮的责任。"
+      }
+    },
+    {
+      "id": "8ae1a278-f52c-47e4-b4a8-e76e897e083e",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "好啊，大家和来时一样深明大义。那么，接下来将军有什么妙计？"
+      }
+    },
+    {
+      "id": "5e36646d-b168-4e9c-b21a-e16973c1f74e",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 38
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "妙计没有，只有赌一把。赌持明长老的半截褪鳞之术，赌丹恒还能拾回龙尊的记忆……"
+      }
+    },
+    {
+      "id": "bef50161-32c5-488d-a968-e90c468d961d",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 39
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "龙尊？"
+      }
+    },
+    {
+      "id": "2c648006-28fa-45d9-8d48-2d54b8ceb91b",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 40
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "8d6ab0f8-13e9-4f7d-b7c5-e81526c359d6",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 41
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们走到了神似丹恒的一尊雕像前…"
+      }
+    },
+    {
+      "id": "9393c7ee-e9f3-467e-b3c5-00b5786da8e3",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "当年，「建木」虽被帝弓司命斫断，寿瘟祸祖的诅咒仍有少许残留。为了将之封印，罗浮请动「不朽」龙裔的力量，使驯服「建木」残骸成了可能。"
+      }
+    },
+    {
+      "id": "a0e405e4-d06d-47ed-a2db-e9374c543ed6",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 43
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "在古代龙尊的主持下，持明族导引古海之水，淹没鳞渊境洞天，将它作为封存「建木」的容器。为了纪念如此壮举和牺牲，仙舟联盟在鳞渊境中竖起显龙大雩碑，留下持明的造像。"
+      }
+    },
+    {
+      "id": "73d3918e-4d3f-450b-89c1-2527b8eed638",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 44
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "这雕像好像丹恒啊，难道说……"
+      }
+    },
+    {
+      "id": "5fbe1815-0708-4ba3-b280-d1453547abd2",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 45
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "雕像上那人就是……"
+      }
+    },
+    {
+      "id": "4bb9c8ce-39e5-4511-899d-f6438a07370c",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 46
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "丹恒的兄弟！"
+      }
+    },
+    {
+      "id": "c009b9b8-cc18-4469-85a0-6394f348b734",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 47
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "哈，少许相似罢了，那是很久以前的事啦。硬要说起来，历代龙尊的形象确实相差无几——本代除外。现在持明龙尊的继任者只是个袭名的小娃娃白露，没有继承全部的力量。"
+      }
+    },
+    {
+      "id": "c420ef97-e4d0-458b-8e8a-22439451dc6c",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 48
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "丹恒，你明白了吗？丹枫死后，罗浮的持明已没有能办到此事的人了。曾守望建木的你，应该能为我们开启前往「建木」的道路。"
+      }
+    },
+    {
+      "id": "ac25c736-bd3a-4a1e-bdaf-1eaa3fe8b4d5",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 49
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "接下来，就要看你的了。"
+      }
+    },
+    {
+      "id": "7dc5be0d-82ec-4c91-87f6-7859c56a5c7c",
+      "source": {
+        "mission": "得其雨露，安其壤土",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/得其雨露，安其壤土.json",
+        "contentIndex": 85,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "龙尊饮月与此天地相感应…"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "沉于海中的宫殿重现眼前…"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a814ae5b-95aa-47ad-a412-7838fab12e29",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "水底竟有这么多建筑…难怪典籍记载鳞渊境曾是持明龙宫的所在。"
+      }
+    },
+    {
+      "id": "a5b27126-d5f3-430e-8cb7-733f0b6638ef",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 1
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "倏忽之乱时，我有幸躬逢其盛，目睹过这一奇景。山移海转，宫城空墟…持明族以故土圣地囚禁建木，罗浮仙舟实在亏欠他们良多。"
+      }
+    },
+    {
+      "id": "2705e608-0e31-4ca6-8187-1311d30cc88c",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 2
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "符卿。"
+      }
+    },
+    {
+      "id": "9febfaaf-872a-449e-b609-9f488230a149",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 3
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "我在。"
+      }
+    },
+    {
+      "id": "0d76d05e-26c3-4d05-92e7-0ed14d770449",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 4
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "你留在这里，率云骑镇守这条通道，以免另有事端。"
+      }
+    },
+    {
+      "id": "e7514cf5-3be3-48fc-97bf-56f6eaa0c319",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 5
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "景元…将军，你要独自去对付幻胧？"
+      }
+    },
+    {
+      "id": "e6014c9a-18c8-48fe-a0d8-a8dd71550a44",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 6
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "倒也谈不上独自一人，还有朋友同行。"
+      }
+    },
+    {
+      "id": "b49fb077-390a-4ded-bd8b-d7a99e1257b4",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 7
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "景元看向你与丹恒，你向景元点了点头…"
+      }
+    },
+    {
+      "id": "cef7da0f-dd8d-415e-972b-952c606e7e79",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 8
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "云骑士卒",
+        "text": "将军！我们也愿随将军同去！请将军不要撇下我等！"
+      }
+    },
+    {
+      "id": "168e5101-6693-4c20-9779-11c2139f45e7",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "云骑士卒",
+        "text": "是啊，将军。我们虽然本事低微，但云骑军卫蔽仙舟的职责在身，岂有呆在后方，反而让异乡旅客为我们冒险的道理！如果不嫌弃，请让我来为各位开路。"
+      }
+    },
+    {
+      "id": "beb44ed7-d113-41f2-9765-330208e0061f",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "诸位，你们的心意我很清楚。"
+      }
+    },
+    {
+      "id": "9f45dba8-593f-41b7-b7de-b5d290919e56",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "但前方的对手并非丰饶孽物…而是反物质军团的「绝灭大君」。过了这条道后，就是{{帝弓司命|岚}}与{{烬灭祸祖|纳努克}}的对垒了……"
+      }
+    },
+    {
+      "id": "cfd97a49-3585-4361-add3-7d392b025ab7",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "你们有更重要的职责。云骑军听令！"
+      }
+    },
+    {
+      "id": "84ea0318-8c19-4b82-879c-e26d7519901d",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 13
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "我深入「建木」后，若海水恢复原状，便立刻撤离，重新闭锁洞天。一切事宜听从太卜安排。"
+      }
+    },
+    {
+      "id": "69ab9213-9602-48c3-a4da-e38cea8477af",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 14
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "云骑士卒",
+        "text": "是！"
+      }
+    },
+    {
+      "id": "0ebe5879-73f7-4a76-aa2e-83600ecc9e56",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 15
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "符卿，若我无法返回，将始末因果呈报给其他仙舟的重任，交托给你了。"
+      }
+    },
+    {
+      "id": "2cb7f2d7-91a9-4779-b31a-8519f811ecc0",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 16
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "符玄",
+        "text": "…我不会说什么「请亲自回来述职」之类的话。你吩咐的，我定不辱使命。"
+      }
+    },
+    {
+      "id": "250ae730-e132-4917-95a4-622173162c72",
+      "source": {
+        "mission": "有龙矫矫，其渊渺渺",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/有龙矫矫，其渊渺渺.json",
+        "contentIndex": 17
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "哈，有几分将军的意思了。"
+      }
+    },
+    {
+      "id": "dd8905c2-7631-4a19-afd3-34eff88655a5",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "丹恒将你们带入建木玄根的最深处，见到了已经捷足先登的绝灭大君幻胧…"
+      }
+    },
+    {
+      "id": "70c954e6-9890-4fd7-ba47-7c2b2badfc58",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 1
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "唔？嘻嘻，来者是罗浮的将军吗？"
+      }
+    },
+    {
+      "id": "dcf19783-14a7-45e2-83e7-964db7588aec",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 2
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "那个坏东西！果然在这儿等着咱们。出来啊，幻胧！"
+      }
+    },
+    {
+      "id": "e8d1ffcc-24f7-4a9d-8c75-f1089415e578",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 3
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "「恩公」也来了？切莫心急，「小女子」还未梳妆完毕呢。"
+      }
+    },
+    {
+      "id": "3044e00e-2ceb-4db7-a879-b8142adbfc69",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 4
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "击败劫夺建木的幻胧"
+      }
+    },
+    {
+      "id": "e6a2e25b-b442-4c2e-bf5f-a398d477e4f0",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 6
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "难怪药王秘传自信高人一等…这建木仙迹确有化生再造的力量。"
+      }
+    },
+    {
+      "id": "7c3b4553-97d4-4e9a-98cb-fb7af37ec355",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 13
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "幻胧…她在做什么？"
+      }
+    },
+    {
+      "id": "18389993-bfdc-4bd3-84bc-7a0478fbf7ab",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 7
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "各位，务必小心。"
+      }
+    },
+    {
+      "id": "5cc60518-fbf8-4e02-9009-04ecd5f3fb29",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 8
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "丹恒，我的后背，就拜托你了。"
+      }
+    },
+    {
+      "id": "472efeb7-67a8-4fe7-be41-5ee550376bd0",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我明白。"
+      }
+    },
+    {
+      "id": "0cb55cab-cf87-421d-a3bf-bfa619ca1a03",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们走近幻胧…"
+      }
+    },
+    {
+      "id": "7edcd48d-e9b3-4ff0-890b-e0e8177ad5a2",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 14
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "金色的火焰随着莲花升起，随后化为巨大的女人身形…"
+      }
+    },
+    {
+      "id": "f2a37390-6bf2-4345-a1d8-b5bb394c6293",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 15
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "进入战斗"
+      }
+    },
+    {
+      "id": "aa07a3ad-8c45-4261-b4f5-08fe6d3915d9",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 16
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "列位，瞧见这具美丽的肉身了吗…「丰饶」神迹，名不虚传。"
+      }
+    },
+    {
+      "id": "7ae02cba-85c2-44df-b057-4277e34d7528",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 17
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "让我看看，能用她做些什么。"
+      }
+    },
+    {
+      "id": "dc8621c4-a993-47b2-8637-98eea7ff77b9",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 18
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "很好，就用这赐予仙舟长生的力量，为你们带来「毁灭」吧！"
+      }
+    },
+    {
+      "id": "07dd4ace-353f-4700-8ff0-080c405b3c40",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 19
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "幻胧已攫取建木的力量为己所用…"
+      }
+    },
+    {
+      "id": "f0cfde0e-8078-44f0-b6b5-d0d1583fd90b",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 20
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "诸位，尽力剿灭这些幻花，由我来击破她的肉身。"
+      }
+    },
+    {
+      "id": "e1504c63-0496-40ac-a0d0-e940291a8378",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 21
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "攻击一回合后，幻胧施放技能「扫尽尘云」"
+      }
+    },
+    {
+      "id": "5f395851-e033-40d0-a16c-29fc3eb78e47",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 22
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "真是大言不惭，妄想破坏这建木所生的贵体。"
+      }
+    },
+    {
+      "id": "71678abc-e497-412c-a63f-6383c3934d21",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "以幻胧看来，各位现在像蝼蚁般渺小呢。"
+      }
+    },
+    {
+      "id": "03d952b2-0625-4f3b-8ef2-564e197ba43f",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 24
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "好、好大的风！"
+      }
+    },
+    {
+      "id": "f3cb7326-99f7-484b-a9ab-49a165683644",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 25
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "小心，三月！"
+      }
+    },
+    {
+      "id": "6a771fe1-36ce-401c-98f9-7f00ac54129d",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 26
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "幻胧对景元施放技能「盘根」"
+      }
+    },
+    {
+      "id": "114e9c53-b71d-4ce5-9352-f5663ea1ef23",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "试试挣脱这道囚笼吧。"
+      }
+    },
+    {
+      "id": "923fd734-3322-4799-82c0-f47ffd8cc18c",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 28
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "区区藤萝，一剑即可斩断。"
+      }
+    },
+    {
+      "id": "f5447ed4-d9f4-4a47-9d77-ad2023ec7b21",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 29
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "逞强。"
+      }
+    },
+    {
+      "id": "c2f334f3-15b4-4d2f-8982-2649df5dc6fd",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "94e5cdd4-7b7b-4cd1-ba3d-246c8ba1d1c2",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "进入二阶段，幻胧施放技能「悬星碎月」"
+      }
+    },
+    {
+      "id": "3ba1b8f5-da26-41b4-91fb-05c2e099a739",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "要碾碎蝼蚁，没有比坠下一颗星星更合适的了。"
+      }
+    },
+    {
+      "id": "135219e8-ead3-4952-b4a0-c636055bbb3b",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 33
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "幻胧召来毁灭的权柄…"
+      }
+    },
+    {
+      "id": "80819a65-72c5-4bac-9b2c-0510db37815c",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 34
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "宇宙的一切都将以「毁灭」作结，「丰饶」与「巡猎」也不例外…"
+      }
+    },
+    {
+      "id": "aad20207-8e59-4076-9d76-230cf602a051",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 35
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "攻击一回合后"
+      }
+    },
+    {
+      "id": "b3453c75-5d1d-4994-a0c5-ef8f87b58996",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "仙舟的将军，你那微不足道的力量，能否撑过这场浩劫？"
+      }
+    },
+    {
+      "id": "6692ebb9-bc6a-4fae-b123-b063ef3cc7da",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "破灭玄莲对景元施放技能「玄气噬身」"
+      }
+    },
+    {
+      "id": "e782df11-8510-4566-b713-23502e6aa880",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 38
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "丹恒…接下来，交给你了。"
+      }
+    },
+    {
+      "id": "da5f16fe-3d1a-4782-81d0-72569982e77a",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 39
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "丹恒施放技能「云吟怒啸」"
+      }
+    },
+    {
+      "id": "a5bf238a-af6c-4464-a7c9-030a3800e5e9",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 40
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "以为自己胜券在握了吗，幻胧？"
+      }
+    },
+    {
+      "id": "0f47d25c-ba6d-41ff-8586-1b940af6330b",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 41
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "喔？是「不朽」的龙裔么？"
+      }
+    },
+    {
+      "id": "67fcdd17-2f1f-428d-81b2-c6bb92c2b91d",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "你终于前来履行守望建木的职责了？"
+      }
+    },
+    {
+      "id": "a7d7543b-25ed-4d33-91ef-19ef31ec2bf7",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 43
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "fdcca24c-fc11-448a-b3f9-37f47424cc58",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 44
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "进入三阶段"
+      }
+    },
+    {
+      "id": "bf1a82de-73fa-4141-9ba0-6f3b1fb4d8f3",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 45
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "幻胧，虽然你将我们视如蝼蚁…"
+      }
+    },
+    {
+      "id": "1686ec30-0119-4e7d-a8bd-3e326db8bf39",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 46
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "但能与蝼蚁打得如此有来有回，你也可称得上绝灭大君之中头一个了。"
+      }
+    },
+    {
+      "id": "f544a7b6-746b-4ef7-b4a3-81f3ec03886e",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 47
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "将军的意思是想再见见其他几位？只怕…你们没有机会了。"
+      }
+    },
+    {
+      "id": "5404e3ac-1b05-42fe-867d-87979a94ad1d",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 48
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "幻胧施放技能「玄根化生」"
+      }
+    },
+    {
+      "id": "040c87fe-af8f-4611-9114-5096042e13bc",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 49
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "景元施放终结技"
+      }
+    },
+    {
+      "id": "acebc37e-6354-4264-85a8-b3c69a608465",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "景元",
+        "text": "这般不新鲜的把戏，不必再用了吧！"
+      }
+    },
+    {
+      "id": "eba30f66-c507-427b-8091-d08d88295d60",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "6633a640-a1be-4c1d-9660-8beb8a37f00e",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 52
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "将不死神实·幻胧击败至1%血量"
+      }
+    },
+    {
+      "id": "071f1c9a-c631-4c62-a19f-c33bc7b6887c",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 53
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "不碍事，蝼蚁濒死的反扑，显得分外凄丽…"
+      }
+    },
+    {
+      "id": "ff74d022-ea8b-4d47-bdcf-0a16e287eeea",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 54
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "幻胧施放技能「玄根化生」"
+      }
+    },
+    {
+      "id": "2b9633c2-d974-463a-8c26-a354bc76c28b",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 55
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "下一出戏目里，我要将各位炮制成虚卒。"
+      }
+    },
+    {
+      "id": "1e7332de-5611-4444-b41f-c6cc324112eb",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "让「毁灭」的力量侵蚀各位的血肉，将你们铸成纳努克大人的棋子！"
+      }
+    },
+    {
+      "id": "8f142218-d902-477a-8bf4-3d4bd1ce8e7f",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "幻胧",
+        "text": "决定了，就从这傲慢不可一世的仙舟将军开始吧…！"
+      }
+    },
+    {
+      "id": "76aed7e0-b948-4248-8ba1-273af117dfe3",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 58
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "幻胧使用破灭玄莲对景元施放技能「破灭」"
+      }
+    },
+    {
+      "id": "9590183f-3948-4158-bb2f-40c8dcbd61c9",
+      "source": {
+        "mission": "仙骸成空，大劫有终",
+        "dataFile": "missions/开拓任务/仙舟「罗浮」/云树百丈蔽重楼/仙骸成空，大劫有终.json",
+        "contentIndex": 59
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "幻胧一掌拍向景元，随后将濒死的景元浮到空中…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "幻胧",
+            "text": "哈哈哈哈哈……"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "幻胧不断向景元注入毁灭的力量…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "幻胧",
+            "text": "不知道如果把仙舟将军变成一名虚卒"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "幻胧",
+            "text": "罗浮会不会再来一次内乱？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "幻胧",
+            "text": "这样的「毁灭」比较有趣呢……"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "景元从容地抬头看向幻胧…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "幻胧",
+            "text": "你还想——"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "景元通过与幻胧的连接破坏了幻胧身后的莲花…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "景元",
+            "text": "丹恒！就是现在——"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "丹恒投出长枪切断了景元和幻胧的连接，随后神君攻击幻胧…"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "景元变得虚弱从空中落下，丹恒接住了他…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "幻胧",
+            "text": "干得不错，「巡猎」的将军。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "幻胧",
+            "text": "但我失去的不过是个随手捏制的肉身"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "幻胧",
+            "text": "而你"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "幻胧",
+            "text": "还能坚持多久？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "幻胧",
+            "text": "仙舟的毁灭之日就要到了。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "景元",
+            "text": "走吧"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "景元",
+            "text": "毁灭的小卒子。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "景元",
+            "text": "告诉军团："
+          },
+          {
+            "type": "dialogue",
+            "speaker": "景元",
+            "text": "「巡猎」的复仇"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "景元",
+            "text": "必将来临。"
+          },
+          {
+            "type": "narration",
+            "tone": "描述",
+            "text": "景元挥手打散了幻胧的虚影…"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "挑战结束，然后…",
+    "pageId": 40962,
+    "revisionId": 102179,
+    "parentRevisionId": 102122,
+    "revisionTimestamp": "2026-09-06T09:37:52Z",
+    "fetchedAt": "2026-09-28T00:21:35.458Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%8C%91%E6%88%98%E7%BB%93%E6%9D%9F%EF%BC%8C%E7%84%B6%E5%90%8E%E2%80%A6",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%8C%91%E6%88%98%E7%BB%93%E6%9D%9F%EF%BC%8C%E7%84%B6%E5%90%8E%E2%80%A6&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "挑战结束，然后…",
+    "region": "千星城",
+    "type": "开拓续闻",
+    "version": "4.5",
+    "number": "07",
+    "series": "亏成首富，从不要钱开始",
+    "description": "知更鸟探明了「歌斐木遗音」真正的遗产，砂金的秘密行动排除了一个错误答案…而你，为星穹列车买下了天价车险。",
+    "requirements": "完成任务猜赛车挑战·当日",
+    "requiredLevel": "21",
+    "characters": [
+      "知更鸟",
+      "舒翁",
+      "砂金",
+      "舒俱",
+      "大禽"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "200"
+      },
+      {
+        "item": "星琼",
+        "amount": "30"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "2"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "2"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "80"
+      },
+      {
+        "item": "《唯有追赶风的方向》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "30000"
+      }
+    ],
+    "previousMissions": [
+      "猜赛车挑战·当日"
+    ],
+    "nextMissions": [],
+    "objectives": [
+      "与舒翁对话",
+      "与舒俱通话",
+      "前往赛车P房，与知更鸟、砂金对话"
+    ],
+    "synopsis": [
+      "观察了知更鸟与「家族」的斗争后，作为中间人的舒翁邀请知更鸟加入「蓝调旅团」，以共同追寻关于「同谐」的另一种可能。知更鸟并未同意加入，表示「旅团」还没得到她的认可。知更鸟更愿意把命运掌握在自己手中，给未来以「自由」。",
+      "舒俱认为砂金这次勉强证明了自己，但他会持续审视包括砂金在内的同僚，替钻石筛选「石心十人」。砂金排除了关于叛徒的一个选项，舒俱建议砂金关注两位即将与星穹列车交集的同事：龙晶，还有欧泊。",
+      "偿还债务后，知更鸟把她的盈余都捐给了基金会，而你则是为状况频出的星穹列车上了天价保险。知更鸟将你与她共创的新歌唱片送给你，砂金则邀请你关注「星速引力」新的杯赛消息。与此同时，大禽正在审片室里暗无天日地剪着视频。"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#悠长假期",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与舒翁对话"
+    },
+    {
+      "type": "objective-description",
+      "text": "「歌斐木的遗音」的本质是一封寄给知更鸟的邀请函。\n然而，只有小鸟自己才知道该如何前进。",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一段时间后 千星城某处"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "…我想过，你们要如何了解我的动向，又从何评价我的行为。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "后来我意识到，答案其实很简单——只需要安排一位匿名的独立评审员，一直跟随在我身边就好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "所以，舒翁小姐，这就是你这次来做临时「助理」的真正原因，来看看我会怎么应对你们的礼物…或者说，测试？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "又或者…其实你们的观察，从更早之前就已经开始了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "别误会，我只是个中间人。更何况，我本就愿意为你分忧，作为助理也还算尽职尽责，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "早知道就该让你去回绝家族的…不过我想，这也算是你们评价的一部分？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "是啊，即便「家族」不会公开表态，但从今往后，你的态度在「家族」内也会人尽皆知。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "没关系，这些我迟早要面对。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "你收下了我们的礼物，凭自身意志挣脱了「家族」的桎梏，这份歌声就是你给出的答案——它是一次真正的「即兴演奏」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "对我而言，歌声应当是一场「定调」，而非一次简单的「调律」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "这也是我们所追寻的，关于「同谐」的另一种可能。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "知更鸟小姐，恭喜你通过入会测试——我们正式邀请你，加入「蓝调旅团」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "你是否愿意继承歌斐木先生的「CHORUS」之名，成为「蓝调旅团」的一员？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "旅团愿意聆听丰富的声音，而非单调的旋律——我们从不限制成员的「自由」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "很荣幸能得到旅团的认可……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "但是，旅团还没得到我的认可。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "我不认为这是单向的馈赠，而应是双向的选择。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "…哦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "歌斐木先生虽然离开了「家族」，却并未真正走上「同谐」的道路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "如果旅团仅仅是一个收留不顺从「家族」之人的组织，恐怕与我对未来的期许并不相同。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "在这次经历后，我发现重要的既不是「家族」的蓝图，也不是你们的邀请。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "反倒是那一阵随性的海风，与踩在反拍上的音符，让我重新找回对掌握{{节奏|命运}}的感知。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "呵呵，随性的海风么……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "果然就像你的引荐人「SWING」所言，你不会轻易被说服。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "你的心始终会为万人鼓动，你的羽翼注定丈量比天空更远的地方……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "或许，这就是「自由」该有的样子吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与舒俱通话"
+    },
+    {
+      "type": "objective-description",
+      "text": "经过与舒俱的短暂交锋，砂金对于「石心十人中的叛徒」有了些许进展。\n该揭开那个人的面具了。",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "于此同时 千星城某处",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "戏还没散场就先离席，看来千星城的这局游戏没能入你的眼啊，舒俱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "当初在剥夺我「石心十人」位列资格的处罚决议上，你可是第一个投下「赞成」票的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒俱",
+      "text": "我投过赞成票的决议，远不止这一场。否则，我怎么能亲眼看到其他人对此的表情？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒俱",
+      "text": "再说，这一票不冤吧？你压根就没把基石放在眼里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "谁又能想到，匹诺康尼的「梦主」竟会将同谐的秘密托付给一位石心十人的同僚，如果早知道你们交情至此，我也不必为此碎掉一枚基石了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒俱",
+      "text": "没从我这拿到钻石想要的东西，让你这么失望吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "排除一个选项，也不算浪费时间。倒是你，又一次没能如愿看到我的失败，不觉得遗憾吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒俱",
+      "text": "从见你第一面我就知道，我们不是一路人。像你这样凭着运气爬上来的暴发户，我在战略投资部见过太多了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒俱",
+      "text": "这次…你勉强证明了自己。但如果有一天，你和那些人一样露出本性……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒俱",
+      "text": "天平会倾斜，悬剑会落下，你不会同这次一样幸运。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "有件事我一直想不通，论财富，「石心十人」中几乎无人能同你相比，但你却常年据守末位。现在我明白了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "这意味着所有跻身「石心」之人，都必须要跨过名为「舒俱」的门槛，经受你最直接的审视。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "对钻石来说，你是在替他筛选，得到「石心」之名的人，是否能承受「基石」之重。而对你来说，财富，地位，你要什么就有什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "生命对你而言已毫无波澜，唯有观赏他人的不幸坠落，才能填补那颗属于悲悼伶人的空虚的心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "我依然庆幸当年的选择。偶尔尝尝「欢愉」的美酒是不错，可即便如你，不也依然戴着面具，扮演钻石分派给你的角色么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒俱",
+      "text": "如今连酒馆都不再欢迎伶人了。还有哪里比公司更适合欣赏悲剧的舞台呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒俱",
+      "text": "要我说，这场戏码远未结束，不如看看剩下的同事吧。又有两位石心十人，要找上{{你的老朋友|星穹列车}}了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "我都不知道。这次是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒俱",
+      "text": "龙晶，还有欧泊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "…为什么要出动他们？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒俱",
+      "text": "知道答案的问题，就别问出口了。有人唱红脸，就有人唱白脸。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒俱",
+      "text": "这两人的作风你心知肚明，要么得到，要么毁掉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒俱",
+      "text": "你会怎么选，我拭目以待，砂金。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往赛车P房，与知更鸟、砂金对话"
+    },
+    {
+      "type": "objective-description",
+      "text": "一开始你便对「天上掉馅饼」的事有所警惕，它果然并不简单…好在这些曲折最后都变成了一笔丰厚的奖励回报给了你。\n假期还没有结束，待各自忙完了各自的事情，你们仨人终于有机会聚在一起享受假期了。\n\n更重要的是，你赚了一笔巨款，接下来该怎么用呢？\n放心，这次没有恶心的陷阱，你的心中已经有了答案……",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（和砂金、知更鸟约在车队的{{P房|维修间}}里见面，他们应该到了吧？）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "多亏砂金先生打点，奖金的财务流程已经走完了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "基金会特地打来三通电话，反复向我确认数字是否是我本人在清醒时填写的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "这也难怪。毕竟在偿还债务之后，盈余依然相当可观，更何况知更鸟小姐还把这笔钱都捐给了基金会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "也少不了你们两位的大力支持。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "一点心意罢了。{{开拓者|朋友}}，你剩下的那部分打算怎么处理？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "其实，最近有了一点小感悟…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "「快乐花钱」的原理其实很简单——就是满足自己的真实需求。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "如果这份满足变成了交差或任务，心里就只剩下负担，快乐也会打折扣。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "所以，这一次我要「自私」一点——想花就花，不想花就不花。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "去掉债务后，到手也有上百亿了吧…看样子你已经想好了？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我给星穹列车买了车险。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "不知道从什么时候开始，星穹列车就总是陷入各种极端状况……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "被炸毁、被撞击、时而车厢脱节，时而化身为地平线的长音…等等。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "所以当务之急，就是给星穹列车上个保险。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "虽然我不是专业人士，但这种情况…真会有保险公司愿意接单吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "这不就等于给你们送钱吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我也交了天价保费。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "原来那个人是你啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "我听舒俱说了，他名下那家常年亏损的保险公司，最近又接了一笔注定赔钱的单子，纯粹因为他觉得有趣。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "你也当心点，别被他盯上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "对了，开拓者，这次新歌已经正式发布了。这是你和我合作的第一首单曲，敬请惠存～"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "感谢！合作愉快～",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "立即设置点唱机！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "出发！卡拉OK！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "还有一件事——尽管「猜赛车挑战」的胜负得到了承认，但「星速引力」的比赛结果并不会计入正赛积分，它被定性为一场「梦幻的表演赛」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "它已经超越了赛车比赛的范畴！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不仅是梦幻，可以说是魔幻了…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "最近主办方会发布新杯赛的消息，你手下还有一支车队，不妨也关注一下。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "没问题！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你们看，大禽新上传的视频……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "《在输掉了千亿信用点之后，我做对了这三件事情…》"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "在输掉了千亿信用点之后，所有人都以为我完了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "通讯录里两千个联系人，一夜之间全部变成了「陌生人」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "在暗无天日的审片室里，我没有求人，没有抱怨，而是做了三件所有人都没想到的事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "——今天，我就把这些最重要的经验，毫无保留地分享给你！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "点击解锁付费内容，学习我的实操细节。一杯咖啡钱，换一个改变人生的机会……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "给我滚啊！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "大禽疯了！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "相信我，你在审片室能做的只有三件事，剪片，剪片，还是*友好发言*剪片。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "知更鸟·晴歌已成为列车的访客，回到列车将有机会遇到知更鸟·晴歌"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "砂金·戏浪已成为列车的访客，回到列车将有机会遇到砂金·戏浪"
+    }
+  ],
+  "warnings": []
+}

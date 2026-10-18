@@ -1,0 +1,3033 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "晚星啊，莫让我长夜独卧",
+    "pageId": 15769,
+    "revisionId": 77755,
+    "parentRevisionId": 59819,
+    "revisionTimestamp": "2026-02-12T18:36:54Z",
+    "fetchedAt": "2026-09-28T00:17:32.280Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%99%9A%E6%98%9F%E5%95%8A%EF%BC%8C%E8%8E%AB%E8%AE%A9%E6%88%91%E9%95%BF%E5%A4%9C%E7%8B%AC%E5%8D%A7",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%99%9A%E6%98%9F%E5%95%8A%EF%BC%8C%E8%8E%AB%E8%AE%A9%E6%88%91%E9%95%BF%E5%A4%9C%E7%8B%AC%E5%8D%A7&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "晚星啊，莫让我长夜独卧",
+    "region": "翁法罗斯",
+    "type": "开拓任务",
+    "version": "3.0",
+    "number": "03",
+    "series": "落木逐火英雄纪",
+    "description": "泄密一事没能瞒过阿格莱雅。她冷酷地以极端手段逼供、确认你们的来意。历此险境，你们对翁法罗斯的印象大打折扣，但在白厄的诚恳请求下，你们进入创世涡心了解了黄金裔的救世苦旅，并最终决定留在翁法罗斯，帮助黄金裔们讨伐尼卡多利、夺取火种。",
+    "requirements": "完成任务远客啊，请聆听此世祈祷",
+    "requiredLevel": "21",
+    "characters": [
+      "丹恒",
+      "白厄",
+      "遐蝶",
+      "万敌",
+      "阿格莱雅",
+      "缇宝"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "700"
+      },
+      {
+        "item": "星琼",
+        "amount": "90"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "6"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "6"
+      },
+      {
+        "item": "仙馔秘酿",
+        "amount": "140"
+      },
+      {
+        "item": "《起初和终结》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "80000"
+      }
+    ],
+    "previousMissions": [
+      "远客啊，请聆听此世祈祷"
+    ],
+    "nextMissions": [
+      "荒墟啊，可曾记旧日荣光"
+    ],
+    "objectives": [
+      "听听白厄想说些什么",
+      "聆听「天谴之矛」的星宿之声",
+      "和白厄聊聊听到的泰坦之声",
+      "拍摄创世涡心的奇景",
+      "离开创世涡心，返回私人浴宫",
+      "整理心情，好好休息吧",
+      "将听见梦中之声一事告诉丹恒",
+      "前往黄金裔浴场与众人会合",
+      "与缇安对话，准备前往悬锋城"
+    ],
+    "synopsis": [
+      "企及天空之人将受到「天空」泰坦的神罚。因泄露「天外之界」的存在，你与丹恒在创世涡心受到阿格莱雅的拷问，由遐蝶担任行刑人。",
+      "通过四问，阿格莱雅尝试探明你们来到翁法罗斯、援助奥赫玛的意图，以及你的力量是否会对奥赫玛、对逐火之旅造成威胁。",
+      "你的回答没有取得阿格莱雅的信任，处刑如期而至。千钧一发之际，白厄赶到涡心，与遐蝶一同为你们作担保，阿格莱雅不再追究泄密。",
+      "真诚的回答使你从审判中幸存，丹恒不愿在经审判后与黄金裔合作。白厄赶到涡心，与遐蝶一同为你们作担保，阿格莱雅不再追究泄密。",
+      "你得知白厄是受遐蝶之托前来阻止阿格莱雅。在创世涡心，你看到六颗已被点亮的火种。归还火种的黄金裔会成为对应的半神，代行泰坦责任，填补神职空缺。阿格莱雅与缇宝是如今圣城中唯二的半神，也是逐火之旅的重启者。在介绍完毕后，白厄提议你们聆听星宿之声。",
+      "白厄希望你与丹恒加入黄金裔的阵营，一同讨伐尼卡多利。如果你们留下，白厄与遐蝶会尽力弥合嫌隙。丹恒将去留的决定权交给你。",
+      "在经历如此多的变故之后，你与丹恒暂时得以放下心来休息。在返回私人浴宫前，你提议给三月七拍几张创世涡心的照片。",
+      "你与丹恒在浴宫复盘降落后的经历，认为尽管疑团重重，但还算是取得了不错的开始。你觉得丹恒今天说的话比前三个世界加起来还多。",
+      "缇宝与阿格莱雅交谈，得知阿格莱雅以失去你与丹恒对她的信任为代价，促成你们与白厄、遐蝶更为深笃的关系，以备未来之需。",
+      "你在睡梦中听到一阵奇怪的声音，没有完整的语句，只有喃喃低语。你决定醒来后与丹恒交流此事。",
+      "你与丹恒谈及圣城永远明亮的天空以及自己的怪梦，丹恒觉得这些异象与世界的规则有关。你与丹恒短期内没办法联络星穹列车。",
+      "你与丹恒在浴场与众黄金裔会合。在讨伐尼卡多利的战前动员中，你与白厄、万敌被确定为出征人选，缇安会打开通往悬锋城的大门。",
+      "缇安为你们打开「百界门」，创造出去往悬锋城的途径。临出发时，丹恒将三月七的相机交给你，嘱咐你保护好自己，等你回来。"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#吾好梦中缠人",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "你们按照阿格莱雅的指导进入了「创世涡心」…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "阿格莱雅",
+          "text": "你已抵达世界之心。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "阿格莱雅",
+          "text": "现在，我需要你们的「坦诚」。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "阿格莱雅用金线捆住了你们…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "遐蝶也出现在你们的身后…"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…这是什么意思？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "怎么又来？！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "果然被发现了…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "意料之中的展开。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "这不是玩笑，而是一场审讯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "两位在城中游荡时，有人始终在留意你们的行动。很遗憾…你们背弃了诺言。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你果然已经知道了…但我们是为了救人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "圣城的命运如细丝般脆弱。为剪除祸端，我必须审慎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "我会再给两位一次机会，重新缝补信任的裂帛。金线会替我做出裁决，坦诚则生…欺瞒则亡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "又见面了，两位客人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "遐蝶会是你们的行刑人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "阿格莱雅女士，我们因疏漏大意打破了约定，这点无法否认。但你从未说明泄露「天外之界」可能导致的恶果。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我想知道，我们究竟犯下了多大的罪行？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "合理的诉求。未能及时向你们道出全部，是我的过失。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "翁法罗斯从不缺少向往天外的人。曾有一邦僭主穷尽举国之力修建「天舟」，意欲突破苍穹、企及星空……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "但在天舟启航的瞬间，{{艾格勒|天空之泰坦}}的神罚降临了。一整座城邦，连同所有的臣民，于刹那间灰飞烟灭。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "翁法罗斯并非不愿行向群星，只是妄图触犯天穹者，无不触怒神明，令生灵的大地燃烧，凡人的国度殒灭，{{「晨昏之眼」|天空之泰坦}}只是其中一例。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "那是绝不可以踏足的禁地。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "难道闭目塞听就是对的？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "人们总会向往天空，你阻止不了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我们对翁法罗斯没有恶意…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "神罚没有公正可言，而我身为奥赫玛的守护者，同样身不由己。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "这就是受泰坦支配的世界，必须由黄金裔颠覆的世界。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "对此，我能做的事也只有一件，那就是确保二位…绝无二心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "三步，遐蝶。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…是，阿格莱雅女士。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "我将以「四问」考验你们。昧心的回答会令金线震颤，真诚的回应则平静无波。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "而金线颤动的次数…便是行刑人将要前进的步数。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "四问过后，若她没有走到你们背后，便算两位通过了考验。反之，你们的旅途只能止步于此了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "只是在温柔的花乡中睡去，没有一丝痛苦…我保证。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "别保证这种事啊！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "是不是有两次撒谎机会？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "若你将生命视作儿戏，悉听尊便。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "无论她怎么说，开拓者，我们只要无愧于心就好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "那便开始吧…第一问。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "异乡人——你们为何来到翁法罗斯？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "为了解决这个世界的困扰。",
+          "content": [
+            {
+              "type": "text",
+              "text": "金色的丝线微微地颤动。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "半分诚实，半分掩饰。但规则没有妥协的余地。记作一步。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "为了我们的旅程能够继续。",
+          "content": [
+            {
+              "type": "text",
+              "text": "金色的丝线平静如初。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "真诚的回答。此步不记。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "为了把这里搅个天翻地覆！",
+          "content": [
+            {
+              "type": "text",
+              "text": "金色的丝线剧烈地颤动。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "玩笑并不能掩藏你的真心。机会稍纵即逝，你已经浪费了一次。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "第二问。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "异乡人——你们因何对奥赫玛伸出援手？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "出于勇气，无私，侠义之心！",
+          "content": [
+            {
+              "type": "text",
+              "text": "金色的丝线微微地颤动。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "勇气有余，但失之纯粹…记作一步。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我后悔了，压根就不该出手！",
+          "content": [
+            {
+              "type": "text",
+              "text": "金色的丝线剧烈地颤动。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "愤怒吞没了你。记作一步。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "为了我们的旅程能够继续。",
+          "content": [
+            {
+              "type": "text",
+              "text": "金色的丝线平静如初。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "没有波动，此步不记。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "第三问。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "异乡人——倘若形势剧变，你是否可能将刀尖对准奥赫玛，还有它的公民？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我…无法保证。",
+          "content": [
+            {
+              "type": "text",
+              "text": "金色的丝线平静如初。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "不加修饰的回答，你没有顾忌它可能招致的对立或猜疑。此步不记。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我绝对不会！",
+          "content": [
+            {
+              "type": "text",
+              "text": "金色的丝线微微地颤动。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "你想送出一个正面的承诺，却无法呈上与之匹配的决心…记作一步。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我用球棒，不用刀。",
+          "content": [
+            {
+              "type": "text",
+              "text": "金色的丝线剧烈地颤动。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "想凭油嘴滑舌将自己送上末路？我可以满足，记作一步。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "最后一问。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "异乡人——你体内有一股汹涌澎湃的未知力量…你是否愿意用它来协助黄金裔弑神？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这你都能觉察到？",
+          "content": [
+            {
+              "type": "text",
+              "text": "金色的丝线剧烈地颤动。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "用问题回答问题，强烈的怀疑、抗拒…记作一步。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我不愿意，也不能答应。",
+          "content": [
+            {
+              "type": "text",
+              "text": "金色的丝线平静如初。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "如此坚定…更令我好奇，你身体里究竟藏着什么秘密？此步不记。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "那可是毁灭的祸种，小心反噬。",
+          "content": [
+            {
+              "type": "text",
+              "text": "金色的丝线微微地颤动。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "愤怒，威胁…但又带着一丝不确定。你也不了解自己的身体。此步暂且不记。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（通过考验）",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "四问已经完成。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "你们凭借真诚赢得了第二次机会。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "两位可以继续留在奥赫玛，公民仍会视你们为贵宾。但你们必须保证，今日的荒谬一幕不会再次上演。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "这话由遭受审讯的人来说更合适吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "经历了这一遭，你凭什么觉得我们还会帮助你们？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "无论你们作何选择，黄金裔都会继续奔赴神谕中的宿命。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "二位也许是降临在翁法罗斯的一道希望。但在一切得到证明前…你们不能变成翁法罗斯的一道威胁。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "留下来，你会继续监视我们？",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "黄金裔都像你这么多疑吗？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "为了圣城，我愿拾起世间所有被人嫌恶的特质，用尽冰冷但有效的手腕。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "恕我们无法在如此高压下继续合作。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "如果不能赢得诸位——不，如果无法赢得你的信任，阿格莱雅女士——我们会自觉离开。翁法罗斯并不是无名客唯一的选择。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "不必让彼此都落得不体面的收场。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "…我尊重二位的决定。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "？？？",
+              "text": "各位，请等一下——"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "…白厄？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "阿格莱雅，作为第一个遇见他们的人——有关两位的去留，我也想提供一些看法。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "尽说无妨。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "在重渊与他们初遇时，我同样怀有戒心，回圣城的路上始终没有放下防备。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "但保卫奥赫玛一役，我们并肩经历了许多场战斗。决死时刻的眼神不会骗人，我能从他们的眼中找到信念，也愿意将后背交给他们。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "请你相信一名战士的直觉。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "眼下奥赫玛正需要援手，我不想就这样失去两位盟友。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "遐蝶小姐也是这么想的，对吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "…嗯。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "我更愿意把「死亡」视作宁静的告别，而非刑罚。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "竟有两位黄金裔愿意为你们作担保，呵…看来是我独断孤行了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "白厄，你会尽到东道主的义务，照看好我们的客人吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "我不擅长繁文缛节，但一定尽力而为。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "蝶…下一次，我希望你能直抒胸襟。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "我会的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "创世涡心迎来了新的访客。既然你们如此信任这两位异乡人，就好好为他们讲述藏在涡心中的奥秘吧。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "（未能通过考验）",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "四问已经完成。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "金丝揭露了你们的动摇。很遗憾，两位没能通过考验。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "二位可能是降临在翁法罗斯的一道希望，但也可能…是翁法罗斯的一道威胁。我别无选择，只能为你们关上命运的门扉。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "以一场私刑决定我们的生死，不可理喻……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "过河拆桥？亏我还帮了你们。",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "公平公义公正在哪里？",
+                  "content": []
+                },
+                {
+                  "id": 3,
+                  "text": "谁来救救——",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "丹恒",
+                      "text": "这里…大概没人能听到我们的呼救。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "为了圣城，我愿拾起世间所有被人嫌恶的特质，用尽冰冷但有效的手腕。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "遐蝶。为我们的客人呈上仁慈的送别。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "不必紧张……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "你不要过来啊…",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "等等，再给我个机会…",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "请…放松。"
+            },
+            {
+              "type": "text",
+              "text": "遐蝶将她纤白的食指搭在了你的脉搏处。\n一丝凉意穿透了你的肌肤，紧接着渗入了你的经脉。\n遐蝶搭上了她的第二根手指…然后是第三根，直到她的半只手掌轻柔地握住了你的左腕。\n一阵无名之花的暗香涌入了你的鼻腔…余韵如此甜美，令你逐渐忘却了呼吸的意义。"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "你安静的闭上了双眼…"
+            },
+            {
+              "type": "text",
+              "text": "视线逐渐模糊下去，取代冰冷现实的是一片紫色的海洋…她口中的花乡……\n……"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "然后，你终于明白了……"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "……你正在迎接属于自己的甜蜜死亡。"
+            },
+            {
+              "type": "text",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "？？？",
+              "text": "…等一下！故事可不该结束得如此匆忙啊。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "…白厄？"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "你睁开了双眼…"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "我还活着。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "白厄",
+                      "text": "当然了，朋友。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "重生之我在翁法罗斯？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "白厄",
+                      "text": "当然不是，朋友，你还好好地活着。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "你们来到翁法罗斯才多久？无情如{{塞纳托斯|死亡之泰坦}}，也不会这么仓促结束一段旅程吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "阿格莱雅，作为第一个遇见他们的本地人——有关两位的去留，我也想提供一些看法。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "尽说无妨。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "在重渊与他们初遇时，我同样怀有戒心，回圣城的路上始终没有放下防备。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "但保卫奥赫玛一役，我们并肩经历了许多场战斗。决死时刻的眼神不会骗人，我能从他们的眼中找到信念，也愿意将后背交给他们。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "请你相信一名战士的直觉。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "眼下奥赫玛正需要援手，我不想就这样失去两位盟友。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "遐蝶小姐也是这么想的，对吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "…嗯。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "我更愿意把「死亡」视作宁静的告别，而非刑罚。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "…这样啊。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "竟有两位黄金裔愿意为你们作担保，呵…看来是我独断孤行了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "白厄，你会尽到东道主的义务，照看好我们的客人吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "我不擅长繁文缛节，但一定尽力而为。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "蝶…下一次，我希望你能直抒胸襟。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "我会的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "创世涡心迎来了新的访客。既然你们如此信任这两位异乡人，就好好为他们讲述藏在涡心中的奥秘吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "不——经历了这一遭，你凭什么觉得我们还会帮助这里？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "恕我们无法在如此高压下继续合作。如果不能赢得诸位——不，如果无法赢得你的信任，阿格莱雅女士——我们会自觉离开。翁法罗斯并不是无名客唯一的选择。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "不必让彼此都落得不体面的收场。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "无论你们作何选择，黄金裔都会继续奔赴神谕中的宿命。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "白厄说服了我网开一面。至于二位的去留，就由你们自己决定吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "听听白厄想说些什么"
+    },
+    {
+      "type": "objective-description",
+      "text": "阿格莱雅对奥赫玛的掌控程度远超我们想象，此前的风波依然传到她的耳中。这位黄金裔的领袖展现出她铁血冷酷的一面，以极端手段再度确认我们的来意。历经如此险境，我们需要重新思索翁法罗斯之旅的可行性。",
+      "location": "翁法罗斯-创世涡心"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "对不住，我应该更早些赶到的。请你们再听我说几句。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "…站在这里，我以黄金裔的尊严起誓，你们的生命并未受到威胁。在审讯开始前，遐蝶小姐就把消息传达给了我，希望我能阻止阿格莱雅。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "能令阿格莱雅大人动摇的人很少，白厄阁下是之一。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "可她连句道歉都没说…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "白厄的面子这么大？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "就别拿我打趣了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "阿格莱雅她…为了奥赫玛，她的心早就结成了冰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "也许这就是「半神」？立于凡人中间，却又离人们很远。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "「半神」？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "啊…又多了一件需要解释的事。别担心，翁法罗斯最深的秘密都藏在这儿了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "总之，先抬头看吧：那是创世涡心的星宫十二相，它记录着黄金裔的逐火之旅。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "十二张虚位的图腾，对应翁法罗斯的十二尊泰坦。而每一座被点亮的星宿，都代表一颗被人类归于原位的火种。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "归位的火种…有六颗，你们的征途已经走过了半程？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "这是前人用巨大的牺牲换来的。黄金裔的脚步一度遭遇巨大的阻碍，在很长一段时间里毫无进展……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "是阿格莱雅和缇宝老师再度召集起世界上的黄金裔，重启了神谕中的征程。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "她们两位，也是如今圣城中唯二的「半神」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不应该是唯四吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "虽然缇宝、缇安、缇宁老师是三个人，但以神格来算——还是一位吧！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "所以「半神」是什么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "当然，我还没忘记这个话题。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "过去，泰坦是世界的支柱。而黄金裔从神谕中得到的启示，是要击碎这十二根基柱，重构世界的秩序。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "难题就在这里。当旧日的神明倒下后，需要有人来暂时扛起断裂的支柱，填补神职空缺，直到创世奇迹降临。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "否则，世界在神谕应验前就会彻底坍塌，变成一片废墟。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "阿格莱雅和缇宝老师已经埋葬了自己的神明。现在的她们，是人也是神，更是翁法罗斯命运的背负者。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好沉重的职责。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你也会成为「半神」吗？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "记得你在追逐「纷争」泰坦…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "原来「属于你的火种」是这个意思。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "击落泰坦、回收火种、填补神职——这就是我等黄金裔的使命。我正行在她们二位走过的路上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "使命…吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "对于这十二位泰坦…无论怎么描述，都不如亲耳聆听星宿中的私语更直观。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "二位，不妨上前几步，亲自试试？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "聆听「天谴之矛」的星宿之声"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "聆听星宿的声音…这也能做到么？"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（白厄）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "白厄",
+          "text": "只要凑近一些，侧耳倾听，就能捕获虚空中响起的只言片语。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "白厄",
+          "text": "不妨先从天谴之矛，{{尼卡多利|纷争之泰坦}}的声音开始吧？"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（遐蝶）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "黄金裔、半神…神谕中书写的，真的是翁法罗斯唯一的命运吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "抱歉，我只是在自言自语…两位英雄，请上前聆听泰坦之声吧。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "……白昼寂静无声，黑暗已经登场……\n……火焰节节攀升，鼓点如雨骤降……\n……战士浸染金血，战袍织作残章……\n……青铜为尔华盖，黄铜为余悲响……\n……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "聆听星宿之声",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "聆听星宿之声"
+    },
+    {
+      "type": "text",
+      "text": "当星宿的回响散去，你的耳边接踵而来的是…浪潮的声音？\n（泰坦的呓语）\n陌生的呼唤带着渴望，将你的神识引入池中……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "进入潮汐的馈赠",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "潮汐的声音",
+      "text": "……"
+    },
+    {
+      "type": "text",
+      "text": "水面恢复了平静…真是稀奇，看来你以后只要带着仙馔秘酿来，就可以在这儿讨点好处。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "和白厄聊聊听到的泰坦之声"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "如何，你听见了吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "听见了…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "听不懂…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "第一次听见泰坦之声时，我还是个只知挥剑的孩子，全然不知生命的意义为何物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "同样地，我至今不知道神谕为何会选中自己，但我得感谢它…若非踏上这段旅程，我大概已经变成战场上的孤魂野鬼了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "说回你们，我想郑重地发出邀请，希望两位能加入黄金裔的阵营，助我们一同讨伐{{尼卡多利|纷争之泰坦}}，从「纷争」的泰坦手中夺得火种。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "如果二位心中还有疑问，我会尽全力解答。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "黄金裔是怎么被选中的？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "…很遗憾，人们至今没能弄清神谕的规则。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "唯一可信的推测是…它更青睐那些身陷极端境遇的人，会在他们眼前降下奇迹。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "世界上的其他黄金裔呢？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "相传，第一位黄金裔诞生在千年以前。自那之后，神选者就开始在世间行走。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "然后便是「黄金战争」…那场战役背靠神明，却让凡人流尽了鲜血，众多英雄在此期间陨落。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "到了我出生的年代，相较一段历史，黄金裔的故事已经更接近传说。如果世上还有其他受神谕召唤的人…命运会把他领到我们面前的。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "讨伐尼卡多利的计划是？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "勇气和决心都已具备，只等缇安老师找到悬锋城的所在，我们就踏上征程。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "当然，此行注定是一场撼天动地的死斗…做好心理准备。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我全都了解了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "前路艰险，我不会强迫你们。但如果二位决定留下，我——哀丽秘榭的白厄，定会努力修补你们和黄金裔之间的嫌隙，不遗余力。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "阿格莱雅大人心中的坚冰恐怕难以消融……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "但我也会尽力而为。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…开拓者，这个决定交给你来做吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你不发表些意见吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "我相信白厄，但更相信你的决断。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我做决定？真的假的？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "在这种事上，我更信任你的判断。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tabs",
+      "tabs": [
+        {
+          "id": 1,
+          "title": "留在翁法罗斯",
+          "content": [
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "留在翁法罗斯。",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "离开翁法罗斯。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "丹恒",
+                      "text": "唔…就此为止？确定要这么做吗？"
+                    },
+                    {
+                      "type": "choice",
+                      "presentation": "dialogue",
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "开玩笑的，开拓之旅得继续下去。",
+                          "content": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "太好了，你们果真是翁法罗斯的希望。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "我一直坚信，黄金裔的旅途绝非寥寥数人的史诗，我们必须团结一切潜在的盟友——尤其是二位这样的英豪。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "讨伐{{尼卡多利|纷争之泰坦}}一战，只要能获得成功…想必阿格莱雅也不会再质疑什么了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "白厄阁下…我们的客人似乎有些疲惫。让他们先回浴宫休息片刻吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "…啊，是我有些兴奋了，抱歉，你们在翁法罗斯的第一天已经够漫长了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "想离开涡心的话，只要再重复一遍灵水盆前的仪式就好。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "请一定要在浴宫中好好休息。等两位蓄满精力，相信缇安老师也带着悬锋城的消息归来了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "离开翁法罗斯",
+          "content": [
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "离开翁法罗斯。",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "唔…就此为止？确定要这么做吗？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "我累了，我要走。",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "…我明白了。回头想想，两位一直出于无私和善意帮助奥赫玛，我们却总是以怀疑和胁迫回应，的确不公平。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "早些时候，你们对我的苦衷施以理解，现在该我做一样的事了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "黄金裔的旅程…果然很孤独啊。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "走吧，丹恒，开拓者。我会带人护送两位回到你们坠落的地方。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "我知道，重逢是种奢望。至少我们能让告别不那么草率。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "在白厄和一众圣城卫士的护送下，你和丹恒回到了重渊的坠毁点，合力打捞起了列车车厢。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "在一名长成智械模样的奥赫玛公民的协助下，你们驶离了翁法罗斯，没有遭受那所谓「天外诅咒」的谴罚。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "返回星穹列车后，你们发现黑天鹅已经悄悄离开。三月七的病情加重了，没有人知道她的症状是因何导致的。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "尽管燃料告急，但你们还是完成了最后一次跃迁，寄希望于下一个目的地能解决你们手头的一切烦忧。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "至于「永恒之地」翁法罗斯的命运，以及它终将为银河带来的剧变…至少在你的有生之年内，这一切都与你无关了。"
+            },
+            {
+              "type": "fold",
+              "title": "谢幕",
+              "collapsed": false,
+              "content": [
+                {
+                  "type": "text",
+                  "text": "「永恒之地」翁法罗斯\n完\n\n《崩坏：星穹铁道》\n\n领衔主演\n开拓者\n\n主演\n丹恒 饰 丹恒\n白厄 饰 ？？\n遐蝶 饰 遐蝶 ？？\n缇里西庇俄丝 饰 缇宝 缇宁 缇安 ？？ ？？ ？？……\n阿格莱雅 饰 阿格莱雅\n迈德漠斯 饰 万敌\n？？ 饰 ？？\n尼卡多利 饰 尼卡多利\n\n愿此行，终抵群星"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "真没想到，这一天过得这么戏剧性。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "走吧。有了白厄的担保，至少可以放下心来先休息了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "总觉得忘了什么…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "喔…给三月拍照。差点就忘了，幸好你还记得这事。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "该给三月七拍张这儿的照片。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "…差点就忘了，幸好你还记得这事。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "把创世涡心的奇景记录下来吧。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（遐蝶）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "抱歉，希望你们…能原谅我先前的行为。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "我不想让阿格莱雅女士察觉到异样，只能配合她的行动。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "为什么她让你来处刑？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "遐蝶",
+                  "text": "……"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "我没有责怪你。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "遐蝶",
+                  "text": "…可我不应靠近你。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "因为我…是「死亡」的影子。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "对不起，这个话题有些沉重，我不想展开。请两位听从白厄阁下的建议，尽早回浴宫休息吧。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "如果你们还想聆听世界的声音，也可以在涡心多停留片刻。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "拍摄创世涡心的奇景"
+    },
+    {
+      "type": "objective-description",
+      "text": "跟随白厄了解黄金裔的救世苦旅后，我们最终还是决定留在翁法罗斯。经过一番休整，众黄金裔再度集结，准备向尼卡多利所在的悬锋城发起讨伐，夺取「天谴之矛」的火种。",
+      "location": "翁法罗斯-创世涡心"
+    },
+    {
+      "type": "text",
+      "text": "十二尊泰坦的图腾，犹如十二双居高临下的眼目，监视着这个由它们创造、支撑与毁灭的世界。\n待到十二颗星宿全部被点亮之时，黄金裔们口中的「奇迹」便会被点亮——至少他们的神谕中是如此书写的。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "离开创世涡心，返回私人浴宫"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "嗯…十二位泰坦的星宿都拍进去了。离开这里吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "整理心情，好好休息吧"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "发生了好多事啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "怎么了，我脸上有什么东西吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你今天说的话…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "…比前三个世界加起来还多。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "没办法，爱说话的人不在，总得有人负责开口。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "但我也累了。所以，复盘的环节尽量简短点吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "同意！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "体感上，我们用大约二十个系统时就摸清了翁法罗斯的现状，还和本地人建立了联系，这是个不错的开始。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "不过，我总觉得水面下还隐藏了什么…就连黄金裔内部，也不是我们想象的那么团结。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "还来得及反悔吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "阿格莱雅说的话，你先别放在心上。她这一通发难有些突然，背后可能另有原因。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "局势并不明朗啊。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "阿格莱雅这一通发难也有些突然，背后可能另有原因。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "没想到阿格莱雅那么无情…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "但我感觉她这一通发难有些突然，背后可能另有原因。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "疑团重重，只能全力应对了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "毕竟「开拓」没有标准答案，除了全身心投入到这个世界的循环当中，一步一步脚踏实地，似乎也没有别的办法。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "虽然还有不少疑问，但大脑已经困乏到难以思考了…白厄说得没错，先休息吧，把问题留给明天。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与此同时……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "…阿雅，这次出征会顺利的吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "勿要犹疑，吾师。你是为黄金裔解读神谕之人，你言行中的踟蹰会令众人动摇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "知道啦知道啦，但眼下不是只有你和*我们*嘛……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "还有…阿雅，其实我想问的是，刚才在涡心，你不会真想把丹恒和开拓者给……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "当然不会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "哎…那就好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "为什么明知故问？如果你断定我有杀意，一定会出手阻止的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "被你看穿啦。*我们*只是想知道…阿雅，你心里到底是怎么想的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…我原本的计划是以「流放」作为威胁，考验那二人的意志和决心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "但我察觉到了遐蝶的不安。她信任他们，还私下联络了白厄，以为我不知情……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "所以将计就计，我索性将「流放」改成了「处刑」，用最极端的情境测量那两人的意志。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "同时，也能促成他们与白厄、遐蝶间更为笃深的关系。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "…为了{{尼卡多利|纷争之泰坦}}一战，必须做到这种程度吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "可这么一来，想让他们再信任你就难上加难了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "这不重要。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "你我终有一日要退出这舞台，翁法罗斯的命运将被移交至他人之手…那是你看到的未来，不是吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "…嗯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "那救世的神谕浑浊不清。它撺掇我们挑战众神，却从未告知预言中的「明天」是何模样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "当下，人们愿意相信神谕，才团结在黄金裔周围。但有朝一日，倘若世人的信念发生动摇…一切都会崩塌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "所以，我们必须做好准备。你我身着褴褛又何妨？专心为「救世主」编织战衣便好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "阿雅啊…你有没有发现……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "你一直说不相信人类的无私，可你自己快要变成活生生的反例了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "也许，是因为「人」的部分正在离我而去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "又一个没有尽头的黎明，白昼何光，永夜何长。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "金线今天格外平静，天、地与海洋都屏住了呼吸，是在为一位泰坦注定的亡逝哀悼吗……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "真想沐浴一刻啊…你会陪我同去吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "走吧，阿雅。都几百年啦，*我们*什么时候拒绝过你的邀请？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "嗯…什么声音？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "…声音？谁？那个？哪个？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "谁在说话……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "…冷静。冷静。这次。下次？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "告诉我你是谁。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "？？？",
+              "text": "…谁？是谁？你…我…我是谁？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "是你吗，星核？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "？？？",
+              "text": "…核？星？谁？你…我…我是谁？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "别吵吵，让我好好睡觉！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "？？？",
+              "text": "…睡觉？好？不好？你…我…我是谁？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "…碎了。迷失。想要…完整。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "…睡吧。睡去。打扰…不该。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（我这是…在做梦吗？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（脑海中有个声音，感觉持续了一晚上……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（把这件事也告诉丹恒吧。）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "将听见梦中之声一事告诉丹恒"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你醒了，睡得还真久。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是够久的，天好亮啊！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "你忘了么？从抵达圣城开始，天空就一直这么明亮。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你起床很久了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "有一阵了。外面太亮，我睡不沉…从抵达圣城开始，天空就一直这么明亮。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你休息得如何？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "梦里一直有个声音。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "声音？又是星核之声吗，还是……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "像是动物的叫声，但能听懂。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "这句话听着有些矛盾。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "听不清，它说的话像是谜语。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "从某种意义上说，混乱才是梦的本质。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "它…挺可爱的，不像星核。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "看来不是噩梦。但小心了，那也可能是蛊惑你的手段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "还是尽量记下能回想起的内容吧。说不定这场怪梦也和这个世界的规则有关。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你睡着的时候，我思考了一些问题，眼下最麻烦的，果然还是翁法罗斯人对天外世界的态度。短期内，我们恐怕没办法联络上列车了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "如果我们尝试飞出翁法罗斯…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "…不会也招致天谴吧？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "是的。最坏情况下，翁法罗斯的入口是道单向门，只能进不能出。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "嗯？有新消息。"
+    },
+    {
+      "type": "message-thread",
+      "title": "翁法罗斯迎宾组",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "白厄",
+          "contentType": "text",
+          "text": "两位，休息好了吗？"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "满血复活了。",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "准备好干一番大事了！"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "白厄",
+                  "contentType": "text",
+                  "text": "不错啊，已经干劲十足了"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "丹恒",
+                  "contentType": "text",
+                  "text": "房间的条件很好，在这里休息很舒适。有什么事要找我们聊吗？"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "没太休息好…",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "睡眠质量有点差"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "白厄",
+                  "contentType": "text",
+                  "text": "这可不妙，是浴宫的环境不行吗？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "丹恒",
+                  "contentType": "text",
+                  "text": "房间的条件无可挑剔，只是昨天稍微有些体力透支。有什么事要找我们聊吗？"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "怎么是你…",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "原来是你啊，我还以为…"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "白厄",
+                  "contentType": "text",
+                  "text": "以为是谁？有人比我先来了一步吗？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "丹恒",
+                  "contentType": "text",
+                  "text": "没什么，是有事情要找我们吗？"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "白厄",
+          "contentType": "text",
+          "text": "是好消息！"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "白厄",
+          "contentType": "text",
+          "text": "缇安老师找到了悬锋城的位置，快来云石天宫的黄金裔浴场集合吧，准备讨伐尼卡多利！"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "白厄",
+          "contentType": "text",
+          "text": "啊，你们可以再休息一会，不着急"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "白厄",
+          "contentType": "text",
+          "text": "不那么着急"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往黄金裔浴场与众人会合"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "没想到，一觉刚醒就要踏上征程了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "先把问题放在一旁，去参加黄金裔的战前动员吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "你们果然来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "哼…真打算将命运交给两个陌生人，不知是疯狂还是愚蠢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "说不定两者兼有呢。万敌，你也该多交几个朋友了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "英雄们，请安静。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "缇安捎回了信息：多年以来，我们首次驱散了包围悬锋城的迷雾，确定了它的位置。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "黄金裔等待已久的时刻终于到来。前路已经明朗：战胜狂暴的「天谴之矛」{{尼卡多利|纷争之泰坦}}，将「纷争」的火种带回奥赫玛，为神谕中的奇迹添薪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "使命艰巨，我必须聆听所有人的声音，决定出征的人选。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "若诸位心中已有提议，现在便是宣明的时刻。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "我，哀丽秘榭的白厄，愿前往讨伐{{尼卡多利|纷争之泰坦}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "此外，我还想推举两位来自异邦的勇士——他们同我一起面对过{{尼卡多利|纷争之泰坦}}的半身，我对他们的勇武没有丝毫怀疑。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "听着好危险，能反悔吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "只在浴宫里躺着可算不上「开拓」。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "被架起来，只能拼命了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "还没习惯吗？这是「开拓」的宿命。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "我，悬锋城的万敌，愿意前往。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "{{尼卡多利|纷争之泰坦}}已受岁月腐蚀，失去骄傲。但它的力量依旧强大，若想摘得胜利，唯有全军出动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…我也愿意陪同前往。引渡将死的灵魂，为各位纾解重压……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "我赞同你的观点。纵使神性已经流逝殆尽，{{尼卡多利|纷争之泰坦}}仍是不可轻视的大敌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "但我不能将诸位的性命尽数押在一场战役上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "如今，{{「灰黯之手」|死亡之泰坦}}不知去向，{{「晨昏之眼」|天空之泰坦}}仍在觊觎大地；而{{瑟希斯|理性之泰坦}}与{{欧洛尼斯|岁月之泰坦}}，虽然还未流露出对人类的敌意，但同样不容小觑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "即便圣城有两位半神驻守，这赌注也太过激进。因此……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "遐蝶，你要留在城中。前线并非你的归宿，战场应当被交还给纯粹的战士。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…我明白了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "至于这两位异乡的勇士…挑选一位与你同行吧，白厄。将两位贵客一并推上前线，不是主人应有的作为。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "开拓者擅长使用多种武器，那把炎枪不止一次化解了敌人的攻势。而我和万敌都更擅长进攻，如果仅从作战角度考虑……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "开拓者，不知道你意下如何？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "来吧，搞起！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我坦度不一定够。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "有他们两人在，应该能速战速决。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "可以试试让丹恒出肉装…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "你在说什么…不是开玩笑的时候。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "只要开拓者没有异议…阿格莱雅，就把狩猎泰坦的使命交给我们三人吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…悬锋城是你的故乡，迈德漠斯，你的族人曾是{{尼卡多利|纷争之泰坦}}的子民——但你选择了依归奥赫玛，为神谕奉献己身。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "你会否向{{刻法勒|负世之泰坦}}的神躯发誓，将黄金裔的使命视作至高的职责？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "自{{尼卡多利|纷争之泰坦}}屈服于疯狂，它便不再是我族的神祇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "我会以人之怒火，剥夺神的权柄。至于火种，还有那即将空缺的神位……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "那若是你渴求之物，就拿去吧。我对取代神明毫无兴趣。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "哈…真是大方，但我不喜欢接受施舍。向{{尼卡多利|纷争之泰坦}}的心脏刺出最后一剑的，一定是我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "如此一来，远征悬锋城的队伍已经成型。哀丽秘榭的白厄，悬锋城的万敌，还有…来自异乡的开拓者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "我——奥赫玛的阿格莱雅，黄金裔，承载{{墨涅塔|浪漫之泰坦}}神权的半神——对你们即将践行的道路施以祝福。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "缇安会为你们打开通往悬锋城的大门。愿金色的丝线指引你们的征途，亦愿它能带你们找到归家的路。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（丹恒）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "我打算多花些时间留在这，向缇宝女士讨教翁法罗斯的知识。你负责行动，我负责研究，我们各司其职。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "不来个临别的拥抱吗？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "……"
+        },
+        {
+          "type": "text",
+          "text": "丹恒用沉默拒绝了你的提议。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（遐蝶）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "请…以得胜的姿态归来。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "我会为你祝祷，愿你永远比死亡的追逐行得更快。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（阿格莱雅）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "阿格莱雅",
+          "text": "神意使然，你终究还是站在了奥赫玛这边。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "不是不信任我么？",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "这和你没有关系。",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "阿格莱雅",
+          "text": "你是白厄与万敌的同伴，只要他们愿意向你托付生死，我的信任并不重要。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "阿格莱雅",
+          "text": "去吧，和两位黄金裔一起。奥赫玛需要一位真正的战神。疯狂的{{尼卡多利|纷争之泰坦}}，他的统治该被终结了。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与缇安对话，准备前往悬锋城"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇安",
+      "text": "走哇，走哇~风风…旋风…悬锋城！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇安",
+      "text": "呜呼！小白，小敌…来飞呀，我们一起飞过去！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "我们背后可没长翅膀啊，缇安老师，能麻烦你开一扇门吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇安",
+      "text": "噢…门，好无聊噢。那好吧，来开门！「百界门」！呼呜——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她怎么像个小孩子一样？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "原来是虚空开门？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "哈哈哈，你以为是真正的城门吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "别看缇安老师贪玩，她可是翁法罗斯技艺最精湛的门匠，创造出的「百界门」万无一失。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "还有失败的可能性？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "…有别的旅行方式吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "与其担心「门」的问题，不如先想想我们三人要如何对抗千军万马。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "这可不像你啊？万敌的万，难道不是「以一敌万」的万吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇安",
+      "text": "好啦！门…门…很快，马上，「百界门」要打开啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇安",
+      "text": "小白，小敌，还有…新来的小灰，准备好出发了吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "出发吧，去弑神！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "缇安",
+              "text": "是神，是神！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "开拓者，带上这个吧。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "丹恒将三月七的相机交给了你……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "这趟冒险的景象，也为三月记录下来吧。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "等我凯旋！",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "我会拍下决定性的一刻！",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "保护好自己，量力而行。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "缇安",
+              "text": "咳咳…站稳啦，听好啦！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "缇安",
+              "text": "我们，雅努萨波利斯的缇宝、缇安、缇宁，黄金裔的信使，承载{{雅努斯|门径之泰坦}}神权的半神——对你们施以祝福！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "缇安",
+              "text": "愿命运向你们展现善意的面容，封锁每条通向死路的歧途……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "缇安",
+              "text": "——敞开每扇通向胜利的大门！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "还得再做做心理准备…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "缇安",
+              "text": "准备，准备！等不及啦，好慢！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "抱歉啦，缇安老师。事关重大，再给我们多点耐心吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "通过百界门到达了悬锋城"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "…比想象中安静得多啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "腐朽…但又令人熟悉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "这里就是「悬锋城」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "没想到时移世易，连{{尼卡多利|纷争之泰坦}}的腹地都在溃散边缘了，一个它的眷属都看不见。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "要是悬锋城还留有昔日兵力，哪怕只剩半成，阿格莱雅也是在让我们送死。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "这里是外城廊道，过去由重兵把守，即使你我联手——至多走出三十步距离。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那加上我呢？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "触景生情，想家了？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "随你怎么想。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "是啊，悬锋城曾是每一位战士的向往之地。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "…万敌，你会觉得可惜吗？自己没有活在那个强者如云的年代。若非往日的英雄一一凋零，我也不会是你唯一的对手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "你害怕了？现在逃跑还来得及。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "不，只是想起从前的勇士也是沿着这条廊道，向{{「天谴之矛」|纷争之泰坦}}的城池进发，为自己的名字镀上金边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "即便这座堡垒已然破败，但我们此刻要去做的事也没什么不同。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "走吧，夺回「纷争」的火种，或是死在它的悬锋下——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "这两种荣耀，我们只能二选其一。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（缇安）",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "白厄",
+          "text": "缇安老师，前面危险重重，你留在这里，找个安全的地方躲起来。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "白厄",
+          "text": "我们完成使命就会回来，到时再麻烦你使用「百界门」，好吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "缇安",
+          "text": "明白啦。好好躲起来，不让坏人找到！"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "她真的是「半神」吗…",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "怎么看都像个小孩子。",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "白厄",
+          "text": "为了翁法罗斯，缇安老师也付出了很多代价。"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

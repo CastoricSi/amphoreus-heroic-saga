@@ -1,0 +1,1392 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "命运之长夜",
+    "pageId": 39875,
+    "revisionId": 101647,
+    "parentRevisionId": 100417,
+    "revisionTimestamp": "2026-08-26T11:11:19Z",
+    "fetchedAt": "2026-09-28T00:21:21.391Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%91%BD%E8%BF%90%E4%B9%8B%E9%95%BF%E5%A4%9C",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%91%BD%E8%BF%90%E4%B9%8B%E9%95%BF%E5%A4%9C&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "命运之长夜",
+    "region": "二相乐园",
+    "type": "开拓续闻",
+    "version": "4.4",
+    "number": "04",
+    "series": "幻造：圣杯战争",
+    "description": "决战在即，你们与最后一对主从结为同盟。壮行的酒宴结束后，凛下定决心，构筑了另一场圣杯战争仪式——她将全部契约和令咒为己所用，打造出连女神都无法忽视的强大军势。",
+    "requirements": "完成任务西风之花海",
+    "requiredLevel": "21",
+    "characters": [
+      "远坂凛",
+      "吉尔伽美什",
+      "Saber",
+      "白厄",
+      "朽叶",
+      "Lancer",
+      "Archer"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "星琼",
+        "amount": "50"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "2"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "2"
+      },
+      {
+        "item": "信用点",
+        "amount": "50000"
+      }
+    ],
+    "previousMissions": [
+      "西风之花海"
+    ],
+    "nextMissions": [
+      "无限之剑制"
+    ],
+    "objectives": [
+      "与凛会合",
+      "调查骚动",
+      "查看案情板",
+      "与众人共赴王之酒宴",
+      "与众人制定决战计划"
+    ],
+    "synopsis": [
+      "你和远坂凛前往天台回收她布置防御术式时遗留的宝石，却发现宝石已被伊什塔尔破坏，无法再作为魔术礼装使用。同时，学校里传来从者的打斗声。",
+      "于白厄与他的从者Saber决斗之际，吉尔伽美什出现在篮球场。为了回收王之财宝，吉尔伽美什命令白厄与他战斗。",
+      "你和远坂凛来到篮球场，发现Saber正在一旁守护御主的对决。认出远坂凛并非伊什塔尔之后，Saber对你们放下警戒。",
+      "Saber与白厄不久前与伊什塔尔交过手，对方似乎只想夺走财宝，但并未得逞。为决定如何处置乌鲁克的大杯，白厄和Saber选择用决斗说服彼此，但吉尔伽美什的到来打断了这场较量。",
+      "吉尔伽美什表示，大杯是战胜伊什塔尔的关键犒赏，并邀请白厄与Saber加入出征前的作战会议。白厄与Saber和解，愿意与你并肩对抗神明。",
+      "作战会议的地点选在不死神探事务所，吉尔伽美什将在此用大杯召开酒宴，为决战壮行。",
+      "你和远坂凛推门而入，发现自己来到了由吉尔伽美什的结界所创造的「幻月秘庭」。吉尔伽美什邀众人上前，与他共襄弑神之盛举。",
+      "酒宴上，朽叶品尝出吉尔伽美什秘藏的风味中有股「对失去的恐惧」。白厄请吉尔伽美什讲述他的过往，纵使聆听需要背负罪孽。",
+      "作为人与神之子，吉尔伽美什诞生自神对于人类的恐惧，日后却与挚友一起推翻了诸神。直到挚友死后，吉尔伽美什才得以正视自己「天之楔」的本源。关于财宝，朽叶觉得王之陈酿对她没什么含义。白厄想与同伴在现界团聚，但不希望用大杯许愿换来一场所有人转瞬即逝的梦。",
+      "远坂凛提议向大杯里注入魔力，重新进行主从指定，把全部令咒集于远坂凛身上，创造一场真正的圣杯战争。在吉尔伽美什的协助下，依靠你和远坂凛之间的坚固连结，远坂凛将解放你身为从者的真正力量，展开一道「对神性特攻」的固有结界，以此击败伊什塔尔。"
+    ],
+    "extra": {
+      "相关活动": "「幻造：圣杯战争」",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "message-thread",
+      "title": "远坂凛",
+      "subtitle": "回收宝石，随时可联！",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "远坂凛",
+          "contentType": "text",
+          "text": "晨安，我的Trailblazer"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "远坂凛",
+          "contentType": "text",
+          "text": "这是一条留言：如果你醒了，请来绘世学院天台，我们最初相遇的地方会合"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "远坂凛",
+          "contentType": "text",
+          "text": "有惊喜"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与凛会合"
+    },
+    {
+      "type": "objective-description",
+      "text": "虽然刚才那么信心满满…但师父您读到这里应该也发现了，这场圣杯战争的Saber主从还没有登场。",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "让我找找，在哪儿呢……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "…啊，找到了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这是…秘密武器？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "远坂凛",
+              "text": "没错。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这是…你丢了的首饰？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "远坂凛",
+              "text": "我才没那么丢三落四。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "这是…私房钱？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "远坂凛",
+              "text": "你怎么知道…等等，不对！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "这是我以防突袭布置的防御术式，当时没来得及回收就匆匆离开了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "靠远坂家「转换」的魔术特性，我可以在宝石里预存魔力，用来抵消袭击者的魔术，就像汽车的安全气囊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "…果然。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "宝石已经被人为破坏，不能作为魔术礼装使用了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是伊什塔尔干的吗？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这下你的私房钱废掉了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "远坂凛",
+              "text": "但该难过的是伊什塔尔。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "身为幻造生命，「神性」反成了她的镣铐。要想维系自己的存在，她需要的愿力比通常幻造种要多得多，堪称天文数字……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "以至于，她连如此微弱的力量都不能放过——这枚破碎的宝石，就是她步入穷途末路的证明。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "远处传来吵闹声"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "正义的伙伴",
+      "text": "嚯…这就是传说之剑么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "正义的伙伴",
+      "text": "加个条件吧：如果我赢了，你把它也交给我，怎么样？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "正义的伙伴的伙伴",
+      "text": "此剑是为选拔王者之剑。若其主人贯彻正确之举，或是完美的王时，它的威力将不愧对于圣剑之名。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "正义的伙伴的伙伴",
+      "text": "如果是你这样高尚的人，一定不会辜负这把剑吧——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "正义的伙伴的伙伴",
+      "text": "但，很遗憾——我没这个打算。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "正义的伙伴",
+      "text": "那…就别怪我不客气！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "怎么回事？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "…学校里有从者！开拓者，我们快去看看！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查骚动"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "篮球场…？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "千万小心，前方有很多人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飒爽的笑声",
+      "text": "呵呵…有趣！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "狂妄的笑声",
+      "text": "哈哈哈哈哈…！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "放弃吧。所谓珍贵之物，正因可望不可即才显得美丽。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "因着大志，把手伸向不属于人类领域的愚者，在这里竟出了两个…还真是惊喜连连啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "只可惜，我对男人没兴趣——好久不见了，Saber。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "正义的伙伴",
+      "text": "又来了个不好好穿衣服的男人？天，我不会是眼花了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "——请退在我身后，御主。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "这个男人…虽然有各种问题，但实力确为顶级。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "如果你是为财宝而来，就放马过来吧。我会正面将你击溃。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "很好，这才是能被本王看上的女人！不过，若想投怀送抱，现在还不是时候。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "喂，白头发的：本王命令你，把剑锋对准我——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "告诉我——独自背负烈火之人，究竟能不能支配烈火本身！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "objective-description",
+      "text": "至于究竟是谁…那当然是我们两个都熟悉的那位Saber啦。",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "正义的伙伴",
+      "text": "你的战法太有意思了！再来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "尽情抱头鼠窜吧！哈哈哈哈哈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "御主？不对…这次同为从者吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "你是伊什塔尔？还是……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我就知道我们还会再见面。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "Saber",
+              "text": "同意。但若立场不同，我们就不得不拔刀相向……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "是的，她是伊什塔尔。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "你身上流淌着魔力，和伊什塔尔不同。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "你…真的是凛？怎么会……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "Saber…！太好了，总算有个能正常沟通的从者了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "不过，你似乎和我认识的那个Saber有些微妙的不同……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "…同感。和我记忆中的凛相比，你似乎来自不同的世界。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哈哈哈哈哈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "不…即便如此，你果然还是我熟悉的那位凛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "请见谅。我们不久前才交过手，不得不提高警惕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哼哼、呵呵呵…哈哈哈哈哈…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "她没有伤害你们吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "我姑且不论，我的御主也是骁勇善战之人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "正义的伙伴",
+      "text": "再来，再来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "而且，{{她|伊什塔尔}}似乎不打算赶尽杀绝，只想夺走财宝……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "乌鲁克的大杯——为了决定如何处置它，我和御主意见相左，不得不用决斗解决问题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "正义的伙伴",
+      "text": "要上了，英雄王！财宝的储备还够吗？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "原来你们就是另一个圣杯的主人…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "…它已经被抢走了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "不，还在我们手里……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "…但我们还没尽兴，就被英雄王强势插队了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "呵呵、哈哈哈、哈哈哈哈哈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "你们两个……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛&Saber",
+      "text": "吵——死——了——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "虽然没能完全让本王认真起来，但你的实力确实对得起翁法罗斯史诗中的逸闻——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "报上名来吧——一流的名字，值得为王者纪念。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "哀丽秘榭的白厄。不打不相识，咱们算是朋友咯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "过去到未来，本王的友人有且只能有一位，无可替代。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "身为人臣，在背后辅佐好本王就够了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "…为什么总有不好好穿衣服的男人给我派这种活？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "因为你是*背*负世界的勇者。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "哈，这熟悉的幽默感——好久不见了，我最好的搭档！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "不好好学穿搭的报应。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "哈，这潇洒的身影——好久不见了，我最好的搭档！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "所以，结束了？我认识的金闪闪居然就为切磋亲自跑了一趟？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "愚蠢——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "我来此，是为了取回大杯：要想战胜神灵，武装、勇士与犒赏，缺一不可。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "她那丢尽诸神脸面的愚蠢图谋很快就会被粉碎了——出征前的作战会议，就定在老狼的事务所吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "怎么就要出征了？距离决战还有几天……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "致胜法门已尽在掌握，岂有不速战速决的道理？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "白发的，要是还想扮一次救世主，就跟上我。否则，别怪本王占尽风头。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "至于你们…身为本次战役的核心，没有拒绝的余地。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "义不容辞。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "有点害怕…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "先谈报酬！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "我跟了。要对付神明？这事我最在行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "Saber，看来我们还有更重要的问题——怎么说，愿意和解吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "无论身在何种世界，此剑永远为拯救而战。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "很高兴能再次和你并肩，开拓者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "劲敌又多了一个——那就让你看看我们的牵绊吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看案情板"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "至此，七对主从，十四位英雄全部现身。对抗神明的英雄已尽数集结。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "出人意料的是，向来玩世不恭的王也亲自出马……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "「乌鲁克的大杯」——王将亲自用它召开酒宴，为决战壮行。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与众人共赴王之酒宴"
+    },
+    {
+      "type": "objective-description",
+      "text": "至此，七对主从，十四位英雄全部现身。对抗神明的英雄已尽数集结。\n「乌鲁克的大杯」——王将亲自用它召开酒宴，为决战壮行。",
+      "location": "二相乐园-鸽川区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "居然在事务所摆酒宴…真不知道他要整什么花活。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "亲眼看看就知道了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我社恐，让我再调理一下。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "远坂凛",
+              "text": "当然，无论决战还是战前会议，都要以最完美的姿态全力以赴！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "酒宴过后，应该就是决战了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "无论决战还是战前会议，都让我们以最完美的姿态全力以赴吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "事务所里居然长这样…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "只是结界，圣杯原典的冰山一角罢了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "这似乎是幻月游戏的禁地「幻月秘庭」。虽然不及本王王宫奢华，倒也风雅——尤其是这棵大树，和我尤其相称。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "虽说本王绝无理由向你们这群俗人开恩，见证王之威能…但既然要对付那位无能女神，破格一次也未尝不可。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "上前来吧——与本王共襄弑神之盛举！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "以下部分属于任务「畅饮！王之酒宴」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "弑神前的壮行宴…呵，难免想到那位凯撒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "别说不解风情的话了，现在是开怀畅饮的时候。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "都说说吧：本王的秘藏，相较这个世界如何？直抒己见便是。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "考虑到有人没成年…放心，完全不含酒精。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "…那我就不客气了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "完美驾驭了蜂蜜的浓醇、丁香和香草荚的甜润和柑橘的酸爽，还有泥土般绵长厚重的暖意，仿佛踏入了一座建立在空中的春日花园……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "风味确实极品——只可惜，有股「对失去的恐惧」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哈哈哈哈哈！不错，「对失去的恐惧」。没有恰到好处的苦涩，珍藏就无以为珍藏……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "「欢愉」——这便是万物的根本——它的另一个名字。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "传说中的英雄王，也会对「失去」感到恐惧吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "事关本王惹人忌讳的过去。只要开口，你就会背起永生无以偿还的罪孽。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "我背负的还少吗？洗耳恭听。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哼，真是不知罪孽为何物的狂人啊。为免扫了酒兴，你们就竖起耳朵，洗耳恭听吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "「失」与「得」的统合即是法。过去，诸神就是法的代行者。他们掌管「失」与「得」的配平，由此延续统治。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "直到神发明了人类。与神不同，人类的欲望无边无际。世界的面貌会按照他们的欲求变化。只要时间足够，他们甚至能篡改星球本身的规则……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "众神预见到它们捍卫的法终将被推翻。于是，神感到了「对失去的恐惧」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "有意思。同样是神，翁法罗斯的泰坦大多选择了与人类同行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "就算是星神也几乎不会对人类产生敌意…不过，在祂们看来，人类只是蝼蚁罢了，没有为敌的价值。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "面对数量和欲望都难以抗衡的人类，它们只得破格与其结合，妄图创造同时拥有双方视角的、束缚人类的枷锁。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "只要舍弃尊严，它们便能继续主宰万法——这就是它们能想到的，最划算的「失」与「得」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "呵…和神礼观众殊途同归啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "就这样，肩负重任的、混血的神子诞生了。他就像神在高天打入大地的楔子——也就是所谓「天之楔」——本王的本质。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "话虽如此。但在传闻中，这家伙身为神之子，日后却和挚友一起推翻了诸神。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "此身为神创造不假，但与名为吉尔伽美什的生命是两回事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "自风吹入孔窍时起，在灵魂为苏醒而挣扎的瞬间，我就作为「我」而活了。既然认定自己为王，脚下的土地深得我心，神又与我何干？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "呵，我总算明白了：为什么从见面起，我就能感受到某种奇妙的引力……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "原来，我们也殊途同归。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哼，本王的宿命远比你想象得更复杂：规诫臣民、拥享财富、与友人并肩而立，消灭妨碍文明发展的一切之恶……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "你说得对。我收回前言，殊途不同归哈。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "当然，本王毕竟是本王，这些琐事眨眼间就全完成了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "直到另一个生命尘归尘、土归土。以常人而言，就是「死亡」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "它正是我的挚友，世上唯一能与我对等之人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "直到那时，我才明白要为死亡哀悼，要为死亡恐惧，甚至要意识到它确实存在。也正是在那一瞬间，我才终于得以直视自己的本源……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "能明白吗？——我，从一开始就诞生自诸神「对失去的恐惧」啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "那之后的，暂且按下不表吧。不过是一小段迷茫又滑稽的旅途。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "看来，我们在想同一件事啊，吉尔伽美什——强大如伊什塔尔，也一样害怕失去这来之不易的幻造生命，所以她才需要圣杯，以真正的神明之姿长存于世。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哼…若不对圣杯有所求，那也谈不上「圣杯战争」了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "既然圣杯是回应愿望的机器——好好想想，你们此前分得的财宝，对自己而言究竟意味着什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "「失」与「得」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "…「害怕失去」也即「渴望获得」的意思么？可你的陈酿对我似乎没什么特殊含义。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "或许是在暗示你该请带薪假补补觉了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "我嘛，这次只有一个愿望，就是尽到未尽之兴……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "那牛仔要是看到这壶宝贝，准得乐得口吐芬芳。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哼，肤浅。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "至于治安官：你会在这里，就说明肯定有些见不得光的秘密。避免剧透也是王的器量，这次就不逼你开口了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "我们分到的就是大杯……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "美梦世界的冒险后，许愿机对我不再重要了。我想，它对你的意义应该更为非凡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "事到如今，你还希望启用大杯，召唤同伴现界、团聚吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "在我了解你的过去后，就为你能有自己的心愿感到欣慰。可我能察觉到，它并非源于内心的渴望，而是悔意……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "甚至，是对过去自己无法将一切付诸完美的「恨」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "只有一点点啦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "这你都能看出来？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "当然了。我的{{「直觉」|感知敌人攻势的技能}}技能可是A级。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "你们为拯救燃尽一切，争取到堪称不可能的一线生机。如果还有下一次机会，我会衷心祝愿翁法罗斯踏出一条不再那么残酷的生路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "然而，倘若为此踌躇不前…代价一定远比想象更沉重。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "…我明白。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "「逐火是不断失却的旅途」——倒不如说，生而为人，每段旅途都一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "前进一定意味着失去。停在原地或许可以不必直面恐惧，却一定会在不知不觉中永远失去更珍贵的事物——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "…一段故事落幕后，一切物质的得失相抵之后，仿佛凭空诞生的存在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哼……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "说不想再见面，肯定是假的。可如果只是许愿换来一场所有人转瞬即逝的、轻飘飘的梦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "太残忍了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "但……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "请不要为有这样的念头苛责自己。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "想让他人看到美好未来的愿望，肯定没有错。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄&Saber",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "虽然现在的我还无法完全认同这个观点…但，曾有一个人这样对我说过。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "一条能让更多人微笑——哪怕是微笑着分别——那一定不是错误的道路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Archer",
+      "text": "……！"
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "以上部分属于任务「畅饮！王之酒宴」"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与众人制定决战计划"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "…现在，该聊聊如何对抗伊什塔尔了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "志得意满啊…有想法了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "多亏了遐蝶和玻吕茜亚小姐…啊，还有吉尔伽美什。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "英雄王，如果向你的大杯里注入魔力，能重新进行主从指定，把全部令咒集于一身么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "喂…你刚刚说的是「魔力」，对吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "「魔力」，不是「愿力」。只是复制另一场幻造圣杯战争没有任何意义，受制于同样的规则，凡人想要击败神明，可能性微乎其微。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "所以，我们必须制定自己的规则——对自己有利的规则——一场属于魔术师的，真正的圣杯战争。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "毕竟，魔术师就是一群妄想{{创造新秩序|抵达根源}}，僭越神明的狂人哪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "这我同意。可是，你手中的魔力，可是好不容易才收回到自己手里……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "如果将魔力投入圣杯战争仪式，你就再也没办法离开这片银河了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你的努力绝不会白费。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "无论如何，我都会陪你到最后。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "正好留下来上列车。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "我已经下定决心了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "就像伊什塔尔下冥界的神话：就算财宝首饰被剥个精光，那再一件一件亲手夺回来，不就是了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "正是因为坚信什么都不会失去，我才一路走到了这里。接下来的路，我也会一如既往——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "哪怕这条路通向地狱，我也会一直、一直走下去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "呵……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哈哈哈哈…哈哈哈哈哈…哈哈哈哈哈哈…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "肤浅！无知！愚昧！荒诞！但，这段刚愎自用的宣言深得我意！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "去吧，践行本王的王道——拿走它，随心所欲向这世界施虐吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "才不要，也太暴力了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "不过，大杯我们还是收下了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "毕竟……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "规则——",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "——就是用来打破的！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "接下来，就是作战的核心了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "有关开拓者的宝具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "来到这里以后，我确实失去了许多。但，我也同样收获了许多。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "与开拓者缔结主从契约；与曾经的劲敌、友人，甚至另一个自己重逢；和大家一起为了同一个目标四处奔走，为我们已行和将行的旅途把酒言欢……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "最重要的是，我们从对彼此一无所知，变成了能向对方敞开心扉的存在。如果没有我这位可靠的从者，只靠我一个人，是绝对无法一步步走到这里的——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "而这份无比坚固的「缘」，就是我们最有力的武器。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "它正是我的宝具，我的本源…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "…承载了我的「开拓」的存在。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "看来，你们之间的连结，已经足够解放开拓者身为从者的真正力量了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "虽然没人知道这件武装的真相究竟如何……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "但，只要能够作为宝具发动，我们就能短暂实现比肩「第二法」的奇迹。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "第二魔法…是掌管平行世界运营的魔法吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "我们可以从平行世界汲取愿力，展开一道「对神性特攻」的固有结界。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "只是，圣杯从未向开拓者灌输任何知识，更不必说固有结界这种随时会被魔术协会指定为封印对象的大魔术……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "换句话说…开拓者不知道如何解放自己的心像世界。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "巴比伦之门森罗万象。到时候，且看本王如何掷下必胜的王牌吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "开拔之际，就在明天黎明——愚蠢的女神啊，如果你在听，尽情地垂死挣扎吧——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Archer",
+      "text": "……"
+    }
+  ],
+  "warnings": []
+}

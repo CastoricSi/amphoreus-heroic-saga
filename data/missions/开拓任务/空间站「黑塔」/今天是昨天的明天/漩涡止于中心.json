@@ -1,0 +1,930 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "漩涡止于中心",
+    "pageId": 1822,
+    "revisionId": 77276,
+    "parentRevisionId": 34323,
+    "revisionTimestamp": "2026-01-18T18:11:52Z",
+    "fetchedAt": "2026-09-28T00:14:48.429Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%BC%A9%E6%B6%A1%E6%AD%A2%E4%BA%8E%E4%B8%AD%E5%BF%83",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%BC%A9%E6%B6%A1%E6%AD%A2%E4%BA%8E%E4%B8%AD%E5%BF%83&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "漩涡止于中心",
+    "region": "空间站「黑塔」",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "2",
+    "series": "今天是昨天的明天",
+    "description": "目光从陌生的天花板上移开后，你看着周围的各色「奇物」，脑袋中似乎残留着一个女人的声音，只是现在的情况不允许你确定自己是否能马上清晰地回忆起她。\n「当你有机会做出选择的时候，不要让自己后悔。」\n于是你选择先听这「三月七」与刚刚那位已经离开的「丹恒」的话，至少，他们看着不像是坏人。\n好了，现在路上有了伴，先离开这里吧。",
+    "requirements": "完成混乱行至深处",
+    "requiredLevel": "0",
+    "characters": [
+      "丹恒",
+      "三月七",
+      "阿兰",
+      "姬子"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "600"
+      },
+      {
+        "item": "星琼",
+        "amount": "80"
+      },
+      {
+        "item": "信用点",
+        "amount": "5000"
+      },
+      {
+        "item": "旅情见闻",
+        "amount": "2"
+      },
+      {
+        "item": "天倾",
+        "amount": "1"
+      },
+      {
+        "item": "三月七",
+        "amount": "1"
+      },
+      {
+        "item": "丹恒",
+        "amount": "1"
+      }
+    ],
+    "previousMissions": [
+      "混乱行至深处"
+    ],
+    "nextMissions": [
+      "宇宙安宁片刻"
+    ],
+    "objectives": [
+      "离开这里，看看外面的情况",
+      "听三月七的话，保护好自己",
+      "前往中庭处的中央电梯",
+      "前往监控室，与阿兰会合",
+      "使用密钥",
+      "前往最上层乘坐电梯，到达主控舱段"
+    ],
+    "synopsis": [
+      "三月七称，待会儿要乘坐电梯前往主控舱段。你表示自己对空间站的构造不熟，三月七从你的着装怀疑你并非科员。",
+      "三月七操作控制装置，电梯却毫无反应。丹恒经另一条路与你们会合，称空间站防卫科长阿兰或许了解电梯情况，你们出发前往监控室。",
+      "你们在监控室找到负伤的阿兰。阿兰称为阻隔敌人，电梯的权限暂时封锁。在阿兰的提示下，三月七找到了带在身上的电梯密钥。",
+      "阿兰开启最上层的电梯口，需要你们绕路前往主控舱段。你们带上负伤的阿兰，前往上层电梯平台。",
+      "你捡到散落的「光锥」。丹恒称这是流光忆庭的技术，能将记忆随身携带以强化自身。阿兰让你将其装备以增强战斗能力。",
+      "丹恒以手中长枪拨开偷袭而来的箭矢。强大的虚卒挡住你们前进的道路，一场恶战在所难免。",
+      "大量浮空虚卒将你们包围，危急时刻，姬子以无人机为你们开辟出突围之路。来到安全地带后，姬子对惊险脱困的你们表达问候。"
+    ]
+  },
+  "content": [
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你看见卡芙卡转身离开，你昏昏睡去…"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "…不知道过了多久，你耳边传来声音…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "男声",
+      "text": "这个人的坐标不是由空间站发出的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "女声",
+      "text": "都这时候了还计较啥啊。这个大活人就在我们眼前，总不能是假的吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "男声",
+      "text": "…心跳和脉搏很微弱，三月，准备做人工呼吸。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "女声",
+      "text": "啊？！我…我没什么经验！丹恒你来吧！"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "你睁开双眼，看到一名少年的脸庞正在离你很近的距离…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "停——住口！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "人醒了！"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "你没事吧，听得清我说话吗？记不记得自己叫什么名字？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我…什么都不记得了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "…那可麻烦了，能努力回忆一下吗？你的名字是……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我叫开拓者。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "开拓者吗？你好，我是丹恒，这是三月七。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这座空间站遭到了反物质军团的袭击，我们是受艾丝妲站长的委托前来救援的。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "反物质军团？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "「毁灭」纳努克的打手。你们运气很好，最危险的{{绝灭大君|「毁灭」的令使}}不在附近，来的只是一群四处作恶的散兵游勇。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我们很快会把入侵者消灭掉的，不用担心。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "艾丝妲站长？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "对呀，粉色头发，个子小小的，很可爱的女孩子。黑塔女士亲自任命的代理站长。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "…那个孩子也太没威信了，连员工都不知道她名字……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我应该去哪…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "返回主控舱段。艾丝妲站长和及时疏散的研究员都在那里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "星穹列车也停在那附近！所以不必担心怪物的袭击，我们会解决这次危机的！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你们是谁？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我和丹恒是星穹列车的乘员，请多关照啦！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "列车与黑塔女士有些来往，因此我们时不时会在这里稍作停留。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "结果撞上这么大的事，正义的列车组可不会袖手旁观！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "星穹列车？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "嗯，你没见过吗？列车时不时会来到太空站的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "那是一辆神奇的列车，拥有「开拓」星神的力量，能够在星海中穿行。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "等回到主控舱段，我指给你瞧~"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那快走吧。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你和三月一起回去吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "防卫科的阿兰在这附近失去了联系，我得把他带回去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "唔，也行，那你自己小心喔。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "丹恒离开了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，要不你把这个棒球棍正式出场拿上吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "军团在太空站疯狗似地乱窜，返程的路也不安全，还是带点防身武器为好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "只是个建议啦——没事，你有我呢！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得角色三月七"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "离开这里，看看外面的情况"
+    },
+    {
+      "type": "objective-description",
+      "text": "目光从陌生的天花板上移开后，你看着周围的各色「奇物」，脑袋中似乎残留着一个女人的声音，只是现在的情况不允许你确定自己是否能马上清晰地回忆起她。\n「当你有机会做出选择的时候，不要让自己后悔。」\n于是你选择先听这「三月七」与刚刚那位已经离开的「丹恒」的话，至少，他们看着不像是坏人。\n好了，现在路上有了伴，先离开这里吧。",
+      "location": "空间站「黑塔」-收容舱段"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你看着走廊上似乎被称为「奇物」的展示显得有些好奇…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这里到处都是稀奇的玩意儿，也就是所谓的「奇物」。黑塔收集这些东西又不用，净搁这儿吃灰，也不知道图啥。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "别看啦，快走快走。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们发现了反物质军团…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "啊，是反物质军团！这帮疯子流窜过来了，看我上去揍它。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "听三月七的话，保护好自己"
+    },
+    {
+      "type": "objective-description",
+      "text": "你心中盘算着三月七刚刚那句话：「反物质军团在空间站疯狗似地流窜……」看来，接下来的路况不容乐观。\n你看了看身边的三月七，她自信地朝你点点头。\n你又看了看手中的这根棒球棍，它同样散发着自信的光彩。\n你也可以这么自信，试试看吧！",
+      "location": "空间站「黑塔」-收容舱段"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败反物质军团"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "人不可貌相啊，你还挺习惯战斗的耶……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "待会儿我们坐中间那台电梯下行，去主控舱段。那儿的路你熟吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "呃，说起来你穿的也不是空间站的制服，你真的是这儿的人吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我是。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "…真的吗？总感觉你在骗我。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我不记得了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "…失忆了吗？看来还是受了点伤。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "……",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…算了，咱也不问了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "走吧，送你回去~"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往中庭处的中央电梯"
+    },
+    {
+      "type": "objective-description",
+      "text": "看来，只有乘坐电梯才能前往空间站的主控舱段——看着还挺近的。",
+      "location": "空间站「黑塔」-收容舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "啊，我就知道……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "成功了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "没，电梯好像损坏了，按键都没反应。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "弄坏了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "——不是我干的！一定是反物质军团的错！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "要是万能的丹恒老师在就好了，他懂一堆莫名其妙的东西，没准连电梯也会修……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "那个我不会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哇，你怎么在这儿？！…你怎么比我们还快？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我走另一条路，从上面一层绕过来的，正好在监控室看见你们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "阿兰也在监控室。他受了点伤，但没生命危险。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你找到他了啊…阿兰他知道这电梯怎么回事吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "既然是防卫科的负责人，应该知道吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那我们去和他会合吧！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得角色丹恒"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往监控室，与阿兰会合"
+    },
+    {
+      "type": "objective-description",
+      "text": "就像是每部电影都会发生的经典桥段再现——电梯无法正常启动。\n三月七口中那位「万能的丹恒老师」虽然及时赶到，却也对此束手无策。\n但他救助下来的防卫科负责人阿兰，应该知道答案——\n果然是万能的丹恒老师。",
+      "location": "空间站「黑塔」-收容舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "…你们是一起的吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "对呀，我和他都是星穹列车的乘员~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "噢…是黑塔女士请你们来支援这里的么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "巧合而已。黑塔委托列车寻找的遗器到手了，我们按照协议返回交付…不想正好碰上了遇袭现场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "反物质军团为啥会盯上你们啊？我看它们攻击的目标就是空间站，对星球地表毫无兴趣的样子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "我也…没什么头绪。军团来得十分蹊跷…站内的防卫系统突然失效，没过多久那些家伙就出现了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "小姐…艾丝妲站长第一时间组织疏散科员，我本该负责掩护所有人撤离，但…没想到最后还是大意了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "不要自责。你伤了腿和惯用手，藏身在这里避开与军团正面交锋，这个判断十分冷静。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "对！大部分科员已经去避难了，当务之急是返回主控舱段，组织反击！所以…你知道电梯怎么用吗？它启动不了了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "撤离完成后为了防止军团进攻主控舱段，电梯的权限暂时封锁了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "艾丝妲小姐委托你们来找我，应该有给你们解锁的密钥吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "好像…是给了我一张卡……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "三月……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我不记得放哪儿了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "你……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "啊我找到了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我……"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "使用密钥"
+    },
+    {
+      "type": "objective-description",
+      "text": "从阿兰警觉的眼神中你隐约察觉到，密钥不仅可以用来解锁权限，也是你们身份的证明。\n赶快使用它吧。",
+      "location": "空间站「黑塔」-收容舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "…既然密钥找到了就赶快开始吧，电梯的权限用那边的操作台就能解锁。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "电梯运行至最上层"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "走吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "等一下，我只开启了最上层的电梯口，从那里走。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这么麻烦？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "阿兰",
+              "text": "绝对不能让军团利用电梯侵入到主控舱段，我必须优先考虑科员们的安全。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿兰",
+              "text": "烦请各位多绕一点路…有劳了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "都听你的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "阿兰",
+              "text": "抱歉…空间站是黑塔女士交给小姐的东西，我必须优先考虑主控舱段和科员们的安全。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿兰",
+              "text": "不得不劳烦各位多绕一点路…真的很抱歉。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "什么「各位」啊？你不一起来吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "我行动不便…会拖累你们。我就留在这里，在你们成功抵达后再次封锁电梯权限。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你不必担心会拖后腿。封锁电梯权限一事，在主控舱段也可以进行操作吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "就是啊，我和开拓者两个人不也这么过来了，再加一个丹恒，不至于不至于~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "反物质军团就交给我们，阿兰你只要跟着我们，顾好自己就行了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "相信我们就好。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不用想太多。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "要不我借你个肩膀？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "关心用错地方了吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "…谢谢。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往最上层乘坐电梯，到达主控舱段"
+    },
+    {
+      "type": "objective-description",
+      "text": "阿兰似乎担心自己会拖累你们，但你们在说服他这点上已经产生了一种微妙的默契，难道这就是同伴么？\n和同伴一起，抓紧时间去往最上层吧。",
+      "location": "空间站「黑塔」-主控舱段"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（试图前往相反方向）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "阿兰",
+          "text": "分拣分析室已经紧急封闭了，那条路走不通。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你对反物质军团入侵这里的目的有什么头绪么，阿兰？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "无非是冲着黑塔女士的藏品来的吧…但都这样了，为什么还……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我听闻黑塔女士的藏品中有一颗「星核」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "…那不是我这种身份的人能够接触到的信息。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们被关闭的斥力桥拦住去路…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "斥力桥关闭了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "嗯，这样多多少少可以拖延敌人一会儿。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "看到一个亮晶晶的东西…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "喂，这亮晶晶的是…「光锥」吧？这不是星际和平公司内部才有的稀罕货吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "不，「光锥」是流光忆庭的技术，由于它能将记忆随身携带，是非常厉害的强化类奇物。据说公司花了大价钱买下了使用权——但黑塔怎么弄到手，就不好说了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "这几张光锥的来路是正当的，我只能说到这里。你们先带上吧，它对战斗很有帮助。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得天倾 × 1"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们来到电梯口旁…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这就到电梯口了？一路上也没遇到多少敌人嘛~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "唉，话一出口我就觉得大事不妙……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "说明你成长了，三月。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "一只虚卒·践踏者突然出现…"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "…丹恒及时挡在你们几人前面…"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "…你们合力打残虚卒·践踏者，但它召唤出了更多援兵…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "喂喂喂"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "打不过就群殴…是不是玩不起？"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "一架战斗无人机出现帮助你们赢得了逃跑的时机…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "走！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "每次都搞得这么惊险。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "不过，回来就好。"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

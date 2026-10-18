@@ -1,0 +1,2024 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "狐梦",
+    "pageId": 8439,
+    "revisionId": 37361,
+    "parentRevisionId": 34333,
+    "revisionTimestamp": "2024-04-23T10:59:05Z",
+    "fetchedAt": "2026-09-28T00:20:21.263Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%8B%90%E6%A2%A6",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%8B%90%E6%A2%A6&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "狐梦",
+    "region": "仙舟「罗浮」",
+    "type": "开拓续闻",
+    "version": "1.5",
+    "number": "09",
+    "series": "狐斋志异",
+    "description": "事发突然，寒鸦大人与你们一起梳理了藿藿可能的去向之后，发现了「温顺」的浮烟也许掌握着尾巴的线索，以此为饵蒙骗藿藿。\n你们没有十分的把握，但还是去去这个奸诈的家伙吧。",
+    "requirements": "完成开拓续闻「绥园聚首·其四」",
+    "requiredLevel": "34",
+    "characters": [
+      "寒鸦",
+      "素裳",
+      "桂乃芬",
+      "藿藿",
+      "景元"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "600"
+      },
+      {
+        "item": "星琼",
+        "amount": "60"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "6"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "5"
+      },
+      {
+        "item": "信用点",
+        "amount": "60000"
+      }
+    ],
+    "previousMissions": [
+      "绥园聚首·其四"
+    ],
+    "nextMissions": [],
+    "objectives": [
+      "向浮烟探问情报",
+      "前往流云渡，找到藿藿",
+      "与尾巴一同深入藿藿的幻障",
+      "寻找尾巴的踪迹",
+      "找到藿藿的母亲",
+      "将母亲带回藿藿的身边",
+      "找到藿藿的同学，带回藿藿身边",
+      "击败夺取藿藿神智的岁阳",
+      "与浮烟交谈",
+      "（可选）与景元交谈",
+      "与寒鸦交谈",
+      "将岁阳投入镇妖塔"
+    ],
+    "synopsis": [],
+    "extra": {
+      "时间": "",
+      "相关活动": "「狐斋志异」",
+      "相关成就": "通往群星的轨道#有尾庞庞",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向浮烟探问情报"
+    },
+    {
+      "type": "objective-description",
+      "text": "事发突然，寒鸦大人与你们一起梳理了藿藿可能的去向之后，发现了「温顺」的浮烟也许掌握着尾巴的线索，以此为饵蒙骗藿藿。\n你们没有十分的把握，但还是去去这个奸诈的家伙吧。",
+      "location": "仙舟「罗浮」-绥园"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "瞧瞧，几只虫子气势汹汹冲我而来，嗡嗡嗡。想问什么就问吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "藿藿不见了，你这坏东西一定知道点什么，对吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "你们离心离德，连自己的同伴离开都毫不知情，为什么要来找我的麻烦——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她不告而别，显然受人蒙骗。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你用尾巴的下落蛊惑了她。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "十王司虽然无法彻底消灭岁阳，但我们有的是对付岁阳的手段……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "你们的手段我都见识过啦，嘻嘻，像我这样劫持人质性命的坏东西，可经受不住您的恐吓。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "不妨把话说开了吧，这件事确实与我有关。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "果然！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "在你们不知道的时候，有一天那个姑娘来问我「知不知道尾巴到哪里去了」，我向她透露了一点线索，她的小脑瓜自然会去拼凑答案。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "当然了，凭她怎么找也一无所获。于是她又来求了我好几遍，你们没看到她那又怕又要问的表情，笑死！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "后来我嫌她烦，我又说「尾巴跟我一样四分五裂了，变成了什么都记不得的小火苗」，你们没看到她脸色吓得煞白，哈哈哈哈！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不许欺负藿藿！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "浮烟",
+              "text": "心疼啦？我可没有折磨她太久，我告诉她「尾巴现在躲在流云渡，正准备随星槎逃出仙舟」。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "她现在…在哪里！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "浮烟",
+              "text": "我念她心诚，大发慈悲告诉她「尾巴现在躲在流云渡，正准备随星槎逃出仙舟」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "我还告诉她，如今十王司正在回收岁阳。如果她求助于你们，就算见到尾巴，它也会被镇入牢狱。显然，她信了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "你在说谎，你不可能知道尾巴究竟到哪里去了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "知不知道两说，但在流云渡那儿却有我的同族等着她，嘻嘻嘻！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "藿藿怎么会如此轻易上当？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "浮烟",
+              "text": "你不也被我骗过吗？哈哈哈哈。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "那藿藿岂不是…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "你们要对朋友有信心啊，也许藿藿安然无恙，也许她将那只岁阳顺手降服了呢？也许你们现在赶去流云渡，还能找到她？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "混蛋！素裳，开拓者，咱们赶紧到流云渡去找藿藿！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "看来案牍工作得搁下了，我和你们一起出发。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（浮烟）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "浮烟",
+          "text": "还在这儿转悠吗？你对朋友还真不上心哪。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往流云渡，找到藿藿"
+    },
+    {
+      "type": "objective-description",
+      "text": "浮烟大方承认了自己的所作所为，并将藿藿的线索告诉了你们，甚至不需要用「武斗」的方式套取线索。\n尽管这其中有诈，但是当下救人要紧。",
+      "location": "仙舟「罗浮」-流云渡"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "藿藿！藿藿！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "这下可怎么办？我这就去把丹鼎司的人叫来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "镇定，让小女子来瞧瞧。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "寒鸦仔细检查了藿藿的体征。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "毫无反应，应是被岁阳劫持了心识。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "为什么会这样？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "寒鸦",
+              "text": "藿藿长久与岁阳共存，她恐怕早已习惯了这样的状态。尾巴离去后，她的身体对其他岁阳来说，也是处于完全不设防的状态。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "试试使用「同心火铃」吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "寒鸦",
+              "text": "这并非岁阳编织的幻境迷障，而是封闭了五感，将人类彻底与外界的信息隔绝。这样一来，连能融入幻境的火铃也毫无用武之地了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "这不是丹鼎司医士能处理的情况，我会将藿藿带回十王司，再看看有什么手段。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "另外，捉鬼小队的任务眼下必须暂时中止了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "可是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "如今情况已经截然不同，没有判官相助，会让各位深陷危险境地，这与成立小队的初衷不符。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "可是，寒鸦小姐，这一回的任务是救回我们的朋友啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "各位急切的心思我明白，请交给十王司吧，我们自会有法子将这岁阳揪出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "寒鸦小姐，请诚实地告诉我，十王司有什么办法吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "连判官也感到为难吗？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我们可以拷打浮烟！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "对啊，浮烟肯定知道岁阳到底能做什么。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "素裳",
+              "text": "不行，它坐在绥园中，却将我们一步步引导到如此境地。在没有搞明白它的意图之前，我们不能再听之任之了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "办法并不是没有。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "让另一只岁阳帮助我们除魔，驱逐占夺了藿藿心智的家伙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "可是怎么可能有岁阳愿意帮助人类，等等——寒鸦小姐的意思是？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "寒鸦自袖中取出藏月瓠。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "尾巴…其实被我收在此处。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "什…什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "小姑娘，别一副大惊小怪的样子！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "大惊小怪？！藿藿可是为了找你茶不思饭不想的，现在还被另一个坏东西乘虚而入了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "你这个火焰团子！到底是怎么回事？难不成寒鸦小姐，你一直都知道吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "原则上，游离在外的岁阳必须被封印，我只是按规制行事。而且，是尾巴拜托我这么做的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "说来话长……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "本大爷只记得那天夜里意识快要四分五裂的那一瞬，时间就像是停止了一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "然后老子看到了自己从燎原身上分出来、漫无目的地流浪…看到自己被这小姑娘捡到，然后，一眨眼老子被十王司判官封印在尾巴上……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "你们人类管这种事叫「回光返照」对吧，为什么岁阳也会有这样的体验，真是见了鬼了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "老子本想，既然都逃出来了，也该换个身体好好逍遥自在一下了。但是——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "它运气好，遇到了我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "倒了本大爷的血霉，遇见了这个女鬼…我是说判官。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "本大爷在的时候，藿藿老是嫌弃老子，动不动唠唠叨叨数落我给她带来了多少麻烦，她有多讨厌现在的生活。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "嘿嘿，不珍惜本大爷这样的强力上级，等到失去时哭天抢地后悔莫及。老子只想听她哭。所以我一气之下，就让这女鬼…判官把老子给放进葫芦里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "你如愿以偿了，现在，我给你一个重获自由的机会。当然，不是放任你离去，而是让一切恢复原样。成交？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "尾巴，我可以相信你吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "我说，咱们也算是老同事了，放心交给本大爷吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "所以，只要让本大爷附身藿藿，把另一个碍事的家伙给吃了，就没问题了吧？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与尾巴一同深入藿藿的幻障"
+    },
+    {
+      "type": "objective-description",
+      "text": "岁阳封闭了藿藿的五感，换句话说，「同心火铃」也不好使了。幸好这个时候尾巴出现了。「用岁阳祛除岁阳」也是一种崭新的做法。\n就让尾巴大爷强行进入到幻障之中吧。",
+      "location": "仙舟「罗浮」-流云渡"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "得给这不长眼的东西长点儿记性，让它明白自己惹祸上身了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "全靠你了，尾巴！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "尾巴",
+              "text": "让本大爷亲自来降妖捉鬼。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "进入拓境探游幻障迷境·焱攸"
+            },
+            {
+              "type": "note",
+              "tone": "蓝色",
+              "text": "昏倒的十王司判官，被劫持了心识…",
+              "context": "介绍"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "等等，我还没有准备好。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "尾巴",
+              "text": "本大爷去附身，你没准备好关老子什么事？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "尾巴",
+              "text": "…哎，本大爷卖你个面子，准备好了再叫我。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找尾巴的踪迹"
+    },
+    {
+      "type": "objective-description",
+      "text": "被岁阳迷惑的藿藿，只好在幻障中寻找尾巴的踪迹。她还不知道自己将要遭遇什么——岁阳会找到宿主最为忌惮、最为脆弱的情绪，并将它放大。",
+      "location": "仙舟「罗浮」-幻障迷境·焱攸"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "藿藿的意识…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "这里是哪里呀…尾巴，尾巴，你在这里吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "…我、我被谁附身了吗？是尾巴吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "…肯定不是尾巴。那家伙傲气得很，按它的说法，很少有人配让它寄宿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "…别胡思乱想了，现在该怎么办？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一道身影凭空出现…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "妈妈？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "这是幻觉吗？妈妈，你怎么在这儿呀，我好想你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿的母亲",
+      "text": "别、别靠过来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿的母亲",
+      "text": "你不是藿藿，你不是我的女儿…你身上带着那样的脏东西，别靠过来！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "可是，我还是藿藿呀。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "可我还是我…我没有被那家伙控制呀。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "藿藿的母亲",
+              "text": "不，不是。迟早有一天，它会占据你的身体……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "…妹妹她还好吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "…妹妹她还好吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "藿藿的母亲",
+              "text": "你不靠近她，她会过得更好的。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "……",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿的母亲",
+      "text": "对不起，藿藿，我和你父亲只能将你送入十王司。就当你从没有我们这样的父母……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "尽管知道这不过是岁阳的幻影，母亲离开后，藿藿还是感觉到呼吸变得更加沉重了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "藿藿继续向前…"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "两道身影凭空出现…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "你们…我记得你们……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恶意的同学",
+      "text": "藿藿的大尾巴，烧没啦！藿藿的大尾巴，像烟花！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "害怕的同学",
+      "text": "怪物，离我们远一点！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恶意的同学",
+      "text": "耶？装可怜吗？我最讨厌装可怜的人了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我没有装可怜…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "…我…我没有装可怜……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "恶意的同学",
+              "text": "你不是装可怜！听说你爸妈也不要你了，确实可怜！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你们…太过分了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "你们太过分了…"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "害怕的同学",
+              "text": "要怪就怪你那奇怪的尾巴！我们都没有会燃烧的尾巴，你走开！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "……",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "害怕的同学",
+              "text": "不说话，装哑巴，呸呸呸！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "害怕的同学",
+      "text": "我们不要和怪物说话了，快走快走。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "尽管知道这也是岁阳的幻影，同学们离开后，藿藿再次陷入到失落的情绪里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "藿藿…不是怪物啊。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "藿藿继续向前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "我该怎么办……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "尾巴……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "尾巴的身影出现了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "尾巴，你怎么…你怎么在这里，你不是早已经…我明白了，这次要离开的人是你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "哈？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "每个人都会离我而去，我到底该怎么办？我不想再孤伶伶一个人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "本大爷没走啊！他慌了，尾巴慌了"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "不要再和我说话了，尾巴！我不想看着你消失……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "你到底是不是判官啊！这是岁阳在扰乱你的感受！给我支棱起来！别顺着岁阳的想法……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "每个人都离开了…每个人都离开了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "「每个人都离开了」是吧？简单，看老子把他们都拉回来！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "找到藿藿的母亲"
+    },
+    {
+      "type": "objective-description",
+      "text": "藿藿在幻障中再次体验「被人抛下的孤独体验」，尽管她知道这是假的，却难以独自克服困境。\n想必是尾巴大爷的离开又进一步加深了藿藿的孤独感受。\n尾巴大爷必须做点什么，比如「将每个人都带回来」。",
+      "location": "仙舟「罗浮」-幻障迷境·焱攸"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（藿藿）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "藿藿",
+          "text": "所有人，都会离开的……"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "你不是还有捉鬼小队的朋友吗？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "尾巴",
+                  "text": "你不是还有捉鬼小队的那群朋友吗？"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "藿藿",
+                  "text": "…他们/她们都没在这里。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你不是还有十王司的前辈吗？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "尾巴",
+                  "text": "你不是还有十王司的那几位前辈吗？"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "藿藿",
+                  "text": "…他们都没在这里。"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "你不是还有老子我吗？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "尾巴",
+                  "text": "你不是还有老子我吗？"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "尾巴",
+                  "text": "看老子把那些人全部带过来！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "尾巴附身到藿藿的母亲身上，试图将她带回藿藿身边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "把这家伙带回藿藿身边好了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "将母亲带回藿藿的身边"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿的母亲",
+      "text": "藿藿，对不起。就当爸爸妈妈已经不在了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "即便是亲生父母，也能这么绝情吗。人类啊……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "尾巴将藿藿的母亲带到了藿藿身边"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "找到藿藿的同学，带回藿藿身边"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "尾巴附身到恶意的同学身上，试图将他带回藿藿身边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "把这家伙带回藿藿身边好了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恶意的同学",
+      "text": "凭什么藿藿要受到那么多关注啊！我才是最应该被关注的人！我要孤立她！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "真是搞不懂臭小鬼的表现欲。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "尾巴附身于两人，试图将他们一起带回藿藿身边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "害怕的同学",
+      "text": "这尾巴也太吓人了吧！像个火把一样发亮，好恶心啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "老子给你来上一口！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "看老子把那些人全部带过来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "藿藿，你看，本大爷把他们都带回来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "什么…什么回来了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿的母亲",
+      "text": "藿藿，好女儿…爸爸妈妈不该抛下你一个人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恶意的同学",
+      "text": "藿藿，对不起，我就是嫉妒你的尾巴比我的帅！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "害怕的同学",
+      "text": "藿藿，我做梦都想有这么酷炫的尾巴，请你和我一起玩好吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "他们都是被你附身之后强行带回来的，不是吗？哪里是回来了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "哎哟我去，你就说回没回来吧？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "尾巴，你不是我的幻觉啊…你是真正的尾巴！你是真的尾巴！你回来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "这些日子你都跑哪去了，我还以为你…以为你已经……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "已经死了？老子过得也不轻松呀，被炸成了无数小碎片，老费力地又融在一起了…老子跟着你倒了这么多年的霉，总该得有些好运气吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "老子原本是打算跑路的，但是，这不是不放心你嘛，特意来确认一下，你这个怂包到底能不能行，有没有长进？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "不好意思，藿藿毫无长进。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "不，你也太小看自己了，你那何止是长进啊，你简直是胆大包天！一个人就敢来做这么危险的事？我怀疑你不是没有勇气，你只是没脑子！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "…那、那我能怎么办嘛，我也觉得浮烟在骗我，但要是错过就找不到了怎么办？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "这事就别提了。嘿，藿藿，真的是因为老子的关系，这些人都离开了你吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "离开就离开吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "…离开就离开吧。我本来也不擅长和人相处，就算没有尾巴，他们也会离开的。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "至少现在，你回来了不是吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "至少现在，有尾巴愿意为我回来，我很满足了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "既然你都这么说了，本大爷可不会愧疚的哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "哎，我还是得盯着你，免得你又惹出什么大乱子！对了，眼前还有件麻烦事——藏起来的岁阳，立刻给老子滚出来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "别想跑！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "击败夺取藿藿神智的岁阳"
+    },
+    {
+      "type": "objective-description",
+      "text": "被岁阳附身的人不会再被岁阳附身——这也不太准确。准确来说，被尾巴大爷罩住的藿藿是不会再被其他岁阳附身的。上吧，教训一下那个夺取藿藿神智的岁阳。",
+      "location": "仙舟「罗浮」-幻障迷境·焱攸"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗，击败夺取藿藿神智的岁阳"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们的意识回到了流云渡…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "你醒啦，藿藿！尾巴的「手术」很成功啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "唉、唉？！寒鸦大人，桂小姐，素裳，还有…开拓者先/小姐……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "谢谢你们，是你们把尾巴带回来了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "这有什么嘛，你是我们的队长，当然是要帮你找回来的嘛！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "哦，小怂包现在是队长啦？了不得嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "…只、只是桂乃芬小姐这样叫我而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "原来，尾巴还真的是藿藿小姐的尾巴呀！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "你在说什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "浮烟千算万算，显然无法想到尾巴早已回到了藿藿身边。这下它想要劫持判官的计划算是彻底失败了。要是让藿藿出现在它面前，想必能重挫它的斗志。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "冥差的讯号",
+      "text": "寒鸦大人！绥园急报！被镇伏的岁阳…又有异动！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "……看来，浮烟虽然不清楚尾巴的所在，但它确实想到了如何转移所有人的视线。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这是浮烟的调虎离山之计。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "寒鸦",
+              "text": "那家伙虽然看似好斗莽撞，但实在是奸猾……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "寒鸦",
+              "text": "难怪它喜欢以「棋子」喻人、以「棋局」喻势…一时疏忽竟然被它逼到了角落。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "浮烟一直等着我们离开绥园。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "…不会是因为我的关系吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "寒鸦",
+              "text": "你不必自责，这些都是浮烟早就计划好的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "看来，景元将军一直想拖延的「终盘」要提前了。素裳，去神策府把将军请来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "我们现在立刻赶回绥园，趁事情还没到无可挽回的地步，陪浮烟来一局吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与浮烟交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "使用调虎离山计的浮烟趁绥园中没有判官，再次纠集起巨大的力量。显然这一次它也不会得逞。\n和浮烟聊聊，看看它究竟在考虑什么。",
+      "location": "仙舟「罗浮」-绥园"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "啧啧，迟钝的十王司判官终于回来了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "哎哟这不是尾巴大爷吗，看到你又当回看门狗，真是可喜可贺呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "只可惜，经过上一次的教训，我已经彻底放弃将你纳入到我的计划之中了，就算是「燎原」最强大的碎片，获得多余的情感后，也只是个废物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "你说谁是废物呢？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "十王司的阵法尚在，岁阳是无法离开绥园的，你自以为得计的一手不过是困兽之斗。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "我从未想过离开。我从洪炉中苏醒，来到绥园只为一件事情——与你罗浮的将军一战。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "你们的将军喜欢「缓兵之计」，我就顺势而为，为各位出谋划策，令岁阳们在此汇聚，成为我的助力！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "多亏了你们，我已汇聚封印在绥园中所有岁阳的力量。万事俱备，只需要静候将军入局。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "在此之前，我应当先遵照约定，将你们这些车前小卒，杀个片甲不留！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "战斗到一定回合"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "这家伙无论打倒多少次，总是能复原……尾巴，我们该怎么办？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "放心吧，虽然岁阳没有形体，但并非无法被有形之物击败，浮烟终究只是在硬撑而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "一旦它在精神层面认为自己已经输掉了，即便是再强大的岁阳也再难像这样聚合起来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "就像是「燎原大战将军」一样，岁阳意识到「败局注定」时，就会溃不成形吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "没错。要说现在谁能令它真正溃败的话，也只有那个人了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "你终于来了，罗浮的将军。终于愿意与我对局了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "「杀穿中阵，我便与你重续当年的战斗。」我一诺千金。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "不过，就像我之前所说，腾骁与燎原，彼时交战的双方可谓旗鼓相当。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "但对于你，浮烟，这场枰上棋争打从一开始就没有公平的原则——我的实力完全在你之上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "「遵守规则」、以及「势均力敌」都是弈手常有的幻觉，就让我来教你如何终盘吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "战斗到一定回合"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "投子认负吧，你已经输了。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "浮烟附身的冥差身形变大"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "浮烟",
+          "text": "人类的胜负于我毫无意义。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "浮烟",
+          "text": "我们有自己的游戏规则。"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "神君出现…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "将军"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "赢得胜利"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "…我认输了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "承让。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "我终究不是燎原，我只是…一团黯淡的火焰，无用之物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "敢于挑战帝弓的将军，并且凭计谋令将军入局鏖战。这可不是「无用之物」能做到的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "身为胜者又故作谦逊的发言，真是教人作呕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "岁阳一族所映照的虽然是人类自身的欲望，但这份锐烈燃烧的样子……确实壮丽。无论是腾骁将军还是我，都不会嘲笑这样的对手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "输了就是输了——浮烟只求与将军一战，不求胜负，已经满足，接下来……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "接下来，等待你的将是永罚。对长生不灭的火焰而言，失去自由，困于空无一物的虚空囚牢中，比终结其存续更可怕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "浮烟，等待着你的，就是这样的命运。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "是啊，但那又如何……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "群山会塌陷，大海会干涸，岁阳会等着，等着重获自由的那一天再度到来。那一天也终将到来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浮烟",
+      "text": "只要仙舟的将军还存在，我将继续与仙舟的将军战斗下去，直到星辰熄灭。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）与景元交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "在景元将军的帮助下，你们顺利渡过了罗浮上下鲜为人知的「秘密危机」。捉鬼小队功劳不少，去问问寒鸦大人，看看她是怎么说的吧。",
+      "location": "仙舟「罗浮」-绥园"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "浮烟战意瓦解，已不再能成为祸患。看来这里事情已经解决，我也该回去了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "多谢将军前来救场。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "应尽之责而已，也兑现了对浮烟的承诺。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我这个奇兵还蛮厉害的吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "没错没错，这几日全仰赖开拓者了，景元在此谢过。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "这小小岁阳不会被轻易消灭，只要时间足够长，无论出逃概率有多小，总有一天，又会逃出封印吧。不过，这就留给以后的将军来头疼了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "不知道这燎原的碎片以后还会与多少位罗浮将军交手，如此想来，作为一介武人还有些羡慕。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "岁阳的目的还是挺单纯的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "目的是挺单纯的，但坏事可一件没少干。得向朱明仙舟取取经了……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你一开始就出手就好了嘛。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "我看这岁阳不算难得住你们，再说了，你们各自也从这系列事件中有所收获。这不是比我早早出手更好吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "这次出门倒也不算公务，没有向策士们报备，剩下的事情自有十王司处理。事情结束之后，我想，在场的公职人员都会得到应得奖励。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "至于你和那位桂乃芬姑娘，好处也少不了你们的。你看，帮罗浮将军做事，总是不会亏待你们的。我也不克久留，先一步告辞了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与寒鸦交谈"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "你来了，刚才我已经帮藿藿重绘了尾巴的封印，接下来就该处理浮烟的事情了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "…结果还是被封印了啊？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "尾巴",
+              "text": "你懂什么，这算是老子和十王司签订的「互不侵犯契约」。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "尾巴不想离开这里了吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "尾巴",
+              "text": "如果老子还是一个单纯的星火之精，我当然要浮游于天外了。但是我沾染了你们的人情世故之后，老子的「自由」早就不再那么简单了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "尾巴",
+              "text": "现在老子就已经是最自由的，哪里也不去了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "嗯，按照十王司戒律，岁阳尾巴还是应该由判官看管，所以…尾巴大爷就交给我了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "嘁，谁看管谁还不一定呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "…另外就是，尾巴大爷不在的时候，别的岁阳都欺负我，还是有大爷在的时候比较安心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尾巴",
+      "text": "有老子在的时候，老子自会收拾你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "总之，浮烟的事情交给我，至于「罗浮杂俎」的事情…按照老规矩，你们得编一套新的说辞了，这些事情就交给你们了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "还有，别忘了将岁阳封印到「束形却邪阵」里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "明白！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "将岁阳投入镇妖塔"
+    },
+    {
+      "type": "objective-description",
+      "text": "十妖在林，不如一妖在手。岁阳唯一该去的地方，就是绥园中的镇妖塔。\n别忘了，夺取藿藿神智的岁阳还在「藏月瓠」里呢。",
+      "location": "仙舟「罗浮」-绥园"
+    },
+    {
+      "type": "text",
+      "text": "驱除幽厉，拿捉精灵。在十王司冥差的协助下，你们封印了「藏月瓠」内岁阳。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "我把最近帮助十王司斩妖除魔的事情，发信告诉了我娘。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "你是怎么说的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "我说自己和「武胎剑骨」的天才彦卿五五开，还和大岁阳燎原的碎片打得有来有回，但她居然嫌我惹事生非！她是不是想故意说反话呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "云骑的巡逻正事你没干吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "素裳",
+              "text": "保护仙舟免受岁阳侵害，还有比这更正的正事吗？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "…你还需要更多的历练。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "素裳",
+              "text": "你怎么说话跟我娘似的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "嗯！裳裳现在可厉害了，不管醒着还是睡着，罗浮上谁也不能比咱们裳裳更靠谱！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "对了对了，帮我参谋一下这次该在「罗浮杂俎」上发什么吧！这可是大新闻，全靠这期内容涨粉了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "这人满脑子都是涨粉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "这叫职业素养。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "就像之前的内容一样，这次也都交给你了！开拓者！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "发布完帖子"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "至此，捉鬼小队的工作也算是告一段落了，请允许我作为十王司判官，感谢各位连日来的辛苦劳作，将岁阳灾害的影响降到了最低。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "接下来，也许还会有岁阳的漏网之鱼，不过已是微不足道的小事了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "如果有漏网的岁阳，也还是交给我们吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "不是我自卖自夸，咱们在「罗浮杂俎」上的文章，已经是罗浮最大的话题了。要是这么突然断更的话，真是对不起咱们的观众老爷们呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "桂小姐……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "就、就让小桂子保留着吧，我睡觉前不看一会「罗浮杂俎」，会睡不着……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "你们都这么说了，我也没有逼你们停止更新的权力，那你们就继续吧，不过……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "放心，我们是不会给十王司的工作添堵的。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "按照惯例，在群里同步下情报吧。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "记得回去分享一下账号情况。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "message-thread",
+      "title": "捉鬼小队",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "素裳",
+          "contentType": "text",
+          "text": "将军的神君，好帅",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "藿藿",
+          "contentType": "text",
+          "text": "好帅",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "好帅，我第一次看",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "每次看都好帅",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "每次看到神君出现，都觉得好帅"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "桂乃芬",
+                  "contentType": "text",
+                  "text": "是吧是吧",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "我已经看腻了",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "我已经看了太多遍，已经看腻了"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "桂乃芬",
+                  "contentType": "text",
+                  "text": "诶——",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "说回正题吧，恭喜藿藿找回了尾巴",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "素裳",
+          "contentType": "text",
+          "text": "好耶，真是没想到尾巴在寒鸦小姐那里",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "是吧，听说尾巴也花了很久才恢复过来",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "我想到一件事",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "素裳",
+          "contentType": "text",
+          "text": "你要拍摄尾巴是吧？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "你怎么知道？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "藿藿",
+          "contentType": "text",
+          "text": "这个……",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "藿藿不必勉强",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "藿藿不必勉强，要是不同意可以讲出来"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "藿藿",
+                  "contentType": "text",
+                  "text": "谢谢开拓者",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "尾巴是什么意见呢",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你们总得问问尾巴吧，尾巴怎么说"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "藿藿",
+                  "contentType": "text",
+                  "text": "大爷说他不愿意",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "尾巴大爷不同意也没事，咱们的新话题有的是",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "对了，现在还是先共赏咱们的数据吧",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "分享链接",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "藿藿已成为列车的访客，回到列车将有机会遇到藿藿"
+    }
+  ],
+  "warnings": []
+}

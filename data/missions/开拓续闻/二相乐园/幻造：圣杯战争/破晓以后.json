@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "破晓以后",
+    "pageId": 39925,
+    "revisionId": 101648,
+    "parentRevisionId": 100420,
+    "revisionTimestamp": "2026-08-26T11:11:44Z",
+    "fetchedAt": "2026-09-28T00:21:25.815Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%A0%B4%E6%99%93%E4%BB%A5%E5%90%8E",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%A0%B4%E6%99%93%E4%BB%A5%E5%90%8E&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "破晓以后",
+    "region": "二相乐园",
+    "type": "开拓续闻",
+    "version": "4.4",
+    "number": "07",
+    "series": "幻造：圣杯战争",
+    "description": "",
+    "requirements": "完成任务黎明之金星",
+    "requiredLevel": "21",
+    "characters": [
+      "Saber",
+      "钟珊",
+      "吉尔伽美什",
+      "朽叶"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "100"
+      },
+      {
+        "item": "星琼",
+        "amount": "10"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "2"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "2"
+      },
+      {
+        "item": "信用点",
+        "amount": "20000"
+      }
+    ],
+    "previousMissions": [
+      "黎明之金星"
+    ],
+    "nextMissions": [],
+    "objectives": [
+      "回到事务所，与Saber再会",
+      "查看圣杯"
+    ],
+    "synopsis": [
+      "翠绿奇美拉安慰吉尔伽美什，此行虽未寻得「不老不死的灵草」，亦已收获真正的财宝。朽叶为这场幻造圣杯战争写下结案，并期待属于她的旅途收获。"
+    ],
+    "extra": {
+      "相关活动": "「幻造：圣杯战争」",
+      "相关成就": "通往群星的轨道#幻造圣杯战争，结案",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "message-thread",
+      "title": "Saber",
+      "subtitle": "事已至此，先吃饭吧",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "Saber",
+          "contentType": "text",
+          "text": "开拓者阁下！能看到吗？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "Saber",
+          "contentType": "text",
+          "text": "啊，发送成功了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "Saber",
+          "contentType": "text",
+          "text": "事情是这样的：我和白厄阁下进行了酣畅淋漓的比试，只可惜翁法罗斯在呼唤他，无法一同为您回收失落的财宝助力"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "Saber",
+          "contentType": "text",
+          "text": "因此，身为从者，我应御主的最后心愿，前来会合"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "Saber",
+          "contentType": "text",
+          "text": "方便起见，会面地点就还定在侦探先生的事务所"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "Saber",
+          "contentType": "text",
+          "text": "就像在美梦世界的冒险，让我们再度并肩作战吧！"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "回到事务所，与Saber再会"
+    },
+    {
+      "type": "objective-description",
+      "text": "「只是因为身为天才，就可以轻而易举地飞向高处，在我只能想象的天空中自由翱翔。他们高瞻远瞩，也因此往往容易忽略、甚至遗忘那些脚踏实地的瞬间——但你不一样。」\n「本次测验结果：合格。」\n——时钟塔某君主之评语\n「附注：让你这个游戏白痴去到游戏之国，还真是辛苦你了。真想换我自己来啊。」",
+      "location": "二相乐园-鸽川区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "没想到，事件结束后，我们还能够相会……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "就让我们一起全力以赴吧，开拓者。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "很高兴能再度和你并肩作战。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "试问，你就是我的从者吗！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "虽然这次并非主从，但我们的誓约也不会改变。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "以不列颠之名起誓：我的圣剑，将再度为您而战。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看圣杯"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "完成圣杯战争试炼之后，在酒馆…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟珊",
+      "text": "您想喝点什么，小金人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "「雪白峰、云海遥、杉木山」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "要是做不出与扎格罗斯山脉的盐川同样层次分明的调饮，那就拿你们的招牌来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟珊",
+      "text": "好嘞，生理盐水一位。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷路的翠绿奇美拉",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哼，本王并非近乡情怯之人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "我只是在沉思罢了：即便财宝已悉数归位，此次旅途之初的目标也从未显现……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "「不老不死的灵草」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷路的翠绿奇美拉",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "你是想说，本王此行最大的收获——真正的「欢愉」——不是掠夺财宝本能的报偿，而是「生命的跃动」么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哼…哈哈哈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "哈哈哈…哈哈哈哈…哈哈哈哈哈哈…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "你这幼兽，脑袋真是单纯！和那绿色的家伙有得一拼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷路的翠绿奇美拉",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "前行至此，本王早已明白，这才是史诗应有的结局：在最后的最后，本王手中绝不会有任何事物残留！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "不老不死的秘法也好，生命的跃动也罢，全都是些转瞬即逝的东西啊！人类的双手什么都握不住，正所谓生不带来死不带走啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "这就是我旅途尽头唯一的报酬：一段故事落幕后，一切物质的得失相抵之后，仿佛凭空诞生的存在——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "「一无所有」——哈哈哈哈哈哈哈哈——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "既已为尘世之王，无以不死又怎能有损我们的伟业？新月沃土的麦子会成熟千千万万次，可世间仅一首我们亲手写就的史诗——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "所有的、所有的故事就只有这样简单：我们如人那般生，如人那般行走，直到死亡，尝尽世间全部「欢愉」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷路的翠绿奇美拉",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "我本就一无所有；我又几乎付出了一生去收获，去抛弃……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "至此…我漫长的童年，终于结束了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "由神创造，由人编织，回归泥土。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "凡有所求者皆有所得。我在此写下本次圣杯战争所有人的结局，为本次案情陈词作结。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "可是，对我来说……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "那一段故事落幕后，一切物质的得失相抵之后，仿佛凭空诞生的存在…又究竟是什么呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "虽然旅途还没结束，远远无法推理出最后的答案……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "但，我打心底里期待那一天到来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "有生以来第一次，前所未有地期待着。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "幻造圣杯战争"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "结案"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "长乐新朋，青鸟候风",
+    "pageId": 3158,
+    "revisionId": 77410,
+    "parentRevisionId": 34408,
+    "revisionTimestamp": "2026-02-01T16:37:25Z",
+    "fetchedAt": "2026-09-28T00:15:38.457Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E9%95%BF%E4%B9%90%E6%96%B0%E6%9C%8B%EF%BC%8C%E9%9D%92%E9%B8%9F%E5%80%99%E9%A3%8E",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E9%95%BF%E4%B9%90%E6%96%B0%E6%9C%8B%EF%BC%8C%E9%9D%92%E9%B8%9F%E5%80%99%E9%A3%8E&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "长乐新朋，青鸟候风",
+    "region": "仙舟「罗浮」",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "08",
+    "series": "乘槎驭风仙窟游",
+    "description": "符玄将卡芙卡解往太卜司，却要求你们暂作等候。罗浮仙舟正值多事之秋，谁人不是坐困围城？趁此休整的机会，你们到处逛了逛，静待着太卜司引路人传来消息。",
+    "requirements": "完成迴星周旋，未卜知先",
+    "requiredLevel": "34",
+    "characters": [
+      "三月七",
+      "瓦尔特",
+      "停云",
+      "青雀"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "3"
+      },
+      {
+        "item": "信用点",
+        "amount": "15000"
+      },
+      {
+        "item": "材料名",
+        "amount": "个数"
+      }
+    ],
+    "previousMissions": [
+      "迴星周旋，未卜知先"
+    ],
+    "nextMissions": [
+      "极数问玄，历事穷观"
+    ],
+    "objectives": [
+      "准备妥当后，来到长乐天的广场",
+      "根据短信照片所示，找到等待的使者",
+      "前往太卜司"
+    ],
+    "synopsis": [
+      "你们来到接头地点，发现正在玩牌的青雀。青雀正好结束一场牌局，起身带领你们前往太卜司。",
+      "你看到一处宏伟的巨树残根。停云介绍称，那是名为「建木」的古树，是仙舟「罗浮」曾引以为傲的宝物，而今只剩被斫断的枯朽残根。"
+    ],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "通往群星的轨道#殷勤探看",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "准备妥当后，来到长乐天的广场"
+    },
+    {
+      "type": "objective-description",
+      "text": "符玄将卡芙卡解往太卜司，却要求你们暂作等候。罗浮仙舟正值多事之秋，谁人不是坐困围城？趁此休整的机会，你们到处逛了逛，静待着太卜司引路人传来消息。",
+      "location": "仙舟「罗浮」-长乐天"
+    },
+    {
+      "type": "message-thread",
+      "title": "？？？",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "？？？",
+          "contentType": "text",
+          "text": "各位好，太卜命我等你们",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "？？？",
+          "contentType": "text",
+          "text": "掐指一算，也该到了吧",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "？？？",
+          "contentType": "text",
+          "text": "眼下有紧要事抽不开身",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "？？？",
+          "contentType": "image",
+          "image": "短信-？？？-图片1.png",
+          "file": "短信-？？？-图片1.png",
+          "acknowledged": true,
+          "asset": "assets/sr-images/短信-？？？-图片1.png"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这是什么意思？就一张图片，是让我们去这个地方碰头吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "好像电影里的绑匪接头喔……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "别开玩笑啦，我们走吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "根据短信照片所示，找到等待的使者"
+    },
+    {
+      "type": "objective-description",
+      "text": "符玄将卡芙卡解往太卜司，却要求你们暂作等候。罗浮仙舟正值多事之秋，谁人不是坐困围城？\n太卜司引路人的消息姗姗来迟，看来她此刻也被麻烦事缠身，与其枯等，不如动身寻她去。",
+      "location": "仙舟「罗浮」-长乐天"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "南座的牌友",
+      "text": "动作快点啊，青雀。等你过这一手，咱们哥几个都快坐化了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "西座的牌友",
+      "text": "听说太卜司的洞天也遭了灾？青雀，你怎么还有心思玩牌戏啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "太卜司的天就是塌下来，还有太卜大人顶着。虽然她老人家身高不济，能耐却是顶天的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "我来这儿也不是瞎玩呀，是奉了她的命令，在此等候要来的贵客。时间多宝贵呀，这叫「摸鱼工作两不误」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "看照片应该就是这里了。这…是个牌馆？！在这儿能有什么麻烦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "哈！这牌还不麻烦吗？哎呀，这是摸了个什么鬼……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "三位好啊！一看三位面带贵气，就知道你们准是太卜司的贵客！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "把大家叫到这里，就为这事啊？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你知道我们等了多久吗！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "你也不想让太卜知道你去玩牌吧？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "对不住、对不住嘛。我原本也想等你们来着…哎，那个，碰！！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "只是那附近被地衡司的人占去了，实在嘈杂…吃！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "我心说，要是在那样喧嚣的地方和诸位碰头，岂不是…到我了？杠！！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "…岂不是煞风景，不如就趁着闲暇时光带各位「长乐天」一游，顺便体验一下仙舟民粹——帝垣琼玉牌。等我…这一把……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "和啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "此间心愿已了，再无牵挂。客人，请，咱们出发吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往太卜司"
+    },
+    {
+      "type": "objective-description",
+      "text": "终于，你们与太卜司的使者青雀顺利会合。此刻的她确实「坐困围城」，正愁着怎么出牌呢。令你们不禁感叹太卜识人用人真是别出心裁。\n你们一到，青雀牌风大顺，心满意足地开始履行自己接引的职责。",
+      "location": "仙舟「罗浮」-长乐天"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "让诸位贵客等我许久，青雀实在过意不去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "也不算太久，在一旁看姑娘玩得热火朝天，也有些好奇这个帝垣琼玉牌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "嗨呀，先生说话真是耐心又体贴，还很有眼光呢！有兴趣的话，我来教教你这帝垣琼玉牌？很好玩的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "好啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "杨叔，现在是办正事的时候吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们看到远处有一棵通天巨树…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，你们看，那是…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "那是名唤「建木」的古树，「罗浮」仙舟曾经引以为傲的宝物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "天舶司的人也对历史这么有研究吗？厉害啊，新生代几乎都说不出它的来历了。据说这建木是上古仙舟遨游天外时所遗留的残迹。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "别看远望不过是半截枯木，按《上国梦华录》里的记载，它全盛时的体积「攀揽穹窿，垂挂辰宿」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "什么意思…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "是说这棵树的高度能攀上天空，枝条上能垂下星星。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那得有多大？列车这么大？不对，黑塔空间站这么大！也不对。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "垂下星星…这怕是整座仙舟都装不下吧！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "太空船里哪棵树都符合描述吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "青雀",
+              "text": "这是修辞！修辞！不要在故事里死抠现实的字眼啊！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "真是难以想象的雄伟巨树。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "青雀",
+              "text": "正是，总之想象有多大，它就有多大。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "反正都是传说罢了。我上下班路上，天天都能瞧见这般景色，看也看腻味了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "咱们走吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "就快到啦，各位跟紧。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "乘坐星槎前往太卜司…"
+    }
+  ],
+  "warnings": []
+}

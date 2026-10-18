@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "「均衡」的试炼•叁",
+    "pageId": 4166,
+    "revisionId": 13945,
+    "parentRevisionId": 13943,
+    "revisionTimestamp": "2023-07-12T14:34:57Z",
+    "fetchedAt": "2026-09-28T00:16:03.728Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E3%80%8C%E5%9D%87%E8%A1%A1%E3%80%8D%E7%9A%84%E8%AF%95%E7%82%BC%E2%80%A2%E5%8F%81",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E3%80%8C%E5%9D%87%E8%A1%A1%E3%80%8D%E7%9A%84%E8%AF%95%E7%82%BC%E2%80%A2%E5%8F%81&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "「均衡」的试炼·叁",
+    "region": "雅利洛-Ⅵ",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "03",
+    "series": "宇宙均衡",
+    "description": "「仲裁官」的试炼再度到来。它的内容、形式、好处和损害你已经很清楚了，不是吗？去吧，为了「均衡」……",
+    "requirements": "开拓等级到达40级",
+    "requiredLevel": "40",
+    "characters": [],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "星轨通票",
+        "amount": "3"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "12"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "10"
+      },
+      {
+        "item": "信用点",
+        "amount": "50000"
+      },
+      {
+        "item": "材料名",
+        "amount": "个数"
+      }
+    ],
+    "previousMissions": [
+      "「均衡」的试炼·贰"
+    ],
+    "nextMissions": [
+      "「均衡」的试炼·肆"
+    ],
+    "objectives": [
+      "前往「大矿区」挑战「均衡」的试炼。",
+      "通过「均衡」的试炼·叁。"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": "开拓等级到达40级后自动接取"
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往「大矿区」挑战「均衡」的试炼。"
+    },
+    {
+      "type": "objective-description",
+      "text": "「仲裁官」的试炼再度到来。它的内容、形式、好处和损害你已经很清楚了，不是吗？去吧，为了「均衡」……",
+      "location": "雅利洛-Ⅵ-大矿区"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "通过「均衡」的试炼·叁。"
+    }
+  ],
+  "warnings": []
+}

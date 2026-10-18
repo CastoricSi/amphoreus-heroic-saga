@@ -1,0 +1,1674 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "学者啊，于真理门前再会",
+    "pageId": 18459,
+    "revisionId": 77781,
+    "parentRevisionId": 70455,
+    "revisionTimestamp": "2026-02-12T18:53:30Z",
+    "fetchedAt": "2026-09-28T00:18:06.322Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%AD%A6%E8%80%85%E5%95%8A%EF%BC%8C%E4%BA%8E%E7%9C%9F%E7%90%86%E9%97%A8%E5%89%8D%E5%86%8D%E4%BC%9A",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%AD%A6%E8%80%85%E5%95%8A%EF%BC%8C%E4%BA%8E%E7%9C%9F%E7%90%86%E9%97%A8%E5%89%8D%E5%86%8D%E4%BC%9A&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "学者啊，于真理门前再会",
+    "region": "翁法罗斯",
+    "type": "开拓任务",
+    "version": "3.2",
+    "number": "09",
+    "series": "走过安眠地的花丛",
+    "description": "在得到{{塞纳托斯|死亡之泰坦}}的权能后，遐蝶引导着你借助生前回忆，抵抗死国的诱惑走出了冥界。你与遐蝶相拥，她将「死亡」火种交予你，随后她将回到冥地维持翁法罗斯的生死流转。在你回到创世涡心之后，在众黄金裔的注视下，归还了「死亡」的火种。你们也一同见证了那刻夏的最后时刻——他完成了「理性」试炼，并取出胸中的火种，身躯彻底消殒。",
+    "requirements": "完成任务公民啊，倾听那汹涌潮声",
+    "requiredLevel": "21",
+    "characters": [
+      "遐蝶",
+      "三月七",
+      "丹恒",
+      "姬子",
+      "瓦尔特",
+      "卡芙卡",
+      "流萤",
+      "阿格莱雅",
+      "缇宝",
+      "万敌",
+      "白厄",
+      "黄泉",
+      "那刻夏",
+      "黑天鹅"
+    ],
+    "relatedItems": [
+      "「死亡」的火种"
+    ],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "300"
+      },
+      {
+        "item": "星琼",
+        "amount": "40"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "4"
+      },
+      {
+        "item": "仙馔秘酿",
+        "amount": "80"
+      },
+      {
+        "item": "信用点",
+        "amount": "30000"
+      }
+    ],
+    "previousMissions": [
+      "公民啊，倾听那汹涌潮声"
+    ],
+    "nextMissions": [
+      "魔女的镜中回天"
+    ],
+    "objectives": [
+      "抵抗死国的诱惑，离开冥界",
+      "倾听阿格莱雅与那刻夏交谈",
+      "提交火种"
+    ],
+    "synopsis": [
+      "你在冥界的花海中醒来。遐蝶将指引你重返生者的世界，自己则留在冥界履行神职。她请你带回「死亡」的火种，完成逐火之旅。",
+      "于冥界的出口，你想回头再看一眼这片花海。一抹红色为你显现：「不要回头，向前看。」迷迷抓住你的手，带你重回人间。",
+      "「花海尽头，生者的魂灵将温暖汝之指尖。相拥之后，便是永恒的离别。」你与遐蝶完成各自的试炼，抵达命运预言的时刻，于此分别。",
+      "在前往冥界之前，遐蝶将你拥入怀中。这相拥短短一瞬，却是遐蝶「活过」的证明。",
+      "那刻夏与阿格莱雅交谈，得知她的灵魂已残存无几。两位黄金裔在各自命运的末端达成共识，在阿格莱雅之后，将由白厄接过领袖职责。",
+      "你将「死亡」的火种带回创世涡心，为遐蝶代行归还火种的职责。在缇宁的主持下，你向世界献上「死亡」。",
+      "代表「死亡」的星座亮起，塞纳托斯神性的回响于涡心出现。泰坦径直走向你，与你呢喃最后的祝福。",
+      "「我们」是记忆之种所绽出的芽，生长于某人对世界完美的记忆，那刻夏如是解明「理性」，归还火种。命运的箴言为那刻夏揭示：「汝将超越至纯粹之终极，回归腐败苦黑。」瑟希斯仍有一事存疑，最初的智种在谁人的记忆中生长？那刻夏会心一笑，将其留待后人解答。",
+      "那刻夏在创世涡心交出「理性」火种，而他的身躯也因此逐渐消散。「——至是，工程已毕，言尽于此。」",
+      "黑天鹅推测三月七的记忆遭到劫持。她向姬子坦白，调查翁法罗斯是为了阻止极端忆庭组织私藏世界。此时，「记忆」瞥视翁法罗斯。"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#解开缆绳，驶离那片冥界、通往群星的轨道#亲爱的母亲，是您赐予我生命",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "notice",
+      "tone": "蓝色",
+      "text": "以下部分属于任务「归程啊，莫向来时路回首」"
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "冥河在你脚踝缠绕成锁链，水波亦在低语着「回头吧，别再经历人间的苦难。」人间竟是如此遥远，你几乎不能闻见青草与蜂蜡，你几乎不能听见分娩的啼哭，你快要被留在死亡的永恒之中……",
+      "context": "通向人间的归途"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（花海…？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这是…什么地方？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "阁下，来重新认识一下吧：我在人间的名字叫作遐蝶，如今是「死亡」之半神，塞纳托斯的生之侧面……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "欢迎来到西风尽头，我的冥界。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你的冥界很美。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "每一位来到这里的亡者，都会发出同样的感叹。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "妈妈，我终于杀青了！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "你还是这么有活力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "你知道吗，阁下？这片花海，此地的每一朵鲜花，都由塞纳托斯亲手栽下。它们本来无生无灭，但在冥河带来的第一场雨中，它们获得新生，承载着无数灵魂发荣滋长……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "身为「死亡」的主人，我理应悉心照料，令它们在这片恬美的天地发芽绽放。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "正如凡间死生有序，这些花也会在成长的尽头枯萎、凋零，化作泥土，乘着雾气和海潮，升入天空……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "最后，它们会变成无声的细雨，落向人间大地。同一颗灵魂将以不同的面貌轮回流转，直至世界尽头……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "可惜，翁法罗斯已经等不到下一次鲜花绽放了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "现在，「死亡」已是我指尖的涟漪，它曾引渡世间的亡魂来到这里，但我——要洞开冥府的大门，令你回到生者的世界……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "作为交换…请你带回「死亡」的火种，完成逐火之旅，别让我们至今的努力付诸东流。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得物品「死亡」的火种"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我向你保证。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "谢谢你。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "但，你不回去了么…",
+                  "content": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你…不回去了么？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "代价是什么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "放心，「拒绝死亡」本来就是{{塞纳托斯|死亡之泰坦}}的神权。幸好，阁下的灵魂还未消散，这并非死而复生，而是引渡一位垂死之人回到现世。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "：那，你不回去了么…",
+                  "content": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "嗯，就像其他半神一样，我也要留在这里…拥抱自己的命运了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "只是，指引一位迷途者重返人间绝非易举。死亡的呢喃甘美而宁静，倘若意志不足，必将被冥府的长臂死死牵制。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "请把这当作一次特例中的特例，我会尽力而为，为了逐火之旅……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…也为了此生，我唯一能拯救的生命。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我会竭尽全力。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "那真是…太好了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "抵抗死国的诱惑，离开冥界"
+    },
+    {
+      "type": "objective-description",
+      "text": "一位迷途者重返人间绝非易举。死亡的呢喃甘美而宁静，倘若意志不足，必将被冥府的长臂死死牵制。\n不要回头，向前看。走出冥界，回到人间。",
+      "location": "翁法罗斯-通向人间的归途"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，这边这边！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "向前走，别回头。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "前进吧，列车会和你一起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我相信你，开拓者。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（回头）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "死者的呼唤",
+          "text": "阁下，求你，为我回头吧。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "死者的呼唤",
+          "text": "死亡是多么甜蜜…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "死者的呼唤",
+          "text": "来一场拥抱吧…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "死者的呼唤",
+          "text": "别再经历人间的苦难。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "死者的呼唤",
+          "text": "别走，阁下。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（往回走）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "开拓者，千万别回头啊。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "生死有命，但不是现在。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "听我说：向前。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（往回走）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "卡芙卡",
+          "text": "听我说：那里不是家。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "总有一天，我们的道路还会相交。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（往回走）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "流萤",
+          "text": "迷茫的时候，就寻找流星落下的方向吧。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇安",
+      "text": "昂首挺胸，和*我们*一起走向明天吧！"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（往回走）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "缇安",
+          "text": "小小灰，那边才不是明天！"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "没错，向着黎明升起的方向。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（往回走）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "阿格莱雅",
+          "text": "别回头，别让遐蝶后悔。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "前进！让我看见你的勇气。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（往回走）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "万敌",
+          "text": "灾厄的长臂只会掣肘懦弱的人，你是弱者吗？"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "搭档，与我一同——成为英雄吧。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（往回走）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "白厄",
+          "text": "搭档，别输给死亡的阴霾！"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（快到了……）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（终于……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（…谢谢你，遐蝶。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（可是，已经到终点了。也许，我还能最后再看一眼这片花海……）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不要回头，向前看。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不要回头，向前看。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "不要回头，向前看。",
+          "content": []
+        },
+        {
+          "id": 4,
+          "text": "不要回头，向前看。",
+          "content": []
+        },
+        {
+          "id": 5,
+          "text": "不要回头，向前看。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "黄泉的身影闯入你的意识…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "不要害怕。在那道路的尽头，始终会有一抹红色。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "它将为你指引出路。如此…你们一定能够在阳光下相聚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "过往开拓的旅途如幻灯片在脑海中闪过…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这是…？！）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这些身影和声音，究竟是…？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "「这一切，就是你曾经活过的证明。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "「你的灵魂、记忆、曾走过的岁月，和{{它|岁月之泰坦，欧洛尼斯}}为你揭示的，家的方向。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "「所以，前进吧。不要停下向前的脚步，不要辜负她的牺牲，还有曾经与你同行的一切——」"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "迷迷出现在你眼前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "好伙伴，这边——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "抓住人家的手，我们一起回家——！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "再见了，冥界。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我来了，人间。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你向迷迷的方向跑去…"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "继续…「开拓」吧。"
+    },
+    {
+      "type": "notice",
+      "tone": "蓝色",
+      "text": "以上部分属于任务「归程啊，莫向来时路回首」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（我…回来了。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "终于…我知道，你能做到。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "你的灵魂依旧是完满的，似乎有一种引力…在尽力将它维系。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "是{{欧洛尼斯|岁月之泰坦}}最后的祝福吗？还是…只属于你的奇迹呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "真是…不可思议。冥冥之中，一种似曾相识的感觉涌上心头，难以言喻。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "或许，是命运再度完成了自我实现；又或许，是开拓者阁下所熟知的、那天外世界的法则，令我们的{{命运|命途}}早已交错……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…看来，这不是眼下就能解开的谜团。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "成为半神的感觉，很奇妙呢。仿佛冥河就在我灵魂深处流淌，于呼吸间化作温润世界的细雨……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "还记得那句预言吗？「花海尽头，生者的魂灵将温暖汝之指尖。相拥之后，便是永恒的离别。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "我对阁下承诺过，会倾尽全力为它写下另一种诠释。现在，我既已成为半神，命运迎来结局——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "——我也终于能够以最美丽的姿态，为它写下句点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "那求而不得的心愿，终于能够实现。在崭新的世界里，每一朵绽放的生命，都将高举起双手，诉说这一刻的意义……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "我们所有人的每一次触碰，每一次拥抱，将再也不会是冰冷的剥夺……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "而要带着炙热的体温，将「爱」播撒向大地。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "彼岸…十分寒冷。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "你独自走在斯缇科西亚…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "遐蝶乘着死龙最后一次来到你的面前…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "最后，我能再借一次…你的体温吗？"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…向你伸出双手…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…你轻声答应…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…而后少女与你相拥…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "谢谢你，为我实现这个心愿。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "遐蝶乘着死龙离开了…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "我要前往的地方，是人们口中的哀伤之地。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "但凭借这一抹心跳，和怀抱的温热……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "我将把冥界变作温柔的归处。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…只余下满地安提灵花…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "这相拥短短一瞬，却是我「活过」的证明。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": ""
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "别了，阁下。愿我们…在新世界再会。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "倾听阿格莱雅与那刻夏交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "公民大会的事情暂告一段落，逐火之旅将会继续，元老院深受打击——这一切的缔造者阿那克萨戈拉斯也即将迎来最后的审判。\n直到最后的时刻，阿格莱雅才能和那刻夏打破彼此的芥蒂。",
+      "location": "翁法罗斯-创世涡心"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "现在 奥赫玛"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "创世涡心内"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "方才那盛大又荒唐的表演，就是你的毕生所求？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "我为真理舍弃一切，就是为了换来今天这一刻。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "倒是你诚如我所料，面对权力的可乘之机毫不犹豫。就像……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…嗜权如嗜腐的苍蝇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "我可没这么说。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "但最后的那番话…你已经知道了？我对白厄的安排。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "我失去了一只眼睛，视野却比任何人都更明朗。你人性将尽…与我这行尸走肉差不了多少了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "是啊，经过千年燃烧，我早已是一簇死灰。面对最后一尊大敌{{艾格勒|天空之泰坦}}…也只有他能绽放与之匹敌的烈火。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "看来，这是最后的机会了…不妨让我们打破对彼此的芥蒂吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "介意让我共鸣你的火种么，阿格莱雅？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "请吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "这…怎么可能？仅凭如此稀薄的灵魂…你真是疯了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "正如你能为未竟之事拖着死躯拼命前进，我也有不得不这么做的理由。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "在白厄成长为预言中的领袖之前，我必须维系逐火之旅，引领众人…哪怕只有一具空壳，只能前进寥寥几步。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "我早有预料，但没想到你已失却到这个地步……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "呵…何其讽刺。若你我能早些如这般交流，想必能免除不少误会吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "但抛开我们之间所有的理念差异，在这件事上，我始终与你想法一致——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "关于白厄。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "正是。他是天生的英雄，洞悉人心的能力甚至远胜于你。我能断言：他比你更胜任领袖，也只有他能完成你们的使命……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "…可惜，他是个被{{墨涅塔|浪漫之泰坦}}诅咒了的男人。不过根据我的猜想，他那穿红戴绿、花枝招展的可怕美学应该不耽误你们「再创世」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "恭喜我们，在各自命运的末端达成了一样共识。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "你这般反应，甚至让我想收回前言了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "阿格莱雅！我们回来了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "来欢迎我们浴火重生的大英雄，开拓者吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "希望他没听到你刚才的评论。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "哼，我这么批评他也不是第一天了——人贵有自知之明。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "提交火种"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "我衷心为这场凯旋感到欣喜……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "不过…与诸位同行的人里，似乎没有遐蝶的身影。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "看来，她不仅为我完成了证明，也为你们完成了使命。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她弄清了身世，也完成了试炼。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我相信她一直都在我们身边。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "…我同意。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "虽无法改写宿命，却还是为自己的叙事诗写下了最后一枚韵脚……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "吾师，请为我们吟诵神谕吧。{{开拓者|阁下}}，也请你为我们献上那枚滚烫的火种。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "你是她在大地上行走千年，亲手留住的唯一一条生命。我想…没有人比你更值得代行这高尚的职责。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那就让仪式开始吧。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "看呐，已回归的，或仍在远眺的众神！今天，我等将这剖白了的灵魂带来给你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "灰黯之手，塞纳托斯，它已记起了昔日的名字。它从白昼中来，并在这里步入你们的行列，回到它芬芳的居室。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "而那与泰坦携手的，是一位从死者中上升，在人间更生的旅人。他/她是细数岁月的黑夜，凭他/她正直的名字宣告——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "「庄严的十二泰坦，支撑世界的支柱——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "「我们于此索求神性，以填补世界的裂缝——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "「为肉身灌注黄金之血，为神谕甘愿枯竭干涸……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "上前来，天外的开拓者，与*我们*一起——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "献上火种…为它在天空中刻下星辰吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "献上火种。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "再会，遐蝶。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "提交火种，完成你的使命"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "属于「死亡」的星座……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "准确地说…是「死亡」和「生命」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "你们看！那是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "那是…遐蝶？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "不，只是神性的回响…她是为了试炼而来？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "*泰坦的呢喃*"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "回响很快消失…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "她…说了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "那是…泰坦的语言……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "遐蝶…不，应该是泰坦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "它说……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「…冰冷的死荫，已由我照亮。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「走吧。前路将是光明，和永恒不熄的烈火。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「别忘记……」"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "呵，最后还把场面搞成这样…接下来轮到我了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…我不会阻止你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "老师，你……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "什么表情，你不是也在场么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "好了，尽快完成处决吧——以免奥赫玛的神圣律法蒙羞，还耽误我创造新世界。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "老师…你永远都这样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "我不明白。如果你的理论不假，那成为泰坦的你应当没有前世的任何记忆…那成神又有什么意义？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "当然有。我就算真忘了自己是谁，也依旧聪明至极。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "找回前世记忆？自然不在话下。况且，不还有你么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "你在大会上说的那番话，我还是没能消化。就算它是真的…按照记忆重塑而成的事物，也不能和原来的画等号了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "那我现在就告诉你：你错了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "「我们」究竟为何物？我说，黄金裔就是未来的泰坦，反之亦然，但这个答案显然只对我们有效。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "那一般人呢？对他们来说，「我们」又究竟为何物？——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "世界的本质——灵魂——就像一粒粒微不可见的种子，记录着某人对世界本身的部分记忆。而「我们」正是种子绽出的芽，长成的参天大树。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "这…就是「智种」的含义？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "不错。当我们的肉体诞生，便成为世界新的延伸。由此，我们的种子也在某人记忆中播下，并在未来播散到无数人心中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "正如种子会受环境影响，我们的面貌也将在诸多记忆里有所不同，但我们承载的那一部分将永恒不变，因为世界本身正是如此。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "要想消灭我们的存在，就得毁灭世界本身。然而，总有一人将带着他完美的记忆活下去……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "那个人就是你，刻法勒之子——这也便是「负世之泰坦」的含义。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "所以，背负这个世界的全部，活下去。别让你珍重之人、别让「金织」女士失望——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "——更别让我的理论蒙羞。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "吾师，我向你发誓：我会引领所有人在新世界重逢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "哼，很好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "言尽于此。别了，各位，来世再会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "别了，「大表演家」。愿瑟希斯捍卫你的思想。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "以同样的方式致敬。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "愿瑟希斯捍卫你的思想。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "可还算满意，尊贵的泰坦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瑟希斯",
+      "text": "当然。吾在此立誓见证：神悟树庭「智种学派」的阿那克萨戈拉斯，业已战胜理性之试炼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瑟希斯",
+      "text": "于是，吾亦赐汝箴言——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瑟希斯",
+      "text": "「汝将超越至纯粹之终极，回归腐败苦黑。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "呵，这就是所谓神谕？听起来只是把我过去、现在和未来成就的一切复述了一遍。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "瑟希斯啊瑟希斯，你确实不过如此。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瑟希斯",
+      "text": "啊呀…毕竟汝已「超越至纯粹之终极」，可曾为吾留下哪怕一点余地哪？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "哼，承让。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瑟希斯",
+      "text": "不过，吾还是有个问题……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "我就知道……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "说，什么问题？我们搞不好在想同一件事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瑟希斯",
+      "text": "既然汝斗胆声明，吾等连同世界本身，皆凭他人记忆而生……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瑟希斯",
+      "text": "那末…最初的智种，又要在谁人的记忆中生根发芽呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "我怎么知道？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瑟希斯",
+      "text": "啊呀呀……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "不过，既然你我都对此感到好奇——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "——那就让我们身后的诸位人子，亲自代你我一探究竟吧。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "那刻夏从胸中取出「理性」的火种"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "那刻夏",
+          "text": "感到高兴吧，瑟希斯……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "那刻夏",
+          "text": "我将用你的灵魂，为新世界播下「怀疑」的种子——"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "那刻夏大笑，届时身躯在逐渐消散…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "那刻夏&瑟希斯",
+          "text": "「——至是，工程已毕，言尽于此。」"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与此同时，列车车厢三月七房间…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "…该庆幸的是，她还活着。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "列车最初打捞起三月七时，她也是这样？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "情况很相似。只是那会儿，列车上没有一位忆者能替她诊断。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "可她还是自然苏醒了。乐观点想，或许这次也有希望。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "从冰封中醒来时，三月的记忆一片空白。做最坏的打算，我决不能让同样的事发生第二次。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "还是来说说你的猜想吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "虽然证据还不充分，但依现状推断……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "三月七，她的记忆或许被人劫持了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "劫持？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "姬子小姐，试想一下，如果一个人失去了「记忆的能力」会怎样？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我并非生物学家。听说翁瓦克有一种鱼类，记忆容量不足一秒，过目即忘。也许会发生类似的事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "很可惜，「短时记忆」和「无法记忆」是完全不同的概念。或许你难以想象……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "失去记忆机能的个体，会变成一片空无。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "空无？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "寰宇间的一切都能以记忆诠释，这是忆庭的信条，也是这条命途存续的动力。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "「过往」由忆质构成，「未来」也是终将被转化的可能性，而「当下」…它从不真实存在，只是一种抽象的表达。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "所以，当一个人受命途影响，丧失了记忆的机能…他的实体也会受到牵连。这些冰晶，就是表征之一。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "…有件事我始终没有深究，黑天鹅小姐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你引领我们前来翁法罗斯，却始终不愿谈及真实目的。「收集记忆」…并不是一个能让我信服的回答。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "姬子小姐是在怀疑我么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "无意冒犯，我只是提出一种猜想。但如果可以，我希望能得到你的坦诚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "也就是说，到我自证清白的时间了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "当然，没问题。真正的原因是：翁法罗斯有着特殊的意义，在一些秉持极端理念的忆庭成员眼中，它…是一个「完美的范例」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "完美的范例？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "一个只能被忆庭之镜映照出的世界，意味着忆者拥有将其「私藏」的权利。如果那些「记忆」行者先一步掌握了翁法罗斯的奥秘……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "他们也许会释放野心，将更多世界改造成相同的模样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你尽力游说列车来到这片星域，为的是揭开秘密，挫败这些人的阴谋？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "此前我闭口不提，是不想将各位卷入忆庭内部的纷争。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "然而，改造世界绝非易事。那些极端分子想必不是普通的命途行者，他们拥有令使的力量？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "不妨再大胆些，我口中的人…并非个例，而是一整个「组织」。他们早已牵上了浮黎的小指。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "挟持三月七的人，会是他们么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "我不敢肯定。至少，他们能做到。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "我对三月七的遭遇深表遗憾，但我提供的交易依旧公平。翁法罗斯仍是一处绝佳的目的地，继续调查，或许也能探明意外的真相。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "姬子小姐，继续合作才是最明智的选择……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "…？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "发生什么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "…我部分收回刚才的话，姬子小姐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "我们确实做了一桩交易，但我也让你们卷入了不可预见的危机中…请接受我的致歉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "情况…有变？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "浮黎…祂的目光，刚刚掠过了翁法罗斯。"
+    }
+  ],
+  "warnings": []
+}

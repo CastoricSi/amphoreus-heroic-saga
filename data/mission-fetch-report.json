@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "mode": "update",
+  "sourceIndex": "data/missions.json",
+  "startedAt": "2026-10-06T08:43:59.072Z",
+  "finishedAt": "2026-10-06T08:48:05.162Z",
+  "uniquePages": 5,
+  "indexReferences": 5,
+  "pages": [
+    {
+      "name": "剧场及其复象",
+      "link": "https://wiki.biligame.com/sr/%E5%89%A7%E5%9C%BA%E5%8F%8A%E5%85%B6%E5%A4%8D%E8%B1%A1",
+      "sourceFile": "missions/开拓任务/千星城/月升之前，与兽共舞/剧场及其复象.wiki",
+      "dataFile": "missions/开拓任务/千星城/月升之前，与兽共舞/剧场及其复象.json",
+      "references": [
+        {
+          "category": "开拓任务",
+          "location": "千星城",
+          "series": "月升之前，与兽共舞",
+          "name": "剧场及其复象"
+        }
+      ],
+      "status": "error",
+      "error": "BWiki API 返回 HTTP 567"
+    },
+    {
+      "name": "知识、沉默、擦肩而过",
+      "link": "https://wiki.biligame.com/sr/%E7%9F%A5%E8%AF%86%E3%80%81%E6%B2%89%E9%BB%98%E3%80%81%E6%93%A6%E8%82%A9%E8%80%8C%E8%BF%87",
+      "sourceFile": "missions/开拓任务/千星城/月升之前，与兽共舞/知识、沉默、擦肩而过.wiki",
+      "dataFile": "missions/开拓任务/千星城/月升之前，与兽共舞/知识、沉默、擦肩而过.json",
+      "references": [
+        {
+          "category": "开拓任务",
+          "location": "千星城",
+          "series": "月升之前，与兽共舞",
+          "name": "知识、沉默、擦肩而过"
+        }
+      ],
+      "status": "error",
+      "error": "BWiki API 返回 HTTP 567"
+    },
+    {
+      "name": "无私的基因",
+      "link": "https://wiki.biligame.com/sr/%E6%97%A0%E7%A7%81%E7%9A%84%E5%9F%BA%E5%9B%A0",
+      "sourceFile": "missions/开拓任务/千星城/月升之前，与兽共舞/无私的基因.wiki",
+      "dataFile": "missions/开拓任务/千星城/月升之前，与兽共舞/无私的基因.json",
+      "references": [
+        {
+          "category": "开拓任务",
+          "location": "千星城",
+          "series": "月升之前，与兽共舞",
+          "name": "无私的基因"
+        }
+      ],
+      "status": "error",
+      "error": "BWiki API 返回 HTTP 567"
+    },
+    {
+      "name": "人造天堂，脑髓地狱",
+      "link": "https://wiki.biligame.com/sr/%E4%BA%BA%E9%80%A0%E5%A4%A9%E5%A0%82%EF%BC%8C%E8%84%91%E9%AB%93%E5%9C%B0%E7%8B%B1",
+      "sourceFile": "missions/开拓任务/千星城/月升之前，与兽共舞/人造天堂，脑髓地狱.wiki",
+      "dataFile": "missions/开拓任务/千星城/月升之前，与兽共舞/人造天堂，脑髓地狱.json",
+      "references": [
+        {
+          "category": "开拓任务",
+          "location": "千星城",
+          "series": "月升之前，与兽共舞",
+          "name": "人造天堂，脑髓地狱"
+        }
+      ],
+      "status": "error",
+      "error": "BWiki API 返回 HTTP 567"
+    },
+    {
+      "name": "狩猎愉快",
+      "link": "https://wiki.biligame.com/sr/%E7%8B%A9%E7%8C%8E%E6%84%89%E5%BF%AB",
+      "sourceFile": "missions/开拓任务/千星城/月升之前，与兽共舞/狩猎愉快.wiki",
+      "dataFile": "missions/开拓任务/千星城/月升之前，与兽共舞/狩猎愉快.json",
+      "references": [
+        {
+          "category": "开拓任务",
+          "location": "千星城",
+          "series": "月升之前，与兽共舞",
+          "name": "狩猎愉快"
+        }
+      ],
+      "status": "error",
+      "error": "BWiki API 返回 HTTP 567"
+    }
+  ],
+  "totals": {
+    "error": 5
+  }
+}

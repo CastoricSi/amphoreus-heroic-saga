@@ -1,0 +1,1132 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "相会在日落时分",
+    "pageId": 2486,
+    "revisionId": 77290,
+    "parentRevisionId": 34335,
+    "revisionTimestamp": "2026-01-18T19:13:19Z",
+    "fetchedAt": "2026-09-28T00:15:08.703Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%9B%B8%E4%BC%9A%E5%9C%A8%E6%97%A5%E8%90%BD%E6%97%B6%E5%88%86",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%9B%B8%E4%BC%9A%E5%9C%A8%E6%97%A5%E8%90%BD%E6%97%B6%E5%88%86&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "相会在日落时分",
+    "region": "雅利洛-Ⅵ-磐岩镇",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "09",
+    "series": "于枯索的冬夜里",
+    "description": "矿区风波暂告一段落。「地火」首领奥列格为报答各位无名客的支援，他同意与你们合作，并为你们安排了合适的住处。\n不过，上一次在大人物安排下入住旅店、随后被人反手捅一刀仿佛就发生在昨天。\n不知道现在返回列车，向帕姆索要绊线地雷还来得来不及…",
+    "requirements": "完成他们有多少人已掉进深渊",
+    "requiredLevel": "14",
+    "characters": [
+      "歌蒂",
+      "三月七",
+      "丹恒",
+      "布洛妮娅",
+      "希儿",
+      "娜塔莎"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "600"
+      },
+      {
+        "item": "冒险记录",
+        "amount": "3"
+      },
+      {
+        "item": "凝缩以太",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "8000"
+      }
+    ],
+    "previousMissions": [
+      "他们有多少人已掉进深渊"
+    ],
+    "nextMissions": [
+      "已故去的必如雪崩再来"
+    ],
+    "objectives": [
+      "前往奥列格为众人安排的住处",
+      "在歌德大饭店休息",
+      "出去散散心",
+      "和布洛妮娅散步聊天"
+    ],
+    "synopsis": [
+      "你们在旅店休息，梳理下层区情况。丹恒认为必须有所防备。布洛妮娅从与奥列格的交谈中归来，主动提出由她守夜。",
+      "星核之声对可可利亚低语，向其许诺一个崭新的世界。在日复一日的暗示中，可可利亚的心智逐渐被磨蚀。",
+      "你与守夜的布洛妮娅交谈，得知她对可可利亚的许多决定感到疑惑，但身为军人必须服从命令。布洛妮娅请你陪她走走，暂时忘却困扰。",
+      "诊所物资告罄，希儿申请替娜塔莎从被侵蚀的城区中收集物资。你与布洛妮娅正碰见这场会谈，主动提出与希儿一同前往。",
+      "娜塔莎为你们列了一份物资清单。你们需要去铆钉镇取回钢板和绷带，医用酒精，还有止痛剂。"
+    ]
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往奥列格为众人安排的住处"
+    },
+    {
+      "type": "objective-description",
+      "text": "矿区风波暂告一段落。「地火」首领奥列格为报答各位无名客的支援，他同意与你们合作，并为你们安排了合适的住处。\n不过，上一次在大人物安排下入住旅店、随后被人反手捅一刀仿佛就发生在昨天。\n不知道现在返回列车，向帕姆索要绊线地雷还来得来不及…",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "歌蒂",
+      "text": "哟，你们就是奥列格介绍的贵客吧？欢迎入住歌德大饭店。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "「歌德」…？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "歌蒂",
+              "text": "嗯，你是不是见过地上那家气派的歌德宾馆呀？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "啊，有些不好的回忆涌上来了……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "歌蒂",
+              "text": "那是咱们「大饭店」的分店。几百年前，歌德家一位前辈白手起家，一心相信自己能做大做强。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "歌蒂",
+              "text": "最后他终于完成了梦想，在地上最黄金的地段开了自己的分店。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "「大」饭店…？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "哎，太失礼啦。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "歌蒂",
+              "text": "哈哈哈，没事，你也不是第一位有这反应的客人了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "歌蒂",
+              "text": "几百年前，歌德家一位前辈白手起家，一心相信自己能做大做强。后来他也的确做到了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "歌蒂",
+              "text": "你们见过那家气派的歌德宾馆吗？严格来说，那其实是咱们「大饭店」的分店哦。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…有梦想谁都了不起，好励志呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "歌蒂",
+      "text": "奥列格要我好好款待你们。钥匙拿好嘞，是咱们这儿最宽敞的客房。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "怎么说，开拓者？今天就这么歇了，还是再四处转转？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "疲了，回房间休息吧。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "走，再去镇上逛逛。",
+          "content": [
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "再次对话"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "休息",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "怎么说，开拓者？今天就这么歇了，还是再四处转转？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "疲了，回房间休息吧。",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "再多逛一会儿吧。",
+                  "content": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "又是休息时间，希望这次别再出什么幺蛾子了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那个奥列格，起码看上去还挺诚恳的——你们说呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "感觉是个好人。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "你怎么不来句「知人知面不知心」？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "我又不是杠精。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "知人知面不知心。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "骄傲吧？开拓者说话已经有你的范儿了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "与我无关。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我不发表意见。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "你看开拓者，特别洒脱地说出完全不负责任的台词。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "倒是很像你。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "不过问我的话，只能说「防人之心不可无」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "听你的，防着防着，毕竟上次在旅店被人捅刀子仿佛就在昨天。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "今晚派人守夜吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "守、守夜？这么复古吗？！那不是奇幻小说里的冒险团才会干的事吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "呵…呵欠，突然有股睡意……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我看三月挺精神的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "不、不行啦！我从来没通宵过哦？熬夜有多伤皮肤你知道吗！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "以身作则吧——丹恒？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "我对睡眠的需求不高，我来吧。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "守夜这事我当仁不让。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "你似乎很疲惫。不用勉强自己，交给我吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "我来守夜吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "布洛妮娅，你跟那个奥列格聊完啦？他没故意刁难你吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "没什么。话不投机，有些事我们没法达成共识。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "一下子得知了太多，今晚我怕是睡不着了…要是你们信得过我，就把放哨的事就交给我吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "不是信不过你哈，但让你守夜，我还不大放心…你一个铁卫军官跑到地下来，出事的可能性比我们还大吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "如果他们有近似的想法，我也不能怪他们…银鬃铁卫确实欠下层人的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "如果当初能有人站出来，跟可可利亚大人讲清楚那样做的后果…算了，马后炮没有意义。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "不必担心我的安全，「地火」的奥列格保证不会伤害我。我相信他那样的人会说到做到。去休息吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在歌德大饭店休息"
+    },
+    {
+      "type": "objective-description",
+      "text": "矿区风波暂告一段落。「地火」首领奥列格为报答各位无名客的支援，他同意与你们合作，并为你们安排了合适的住处。\n这所「大饭店」装潢实在是过于简朴，压根没有刀斧手藏身的地方，这让你不禁感受到家的温暖。\n无论如何，这已经是「地火」能提供的最舒适的住处了…不要有怨言，安心休息吧。",
+      "location": ""
+    },
+    {
+      "type": "text",
+      "text": "床摸上去不太柔软，但相比上层区宾馆室内冰冷的装潢，这间客房显然更有家的味道。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "好困…希望这次能睡个好觉。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "你又梦到了奇怪的回忆…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "可可利亚",
+          "text": "我失去她了…我的「愿望」，你们所谓的计划…这一切还有什么意义？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "舍弃颓丧…舍弃悲伤…舍弃无用的感情……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "可可利亚",
+          "text": "闭嘴！她是我的女儿，她是我唯一的……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "可可利亚",
+          "text": "你们懂什么，没有灵魂的东西？你们永远不会明白…永远！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "你没有失去她…她在另一头等着和你团聚。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "可可利亚",
+          "text": "……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "可可利亚",
+          "text": "「新世界」……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "站起来…守护者……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "完成你的宿命…完成一个「母亲」的愿望。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（又是那个声音…这个梦也太诡异了。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（毫无睡意，起来走走吧。）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "出去散散心"
+    },
+    {
+      "type": "objective-description",
+      "text": "这一晚虽没有军靴踢踏扰人清梦，可你却被梦中诡谲异常的低语惊醒。\n一连几天里，你的噩梦内容都是如此。这不寻常的巧合使你辗转难眠。\n硬逼着自己睡着只会使你更加焦虑…横竖都睡不着，不如出门散散心吧。",
+      "location": ""
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你走出门，看到了守夜的布洛妮娅…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "是谁！谁在那？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "…原来是你。下次别再从背后接近了，你该庆幸我手上没拿武器。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "你也睡不着吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "最近总是噩梦缠身。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "我懂你的感觉，烦心事太多，总把恐惧转化为梦境。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "有点焦虑未来。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "那你我彼此彼此，我讨厌身不由己的感觉，但是现在……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "不工作8小时我睡不着。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "…需要有个人管管你了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "正好，这里没有旁人…我能问你些事吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "那个所谓的{{「星核」|灾祸的源头}}…假设真的找到了它，你们有多大把握能阻止寒潮？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "百分之百！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "你表现得这么自信，我反而心虚了…这可不像帮小孩子捏雪球那么简单啊。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我不知道。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "这样吗…谢谢，你这么坦诚，我心里反而稍微踏实了些。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "这得问丹恒。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "他是你们的领袖吗？感觉他不管做什么事，都很笃定。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "其实，我很难相信你们的说法，对于一直生活在贝洛伯格的人而言，你们提到的那些名词太遥远了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "在我看来，可可利亚大人的命令——将你们逮捕才是合理的。但母亲一开始并没有这么做……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "所以她一定在你们身上看到了什么…一些我尚且觉察不出的东西。这让我很困扰……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "我不知道到底发生了什么，她为什么突然转变了态度？…但命令就是命令。军人不该过度揣摩命令。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你也是身不由己。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "你不必替我开脱，我也不止一次怀疑过自己，但履行义务的责任心总是会占到上风。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "盲从约等于愚蠢。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "这不用你提醒，我也不止一次怀疑过自己，但履行义务的责任心总是会占到上风。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "过去，上层区的士兵们不断在前线丢掉性命，但裂界扩张的脚步却丝毫没有减缓。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "可可利亚大人决定背水一战，她认为假如地面失守，少了地上供给的物资，地底立刻就会崩溃；但反之则能支撑更久。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "于是她把所有银鬃铁卫调去前线，封锁上下层的往来，只保留供给和地髓交换的通道。这个决策，我曾经是认同的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "可是缺少了银鬃铁卫的下层居然残败到这般地步…或许母亲的决定错了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "可我改变不了她的想法。我试过了，但她听不进去。我找不到方法……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们会帮你。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "帮我让守护者大人改变主意？她不是那么容易回心转意的人，这点没人比我清楚。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你当「大守护者」就行了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "你的意思是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "不行，这个念头太可怕了！绝对不行，不可能！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "越想越乱，越乱越想，根本找不着方向…我只是希望贝洛伯格的人民能过上更好的生活……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这世界比你想的要复杂。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我们互相帮助，或许有转机。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "单枪匹马阻止不了末日降临。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "…或许你说的对，或许不对。现在我…还要想想。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "陪我在这地下走走吧，暂时忘掉这些烦心事。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "和布洛妮娅散步聊天"
+    },
+    {
+      "type": "objective-description",
+      "text": "你在门外发现了同样夜不能寐的布洛妮娅。\n失眠症患者之间是会相互吸引的…现在你明白了，这恐怕不是一句玩笑话。\n和布洛妮娅聊聊，问问她为何这样忧心忡忡。",
+      "location": ""
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（试图远离布洛妮娅）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（不能跑太远，跟着布洛妮娅吧。）"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "不知多久没像这样散步了，想不到会在陌生的地方，跟刚认识不久的人一起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "这里好安静啊，我都有点不习惯了…周围越安静，脑海里的杂念就越吵闹。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "我想，大矿区里的流浪者也许是走投无路了吧？居然把手伸向无辜的矿队。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "但抛开个中背景或苦衷，罪行就是罪行。唉，面对这么复杂的情况，执法者到底该如何在公义和情理之间找到平衡……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们似乎听到了希儿的声音…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "…你靠手头上的物资还能撑多久？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "那是…希儿的声音？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "开拓者，我们上去看看。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "…我知道了，那我就去一趟铆钉镇，帮你把东西拿回来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "你一个人去也太冒险了，让奥列格派人和你一起吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "大叔他们都好几天没合眼了，还是先歇歇吧，硬撑着上，也帮不上我的忙啊，反而累赘。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "再者，你不是说了吗？有些矿工伤势很重，时间就是生命啊……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "遇到什么麻烦了吗？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我们来得真是时候。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "你们不是在休息吗，这个点出门做什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "…没打什么坏主意吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "睡不着觉出来走走而已，请你收回无端的指控。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "哼，那去别处走吧——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "希儿，别急啊，他们也许能帮上你的忙。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们愿意帮助娜塔莎小姐。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "哈哈，多谢你们啦。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "脾气这么大，我才不帮呢。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "别这样嘛。希儿是典型的嘴硬心软，她没有恶意的。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "没问题，我们什么忙都帮。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "是吗…怪不得你身上散发着主人翁的气质。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "是这样的，之前矿区那件事很多人都受了伤，诊所人满为患了。你们帮忙平息了骚乱后，希儿和我一直忙着照顾伤员。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "你也知道，地下的资源一直很紧缺，加上事发突然，诊所的医疗物资快要见底了，我们得从别处弄一些过来。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "地下还有别的镇子吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希儿",
+              "text": "嘿，别的镇子的状况比我们还差呢。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "把桑博给抓来？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希儿",
+              "text": "你还不了解他？只要是重要的事，你根本不能指望桑博这种人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "矿区之所以流浪者越来越多，就是因为裂界在地下蔓延，到处都是游荡的怪物，每个镇子都深受其扰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "赖以为生的物资设备都被裂界吞掉了，想从里边捞点东西出来，都得冒生命危险！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "…别这么激动，希儿，这对身体不好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "我和希儿其实都不是在这镇上长大的。我们来自北边的一座工业小镇，它的主城区几年前被裂界渗透了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "我原本在那管理一家孤儿院兼诊所，但侵蚀发生了，就不得不搬来这磐岩镇。毕竟得先保证自己能活下去，才有机会救治更多的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "是要去被侵蚀的城区里收集可用的物资吗？算我一个。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们也来帮忙吧。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你想怎么做？听你的。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "不要明白得这么快啊！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "你要一起来吗？我看你很疲惫的样子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "慢着！我还没答应让你加入呢！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "事关人命，多一个帮手没坏处吧。正好我有不少应付裂界的经验，一定帮得上忙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "哼，那……你别扯我的后腿！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "——希儿没有拒绝，就是已经认可你们啦。有你们陪着她，我也能放心了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "来吧，我给你们列一个物资清单。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "你们要去的地方叫铆钉镇，顺着北方的山路走下去，不用多久就能看到它了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "让我想想…用来固定断骨的钢板和绷带快用完了。铆钉镇的中心有一片集市，镇民撤离的时候还堆着不少货物。辛苦你们去找找吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "然后是医用酒精——哈哈，我在孤儿院囤了不少，因为孩子们经常打架。撤离的时候我没有带走…希望还没过期。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "最后是止痛剂。应该还有一批存在旧实验室里，希望没被怪物毁掉……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "有这些应该就够应付一阵子了，你们一路小心，千万不要勉强自己。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "钢板和绷带，医用酒精，还有止痛剂…记住了，小菜一碟。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "出发吧，争取在傍晚之前赶回来。早点把那些病号安顿好，我就能早点从他们的鬼哭神嚎里解脱出来。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（娜塔莎）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "娜塔莎",
+          "text": "感谢你，开拓者。要不是遇到你们两个，希儿就要一个人去裂界冒险了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "娜塔莎",
+          "text": "我知道她不是第一次应付这种事，但一想到她要对付那些畸形的怪物…我总是止不住会担心。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "你好像格外关心她。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "娜塔莎",
+                  "text": "毕竟我一路看着她长大，可不希望她有个三长两短。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "我觉得她能应付得来。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "娜塔莎",
+                  "text": "我知道。但毕竟我是一路看着她长大的，可不希望她有个三长两短。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "娜塔莎",
+          "text": "希儿她从小就是这个性格，好强，冲动，对陌生人来说有些难以接近……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "娜塔莎",
+          "text": "但她其实是值得托付性命的伙伴。只要再相处一段时间，你们会明白的。"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,3808 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "一座幻造城市的拓扑学结构",
+    "pageId": 28509,
+    "revisionId": 100590,
+    "parentRevisionId": 95922,
+    "revisionTimestamp": "2026-08-12T14:27:40Z",
+    "fetchedAt": "2026-09-28T00:19:04.079Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E4%B8%80%E5%BA%A7%E5%B9%BB%E9%80%A0%E5%9F%8E%E5%B8%82%E7%9A%84%E6%8B%93%E6%89%91%E5%AD%A6%E7%BB%93%E6%9E%84",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E4%B8%80%E5%BA%A7%E5%B9%BB%E9%80%A0%E5%9F%8E%E5%B8%82%E7%9A%84%E6%8B%93%E6%89%91%E5%AD%A6%E7%BB%93%E6%9E%84&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "一座幻造城市的拓扑学结构",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.0",
+    "number": "02",
+    "series": "欢迎来到乐园",
+    "description": "真珠派给列车组的导游，竟然是花火？不过在「欢愉」的地界上，这倒也合理。\n正好藉此机会，听花火介绍这座乐园的特别之处。",
+    "requirements": "完成任务幻月是慈悲的女王",
+    "requiredLevel": "21",
+    "characters": [
+      "三月七",
+      "花火",
+      "普狸策",
+      "斯科特",
+      "火花",
+      "朽叶"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "1100"
+      },
+      {
+        "item": "星琼",
+        "amount": "140"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "12"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "12"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "440"
+      },
+      {
+        "item": "信用点",
+        "amount": "120000"
+      }
+    ],
+    "previousMissions": [
+      "幻月是慈悲的女王"
+    ],
+    "nextMissions": [
+      "机械复制时代的艺术作品"
+    ],
+    "objectives": [
+      "调查站台上的地铁",
+      "尝试离开泊地站",
+      "员工通道离开泊地站",
+      "跟随花火，游览二维市",
+      "（可选）与满脸幸福的女人交谈",
+      "（可选）调查红绿灯",
+      "跟随花火，游览二维市",
+      "去美食街逛逛",
+      "追捕偷拍的狸猫",
+      "找到狸猫变化的物件，狠狠敲打一番！",
+      "追捕偷拍的狸猫",
+      "前往娱乐广场",
+      "看看花火在卖什么关子",
+      "与真正的导游会面",
+      "（可选）与「火花」粉丝们交谈",
+      "（可选）在广场上找找其他乐子",
+      "等待「火花」的直播开始",
+      "从火花的屏幕里逃走",
+      "对抗火花的狂热粉丝",
+      "前往后巷，与治安官交谈"
+    ],
+    "synopsis": [
+      "「来古士」向你和三月七问好，欢迎你们到来。假扮成「来古士」的花火随后现出真身，称自己受真珠委托，前来为列车组担当导游。",
+      "花火介绍「疾锋龙列车」，这是二相乐园的特产灵物——幻造种。依靠着人类相信未有之物的「愿力」，幻造种们才得以维持自身存在。",
+      "一众狂热粉丝将你和三月七团团围住，花火于是向泊地站的猫条站长求援。猫条站长请你们走特殊的「员工通道」离开车站。",
+      "你来到被称为「二次元JUMP！」的入口前，它通往二相乐园曾经所在的画中世界。花火请你和三月七随她一起跳入其中。",
+      "你和三月七、花火自画中世界返回现实，，被抛向二相乐园的高空，飞越盘旋在电视塔上的大妖怪。「欢迎来到二维市！」",
+      "街道上的幻造种来往不息，它们拥有和人类同等的工作权利。摩天大楼上悬挂着印有你肖像的巨幅海报，这是公司在为列车的来访造势。",
+      "商场前的顾客排起长队。花火猜测是有新漫画发售。三月七对《苍天航线绒绒号》感兴趣，花火却觉得你们应该不喜欢这本漫画。",
+      "花火介绍由公司打造的「机铠」，这是上次「幻月游戏」劫数后诞生的新幻造种。如今距离上一次满月，已有十五年。",
+      "在无梦咖啡馆前，一位满脸幸福的女人想你们搭话，并问你们想不想永远幸福微笑。",
+      "二维市的官方人员向你们介绍「尘灵」，它们是由细小愿望凝聚而成的幻造种雏形。",
+      "满脸幸福的女人自称来自「幸福微笑研究会」，并邀请你和三月七加入其中。三月七觉得对方神神叨叨的，提议与你尽快离开。",
+      "你仰望「幻月」，传闻它由阿哈亲自画下。花火介绍「幻月游戏」：八位戴着「面具」的谒者必须吸引民众关注，积累「愿力」，由此竞争面见星神的资格。",
+      "你猛然转身，将跟踪偷拍者抓个正着，并与三月七、花火一同将其围住。",
+      "偷拍你的狸猫记者来自《狸狸周刊》，想要藉此机会炮制捕风捉影的八卦新闻，并趁你们不备时逃走。你与三月七、花火即刻追捕记者。",
+      "你击中化形的狸猫，令其现出真身。对方慌不择路，继续逃跑。",
+      "你和三月七、花火将偷拍的狸猫逼入绝境。为了「捍卫新闻自由」，八卦记者普狸策摆出战斗姿态，你们只好给它点颜色瞧瞧。",
+      "普狸策认输，声称将花火错认成了另一位主播，请你前往《狸狸周刊》杂志社登门索赔。花火认为，在意图成为谒者的人眼中，名声大噪的星穹列车是最适合的「猎物」。花火提醒你们时刻警惕，并随她前往广场见识一位可能的敌人。",
+      "你们来到广场入口。花火称，公司为二相乐园搭建了完备的网络，让人能昼夜不分地浸泡在乐子里。但在她看来，公司的「欢愉」实在是无聊得要命。",
+      "花火不希望「幻月游戏」落入公司的控制，否则只会沦为一枚银河势力争权夺利的筹码。作为预演，她邀请你玩一局「银河战力党」。如果你赢了，花火就告诉你敌人的名字。",
+      "你战胜花火，得到名为「火花」的卡牌。那是一位寻求加入「幻月游戏」的主播，也是你将要面对的敌人。公司员工前来追捕花火，她并非被派来接待列车组的导游。花火与你们道别，留下一则友情提示：无论抬头或是低头，人类凝望天空时，看到的都是同一轮幻月。",
+      "原来斯科特才是真正被真珠委派来指引的导游，他在圣杯战争后加入了战略投资部，只是在履职前被人打晕并塞进了垃圾桶里。看到你们平安无事，斯科特也就放心了。",
+      "你提议和斯科特来一局「银河战力党」。作为导游，和你打牌也是他的工作之一。",
+      "（分支一）尽管你在「银河战力党」中输给了斯科特，他仍然夸赞你牌技了得。下次如果需要斯科特假装输给你，你就眨眨眼。",
+      "（分支二）你在「银河战力党」中战胜斯科特。斯科特感慨你牌技了得，并希望你回去以后为他多美言几句。",
+      "一只海报上的鳄鱼叫住你，称想玩「银河战力党」的话找它就好。",
+      "狂热的粉丝向你和三月七介绍火花，称之为最全能。最完美的主播。终于遇到了不关心星穹列车的人，三月七觉得心情有点轻松。",
+      "沉迷的粉丝发表了许多感言，冷静的粉丝则劝对方清醒一点，二人由此争执。",
+      "热情的粉丝在此等待火花的直播，并邀请你和三月七留在这里，一起欣赏火花在广场上的表演。",
+      "直播即将开始，火花出境与粉丝们亲切交流。互动之余，火花称观众里有人身上沾染着旧型号花火的气息。",
+      "火花自屏幕中探出身体，随后将你转入屏幕中，令你与三月七、花火分隔。「现在，她最喜欢的玩具归我咯~」",
+      "你逃出屏幕。火花动员她的狂热粉丝，称星穹列车意欲与公司一同操控「幻月游戏」，号召大家抓住你们。",
+      "「异常防御部」的治安官到场控制局势，尝试拘捕火花。火花嘲讽治安官们是公司走狗，随后逃离现场。",
+      "治安官朽叶向你们问好，称是斯科特专员把电话打到了「异常防御部」。朽叶提议带你们去附近吃点东西，慢慢等待列车组的其他成员。"
+    ],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "众秘探奇#妈妈我有膝盖了、通往群星的轨道#此地是神不在的乐园、通往群星的轨道#银河战力党、众秘探奇#凯瑟琳",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "睁大眼睛看好了…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "切不可放松警惕…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "以「智识」之名，横渡银河——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "我们再度重逢，天外的救世主。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么鬼？！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我知道，我们还会相见…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」？",
+      "text": "我并非您熟知的神礼观众，而是假面愚者，赞达尔·贰·桑原。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」？",
+      "text": "这一次，我选择走上「欢愉」，以我的幽默感击破博识尊。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "给我气笑了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我好像猜到你是谁了…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」？",
+      "text": "呵，毕竟我早就说过……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "最近的梦想，是加入天才俱乐部，扮演一个天才！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "小灰毛，三月宝宝，你们好啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "花火？！可恶，原来是你……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "是不是很意外？不过这次，我是作为「二相乐园」的文化顾问，特地来为列车当导游的。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你把真正的导游怎么了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "什么话，我就是你们的导游啊。花导。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "公司会雇佣假面愚者？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "什么话，这里是「欢愉」的世界，愚者遍地都是。做生意绕开我们？想都别想。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你是幕后黑手吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "你猜对啦，花火大人正盘算着将两位的命运玩弄于股掌间呢，怕了吗？"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "所以，花导是导游的导？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "回答正确！星穹列车加十分。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "我知道，在匹诺康尼，我们是有些小小的纠葛，但你们不是玩得很开心嘛？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "现在，星穹列车成大英雄了。那位{{首席执行官|真珠}}希望找一位友好相处的熟人带你们参观这里。我就接下这差事咯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "她到底对「友好相处」这个词有什么误解啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "时间滴答滴答流逝——幸好这里没有炸弹！所以，你们到底跟不跟我走啊？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "走吧，这也是开拓的一环。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "小心，你面前可是两大泰坦。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "行吧。但接下来，可别再扮成别人的样子啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "没劲。那…出发吧？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查站台上的地铁"
+    },
+    {
+      "type": "objective-description",
+      "text": "真珠派给列车组的导游，竟然是花火？不过在「欢愉」的地界上，这倒也合理。\n正好藉此机会，听花火介绍这座乐园的特别之处。",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哇哦——"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这是…列车吗？好帅气啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "多谢夸奖！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "列车开口说话了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "眼前这一位，既是列车，也是妖怪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "妖怪这种称呼，早就过时啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "时代变了，客人们。请按《灵物保护法》的说法称呼我们：幻造种。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "一板一眼的，这么喜欢公司教科书里的学名？算了，就依你吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "这位是「二相乐园」的特产物种：由画中诞生的灵物，「幻造种」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "从画中诞生？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "...二次元生物？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "很聪明嘛。一下子就理解了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "很久很久以前，这里的画家们发现，只要勾画出想象中的生灵，赋予它们名字，就能将造物带入现实。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "这种相信未有之物的信心叫「愿力」，它维持着幻造种的存在。要我说，这股力量一定是乐子神的恩赐！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "哎呀扯远啦！这位是「疾锋龙列车」，负责交通运输的幻造种，跟你们也算是同行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疾锋龙列车",
+      "text": "哈哈哈，两位是星穹列车的无名客吧？你们的八卦，我肚子里的乘客们常常念叨呢！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疾锋龙列车",
+      "text": "有机会，乘坐我试试吧～看看星穹列车和我比起来，到底谁更快！哈哈哈哈哈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "谢啦，有空咱一定！不过，这里的列车居然是活的生命，幻造种…真是不可思议。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "官方人员",
+      "text": "几位好，欢迎来到二维市！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "好家伙，站台上有警察？花火，你该不会要被当场逮捕了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "官方人员",
+      "text": "得知星穹列车到访，不少市民起了个大早，专程来一睹无名客的风采。要是有人做出出格举动，请随时呼叫我们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "嗨呀，小灰毛，三月宝宝，你们可是大明星啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "接下来，花导还要带你去见更多不可思议的东西，可别晕咯！"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（疾锋龙列车）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "疾锋龙列车",
+          "text": "快速、安全、舒适！有机会请乘坐我试试吧～"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "尝试离开泊地站"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "救命，居然挤了这么多人！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这又是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "别怕，只是些当地的小特产。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "激动的民众",
+      "text": "啊啊啊啊快看！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "更激动的民众",
+      "text": "那粉毛女孩！有点小兔子可可爱爱的感觉，她就是「三月兔」的原型？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "十分激动的民众",
+      "text": "她边上的灰头发姐姐/哥哥也太帅气了！应该就是「球棒浣熊」吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疑惑的民众",
+      "text": "可她/他一点也不像浣熊啊？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "二相乐园的朋友们！你们好！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "二相乐园的朋友们，你们好啊！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "虽然不知道发生了什么，但是…你们好！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "可恶！我也可可爱爱的啊？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "喂，你！对，就是你！快夸我可爱！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "叫错名字是天大的错误！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "给我记好了，是「银河球棒侠」，不是什么「球棒浣熊」！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "「三月兔」又是怎么回事啊？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "十分激动的民众",
+      "text": "他/她朝我们说话了！乐子神在上！这是我人生中最精彩的时刻！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哗然的人群",
+      "text": "看这边——看这边——列车组——我们——请给我签名——三月小姐我爱你——浣熊小姐/先生给我一个吻吧——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "疯狂签名！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "哗然的人群",
+              "text": "我拿到了——浣熊大人的签名！——我也要我也要——"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "向粉丝频频鞠躬！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "哗然的人群",
+              "text": "啊啊啊啊——"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "对大家抛出飞吻！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "哗然的人群",
+              "text": "啊啊啊啊——"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "官方人员",
+      "text": "请各位保持秩序！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这里的人，实在太热情了…我还是第一次遇到这种阵仗。这就是「狂热粉丝」吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "被众星捧月的感觉，是不是很让人陶醉？可别陷在里面，出不来哟？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是不错！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "可人也太多了吧？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "两位老板，不要沉迷和粉丝互动啦。今天的行程安排可是很紧张的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "我头上这根猫条先生！能告诉我怎么带两位离开这儿吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "这位客人，说话好伤人！我是猫条站长，负责泊地站的工作！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "猫咪…果然是液体的，等等，这只猫咪…是车站的站长？这个世界，也太怪了吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猫条站长",
+      "text": "车站已经被包围了，要是哪位贵客今天在这被狂热粉丝擦破点皮，薅走几根头发，我那点可怜的退休金就全泡汤了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猫条站长",
+      "text": "所以，我为星穹列车的贵宾准备了「员工通道」，请快快从那边离开车站！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "从员工通道离开泊地站"
+    },
+    {
+      "type": "objective-description",
+      "text": "以这种方式进入画中世界，也是游览项目之一吗？\n这下我也是二次元了。",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（尝试离开任务范围）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "猫条站长",
+          "text": "拜托，请不要往那边走，会引发混乱的！"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "员工通道…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "准确地说，是幻造种的员工通道。很久以前，整~个~乐园都被收进过一幅「画卷」里喔。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那样还能有人活着？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "对画中人来说，不过是进入了另一个维度，很安全的。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "二相乐园也不平面啊？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "那是因为有人将他们带回了现实。猜猜为什么公司会在这儿？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "这座一度沉入画中的国度，就是被公司打捞回来的。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "这是通往画中的通道？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "没错，「二相乐园」不得不品的特色，被称为「二次元JUMP！」的跃迁入口。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "虽然文明回到了画外，但画中的世界没有被遗弃，反而成为了人和妖怪生活的一部分。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "来吧两位，跟上我的脚步，一起跳进——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "二！次！元！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "JUMP！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "让我再准备一下。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "小灰毛，你怕啦？咕咚一下钻进去就好。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "游玩「二次元JUMP」难度Ⅰ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我…怎么变成帕姆了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "仔细一看，和帕姆也不一样啊…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "也许在这儿的人眼里，「开拓」就长这样？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "天呐，我可以跳好高！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "听，音乐变了！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "呦吼！出发啦！"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "花火",
+          "text": "飞咯！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "接住我——"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我…我差点以为…自己要上天堂了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "每次旅行都要从高处掉下来…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "小场面，我都习惯了。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "周围奇奇怪怪的东西还挺多。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这些…全都是幻造种吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "没错，这就是「二相乐园」，妖怪纵情往来的浮世，欢愉妙想汇成的乐土。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那趴在高塔上的大怪兽，正盯着咱们瞧呢…心里有点发毛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "他倒是不轻易吃人，除非看到——小粉毛！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "唉唉啊啊啊！干什么，你又一惊一乍吓唬人！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "这大家伙叫「雷虬」。别担心，在他眼里，咱们只是地上的小蚂蚁，还不够塞牙缝呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "雷虬…听这名字，他不该飞在天上打雷下雨吗？怎么盘在柱子上一动不动？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "时代变啦。公司颁布了法令，要求幻造种融入「文明社会」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "在法律上，他们拥有和人类等同的权利，这意味着——他们也得工作！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "什么？妖怪也要工作？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "这就是公司经营的世界啊，谁敢剥夺幻造种工作的权利？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "现在，雷虬为电视塔增幅电波信号，让全球用户都能稳定收看电视台放送的节目：无聊的直播，无聊的整人游戏……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "啊，还有列车到来的大新闻——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "快看，开拓者，那广告牌又是怎么回事？！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这是…我？我这么有名吗！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "不公平！怎么只有她/他的巨幅海报，我的呢？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这人长得和我真像…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "哪里是「像」啊！这不就是你吗！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "侵犯我的肖像权了吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "要是挂在这儿的是本姑娘，我可不会说出这么煞风景的话。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "呵，公司为了捧你们，真是造足了势头啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "可别怪花导多嘴，公司人花出去的每一分钱，都是为了几百几千倍的回报，你们可千万要当心哦。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（尝试返回地泊站）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "花火",
+          "text": "咱们好不容易才从人堆里钻出来，怎么又要钻回去？"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随花火，游览二维市"
+    },
+    {
+      "type": "objective-description",
+      "text": "车水马龙的街道，形形色色的幻造种，还有表情丰富的幻月，二维市中的一切都宛若幻想世界般光怪陆离。我感觉到，身体里的「开拓」意志正在蠢蠢欲动。\n那还说啥啦，开逛！",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那是…杨叔最喜欢的大机器人！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "调查机铠"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这、这是什么？…飞头智械吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "这是前一次「幻月游戏」结束后诞生的新生命。幻造种「机铠」，由公司一手打造。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这也是画出来的？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "严格来说，是由公司机器绘制的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "虽说在二相乐园，创生幻造种的工作一直是由绘师负责…但公司嘛，总想着用他们那套工业化思维改进一切。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这也是生命？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "这东西也是幻造种？看起来和机甲没什么差别嘛？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "？？？",
+              "text": "年轻的女孩，我必须纠正你的认知偏差。我们和机甲绝不是同类。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "啊，机铠说话了！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "待机的机铠",
+              "text": "我们的诞生不像机甲那样繁琐，诞生的我们也不像智械那么脆弱。因为我们不需要安装智械的逻辑中枢，也无需置入机甲的能源动力炉。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "待机的机铠",
+              "text": "向模具流道注入材料，压铸零件，组合拼装。我们机铠一族就此完成，能飞、能跑、能跳，绝不逊色任何科技产物。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我明白，靠愿力就能动起来是吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "待机的机铠",
+              "text": "你很懂嘛！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你说上一次「幻月游戏」？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "是啊，十五年前的事了。满月期间，是愿力最高涨的时刻，幻造种也会借这个机会繁衍兴盛……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "就跟纪录片里面说的那样：春天到了，万物复苏，又到了妖怪们繁衍的时节。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "新鲜劲也该过去了吧？咱们继续走着。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（待机的机铠）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "啊，真想给杨叔买一台作为伴手礼。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "杨叔是大人了。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "三月七",
+                  "text": "大人…也有权利玩玩具啊！"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "杨叔知道了会很欣慰的。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "三月七",
+                  "text": "嗯，我也觉得，喜欢大机器人的杨叔也是个少年啊。"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "机铠…应该不是玩具吧。",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "待机的机铠",
+          "text": "女孩，按照《灵物保护法》的规定，禁止买卖幻造种。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "哇！对不起！开拓者，咱们快走吧！"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那照相亭，长得好像我的相机啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "那是「黑猫拍立得」，想去看看嘛？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "花导，这些人排个长龙是在干什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "应该是新漫画发售吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "《苍天航路绒绒号》…是什么？好想买一本看看啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "噗嗤。我觉得，你们应该不会喜欢这本漫画。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那是…猫猫开的甜品店吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "无梦咖啡馆，是猫咪幻造种开设的连锁店，这里的咖啡与甜品都很美味喔。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "点一杯猫屎咖啡！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "别、别说话！我这就给你买杯咖啡堵住嘴。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "和姬子的咖啡比又如何？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "用姬子姐亲手调制的液体炸弹来对比，对这家店有些失礼了吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "让我来品一品。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满脸幸福的女人",
+      "text": "两位是外星来的旅客吗？欢迎来到二相乐园。银河的局势还好吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "刚刚击败一位绝灭大君。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "好得很，一切平安。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满脸幸福的女人",
+      "text": "呀，这不是星穹列车的英雄吗！真荣幸，能遇见二位。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满脸幸福的女人",
+      "text": "身为无名客，你们平日一定要经历许多出生入死的冒险吧？想不想无论面对怎样的逆境，都可以永远幸福微笑呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "永远幸福？真的能做得到吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "永远幸福等于没有幸福。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "是哦，一直吃小甜点，小甜点也变得不甜了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你是假面愚者吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "满脸幸福的女人",
+              "text": "假面愚者？当然不是。愚者们追求自身的快乐，而我们想让所有人都幸福。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "「让所有人幸福」…哈哈哈！这真是我听过最好笑的笑话了。大概只有匹诺康尼那位大人物才这么有幽默感吧。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "抱歉，不想听广告推销。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满脸幸福的女人",
+      "text": "如果几位有兴趣了解，我就在附近，你们随时可以来找我。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）与满脸幸福的女人交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "让所有人永远幸福？总感觉有些不太对劲，听听这位满脸幸福的女人有何话说吧。",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满脸幸福的女人",
+      "text": "我来自「幸福微笑研究会」。众所周知，此处受乐子神祝福，是一片和平福地。不过即便过着平静的生活，生命仍被数不尽的烦恼和痛苦纠缠着。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满脸幸福的女人",
+      "text": "繁重的工作、微薄的薪水、严苛的上司…打开电视，银河里的坏消息扑面而来…这些统统都是幸福的敌人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满脸幸福的女人",
+      "text": "就像星穹列车打败绝灭大君，我们「幸福微笑研究会」的创始人，倾听来自乐子神的天启，发誓要帮助二相乐园的居民打败这些幸福的敌人，让所有人快乐！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "啧，「酒馆」里每个愚者喝大了都会这么说：听，乐子神在对我说话！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满脸幸福的女人",
+      "text": "两位，有没有兴趣加入我们？如果你们能成为研究会的一员，所有成员都会倍感光荣的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "小灰毛，三月宝宝，你俩该不会信她的鬼话吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这位小姐…看起来神神叨叨的。开拓者，咱们还是快走吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "没有兴趣。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "很有兴趣。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "满脸幸福的女人",
+              "text": "真的吗？请允许我向您介绍——"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "喂，咱们这街才逛到一半，你怎么就要被别人拐走了！抱歉抱歉，我们才刚来到这里，还有许多地方要逛。下次再为我们介绍吧！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "下次吧。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满脸幸福的女人",
+      "text": "是吗，真遗憾…没关系，获得幸福的机会始终都会等着您。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满脸幸福的女人",
+      "text": "希望能有一天和两位再次畅谈，引领两位获得永远幸福微笑的生活。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）调查红绿灯"
+    },
+    {
+      "type": "objective-description",
+      "text": "红绿灯上有些五颜六色的小团子，让我看看究竟怎么个事儿。",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "啊，红绿灯上有什么东西…咱们上天桥看看？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "看，那儿有家漫画店！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "刚才在车站里我就好奇了，这里的马路上似乎到处都有这些五颜六色的小团子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "官方人员",
+      "text": "啊，你们是游客吧？请不要惊慌，这只是一些被称作「尘灵」的小东西。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "尘灵？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "官方人员",
+      "text": "人类每时每刻飘过的小小愿望，都可能凝聚成一只尘灵。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "官方人员",
+      "text": "有人说这些小生命是幻造种的雏形——只是没人为它们描绘形体，所以它们就以最简单最自然的样子出现在世界上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "看起来倒是可可爱爱的，像团会蠕动的果冻……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "呃，问个不该问的问题，这东西可以吃吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "能吃吗？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "好吃吗？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "怎么吃呢？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "官方人员",
+      "text": "虽然它们很调皮，但，请不要伤害他们！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "在街边乱吃东西，可是会拉肚子的。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随花火，游览二维市"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "列车飞过天空时，我看到它了！这就是「幻月」对吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是阿哈的画作吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "传说乐子神亲自画下了它，不过真真假假谁知道啊。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这月亮也是幻造种？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "据说是乐子神亲自画下了它，如果传说属实，它应该算是第一个幻造种了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "所以，阿哈真的会透过这轮月亮，注视那些参加「幻月游戏」的人吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "看不出来，三月宝宝和小灰毛也对这场星神游戏感兴趣啊。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们想加入幻月游戏。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "我就知道！乐子神和你们的阿基维利一起旅行过。现在，无名客又被祂的游戏吸引到了这片乐园，真是缘分呐。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我们对幻月游戏不感兴趣。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我们只是来度假的啦。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "哎呀，目光不自然地投向了别处。两位都没什么说谎的天分啊。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你了解这个游戏吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "小灰毛，你算是问对人了。还有谁能比假面愚者更懂「欢愉」呢？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "所以，你想了解「幻月游戏」的哪一面？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "怎么才能加入游戏？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "你们应该听说过八位悲悼伶人向月亮献上故事，企图打动阿哈的传说吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "这八个人佩戴的「面具」，就是加入游戏的门票。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "在满盈的幻月下，选择其一，成为「谒者」，就能和其他七人竞争面见神明的资格。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "看来，要想加入游戏，得先获得面具才行。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这游戏到底要比什么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "用这个时代能理解的话说，就是「吸引流量」啦！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "「流量」？你骗人吧？神话时代哪有这种东西？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "传说就是这么讲的。悲悼伶人献上各自的故事，但乐子神看都不看一眼。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "于是，为吸引星神的目光，每一场「幻月游戏」都会留下惊人的壮举：什么铸成能拦腰截断大山的宝剑，将雪山变成飘浮的糖霜果冻……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "现在也是一样，谒者们必须竭尽全力，吸引乐园民众的关注，积累「愿力」。而乐子神，只会犒赏最激动人心的奇迹。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "花火对幻月游戏感兴趣吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "哦？难不成匹诺康尼的对手戏还不能让你尽兴？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "小灰毛，这回就算了吧。我最近也遇上了一些小小的麻烦。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "什么麻烦能让你烦恼？不会又在琢磨鬼点子吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "先卖个关子吧。接下来想去哪儿逛逛呢？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "去美食街逛逛"
+    },
+    {
+      "type": "objective-description",
+      "text": "车水马龙的街道，形形色色的幻造种，还有表情丰富的幻月，二维市中的一切都宛若幻想世界般光怪陆离。我感觉到，身体里的「开拓」意志正在蠢蠢欲动。\n那还说啥啦，开逛！\n\n是我的错觉吗？总感觉有谁在鬼鬼祟祟地跟踪我们。得想想办法，把跟踪者揪出来。",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "这边走，咱们可以拐进美食街，那儿可有不少好东西。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（尝试离开任务范围）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "花火",
+          "text": "小灰毛别乱跑，美食街在前面，你要去哪儿？"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "咔嚓咔嚓……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "嗯？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "吓！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "抓住啦！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "从刚才开始，我就觉得有人在鬼鬼祟祟地跟踪。看来不是我的错觉啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这小东西又是什么来头哦？嘻嘻，他打扮得和开拓者倒是有点像啊。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "居然偷拍我们……",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "确实，有几分相似。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "是我的狂热粉丝吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "也不奇怪，眼下星穹列车可是走到哪儿都备受瞩目的大人物。总有人对你们的一举一动关心得很呢……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "偷拍的狸猫",
+      "text": "咔嚓咔嚓！咔嚓咔嚓！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "偷拍的狸猫",
+      "text": "狸了个大谱！《狸狸周刊》独家报道！星穹列车知名浣熊竟与主播火花私会，二人或将联手加入幻月游戏……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "知名浣熊，私会…火花？他在说什么啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "不知哪儿来的八卦记者，想搞出什么花边新闻吧？同样是用照相机的设定，三月宝宝比这家伙可爱多了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "谁用你替我吐槽啦！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "八卦记者竟然是狸猫？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "偷拍的狸猫",
+              "text": "咔嚓咔嚓！咔嚓咔嚓！狸狸原上谱！星穹列车知名浣熊竟公然表示狸猫不能做记者，疑似存在人类至上主义思想！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "请不要偷拍我们！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "偷拍的狸猫",
+              "text": "咔嚓咔嚓！咔嚓咔嚓！狸了个大谱！星穹列车知名浣熊竟公然干涉新闻自由，疑似要对本报记者进行物理属性攻击！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "喂，你这家伙不要乱写报道！还愣着干什么？开拓者，快点抓住它！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "偷拍的狸猫",
+      "text": "抓不住我～哒嘟嘟～哒嘟嘟～溜了溜了！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "追捕偷拍的狸猫"
+    },
+    {
+      "type": "objective-description",
+      "text": "偷拍我们的八卦记者竟然是只狸猫，还想要炮制关于我的花边新闻？绝对不能让它跑掉！\n不过说起来，狸猫提到的「火花」是谁？",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（尝试离开任务范围）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "你跑反了吧？狸猫不是往那边逃了吗？"
+        },
+        {
+          "type": "text",
+          "text": "具体触发位置待测试"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "接下来是要杀狸灭口吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我们才不会做那么暴力的事！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "偷拍的狸猫",
+      "text": "狸猫变！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "咳咳咳…怎么还有烟雾弹？卑鄙的狸猫！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "找到狸猫变化的物件，狠狠敲打一番！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这家伙会变化成不同的东西，咱们到处找找！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与偷拍的狸猫对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "偷拍的狸猫",
+      "text": "啊呀我的屁股！狸了个大谱！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "可算抓到你啦～"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "偷拍的狸猫",
+      "text": "做你们的美梦！哒嘟嘟！哒嘟嘟！溜了！"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（尝试离开任务范围）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "人好多…去河堤下面看看吧？那应该是它唯一的逃跑路线。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "追捕偷拍的狸猫"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "终于把这家伙逼到死路了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "快把偷拍的照片删掉，也不许乱写报道！不然本姑娘可要不客气了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "偷拍的狸猫",
+      "text": "逃、逃不掉了！…我普狸策虽然只是个小小的八卦记者，但为了捍卫新闻自由，是绝对不会向黑恶势力低头的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "偷拍的狸猫",
+      "text": "哦哦呼呼呼呼！燃起来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这家伙怎么突然摆出来战斗姿态了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "真是只勇敢的狸猫！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这家伙到底在燃个什么劲…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "要上了喔！给我乖一点趴下！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗并获得胜利"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "八卦记者普狸策",
+      "text": "呜！请不要残害可怜的打工狸呀！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "刚才不还挺硬气的吗？偷拍花火大人和星穹列车，你胆子不小哦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "八卦记者普狸策",
+      "text": "认、认错人哩。本狸把你错当成了那位著名主播噜！至于列车的浣熊大人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "八卦记者普狸策",
+      "text": "咱们兄弟几个可是浣熊大人的粉丝！请看，本狸的穿着可全都是照着您那一身打扮来的哩。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "接下来该谈谈赔偿的事了。算上精神损失费、误工费和营养费之类杂七杂八的…你给咱们每人一百万信用点就行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "八卦记者普狸策",
+      "text": "吓？一百万？！虚照社长已经拖欠本狸…不是，拖欠全体兄弟好几个月工资哩！要不是为了钱…谁会铤而走险来干八卦记者，偷拍星穹列车的大人物哩？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "八卦记者普狸策",
+      "text": "本狸现在要钱没有，要命…也没有哩！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "算了，饶了它吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "小灰毛，你这么善良可是会吃亏的喔。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "得没收作案工具！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "八卦记者普狸策",
+              "text": "这台照相机可是承载本狸新闻理想的工作好伙伴哩，求求你，不要夺走它！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "虚照社长？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "你说的这个虚照社长是你们杂志社的老板吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "八卦记者普狸策",
+              "text": "不知道！虚照社长关照过，如果在外面闯了祸，千万不能提她的名字哩！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "你这不是把人家的名字透了个底朝天吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "八卦记者普狸策",
+      "text": "欸嘿，贸然冲撞了列车的浣熊大人，要赔钱，也不是不行哩！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哈？刚才不是还说要钱没有吗？怎么突然变卦了？有诈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "八卦记者普狸策",
+      "text": "本狸，确实没钱。但关于赔偿方案，请浣熊大人务必来《狸狸周刊》的杂志社小坐。名片、名片奉上哩！上面有杂志社的地址与联系方式。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "八卦记者普狸策",
+      "text": "请放心，虚照社长一定会奉上令浣熊大人满意的赔偿金的！一定，一定要来索赔喔！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "咳咳，可恶，又被它逃了。「一定要来索赔」？不知该不该相信那只狸猫的话。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "有空去坐坐吧。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "狠狠敲他一笔！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "真是有钱难买上门乐子。这一肚子坏水的小狸子既然发出邀请，你就过去瞧瞧呗。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "眼下的二相乐园，到处充满了盯着你们的眼睛，就像那只狸猫——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那么，花火，你又是怀着什么目的盯着我们的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "三月宝宝居然还在怀疑我？小灰毛，你相信我吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我也不信你。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "人与人之间连一点最基本的信任都没了吗？我可要破防了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我相信你！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "我就知道，不愧是最好的小灰毛~"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "清醒一点，你可别忘了，在匹诺康尼，她可是把我们耍得团团转。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你确实没有伤害过我们。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "说的不错。我又怎么会伤害我最喜欢的找乐子对象呢~"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "你们现在更应该担心的不是我，也不是刚才的八卦记者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "名声大噪的星穹列车抵达二相乐园，是前来度假的观光客？还是为星神的游戏而来，渴望分享祂的权柄？对这里的人们而言，你们什么都不用做，就已经站在了聚光灯下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "如果决定加入这场游戏，你们最好时刻警惕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "意图加入「幻月游戏」，成为谒者的人可不少。在他们眼中，星穹列车是最合适的「猎物」。我认识的家伙里面，就有一位可能成为你们的敌人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "待会儿她在前面的广场上会有一出好戏，我们一起去看看如何？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往娱乐广场"
+    },
+    {
+      "type": "objective-description",
+      "text": "狸猫偷拍者的事情得以解决。花火提议前往广场，见识一位潜在敌人将要出演的好戏。",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这些小尘灵还挺调皮。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "和三月宝宝一样活泼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我可乖了好嘛！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哇，好多金币！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "只是些无主的愿力碎片，遇到就捡起来吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "在这里，「欢愉」当然是最受敬拜的神明。不过人们践行「欢愉」的法子各有不同。你们瞧见那边漂浮着的巨大@标志了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "公司为二相乐园搭建了完备的网络，让人能昼夜不分地浸泡在乐子里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "{{「酒馆」|「世界尽头」}}传出风声，公司想控制这一次「幻月游戏」——虽然十五年前他们早就想这么干了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "在咱们愚者看来，公司人就像一群嗡嗡乱跑的工蜂，四处建设他们那些乏味、机械的商业蜂巢，不知疲倦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "要命的是，这些家伙居然真的以此为乐——他们的「欢愉」无聊得要命！更要命的是，这么无聊的「欢愉」像传染病一样，散播到了二相乐园每个角落。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "来吧，进去感受感受。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "看看花火在卖什么关子"
+    },
+    {
+      "type": "objective-description",
+      "text": "二维市的广场还挺大的，好不热闹。只是，花火所说的「敌人」在哪儿呢？",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（尝试离开任务范围）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "花火",
+          "text": "小灰毛，你这是要跑哪儿去？我们要去的可是广场啊。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "二相乐园的娱乐，多到能让人不带重样地玩到末日。但你知道这里缺少的是什么吗？真正的乐子！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "成天泡在网上，和成天泡在梦里有什么区别？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "「幻月游戏」决不能落入公司手中，沦为一场内部竞标的生意谈判，一枚银河势力争权夺利的筹码。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你说的敌人在哪？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "她就快出现了。小灰毛，要有耐心。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你更愿意看到「开拓」加入？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "你知道的，乐子神和阿基维利可是老朋友了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你认真得都不像花火了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "硬找无聊的乐子，花火也是会累的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "机会难得，就让你们好好见识下花火大人的认真形态吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "我在匹诺康尼见识过「开拓」的潜力。命途碰撞飞溅的火花，真是让人着迷！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "在二相乐园里，你们又能为「欢愉」献上怎样的惊喜？这里还有「存护」、「巡猎」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "有没有觉得，在「幻月游戏」开启前夕，二相乐园活像是一桌星神的牌局？既然如此——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "朋友们，你们有没有听说过「银河战力党」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "什么东西？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "这可是眼下这个世界最风靡的集换式卡牌游戏！「酒馆」里也有好多人在玩。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "卡牌上印着宇宙各路传奇人士，和他们的战力值！只要扔出骰子比拼大小，就能决定谁强谁弱！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "有没有我的牌？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "你猜猜看？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这和幻月游戏有什么关系？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "你这是接了哪一家的商单？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "小灰毛，来陪我打牌吧？就当是在这张小小的牌桌上，预演一次幻月游戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "赢了我的话，我就告诉你敌人的名字，也许咱们可以联手和她斗上一斗。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "小灰毛，来陪我玩一局《银河战力党》吧！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好，来打！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "还有别的事。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "唔？小灰毛，你还有什么别的事？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入对局并获得胜利"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "不愧是小灰毛啊，旗开得胜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "既然你赢了，这张卡就送你了。想要更多卡牌的话，就和广场上的牌佬聊聊去吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "卡牌上的人是谁啊？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "一位即将在广场上直播的主播——她称自己为「火花」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你说的敌人就是这个？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "没错，她就是你的敌人。这位主播和你们一样，一直在寻求加入「幻月游戏」的机会…要不了多久，她就会出现在广场上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你惹上的小小麻烦…就是她，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "唉，还是没逃过三月宝宝的第六感呢。她是咱们共同的敌人。如果你们需要我帮忙……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "…看到了！那个把我塞进垃圾桶里的女人，她在那儿！给我抓住她！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "我们生命中抛下的每一件东西，都会以意想不到的方式回到身边……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "既然公司的导游来了，「酒馆」的导游就该走了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "所以，你果然不是公司派来迎接我们的人！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "啧，美好的相聚时间总是那么短暂。最后，让我为各位献上一个友情提示吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "请牢牢记住，对所有加入「幻月游戏」的谒者来说，无论抬头或是低头，人类凝望天空时，看到的都是同一轮幻月。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这是什么…谜语吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "记住这个小小的谜语，也许之后再度见面时，你会用上它的。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与真正的导游会面"
+    },
+    {
+      "type": "objective-description",
+      "text": "不好，又中花火一计！我早该想到的，假面愚者怎么会愿意为公司打工？\n但来都来了，就在广场上等待「火花」的直播开始吧。",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "我…可算找着你们了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "您…不会就是公司委派给我们的导游吧，斯科特先生？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "没错！又见面了，两位祖宗！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "匹诺康尼圣杯战争结束后，大人有大量的砂金先生给了我一份弃暗投明的工作——为战略投资部效劳！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "这不，真珠女士希望找一位曾与列车组友好相处的老熟人来担任导游，我被安排了这份重任！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "谁知道就在今天来履职前，我突然被人敲了一记闷棍，醒来发现被人给塞进了垃圾箱里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "没错，就是刚才诱拐你们的那个女人！要是让我抓住，我一定让她赔个倾家荡产！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "砂金到底怎么想的…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "嗯，我都开始怀疑他用人的眼光了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "智械不懂人心啊…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "那位智械姐姐，到底对「友好相处」四个字有什么误解啊？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "突然怀念花火…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "和眼前这位一比，花火也可爱多了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "我知道！你们不想看见我这张神憎鬼厌的脸！鄙人斯科特完全理解各位的烦恼！只要你们平安无事，我就别无他想了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "两位祖宗，是想离开吃点东西，还是继续在这儿玩耍，还是想欣赏鄙人最新研发的动物口技？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "斯科特先生的敬业程度，竟然熟练到让人有一丝心疼。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们在等「敌人」出现。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "斯科特",
+              "text": "敌人？！我不允许！谁要想伤害我尊贵的两位祖宗，必须从我的尸体上踏过去！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "来打《银河战力党》！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "斯科特",
+              "text": "这…这不好吧？我不是拒绝您的要求，我也可以打，我也是牌佬。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "斯科特",
+              "text": "但现在是我的上班时间，我被安排的工作是您的导游，不是牌友。我得认真工作，可不能三心二意。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "斯科特",
+              "text": "瞧见那边那位牌友了吗？您可以找他聊聊嘛。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "和我打牌就是你的工作！",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "斯科特",
+                      "text": "既然是您吩咐，那我就恭敬不如从命。我说，你可不能事后打小报告说我不务正业啊。"
+                    },
+                    {
+                      "type": "tabs",
+                      "tabs": [
+                        {
+                          "id": 1,
+                          "title": "对局胜利",
+                          "content": [
+                            {
+                              "type": "choice",
+                              "presentation": "dialogue",
+                              "options": [
+                                {
+                                  "id": 1,
+                                  "text": "我赢了！",
+                                  "content": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "斯科特",
+                              "text": "不愧是无名客、大英雄！牌技竟然如此了得！"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "title": "对局失败",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "斯科特",
+                              "text": "不愧是无名客、大英雄！牌技竟然如此了得！"
+                            },
+                            {
+                              "type": "choice",
+                              "presentation": "dialogue",
+                              "options": [
+                                {
+                                  "id": 1,
+                                  "text": "可是我输了啊？",
+                                  "content": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "斯科特",
+                              "text": "您虽败犹荣！下次需要我假装输给您，您就眨眨眼。"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "斯科特",
+                      "text": "祖宗，我提供的情绪价值够不够？嘿嘿，记得回去以后多为我美言几句啊。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "斯科特",
+                      "text": "对了，这片广场上还有其他牌友，您要是不尽兴，可以找他聊聊。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "那没事了。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "斯科特",
+                      "text": "只要您吩咐，鄙人林登·斯科特会像影子一样毫无存在感地一边呆着去，直到世界末日！"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "三月七",
+                      "text": "烦人的家伙终于走了，我们去广场上瞧瞧这里有什么好玩的。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你还是静静呆在一边吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "斯科特",
+              "text": "只要您吩咐，鄙人林登·斯科特会像影子一样毫无存在感地一边呆着去，直到世界末日！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "烦人的家伙终于走了，我们去广场上瞧瞧这里有什么好玩的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（斯科特）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "您有什么需要吗，祖宗？"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "来打《银河战力党》！",
+              "content": [
+                {
+                  "type": "narration",
+                  "tone": "灰",
+                  "text": "（剧情对话如上）"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "没事了。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "斯科特",
+                  "text": "我会像影子一样，在一边呆着，静候您的吩咐。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）与「火花」粉丝们交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "广场上似乎有人在热切地等待着什么。和他们聊聊吧，也许能知道一些关于「敌人」的信息。",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与沉迷的粉丝对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉迷的粉丝",
+      "text": "我每天都要观看火花花的直播。她真的爱我，你们懂吗？只有在观看她的直播时，我才能感受到自己是在被爱着的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "冷静的粉丝",
+      "text": "你清醒一点，火花爱的是我们每一个人，不是你一个人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉迷的粉丝",
+      "text": "呵，就是因为你这种人，总是说什么「火花花爱着所有人」，她才不得不把自己隐藏起来，几乎从来不在公共场合露面！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉迷的粉丝",
+      "text": "哼，如果火花花和我结婚，我一定会保护好她！这样一来，她再也不需要对自己的个人信息如此严防死守了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "冷静的粉丝",
+      "text": "她防的就是你！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这些人看起来不像能正常沟通的样子，我们还是躲远点吧……"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（沉迷的粉丝&冷静的粉丝）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "沉迷的粉丝",
+          "text": "你根本就不懂火花花与我之间的爱！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "冷静的粉丝",
+          "text": "我必须把你这种畸形的爱扼杀在摇篮中！"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与狂热的粉丝对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "请问大家都在这里等什么呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "狂热的粉丝",
+      "text": "当然是等待火花大人的直播！你们难道不知道火花大人是谁吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们是外星人。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我们才刚到这里。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "狂热的粉丝",
+      "text": "我认得你。你是…新闻上提过的那个…对了！搭乘银河列车的有名客！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "是星穹列车的无名客啦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "狂热的粉丝",
+      "text": "别管什么车不车的。让我来给你们介绍一下伟大的火花大人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "狂热的粉丝",
+      "text": "她实在是太可爱了！她是最全能的主播，精通各种才艺，她的风趣，她的每一句话都徘徊在我的梦里！要短短几句话介绍这样完美的存在，根本做不到吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "终于碰见了不关心列车的人…不知为什么，心情居然有点轻松。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）在广场上找找其他乐子"
+    },
+    {
+      "type": "objective-description",
+      "text": "距离直播开始尚有时间，广场上似乎还有其它有趣的事。四处看看吧，我还没玩尽兴呢。",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与小高对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小高",
+      "text": "你好啊，小哥/小妹妹，在「画中世界」各处穿行的时候还习惯吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小高",
+      "text": "需要的话可以在我这儿练习一番？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "先来点简单的练练手吧。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "算了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小高",
+              "text": "想要练习的话，可以随时来找我。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与闲散的市民对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "闲散的市民",
+      "text": "你好，请问有什么事吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "听说你找人打牌？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "来一局银河战力党？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "闲散的市民",
+      "text": "欸？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "海报上的鳄鱼",
+      "text": "这位仁兄只是路过而已。小妹妹/老兄你搞错啦，想打牌的话找我就好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "海报上的鳄鱼",
+      "text": "下次牌瘾上来，又或是想来交换卡牌，随时找我。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与口对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "口",
+      "text": "你在这附近闲逛好一阵了，你是不是想玩这个广场上的游戏呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我想玩游戏！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "口",
+              "text": "那算你找对尘灵了。环顾四周吧，看看世界游戏大全三合一，你喜欢哪个？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "「不断向下堕落的尘灵」",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "口",
+                      "text": "那就去勇敢堕落吧。"
+                    },
+                    {
+                      "type": "narration",
+                      "tone": "灰",
+                      "text": "进入游戏《开拓妖精大挑战》"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "「想飞却飞不动的尘灵」",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "口",
+                      "text": "加油飞，别掉下去了。"
+                    },
+                    {
+                      "type": "narration",
+                      "tone": "灰",
+                      "text": "进入游戏《开拓妖精大挑战》"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "「等着天上掉钱的尘灵」",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "口",
+                      "text": "多捡一些，别客气。"
+                    },
+                    {
+                      "type": "narration",
+                      "tone": "灰",
+                      "text": "进入游戏《开拓妖精大挑战》"
+                    }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "text": "…感觉暂时不想玩呢。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "口",
+                      "text": "下次有空再来。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我问你个事…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "口",
+              "text": "什么事呢？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "你们这是什么造型？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "口",
+                      "text": "我是口。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "口口",
+                      "text": "我们是口口。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "口口口",
+                      "text": "我们仨就是口口口，有品吧？"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "这里都有些什么游戏呢？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "口",
+                      "text": "「不断向下堕落的尘灵」、「想飞却飞不动的尘灵」、「等着天上掉钱的尘灵」——主要是这三款时尚单品。"
+                    },
+                    {
+                      "type": "choice",
+                      "presentation": "dialogue",
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "怎么感觉有点丧丧的？",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "口",
+                              "text": "…有那种积极的尘灵，肯定也会有这样丧丧的，希望你能喜欢。"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "text": "怎么只有三款游戏呢？",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "口",
+                              "text": "…这里只有我们仨了，你看着办吧。"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "…感觉暂时不想玩呢。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "口",
+                      "text": "下次有空再来。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "抱歉我没空。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "口",
+              "text": "下次有空再来。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "等待「火花」的直播开始"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "热情的粉丝",
+      "text": "火花大人的直播…时间应该快到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "火花？刚才那只狸猫也提到过这个名字。她跟花火又是什么关系？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "所以，火花到底是谁？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "热情的粉丝",
+      "text": "喔？还有人不认识火花大人？我嗅到了新粉丝的味道！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "要不您受累给咱们介绍一下这位火花…小姐？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "热情的粉丝",
+      "text": "能向不了解的人介绍火花大人，真是太好了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "热情的粉丝",
+      "text": "她是二相乐园最可爱的网络主播！也是我们的救世主！我每天下班第一件事就是等待她的直播！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "热情的粉丝",
+      "text": "她马上就要在这个广场上直播了。留在这里，陪我们一起欣赏她的表演吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "陪他们一起等待…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "还有别的事…",
+          "content": [
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "再次对话"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "热情的粉丝",
+              "text": "直播…应该快开始了吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "热情的粉丝",
+              "text": "你们一定要看看火花大人登场的可爱样子啊！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "喂喂喂？各位粉丝！久等了，你们听得见吗！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "粉丝们",
+      "text": "听得见！火花花！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "今天大家有好好工作吗？有好好吃饭吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "粉丝们",
+      "text": "肚皮饱饱心情好，看火花花看到老！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "今天大家…有好好爱我吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "粉丝们",
+      "text": "一生只爱火花花，变心一定遭雷劈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "嗯？不对劲呀…今天的观众里，怎么有人身上，沾染了{{旧型号|花火}}的气息呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "糟了，这不会是说我们吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "让我看看，是哪个坏宝宝，去见了不该见的人呢？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "粉丝们",
+          "text": "火花花！火花花！火花花！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "火花",
+          "text": "嘻嘻，这不是旧型号经常提起的小灰毛吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "火花",
+          "text": "想和她联手对付我吗？真是坏东西！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "火花",
+          "text": "现在，她最喜欢的玩具归我咯~"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "从火花的屏幕里逃走"
+    },
+    {
+      "type": "objective-description",
+      "text": "这…这对吗？火花和花火简直是一个模子里刻出来的。并且，这场「直播」的交互性也太强了吧？",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "嘻嘻，让火花花好好给你打扮一下~♥"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "哎？我的造型变了？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你就是花火提到的「敌人」吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你和花火到底是什么关系？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "这个没用的{{旧型号|花火}}，请你们来救她？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "还是…希望你们加入「幻月游戏」？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "不错嘛。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "对抗火花的狂热粉丝"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "呀，被你逃出来了啊，电子囚笼里的小宠物。看来我还是要动用一些「爱的力量」才能把你抓回去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "我贴心的小粉丝们，那两个坏家伙要伤害我，拜托大家，保护火花花好吗！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "粉丝们",
+      "text": "抓住坏东西！抓住坏东西！抓住坏东西！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "喂喂，我们没有恶意，不能谈谈吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "啊！「没有恶意」，「我们谈谈」？这不是公司进入二相乐园接管一切的时候最爱说的话吗？看来你们是一丘之貉呢！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "你们想像公司那样，一手操控乐子神留给这个世界的游戏，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "{{欢愉之主|阿哈}}所留下的仪式，绝不能被你们玷污，变成一个无趣的、可悲的、枯燥的、乏味的、功利的…联谊活动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你对我们的误会可太大了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "恢复「幻月游戏」的乐子——这是假面愚者不可推卸的责任。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "我最最可爱的粉丝们～♥快上吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "狂热粉丝",
+      "text": "以火花花之名，在此宣判——你们有罪！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "狂热粉丝",
+      "text": "立即执行抓捕！抓捕！抓捕！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入第二波次战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "狂热粉丝",
+      "text": "火花花放心飞！我们把黑粉全打碎！(ﾉ>ω<)ﾉ♡"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "可恶，居然煽动粉丝来围攻我们。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "结束战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "到此为止！所有人！不许乱动！违法幻造种，你被捕了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "星穹列车的客人，我是「异常防御部」的治安官。别担心，有我在，她没法伤害你们的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "碍事的家伙，在「幻月游戏」期间，谒者的所作所为，官方应该无权插手吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "持有面具的人才算得上谒者，而你，不过是这片土地上，成千上万个自称「想要加入幻月游戏」却借机闹事的暴乱分子之一。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "二相乐园是法治社会，任何违背法律的行为，就算打着「幻月游戏」的名义行动，「异常防御部」也会严惩不贷。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "什么严惩不贷？哈哈，不过是一条公司的哈巴狗，居然有这么强的自豪感？真是太好笑了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "所以我才说嘛，公司治下的「二相乐园」，无聊到爆~连幻月游戏都变成了乖宝宝们才能参加的过家家。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "无名客，你们暂时自由了。不过，我会盯着你们的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "下次见面时，我一定要把你们变成我的忠实粉丝，变成…我的东西~♥"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "哼…逃走了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "两位，借过一边，我想和你们聊两句。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往后巷，与治安官交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "总算是有二相乐园的官方人员来管控局面了。网络不是法外之地，一定要给火花迎头痛击。",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（尝试进入广场）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "治安犬灵",
+          "text": "汪，你好！我们正在确保火花的粉丝有序离场，请暂时不要接近广场。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "幸亏及时赶来，不然后果不堪设想。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "放心吧，我和三月不会轻易受伤的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "不堪设想指的是，你和三月小姐把她的粉丝统统撂倒。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "再次自我介绍，我是朽叶，「异常防御部」的治安官。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "咱们就不用自我介绍了吧？朽叶小姐应该认识我俩。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "当然。报纸也好，电视新闻也罢，一直在报道呢。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我以为你是警犬驯养员。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "警犬？哦，你是说那些「犬灵」吧。人家可是正儿八经的警方执法人员，有些资历比我还深呢。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "不过，作为「异常防御部」的工作人员，我有一些小小特权可以借调他们为我办事。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "「异常防御部」？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "嗯，如二位所知，二相乐园是个奇妙的世界。被绘师画出的幻造生物，意外获得了生命的物品，画卷深处的异空间，还有我们脚下偶尔颤动的大地……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "这些都是「异常防御部」存在的意义：从管理超自然异常，到注册幻造种、确保他们的存续。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "当然，还有火花刚刚提到的「幻月游戏」。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "所以，是谁派你来救我们？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我猜的没错的话，应该是斯科特先生请你来的吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "原来那位盛气凌人的公司专员叫这个名字。这位…斯科特先生觉得对手不是普通的罪犯，是假面愚者，必须重拳出击，所以一个电话拍到了「异常防御部」。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "倒也不出所料…那接下来我们怎么办？导游跑了，和火花的粉丝打了一架…今天的逛街计划是不是泡汤了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "咱们是不是该打个电话给姬子姐，跟她通报一下情况？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "她眼下正在会谈吧？",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "会打扰她吧？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "说的是呐。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "二位倒也不用着急。对了，我猜你们应该还没尝过这儿的点心吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "这样吧，我带两位去附近先吃点东西，你们也好慢慢消磨时间，等待你们的朋友。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "好耶，我肚子早打雷了！"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

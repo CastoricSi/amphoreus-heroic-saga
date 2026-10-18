@@ -1,0 +1,1732 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "旅者啊，徘徊中忘却失真",
+    "pageId": 24073,
+    "revisionId": 77807,
+    "parentRevisionId": 69638,
+    "revisionTimestamp": "2026-02-12T19:21:24Z",
+    "fetchedAt": "2026-09-28T00:18:41.824Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%97%85%E8%80%85%E5%95%8A%EF%BC%8C%E5%BE%98%E5%BE%8A%E4%B8%AD%E5%BF%98%E5%8D%B4%E5%A4%B1%E7%9C%9F",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%97%85%E8%80%85%E5%95%8A%EF%BC%8C%E5%BE%98%E5%BE%8A%E4%B8%AD%E5%BF%98%E5%8D%B4%E5%A4%B1%E7%9C%9F&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "旅者啊，徘徊中忘却失真",
+    "region": "翁法罗斯",
+    "type": "开拓任务",
+    "version": "3.6",
+    "number": "03",
+    "series": "于长夜重返大地",
+    "description": "遭遇「长夜月」的忘却之后，你陷入到忆潮之中。多亏了星期日与昔涟的内外协助，帮助你理解了自己所处的现状，并且借由过去的记忆不断逃避「长夜月」的追踪…然而，她是这片忆潮的绝对主人，就在即将脱身之际，「长夜月」阻止了星期日，并将你藏进了忆潮的更深处。",
+    "requirements": "完成任务归途啊，近在咫尺难抵达",
+    "requiredLevel": "21",
+    "characters": [
+      "「闭嘴」",
+      "帕姆",
+      "姬子",
+      "瓦尔特",
+      "丹恒",
+      "三月七",
+      "长夜月",
+      "「长夜」",
+      "昔涟",
+      "卡芙卡",
+      "银狼",
+      "星期日",
+      "大黑塔"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "星琼",
+        "amount": "50"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "4"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "4"
+      },
+      {
+        "item": "无序秘酿",
+        "amount": "160"
+      },
+      {
+        "item": "信用点",
+        "amount": "50000"
+      }
+    ],
+    "previousMissions": [
+      "归途啊，近在咫尺难抵达"
+    ],
+    "nextMissions": [
+      "忆者啊，命途长河上溯洄"
+    ],
+    "objectives": [
+      "继续「开拓」之旅",
+      "调查奇怪的画框",
+      "前往大厅，搞清楚现状",
+      "查看访客记录",
+      "接听座式电话",
+      "调查留声机留言",
+      "面对长夜月留下的水母",
+      "跟昔涟一起逃离这里",
+      "了解在自己醒来前的记忆",
+      "与星期日一起逃离这里"
+    ],
+    "synopsis": [
+      "航线会议召开前，你在车厢房间中沐浴。但不知为何，你的房间里出现了一些奇怪的便笺和画幅。你决定仔细看看。",
+      "谐乐的音律在你耳边响起，你不由自主地触碰眼前的画，随即坠入其中。",
+      "你来到白日梦酒店，发现列车组众人集合于酒店大堂。姬子和帕姆催促你前来，称航线会议即将开始。",
+      "投票形成平局，你的意见至关重要。你环顾四周，发现三月七不知所踪。姬子鼓励你把三月七找出来。",
+      "你调查访客登记簿，发现一处未署名的留言。从远处传来迷迷的声音，为你指引方向。",
+      "你拨通前台电话，听到三月七的熟悉声音。从远处传来迷迷的呼唤，提醒你那不是她，别被迷惑。",
+      "你调查留声机，收听到支离破碎的星际和平播报。从远处传来星期日的声音，希望你找回你自己。",
+      "你意识到三月七不在这里，并冷静下来寻找脱困的方法。你尝试抓住迷迷和星期日伸出的援手，却被长夜月打断。",
+      "长夜月的忆灵向你逼近，危急时刻，昔涟以迷迷的样貌出现并挡在你的身前。迷迷请你跟随她，离开这里。",
+      "迷迷请你抓住她的手，一起躲入你最深的记忆中。迷迷吟唱祷言：「揭开记忆的帷幕，激起往昔的涟漪。」",
+      "你和迷迷来到黑塔空间站，看到卡芙卡和银狼。迷迷会守在这里，等你回望过去。",
+      "你看到自己苏醒前的记忆。卡芙卡称，在末王的预言里，「毁灭」「同谐」「虚无」以及未显露的第四条命途会将银河推向终结。而你是为了银河的愿望而启程的，在以你为主角的故事里，宇宙会逃离「终末」的命运。",
+      "根据卡芙卡的说法，当你和「记忆」关联加深时，这段回忆就会浮现，随后一场危机在劫难逃。长夜月的忆灵突破迷迷的保护，好在星期日及时将你带离。",
+      "你来到匹诺康尼大剧院，星期日正用「调律」驱散忆域对你的影响。你们必须早做撤离准备，在长夜月携忆灵追及之前。",
+      "星期日遭受长夜月忆灵的突袭。没有整顿的时间了，星期日启用后备手段，尝试将你强行带离忆域。",
+      "星期日尝试带你离开忆域，但你却被翻涌的忆质浪潮吞没。长夜月冷漠地看着你，直至你沉沦于黑色忆质的海洋。",
+      "星期日遭受重创，由黑塔带回现实世界，无法再通过「调律」加入战场。另一边，黑天鹅成功潜入忆域，即使这意味着与流光忆庭为敌。"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#命运啼哭之前",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续「开拓」之旅"
+    },
+    {
+      "type": "objective-description",
+      "text": "「再创世」的仪式已经顺利完成，翁法罗斯的旅程结束…了吗？继续回到「开拓」之旅，弄清自己的现状。",
+      "location": ""
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "三月七的心愿是「永远、永远一起旅行下去」……",
+      "context": "永不停止的「开拓」？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "列车上，你的房间，浴室里…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "嗯，哼哼哼哼哼哼哼哼……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "嗯，哼哼哼哼哼哼~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「闭嘴」",
+      "text": "沁甜的气息轻抚鼻腔，它来自云石天宫的七色浴盐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「闭嘴」",
+      "text": "多么圆满的一段旅程！「再创世」顺利完成，你为英雄写下了完美的句号。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "噔噔，噔噔噔噔噔噔……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "噔噔，噔噔噔噔噔噔~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「闭嘴」",
+      "text": "逐火是不断失却的旅途——直到你闪亮登场、扭转大局。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「闭嘴」",
+      "text": "绝灭大君？铁墓？不过是「开拓」的玩具。银河已经安全了，因为——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "——闭嘴！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "喂喂喂！现在开始列车广播——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "航线会议即将开始！请乘客们前往观景车厢，合议下一站的目的地帕！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（时间刚刚好，去开会吧。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（哈…神清气爽。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（嗯？这是什么？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（谁留下的便笺？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（奇怪，我好像……）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一股冲动涌入你的心口，催促你阅读便笺上的内容……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "看看它。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "看看它。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "看看它。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "三月七的留言",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "开拓者，\n\n我们要永远、永远一起旅行下去呀。\n\n你的伙伴，三月七"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这是什么…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "什么时候放在这的？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "好沉重的留言。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（三月…什么时候放在这儿的？一点动静都没听到……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（算了，当面去问问吧。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（咦？这又多了幅画……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（不过泡个澡的功夫，哪冒出来这么多惊喜？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（上前看看吧……）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查奇怪的画框"
+    },
+    {
+      "type": "objective-description",
+      "text": "「再创世」的仪式已经顺利完成，翁法罗斯的旅程结束…为什么自己什么都不记得？难道真的是以「记忆」为代价…？\n航线会议要开始了，要是真记不得了，列车组的大家会告诉你的。\n说真的，是谁把这么没有品味的画放在你的房间里了？",
+      "location": "星穹列车-派对车厢"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遥远的男声",
+      "text": "「请安静，我好像找到他/她了。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…谁？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这是……）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述1",
+      "text": "耳边响起谐乐的音律，牵引着你触碰眼前的画……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "醒来吧，开拓者。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "醒来吧，开拓者。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "醒来吧，开拓者。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "一道亮光闪过…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这是…「白日梦」酒店？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往大厅，搞清楚现状"
+    },
+    {
+      "type": "objective-description",
+      "text": "「再创世」的仪式已经顺利完成，翁法罗斯的旅程结束…为什么自己什么都不记得？难道真的是以「记忆」为代价…？\n这不是匹诺康尼吗？难道说「太一之梦」就一直没醒来？",
+      "location": "星穹列车-「白日梦」酒店-现实"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（到底什么情况…）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "开拓者乘客，你怎么才来？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "赶紧赶紧，航线会议要开始了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（航线会议…在匹诺康尼？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "快过来吧，开拓者。我们该决定下一站的目的地了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你来得正好，会议陷入了僵局，大家没决定好该去露莎卡星还是梅露斯坦因。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "票数是二对二，你的意见至关重要。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好像少了一个人。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "怎么没看见三月七？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "什么意思？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "开拓者乘客又在说胡话了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "哈哈，年轻人就是爱开玩笑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（他们，这是什么反应……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我明白了，开拓者是想和我们玩个游戏，对么？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么游戏？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我听不懂你们在说什么…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你说，你没看见三月。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "的确，她可能躲在大堂的某个角落。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "游戏的目标，就是把她找出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "作为她最重要的同伴，你一定能做到的，不是么？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（三月七，在和我玩捉迷藏么？）"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（瓦尔特）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "年轻人的游戏，我有些力不从心了。未来的舞台就都留给你们吧。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（瓦尔特先生的心态，怎么变得有些微妙…？）"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（丹恒）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "气色不错，开拓者。别担心，无论下一站去哪，我都会保护好你们。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（丹恒…居然这么主动？真不像他。）"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（姬子）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "姬子",
+          "text": "没准备好吗？要不喝杯特调咖啡，平复下心情？大家的评价都很不错。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（对姬子的咖啡评价不错？那还真是口是心非……）"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查客房的房门）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "客房的房门纹丝不动…"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查大厅中各个出入口前的陌生人）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "陌生的面孔，不怀好意的眼神，并非善茬。\n冷峻的陌生人…仅仅是相处在同一个空间之中就快要窒息了。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看访客记录"
+    },
+    {
+      "type": "fold",
+      "title": "不明访客的留言",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "来访时间：星期日   来访人姓名：■■■\n访客留言：仔细■听■■的声音"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（不署名的访客登记…还能算是「登记」吗？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（话说回来，我为什么要在登记簿上找三月七……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「粉色」的声音",
+      "text": "「开拓者……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「粉色」的声音",
+      "text": "「这边……」"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "接听座式电话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "前台的电话",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（奇怪，我有拨号吗？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "前台的电话",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "喂喂喂？是开拓者吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "嘿嘿，就知道你会给我打电话，想我了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "别着急，我们很快就能见面了，因为……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "「开拓」的旅行，会一直进行下去呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "前台的电话",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（三月……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「粉色」的声音",
+      "text": "「那不是她……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「粉色」的声音",
+      "text": "「别被…迷惑……」"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查留声机留言"
+    },
+    {
+      "type": "text",
+      "text": "（星际和平播报音乐）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "女声",
+      "text": "这里是星际和平播报，观众朋友们晚上好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "男播报员",
+      "text": "晚上好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "女播报员",
+      "text": "下面播报一则快讯，「智识」实验场■■■■已从■■■■■纠缠中脱离。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "男播报员",
+      "text": "绝灭大君■■■■未能如■■■■■的期望诞生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "女播报员",
+      "text": "最终拯救了翁法罗斯的，除了■■■十二名■■■■■，还有一名关键的■■■■……"
+    },
+    {
+      "type": "text",
+      "text": "*刺耳的频段干扰噪声*"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遥远的男声",
+      "text": "「我知道这很难，但你能做到。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遥远的男声",
+      "text": "「找回你自己，开拓者……」"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "面对长夜月留下的水母"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（三月七，她不在这里……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（一些若即若离的声音在和我对话，它们是从哪里传来的？）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "仔细聆听…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "又一场太一之梦…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（在匹诺康尼，我经历过类似的事……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（就连来古士的监牢，我也能逃离……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（冷静。这一次，我一定可以……）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "聆听同谐的乐声。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "遥远的男声",
+              "text": "「我找到你了，开拓者。做得好。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "遥远的男声",
+              "text": "「飞翔吧，挣脱忆质的牢笼。让谐乐成为你的翅膀……」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "长夜月",
+              "text": "「很有趣的小伎俩。不过，从他人的巢里掠走小鸟的行为……」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "长夜月",
+              "text": "「可算不上多光明磊落呢♭」"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "捕捉那道「粉色」。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「粉色」的声音",
+              "text": "「做得真棒，{{开拓者|伙伴}}！就像在冥界花海的时候……」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「粉色」的声音",
+              "text": "「捕捉人家的色彩，我们一起回家！」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "长夜月",
+              "text": "「你…也在试着扰动『记忆』……」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "长夜月",
+              "text": "「可惜，赢不过我呢♭」"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "任由自己沉沦。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "遥远的男声",
+              "text": "「千万不要放弃，开拓者……」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「粉色」的声音",
+              "text": "「开拓者，抓住人家的手！」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "长夜月",
+              "text": "「『同谐』和『记忆』……」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "长夜月",
+              "text": "「两位还真是组成了神奇的同盟呀♭」"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「丹恒」",
+      "text": "找到她了吗，开拓者？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「姬子」",
+      "text": "没有。一场徒劳的游戏，不是么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「瓦尔特」",
+      "text": "其实，你不必大费周章寻找三月七的下落。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「帕姆」",
+      "text": "因为在这片忆域里，三月乘客，她无处不在帕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "我们在守护「三月七」的愿望呀，开拓者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "你…难道感受不到吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "她不想告别「开拓」，想一起旅行下去，永远永远……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "我们是她的忆灵。为了她的愿望，必须倾尽所有呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "终于，时机刚刚好……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "激动人心的「英雄救美」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "呀，是不是该反过来说？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "迷迷…！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "昔涟",
+              "text": "是我啦——昔涟。不过现在是…「迷迷」形态！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "昔涟…？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "昔涟",
+              "text": "没错，现在是…「迷迷」形态！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "真是的，走神秘可爱路线的忆灵，有一个就够啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "{{开拓者|伙伴}}，跟着我。我们离开这里。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟昔涟一起逃离这里"
+    },
+    {
+      "type": "objective-description",
+      "text": "「再创世」的仪式已经顺利完成，翁法罗斯的旅程结束…果然是假的！\n这里是用你的「记忆」构筑的假象，你必须和昔涟一起赶紧逃进其他的记忆里。\n星期日正在用他的能力入侵你的「梦境」来拯救你…没想到还会有这样的一天。",
+      "location": "星穹列车-「白日梦」酒店-现实"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "为什么，要逃离？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "要如何，才能理解……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "第一步，别再吓他/她啦。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "变成这副样子后，人家也如鱼得水，更适应忆域了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "来——抓住我的手，我们一起躲进开拓者最深处的记忆。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "情况紧急，拜托了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我有好多疑惑…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "昔涟",
+              "text": "我也是！但当务之急，先甩开这些忆灵。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我的隐私呢？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "昔涟",
+              "text": "如果开拓者特别在意，人家就闭上眼睛，你牵着我走！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "「揭开记忆的帷幕——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "「——激起往昔的涟漪！」"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这里是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "空间站，开拓者的起点。看来，我们成功啦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "嗯，那是？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "银狼…卡芙卡？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "呀，开拓者的秘密！好好奇，但是不能偷看。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "记得和开拓者初遇的时候，她们也出现在你的记忆里。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她们在做什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我记得这一幕…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "昔涟",
+              "text": "是呀。这段记忆无比真实，无比…沉重。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "又一次…久违了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "昔涟",
+              "text": "开拓者的语气，很怀念呢……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "开拓者想上前看看吗？可以哦，就当是回望过去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "我会守在这里，绝不打扰你。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（迷迷）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "昔涟",
+          "text": "我们先在这里躲藏一会儿。如果开拓者想四处看看，不要离人家太远。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "了解在自己醒来前的记忆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这是……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（我苏醒前的记忆？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "…他/她还要多久才会醒来，银狼？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "不好说，估摸着要几分钟吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "对了，剧本上的「那一段」——现在是不是个好机会？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "嗯，我们在想同一件事。那……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "听我说。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "记住这段话，然后忘掉它。让它沉睡在你的记忆深处，直到未来的某一天被唤醒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "那时，你的旅途将与「记忆」交错，在艾利欧预见的多数可能性中，它都指向一次巨大的危机。你会经历背叛，陷入迷茫，需要…答案。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "所以，在聆听这段话前……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "我希望你，不要把它当作某种预言。引导你走到这一刻的，是你自己做出的选择。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "嗯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "我不知道那时的你经历了多少，那时的我在你眼中又是否值得信任。但如果你尚有一丝困惑，希望这番话能鼓励你……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "你是为了银河的愿望而启程的。在以你为主角的故事里，宇宙会逃离「终末」的命运。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "记下「4」这个数字。在末王的预言里，四条命途会将银河推向终结，你会在旅途中与祂们一一邂逅……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "「毁灭」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "「同谐」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "「虚无」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "还有「■■」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么，听不见…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "最后一道命途是？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "放轻松，相信你的记忆。第四道命途，还未完全展现祂的面容。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "所以旅途才有意义，不是么？即便在注定的「剧本」里，我们也有机会写下可能性，一种自己更喜欢的可能性。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "所以听我说：收下这份纲领，然后忘记它吧。以自己的意志扩写人生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "一如过去的你，在完成种种壮举的同时，从未忘记过追逐自由。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "真情流露？我都要潸然泪下了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "我们都活在「剧本」里。但为台词增添几分色彩，从来不是禁忌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "那几条分支剧情，不打算细说吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "算了，言多必失。准备好——他/她要醒了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "卡芙卡和银狼的记忆消失了"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…收回思绪吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "根据卡芙卡的说法，当我和「记忆」关联加深，这段回忆就会恰到好处地浮现，随后一场危机在劫难逃。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "但就算是星核猎手，也无法对「开拓」之旅了如指掌……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "果然，根源是三月七吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "就算列车没有来到翁法罗斯，她的秘密也总有一天会浮出水面……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那没什么好怕的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "既然如此，就没什么好怕的了。收拾下心情，回去找昔涟……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这是合理的推断。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "综合来看，这是最合理的推断。信息量有些大，不如整理一下，回去找昔涟……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "压力涌上来了……",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "压力涌了上来，都出现脑雾了…先调整下心情，回去找昔涟……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你想回头找昔涟，但却看到「长夜」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "昔…涟…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "突破啦，突破啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "粉色的小姑娘，怎么赢得过我们呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "不听话的开拓者……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "你本该待在美好的记忆里，等待一切劫难过去啊。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "看来恶战在所难免…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "昔涟在哪里？！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "黑化强十倍，真棘手啊…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "「三重面相的灵魂啊……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "「恳请你降下光芒，令一切阴翳无所遁形！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（星期日…？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "「高举双手，开拓者。拥抱这无数光——」"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…真是令人怀念的舞台。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "「是啊，开拓者……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "「对你来说，应该算是『好久不见』了吧。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "「这一切都要感谢昔涟小姐，即便被忆质裹挟，她仍在努力维系与天才们的联系。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "「我才得以靠『调律』抹去忆域对你的影响。」"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "在酒店时就察觉到了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "昔涟呢？她在哪里…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "「同谐」，很危险…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "「怎么了？你的表情充满犹豫……」"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "「先到舞台上来吧。『三月小姐』迟早会带着忆灵袭来，必须早做准备，我们才能带你平安撤离。然后再救出昔涟和三月七。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "「…务必小心。翁法罗斯被异常汹涌的忆潮席卷，我也只能尽力而为。」"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与星期日一起逃离这里"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "「黑与…粉红，两股『记忆』纠缠在一起。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "「时间宝贵，请加快脚步。」"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "是。黑塔女士，我和他/她产生接触了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "明白。我会完成分内之事……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "「真是华丽的巢穴啊，『同谐』的小鸟。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "唔…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "「对忆质的理解很深刻嘛，出乎意料。但这场闹剧要结束了。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "「我们应她的愿望创造出的海洋，这段永不终结的旅行……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "「任何人都休想干扰。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "她来了，这次的目标…是我么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "开拓者，没有整顿的时间了。我准备了其他退路——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "从沉睡中醒来，回到现实吧。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "星期日",
+          "text": "来吧，我带你离开。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "一股急速的忆潮从你身后袭来，想将你带入更深的记忆…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…星期日及时将你拉住…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "长夜月",
+          "text": "离开？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "长夜月",
+          "text": "自以为是的「同谐」行者……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "长夜月",
+          "text": "凭什么能做到？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "长夜月",
+          "text": "下次……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "长夜月",
+          "text": "还是找个忆者吧。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…但并没有支撑太久…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "唔……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "千钧一发啊，幸好我及时把你捞了出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "星期日，没事吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "瓦尔特先生……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "抱歉，我没能救出他/她。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "这场异变的源头，果真是三月么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "是…也不是。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "那位「记忆」行者的样貌与三月七别无二致，但内在……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我一时不知该如何形容。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "打个比方？你不是最擅长这个吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "那位「三月小姐」给人的印象，就像水面上的倒影。但并非平静、清澈的湖面，而是一潭深渊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "在她的言语中，我捕捉到一种强烈而纯粹的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "保护欲。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "「保护欲」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "只是我的猜测，被卷入翁法罗斯后，三月七或许经历…不，应该说预见了某种惨烈的结果。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "出于对列车组同伴的保护，她才会唤醒这种…近乎邪恶的力量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "乐观点想，至少三月七不会再陷入险境了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "经此一役，我恐怕难以再通过「调律」加入战场。所以……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "黑天鹅女士的行动，是否还顺利？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "不用担心。趁着你制造出的骚动，她成功掩人耳目，顺着忆域逆流而上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "看不出来，那忆者还挺勇敢的。违反律令擅自行动……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "这意味着，她将与流光忆庭为敌。"
+    }
+  ],
+  "warnings": []
+}

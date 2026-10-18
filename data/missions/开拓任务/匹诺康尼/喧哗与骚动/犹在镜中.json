@@ -1,0 +1,1392 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "犹在镜中",
+    "pageId": 9820,
+    "revisionId": 77431,
+    "parentRevisionId": 37360,
+    "revisionTimestamp": "2026-02-01T17:03:59Z",
+    "fetchedAt": "2026-09-28T00:16:23.621Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%8A%B9%E5%9C%A8%E9%95%9C%E4%B8%AD",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%8A%B9%E5%9C%A8%E9%95%9C%E4%B8%AD&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "犹在镜中",
+    "region": "匹诺康尼",
+    "type": "开拓任务",
+    "version": "2.0",
+    "number": "09",
+    "series": "喧哗与骚动",
+    "description": "流萤向你袒露了心声。无论你作何感想，现在都已经到了告别的时候…但你们还可以同行最后一段路。\n前往「黄金的时刻」，从那里返回现实与众人会合吧。",
+    "requirements": "完成任务夜色名为温柔",
+    "requiredLevel": "34",
+    "characters": [
+      "流萤",
+      "桑博",
+      "花火",
+      "黑天鹅"
+    ],
+    "relatedItems": [
+      "未知的筑梦碎片"
+    ],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "500"
+      },
+      {
+        "item": "星琼",
+        "amount": "60"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "10"
+      },
+      {
+        "item": "金表钞",
+        "amount": "250"
+      },
+      {
+        "item": "《无人生还》",
+        "amount": "1"
+      },
+      {
+        "item": "《能指链条》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "100000"
+      }
+    ],
+    "previousMissions": [
+      "夜色名为温柔"
+    ],
+    "nextMissions": [
+      "倘若在午夜醒来"
+    ],
+    "objectives": [
+      "前往「黄金的时刻」，与列车组会合",
+      "离开可疑的房间",
+      "与流萤交谈",
+      "在可疑的空间中寻找出路",
+      "在房间中继续寻找出路",
+      "继续前进",
+      "前往殿堂的出口",
+      "继续前进",
+      "找到遗失的碎片",
+      "利用梦境的特性打开大门",
+      "继续前进",
+      "打开可疑的宝箱",
+      "寻找任意一扇门离开这里",
+      "想办法逃离可疑的空间",
+      "继续想办法逃离可疑的空间"
+    ],
+    "synopsis": [
+      "你与流萤在「黄金的时刻」遇到「桑博」。流萤察觉出面前此人有问题，「桑博」却一再强调——家族正隐瞒着「美梦」背后的秘密。",
+      "伪装成「桑博」的花火轻快地走向你，用幻术让你和流萤陷入昏迷。花火请你在真正的「梦境」里小睡一会儿。",
+      "你从不知名的房间醒来。周遭环境并非白日梦酒店，反而与你初次入梦时的氛围类似。",
+      "你尝试用手机联系列车组其他成员，信息却总是发送失败。你听到奇怪的声音呼唤着：「米哈伊尔，你在哪里？」",
+      "你在走廊上遇到流萤。流萤认为此处可能是「真正的梦境」，藏在此处的秘密恐怕与神秘的「钟表匠」相关。流萤与你结伴寻找出路。",
+      "流萤与你谈论不断浮现的文字。你觉得自己好像在哪听到过「米哈伊尔」，流萤则从中感受到迷茫、畏惧、悲伤以及视死如归的决心。",
+      "你打开宝箱，房间里的灯霎时全部亮起。流萤猜测众多门扉中，或许有一道门可以让你们离开这里。",
+      "周围的电视机屏幕全都显示出眼睛图案。一只巨大而危险的忆域迷因从屏幕中钻出，向你和流萤发动攻击。",
+      "流萤被忆域迷因一把握住。「忆者」黑天鹅出手相助，将流萤从迷因「死亡」的手中解救出来。",
+      "黑天鹅压制住「死亡」，并为你和流萤打开通往现实世界的传送门，催促你们尽快离开此地。",
+      "你在现实中醒来，得知是黑天鹅带你与流萤离开了那片忆域。黑天鹅建议你先向列车组的各位报个平安，随后她会解答你的一切疑问。"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#当甜蜜来敲门",
+      "相关书籍": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往「黄金的时刻」，与列车组会合"
+    },
+    {
+      "type": "objective-description",
+      "text": "流萤向你袒露了心声。无论你作何感想，现在都已经到了告别的时候…但你们还可以同行最后一段路。\n前往「黄金的时刻」，从那里返回现实与众人会合吧。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（说起来，要返回现实是不是得去酒店……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（…奇怪，人都去哪儿了？）"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你惊奇地发现梦境中空无一人，与你之前的记忆不太一样…"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你来到梦境中的白日梦酒店门前，却看到了桑博…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（桑博？是那家伙在搞鬼吗？）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "我们又见面了，亲爱的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "唉，看来你根本没把我的劝告放在心上啊…真可惜，那姑娘就这么让你着迷？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "你真的…太盲目了。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你准备向桑博出手，但流萤挡在了你的身前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…小心。现在我可以确信，你的这位朋友有问题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "诶哟，看来这位勇敢的小姐想保护你呀，为什么？你们关系有这么亲密么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "废话少说。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "我太喜欢你的性格了，亲爱的。我承认，你和那小灰毛不一样，鼻子还算灵敏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "可即便如此，你也落后大部队了。事到如今还没发现么——家族在隐瞒的，这片「美梦」背后的秘密。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "而至于你——拯救了冰雪世界的开拓者…哎，「桑博」那家伙到底在雅利洛-Ⅵ的故事里掺了多少水啊？算了，会相信他的话是我的问题……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "…我真的、真的对你太失望了。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "一阵眩晕感朝你们两人袭来…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "桑博（？）",
+          "text": "不好意思……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "桑博（？）",
+          "text": "就请你在真正的「梦境」里"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "桑博（？）",
+          "text": "——小睡一会儿吧。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "假扮成桑博的少女显现出原本的模样…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…少女的眼里闪过诡异的光（梅花状）…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你再一次从梦中醒来…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（唔…这里…是什么地方？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（我回到酒店了？不对，感觉…氛围有点像刚入梦时的风景……）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你收到了列车组的短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "星穹列车一家人",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "看来是时候回一趟现实了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "来我的房间集合吧"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "遇到了一点麻烦…",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "遇到了一点麻烦…"
+        },
+        {
+          "type": "message-system",
+          "text": "（信息发送失败）"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "咦…",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "咦…"
+        },
+        {
+          "type": "message-system",
+          "text": "（信息发送失败）"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（联系不上啊……）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "离开可疑的房间"
+    },
+    {
+      "type": "objective-description",
+      "text": "返回现实果然没有你想象中的那么简单——你和流萤甫一抵达黄金的时刻，就遭到了桑博的袭击。在你失去意识之前，你看到桑博似乎幻化成一女人的身形…如果不是他惯于女装，那袭击你们的一定另有其人。\n她究竟是谁？眼下的你恐怕没心思考虑这个——因为那个女孩对你施加幻术，把你送进了一个莫名其妙地方。还是先离开这里再说吧。",
+      "location": "匹诺康尼-稚子的梦"
+    },
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "蓝字为空中浮现文字时播放的语音，声音与米沙相同"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "米哈伊尔，你在里面吗？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你来到书桌前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "米哈伊尔，你去哪儿了？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你来到疑似是「钟表匠」曾经的工作台前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "好安静…只有钟表的滴答声…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "滴答…滴答…滴答…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（天啊…这太诡异了……）"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你来到房门前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "工作室的门没有上锁…"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与流萤交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "返回现实果然没有你想象中的那么简单——你和流萤甫一抵达黄金的时刻，就遭到了桑博的袭击。在你失去意识之前，你看到桑博似乎幻化成一女人的身形…如果不是他惯于女装，那袭击你们的一定另有其人。\n你在神秘的空间里找到了流萤——看来陌生人也没有放过她。现在，你们可以一起寻找离开这里的出路。",
+      "location": "匹诺康尼-稚子的梦"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你离开房间，发现流萤在门外的走廊里，脚边躺着一只一动不动的惊梦剧团的弹簧荷官…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（…流萤？）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "啊…开拓者！你果然也在这儿……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "发生了什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这是哪儿？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "我们是不是已经死了…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我…不知道。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "无论如何，我们一定还在梦里，而非别的什么地方，更不可能是现实…空气中有忆质独特的触感，我不会认错的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "但这里和我所熟知的「美梦」差别好大，幽闭…僻静…不安…还有这些飘浮的文字，你也能看见吧？家族治理下的匹诺康尼不可能会有这种地方。所以，是梦泡…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "不，不对——还记得吗，在我们不省人事前，你的那位「朋友」是这么说的——「真正的{{『梦境』|匹诺康尼}}」……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这里是真正的梦境…？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "我不敢肯定，这个发现太突然了。但无论如何，家族一定隐瞒了什么，关于梦境的真相……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这里是家族的秘密…？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "我不敢肯定，这个发现太突然了。但无论如何，家族一定隐瞒了什么，关于梦境的真相……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "他不是我的朋友。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "我应该早点怀疑他的…对不起。无论如何，家族一定隐瞒了什么，关于梦境的真相……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "而且，你醒来时也注意到了吧，遍布四周的时钟和滴答声…直觉告诉我，藏在这里的秘密恐怕也和那位神秘的「钟表匠」有关。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "如果它指向「钟表匠的遗产」——就和现在身处匹诺康尼之梦的每个人都息息相关……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "走吧，开拓者…无论是为了找出真相还是离开这里，我们都得出发。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在可疑的空间中寻找出路"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "我明白了…是要玩捉迷藏，对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "藏好了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这里过不去，从旁边的走廊绕行吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "我要来找你了哦。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你进入了旁边虚掩着的门…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这里也是死路…你看房间的构造，不会是要我们从墙壁上绕过去吧？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获取「梦泡充能」"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在房间中继续寻找出路"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们通过梦泡桥梁走上墙壁…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "竟然真的可以？随意改变梦境的重力明明是严令禁止的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…小心，墙上还有些奇怪的东西…不像是惊梦剧团……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "米哈伊尔，你藏到哪里去了？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们返回了正常的方向，来到对面的走廊…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "米哈伊尔…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "米哈伊尔…？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续前进"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "找不到…哪里都找不到…"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们离开房间继续向前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "在哪里…在哪里……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们进入了一个有着巨大喷泉的殿堂…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这也太…「壮观」了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "出口…在对面吗？这要怎么过去呀……"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往殿堂的出口"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "米哈伊尔！我找到你啦！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "走上墙壁"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "你有话想对我说吗？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们来到喷泉的侧面…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "哇，好漂亮……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "不可思议…真的就像梦里才能看见的风景……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "从刚才开始，这些文字就不停地浮现、消失，它们是谁的心声吗？「米哈伊尔」又是谁……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "有点吓人…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "有种悲伤的感觉…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "米哈伊尔…好像在哪听过……",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我好像能感受到其中蕴含的…情绪。迷茫…畏惧…悲伤…以及微弱到几乎无法感知的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "视死如归的决心……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "为什么要特地来这里？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们走到房间倒立的长廊上…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "米哈伊尔，你看起来有心事…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "是很重要的事吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "告诉我呀，米哈伊尔…"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们来到了一处幽闭的角落…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "这里好暗…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "米哈伊尔？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们回到了正常方向的长廊…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "要走了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "不要走，好不好？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "至少带上我，好不好…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "好吗？求你…"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们来到了出口的门前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "险象环生…但我们成功了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "可家族明明对外承诺，梦境是绝对安全的……"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续前进"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们穿过出口的长廊来到回忆走廊…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这里只有…一幅拼图。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查筑梦拼图"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "碎片好像飞到两侧的房间里了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "找到遗失的碎片"
+    },
+    {
+      "type": "objective-description",
+      "text": "返回现实果然没有你想象中的那么简单——你和流萤甫一抵达黄金的时刻，就遭到了桑博的袭击。在你失去意识之前，你看到桑博似乎幻化成一女人的身形…如果不是他惯于女装，那袭击你们的一定另有其人。\n你们即将抵达这片空间的尽头，并在这里看到了一位手持拼图的筑梦绅士——拼图中的画面一定藏着让你们逃出生天的办法。",
+      "location": "匹诺康尼-稚子的梦"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入左手边的玩具房"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "这是我为你折的折纸小鸟…"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "抚摸折纸小鸟"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "等待小鸟",
+      "text": "啾！啾啾！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "等待小鸟",
+      "text": "啾…？"
+    },
+    {
+      "type": "text",
+      "text": "红色小鸟迫不及待地跳了出来，但你似乎并不是它在等待的人。\n小鸟失落地抖了抖翅膀，飞走了。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得散落的拼图碎片"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "米哈伊尔，带上它吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "它会保护你不受伤害。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入右手边的房间"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "我一定会保护好它的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "我答应你，米哈伊尔…"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "打碎可破坏物"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "收集全部遗失的碎片"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这样应该就能填上拼图的空缺了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "利用梦境的特性打开大门"
+    },
+    {
+      "type": "objective-description",
+      "text": "返回现实果然没有你想象中的那么简单——你和流萤甫一抵达黄金的时刻，就遭到了桑博的袭击。在你失去意识之前，你看到桑博似乎幻化成一女人的身形…如果不是他惯于女装，那袭击你们的一定另有其人。\n你们即将抵达这片空间的尽头，在这里看到了一位手持拼图的筑梦绅士，并利用他打开了通向出口的大门。继续前进吧。",
+      "location": "匹诺康尼-稚子的梦"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "所以，你也要保护好自己…"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "完成筑梦拼图"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "啊！墙壁消失了…感觉应该快到终点了…吧？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续前进"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们打开门后进入一条长廊，但周围的灯光变暗，气氛突然诡异了起来…"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "再次开门后你们来到一间只有一个宝箱的房间…"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "打开可疑的宝箱"
+    },
+    {
+      "type": "objective-description",
+      "text": "返回现实果然没有你想象中的那么简单——你和流萤甫一抵达黄金的时刻，就遭到了桑博的袭击。在你失去意识之前，你看到桑博似乎幻化成一女人的身形…如果不是他惯于女装，那袭击你们的一定另有其人。\n你们来到了一间氛围谈不上正常的房间，一只明晃晃的宝箱似乎正在等你上门…你要打开它吗？",
+      "location": "匹诺康尼-稚子的梦"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "呃…只有一个宝箱？好可疑，要打开看看吗……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "打开某人的宝物"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "伴随警铃声灯光亮了起来…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…怎么回事？！灯怎么全都亮起来了，好吓人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "不过，这里居然有这么多扇门…我们应该能从其中一扇离开这里吧……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品未知的筑梦碎片"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找任意一扇门离开这里"
+    },
+    {
+      "type": "objective-description",
+      "text": "返回现实果然没有你想象中的那么简单——你和流萤甫一抵达黄金的时刻，就遭到了桑博的袭击。在你失去意识之前，你看到桑博似乎幻化成一女人的身形…如果不是他惯于女装，那袭击你们的一定另有其人。\n打开宝箱后你才发现有数道大门环绕四周——也许你可以利用其中一扇大门离开这里。匹诺康尼-稚子的梦",
+      "location": ""
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "打开门后又是一模一样的长廊，在接近出口时灯光诡异地闪烁了一下…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…一模一样的房间？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "██救命█ ███ █ 救命 ██……"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "房间四周的黑白电视机旁慢慢浮现出许多文字…"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "救命"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "救救我"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找另一扇门离开这里"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "选择一扇门离开"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "又是这样…不对，难道……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "█说过███不█能█ ██ █打开盒子 ██……"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "救命"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "抓住他！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "我们已经走投无路了…"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "别让他跑了！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "不要过来"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "救救我"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "想办法逃离可疑的空间"
+    },
+    {
+      "type": "objective-description",
+      "text": "返回现实果然没有你想象中的那么简单——你和流萤甫一抵达黄金的时刻，就遭到了桑博的袭击。在你失去意识之前，你看到桑博似乎幻化成一女人的身形…如果不是他惯于女装，那袭击你们的一定另有其人。\n你似乎回到了熟悉的空间——怎么回事？",
+      "location": "匹诺康尼-稚子的梦"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "继续选择一扇门离开"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "这次在接近出口时伴随着异样感还响起了警铃…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "糟了…最开始的门是哪一扇？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "█求█你██ █我████ ███ █害怕█……"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "救救我"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "把那个东西交出来！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "救救我"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "不要过来"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "米哈伊尔"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "快回来吧"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "你在哪里？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "救命"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "抓住他！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "我们已经走投无路了…"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "别让他跑了！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "匹诺康尼必须自救"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续想办法逃离可疑的空间"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "继续选择一扇门离开"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "警铃变得愈发刺耳…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "█ ███ █ ███ ██ ███ ███ █ █ ████ ██"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "请帮帮我…"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "请帮帮我…"
+    },
+    {
+      "type": "narration",
+      "tone": "冰1",
+      "text": "我不想死"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "电视机的闪光好刺眼…小心，好像有什么东西……"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "电视机忽然闪出刺眼的白光…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "眼睛样的不明物体出现在电视上…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…随后凝聚成现实…"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这、这是什么怪物啊——"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "将忆域迷因「何物朝向死亡」HP削减至一半以下"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "它和一路上遇到的那些好像…这些怪物就是家族在隐瞒的秘密？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "唔，就没有办法摆脱它吗…？！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "忆域迷因「何物朝向死亡」释放大招"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "眼看流萤即将陷入危险，地面突然出现的法阵中伸出的手暂时缓解了局面…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "如果没有掌握正确的方法……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "可是无法从「死亡」的阴影下……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "全身而退的。"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "再次进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "你是…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "放轻松，小妹妹，我是站在你们这边的哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "不如这么称呼我吧…「忆者」黑天鹅。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "黑天鹅牵制住了何物朝向死亡"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "黑天鹅",
+          "text": "下次再见吧。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "黑天鹅",
+          "text": "快走。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "黑天鹅打开了一条通道…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "流萤和你冲了出去…"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

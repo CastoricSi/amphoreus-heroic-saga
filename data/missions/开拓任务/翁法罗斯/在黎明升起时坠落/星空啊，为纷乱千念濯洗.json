@@ -1,0 +1,903 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "星空啊，为纷乱千念濯洗",
+    "pageId": 18859,
+    "revisionId": 77783,
+    "parentRevisionId": 61635,
+    "revisionTimestamp": "2026-02-12T18:54:29Z",
+    "fetchedAt": "2026-09-28T00:18:08.744Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%98%9F%E7%A9%BA%E5%95%8A%EF%BC%8C%E4%B8%BA%E7%BA%B7%E4%B9%B1%E5%8D%83%E5%BF%B5%E6%BF%AF%E6%B4%97",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%98%9F%E7%A9%BA%E5%95%8A%EF%BC%8C%E4%B8%BA%E7%BA%B7%E4%B9%B1%E5%8D%83%E5%BF%B5%E6%BF%AF%E6%B4%97&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "星空啊，为纷乱千念濯洗",
+    "region": "翁法罗斯",
+    "type": "开拓任务",
+    "version": "3.3",
+    "number": "01",
+    "series": "在黎明升起时坠落",
+    "description": "你在创世涡心回忆着来到翁法罗斯后发生的种种——直到被赛飞儿的短信轰炸打断了思绪。她邀请你前往斯缇科西亚寻宝，或许是为了转换心情，你欣然应允，却没想她扮作盗火行者进行恶作剧，吓了你跟迷迷一大跳。",
+    "requirements": "完成任务魔女的镜中回天",
+    "requiredLevel": "21",
+    "characters": [
+      "赛飞儿"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "200"
+      },
+      {
+        "item": "星琼",
+        "amount": "30"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "4"
+      },
+      {
+        "item": "仙馔秘酿",
+        "amount": "80"
+      },
+      {
+        "item": "信用点",
+        "amount": "30000"
+      }
+    ],
+    "previousMissions": [
+      "魔女的镜中回天"
+    ],
+    "nextMissions": [
+      "书卷啊，可曾令锋刃回眸"
+    ],
+    "objectives": [
+      "前往创世涡心，回忆之前的经历",
+      "前往「龙骸古城」斯缇科西亚，继续冒险",
+      "调查可疑声音的来源"
+    ],
+    "synopsis": [
+      "你在涡心整理思绪。自从降落翁法罗斯，你已见证四次擢升，四场离别，但「开拓」仍未结束。与此同时，你的手机传来短信震动声。",
+      "或许赛飞儿是全翁法罗斯过得最自由的人，灾厄并不能阻止她对财富的渴望。你决定与赛飞儿会合，前往冥河不再被阻断的斯缇科西亚。",
+      "你来到斯缇科西亚，却没有见到赛飞儿的踪影。身后传来阵阵阴风，迷迷对迫近的气息有不妙的预感。",
+      "赛飞儿伪装成「盗火行者」，向你展示了一番「诡计」的神力。「谎言」只要被人相信，就能转化为现实。与此同时，你再次收到短信。",
+      "赛飞儿要求你先陪她打捞宝藏，之后会将你送去与白厄会合。命运的箴言为赛飞儿揭示：「汝将与贪婪同行，亦将亡于分文。」"
+    ],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "fold",
+      "title": "前情提要",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "我在黄金裔建议下接受了「岁月」的试炼，却发现自己早在进入翁法罗斯时就已经「死去」。为了寻回我被夺走的未来，众人加快步伐寻找「死亡」泰坦塞纳托斯的踪迹。\n另一边，神悟树庭七贤人那刻夏脱离金线监视，主动寻求元老院的庇护。在获得元老院信任之后，他与寄宿体内的「理性」泰坦瑟希斯一同登上云崖，觐见「负世」泰坦刻法勒。\n为了换取冥界入口的信息，遐蝶只好促成元老院提出「暂停逐火之旅」的议题，并在半神赛飞儿的帮助下，赶往龙骸古城·斯缇科西亚。\n遐蝶成功炼成死龙·玻吕刻斯，并利用它回到冥界见到「死亡」泰坦塞纳托斯，并将泰坦火种与夺走的未来悉数归还，翁法罗斯的生死流转重归有序。\n那刻夏的灵魂在冥界见到遐蝶，完成了创世猜想的证明。他在公民大会上投出关键一票，并利用渎神罪行重挫元老院夺权野心，使「逐火之旅」得以继续。\n那刻夏归还{{瑟希斯|理性之泰坦}}的火种后，肉身彻底归殁。至此，「逐火之旅」即将到达尾声，众人将目光移向天空……"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往创世涡心，回忆之前的经历"
+    },
+    {
+      "type": "objective-description",
+      "text": "来到翁法罗斯后，伴随着相遇与离别，一次次经历目不暇接，让人有些惆怅。就连一向豁达的开拓者，此时也身处创世涡心，浸泡在往事中。",
+      "location": "翁法罗斯-创世涡心"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "整理思绪",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "塞纳托斯与瑟希斯的火种已经归位。\n那之后，又过了一段时间……\n十二座星辰悬浮在虚空中，俯瞰着创世涡心。\n它们象征着翁法罗斯的十二位神灵：这个世界的命运、支柱、生灵和灾祸。\n如今，其中十尊已然殒落，火种被还归于创世的起点。星座在你头顶闪烁，璀璨的光芒对应着泰坦长眠的息声。\n而你…亲身经历了四次擢升，四场离别。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "真是一段好长的路啊…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "「纷争」…",
+          "content": [
+            {
+              "type": "text",
+              "text": "天谴之矛曾一度化作狂王，为全世带去无尽的纷争，而后，于你们的奋勇下终结。\n而继承其位的半神——不死的迈德漠斯，选择独自背负悬锋之名，还乡代冠，将其身化作圣城的最后一道防线。\n万敌，愿你战无不胜。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "「岁月」…",
+          "content": [
+            {
+              "type": "text",
+              "text": "其时，命运三相殿中，岁月的化身将迷迷托付于你；其时，活泼的红发少女完成了使命，与众人先一步道别。\n岁月不语公平，但岁月从未停驻，而如今，这份权能已然交付于你。\n明天见，缇安。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "「理性」…",
+          "content": [
+            {
+              "type": "text",
+              "text": "不久前，树庭贤人之首与你们相伴，将黑潮中步出的残虐威胁斥回。\n仍是不久前，那位不羁的学者献上了一幕盛大演出，以生命为代价，令你们窥见了这世界真相的一隅。\n理性的化身啊，在存在的尽头，你是否寻见了答案？"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "「死亡」…",
+          "content": [
+            {
+              "type": "text",
+              "text": "神谕曾令灰黯之手选择二人，赐予其一死之命运，但她们对彼此的心意，却为各自续下了漫长的凄美诗篇。\n最终，从冥界旅至现世的死亡半身，决意驻身那片花海，为你寻回「未来」。\n在西风尽头再会吧，遐蝶。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "一次次分别并未令你麻木，你忍不住思考，「开拓」的旅程还会经历多少告别？你好奇，自己能否以饱满的情绪道出每一句「再见」？\n思绪沉入海洋…你想起翁法罗斯人热衷史诗，通过故事缓和内心的哀愁。或许你也该以这种方式消解低落，重新振作起来——\n——那就开始吧。无数与冒险有关的词汇涌入你的心窍，你只需抓住其中一个作为创作的锚点……\n不要被外界的喧杂影响，集中于你脑海中的关键词……\n嗯，这的确很难。但你还是应该牢牢抓住灵感，编织发自肺腑的清词丽句……\n…好吧，这根本就是个不可能的任务。只看一眼手机，这绝对不会影响你的思考——你如此告诉自己。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "message-thread",
+      "title": "赛飞儿",
+      "subtitle": "来财！",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "赛飞儿",
+          "contentType": "text",
+          "text": "灰子"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "赛飞儿",
+          "contentType": "text",
+          "text": "上次去斯缇科西亚，都没时间找宝贝"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "赛飞儿",
+          "contentType": "text",
+          "text": "亏麻了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "赛飞儿",
+          "contentType": "text",
+          "text": "现在冥河退的差不多，我又来了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "赛飞儿",
+          "contentType": "text",
+          "text": "水底！有！大宝箱！"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "赛飞儿",
+          "contentType": "text",
+          "text": "我用不来奇迹宝珠，又没法涉水"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "赛飞儿",
+          "contentType": "text",
+          "text": "只能靠你的岁月权能了，快来"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "赛飞儿",
+          "contentType": "text",
+          "text": "咱们可以三七分成"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "你三我七？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你三我七？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "赛飞儿",
+                  "contentType": "text",
+                  "text": "没错，你三我七"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "赛飞儿",
+                  "contentType": "text",
+                  "text": "好啦，别在意细节，来了再聊"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "这就来。",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "宝箱？马上到。"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "赛飞儿",
+                  "contentType": "text",
+                  "text": "快"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "赛飞儿",
+                  "contentType": "text",
+                  "text": "快"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "赛飞儿",
+                  "contentType": "text",
+                  "text": "快来"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "赛飞儿",
+          "contentType": "sticker",
+          "sticker": "23-13",
+          "file": "聊天表情-23-13.png",
+          "asset": "assets/sr-images/聊天表情-23-13.png"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "你必须承认，在这难熬且挣扎的低谷期，依然有人过得快活。赛飞儿，她对财富的渴望滔滔不绝、倒海翻江，仿佛比鳞渊境的海水更加澎湃。\n暂且忘记过去吧，它让人感到悲伤——但现在不应该哀伤，你需要前进的动力。\n你决定前往冥河不再被阻断的斯缇科西亚，去和那位猫女汇合。希望那些闪闪发光且当啷作响的玩意，能一如既往…令人振奋起来。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往「龙骸古城」斯缇科西亚，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "赛飞儿发短信邀请开拓者前往斯缇科西亚寻宝，或许能够成为一道不错的调剂。",
+      "location": "翁法罗斯-「龙骸古城」斯缇科西亚"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你和迷迷重新来到斯缇科西亚…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "…斯缇科西亚的月光，真美呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "冥河静悄悄的，好像发生的一切只是场梦。小蝶…她在那边还好吗？如果人家写一封信，用漂流瓶送去，她会收到吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我也想遐蝶了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "…不行不行，不能把气氛弄得这么沉重！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "现在不是感伤的时候，来，和人家一起——睁大眼睛，打起精神！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "现在不是感伤的时候。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "…说得对，约好了要继续逐火之旅，可不能让小蝶担心呀。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "现在不是感伤的时候，来，和人家一起——睁大眼睛，打起精神！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "不过话说回来，赛飞儿小姐把我们叫到这儿，她自己怎么不见啦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "…咦？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么动静？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "不知道，可是这气息…有点熟悉……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "有人在这里？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "对，而且这气息…有点熟悉……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "…开拓者，我们一起过去看看吧。但千万要小心……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "人家…有种不妙的预感。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查可疑声音的来源"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "看，地上那块东西是什么？…要把它捡起来看看吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "小心翼翼地……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "…一块黑色的布？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "好眼熟呀，是不是在哪儿见过……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "「盗火行者」…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "这…怎么会？它怎么会在这里……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "谁扯我衣服？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "…不是，你的衣服没破洞啦！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "这是…是那「盗火行者」的斗篷？！它怎么会在这里……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "…迷、迷迷！！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "——开拓者，小心！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "盗火行者",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "迷迷，准备应战——",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "冷静！它的力量，咱们都见识过……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "粉色小狗才是你的目标！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "好伤心！这会儿就别开玩笑了——"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "终于，该我退场了吗…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "别、别这么轻易放弃呀！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "总之，我们先尽力和它周旋吧！一旦抓住破绽，就发动「岁月」的权柄，躲到往世中去！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "盗火行者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "盗火行者",
+      "text": "冥河……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "盗火行者",
+      "text": "藏有大鱼…少刺多汁。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "…啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "盗火行者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "盗火行者",
+      "text": "逐火之旅…阻止……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "盗火行者",
+      "text": "喵呜…喵呜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "…喵、喵呜？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "…它在说什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这是什么谜语？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "好、好陌生的语言，人家是不是出现幻听了……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "这家伙，精神错乱了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "迷迷",
+              "text": "这、这早就是共识了吧？可现在是性命攸关的紧急情况——"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "盗火行者",
+      "text": "嘿…嘿嘿……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "盗火行者",
+      "text": "…哈哈哈哈！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "一阵白烟，赛飞儿现出原形…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "哈哈哈哈…对不住了，看见你俩毫无防备地站在那儿，我就忍不住想吓唬吓唬哪！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "赛飞儿，原来是你——",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这人素质太差，走了——",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "这也是假的，快跑——",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "哎唷，别跑别跑——我是真的赛飞儿，如假包换！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "别生气呀，整这一出只是为了给你们提个醒，翁法罗斯可一点都不安全，全是流窜的威胁，包括那个黑衣剑客…不管在哪里都要提高警惕！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好赖话都让你说了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "赛飞儿",
+              "text": "就是找补一下，人之常情嘛~"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "那还真是谢谢你啊。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "赛飞儿",
+              "text": "哎，我就是给自己找补一下，你可别记仇啊！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我强得可怕，根本用不着。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "赛飞儿",
+              "text": "嗯？可我看你刚才，明明吓得灰毛都竖起来了哪？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "所以，那「盗火行者」是赛飞儿小姐的伪装？骗术？像真的一样…这就是「诡计」半神的力量？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "伪装？不不不，可不是这种骗小孩子的把戏，让我想想该怎么解释……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "打个比方，刚才，你们认出那块碎布是盗火行者的东西以后，心里想的是什么?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "嗯…「难道盗火行者在这附近」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "没错。然后，你们听到了脚步声——是我故意发出来的——那时，你们心里又在想什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "「糟了…一定是盗火行者来了」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "对咯，就是这样——我所做的，只是通过各种诱导和暗示，让你们对一件并不存在的事信以为真……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "「谎言」——这才是扎格列斯的招牌，只要人人信以为真，假象也能化作现实！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷迷",
+      "text": "化谎言为真实的力量…真叫人家粉毛倒竖呀！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "哈哈，这下套出你的秘密了！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "赛飞儿",
+              "text": "你桀骜不驯的样子真可爱哪，小灰子~"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你就这么全部抖出来了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "赛飞儿",
+              "text": "怕我话里有诈？哈，大可不必！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "裁缝女那么信任你，自有她的道理。像你这样的老实人，想坑也坑不到本姑娘，所以——告诉你也无妨。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "况且咱们还得搭伙寻宝呢，对吧？闲话就说到这儿，该出发咯……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "…嗯？你的传信石版响了？"
+    },
+    {
+      "type": "message-thread",
+      "title": "白厄",
+      "subtitle": "赞美太阳！",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "白厄",
+          "contentType": "text",
+          "text": "开拓者，休息得好吗？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "白厄",
+          "contentType": "text",
+          "text": "明晰时我来找过你，你好像还在睡，就没忍心打扰你"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "白厄",
+          "contentType": "text",
+          "text": "但眼下这个状态，我实在闲不下来"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "白厄",
+          "contentType": "text",
+          "text": "感觉是时候继续我们的特训了，一起去树庭吗？"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "嚯…你可真受欢迎啊。但凡事讲究先来后到，先陪我搞定宝贝的事，我再送你俩去树庭呗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "话说回来，你要那么多钱干嘛？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "赛飞儿",
+              "text": "好奇心还真重哪…你以为我会到处挥霍？哈，我打捞宝藏可不是为了这个。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "捞完这笔，打算去哪潇洒？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "赛飞儿",
+              "text": "潇洒？你是指，消费？哈，我打捞宝藏可不是为了这个。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "别忘了，我也是半神，那愚蠢的预言也有我一份：「汝将与贪婪同行，亦将亡于分文」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "但本姑娘不信这个，只要不断敛取宝藏，就不至于落得身无分文的下场；只要不因为自己的欲望害得其他人遭殃，就算不上「贪婪」——对吧？简简单单。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "只要我顺着这条路奔跑下去，什么注定实现的预言、宿命…都追不上我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "哎，这一连串话说得，我嘴皮子都快磨破了！斯缇科西亚的财宝还在水底下等着咱们哪，赶紧让我见识见识「岁月」的神力吧，灰子？"
+    }
+  ],
+  "warnings": []
+}

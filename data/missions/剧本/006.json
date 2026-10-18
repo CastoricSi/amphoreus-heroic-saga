@@ -1,0 +1,6193 @@
+{
+  "schemaVersion": 2,
+  "id": "006",
+  "title": "朗道的选择",
+  "chapter": "第一幕・雅利洛-Ⅵ",
+  "characters": {
+    "visible": [
+      "穹",
+      "奥列格",
+      "桑博",
+      "三月七",
+      "丹恒",
+      "希儿",
+      "布洛妮娅",
+      "可可利亚",
+      "希露瓦",
+      "杰帕德",
+      "瓦尔特",
+      "姬子"
+    ],
+    "hidden": [
+      "银鬃铁卫",
+      "邓恩"
+    ]
+  },
+  "createdAt": "2026-10-01T05:10:33.585Z",
+  "updatedAt": "2026-10-03T07:07:14.104Z",
+  "blocks": [
+    {
+      "id": "0cabbc62-4857-48b4-8fed-75cd093c015b",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 80
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "与同伴会合"
+      }
+    },
+    {
+      "id": "789155a2-a720-4f88-bf23-9dac57d834e0",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 82
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "（啊…睡得真好。）"
+      }
+    },
+    {
+      "id": "ce90d5b2-d39a-4f05-9d5b-480f25b75e85",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 83
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "（去跟三月和丹恒会合吧。）"
+      }
+    },
+    {
+      "id": "e56a9900-6e01-45bc-a6ae-9b721a5d6366",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 92
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "与「地火」成员商讨后续计划"
+      }
+    },
+    {
+      "id": "f3db55f3-fc0e-429a-a8b6-e244b5f7d645",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 94
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "唷，看看是谁来了！"
+      }
+    },
+    {
+      "id": "9f0a39b2-44f9-4053-b8ca-644a37befe57",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 95
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "是史瓦罗克星！下层区的大英雄——！"
+      }
+    },
+    {
+      "id": "f92d7ff0-e44d-4726-8e96-ce79d04cac26",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "——大英雄…丹恒和三月七！"
+      }
+    },
+    {
+      "id": "36555f37-f467-49c5-b96a-d98fb1928abc",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 97
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "反应挺快哈。"
+      }
+    },
+    {
+      "id": "1aef784c-837d-4ef1-afb3-5bf1773878eb",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 98
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "娜塔莎呢？她不在吗？"
+      }
+    },
+    {
+      "id": "45f5c5f6-5f38-4f01-9129-d59a9a085155",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 99
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "她还有很多事要善后，你们就跟我这个老头子聊吧"
+      }
+    },
+    {
+      "id": "4a1cb4ee-bd3a-4f97-a283-56d6999f26e6",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 99
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "我说的话就代表她的意思。"
+      }
+    },
+    {
+      "id": "e66f7b59-7e74-43dc-be38-cc68096a5d2a",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 100
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "说起来还真是对不住各位"
+      }
+    },
+    {
+      "id": "fa876aea-d534-410e-b16f-831ebf3ac4ed",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 100
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "我只是娜塔莎的代理这回事一直瞒着你们。哈哈哈。"
+      }
+    },
+    {
+      "id": "c940b941-eec3-43d3-b024-fd105fe9c96f",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 102
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "她嘱咐我一定要保证你们安全回到上层。"
+      }
+    },
+    {
+      "id": "be3257f8-403d-4843-8604-e5e188bef875",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 102
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "奥列格",
+        "text": "我思前顾后，最稳妥的办法还是拜托这小子帮忙。"
+      }
+    },
+    {
+      "id": "5eab7de5-b2ef-46db-bb5c-7548246d504a",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 103
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "我带你们下来，当然也得负责带回去~"
+      }
+    },
+    {
+      "id": "b15bd2c9-0aec-43f7-945d-f77fdb3b8e8f",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 103
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "这是免费的售后服务，包君满意。"
+      }
+    },
+    {
+      "id": "17c90d55-20b6-4334-8113-69fd65d4d782",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 104
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "…这次用不着弄晕咱们了吧。"
+      }
+    },
+    {
+      "id": "960a0533-cdd7-4a3f-972a-5bc8efd25b5b",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 105
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "不用不用，这次我们通过「炉心」上去。"
+      }
+    },
+    {
+      "id": "11a4594f-38f0-4593-9ac9-77356a0be2d1",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 108
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "等等，布洛妮娅呢？"
+      }
+    },
+    {
+      "id": "960abfd5-0493-4da3-ab11-86c0706b514e",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 109
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…她为什么没来。"
+      }
+    },
+    {
+      "id": "9c28cd51-8195-4b4e-897a-2f0740422cf0",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "布洛妮娅先回去了。"
+      }
+    },
+    {
+      "id": "8f068463-c27b-4da8-afa5-e971624c3fce",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "她跟那位「大守护者」的关系你们也知道"
+      }
+    },
+    {
+      "id": "f667dbb1-99a7-44d7-84e5-5357597b6a19",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "有些事情她必须自己解决。"
+      }
+    },
+    {
+      "id": "059a59ec-392a-4922-9667-7bafb2737f8f",
+      "source": {
+        "mission": "我们不擅长告别",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/我们不擅长告别.json",
+        "contentIndex": 113
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "对了，布洛妮娅让我把这个交给你们。"
+      }
+    },
+    {
+      "id": "12c37a2d-ea7e-47aa-95ee-01437fa22ff0",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "重返地面"
+      }
+    },
+    {
+      "id": "e8aca4bf-98ee-416d-b84b-4c1f8fc7f5d1",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 7
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "在你们通过炉心回到地面的途中，布洛妮娅已经提前一步见到了「大守护者」可可利亚…"
+      }
+    },
+    {
+      "id": "f0219783-8a8b-4116-801e-1be430afad0b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 8
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "母亲大人，我回来了。"
+      }
+    },
+    {
+      "id": "680dec3e-e7f2-4147-9b79-c31c0913c9ca",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "布洛妮娅！我还以为…我还以为要失去你了。"
+      }
+    },
+    {
+      "id": "3f15ea93-b059-4c1c-b968-35e65edce624",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "你到底跑哪去了，有没有受伤？我马上找管家过来——"
+      }
+    },
+    {
+      "id": "8b953de6-c141-4758-98bb-a7d7989aa36b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "不，不用了！我现在不太想见塞巴斯。抱歉，母亲……"
+      }
+    },
+    {
+      "id": "bffc88a4-fe8a-4fe7-bcc0-d1a1d553ff2b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我很好，真的很好。"
+      }
+    },
+    {
+      "id": "5609b36e-e823-4f59-bce9-5522ceb221a4",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我在下层区跑了一大圈，经历了几场战斗，但总体还算应付得来。"
+      }
+    },
+    {
+      "id": "144d96a6-508d-4409-8de9-c8643684cc0f",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 13
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "下层区？啊…我知道了。"
+      }
+    },
+    {
+      "id": "0886032b-54fb-4ca9-aeaf-608a52c28ade",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 14
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "那就向我汇报一下你的见闻吧，布洛妮娅统领。"
+      }
+    },
+    {
+      "id": "ce4677ad-44f1-4766-8c31-0f950f785a29",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 15
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "边缘通路的追捕失败以后"
+      }
+    },
+    {
+      "id": "9a0df272-4bed-4ca0-b8a9-a8c5fcc46513",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 15
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我和受通缉的「外来者」以某种方式被带到了下层区。"
+      }
+    },
+    {
+      "id": "2b37071f-ac67-4a80-a461-ad7791f9d7dd",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 16
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我们迫于环境压力结成暂时同盟"
+      }
+    },
+    {
+      "id": "d6e3a7c9-b5e2-40a8-901a-01e6c056457a",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 16
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "一起帮下层区的居民解决了些…生存难题。"
+      }
+    },
+    {
+      "id": "bcaca6a7-9ac5-458b-86bc-da64306b4a1d",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 17
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我们还打败了名为史瓦罗的远古机器"
+      }
+    },
+    {
+      "id": "9d5fa606-014f-4d0f-85fe-faec7cd6ec53",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 17
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "了解到了一些真相…有关「星核」的真相。"
+      }
+    },
+    {
+      "id": "ef90803c-7083-40f0-ac7d-858d9f149196",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 18
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "……"
+      }
+    },
+    {
+      "id": "34ed5f93-0279-44bf-8f8b-6a13696b7c7c",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 19
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "我在听…说下去。"
+      }
+    },
+    {
+      "id": "56ad854a-0afb-411e-a8d4-d3a5811f98cc",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 20
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "可可利亚大人，我以人格担保"
+      }
+    },
+    {
+      "id": "4f246332-0518-4d7e-8643-bff118c9c6b1",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 20
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "那些「天外来客」绝非我们此前所设想的恶党。"
+      }
+    },
+    {
+      "id": "5c922d6c-2286-40a6-8047-82270404e701",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 21
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我看到他们为了公义拔枪，为了他人的理想拼上性命。"
+      }
+    },
+    {
+      "id": "3d8d4d08-6eec-4278-8195-fedac35ea7ec",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 21
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我可以确认，他们的确是为了「星核」而来"
+      }
+    },
+    {
+      "id": "2fc9b9af-8321-44dd-8ea4-4b492ae0f49f",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 21
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "为了解除它给贝洛伯格带来的灾难。"
+      }
+    },
+    {
+      "id": "cdf0ffaf-a6ed-4879-b846-322e382c1915",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 22
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "母亲大人…您一直都清楚「星核」的真相，对吗？"
+      }
+    },
+    {
+      "id": "836bfc14-f6a4-4c5e-9d3d-397a7b495b28",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 22
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我总有一天也会接触到那些知识。"
+      }
+    },
+    {
+      "id": "7a555fbf-a186-4304-a9ee-e2f9cc91bde3",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 22
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "成为「守护者」所需要付出的代价之一，就是永远背负这些秘密。"
+      }
+    },
+    {
+      "id": "1c45033f-662c-4460-bfe4-6e739df13412",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "所以…原谅我的冒犯，我认为下令剿杀外来者是错误的选择。"
+      }
+    },
+    {
+      "id": "62df316e-8189-403c-a5c8-424004a3fe5d",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "为了解决「星核」带来的问题，筑城者已经等了几百年"
+      }
+    },
+    {
+      "id": "cc993872-7487-47c4-9737-711d6170091b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "而他们几个可能就是——"
+      }
+    },
+    {
+      "id": "e18bacac-409f-4e58-9d87-4b7f4cb9956c",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 24
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "够了！"
+      }
+    },
+    {
+      "id": "ddadfa1f-c837-482f-9d40-02ea579d4a66",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 25
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "……！"
+      }
+    },
+    {
+      "id": "28e255cd-172b-4b4b-a917-b2136d603905",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 26
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "傲慢，无知…你令我失望，布洛妮娅。"
+      }
+    },
+    {
+      "id": "8361513a-4ebc-49ef-8b7d-061232645a67",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "你不过窥到了雪山的一角，就以为自己看清了真相。"
+      }
+    },
+    {
+      "id": "7d9b956f-90bc-40ed-9713-a736ccab7099",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "只是在下层溅了一身泥渣，居然就敢质疑我的命令？"
+      }
+    },
+    {
+      "id": "3dff6b2c-e9f2-4b1c-b760-eeed6ddea3de",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 28
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "铁卫！把布洛妮娅——"
+      }
+    },
+    {
+      "id": "d1eb3dde-3cee-4e81-89e1-51fd6ba761bd",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 29
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "——他们不是泥渣！"
+      }
+    },
+    {
+      "id": "4b9d7561-0d0d-401a-8422-971822774328",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我的身世，那些你从来没告诉过我的事…"
+      }
+    },
+    {
+      "id": "a10a30c0-a8b0-4c0f-8368-46b3475a8c23",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我现在都已经记起来了。"
+      }
+    },
+    {
+      "id": "aaf011cb-24a7-4f83-8298-220a2ea12c37",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我不会再逃避了，守护者大人！"
+      }
+    },
+    {
+      "id": "1cc27a86-1777-4493-bc2d-2a8f0e608da2",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "请别再用含糊其辞的理由搪塞我了。"
+      }
+    },
+    {
+      "id": "6a7ec456-e665-47db-9083-cee40c0ac4f8",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "把你看到的东西告诉我吧，你到底在隐藏些什么…"
+      }
+    },
+    {
+      "id": "8a2fb602-826c-4685-914c-a198e15adbf7",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "为什么要把铁卫派到裂界里去送死"
+      }
+    },
+    {
+      "id": "e96ad6a0-bf80-404c-bcd9-78f94d37eefd",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "为什么要放弃下层区的人民"
+      }
+    },
+    {
+      "id": "24e42967-63f9-4192-ae6a-fa1f52848076",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "——为什么要在那个关头转变心意？"
+      }
+    },
+    {
+      "id": "acb7ca9b-2acc-4af2-b65f-f8fdfe73117d",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "…我知道了。"
+      }
+    },
+    {
+      "id": "61469f67-7bf4-4f1a-b74f-f409ab47bb9a",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 33
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "这个时刻迟早会来…我只是没想到会来得这么快。"
+      }
+    },
+    {
+      "id": "2313c70f-3317-43cb-acd6-84c2bd2b1c66",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 34
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "你想知道是什么原因驱使我下达了那些命令…对吗？"
+      }
+    },
+    {
+      "id": "c90d29a6-f649-45c5-b5f5-d51dd650f118",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 34
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "你觉得自己已经准备好触碰真相了？"
+      }
+    },
+    {
+      "id": "d6b185c2-1371-4d5a-b663-2e514e5a301b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 35
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "嗯。我准备好了…母亲。"
+      }
+    },
+    {
+      "id": "0fd7f798-5e8b-4564-b8b2-b796d9f3e75d",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "那就跟我来吧，布洛妮娅。"
+      }
+    },
+    {
+      "id": "2d65391f-2a56-4840-82a7-c786946dff49",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "这个濒死的世界…该让你听听她的声音了。"
+      }
+    },
+    {
+      "id": "8002ea87-525e-4a41-8492-42848eba70b8",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 38
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "布洛妮娅的头忽然疼痛了起来，母亲可可利亚的声音也不再熟悉，取而代之的是一种遥远而空洞的声音…"
+      }
+    },
+    {
+      "id": "c1a6a8a4-7483-4c55-8606-ad58a0bc0e35",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 39
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "来吧…来吧……"
+      }
+    },
+    {
+      "id": "abacb31b-ea0f-45c7-91bb-a69dd4b87203",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 40
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "e35a6d24-8cff-42c1-bd85-f3153b5389cc",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 41
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "历尽千辛，列车组的一行终于来到地面…"
+      }
+    },
+    {
+      "id": "382d51eb-c7ff-441b-8d42-da1a4f0d4c93",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "啊，终于回来啦！我都忘了新鲜空气是啥味道了……"
+      }
+    },
+    {
+      "id": "b99779f1-3e61-48e7-b92c-c93e3c4e6b96",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 44
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "咱们接着去哪？"
+      }
+    },
+    {
+      "id": "1df35e33-4ccb-42ff-9bdd-1bf7a9da664b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 44
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "先找个落脚的地方比较好，但我可不敢再去歌德宾馆了……"
+      }
+    },
+    {
+      "id": "39364fd3-e0de-4452-854f-16e3bb4c9e15",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 47
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "丹恒，你怎么看？"
+      }
+    },
+    {
+      "id": "14b028fe-7b58-47b2-8c9a-0222fd32631a",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 48
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "依我之见，先拜访希露瓦·朗道比较好。"
+      }
+    },
+    {
+      "id": "ad877de6-1648-4529-bf99-f360078571b1",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 52
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "行动低调点，我们现在仍是被通缉的状态。"
+      }
+    },
+    {
+      "id": "41cb4b9a-da04-44c6-9f07-99ed3bfa735f",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 53
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "怎么啦，希儿？"
+      }
+    },
+    {
+      "id": "6971226c-21c3-4109-807c-4c85ea5b227f",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 54
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "没什么，只是有点…陌生。"
+      }
+    },
+    {
+      "id": "3c4bf011-0bf6-479a-bfb2-d68c450ab62f",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 55
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "上次来到地上时，我还是个小孩子。"
+      }
+    },
+    {
+      "id": "dd460bcc-4407-44d2-9107-abd5f753e193",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 55
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "现在眼前的这些，我完全没有印象。"
+      }
+    },
+    {
+      "id": "0ef2facf-23e2-4a67-af91-0eed05979476",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "上下层被隔绝实在太久了…太久了。"
+      }
+    },
+    {
+      "id": "c873d538-fd55-421c-a29c-b8fa8e5b9e0a",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "我没事，走吧。"
+      }
+    },
+    {
+      "id": "0e141584-a8e4-4165-a425-077713de3947",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 58
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "与希露瓦交涉，借机械屋藏身"
+      }
+    },
+    {
+      "id": "2901e831-039c-44c1-b2be-3428669109db",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 60
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "巡逻的铁卫好多，平时也这样吗？"
+      }
+    },
+    {
+      "id": "15fff41f-ce28-490b-a38b-39eb7246c2e8",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 61
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "不，记得此前城里的戒备还没这么森严…"
+      }
+    },
+    {
+      "id": "848cf8f4-cda4-4261-aac0-a340b2a4d071",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 61
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "如果这不是常态，也许与我们有关。"
+      }
+    },
+    {
+      "id": "f9896288-ec02-4fd2-b0d4-ee811e8f530e",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "大守护者应该已经知道了我们的到来，布洛妮娅……"
+      }
+    },
+    {
+      "id": "80491f5d-2581-4848-a117-c6001e4e0b97",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "53478d44-785f-47ad-a633-a6252db93f2c",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 64
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们刚到机械屋门口就听到里面传来声音…"
+      }
+    },
+    {
+      "id": "cd04a682-a2e9-47c5-b681-211fcc3aed82",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 65
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "谁呀？今天不营业，明天再来吧！"
+      }
+    },
+    {
+      "id": "f6e7ec82-f462-4598-a832-91b53a545ab3",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 66,
+        "contentPath": [
+          "options",
+          1,
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "希露瓦！我们是之前路过你这儿的"
+      }
+    },
+    {
+      "id": "4632085a-f19a-4d91-b1c0-e7ea174ff82a",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 66,
+        "contentPath": [
+          "options",
+          1,
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "还帮你修过东西——记得嘛？"
+      }
+    },
+    {
+      "id": "590a4ca1-a227-4d00-bf19-86111d17b36d",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 66,
+        "contentPath": [
+          "options",
+          1,
+          "content",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "什么——"
+      }
+    },
+    {
+      "id": "a3e38384-7425-49b6-aa51-e9a926090d6c",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "啊，我想起来了！从贝洛伯格外面来的那三个！"
+      }
+    },
+    {
+      "id": "ec36e1f1-d0b9-4f21-8b29-841ecc133af1",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "哎呀，你们怎么还在城里乱跑"
+      }
+    },
+    {
+      "id": "2c9704ac-4628-4f4b-ad0c-9e771d3be607",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "不知道铁卫正满大街找你们吗？"
+      }
+    },
+    {
+      "id": "56c11749-9a4c-42d6-8d4a-001237a01a10",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 68
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "快，快点进来。动作自然点，别被人盯上！"
+      }
+    },
+    {
+      "id": "7f4beec8-d9ca-4d47-9441-3bd050a47827",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 69
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "4a20c58b-3ae1-4ed0-be1e-1b15d86e3e03",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 70
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "进入机械屋…"
+      }
+    },
+    {
+      "id": "911cc14c-c6ee-4eb3-a3fb-00ac7cb0043e",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 71
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "行了，到我这儿你们就安全了。"
+      }
+    },
+    {
+      "id": "3250ecc4-6f1c-4f40-b8b7-74a4e1dd0eb8",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 71
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "我这机械屋隔音还行，平时也没人会来。"
+      }
+    },
+    {
+      "id": "6567a896-a15c-4ce2-813b-98c519237059",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 72
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "你们到底犯了什么事儿啊"
+      }
+    },
+    {
+      "id": "0c81755c-e9f0-49ac-94ac-13db5b3eab3a",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 72
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "铁卫破天荒从前线调回一批，满城巡逻搜捕你们"
+      }
+    },
+    {
+      "id": "83d4caa5-99dc-4e97-a82f-47a2ab4b8fea",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 72
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "整个上层区都人心惶惶的。"
+      }
+    },
+    {
+      "id": "d5ff46c3-b69e-4fd1-a755-a3e363976c8c",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 73
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "我们……"
+      }
+    },
+    {
+      "id": "73680f1d-91b2-45d6-9170-cb2f0ef491c4",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 74
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "先等一下，三月。"
+      }
+    },
+    {
+      "id": "7fbe3560-824f-4f52-8535-e1aac369afa8",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 75
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "布洛妮娅说，我们可以完全信任你。"
+      }
+    },
+    {
+      "id": "43ec58bb-c7f4-464e-9171-5a3d18e77b41",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 76
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "你这话里有话啊。"
+      }
+    },
+    {
+      "id": "50200477-820a-4d0f-83b7-f1acc552ead4",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 76
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "强调布洛妮娅信任我，意思就是你还没信任我啰？"
+      }
+    },
+    {
+      "id": "f17d4ac8-38d1-46b5-a42b-f972ace9667c",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 77
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "丹恒点头…"
+      }
+    },
+    {
+      "id": "b5ba00b1-07f9-4095-a908-4d6adf534df1",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 78
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "放心吧，我跟可可利亚说不上话"
+      }
+    },
+    {
+      "id": "576f760a-10af-4414-8728-bfc1e99b7f3e",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 78
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "当年把我赶出筑城者的就是她，我犯不着站在她那边。"
+      }
+    },
+    {
+      "id": "9332d657-bd47-4fcb-9862-2b0cd4f65e41",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 79
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "除非筑城者公开确凿的证据，证明你们罪有应得"
+      }
+    },
+    {
+      "id": "059af28e-7eb5-45cd-8d6e-37e6c77a3ce1",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 79
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "——否则我不觉得你们会干坏事。"
+      }
+    },
+    {
+      "id": "53a86355-2260-437e-be1e-523845c949e8",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 79
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "而且以我对筑城者的了解，要有证据他们早就公布了。"
+      }
+    },
+    {
+      "id": "557f6bf1-5837-420a-9de5-0d283256d17b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 80
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "这套我熟悉…"
+      }
+    },
+    {
+      "id": "3831496f-4627-4bb0-bfa3-0894a3ac764d",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 80
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "可可利亚嘛，她办事就是这个风格，先让大家都忙活起来再说。"
+      }
+    },
+    {
+      "id": "43e0bd49-d703-4702-950f-c45008548b67",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 81
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "——毕竟忙起来后，还有心思琢磨细节的人就不多了。"
+      }
+    },
+    {
+      "id": "1cef3eb2-e7c0-47d0-a57f-178f2192d0d4",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 82,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "你和可可利亚很熟？"
+      }
+    },
+    {
+      "id": "3412d161-a6ad-41b8-a8ea-87d4f6320bff",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 82,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "岂止是熟，呵呵…我们曾经是形影不离的好姐妹。"
+      }
+    },
+    {
+      "id": "b0ff3e3e-fab9-4104-9019-8d8d40b8973b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 82,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "当然了，那是在她当上大守护者之前的事了……"
+      }
+    },
+    {
+      "id": "3b58110e-ac2b-43ed-9897-bdbe0de7460b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 83
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "现在的我嘛，就窝在这机械屋里修修破烂,玩玩音乐，过得挺自在的。"
+      }
+    },
+    {
+      "id": "21f86fd6-ac2b-48e0-bcf7-007b9b8cd355",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 84
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "哎呀，我可没打算跟你们聊不堪回首的过去"
+      }
+    },
+    {
+      "id": "967ae7ff-6627-4b82-985b-e598d7018139",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 84
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "还是说回你们吧。"
+      }
+    },
+    {
+      "id": "0617eaae-ddd3-4e45-8545-3dc3f32e98a1",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 84
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "消失好久的布洛妮娅让你们来找我，一定有很重要的事吧？"
+      }
+    },
+    {
+      "id": "08f43a60-dd10-4097-ad74-1438002ad4be",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 85
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "你们可以信任我，虽然只有一面之缘，但直觉告诉我你们不是恶人。"
+      }
+    },
+    {
+      "id": "bb11e427-2f14-4152-b82c-400fb4b687d9",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 85
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "哈，我的直觉可是很准的喔。"
+      }
+    },
+    {
+      "id": "50f2b11f-ac8d-4ee9-a435-365eb5574719",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 86,
+        "contentPath": [
+          "options",
+          1,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "讲故事我最擅长，我来！"
+      }
+    },
+    {
+      "id": "6b7ab910-cf69-4bc4-9825-6e87121d3438",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 86,
+        "contentPath": [
+          "options",
+          1,
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…还是我来吧，你怕不是要讲到明天。"
+      }
+    },
+    {
+      "id": "82b30fc5-5c06-4dce-ae05-9a7a9fdcb07e",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 87
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "将在下层区的见闻和有关「星核」的信息告诉了希露瓦，并转交了布洛妮娅的信件……"
+      }
+    },
+    {
+      "id": "d22d0e85-826d-4a6c-9fde-f2041919f3fa",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "怪不得最近都没有布洛妮娅的消息，原来还有这么段故事。"
+      }
+    },
+    {
+      "id": "932e2344-692c-4f6a-97ce-8e8da100f8cb",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "下层区啊，封闭好多年了，很久没人上来过，没想到是这样……"
+      }
+    },
+    {
+      "id": "9544b26d-883a-4476-8041-ab29f016aeed",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 89
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "我相信你们的经历，这么曲折离奇，自己可编不出来"
+      }
+    },
+    {
+      "id": "fdd1ee82-ca11-4072-a28a-5a6cc17915dc",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 89
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "何况还有这位希儿小姐现身作证。"
+      }
+    },
+    {
+      "id": "34d656b0-15d8-47e5-bd62-5c1a8357703e",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 89
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "「星核」…呵，我知道布洛妮娅为什么要你们找我了。"
+      }
+    },
+    {
+      "id": "c148a0ac-286c-4469-896c-23efdbbabb30",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 90
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "…我还是筑城者的一员、在科研部工作的时候，研究的就是「星核」。"
+      }
+    },
+    {
+      "id": "406dd77f-072b-4a28-89b1-67b2cf94432c",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 94
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "「星核」的存在，贝洛伯格没几个人知道；"
+      }
+    },
+    {
+      "id": "e7bc586f-1294-4c42-8937-422436226043",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 94
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "就算知道有这么个东西，也不会把它跟裂界和寒潮的源头扯到一起。"
+      }
+    },
+    {
+      "id": "7dfcafd8-022e-4e98-8cff-33ab161cca4b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 95
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "筑城者其实早就挖掘出了真相，只是研究结果被刻意藏了起来，确保不被外界知晓。"
+      }
+    },
+    {
+      "id": "b6a77900-b6d9-4c8a-891a-82115c1adee4",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "是我运气不好呀…"
+      }
+    },
+    {
+      "id": "8e6abb00-9899-4089-b9f9-2c63c9afe29a",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "那么多选题，我偏偏选了「星核」。"
+      }
+    },
+    {
+      "id": "ef3cc2bd-0a29-49b9-bdd1-de44da3463b3",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "看来，任何想要触碰「星核」真相的人，都会被驱逐和处理掉吧。"
+      }
+    },
+    {
+      "id": "fdecb1e6-a3eb-489c-91fc-c6176b036c1b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 97
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "或许我还要感谢可可利亚"
+      }
+    },
+    {
+      "id": "6a12aee8-2655-48cd-9f4d-33ee32ded12d",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 97
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "她只是赶走了我，没有采取更一劳永逸的手段……"
+      }
+    },
+    {
+      "id": "c695ff78-7147-401a-aa8e-748ac21afdba",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "你知道「星核」在哪里吗？"
+      }
+    },
+    {
+      "id": "0f26e3a7-4f5c-47ae-a265-1723f3ba7673",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "知道啊。"
+      }
+    },
+    {
+      "id": "b76a2b77-3de8-472c-9c95-3c5715416f0c",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "虽然没亲眼见过，但我利用模拟实验和外派勘测做了粗略的定位。"
+      }
+    },
+    {
+      "id": "29990473-6855-4b7d-b576-a0fd34e4ee22",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "根据勘测结果"
+      }
+    },
+    {
+      "id": "1ae5f676-7c2f-4ed3-8f0c-e253b10a83ca",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "「星核」大概位于贝洛伯格的北方——也就是茫茫雪原的某处。"
+      }
+    },
+    {
+      "id": "59460933-cfb9-4c01-ae69-fcede0e0c76d",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我们必须找到星核，而且越快越好——"
+      }
+    },
+    {
+      "id": "480c9bcc-62ab-4274-89d3-d02d6d0e28c1",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "最好在可可利亚有所行动之前。你能给我们指个方向吗？"
+      }
+    },
+    {
+      "id": "d021d6b1-90b2-4524-a923-a54b2c5ecb99",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "没问题，我正这么打算呢！"
+      }
+    },
+    {
+      "id": "6292d4f7-222f-4eb2-acca-15c8ccfc6f00",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "但是，这条路可不是嘴上说说那么简单啊。"
+      }
+    },
+    {
+      "id": "afc5cd0a-8449-405f-84ac-29d854706997",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "贝洛伯格以北几乎被裂界完全吞没了。"
+      }
+    },
+    {
+      "id": "0f641d16-3722-49b3-890c-d5d4704b7556",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "要前往北部雪原，首先得穿过银鬃铁卫的前线禁区。"
+      }
+    },
+    {
+      "id": "516e9a99-eecf-4e2b-93ac-3716e197d3e2",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "就算平安穿过铁卫禁区——还有一大片裂界挡在前边。"
+      }
+    },
+    {
+      "id": "f2225462-88ee-4c4f-8519-d2644fa6c3c9",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "听上去…就我们仨加上希儿，不大够啊。"
+      }
+    },
+    {
+      "id": "7fbc7d00-7fb6-4b72-858d-69fb0e76dae5",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "要不要回去地下，让「地火」这就跟我们会合？"
+      }
+    },
+    {
+      "id": "77408843-ceb7-45e4-bd16-2d6eb05a7430",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "时间怕是不允许。"
+      }
+    },
+    {
+      "id": "8e21208c-c872-4887-b0f3-e2a7149aa8e6",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "嗐，也别这么悲观！"
+      }
+    },
+    {
+      "id": "353ddf5e-5cac-4692-8c2a-e9d750e48975",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "我干公职的时候常在北边转悠，跟前线的士兵军官混得可熟了。"
+      }
+    },
+    {
+      "id": "01893359-6836-4cb4-b23e-378de63a20f5",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "硬攻不成，不妨智取。这样吧，我亲自带你们过去，如何？"
+      }
+    },
+    {
+      "id": "b324a809-8197-4135-acd3-76fc2f8feda4",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "真的吗？好耶！有熟人带路，一下心里就有底了！"
+      }
+    },
+    {
+      "id": "28ebbfb0-1617-4453-b4f1-92a3b6873e85",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "哈哈，毕竟我也想亲眼看看「星核」啊——"
+      }
+    },
+    {
+      "id": "81a6f8c7-5c14-4877-b72b-f95638e81e3c",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "那可是我研究了十多年的课题，人这一辈子才有几个十年呀？"
+      }
+    },
+    {
+      "id": "12a7ac36-231a-42ba-8d22-011094ed5bf2",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 98,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "那就这么定了！事不宜迟，准备好了咱们就出发。"
+      }
+    },
+    {
+      "id": "223b2c5f-a22d-44e1-ac0f-8424130f20e3",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 99
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "与希露瓦一道出发，前往铁卫禁区"
+      }
+    },
+    {
+      "id": "c3bee0a6-adea-4bf7-b13a-cab15a9903e9",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 101
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们正要出门，却听到门口传来敲门声…"
+      }
+    },
+    {
+      "id": "8164eb5b-de6c-4116-9c00-df8e0378576a",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 102
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "糟、糟了！我忘了老弟说今天会来……"
+      }
+    },
+    {
+      "id": "69a9ab0b-21fd-4a63-bac7-9972d37669bf",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 103
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "你们快找地方躲起来——我来应付他！"
+      }
+    },
+    {
+      "id": "ebe9cfbc-5cef-4368-9b9a-f0edf2eaa844",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 104
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "杰、杰帕德——你来了啊！"
+      }
+    },
+    {
+      "id": "706bdcc2-2c48-4068-afc7-b465b46df152",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 104
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "我还以为前线这么紧张，你没空过来呢，哈哈……"
+      }
+    },
+    {
+      "id": "f2baba27-81cd-45de-bdd8-b7e9fc78fd26",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 105
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "还好，这阵子怪物的攻势有所缓和"
+      }
+    },
+    {
+      "id": "890c0763-6c42-4a02-a9cc-832ea9a0783f",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 105
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "我先回城里处理点事务，晚些再返回前线…"
+      }
+    },
+    {
+      "id": "667db786-ba4f-4aab-bbb1-6b633c9d9fb2",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 105
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "之前不是告诉你了吗？"
+      }
+    },
+    {
+      "id": "052cce0f-40a8-4616-b418-1c2a646b7321",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 106
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "啊？噢，对，是有这么回事……"
+      }
+    },
+    {
+      "id": "8b9b0965-9b99-4a9d-ba10-4c8af204425e",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 107
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "…姐，你气色不太对，发生什么了吗？"
+      }
+    },
+    {
+      "id": "68206a56-7268-4e20-883b-ae127449b260",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 108
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "没、没有的事，你从哪儿看出来的？"
+      }
+    },
+    {
+      "id": "6c2c271d-7410-428a-ab45-c22d41bf7de2",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 109
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "你通常不叫我的大名。"
+      }
+    },
+    {
+      "id": "fa16c314-fc42-4b40-9a1b-f75bddebb0ab",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "哎呀，你不是一直很反感我当众叫你「老弟」嘛！"
+      }
+    },
+    {
+      "id": "db4b36fa-8b68-4c06-8876-d40493a9c0e5",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "我觉得你说得对，平时还是用名字称呼你比较好，对吧老弟。"
+      }
+    },
+    {
+      "id": "2bd1407c-1c25-495b-8eb2-e6e6911a848f",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 111
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "…想怎么叫随便你吧。姐姐，今天我是为公事来的。"
+      }
+    },
+    {
+      "id": "86ca916e-a5a4-4a73-9fd1-d520cbf867d6",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 111
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "「壁垒」装置出了故障，部队里的工程师无从下手。还是得找你看看。"
+      }
+    },
+    {
+      "id": "41e80be0-9c7e-41cd-97ef-fed61afc9e61",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 112
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "那帮人思维都僵硬了，当然看不懂我的设计。"
+      }
+    },
+    {
+      "id": "01904bfc-84c6-49f8-8cad-f5721f4e3c0d",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 112
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "嗐，我还以为是什么大事，放这儿吧，我来修。"
+      }
+    },
+    {
+      "id": "9678ee85-12db-4949-9e57-e40fa0c29f80",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 113
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "麻烦你了。"
+      }
+    },
+    {
+      "id": "921e8060-c535-479a-bbc9-6f7afaf8874d",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 114
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "跟我客气什么？对了，城里突然戒严，是出什么事了吗？"
+      }
+    },
+    {
+      "id": "ac735c3b-c015-4210-ad84-ce4f3230129f",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 115
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "这…我收到的指令是对外保密……"
+      }
+    },
+    {
+      "id": "2f46bec5-6099-4968-b17b-911d0fdbd071",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 116
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "小杰杰，翅膀硬了啊…看不起我这个庶民姐姐了……"
+      }
+    },
+    {
+      "id": "f0943660-90f0-4f26-8a60-e52f50869b47",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 117
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "你别这样…唉，算了。"
+      }
+    },
+    {
+      "id": "7498275c-107d-4a03-b10d-079e045f2539",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 117
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "反正我不说，佩拉也会告诉你的吧……"
+      }
+    },
+    {
+      "id": "3e57dbd4-ead4-46ab-a519-dc744bb81a85",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 118
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "昨晚，布洛妮娅小姐突然出现，进入克里珀堡，没跟任何人打招呼。"
+      }
+    },
+    {
+      "id": "a0679e89-6971-44d2-a0ab-1e953fd18ea5",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 119
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "大守护者怀疑之前的三个「入侵者」没有落入裂界，而是尾随布洛妮娅返回行政区。"
+      }
+    },
+    {
+      "id": "39b99876-02b6-4f39-838a-cb938e112b93",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 119
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "她下令全城戒严，逮捕行迹可疑的人。"
+      }
+    },
+    {
+      "id": "5b983b77-3bbb-494c-9e67-e58c855fd2c4",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 120
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "啊，原来如此，我说布洛妮娅之前怎么没消息呢…她现在怎么样了？"
+      }
+    },
+    {
+      "id": "c6bcc090-d09d-4e5c-b5a6-08c3e0b1216d",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 121
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "不清楚。她没离开克里珀堡，大守护者只说她回来了，没提别的。"
+      }
+    },
+    {
+      "id": "bd31f696-1815-4981-81ce-bdd943ca1e84",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 122
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "……！"
+      }
+    },
+    {
+      "id": "31505639-9881-4664-a2a3-e308b7b6a95b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 123
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "好吧，我还挺担心她的…"
+      }
+    },
+    {
+      "id": "d0d75afb-af72-4779-98a7-c22f78902dfb",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 123
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "她不见之后，佩拉说自己的工作量翻了一倍，连出门都没空了。"
+      }
+    },
+    {
+      "id": "8cd8a1a2-a57f-494b-8d1a-852e06c4680d",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 124
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "她还真什么都跟你说啊…"
+      }
+    },
+    {
+      "id": "7f1b108e-0ed5-4164-9f6e-1f1939f9fcf4",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 124
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "啊，对了，上次我把歌德宾馆的年庆限量水壶落在这了，我带走了啊。"
+      }
+    },
+    {
+      "id": "5eefd42c-448f-4a9a-9b59-7b03c5b2a56b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 125
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "等、等一下！"
+      }
+    },
+    {
+      "id": "4f23566d-e510-4ff6-8e30-aab14aedf46a",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 126
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "怎么了？姐，你今天真的很不正常……"
+      }
+    },
+    {
+      "id": "cd878bcc-6b4c-4203-8b70-70fa9d7401cd",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 127
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "那边…哦，对了！你之前不是养死了好几盆花么？"
+      }
+    },
+    {
+      "id": "c8574e45-4940-4954-a7eb-ac04adb47ab7",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 127
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "我清理屋子的时候把它们都堆到那边了，味道特别大！你不要过去！"
+      }
+    },
+    {
+      "id": "bf6972a4-be1e-414a-ac32-2f823d95a8bf",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 128
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "…先不说这是什么奇怪的理由——你真的清理过屋子吗？"
+      }
+    },
+    {
+      "id": "51fe01be-c1cb-44c6-9f3f-3615bbddb501",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 128
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "不会又在搞什么被禁止的研究吧……"
+      }
+    },
+    {
+      "id": "57507838-87ec-4523-9b90-0bd547cd9867",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 129
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "才没有呢——你这家伙，老姐在你眼里到底是什么形象？"
+      }
+    },
+    {
+      "id": "52819de9-5e47-475d-b9d3-f1011fb4bdc9",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 130
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "唉…算了，我的确不该侵犯你的私人空间。"
+      }
+    },
+    {
+      "id": "212bd3a3-1a80-46bb-a2a6-16236ff9613f",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 130
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "公务在身，我先走了。"
+      }
+    },
+    {
+      "id": "2c1d81e4-8ce8-45c5-92ad-38369a83a9f0",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 131
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "哎！先别走——那个…那些「入侵者」"
+      }
+    },
+    {
+      "id": "7fd0ff15-7138-4acd-bc0d-a4a78b0c34e6",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 131
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "我就是想问问，他们犯了什么罪？"
+      }
+    },
+    {
+      "id": "e17a56f7-4c04-4414-aca8-aef24f9c9cc5",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 132
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "蓄谋颠覆筑城者，阴谋破坏贝洛伯格。"
+      }
+    },
+    {
+      "id": "3eee7643-dafc-4956-baa3-d5140e6ca572",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 133
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "嘿…和处分我的理由差不多啊。"
+      }
+    },
+    {
+      "id": "06179278-2057-4f8d-a7f8-cc69f41fc3e4",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 133
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "可可利亚的手段一点没变。"
+      }
+    },
+    {
+      "id": "2d157563-82ce-46b6-b0f9-5f78bda430e5",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 134
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "不要这么说，姐姐。"
+      }
+    },
+    {
+      "id": "bd671002-add5-4e8d-8359-147a9da3c6da",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 134
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "我知道你对大守护者心怀不满，但这开不得玩笑。"
+      }
+    },
+    {
+      "id": "e09b02fe-c26b-4633-8adc-2d81a8b1e85b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 135
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "…又被你教训了。"
+      }
+    },
+    {
+      "id": "8907bde0-1cd1-41a1-9b86-89823ea05e21",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 135
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "行吧老弟，你慢点走，下次来听我跟佩拉排练。"
+      }
+    },
+    {
+      "id": "885d2682-5ea4-4fa0-9919-36f81c36c897",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 136
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "有空的话就来。"
+      }
+    },
+    {
+      "id": "85a25a5b-2425-44b0-8974-e99d095137fb",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 137
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "希露瓦看着杰帕德离开…"
+      }
+    },
+    {
+      "id": "5b021018-e1ad-4729-8976-807f96265c9b",
+      "source": {
+        "mission": "在屋外的黑暗中洗涤",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/在屋外的黑暗中洗涤.json",
+        "contentIndex": 138
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "出来吧，现在应该安全了。"
+      }
+    },
+    {
+      "id": "6077eb0d-ebc9-4fe6-9361-12ee699367be",
+      "source": {
+        "mission": "星星是冰冷的玩具",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/星星是冰冷的玩具.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "fold",
+        "title": "额外对话（可可利亚的残响）",
+        "collapsed": true,
+        "content": [
+          {
+            "type": "dialogue",
+            "speaker": "布洛妮娅",
+            "text": "…你还没告诉我这究竟是什么地方，母亲。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "七百年前，这里曾是贝洛伯格的北方边界，也是阿丽萨·兰德带领第一批银鬃铁卫抵御军团的古战场。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "至于现在…只是一座被废弃的回廊，处处回荡着旧世界的残响。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "但不要被这支离破碎的表象迷惑，布洛妮娅。等到承诺兑现的那一天…这片废墟将成为新世界的温床。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "布洛妮娅",
+            "text": "…母亲，你真的相信「星核」作出的承诺吗？它唤来了墙外的风雪，开启了裂界的大门。它毁灭了我们的文明——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "——而我们的先祖犯下的过错，就是没能尽早拥抱毁灭。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "布洛妮娅",
+            "text": "……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "自天外的入侵者降临那一刻起，这个世界就已经被宣判死刑。但星核…它给我们保留了一丝希望。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "重获新生需要付出代价。抹除一切属于旧世界的陈腐印迹，放弃毫无意义的苟延残喘…这就是「星核」开出的价码。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "祂的承诺兑现后，布洛妮娅…我们就不必再穷尽此生守护一片废土。你和我，我们会亲眼见证新世界从废墟中升起。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "布洛妮娅",
+            "text": "……"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f367e15e-421c-47bd-9973-29be7ea4cb39",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 7
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "瞒过禁区门卫，潜入禁区"
+      }
+    },
+    {
+      "id": "3fc04231-4d19-4e77-87b4-ccad3655b4ab",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "看吧！轻轻松松。"
+      }
+    },
+    {
+      "id": "01881269-637c-4d0f-9ffd-d4dc9856b7f2",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "不愧是「杰帕德的姐姐」……"
+      }
+    },
+    {
+      "id": "14256f65-6dae-43bd-a03d-7be003ec3d1a",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "我可不想被人看成「杰帕德的姐姐」…"
+      }
+    },
+    {
+      "id": "7526b5c9-950a-4123-bf69-72ccff3d113d",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "这次是为了你们，否则我才不想借老弟的名字。"
+      }
+    },
+    {
+      "id": "47bc47f7-c1b0-4235-b2f8-b32806ae66bc",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "看到中间那座机械栈桥了吗？"
+      }
+    },
+    {
+      "id": "316e96e7-1925-47e1-8c21-4c73a8cd7044",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "穿过那座桥，对面就是人间地狱。"
+      }
+    },
+    {
+      "id": "3d4c594e-8884-4b87-b11b-054718eef03e",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 37,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "望不到边际的裂界，一群疲惫的银鬃铁卫"
+      }
+    },
+    {
+      "id": "741ef7fc-bf16-4595-9469-760ee4e0da34",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 37,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "还有…弥漫着死亡味道的空气。"
+      }
+    },
+    {
+      "id": "def11011-f2a1-4d96-8dab-ec2224e7e00b",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 60
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "fc871f05-2950-4371-95d1-174588118153",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 61
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们来到第二个控制终端前…"
+      }
+    },
+    {
+      "id": "2e2371fc-2663-4b1c-90c9-9c24e696aa8f",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "…不行，启动不了。看来终端的能源被人为切断了。"
+      }
+    },
+    {
+      "id": "cd49fcbc-673f-48a2-87ec-2cda2f7418d5",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 64
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "在前线戒备期间，把栈桥调转到不贯通前后方的位置"
+      }
+    },
+    {
+      "id": "f90f91bd-b3fa-4ad6-ab55-ddc90d42d4b0",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 64
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "然后从后方切断栈桥终端的能源，避免误操作…"
+      }
+    },
+    {
+      "id": "e5036243-1479-47ba-829b-f34d3eed4cf8",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 64
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "或者出现逃兵的可能。"
+      }
+    },
+    {
+      "id": "ce511141-e11a-445c-897c-bd5df8e7815c",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 65
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "这样做的话，即使前线溃败…"
+      }
+    },
+    {
+      "id": "44a4e103-064a-46b8-8785-600cde017735",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 65
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "裂界的怪物也无法通过栈桥渗透后方。"
+      }
+    },
+    {
+      "id": "232569fb-16e1-45d0-8232-81fced4996d0",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 66,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "破釜沉舟…"
+      }
+    },
+    {
+      "id": "aaef92f2-00ef-475c-8345-daab59d9d1b2",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "……"
+      }
+    },
+    {
+      "id": "2df2bf42-b6ce-442e-aa65-28531932f173",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 68
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "布洛妮娅说的是真的…"
+      }
+    },
+    {
+      "id": "c0bc6e67-2468-44fc-b53f-7df73e05beed",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 68
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "银鬃铁卫确实为了保护贝洛伯格拼上了性命。"
+      }
+    },
+    {
+      "id": "c3963820-f357-41c9-a4b1-534584202c9d",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 69
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "推测而已，不过…八九不离十吧。"
+      }
+    },
+    {
+      "id": "2dd18378-6a6f-4cf5-bdad-9b45cdc04b1d",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 69
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "老弟说过，为了抵御裂界的怪物，他们不得不动用了一些极端手段。"
+      }
+    },
+    {
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 70
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "接着前进吧，咱们得去找源头的供能设备了。"
+      },
+      "id": "a83d2b1e-e6e1-4f08-8c80-7b801733cf48"
+    },
+    {
+      "id": "81d210cf-ca61-4d9f-9c42-a530e7fb1a60",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 86
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "说服看守能源中枢的铁卫，进入中枢"
+      }
+    },
+    {
+      "id": "0d6e9a1a-3cf8-4fe9-92e9-a87cf9904c6e",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "哟！晚上好，大兵！"
+      }
+    },
+    {
+      "id": "223b2b9e-54b1-4f00-863d-9dba2a11e713",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 89
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "银鬃铁卫",
+        "text": "你们就是来做紧急检修的工程师？"
+      }
+    },
+    {
+      "id": "57112824-2868-42c0-a412-c50ebd955a40",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 89
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "银鬃铁卫",
+        "text": "我看你们在附近晃悠有一阵了，查出问题了吗？"
+      }
+    },
+    {
+      "id": "b2018e57-dade-4b94-88fc-63d7df496950",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 90
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "没有，目前为止一切正常。我推测问题出在「能源中枢」上。"
+      }
+    },
+    {
+      "id": "51a17fdb-8ed7-433e-86d7-9d788a07f656",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 91
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "请让我们进去做个例行维护检查。"
+      }
+    },
+    {
+      "id": "7f3e3a33-f94f-4670-92cb-d56e24aaee20",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 92
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "银鬃铁卫",
+        "text": "不行！没有警卫队长的密钥，谁也不能接近能源中枢。"
+      }
+    },
+    {
+      "id": "497343f4-f29a-4957-8fa8-61b1e80743bf",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 93
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "大守护者来了也不行？"
+      }
+    },
+    {
+      "id": "e968d33c-1ec1-461c-8012-2d31aeb78420",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 94
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "银鬃铁卫",
+        "text": "大守护…别抖机灵！没有密钥，谁也不能接近！"
+      }
+    },
+    {
+      "id": "c233a828-3e1a-4421-beaf-d2e9fdf396f6",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "你要求「密钥」对吧？我该去找哪位「队长」？"
+      }
+    },
+    {
+      "id": "415abf9c-904c-4376-84e3-234dcdd60b8c",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 97
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "银鬃铁卫",
+        "text": "邓恩队长在前面休息，你们自己去找他吧。"
+      }
+    },
+    {
+      "id": "2f42323e-2025-4d32-9e57-8e3ed2b231b3",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 97
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "银鬃铁卫",
+        "text": "要是他同意授权你们，我自然放行。"
+      }
+    },
+    {
+      "id": "97512795-cc9b-4ec0-b853-c619aa1dba3c",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 98
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "邓恩？嗐，你早说啊！"
+      }
+    },
+    {
+      "id": "0b61b588-038d-42bb-a6a6-101b5cc250cd",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 98
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "得了得了，那没事了——我们回头再来找你。"
+      }
+    },
+    {
+      "id": "a22479f3-14ed-4fee-b2d6-4a2125d22a89",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 99
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "寻找银鬃铁卫队长邓恩"
+      }
+    },
+    {
+      "id": "4969e587-29fb-4ac0-a42d-29083bbfb28f",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 101
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "希露瓦，那个什么邓恩，你认识？"
+      }
+    },
+    {
+      "id": "437318a5-0953-4b41-8d5b-52771c41700b",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 102
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "那可不吗，老熟人了。他挺好说话的，看我来说服他。"
+      }
+    },
+    {
+      "id": "9849e568-9e07-4e8a-8d99-adab6c75cc99",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 107
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "哟，邓恩！好久不见了——你都当上警卫队长了啊？"
+      }
+    },
+    {
+      "id": "c31b5923-4cb3-4d08-b17f-b8c142bf78a1",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 108
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "希、希露瓦，好久不见…你还是那么…咳，你气色不错。"
+      }
+    },
+    {
+      "id": "b5b4bb08-58f6-482b-a8dc-57add3506147",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 109
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "介绍一下，这几位是我的助手，帮我分担机械屋的工作。"
+      }
+    },
+    {
+      "id": "513af882-0bf2-4524-acb8-a64792924854",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "各位，认识下我的老朋友——邓恩队长。"
+      }
+    },
+    {
+      "id": "d17dc67c-c725-4b29-acb3-f32a459dcb31",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "他以前可是我乐队的王牌键盘手。"
+      }
+    },
+    {
+      "id": "30f97c72-1518-4596-a7b6-7bbd08008acd",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 111
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "哦？这位铁卫大哥也玩摇滚吗？你好！"
+      }
+    },
+    {
+      "id": "6cadb519-cee5-4ef0-b37f-eefb36df4828",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 112
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "幸会。"
+      }
+    },
+    {
+      "id": "1e8d1435-11ef-4ccc-a060-3486250aab76",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 113,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "哦，你们好……"
+      }
+    },
+    {
+      "id": "aa71a167-33fa-4821-96b1-e42f17c6dc13",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 119
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "有机会的话，我们再上台合奏一次？"
+      }
+    },
+    {
+      "id": "2a68a231-9dfc-4f43-857e-ff8379b32405",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 120
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "我现在的键盘手也不赖，但还是怀念在部队里玩乐队的时光啊……"
+      }
+    },
+    {
+      "id": "1f3c0897-b39e-48c2-b7af-5d7cceff8ff6",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 121
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "都是陈年往事了，希露瓦，我都好久没碰黑白键了。"
+      }
+    },
+    {
+      "id": "c8dde791-efa7-4163-9204-05041ca09af5",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 121
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "再说，我现在一年到头守在禁区里，怕是没什么机会回城了。"
+      }
+    },
+    {
+      "id": "c42ed7c2-1e85-4f0e-bde2-f6816ff5864c",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 122
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "这么说有点见外…但你找我有事吗？"
+      }
+    },
+    {
+      "id": "be8cf11a-755f-49d1-a4bf-4f8d9b9e2e5e",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 122
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "要是没检查出什么情况，赶紧回城吧。这里不安全。"
+      }
+    },
+    {
+      "id": "5cd73ee8-7823-42a0-852b-206b48057c00",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 123
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "管线我都检查过一遍了，似乎没什么大问题。"
+      }
+    },
+    {
+      "id": "42c6be37-2ba1-4ddb-a0b7-36b9bdfacf7d",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 123
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "就剩「机关能源中枢」还没排查过了。"
+      }
+    },
+    {
+      "id": "e4aab230-0f97-4574-a61d-e4f1486ec45d",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 124
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "那边的卫兵说，需要「密钥」才能打开闸门。能帮个忙吗？"
+      }
+    },
+    {
+      "id": "03f68569-31d1-4e89-aa88-27287d4949f3",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 125
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "……"
+      }
+    },
+    {
+      "id": "e6802adf-d556-4651-ac6d-8774b5106401",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 128
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "怎么了，邓恩？"
+      }
+    },
+    {
+      "id": "ca5f9707-bc8f-4651-84ca-607d3986dced",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 129
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "抱歉，希露瓦…我能问问，杰帕德戍卫官是怎么和你说的吗？"
+      }
+    },
+    {
+      "id": "75101ae0-ace3-4e14-aabe-f97c99674655",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 130
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "啊？啊…我回忆一下…"
+      }
+    },
+    {
+      "id": "5b89d2fe-5227-4192-b8ae-ebad8654a778",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 130
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "「老姐，禁区的能源管线出了故障，吃干饭的外包维修商根本查不出问题」——"
+      }
+    },
+    {
+      "id": "3fd35e57-13d0-4e28-b4ab-09c461ffc169",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 130
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "大概就是这样吧……"
+      }
+    },
+    {
+      "id": "70d86770-773b-470c-b36e-8da80e59e780",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 131
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "我能再问问…他是什么时候联系你的？"
+      }
+    },
+    {
+      "id": "97352a17-2bd6-43c3-b154-2e690498c0a0",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 132
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "呃…今天早上？"
+      }
+    },
+    {
+      "id": "f6fd9565-6dc1-41b5-a6e1-ad379314eba5",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 132
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "对，就是早上。他今天不是负责城区巡逻嘛？所以就顺路来委托我了。"
+      }
+    },
+    {
+      "id": "09938265-9744-4dd4-b07d-3e5892e3742d",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 133
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "……"
+      }
+    },
+    {
+      "id": "afaa1ec9-cc80-4132-92e5-7251cf9ef18e",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 134
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "杰帕德长官刚刚回到前线。要不…我再跟他确认一遍吧？"
+      }
+    },
+    {
+      "id": "e47098a6-1c97-43f0-8602-bf912be584e6",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 135
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "…欸？等会儿等会儿，他已经回来了？不可能吧，他早些时候还在城里……"
+      }
+    },
+    {
+      "id": "b1d1ddf4-452c-42f8-a543-e0905e4cc55d",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 136
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "希露瓦…你还是跟从前一样，不擅长说谎啊。"
+      }
+    },
+    {
+      "id": "eeb0f463-11c9-42a5-97ef-e85b6e121bea",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 137
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "你带来的这些人，其实不是机械屋的助手吧？"
+      }
+    },
+    {
+      "id": "01947fd6-6a76-4333-bba5-ec6bfa7464c7",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 138
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "……"
+      }
+    },
+    {
+      "id": "3b946353-f7d2-464c-82b6-c587cd651170",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 139
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "希露瓦，不是我不想帮你…但是你要时刻记住，我可是贝洛伯格的银鬃铁卫！"
+      }
+    },
+    {
+      "id": "d374c5c8-bd32-4632-9293-b68540af008d",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 140
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "这样，你先回去，这件事我不会跟任何人说…"
+      }
+    },
+    {
+      "id": "b77e5f96-6499-4423-a9a8-b9a20f9a768f",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 140
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "但是这些「外来者」必须留下！"
+      }
+    },
+    {
+      "id": "0d229601-f2e1-44be-83e7-50d9786bb834",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 141
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "交涉失败了。"
+      }
+    },
+    {
+      "id": "4a92969b-ab3a-45ac-881a-0ad603069aab",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 142,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "希露瓦，你先走吧。"
+      }
+    },
+    {
+      "id": "a62e4810-bf78-411c-96c2-31091150919f",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 143
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "是我把你们带到这里来的，我会跟你们并肩作战。"
+      }
+    },
+    {
+      "id": "2262f4f3-de5c-47c7-8afc-609d725ad725",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 144
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "事关贝洛伯格——不，事关整个世界的命运。"
+      }
+    },
+    {
+      "id": "6bb39937-843a-4f31-a7c3-a0ffea48d5bf",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 144
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "邓恩，不要拦着我们——"
+      }
+    },
+    {
+      "id": "ef28dc89-3393-4381-8c20-d39feb390327",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 145
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "希露瓦！我们过去每天都一起排练，你应该懂的吧？"
+      }
+    },
+    {
+      "id": "8d119fda-b9e1-49ef-9e8d-70fc91cf7a67",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 146
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "我的摇滚灵魂，就是维护身为军人的尊严啊！"
+      }
+    },
+    {
+      "id": "c61fd354-ff57-4cb2-91a1-23d02d569b20",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 147
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "83382b09-239d-4802-a0d0-90fc5930a1af",
+      "source": {
+        "mission": "星星是冰冷的玩具",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/星星是冰冷的玩具.json",
+        "contentIndex": 95
+      },
+      "node": {
+        "type": "fold",
+        "title": "额外对话（可可利亚的残响）",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "dialogue",
+            "speaker": "布洛妮娅",
+            "text": "我不明白…假如真相如你所说，可是过去的几百年里，在位的每一任守护者都在抗拒星核的召唤……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "布洛妮娅",
+            "text": "难道她们都做错了吗，母亲？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "你还没看清吗，布洛妮娅？这里没有对错，有的只是人类的傲慢，还有短视。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "我们的先祖——包括阿丽萨·兰德在内——他们为了延续这一方文明燃尽生命，然后归于沉寂，记忆被风雪吹散。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "他们毕生忙于编撰颂扬人类勇气的赞歌，却抽不出时间凝神仰望星空。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "于星空中更加宏伟的存在而言，千年的光阴不过一粟，渺小种族的成就毫无注目的价值。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "我不会重蹈她们的覆辙，走在绝路上顾影自怜。如果坚持注定徒劳，那就选择崭新的开始。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "布洛妮娅",
+            "text": "但是，「存护」的克里珀——祂难道不是你所说的「宏伟存在」之一吗？一直在庇护着贝洛伯格的…不正是祂的力量吗？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "「存护」？「存护」何曾正视过人类一眼？那不过是筑城者自以为是的妄想而已。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "你会听到真正的宏伟之声，布洛妮娅…然后，你会理解我的选择。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dcc5ad64-0496-4296-bead-cf40d90c384d",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 148
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败邓恩…"
+      }
+    },
+    {
+      "id": "0ecdc4c2-3d50-437a-b205-9233dd43345e",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 149
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "邓恩",
+        "text": "希露瓦…为什么……"
+      }
+    },
+    {
+      "id": "51ff5062-26b2-4ffc-8e08-8bee98308cde",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 150
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "邓恩…抱歉，你就先小睡一会儿吧。"
+      }
+    },
+    {
+      "id": "abb46bbb-8b67-4a4b-a5be-a839618cea08",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 151
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "只是暂时晕过去了，不用太担心。"
+      }
+    },
+    {
+      "id": "aae45f2e-9a83-4d51-9f27-adb406cea460",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 152
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "死板的家伙…但很能打。「地火」缺的就是这种人。"
+      }
+    },
+    {
+      "id": "31a7e88c-533e-4b6c-9e32-7b3613072d9e",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 153
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "找到了，这就是「密钥」！快，趁还没引起注意，我们——"
+      }
+    },
+    {
+      "id": "f6d96c18-e02c-4667-80f9-9f230d8c8b74",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 154
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "现在引起注意了……"
+      }
+    },
+    {
+      "id": "deb5ee20-5991-4524-809f-e66075b5e42c",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 155
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "这是敌袭警报…整个后备区的铁卫都要和我们为敌了。"
+      }
+    },
+    {
+      "id": "fd641d40-7951-4c80-908b-8bda88b9c74d",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 157
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "都走到这里了…就算摔折胳膊再赔上条腿，我也要见到「星核」。"
+      }
+    },
+    {
+      "id": "8f828608-430a-4f98-8212-98a5b2a7c68c",
+      "source": {
+        "mission": "不可制造偶像",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/不可制造偶像.json",
+        "contentIndex": 158
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "走，谁敢挡路，就给他点颜色瞧瞧！"
+      }
+    },
+    {
+      "id": "51f8850a-804d-45e8-9c06-c230a0c1a58b",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 49
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们见到了杰帕德…"
+      }
+    },
+    {
+      "id": "94addbde-820c-4068-af02-70c51d286862",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "姐姐…真的是你。"
+      }
+    },
+    {
+      "id": "a37131b5-2ef2-4d45-aba4-bf650b3e768c",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "等等，杰帕德！听我说——"
+      }
+    },
+    {
+      "id": "d0a30814-87b2-4f64-bff4-b1c9a9209c1b",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 52
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "哨卫向我报告的时候，我还在想这其中是不是有什么误会。"
+      }
+    },
+    {
+      "id": "55d62fba-d6e8-42d3-a64e-11ba128962f6",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 52
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "也许是入侵者挟持了你，也许你进入禁区和警报完全无关。但……"
+      }
+    },
+    {
+      "id": "515007f2-c647-4a59-8c50-793e96c213f5",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 53
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "姐姐，离开入侵者，慢慢走到我身后来。你和他们不一样。"
+      }
+    },
+    {
+      "id": "e015f4e2-11a5-43ab-a998-b0b5d51cff97",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 54
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "抱歉，老弟——我说好了要站在他们这边。"
+      }
+    },
+    {
+      "id": "9a7e9726-ae49-4c9d-b176-f7fbcb9b68d2",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 55
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "……"
+      }
+    },
+    {
+      "id": "08d48339-e4f3-4db3-ba81-2497af5079ee",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "给我几分钟时间，只要几分钟，我会解释清楚——"
+      }
+    },
+    {
+      "id": "694c4aba-c887-46c2-a046-492e55184549",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "——别说了，希露瓦！"
+      }
+    },
+    {
+      "id": "f94c04ab-d398-407a-b31d-c35e6c642322",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 58
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "……！"
+      }
+    },
+    {
+      "id": "adab42b3-ae81-4925-a9ab-7653b609b758",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 59
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "这是什么地方，你应该很清楚，不是吗？"
+      }
+    },
+    {
+      "id": "17ad5c80-de97-4756-9181-3f518706a21a",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 59
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "朗道家族最熟悉的就是这里"
+      }
+    },
+    {
+      "id": "c2036dc8-e2ba-44e5-8bbf-d73ebad14adb",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 59
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "它是抵御裂界的最前线，守护贝洛伯格安宁的核心要塞。"
+      }
+    },
+    {
+      "id": "fbcd241f-57a0-43b1-995b-ef6b94a2c379",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 60
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "这里的银鬃铁卫，这里的每一个人，都做好了随时为人民牺牲的觉悟——"
+      }
+    },
+    {
+      "id": "cf15e47d-6b9d-43b5-b462-5386e80bd0ed",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 60
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "时刻准备好为贝洛伯格抛洒热血……"
+      }
+    },
+    {
+      "id": "f1777da4-0552-4588-8c13-fc5b200ff4e4",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 61
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "而你带领这群罪犯冲入禁区，伤害铁卫兄弟，劫持能源中枢…"
+      }
+    },
+    {
+      "id": "a9f71f50-f026-4b10-a2d9-86e221a3e286",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 61
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "事到如今仍然执迷不悟…你对得起朗道这个姓氏吗？"
+      }
+    },
+    {
+      "id": "8b047e8f-2c07-4c28-8b5f-5b83dc705fa7",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "你以为我为什么要出现在这里？"
+      }
+    },
+    {
+      "id": "77dbb05a-a7c7-4e63-bd39-ab4cb01e513b",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "我们找到了驱散寒潮、封印裂界的办法"
+      }
+    },
+    {
+      "id": "3de1ceab-122e-4c9f-85e0-dd14833b27d7",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "那可能是这个世界的最后一线生机！"
+      }
+    },
+    {
+      "id": "14fa4a5d-c8cb-4dff-80de-b55311b5e35b",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "若当真如此，为什么不禀报可可利亚大人？"
+      }
+    },
+    {
+      "id": "3e4ff2f5-979c-491b-be48-809a63c8df01",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "为什么偷偷摸摸混入禁区，制造混乱？！"
+      }
+    },
+    {
+      "id": "9bc802e8-df1f-4405-95a5-975d98a3c133",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 64
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "你不明白，阻止我们接近真相的人…就是可可利亚。"
+      }
+    },
+    {
+      "id": "ee55fbf5-c98d-4040-8c4d-78bf1e4a440d",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 65
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "你和那边的三个人都亲自见过大守护者，既然她不认可你们的说法，岂能擅作主张！"
+      }
+    },
+    {
+      "id": "af8779cb-bfd1-49be-ac41-6785b7a38e59",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 66
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "听我说，杰帕德！裂界的诞生和蔓延与「星核」有关"
+      }
+    },
+    {
+      "id": "3bad4ac5-176e-499d-bec5-2ef5aa87ac27",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 66
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "筑城者记录中的那颗陨星，它——"
+      }
+    },
+    {
+      "id": "07700b48-06f8-41f9-9bb3-64ee346cfc4e",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "我知道「星核」，你身后那几个犯人就是为它而来"
+      }
+    },
+    {
+      "id": "aa0f03ac-50e1-42b9-8e69-43dca2e9fc66",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "但守护者大人已经对我说出了真相！"
+      }
+    },
+    {
+      "id": "6ea60666-59e9-484a-a794-63075b269df3",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "这几人别有用心，想要偷窃筑城者的宝物。"
+      }
+    },
+    {
+      "id": "87944229-a45b-4197-a0c7-302831afd987",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 68
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "守护者大人一早提醒过我，你异想天开，触碰禁忌的知识，会给贝洛伯格带来灾祸…"
+      }
+    },
+    {
+      "id": "676cd0a9-7380-4219-a12b-4b7424bc837c",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 68
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "但我相信你，姐姐，我相信你对人民的忠诚！可是……"
+      }
+    },
+    {
+      "id": "b83bf558-c407-4f36-a356-17a614dae4e9",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 69
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "铁卫，列队！捉住他们。"
+      }
+    },
+    {
+      "id": "25065694-9e9d-48c8-bd13-05e519efa3c2",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 69
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "裂界怪物随时可能进犯，没有时间浪费在这群人身上！"
+      }
+    },
+    {
+      "id": "2c54bc40-494a-4a86-83ee-b4239f297716",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 70
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "禁忌之所以为禁忌，正是因为真相隐藏其中。"
+      }
+    },
+    {
+      "id": "a5a14450-eceb-4dd8-9d4e-d06f934a3e74",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 71
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "可可利亚害怕我们掌握这些知识，她畏惧真相大白于天下——"
+      }
+    },
+    {
+      "id": "24bf0b99-c2fc-40f1-a25c-6d1a138b2abd",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 71
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "为了拯救世界，我们只好孤注一掷。"
+      }
+    },
+    {
+      "id": "bdc5e07f-0e77-40ce-9ef3-5ece75aff067",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 72
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "好了，我要解释的就这么多！至于你信不信，才不关我事！"
+      }
+    },
+    {
+      "id": "e6429b3d-a0c1-4b29-a97d-8c60dfd93c51",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 72
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "反正老姐我一直都这么任性。遇到讨厌的事或人就要站起来反抗…"
+      }
+    },
+    {
+      "id": "42b82815-e5a9-454f-b96c-caa6c7d4d5a8",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 72
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "该坚持的事就绝对要坚持到底！"
+      }
+    },
+    {
+      "id": "16b4317b-3cb8-4492-96ad-530f97679a50",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 74
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "将你的解释留给审判官吧。"
+      }
+    },
+    {
+      "id": "024b1f9b-aeec-4bfa-b272-94451f03a9c8",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 74
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "现在，我以戍卫官的身份，下令捉拿破坏铁卫禁区的犯人！"
+      }
+    },
+    {
+      "id": "29b18b52-58b1-4b7d-aa10-5adf9ab3b1fe",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 75
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "这不是小时候的打闹游戏了，姐姐。我不会手下留情的！"
+      }
+    },
+    {
+      "id": "e3131d62-6189-489a-a679-bef70991acf7",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 76
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "「壁垒」的故障还没修好呢，别大言不惭了，弟弟！"
+      }
+    },
+    {
+      "id": "78cecc21-5e4d-451a-b5c0-612d053e7996",
+      "source": {
+        "mission": "星星是冰冷的玩具",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/星星是冰冷的玩具.json",
+        "contentIndex": 115
+      },
+      "node": {
+        "type": "fold",
+        "title": "额外对话（可可利亚的残响）",
+        "collapsed": true,
+        "content": [
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "第一任守护者在这里指挥银鬃铁卫作战，用巨大的牺牲换来了短暂的喘息之机。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "但来自异世界的军团不知疲倦。她很快就意识到，血肉之躯根本不可能与如此可怕的敌人抗衡。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "几近绝望之际…她选择把目光投向「星核」，许下最初的愿望。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "之后发生的事…你也清楚了。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "布洛妮娅",
+            "text": "所以…「寒潮」其实是应人类的愿望产生的灾难……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "讽刺吗？星核只是实现了人类的诉愿，我们却在接下来的几百年里对它的存在讳莫如深。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "甚至还妄图用「它」来抑制星核…可悲，可笑。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "布洛妮娅",
+            "text": "「它」？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "用不属于这个世界的技术打造出来的东西——旧时代的「公司」和筑城者妄图用来收容星核的抑制器。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "可可利亚",
+            "text": "我知道你有很多疑问，女儿。耐心些…很快你就能得到所有答案。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2a83578-64cf-4f97-a27b-53d2c86c71a8",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 79
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败杰帕德"
+      }
+    },
+    {
+      "id": "4c1fe473-e009-4ff3-8210-138aff09d741",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 80
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "呼…呼……"
+      }
+    },
+    {
+      "id": "ca3de91e-6951-4071-906d-f66e9c549118",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 81
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "这家伙…好扛打啊。我从没遇到过这么顽强的对手！"
+      }
+    },
+    {
+      "id": "2905a0ed-a140-4b42-866b-926eee03d271",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 82
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "哈…好像怎么都打不倒他……"
+      }
+    },
+    {
+      "id": "0149c18a-4de0-478c-b2f8-34d946af9005",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 83
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "因为他是个一根筋！"
+      }
+    },
+    {
+      "id": "c5a1a96b-1f6b-4633-a132-09b0d18bcd6a",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 83
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "辩论也好打架也罢，只要他认定了一件事，是死也不会让步的…"
+      }
+    },
+    {
+      "id": "b7e3e778-82d5-4ae0-bec4-411153ef0ef2",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 83
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "所以才不可爱啊，这家伙！"
+      }
+    },
+    {
+      "id": "ab0276b3-7bb8-4949-a6bb-4bfad9bcf90f",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 84
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "差不多了吧，杰帕德！看看你周围，只剩你还站着了！"
+      }
+    },
+    {
+      "id": "ca75a002-bbd8-45c1-9c77-9ae1d8ff1024",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 85
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "…就算只有我一个人，我也不会屈服……"
+      }
+    },
+    {
+      "id": "ba5c2a64-0d38-47a5-a9dd-8d59fb27c246",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 87
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我们并非要以武力镇服你，那样的服从毫无意义。"
+      }
+    },
+    {
+      "id": "041a8ad9-f5a3-4f64-9e27-a492d1a4a8d6",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "是啊，我们的目的和你、希露瓦、布洛妮娅明明是一致的呀，都是要「存护」这个世界！"
+      }
+    },
+    {
+      "id": "10680749-0e83-48ae-8b8e-7fcc846aeeac",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "根本没有敌对的理由好嘛！"
+      }
+    },
+    {
+      "id": "321d172f-9dec-4771-99da-7e5561f4b45f",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 89
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "杰帕德…老弟，到了这份上，你也该懂得变通一下了吧？"
+      }
+    },
+    {
+      "id": "bcc8f81b-6f57-4959-81b9-361d996aceda",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 90
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "就算你不相信这些外来的朋友，也该相信我——"
+      }
+    },
+    {
+      "id": "c96955d0-8ee4-4816-b78c-62e9fed15b92",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 90
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "呃，可能姐姐我确实把你的信任都消磨光了——"
+      }
+    },
+    {
+      "id": "049bcff9-bb7e-4525-ae5f-3d8688d6443c",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 90
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "那就至少，相信布洛妮娅吧。"
+      }
+    },
+    {
+      "id": "42944940-9f5a-4e62-8b85-284984d8e202",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 91
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "…布洛妮娅小姐？"
+      }
+    },
+    {
+      "id": "1351464e-8c88-4d16-88ea-f26f6a888266",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 92
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们将所知道的一切告知杰帕德，并交出了布洛妮娅的信件。"
+      }
+    },
+    {
+      "id": "998d73a7-fff4-4604-83ec-2f9c4e703355",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 93
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "……"
+      }
+    },
+    {
+      "id": "45d1c04a-fff8-48e8-8348-8d156bee7b9d",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 94
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "该说的都说了，老弟，该怎么做你自己决定吧。"
+      }
+    },
+    {
+      "id": "d9dabacc-9fea-4b98-800d-a3198d350dc8",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 95
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "……"
+      }
+    },
+    {
+      "id": "6f7ff260-c9a1-4801-aed9-789047a93ef4",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "我是银鬃铁卫的戍卫官，职责所在，必须执行「大守护者」的命令。"
+      }
+    },
+    {
+      "id": "601e954f-e4f6-4dd4-a024-680ac6ed2e8f",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 98
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "——但布洛妮娅小姐是前线实际上的指挥官。"
+      }
+    },
+    {
+      "id": "b354e8d3-ded2-44a6-b3c8-b13ee1e54acf",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 98
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "根据军规，当前线指挥与后方筑城者的指令发生冲突时，应原地等待进一步的指令。"
+      }
+    },
+    {
+      "id": "624c554c-b8c7-48ff-8ec6-9ce98150f4b8",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 100
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "……"
+      }
+    },
+    {
+      "id": "3a2ea7e3-e0ec-4a82-aae3-1cbe0792019f",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 101
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "对银鬃铁卫而言，守护者的命令是至高、绝对的。"
+      }
+    },
+    {
+      "id": "ed478f40-b3f1-481b-9390-918cd9c4b8bb",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 101
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "但在誓言里，还有一样东西和她的命令同等重要……"
+      }
+    },
+    {
+      "id": "03d33eef-0b85-4619-be7d-053d234d0199",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 102
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "…贝洛伯格的人民。"
+      }
+    },
+    {
+      "id": "47164c08-740b-48a7-81ac-dcb21c2a99be",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 103
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "失去了人民，铁卫的意义也就不复存在。"
+      }
+    },
+    {
+      "id": "0c7e434e-2169-4694-9431-25e65c44f8c1",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 103
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "与裂界怪物的作战是为了「存护」，但和你们的战斗…"
+      }
+    },
+    {
+      "id": "677554ff-e56e-4ea0-89cb-dbabc610d445",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 103
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "我现在不明白它的意义。"
+      }
+    },
+    {
+      "id": "00cf5d04-7793-4c2b-9cb5-9fe5987b42bf",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 104
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "如果你们真的能阻止不断膨胀的灾难，那贝洛伯格的所有人都欠你们一份感激。"
+      }
+    },
+    {
+      "id": "94aa6369-e07c-4a8a-9c5c-d75588dc38e8",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 105
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "但如果你们是在用一层又一层的谎言粉饰真实目的，利用布洛妮娅和姐姐…"
+      }
+    },
+    {
+      "id": "f0556696-00b7-4048-9dcc-49c818cae579",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 105
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "我对克里珀发誓，一定会毫不留情地制裁你们。"
+      }
+    },
+    {
+      "id": "25eff22a-8a24-4781-bbdc-6d9bc6fe6ee4",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 106
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "他们没有说谎，我向你保证。"
+      }
+    },
+    {
+      "id": "bfdc1d33-5d64-41d3-8094-b29d21579a2b",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 107
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "你就是希儿？身手不错，但不像是铁卫的战法。"
+      }
+    },
+    {
+      "id": "b432ee17-0067-4773-81ee-100847635d70",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 108
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "不管你信不信，这些人的确帮了下层区很大的忙，很多人都愿意为他们做担保。"
+      }
+    },
+    {
+      "id": "a96bb243-61fe-4ab4-b0b9-5a19eaf5d461",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 109
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "…我知道了。"
+      }
+    },
+    {
+      "id": "0116ae76-1344-4ef5-b4d7-008bb8fd237b",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "想继续向北方进发，要穿过一整片被完全侵蚀的裂界，才能到达另一头的雪原。"
+      }
+    },
+    {
+      "id": "d74bff09-1b0a-411e-b8d7-6566cc426587",
+      "source": {
+        "mission": "青年近卫军",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/青年近卫军.json",
+        "contentIndex": 111
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "在下一拨袭击到来之前，铁卫还能争取一些时间。"
+      }
+    },
+    {
+      "id": "5373842f-0ad5-41df-93d5-25d853489ea8",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "准备好后与杰帕德对话，开启大门"
+      }
+    },
+    {
+      "id": "09516a38-cf2c-4a5d-8a88-fd37f6b4d647",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 4
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "禁区的大门一旦打开，另一头的怪物就会倾巢出动。"
+      }
+    },
+    {
+      "id": "b0920750-f68a-4118-8069-5f6f85c6555e",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 4
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "银鬃铁卫能做到的，就是尽量拖住敌人，给你们争取一些时间。"
+      }
+    },
+    {
+      "id": "86d597da-2cf3-4eaa-b97d-05cac2cb4403",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 5
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "一旦你们突破了前线…我们就再帮不上什么忙了。"
+      }
+    },
+    {
+      "id": "9b36391f-c1ea-4df1-88f2-666b6b01e853",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 5
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "北方的裂界里究竟是怎样的景象，只能由各位自己一探究竟。"
+      }
+    },
+    {
+      "id": "a3f03dff-de99-40d9-ad19-ba3b5ef23a38",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 7,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "铁卫！听我命令——打开大门！"
+      }
+    },
+    {
+      "id": "fd1461f1-86f4-439c-8e0e-1b577ead609c",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "禁区的大门缓缓打开…"
+      }
+    },
+    {
+      "id": "cb67a5e9-2749-408b-a48e-53ce5add1ba0",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "…门后的怪物向你们冲来…"
+      }
+    },
+    {
+      "id": "1967c0f6-15b7-47ee-a499-08bc12d96a8c",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "你们每天都在面对这种攻势吗？"
+      }
+    },
+    {
+      "id": "320ed69c-f932-41e8-aee5-ca4f998efcaf",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "司空见惯了。"
+      }
+    },
+    {
+      "id": "c91ae086-6bba-4fe8-ae3b-fde8d67bdf3e",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 13
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "银鬃铁卫，列队！"
+      }
+    },
+    {
+      "id": "d1962c6e-5720-48df-abf5-4a52c9c3d5ce",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 17
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "——准备御敌！"
+      }
+    },
+    {
+      "id": "829d5336-0704-4ee4-9bff-ef9d665f2d04",
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "3496e9ed-c558-4c3f-91b4-98af97ed0c0c",
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "留守在列车上的瓦尔特和姬子在商量着什么…"
+      }
+    },
+    {
+      "id": "31f306ec-3a14-49eb-9113-452d798c3626",
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "裂界的活动加剧了——雅利洛-Ⅵ上正在发生某种变化。"
+      }
+    },
+    {
+      "id": "66ce76fe-6ee8-4b96-8ad8-4fa34a68f547",
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "我们还不动身吗，姬子？"
+      }
+    },
+    {
+      "id": "a1d90728-f15b-4569-b6f2-668fbaeac794",
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "相信他们吧，这可是他的第一次「开拓」任务"
+      }
+    },
+    {
+      "id": "d71d4868-a312-46d8-9da1-65ae441b6ad3",
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "没有点压力和波折，怎么能成为青春的回忆呢？"
+      }
+    },
+    {
+      "id": "428e4837-1adc-404e-82b0-2a9377a4f20a",
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "觉得无聊了吗，瓦尔特？我能理解你的心情…"
+      }
+    },
+    {
+      "id": "5942a381-b56b-4c01-8958-26549b05007f",
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "不过我们以后还有很多机会。这一次的冒险回忆就留给他们三个吧~"
+      }
+    },
+    {
+      "id": "9a1cbabf-3c5f-4293-b353-99b94be5ae33",
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "你判断他们是安全的，对吗？"
+      }
+    },
+    {
+      "id": "49f6b79f-25cf-4c84-a8b2-320901686763",
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "…嗯，没有出现「星神」或「令使」等级的虚数反应。放心吧。"
+      }
+    },
+    {
+      "id": "f14d0046-88c9-4738-9e48-6a695f759ae3",
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "属于年轻人的舞台，我们不应该插手…"
+      }
+    },
+    {
+      "id": "900bc882-6c9f-4be9-b87e-d1150fb7acea",
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "顶多来一点「场外援助」…吧。"
+      }
+    },
+    {
+      "id": "8b70767a-fa80-4db2-afba-231a785615e9",
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "2fa6bf68-3f4c-418c-bafd-cc2f05273e22",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "唔…"
+      }
+    },
+    {
+      "id": "f5ae5678-98d5-4a1f-9e4a-c4bf276f4fb3",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 24
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "…早说过了，杰帕德！「壁垒」还没修好，不要逞强！"
+      }
+    },
+    {
+      "id": "88ce8f1e-ed76-46e5-a240-7ca93f77f901",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 25
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "这只是…第一拨敌人。它们…很快就会再集结。我不能……"
+      }
+    },
+    {
+      "id": "f1c9d4ba-76d4-4d3c-a121-5291da8f46cc",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 26
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希儿",
+        "text": "听你姐姐的话吧，铁卫！一看就知道，你的状态还没完全恢复呢。"
+      }
+    },
+    {
+      "id": "bf611aab-3592-40c3-b990-174953906a6f",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "……"
+      }
+    },
+    {
+      "id": "905ef25a-0342-44cb-ac9d-939d9caa6048",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 28
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "外来的、希儿——趁着下一波攻势还没开始，你们赶紧突围吧！"
+      }
+    },
+    {
+      "id": "0f892903-6d1c-4d02-8bb3-44393faff95e",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 29
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "欸？希露瓦，你不和我们一起去找「星核」吗？"
+      }
+    },
+    {
+      "id": "8392a4f7-88bd-46e6-87f0-c05401ac20ad",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "老弟独木难支啊。刚才把他教训了一顿，这是我的责任。而且……"
+      }
+    },
+    {
+      "id": "492afb3d-33f1-4fca-8975-f2ce54524c5b",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "我不帮把手的话…下一场战斗不知道会怎么样呢。"
+      }
+    },
+    {
+      "id": "d2b4e768-e7b1-44fe-bc04-1805bcb6f972",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "我也很想跟你们一起啊，真的很想！"
+      }
+    },
+    {
+      "id": "8cb25880-7c21-44dd-85c8-510d575c848d",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "「星核」近在咫尺了，离我那么近，我一直想看它一眼——"
+      }
+    },
+    {
+      "id": "a574c3c8-bfd7-40f0-ad28-1a5cf56ef086",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 33
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "但总不能丢下老弟和这群铁卫不管吧，我可是朗道家的女儿啊！"
+      }
+    },
+    {
+      "id": "82f53a7d-ea5a-48b7-917e-b7af13fff0a1",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 33
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "交给你们了！我相信你们能做到，我在你们身上看到了希望！"
+      }
+    },
+    {
+      "id": "02b0fdff-32be-44c8-8c65-e2d82a6736ba",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 34
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "赶在可可利亚发觉之前，把「星核」拿到手吧！"
+      }
+    },
+    {
+      "id": "015083c2-8e4b-4a30-98ee-0c78511630e2",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 35,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "我们不会辜负你的信任。"
+      }
+    },
+    {
+      "id": "c17c9782-6627-4d0b-bc5f-a162aa3ed74a",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "「星核」的模样…记得拍张照给我啊，小姑娘。"
+      }
+    },
+    {
+      "id": "5c792d9a-a3ec-47f3-a4d7-500bef03c346",
+      "source": {
+        "mission": "兵士们默默无言",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于曈昽的骄阳下/兵士们默默无言.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "一言为定！放心吧，我们可是很厉害的！"
+      }
+    }
+  ]
+}

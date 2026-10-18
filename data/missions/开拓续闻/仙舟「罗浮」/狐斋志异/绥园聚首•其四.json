@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "绥园聚首•其四",
+    "pageId": 8435,
+    "revisionId": 34351,
+    "parentRevisionId": 27501,
+    "revisionTimestamp": "2024-03-17T10:53:25Z",
+    "fetchedAt": "2026-09-28T00:20:19.917Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%BB%A5%E5%9B%AD%E8%81%9A%E9%A6%96%E2%80%A2%E5%85%B6%E5%9B%9B",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%BB%A5%E5%9B%AD%E8%81%9A%E9%A6%96%E2%80%A2%E5%85%B6%E5%9B%9B&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "绥园聚首·其四",
+    "region": "仙舟「罗浮」",
+    "type": "开拓续闻",
+    "version": "1.5",
+    "number": "08",
+    "series": "狐斋志异",
+    "description": "你与捉鬼小队的成员再度在绥园聚首。如同上班打卡一般，翻翻「罗浮杂俎」瞧瞧有什么足够怪异的事情，再去探查一番，一天便这么过去了。",
+    "requirements": "「罗浮杂俎」的订阅量达到400000",
+    "requiredLevel": "34",
+    "characters": [
+      "素裳",
+      "桂乃芬",
+      "寒鸦"
+    ],
+    "relatedItems": [],
+    "rewards": [],
+    "previousMissions": [
+      "剑精"
+    ],
+    "nextMissions": [
+      "狐梦"
+    ],
+    "objectives": [
+      "与桂乃芬交谈，查看求助帖"
+    ],
+    "synopsis": [],
+    "extra": {
+      "时间": "",
+      "相关活动": "「狐斋志异」",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "任务接取短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "捉鬼小队",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "不好了家人们，出大事了，藿藿失踪了！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "素裳",
+          "contentType": "text",
+          "text": "藿藿不见了？昨天离开前她有说过要去做什么吗？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "从昨天解散起，她似乎就有些不太对劲了",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "@藿藿",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "素裳",
+          "contentType": "text",
+          "text": "@藿藿",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "@藿藿",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "@藿藿"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "桂乃芬",
+                  "contentType": "text",
+                  "text": "光在群里呼叫她没用，赶快联系寒鸦大人吧",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "要不问问寒鸦大人",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "也许寒鸦大人能找到她"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "我们在老地方集合",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "捉鬼小队少了谁都不行",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "我已经在网上发帖找人了！你们来了，我们再确认一下",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "素裳",
+          "contentType": "text",
+          "text": "马上就来",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "@藿藿",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "@藿藿"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "桂乃芬",
+                  "contentType": "text",
+                  "text": "别@了，快来绥园",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "这就来",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "我马上就过来"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与桂乃芬交谈，查看求助帖"
+    },
+    {
+      "type": "objective-description",
+      "text": "完成了一日冒险，你与捉鬼小队的成员再度在绥园聚首。如同上班打卡一般…本来应该是这样的，但是藿藿不见了！\n桂乃芬正在发帖寻人，去和她谈谈，看看有没有什么线索吧。",
+      "location": "仙舟「罗浮」-绥园"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "我正在看回复呢，你也快来看一看。寒鸦大人说她马上就来。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "大家到齐了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "看来人到齐了。本该向藿藿汇报的冥差们说，今日未曾见过藿藿的踪影。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "开门见山地说吧，小女子不知道藿藿到哪儿去了。不过，聚在一处，我们至少可以梳理线索——你们几位走得很近，还记得昨日藿藿有什么异常吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她在挂念尾巴。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "藿藿小姐和我们一起行动，除了完成职责外，也想搜寻尾巴的线索。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "她一直都心事重重的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "自从尾巴没了以后，藿藿看起来始终有些闷闷不乐的。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "她认为自己拖累了咱们。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "寒鸦",
+              "text": "自从成为判官起，藿藿时不时萌生出想要退却离职的意思。她或许认为自己配不上判官的职务。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "寒鸦",
+              "text": "按我的观察，在尾巴失踪后，她的这个念头更强烈了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "对了，有没有可能，今天藿藿突然得到了关于尾巴的线索…这样一来，以她的性格一定会去找回尾巴的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "但是藿藿既没有找你们，也没有来找我。这很反常。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "以藿藿的性格，假设她得到了「线索」，她多半会向外求援。但…如果她没有向我们任何人提及此事，唯有一种可能。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她受人欺骗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "嗯，我已经有了怀疑对象。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "她不信任我们。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "寒鸦",
+              "text": "我想经历这几日的行动，各位应该很明白，藿藿早已同你们合作无间了。我很难想像她会独自一人行动。除非有人蒙骗了她……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "她有不得已独自行动的原因。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "素裳",
+              "text": "嗯，也许有人用尾巴的消息蒙骗了她，并且告诉她「只能一个人去」。嗯嗯，很像是某些绑票的坏家伙会用的招数。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "浮烟…唯一能知晓尾巴下落的，只有因为它的融入而功败垂成的浮烟。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "就算浮烟不知道，要说这里谁最打算使坏，也只有可能是那家伙了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "走吧，审问浮烟，务必要从它嘴里撬出些什么。"
+    }
+  ],
+  "warnings": []
+}

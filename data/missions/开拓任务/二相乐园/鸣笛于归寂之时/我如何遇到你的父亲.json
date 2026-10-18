@@ -1,0 +1,1956 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "我如何遇到你的父亲",
+    "pageId": 39293,
+    "revisionId": 102490,
+    "parentRevisionId": 99718,
+    "revisionTimestamp": "2026-09-19T11:47:24Z",
+    "fetchedAt": "2026-09-28T00:19:52.238Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%88%91%E5%A6%82%E4%BD%95%E9%81%87%E5%88%B0%E4%BD%A0%E7%9A%84%E7%88%B6%E4%BA%B2",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%88%91%E5%A6%82%E4%BD%95%E9%81%87%E5%88%B0%E4%BD%A0%E7%9A%84%E7%88%B6%E4%BA%B2&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "我如何遇到你的父亲",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.4",
+    "number": "01",
+    "series": "鸣笛于归寂之时",
+    "description": "归寂宣布自己作为谒者加入幻月游戏，并把二相乐园变化为末日废墟，作为归寂所宣扬的「奇迹」。姬子被归寂带去某处画中世界，她为你留下嘱托：点燃列车引擎，赢下幻月游戏。",
+    "requirements": "完成任务不存在的国度",
+    "requiredLevel": "21",
+    "characters": [
+      "真珠",
+      "银狼",
+      "绘世",
+      "刃",
+      "归寂",
+      "姬子",
+      "绯英"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "700"
+      },
+      {
+        "item": "星琼",
+        "amount": "90"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "6"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "6"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "280"
+      },
+      {
+        "item": "信用点",
+        "amount": "120000"
+      }
+    ],
+    "previousMissions": [
+      "不存在的国度"
+    ],
+    "nextMissions": [
+      "你逃我也逃"
+    ],
+    "objectives": [
+      "与同伴们商讨对策",
+      "穿过通道，离开画中世界",
+      "前往绘世学院，继续冒险",
+      "前往末日妖都，继续冒险",
+      "寻找姬子的下落",
+      "跟随神木根系的指引",
+      "跟随绯英留下的指引，寻找同伴",
+      "查看画布上的线索",
+      "前往末日妖都，继续冒险",
+      "（可选）与银狼等人告别",
+      "通过画中通道离开绘世学院"
+    ],
+    "synopsis": [
+      "为应对归寂现身，真珠请你们护送绘世前往珠星大厦，再度将世界「绘入画中」来保护二相乐园。",
+      "从姬子六岁起，扮演她「父亲」的人一直是归寂。归寂习惯在毁灭一颗星球前近距离欣赏其上的芸芸众生，这让他收获了一个又一个远超预期的作品。知晓了真相的姬子下定决心要阻止归寂，粉碎他精心编织的「欢愉」。",
+      "姬子点出归寂是为加入幻月游戏而现身。归寂表示，绯英为你画出的浣熊面具挤掉了一张原有面具的位置，而那张本应存在的假面正在归寂手里。",
+      "归寂拔出幻月上的火箭作为画笔，将二相乐园绘成末日妖都。「那么…一位绝灭大君，将会如何赢下这场游戏？」",
+      "姬子震惊于归寂的暴行，但相信人们会重建家园。归寂认为二相乐园不会有这个机会，并把姬子关进另一副画里。",
+      "据新闻报道，归寂宣布作为谒者加入幻月游戏。人们对归寂的讨论热度飙升，这为归寂带来了巨大的愿力，令其获胜在望。",
+      "归寂计划将巨大的愿力喂给「贪饕」，使其苏醒。你们离开画中世界，发现二相乐园的空间已经扭曲，姬子也下落不明。",
+      "你循着神木的指引找到借画显形的绯英。绯英表示归寂完成了唱名并兑现了名为末日的「奇迹」，但所幸姬子目前应该安然无恙。",
+      "绯英必须履行「镇世神木」的职责，尽力维系正在崩解碎裂的现实，并拜托你们阻止归寂、拯救这个世界。",
+      "归寂带来的末日是「不稳定的未来」，在一切尘埃落定之前打败他，就有机会改变现实。绯英请你沿着神木根脉前进，找回散落的伙伴。",
+      "为得知十五年前血涂游戏的真相，归寂接受姬子的挑战，回答彼此的问题。在被带入画中前，姬子留下线索——点燃列车引擎，赢下幻月游戏。",
+      "击退归寂的分身后，银狼护送绘世前往珠星大厦，刃前往地下废站寻找失联的丹恒和瓦尔特。为完成姬子的嘱托，你出发寻找星穹列车。"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#异兽魔都",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "fold",
+      "title": "前情提要",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "解决了满愿的危机后，我们回到星穹列车整理思绪。倏忽、归寂，还有贪饕…意料之外的挑战接踵而至。几经商议，我们决定兵分几路，协力处理二相乐园的麻烦。\n爻光与丹恒、瓦尔特奔波二相乐园各处，布置「十方光映法界」，防备绝灭大君的暗袭。刃则决定前往画中世界尽头，借贪饕的力量与倏忽做个了断。\n另一边，不死途、三月七等人前往酒馆，寻找关于归寂的线索。经过一番调查，疑点锁定在「未抵」身上，这位前假面愚者在离开酒馆后去往星穹列车，成为领航员「我见」，不死途的贪饕之影正是他的「遗产」。\n除此之外，阮·梅带来情报：幻月游戏是阿哈镇压贪饕死躯的仪式，而欢愉命途或许起源于贪饕被剥离的概念：「回味」。\n与此同时，我按绯英的委托，前往画中世界寻找绘世。机缘巧合下，我真的见到了那位幻造之母，她向我吐露自己在烬土纪元目睹列车坠毁、对抗归寂的往事，并邀请我继续深入画中世界。\n另一头，姬子重返绘世学院与隆介同行，试探他与「毁灭」是否有染。回忆期间，隆介提出猜测：真正的姬子早已因风化诅咒死去，眼前之人不过是姬子画出的幻造生命，替姬子实现开拓的梦想。\n而在「渡画泉隐」的河畔，我与银狼、刃再度相逢。绘世再度应我召唤而来，将一行人渡往画中世界深处。在彼岸花原，刃向我们告别，决然跃入贪饕口中。他坦然接受已行之路，重拾匠人本心，借助贪饕熔炉一般的破坏力与丰饶血肉的再生力，誓要将自己千锤百冶为永囚倏忽之「刃」。\n彼岸花原上，我惊觉先前在「渡画泉隐」所见的「绘世」是人假扮。幕后黑手归寂出现，道出绘世实为「毁灭」子嗣的真相，随后化解我们的攻势，重伤绘世并离去。\n我们被迫与失控的绘世缠斗。关键时刻，成功熔炼倏忽的刃涅槃归来、制胜战局。恢复理智的绘世指出，归寂有近乎分身的能力。事实确实如此，同一时间，不死途、爻光等人都遭遇了归寂的袭击。\n最糟糕的是，就连姬子的父亲——隆介，也从头到尾都是归寂假扮。撕破面具后，归寂在所有人面前高调登场，宣布自己将要让不可知的意外降临二相乐园……"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与同伴们商讨对策"
+    },
+    {
+      "type": "objective-description",
+      "text": "绝灭大君归寂已经现身。眼下最紧要的，是尽快与同伴们会合，以免被归寂的分身逐个击破。\n无论如何，必须守住二相乐园，阻止归寂释放「贪饕」。",
+      "location": "二相乐园-渡画泉隐"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "此时此刻，在画中世界的尽头……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "归寂说「要去见一位真正的无名客」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…姬子，有麻烦了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "啧，要是那个混球真的能到处「复制粘贴」自己，要遭殃的恐怕不只有星穹列车这边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "…兽蜕在躁动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "我会为你们开辟一条从画界通往现世的道路，帮助你们离开。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你怎么办？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "我会留在画界中，修复封印，平息「贪饕」遗骸的蠢动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "抱歉，全局推演结论是：您此举成功率低于3%。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "这是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "诸位…能听到吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我就知道你会跟踪咱们，但你来得太「及时」了吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我观测到「画中世界」爆发了强烈的能量反应：这才能锁定诸位的坐标。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "与此同时，二相乐园多地也出现了类似的能量信号。其本征值与公司在翁法罗斯危机期间记录的数据相符。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "结论：绝灭大君「归寂」于多个位置同时现身了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "这到底是什么把戏？等等，考虑到那个混球千变万化的本事——我怎么相信你才是真的真珠？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "真的…真珠？疑惑：以太骇客，这是什么文字游戏吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "姬子那边情况如何？！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "坐标：绘世学院。调用的影像数据显示，姬子女士与疑似归寂的存在爆发了冲突，几乎同一时间，以同一坐标为中心，观测到巨大质量导致的引力波效应。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "列车没事吧？！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "坐标：泊地站。停靠列车的状况完好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "坐标：「世界尽头」酒馆，三月七和不死途已从中撤离。通信状况稳定，暂无生命危险。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "坐标：？？？废站。爻光将军、丹恒和瓦尔特先生已失去联络。最后捕获的信号显示，该区域空间结构再度变化。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "可恶……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "有机生命的诸位，请屏蔽情绪变量的干扰。我给出我的提案：立刻护送绘世前往珠星大厦。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你要做什么？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我们没时间各自为战了，为了应对这一刻，我将启动长久以来准备的应急预案——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我要请绘世大人再度重演「画中世界」的仪式。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我知道，此刻提「交易」未免有些煞风景，但是：以太骇客，请「信任」我，这也是我们能达成交易的基础。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "时间流逝，我很难预判预案的成功率——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "…啊，断线了。这是我自己的交易，不想把无关的人扯进来……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "无妨，小姑娘。事到如今，那位智械小姐的提议也许是唯一的解救之道。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "是啊，她可是你的头号大大大粉丝，铁脑袋做的每个电子梦都是想见你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "但丑话说在前头，论坏事，也是公司那群废柴把你精心制作的「画界封印」撕扯得支离破碎——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "因此，我们才更需要她的力量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "我会顺着我千年前留下的画作绘出通道。小姑娘，来帮我一把。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我也要画画吗？我的手段，通常比较…粗暴。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "缺的就是这一点粗暴——眼下我们可不是要在现实上作画，而是…撕开一道「口子」。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "穿过通道，离开画中世界"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "完成了。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（刃）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "刃静静地端详着蛸之面具。面具曾经属于倏忽，但如今倏忽被刃囚于体内，谒者的身份自然传递到后者手中。\n只是，刃看上去好像有些…嫌弃？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "刃",
+          "text": "……"
+        },
+        {
+          "type": "text",
+          "text": "身为一名工匠，也许他在思考，怎么用自己的审美，将蛸之面具也再造一新吧。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（银狼）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "银狼",
+          "text": "开拓者，走吧。你的列车伙伴需要你。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "穿过绘世打开的通道，返回现世"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往绘世学院，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "谎言恰似精心雕琢的乐园，一旦剥离伪饰的繁荣，便露出疯狂的原貌。\n既然你执意掀开末日的幕布，亲爱的「女儿」，那就见证爸爸如何将这片荒诞之地，掷成湮于「毁灭」的妖都吧。",
+      "location": "二相乐园-寂灭空飨妖都"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "刚才那一闪而逝的机铠幻影，莫非就是你十五年前击败告死魔的秘密武器？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "虽然它看起来还不完整，但你竟然能将它再现！我的冒牌「女儿」啊，你实在是个有趣的存在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "…所以，从六岁起，那个陪伴她、引导她走向星空的「父亲」…一直是你？一个绝灭大君？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "在睡前为她讲述银河奇景，在她生气时笨拙地讨好…这一切，只是伪装的表演？只是为了在如今开上一个恶意的玩笑？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "…你心碎的表情，如此真诚。是你扮演「姬子」太久、入戏太深了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "还是说，你在她死前，得到了她的记忆？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "对作品倾注情感，这也是「爸爸」多年以来的坏习惯了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "在一颗星球上落下「毁灭」的最后一笔前，我总会先花些时间端详它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "就像欣赏画作的笔触那样，和其上的生命交谈、生活。然后，我会一遍遍设想自己该如何落笔涂鸦，好将它鲜活的人世绘成地狱的图景。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "不得不承认，在哈托彼亚，我下意识地做了多余的事…不止一桩。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "但正是这点多余的投入，让我收获了{{一个又一个远超预期的作品|绘世、姬子，还有你}}。看着你们挣扎、成长、怀抱希望…这过程充满了无与伦比的欢愉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "呵…「作品」啊。原来如此。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "谢谢你，归寂先生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "哦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "谢谢你，让我走上了「开拓」这条道路。谢谢你长久的「扮演」，谢谢你在睡前讲的那些冒险故事……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你所扮演的「隆介」教我仰望星空，于是我学会了仰望；你告诉我星穹列车的存在，于是我燃起了找到它的执念。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你播下了虚假的种子，但它在我心里长出了对开拓的渴望。这条由谎言开辟的道路，已经被我，被我的伙伴，用真实的脚步走到了这里。所以——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我会阻止你，粉碎你精心编织的「欢愉」。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "哈哈哈哈！有趣，真是太有趣了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "领航员，你总能给我惊喜！竟然这么快就从痛苦的废墟中挣脱出来，开始反击了。都说成长的第一步，是从「弑父」开始的。我很期待，接下来…你又能做到些什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "弑父？不。我眼前站着的，是一个窃取了我父亲面容和名字的怪物。我要做的，是撕下你的面具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我相信我真正父亲的在天之灵，会很乐意看到这一幕……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "至于你这么大张旗鼓地登场…如果只是为了欣赏我的成长，未免太过铺张。你是为了加入「幻月游戏」才现身的，对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "猜对啦！我能感觉到…恐慌的愿力潮汐，正迫不及待地要向我涌来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "但是，八张面具已经各有其主，你到底是怎么——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "屏幕前的各位一定和这位「姬子小姐」一样疑惑，八位谒者已成定数。我这不速之客，又该如何挤进这场星神的仪式里？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "叮咚，提醒一下——早在故事开始时，我们的裁判小姐破例使用了一点「小技巧」，为「主角」画出了一张面具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "那么，被那张赝品挤掉位置的、本应存在的欢愉假面…又落到了谁的手里呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "答案就在眼前！"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "那么…一位绝灭大君，将会如何赢下这场游戏？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "很简单，我将要宣扬的并非「奇迹」——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "而是你们在享用奇迹时，"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "归寂",
+          "text": "视而不见的「价码」。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "归寂拔出插在幻月上的火箭…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "将其作笔，转眼之间，二相乐园已是一片废墟…"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往末日妖都，继续冒险"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "二相乐园…你到底做了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "繁荣滋生腐败，苦难缔造英雄。他们狂欢，放纵，仿佛乐园明天就要毁灭。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "既然他们如此相信，那就配得上这样的结局——成为这幅末日妖都风景画上的点点血墨。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "……疯子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "毁灭总是比创造更引人注目。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "但是，画作不会消失。即使它被涂抹，被撕裂——只要还有一个人记得它的模样，它就会一直存在，被人们不断重绘。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "很遗憾，你们没有时间重绘它了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我会把你关进另一幅画里，让你在「开拓」这个谎言的起点…无处启行。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "噗噗",
+      "text": "紧、紧急特讯！二相乐园前所未有的大事件！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪雪",
+      "text": "就在刚才，又一位谒者宣布加入幻月游戏！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪雪",
+      "text": "这位谒者自称：归寂——「毁灭」星神纳努克麾下的绝灭大君！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "噗噗",
+      "text": "根据热心群众的目击证词，疑似归寂的存在同时出现在歌坛市和载具城等多个地区，瞬间造成了巨大破坏——我们完全不知道他到底做了什么！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪雪",
+      "text": "这家伙为什么能无视八人参赛的规则啊？！异常防御部会认可他的资格吗？说起来，异常防御部，你到底防御了什么啊？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "噗噗",
+      "text": "后台数据显示，#归寂##绝灭大君#等词条的讨论热度正在直线飙升！这也意味着，归寂将获得巨大的愿力——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "雪雪",
+      "text": "也许，最终赢下幻月游戏、接任「欢愉」星神之位的，将会是…绝灭大君！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "噗噗",
+      "text": "本台将持续跟踪报道，如果您有归寂行踪的任何线索，请尽快与我们联系！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "啊这…是传送门打开的方式不对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我们才离开多久？这地方…还是之前那个二相乐园吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "不会错，这就是现实。货真价实的哈托彼亚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…姬子呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（呼喊姬子的名字）",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "姬子——！能听见吗——！"
+            },
+            {
+              "type": "text",
+              "text": "你焦躁的声音在废墟中回荡，无人回应。远处传来隆隆崩塌的声响，像是对你呼喊的残酷嘲笑。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "（联络姬子）",
+          "content": [
+            {
+              "type": "text",
+              "text": "手机中只传来沙沙干扰声。背景不祥的杂音和无法接通的提示音让你分外焦虑。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "（联络列车同伴）",
+          "content": [
+            {
+              "type": "text",
+              "text": "手机中只传来沙沙干扰声。背景不祥的杂音和无法接通的提示音让你分外焦虑。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "不止通讯，二相乐园的坐标数据也都到处乱跳——珠星大厦这是到哪儿去了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "这片空间……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "…似乎连物理法则都被完全「重写」了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "这景象…和千年前，军团撕开天幕时一模一样。归寂…终于不再满足于「旁观」了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "他等待已久的机会到了——困住「贪饕」兽蜕的画中世界已经形同虚设。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "既然归寂这么能耐，他直接毁了这里不就成了？为什么还要加入幻月游戏？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "这意味着，让那具死而不灭，沉寂了无数纪元的兽蜕真正醒来，还需要更进一步的条件——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "累积巨大的愿力…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "成为游戏的胜者…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "夺走欢愉的权能…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "巨大的愿力…用来「激活」兽蜕。作为幻月游戏的胜者，恰恰积累了谒者中最庞大的愿望能量！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "利用游戏的规则，赢取阿哈的权能，充当喂食「贪饕」的最后祭品？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "归寂想将这一场「幻月游戏」摆成一桌供奉「贪饕」的盛宴。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "啧，一想到在这场游戏里「赢家通吃」竟然是字面意思，我就忍不住打了个寒战。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "阿哈难道会默许这一切发生？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "游戏之神不会违背游戏规则。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我们无法预测星神的想法…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "不管阿哈怎么看待这件事…神不为者，人为之。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "和过去一样，我们必须阻止归寂，集结一切能集结的力量。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们无名客会不遗余力的。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "无名客绝不会袖手旁观。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "行吧，算我一份。无论如何，我的Game Ending可不想落在古兽胃里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "…刚从那张嘴里离开，我*暂时*还不想回去。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我知道眼下有很重要的事…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "但…眼下我更担心姬子。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "让我来试试。全频段扫描启动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "坏消息，开拓者。整个学院…没有生命反应。也就是说，这儿除了我们之外，一个活人也没有。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "一个人也没有？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "…学生呢？老师呢？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "银狼",
+              "text": "往好处想，也许他们被你们大姐头疏散，避难去了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "刃",
+              "text": "现在下定论，为时过早。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "姬子…她一定不会有事的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "就算对手是绝灭大君，她也一定能成功脱身的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "再向前走几步吧，也许答案就在前面。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找姬子的下落"
+    },
+    {
+      "type": "objective-description",
+      "text": "绘世学院已完全变成一团扭曲的废墟，地面也支离破碎。\n姬子…完全没有她的消息，该从哪里找起呢？\n从幻月中延伸出了神木的根系，也许它能给我们一些指引。",
+      "location": "二相乐园-寂灭空飨妖都"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "姬子，你在哪儿——？"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查教室内）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "这是…姬子外套上的碎布，难道……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "刃",
+          "text": "关心则乱，不要胡思乱想。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随神木根系的指引"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "有丰饶的味道…那些从幻月中伸出的光之脉络，是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "那是…神木的根系？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…绯英？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "这道裂隙…真像「贪饕」的嘴巴。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "小浣熊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "来…这里……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这是…绯英的声音？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "循着神木的指引找到借画显形的绯英"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "小浣熊…我就知道，你能找到我。就像你能找到她一样……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "绘世，好久不见了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "绯英…千年了，我画过无数个你，可哪一个…都比不上此刻再见到你的样子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "托开拓者的福，能再见上你一面，真好啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "我听到你在寻找{{姬奇猫|姬子}}，对吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "姬子没事吧？！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "虽然我无法感应到她的位置，但她的生命依旧存在，应该安然无恙…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…那就好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你的样子，看起来不太妙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "丰饶神木如此凋零…倒是头一回见到。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "维系破碎的现实，总要付出些许代价。只好…暂时借了这幅画显形。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "我知道你，还有你身后的小个子…嘻嘻，球棒浣熊亦敌亦友的对手，星星捕手们也出现了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "这里到底发生了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "归寂完成了他的「唱名」，并兑现了「奇迹」：他带来了末日。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "身为仲裁者，不做点什么吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "抱歉，眼下的我有更重要的事情必须去做——"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-我如何遇到你的父亲CG1.png",
+      "displayWidth": "810px",
+      "fullWidth": "1440px",
+      "asset": "assets/sr-images/开拓任务-我如何遇到你的父亲CG1.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "末日到来，大地正在崩解碎裂，我得…紧紧抓住它的残骸。我必须履行「镇世神木」的职责，维系这个世界的生命。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "真是狼狈啊——仿佛又回到了那个万物化作灰烬的纪元。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "抱歉，绯英，我没能守住「画中世界」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "不，你做到了，绘世。你把世界藏入画中，留下了一线希望。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "千年过去，我们等到了希望的降临。新的无名客和愿意拯救这个世界的人又来到了这里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "时间不多了，要阻止归寂，必须争分夺秒。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "我能感受到——归寂带来的末日并非真实存在，而更像是…某种不稳定的未来？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "如果无人阻止，一切将会成真。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你是说，那个混球的力量，能操纵…「时间」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "难怪，在和他交手时，我的攻击回回落空…开挂狗！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "时间系能力？这合理吗？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "打败他，就能改变现实！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "在尘埃落定之前，我们还有一线生机。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "在骰子落地之前…我们还有机会抢过它，掷出另一个数字，把未来塑造成…另一副模样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "唔……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "绯英，你……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "绯英！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你怎么了？！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "哈…果然一心二用，还是有些勉强呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "但我知道，故事还没被翻到最后一页呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "小浣熊，我能感应到…你的列车朋友们还安然无恙，他们散落在各处。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "沿着建木的根脉，找到姬奇猫，找到你的伙伴。我知道……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "你总是会带来惊喜的，不是吗…「主角」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "她消失了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "真遗憾…时隔千年的重逢却没法好好叙旧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我不会让绯英失望的。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "姬子没事…列车也安然无恙。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "时间紧迫，该动起来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我会找到姬子，找到伙伴们，狠狠揍归寂一顿！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "顺着那些若隐若现的金色脉络走吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "那是绯英生命力量的延伸，也是她能为我们留下的路标。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "沿着它走，应该能抵达我们要去的地方。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随绯英留下的指引，寻找同伴"
+    },
+    {
+      "type": "objective-description",
+      "text": "大地正在崩解，不知道绯英的力量能坚持多久，不能辜负她的牺牲。\n抓紧时间，沿着神木根系的指引前进吧。",
+      "location": "二相乐园-寂灭空飨妖都"
+    },
+    {
+      "type": "fold",
+      "title": "路过怪物",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "不是说没有其他生命反应吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "银狼",
+          "text": "这些东西也算生命？"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "击败怪物"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "希望消灭它们能为绯英减轻一些负担。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "绯英的根须在引导我们…这里是？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看画布上的线索"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "这幅画有什么蹊跷？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "有人似乎在上面留下了什么。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我会把你关进另一幅画里，让你在「开拓」这个谎言的起点…无处启行。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这是什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "姬子！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "这就是你要寻找的那位领航员？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "她在画布上留下了一笔——由此记录下了她和归寂对峙的最后一刻。她很勇敢。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她是您的后人…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "也是最了不起的领航员！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "她是您的后人，也是我心目中最了不起的列车领航员。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "…我的…后人？你是说…我的后代中，有人成为了星穹列车的领航员？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "…谢谢你告诉我这件事。这让我觉得，千年的等待…终于有了回响。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "还想继续试探我吗，归寂？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "哦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "从列车回到二相乐园起，你就不断向我试探十五年前的往事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "在这个过程中，你有无数次机会可以杀了我，可直到被我揭穿，你才露出了真面目。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "归寂，你到底在提防什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "何不把这理解为…一丝父爱？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "绝灭大君也会有人类的情感吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "当然了。我好奇、我愤怒、我比我的同僚们更能理解人类——我们要毁灭的对象。我甚至会腰椎间盘突出，还有腱鞘炎……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "…你不是绝灭大君吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "「毁灭」的权能里包含治好腱鞘炎的力量吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "扯远了，孩子。你没看错，我确实对你充满了好奇——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "十五年前那个晚上，姬子和你的身上到底发生了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你也很惊讶吧？在见到裴伽纳的遗产，那台钢铁巨人现身的刹那，疑问一定充满了你的骰子脑袋。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她在说什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "「姬子和你」？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "「裴伽纳的遗产」？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你的好奇心无法接受疑问的存在，如果不把它们解开，未知就会成为你计划的阻碍，让你再也笑不出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "归寂，你说你能理解人类。但你根本不明白，那个晚上，我没有逃避…我们没有逃避。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "列车的伙伴…我认可的那些孩子们，也不会逃避。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "即便领航员不在，他们也会点燃列车引擎，赢下幻月游戏。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "姬子似乎在提示我？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "…「点燃引擎」？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "赢下幻月游戏？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（「点燃列车引擎，赢下幻月游戏」，这是…姬子留给我们的线索吗？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（姬子这么说一定有她的用意，我必须冷静下来…我应该尽力完成她的嘱托。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "接下来，你有机会得知十五年前的秘密。但，你也要回答我的问题。归寂，你敢应下这场挑战吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "既然你正大光明地邀请我，若是拒绝，岂不失了礼节？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "想得到奖赏，就要做好迎接挑战的准备——这才符合「欢愉」的美学。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "无论是对你，还是对我——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "在台下看了这么久，不知道这出戏码，符不符合各位观众的胃口？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "姬子！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "要哭了？不会吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "真是，太令人感动了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "绘师的始祖莅临以她为名的学院，身为校长，有失远迎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "你没有被疯狂吞没，让我意外。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "想必你很失望吧…归寂。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "恰恰相反，我很满意。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "在我的分身将你们各个击破前，我也想以观赏者的身份看看诸位能做到什么地步。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你把姬子带到哪里去了？！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你把姬子带到哪里去了？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我带走她？是她向我发起挑战，我欣然接受，仅此而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "{{开拓者|孩子}}，你可不要辜负她留下的「嘱托」呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "这也是我给你的挑战。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "希望各位在这片末日里，玩得开心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "混球骰子，我们之间还胜负未分！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你有你的伎俩，我也还没亮出我的底牌呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "阿刃？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "用剑的时刻到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "{{这柄剑刃|这具躯壳}}，正需要一次见血来淬炼锋芒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "银狼…参加这场游戏的，不止你一个。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "哈哈哈哈哈哈——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "对，就是这样！这场游戏，终于开始像样了！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗并获胜"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往末日妖都，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "「点燃列车引擎，赢下幻月游戏。」\n在被关进画中之前，姬子似乎有意留下了这样的线索。\n星穹列车停靠在泊地站，恐怕此刻，二维市也正沦陷在同样的末日图景中。\n出发吧，开拓者，带着姬子的嘱托回家。",
+      "location": "二相乐园-寂灭空飨妖都"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "消失了，这个藏头露尾的家伙……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "是我的错觉吗，刚才面对我们的*这个*归寂，似乎并没有在画中世界里遭遇的那么棘手。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你是说…那不是归寂？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "绘世",
+              "text": "那个分身散发的气息，不像是赝品。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "他甚至没敢和我们交手。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "归寂不是那种不敢与人交锋的对手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我的玩家直觉告诉我，混球骰子此刻藏头露尾，也许和他能力的真相有关…就像绯英说的那样——他能施展某种玩弄时间的把戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "揭开这个真相，也许就能破解眼前的「末日」。但眼下哪来的时间琢磨这些！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "虽然承认公司的人比死还不情愿…但真珠说得对，护送绘世前往珠星大厦，是眼下最合理的选择。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "开拓者，你呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我想…找回姬子。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "可丹恒他们也下落不明…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我…我知道，现在最该做的是完成姬子留下的嘱托。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…但我还是很担心她的状况，也担心失联的丹恒和瓦尔特。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "…那么，由我前往那座废站，找到他们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "阿刃……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "不必担心我，银狼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "不，只是想在出发前告诉你一声：看到你回来，挺好。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "谢谢你，刃。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我也该振作起来了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "谢谢你，阿刃。我也该停下胡思乱想了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "该去做我该做的事了——把姬子的嘱托，变成现实。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）与银狼等人告别"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与银狼和刃对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "阿刃，你一个人真能找到那座偏离坐标的废站吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "…遇到阻碍，斩开便是。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "谁问你这个了！拜托你，装上这个特别给你准备的出行地图导航软件好吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "你忘了吗，过去丹恒无论逃到哪里，我都会找到他。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "开拓者，还在担心列车的同伴吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是啊。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "银狼",
+              "text": "放心吧，靠谱的我会为你们提供地图导航服务的。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "不，我该走了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "谢谢你，银狼。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与绘世对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "看到如此多的年轻战士同心协力，令人想起不少古老的回忆。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "谢谢你，年轻的无名客。若我们能赢得未来，我想见见那位流着我血脉的领航员。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "暂时别过了，{{开拓者|无名客}}。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "通过画中通道离开绘世学院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（点燃引擎，集合同伴，赢下幻月游戏……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（我不会辜负你的嘱托的，姬子。）"
+    }
+  ],
+  "warnings": []
+}

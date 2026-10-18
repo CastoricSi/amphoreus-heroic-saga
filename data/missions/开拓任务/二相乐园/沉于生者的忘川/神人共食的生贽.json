@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "神人共食的生贽",
+    "pageId": 38876,
+    "revisionId": 97794,
+    "parentRevisionId": 0,
+    "revisionTimestamp": "2026-06-06T03:53:01Z",
+    "fetchedAt": "2026-09-28T00:19:44.307Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%A5%9E%E4%BA%BA%E5%85%B1%E9%A3%9F%E7%9A%84%E7%94%9F%E8%B4%BD",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%A5%9E%E4%BA%BA%E5%85%B1%E9%A3%9F%E7%9A%84%E7%94%9F%E8%B4%BD&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "神人共食的生贽",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.3",
+    "number": "02",
+    "series": "沉于生者的忘川",
+    "description": "爻光在二相乐园布下「十方光映法界」，以此监视归寂的动向。刃与银狼依照爻光的提议，前往画中世界寻找「贪饕」之口。",
+    "requirements": "完成任务误以为结束的错觉",
+    "requiredLevel": "21",
+    "characters": [
+      "刃",
+      "银狼",
+      "不死途",
+      "爻光",
+      "真珠",
+      "绯英",
+      "丹恒",
+      "瓦尔特"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "500"
+      },
+      {
+        "item": "星琼",
+        "amount": "60"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "5"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "5"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "200"
+      },
+      {
+        "item": "信用点",
+        "amount": "60000"
+      }
+    ],
+    "previousMissions": [
+      "误以为结束的错觉"
+    ],
+    "nextMissions": [
+      "谜与恐怖的乐园"
+    ],
+    "objectives": [],
+    "synopsis": [
+      "开始调查归寂之前，不死途向即将前往画中世界寻找「贪饕」的刃、银狼道别。刃决意置倏忽于死地，即使以销熔自身为代价。",
+      "于「残卷」中，爻光与真珠查看「贪饕」残躯的封印情况。这古兽一旦苏醒，将为二相乐园带来灭顶之灾。",
+      "列车坠入「残卷」时，曾有疑似归寂的脚印出现于现场。在丹恒与瓦尔特的协助下，爻光布下「十方光映法界」，以此监视归寂的动向。"
+    ],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "也就是说，那女人要你带着倏忽跳进「贪饕」体内，剩下的交给星神的胃酸？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "还有，这是我跟他的事吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你怎么也跟来了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "别急，道个别就走。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "「一场体面的葬礼」…要我说，这结局算得上轰轰烈烈。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我不在乎这些有的没的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我只关心一件事，他就非死不可？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "狼崽，给你句忠告。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "是生是死，看他自己。唯独这件事，别替他做主。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "…落下来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "没什么。一只海鸟落在了礁石上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "凡铁铸就的剑，斩不断不死的宿命。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "要置倏忽于死地，选择不多，那头古兽是其中之一。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "日后人们会说：朱明案犯舍生取义，与孽物一同投入万丈深渊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "我没你说得这么高尚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "许多年前，你邀请我加入巡海游侠，那时我拒绝，原因无他——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "我心胸狭隘，生来不是心怀大义的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "这是我和倏忽的恩怨，仅此而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "呵，没有错。这就是天生的巡海游侠。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "那，我也不多说什么了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "刃…你真的想好了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "多少年来，死亡于我，如附骨之疽。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "若有机会让神明感受相同的痛苦，即便将此身付之一炬，我也乐意至极。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "至于旁人，没有牵连的必要。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "就按爻光的提案：连我一同，将倏忽葬在画中世界的尽头，由「贪饕」销熔吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "…保重。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "要不你别走了？送人送到底，陪我们走一遭也好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "二相乐园还有更大的麻烦要我去处理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "你的直觉是对的：一直暗中使绊子的那混球，背后就是归寂。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "想把阿哈的头当球踢的，除了他，还能有什么人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "所以，我该去完成本职工作了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "调查绝灭大君，听着是个有去无回的单子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "自然会有笔不菲的报酬。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "那祝你活着拿到报酬。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "啧，每次都这样。跟我独处的时候，你就不说话了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "你知道我会说什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "…海鸟飞走了。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "钟楼的整点钟声响起…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "我们也该走了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与此同时，另一边…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "「沉睡在二相乐园世界核心的恐怖之物是——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "「{{奥博洛斯|「贪饕」}}」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "寰宇蝗灾后，「贪饕」便销声匿迹，七百多个琥珀纪未曾现身。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "最后一次出现在传言中，也是五百年前的事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "虚构史学家声称，奥博洛斯潜伏在银河边境，由祂的子嗣看守，静待回归之日。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "这故事我听过，但说的不是银河边境，而是庇尔波因特——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "他们说，「存护」只是表面上的伪装，公司是信仰「贪饕」的势力。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "有机生命热爱幻想。他们还说过，路易斯·弗莱明企图成为「财富」星神，庸众院是原始博士的爪牙，市场开拓部更与「毁灭」勾结，纵容星核流通……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "流言不胜枚举，孰真孰假，相信将军能够分辨。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "唯独最后一条，我没听说过，就当只有它是真的吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "来吧，来吧，来这里，来我身边……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "只需向前一步，再一步……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "好大的口气。这古兽一旦苏醒，恐怕乐园覆灭只在旦夕之间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "目前仍是猜想：这具被封印的残骸，疑似奥博洛斯的兽蜕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "它为何会出现在这里，和「欢愉」又有何渊源，暂且不得而知。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "但星神的半了残躯，是不容忽视的威胁。决不能让古兽之灾重现世间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "当然，本座正是为此而来。算算时候，二位无名客也该到了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "丹恒和瓦尔特到了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "喔，来得正是时候。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "爻光将军，二相乐园十余处地点，已照你嘱咐摆上了镇物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "多谢。全凭瓦尔特先生一手无中生有的妙法，幻造出数十枚翎羽，我方才能迅速完成布设。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "眼下，阴阳俱合，四相齐备，只需填上这最后一处阵眼——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "「十方光映法界」便可告成。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "借助{{威灵|时轮天雉明王}}神眼，编织一张网罗万千可能的巨网…将军果真下定决心了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "倏忽虽已诛除，死兆却未消退，反而愈加清晰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "思来想去，源头也只能是这蠢蠢欲动的「尸体」了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "一波未平，一波又起。乐园的地脉本就千疮百孔，现在古木封印也开始松动了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "绯英沉睡期间，得有人替她接过看守的职责。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "但一味防守可不是「巡猎」的做派。不想沦为猎物？只能先当猎人咯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "将军是要主动出击，镇压「贪饕」遗骸？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "怎么会？常乐天君借丰饶建木，才堪堪将这兽蜕关入牢笼。本座还没狂妄到自比神明。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "此番前来，防的不是星神，而是小人——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "绝灭大君「归寂」，这法界是为他准备的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "归寂暗中扰乱游戏，意图不明。对于他和「贪饕」，我们都知之甚少。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "但机缘巧合，一位「热心市民」递来了情报——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "奥博洛斯的神骸就在哈托彼亚，对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "沉默也是一种肯定。类似的反应，我见过太多。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "第一个发现的人是你，我不意外。你当时也在「残卷」，察觉的概率是：24%。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "未免有些低了，至少在九成以上吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "但我不明白，验证猜想的方法有很多，你却选了最反常的一种。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "不惜越过安保，闯入大厦与我对峙，目的是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "这不是对峙，而是警告，真珠女士。我是一名治安官，来见你的原因只有一个。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "当所有人都被幻月游戏吸引，只有异常防御部会将目光投向别处。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "比如，「新告死魔」事件的结案地点？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "没错。事件涉嫌：破晓战士四人，无名客三人，侦探一人，治安官一人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "但就在刚才，现场出现了第十组脚印。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "经过调查，痕迹是故意留下的。直白的挑衅。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "毁灭「欢愉」的大君不请自来。不必多说，二相乐园是他精心挑选的舞台。挑拨「丰饶」入场，绝不只是心血来潮。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "当务之急，是妥善处理倏忽血肉，以免落入他手，再生祸端。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "但归寂的下一步行动也不可不防。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "这张巨网正是为此准备。当整颗星球被纳入卜算的轨迹，法眼之下，无穷的可能将一览无遗。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "待到那时，他不会希望自己留下脚印。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "最后一个问题：绝灭大君为什么要拜访这里？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "别有所图，还是单纯的恶作剧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "专业的事，就交给专业的人吧。别忘了，我们还有一位闲不下来的「侦探」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "但愿诸多变数累加，能让天平倒向这边哪。"
+    }
+  ],
+  "warnings": []
+}

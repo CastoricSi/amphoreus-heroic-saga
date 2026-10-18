@@ -1,0 +1,1245 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "北风的安眠曲",
+    "pageId": 9816,
+    "revisionId": 77429,
+    "parentRevisionId": 35394,
+    "revisionTimestamp": "2026-02-01T17:01:34Z",
+    "fetchedAt": "2026-09-28T00:16:20.281Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%8C%97%E9%A3%8E%E7%9A%84%E5%AE%89%E7%9C%A0%E6%9B%B2",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%8C%97%E9%A3%8E%E7%9A%84%E5%AE%89%E7%9C%A0%E6%9B%B2&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "北风的安眠曲",
+    "region": "匹诺康尼",
+    "type": "开拓任务",
+    "version": "2.0",
+    "number": "07",
+    "series": "喧哗与骚动",
+    "description": "「大人的世界」究竟长什么样？拭目以待吧。",
+    "requirements": "完成任务好兆头，我的朋友#再次前往「梦境贩售店」",
+    "requiredLevel": "34",
+    "characters": [
+      "流萤",
+      "桑博"
+    ],
+    "relatedItems": [
+      "信任的证明"
+    ],
+    "rewards": [],
+    "previousMissions": [
+      "好兆头，我的朋友#再次前往「梦境贩售店」"
+    ],
+    "nextMissions": [
+      "好兆头，我的朋友#与桑博交谈"
+    ],
+    "objectives": [
+      "调查可疑的房间",
+      "离开可疑的房间",
+      "取得三个「信任的证明」",
+      "与莎塔娜交谈",
+      "击败「垃圾之王」塔塔洛夫"
+    ],
+    "synopsis": [
+      "你在贝洛伯格下层区的诊所醒来，开始体验桑博为你呈现的「梦中之梦」。",
+      "你调查桌上的纸条，得到来自桑博的谏言。你感觉这一经历似曾相识，桑博劝你出门看看。",
+      "你遇到「莎塔娜」，她向你诉说「垃圾之王」塔塔洛夫对众垃圾桶的压迫。「莎塔娜」请你取得垃圾桶们的信任，并率领它们反抗恶王。",
+      "「垃垃撕圾」被塔塔洛夫封印在垃圾袋中。你揭开垃垃撕圾的封印，邀其一同反抗暴君，但对方却选择以普通垃圾桶的身份度过余生。",
+      "你解救了「垃圾桶王子」，获得「信任的证明」。",
+      "三个垃圾桶正为争夺「好看的垃圾」而争论不休。你施以公正的判决，获得「信任的证明」。",
+      "你遇到一位正在数垃圾的「阿圾米德」。若你想要「信任的证明」，可以帮它数完最后三桶。",
+      "你在第二个垃圾桶里捡到一本漫画。漫画称塔塔洛夫曾在废品巨怪口中救下一个人类，为报答恩情，被救的人将自己变成垃圾桶。",
+      "你向阿圾米德证明了自己的智慧与耐心，获得一个「信任的证明」。",
+      "你将「信任的证明」交给「莎塔娜」，成功团结起众垃圾桶。「莎塔娜」将护送你前往王座「造物之筑」，见证垃圾桶一族的未来。",
+      "在巨大桑博的狂轰滥炸下，垃圾桶们纷纷败下阵来。你奋力跃入空中，与巨大垃圾桶合体对抗桑博。突然间，流萤叫停了梦泡的播放。"
+    ],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": ""
+    }
+  },
+  "content": [
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你感觉自己沉入水底…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "（唔…这是哪儿？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这里是…贝洛伯格下层区的诊所？为什么空无一人？）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我怎么在这儿？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "（这是我梦境的一部分——这个梦的舞台就是贝洛伯格。）"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "人呢？人都哪去了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "（这是个惊喜，我们稍后再揭晓。但你要明白——在梦中，一切皆有可能。）"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我现在该做什么？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "（别急，你应该先熟悉下梦中梦的感觉。）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查可疑的房间"
+    },
+    {
+      "type": "objective-description",
+      "text": "进入桑博的梦泡，你发现自己回到了贝洛伯格下层区那位大夫的诊所里，但这里比你印象里的要更冷清，更可疑。\n在心生疑虑之前，你应该如桑博所说，先熟悉下梦中梦的感觉为好。",
+      "location": "匹诺康尼-桑博的梦泡·诊所"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查桌上的字条"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这是…又一张纸条？）"
+    },
+    {
+      "type": "fold",
+      "title": "桑博的谏言？",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "text",
+          "text": "当上垃圾之王吧\n即便垃圾袋早已破碎"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你什么意思？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "（不知道啊，我做梦时完全没来过这个地方。）"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "似曾相识的桥段…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "（哦，是吗？如有雷同，不胜荣幸！）"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "好熟悉的谏言…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "（人会在梦里看到任何东西都是很正常的啦。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "（别在意这些细节了——要我说，你该出门看看了，小心别被吓到！）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "离开可疑的房间"
+    },
+    {
+      "type": "objective-description",
+      "text": "进入桑博的梦泡，你发现自己回到了贝洛伯格下层区那位大夫的诊所里，但这里比你印象里的要更冷清，更可疑。\n你发现了一张比房间本身更可疑的纸条——这究竟意味着什么？看来只有你离开诊所才能求得答案了。",
+      "location": "匹诺康尼-桑博的梦泡·诊所"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "离开诊所后你看到一群长了腿的垃圾桶聚集在一起…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "（这……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "（…这是什么情况？！）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这是什么情况？！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "怎么全是垃圾桶？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "一个垃圾桶说着你听不懂的语言与你交谈，所幸你还看得懂字幕…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "您终于来了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "幸会，深潜于梦中之人啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "莎塔娜",
+      "text": "我名为莎塔娜——想和您谈一个条件。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "条件？什么条件？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "莎塔娜",
+              "text": "您…曾听说过「垃圾之王」塔塔洛夫吗？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "莎塔娜？你和娜塔莎什么关系？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "莎塔娜",
+              "text": "娜塔莎…是谁？想必我们未曾谋面。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "莎塔娜",
+              "text": "让我们言归正传吧——您…曾听说过「垃圾之王」塔塔洛夫吗？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你这台词好像也挺耳熟啊…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "莎塔娜",
+              "text": "恐怕…这就是所谓的既视感……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "莎塔娜",
+              "text": "让我们言归正传吧——您…曾听说过「垃圾之王」塔塔洛夫吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "莎塔娜",
+      "text": "祂是我等的王，也是世间一切废料的牧人。他立于王座上，扶持谦卑的桶，压制强暴的桶；祂是贝洛伯格的墙基，稳固我等的桶盖，坚直我等的桶身……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "莎塔娜",
+      "text": "然而，当天外之物随寒潮降临此地，他的双眼便被蒙蔽了——他不再倾听呼告，使穷苦之桶遭受欺凌，令忠诚之桶平白蒙羞……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "莎塔娜",
+      "text": "我等不堪受辱，誓要举起天火地火的大旗，令垃圾之王改邪归正。但我们不敌那邪恶的王…他散布恶毒的谣言，分化众桶，令{{垃圾袋|心}}不再能彼此感应……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "莎塔娜",
+      "text": "…我请求您，使此地的垃圾袋恢复宁静，再度联结众桶吧——如此一来，便能向那伪王发起反击。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你的意思是，要我团结你们？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "（看来她确实是这个意思……）"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我听不懂你说的谜语…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "（她应该是想说，只有你能团结这群，呃，垃圾桶，然后带领他们打倒邪恶的坏人…吧。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "莎塔娜",
+      "text": "那么，契约便成立了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我应该做什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "契约？什么契约？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "我还没同意呢！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "（爱德华医生说他来不及做那么多分支了，你就接受吧。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "莎塔娜",
+      "text": "您只需完成一件事——帮助垃圾桶们从烦扰中解脱，取得三个「信任的证明」。"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-北风的安眠曲-信任的证明.png",
+      "displayWidth": "200px",
+      "fullWidth": "500px",
+      "asset": "assets/sr-images/开拓任务-北风的安眠曲-信任的证明.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "莎塔娜",
+      "text": "如此一来，您便能成为新王，率领我等向伪王发起抗争。去吧，深潜于梦中之人啊…使命在召唤着你。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（莎塔娜）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "莎塔娜",
+          "text": "去吧，异乡的来访者…使命在召唤着你。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "取得三个「信任的证明」"
+    },
+    {
+      "type": "objective-description",
+      "text": "离开诊所后，映入眼帘的是一座由垃圾桶构成的巨大王国。一名名为莎塔娜的垃圾桶找到了你，请求你帮助垃圾桶们从烦忧中解脱，带领众垃圾桶获得解放——前提是取得三个「信任的证明」。",
+      "location": "匹诺康尼-桑博的梦泡·城镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这都什么跟什么……）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与勇敢的桶对话"
+    },
+    {
+      "type": "fold",
+      "title": "待机文本",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "到底该怎么打开？\n\n一定有什么办法的…\n\n用桶盖狠狠地砸！\n\n还是智取，智取…"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "勇敢的桶",
+      "text": "我们受够了塔塔洛夫的摧残！要从他的宝库里拿回自己的东西，塔塔洛夫贪婪、暴戾，抢走了大家赖以生计的物资，我们必须打开这道门。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "推一下门。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "踢门一脚。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "芝麻开门！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "奇怪，你还什么都没做，大门就缓缓打开了——原来如此，这是一道自动感应门，只是感应不了垃圾桶。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "勇敢的桶",
+      "text": "大门打开了…传闻是真的，你是注定要击败塔塔洛夫的救世主！垃圾之神派你来将暴君的财宝散给我们！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "勇敢的桶",
+      "text": "啊，我从没感觉像现在这样畅快过！等你向塔塔洛夫掀起反旗时，我和其他受压迫的桶必跟随你的左右！"
+    },
+    {
+      "type": "text",
+      "text": "你看着垃圾桶们兴奋地挤进「宝库」，撕扯开一袋又一袋垃圾，将它们尽数倒进自己的桶身……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品信任的证明"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "旁听三个垃圾桶的对话"
+    },
+    {
+      "type": "fold",
+      "title": "待机文本",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "严肃的痛：到底谁才能配得上？\n\n美丽的桶：只有我才该得到它！\n\n智慧的桶：这件事还需要讨论…"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "三个垃圾桶围在一起，似乎在为什么事争论不休……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "严肃的桶",
+      "text": "异乡人，这里有一桩纠纷等待着你公正的判决。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "美丽的桶",
+      "text": "这是传说中的金垃圾，权力与地位的象征。只有最具资格的桶才能占有它。我们都觉得自己才是那个桶，因此争吵不休。"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-北风的安眠曲-金垃圾.png",
+      "displayWidth": "200px",
+      "fullWidth": "500px",
+      "asset": "assets/sr-images/开拓任务-北风的安眠曲-金垃圾.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "智慧的桶",
+      "text": "于是我们决定让一位眼光独到，且态度公正的旁观者代为评判，决定金垃圾的归属，为长久的争吵画上一个句号。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "严肃的桶",
+      "text": "你若将金垃圾赐予我，我便许诺你无穷的财富，多到足以填满最大的桶。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "智慧的桶",
+      "text": "你若将金垃圾赐予我，我便许诺你无穷的智慧，胜过任何一袋满溢的垃圾。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "美丽的桶",
+      "text": "你若将金垃圾赐予我，我便许诺你世上最美丽的垃圾桶——也就是我——与你结伴而立，共同面对风吹雨打。"
+    },
+    {
+      "type": "text",
+      "text": "那么…你要如何选择呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "将金垃圾切成三份平均分配。",
+          "content": [
+            {
+              "type": "text",
+              "text": "众目睽睽之下，你对金垃圾做出了完美的均分，就连钟表披萨的每一块都不一定如此均等。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我才是唯一配得上它的人！",
+          "content": [
+            {
+              "type": "text",
+              "text": "众目睽睽之下，你将金垃圾据为己有。确实，这些小小的垃圾桶人…有哪个能像你一样高大、挺拔？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "智慧的桶",
+      "text": "困扰了我们许久的难题，竟然就这样解决了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "美丽的桶",
+      "text": "那到底谁才是最具资格的桶…不，那已经不重要了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "严肃的桶",
+      "text": "这位异乡人一定是想让我们明白，眼下的纷争是多么可笑…您用行动证明了自己。此物象征着我们的追随与憧憬，希望您能收下！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品信任的证明"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（严肃的桶）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "严肃的桶",
+          "text": "您用行动证明了自己。我们三桶将成为你的助力，为垃圾桶赢得自由。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与阿圾米德对话"
+    },
+    {
+      "type": "fold",
+      "title": "待机文本",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "阿圾米德：九万七千八百六十三…\n\n阿圾米德：什么时候才是个头啊…"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "这个垃圾桶起来很安静。他的桶盖已经掉漆发白。他正一粒一粒地数着路边的垃圾，时而叹气、时而挠头，似乎正尽力记住一个天文数字。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿圾米德",
+      "text": "…你也是来嘲笑我的吗？又或者是来寻求智慧的答案？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你为什么要数垃圾？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "阿圾米德",
+              "text": "说来话长。很久以前，我触怒了塔塔洛夫。我对他说，再稳固的统治也有衰亡的一天，就像再多的垃圾也可以被数尽，不知是哪半句话让他非常恼火……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿圾米德",
+              "text": "作为惩罚，他将我发配至此，要我数尽这座城中所有的垃圾。在那之前，我将永远不能发表自己的看法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我需要「信任的证明」。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿圾米德",
+      "text": "哦…很少有桶会如此开门见山，我确实拥有「信任的证明」，但如今它已经遗失在了垃圾山中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿圾米德",
+      "text": "如果你想要，就和我一起处理吧。我已经数完了这座城市中的绝大多数垃圾，只剩下新来的这三桶了。"
+    },
+    {
+      "type": "section",
+      "level": 4,
+      "title": "调查第一个垃圾桶"
+    },
+    {
+      "type": "objective-description",
+      "text": "离开诊所后，映入眼帘的是一座由垃圾桶构成的巨大王国。一名名为莎塔娜的垃圾桶找到了你，请求你帮助垃圾桶们从烦忧中解脱，带领众垃圾桶获得解放——前提是取得三个「信任的证明」。\n你找到了阿圾米德，他委托你帮忙清点最后三个垃圾桶——桶里究竟藏着什么呢？",
+      "location": "匹诺康尼-桑博的梦泡·城镇"
+    },
+    {
+      "type": "text",
+      "text": "垃圾桶王国的垃圾会是什么样？抱着好奇心，你打开了第一个桶的盖子。\n可惜，没什么不同。也许爱德华医生没来得及去管这些细节。"
+    },
+    {
+      "type": "section",
+      "level": 4,
+      "title": "调查第二个垃圾桶"
+    },
+    {
+      "type": "text",
+      "text": "这个垃圾桶里有本漫画，书页已经残破不堪。它讲述了这么一场冒险：塔塔洛夫曾是一位勇桶。他凭借勇气和意志击败了废品巨怪，还从它口中救出了一个人类。\n为了向塔塔洛夫报恩，那人类把自己也变成了垃圾桶…这竟然是个惊悚故事。"
+    },
+    {
+      "type": "section",
+      "level": 4,
+      "title": "调查第三个垃圾桶"
+    },
+    {
+      "type": "text",
+      "text": "你看见了意料之外的东西，一只真蛰虫…它就这样躺在垃圾桶里，与你对视。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "「繁育」的余孽，去死吧！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "是时候为民除害了！用你的球棒告诉它，这里是「存护」的王国！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "苏醒的桶",
+      "text": "是谁打扰了我的沉眠？！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败王下一桶、幼蛰虫"
+    },
+    {
+      "type": "text",
+      "text": "一阵巨响过后，「繁育」的灾祸褪去，世界清净了。那位遭受无妄之灾的桶也回到了他的梦乡。谢谢你，无名客！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与阿圾米德交谈，汇报你的成果"
+    },
+    {
+      "type": "objective-description",
+      "text": "离开诊所后，映入眼帘的是一座由垃圾桶构成的巨大王国。一名名为莎塔娜的垃圾桶找到了你，请求你帮助垃圾桶们从烦忧中解脱，带领众垃圾桶获得解放——前提是取得三个「信任的证明」。\n你帮阿圾米德解决了困扰他已久的问题，向他汇报你的成果吧。",
+      "location": "匹诺康尼-桑博的梦泡·城镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿圾米德",
+      "text": "不错，年轻的桶，你证明了自己的智慧和耐心。你配得上这份「信任的证明」，我会将它转赠给你。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品信任的证明"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（阿圾米德）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "阿圾米德",
+          "text": "我已年老体衰，无力与你并肩作战，但愿我的头脑能为你所用。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与垃圾桶王子对话"
+    },
+    {
+      "type": "text",
+      "text": "这是一个普通的垃圾桶。多么神奇，在一座由垃圾桶构成的王国里，居然存在着普通的垃圾桶…机会难得，你打算对它做点什么？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "放入垃圾。",
+          "content": [
+            {
+              "type": "text",
+              "text": "当然，这就是垃圾桶的工作。你随便找了点什么扔进它漆黑而深不见底的洞口，一阵巨响随之传来……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "取出垃圾。",
+          "content": [
+            {
+              "type": "text",
+              "text": "当然，这就是垃圾桶的价值。你用手指触碰它的桶壁，一阵巨响随之传来……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "踢它一脚。",
+          "content": [
+            {
+              "type": "text",
+              "text": "…这显然是不文明的，换作平时，你恐怕得支付一个「崇高道德的赞许」——但这里是梦境，所以管他呢，你一脚踢在桶壁上，一阵巨响随之传来……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "当你重新睁开眼时，垃圾桶已不再是垃圾桶，而是一只长着双手与双腿的…垃圾桶。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶王子",
+      "text": "感谢你，美丽又陌生的人。我是垃圾桶王子，我的父亲被塔塔洛夫暗害，我也被邪术变成了垃圾桶。是你救了我，将我从囚禁中解放出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶王子",
+      "text": "我愿献上我的一切——身体、灵魂、生命、垃圾袋——只为报答你的恩情！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你说话好像纯美骑士团…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "垃圾桶王子",
+              "text": "的确有许多桶夸赞我的美貌，但我不清楚你所说的名号。在这偌大的王国里，唯一的骑士团是「金钢镚骑士团」，每名成员都是十足高尚的桶。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那就和我一起反抗塔塔洛夫。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶王子",
+      "text": "我愿意。我会与你一同点燃反抗的狼烟，将王国从危难中拯救。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶王子",
+      "text": "你已得到了我的信任，希望你能将此物连带着我的心一并收下。我将为你而战，伟大的灵魂。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品信任的证明"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（垃圾桶王子）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "垃圾桶王子",
+          "text": "你已经得到了我的信任。我将为你而战，伟大的灵魂。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查垃圾桶"
+    },
+    {
+      "type": "text",
+      "text": "深不见底的垃圾箱里有一个奇怪的垃圾袋，你注意到袋上的「封印」——几条鱼骨，将袋口牢牢卡住。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "摘除封印。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "啪！一声巨响，一股青烟从袋中徐徐升起，在空中拧成一团，缓缓变成了一个巨大的…垃圾桶。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃垃撕圾",
+      "text": "终于——我重获自由了！我是「垃垃撕圾」，一个无比邪恶的桶。塔塔洛夫用卑劣的手段击败我，把我封印进这深邃的垃圾袋。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃垃撕圾",
+      "text": "最开始的五百年，我发誓如果有桶来解救我，我必赐给他无穷的财富。第二个五百年，我发誓如果有桶来解救我，我必赐给他无尽的垃圾。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃垃撕圾",
+      "text": "但时间过去一万年——整整二十个五百年——始终没有桶来救我！于是我发誓如果有桶来解救我，我必赐给他无痛的死亡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃垃撕圾",
+      "text": "——你来了，你便是一定要死的。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这不公平，我救了你！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "垃垃撕圾",
+              "text": "没错，所以我会给予你最后的慈悲，选择自己死法的权利。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "我要像战士一样死去！",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "垃垃撕圾",
+                      "text": "哦？从来没有桶敢向我发起决斗，我承认你的英勇…也许我们没有必要进行无谓的争斗。"
+                    },
+                    {
+                      "type": "choice",
+                      "presentation": "dialogue",
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "何不与我一起对抗塔塔洛夫？",
+                          "content": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "垃垃撕圾",
+                      "text": "数万年的囚禁早就磨平了我的桶边，我已风光不再，只想以一个普通垃圾桶的身份度过余生。再见了，陌生的人。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "我不信你会被关进垃圾袋里。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "垃垃撕圾",
+                      "text": "没错…塔塔洛夫就是用这样的把戏耍了我：「你这样巨大的身躯，垃圾袋怎么容得下你呢？」于是我当着他的面钻进了垃圾袋，就这样遭到封印。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "垃垃撕圾",
+                      "text": "再邪恶的桶也懂得吸取教训，你这招已经无效了！现在，感受我被囚禁了一万年——整整二十个五百年——的愤怒吧！"
+                    },
+                    {
+                      "type": "narration",
+                      "tone": "描述",
+                      "text": "进入战斗并获胜"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "垃垃撕圾",
+                      "text": "想不到啊，你很强大，我承认你的英勇…也许我们没有必要进行无谓的争斗。"
+                    },
+                    {
+                      "type": "choice",
+                      "presentation": "dialogue",
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "何不与我一起对抗塔塔洛夫？",
+                          "content": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "垃垃撕圾",
+                      "text": "数万年的囚禁早就磨平了我的桶边，我已风光不再，只想以一个普通垃圾桶的身份度过余生。再见了，陌生的人。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "可我是人，不是垃圾桶。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "垃垃撕圾",
+              "text": "…你说得没错，你不是我期待中的救主，因此你没有背叛我的期待。我应该感谢你才对。走吧，我不会取你的性命，也仅止于此了。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "何不与我一起对抗塔塔洛夫？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "垃垃撕圾",
+              "text": "数万年的囚禁早就磨平了我的桶边，我已风光不再，只想以一个普通垃圾桶的身份度过余生。再见了，陌生的人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 4,
+      "title": "与观桶交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "离开诊所后，映入眼帘的是一座由垃圾桶构成的巨大王国。一名名为莎塔娜的垃圾桶找到了你，请求你帮助垃圾桶们从烦忧中解脱，带领众垃圾桶获得解放——前提是取得三个「信任的证明」。\n你击败了拉拉撕圾，周围的观桶向你报以热烈的问候。身为英雄，你理应回应他们。",
+      "location": "匹诺康尼-桑博的梦泡·城镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "观桶",
+      "text": "你解决了被封印的恶魔，垃垃撕圾？他那么恐怖，那么强大…但你却战胜了他——何其伟大！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "观桶",
+      "text": "你赢得了我，还有其他桶的信任。希望此物可以表达我们对你的承认。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品信任的证明"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（观桶）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "观桶",
+          "text": "你赢得了我，还有其他桶的信任。希望此物可以表达我们对你的承认。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与莎塔娜交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "你已经取得了足够多的「信任的证明」——是时候向莎塔娜证明你的实力了。",
+      "location": "匹诺康尼-桑博的梦泡·城镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（总算拿到三个「信任的证明」了…回去交差吧。）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "tabs",
+      "tabs": [
+        {
+          "id": 1,
+          "title": "获得三个「信任的证明」",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "莎塔娜",
+              "text": "嗯，看来您已经完成了契约……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "获得全部五个「信任的证明」",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "莎塔娜",
+              "text": "这…您竟然汇集了全部「信任的证明」，这份决心不容小觑……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "莎塔娜",
+      "text": "…这一天终于来了。那么，出发吧——我会护送您前往王座「造物之柱」，见证我等一族的未来……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "莎塔娜",
+      "text": "祝您成功。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "击败「垃圾之王」塔塔洛夫"
+    },
+    {
+      "type": "objective-description",
+      "text": "在你抵达造物之柱以前，众多向往自由的垃圾桶已经与「垃圾之王」塔塔洛夫展开激战。你的到来一定能为他们扭转颓势。",
+      "location": "匹诺康尼-桑博的梦泡·决战之地"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这是到决战之地了吗…心情好复杂啊……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这也太惨烈了吧……）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（…他们不是说垃圾之王在这儿等我吗？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（我是不是被耍了…？）"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "一颗炸弹突然向你袭来，你被弹飞到空中…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…一个巨大的桑博出现，将你抓在手中又一把扔到了地上…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…无数的垃圾桶从你身旁跑过，准备奔赴战场…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…桑博抛出数枚炸弹，众多垃圾桶被炸飞到你脚边…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…你感到十分愤怒，化身成巨大的垃圾桶准备与大桑博决一死战…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "流萤",
+          "text": "等、等一下！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "流萤",
+          "text": "这也太胡闹了吧——？！"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

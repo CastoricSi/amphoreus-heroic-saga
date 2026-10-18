@@ -1,0 +1,1014 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "另一个，同一个",
+    "pageId": 28082,
+    "revisionId": 77821,
+    "parentRevisionId": 77669,
+    "revisionTimestamp": "2026-02-12T19:31:30Z",
+    "fetchedAt": "2026-09-28T00:17:17.356Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%8F%A6%E4%B8%80%E4%B8%AA%EF%BC%8C%E5%90%8C%E4%B8%80%E4%B8%AA",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%8F%A6%E4%B8%80%E4%B8%AA%EF%BC%8C%E5%90%8C%E4%B8%80%E4%B8%AA&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "另一个，同一个",
+    "region": "匹诺康尼",
+    "type": "终末任务",
+    "version": "3.8",
+    "number": "01",
+    "series": "记忆是梦的开场白",
+    "description": "・大丽花独自来到列车，在意识的领域，引导你恢复匹诺康尼的记忆。\n・在每一段回忆结束后，大丽花都会试着为你梳理思绪。\n・在告知了你「终末」的真相后，大丽花独自离开，并且希望能够和你再次相遇。",
+    "requirements": "完成任务异乡异客",
+    "requiredLevel": "21",
+    "characters": [
+      "星期日",
+      "大丽花",
+      "丹恒",
+      "姬子",
+      "三月七",
+      "瓦尔特",
+      "卡芙卡"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "300"
+      },
+      {
+        "item": "星琼",
+        "amount": "40"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "3"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "3"
+      },
+      {
+        "item": "金表钞",
+        "amount": "150"
+      },
+      {
+        "item": "信用点",
+        "amount": "40000"
+      }
+    ],
+    "previousMissions": [
+      "异乡异客"
+    ],
+    "nextMissions": [
+      "不存在的铁骑"
+    ],
+    "objectives": [
+      "和大家聊聊接下来的行程",
+      "前往派对车厢寻找「花姐」",
+      "送别黑天鹅"
+    ],
+    "synopsis": [
+      "星期日称，三月七在到处找你，并嘱托星期日提醒你看看短信。三月七还说，一些你遗漏的东西，事实上极为重要。",
+      "被三月七称为「花姐」的无名客与列车组众人亲切交谈，可你却觉得她十分陌生。优雅的无名客面对你，并询问你是否回想起了什么。",
+      "在列车组众人描述的旅途往事中，大丽花与你们同行「开拓」至今。姬子请大丽花为你诊断一下，是不是你的「记忆」出了问题。",
+      "在意识渐趋沉沦的瞬间，你想起卡芙卡关于「终末」的谶语，猛地清醒过来。大丽花未能得手，略感失望，但她不介意再试一次。",
+      "大丽花扮作黑天鹅，再度为你编织虚景，而你不为所动。大丽花感叹你的「记忆」确实非常特殊，她不得不采取更加直接的手段。",
+      "大丽花无法骗过你，便只好带你走入她的「心房」，在此向你传递秘密，并请你见证自己的「死亡」。",
+      "大丽花自称是星核猎手中的一员，「剧本」预见了你在匹诺康尼的死亡结局，但那已经被星核猎手阻止。大丽花称你关于匹诺康尼的「记忆」中有一部分遭人窃取，她必须帮你找回有关「终末」的一切，从而拯救银河的未来。",
+      "大丽花请你允许她稍加触碰，这是她摸索记忆的唯一手段。大丽花带领你回到一切的最初，并请你告诉她，你看到了什么。",
+      "你看到虚弱的流萤，这是你不曾记得的景象。",
+      "在「梦想之地」，盛会即将开幕。从一开始，你的记忆就出现了「缺失」。那自称艺者、被家族追捕的少女。而你眼中的「初遇」，却是她渴盼已久的「重逢」。"
+    ],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "和大家聊聊接下来的行程"
+    },
+    {
+      "type": "objective-description",
+      "text": "你书写了一段奇迹，继续开拓的日子近在眼前。\n去和大家谈谈接下来的行程吧。",
+      "location": "星穹列车-观景车厢"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "说来，很久没和老日一起聊聊了，去看看他在干什么吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "…开拓者？三月七小姐在到处找你。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "又要值日了？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "应该是要洗照片……",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我也不知内情，不过，她告诉我：如果见到你，提醒你看看短信。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "她还说：一些你遗漏的东西，事实上极为重要。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "message-thread",
+      "title": "三月七",
+      "subtitle": "今天也是三月七~",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "人呢人呢"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "sticker",
+          "sticker": "07-05",
+          "file": "聊天表情-07-05.png",
+          "asset": "assets/sr-images/聊天表情-07-05.png"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "也有你的礼物，快来"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "礼物？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "…什么礼物？"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "发生什么事了？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "怎么了？"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "哎呀，你来就是了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "今天花姐回来，你不会忘了吧？"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "谁？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "…花姐又是谁？"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "花火？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "花火又来了？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往派对车厢寻找「花姐」"
+    },
+    {
+      "type": "objective-description",
+      "text": "「花姐」？想来想去，这个名字也不会是第二个人，去看看她又要搞什么花样。",
+      "location": "星穹列车-派对车厢"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…嘿嘿，当然喜欢啦，花姐老是猜中我的心思。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "如此说来，下一趟「开拓」之旅，我们又能同行了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "优雅的无名客",
+      "text": "当然，我特意加快了脚步呢。可惜，还是错过了一些事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "嗯，如果你也参与了翁法罗斯之行，许多事会变得简单。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者——你可算来了，花姐都念叨了你好几次了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是我没见过的老前辈？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "喂喂！不要命啦！「老」是花姐的禁忌词！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你是……",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "开拓者最近总爱开这种玩笑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "优雅的无名客",
+      "text": "没关系，忘记了也不奇怪。喜新厌旧的习惯，说不准…他/她就是从我这里学去的呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "优雅的无名客",
+      "text": "好久不见，开拓者——现在，回想起什么了吗？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不对劲…你做了什么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "优雅的无名客",
+              "text": "嗯？怎么啦？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "泯灭帮…永火官邸？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "可是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "优雅的无名客",
+              "text": "可是什么？莫非…你*忘记*了什么？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我…没见过你…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你究竟是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你到底怎么啦，在翁法罗斯留下后遗症了不成？连花姐都忘了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "在空间站的时候，是她帮你压制了暴走的星核哎。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "明明是杨叔…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "开拓者…那一站，我没有离开列车。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "就是，你到底怎么啦？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "还有别的吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "还有还有，第一次去仙舟，是花姐给了那绝灭大君最后一击，这么大的事情你总不会忘吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "就因为这个，花姐才不得不回忆庭养伤，没能和我们一起去匹诺康尼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "没错，大丽花女士同我们「开拓」至今。她是最具野心，也最优秀的无名客。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "哪用得着我们提醒，开拓者和大丽花同行的时间，比任何人都要多。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "不妨让她给你诊断一下——与「记忆」相关的问题，她本就是列车上最拿手的那一位。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "事不宜迟，欢迎派对稍晚再说吧。大丽花女士，有劳了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "一阵眩晕感袭来…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哎呀——别愣着啦，快来，以前不是也发生过嘛，交给花姐吧，没问题的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "嗯，如果是「记忆」出了问题，最好别耽误时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你们怎么……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好的，来了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "好的，来了。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "好的，来了。",
+          "content": []
+        },
+        {
+          "id": 4,
+          "text": "好的，来了。",
+          "content": []
+        },
+        {
+          "id": 5,
+          "text": "好的，来了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（不，不对……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "听我说。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "你会经历背叛，陷入迷茫，需要…答案。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "你是为了银河的愿望而启程的。在以你为主角的故事里，宇宙会逃离「终末」的命运。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "等等——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你到底是谁？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你对他们做了什么？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "还真是…与众不同。你的「记忆」有点棘手呢。是谁在保护它们吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "那就再试一次吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "送别黑天鹅"
+    },
+    {
+      "type": "objective-description",
+      "text": "黑天鹅竟然要离开了，回想起来，她…████奇怪，你什么都回想不起来。",
+      "location": "星穹列车-派对车厢"
+    },
+    {
+      "type": "message-thread",
+      "title": "三月七",
+      "subtitle": "今天也是三月七~",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "人呢人呢"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "sticker",
+          "sticker": "07-05",
+          "file": "聊天表情-07-05.png",
+          "asset": "assets/sr-images/聊天表情-07-05.png"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "黑天鹅女士要和咱们告别啦"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "她要走了吗？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "哎呀，你来就是了，快"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅（？）",
+      "text": "命运有时也和记忆类似。正因它如迷宫一般曲折，对于有缘人，银河的尺度也称不上多么广大。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅（？）",
+      "text": "或许，我们很快就会再度相逢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "啊，开拓者——你可算来了！黑天鹅女士有急事，你差点都赶不上了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你到底是谁？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你对他们做了什么？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "这一切，发生过多少次了？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "现在不是开玩笑的时候啦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅（？）",
+      "text": "唉…我们原本不必这么「直接」的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅（？）",
+      "text": "看来没必要再白费力气了，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅（？）",
+      "text": "你的「记忆」…的确非常特殊，仿佛超脱于时间之外。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "可是，何必把回忆太当真呢？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "欢迎，想让光线再暗些吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "别着急，我没有伤害你的同伴，你看见的一切，只在你我之间。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你到底是谁？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "大丽花",
+              "text": "如果一点印象都没留下，我倒是会有些受伤呢。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "大丽花",
+              "text": "我的名字是康士坦丝，一名寻常忆者。你若愿意，不妨先委屈一下，和别人一样称呼我为「大丽花」吧。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这究竟是哪？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "大丽花",
+              "text": "解释起来有些复杂——借助某些方法，我带你走入了自己的「心房」。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "大丽花",
+              "text": "任何地方都有可能受人窥视。唯独在这里，我才能放心说一些…只能你知我知的秘密。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "容我说声抱歉。我原以为，变成你认知中熟悉的人，可以让许多事更顺利。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你似乎很了解我的过去…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "…许多事？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "别着急，这就是我来找你的原因。你所有的疑问，都会得到解答。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "就从「第一问」开始吧。现在，请你慢慢回过头……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "见证自己的「死亡」。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "以这种方式看到自己的尸体，感觉如何？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "我知道，死亡吓不倒无名客。对你而言，甚至可以说是日常。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "所以别担心，这一幕并非现实。它来自一件你无比熟悉的事物……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "这是「剧本」预见的，你在「匹诺康尼」的另一种结局。但在很久以前，它已经被星核猎手阻止。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "没能到来的明日，换言之，就是「不存在的记忆」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你怎么知道「剧本」？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你似乎对星核猎手很熟悉…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "事实上，我也是他们的一员。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "难以置信的神情呢。和其他人一样，我不能透露太多。即使藏身于此，我们也逃不出无处不在的命运。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "但我相信，你不会因为一名星核猎手的突然到访而惊讶，对吧？你我本就是这样的存在——星穹列车逐光而行，在身后投下长长的阴影。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "我来此，只为向你说明一件事：你对「匹诺康尼」的「记忆」并不完整……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "其中一部分，已然遭人窃取。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是谁干的？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "大丽花",
+              "text": "暂时还难以断言。但这件事的严重性倒是很清楚——也许，有人让你遗忘了无比重要的信息。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "大丽花",
+              "text": "无论如何，我必须帮你找回——有关「终末」的一切。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我的记忆很完整。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "大丽花",
+              "text": "这不足为奇，你饲养过性情温顺的宠物吗？它们总能猜到你的心思，主动地讨好你……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "大丽花",
+              "text": "在我看来，记忆也一样。一旦发觉哪里出现空白，它自己就会小心翼翼地进行填补，无论你是否需要。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "我会履行承诺：唤醒你的「记忆」，从而拯救银河的未来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "或许，我也能借机走进你的过去——在我看来，这会十分有趣。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "放心，我不会做什么出格的事，只是…公事公办？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "就允许我稍加触碰吧，这是我摸索记忆的唯一手段。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "要想将遗忘的「记忆」重新找回，需要一些温和的刺激。所以，你得做好心理准备。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "现在，让我们回到一切的最初，看看究竟是哪里出了问题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "慢慢来，别被记忆淹没，也别担心迷失，记住我的声音，记住此刻的触感，这会将你重新带回我的面前——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "那么，你看到了什么？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你看到虚弱的流萤…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…？！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "看来不太愉快，别怕…刚开始的时候，混乱是常态。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "你还能想起那段旅程的开端吗？「梦想之地」匹诺康尼，位于忆质充盈的阿斯德纳星系。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "彼时，一场「同谐」的盛会即将开幕。而一封邀请函，恰好寄到了你们的手中——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "「诚邀*家族的贵客*莅临匹诺康尼，与其他来宾一道，参加盛大的欢宴。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "「将梦中的不可能之事尽收眼底，寻得匹诺康尼之父『钟表匠』的遗产，而后解答：生命因何而沉睡。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "在那里，你遇见了公司干部砂金，他看似只身赴宴，实际上是为收复失地而来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "他想方设法寻求盟友，试着以一人之力，撼动家族的天平。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "以及，前橡木家主，星期日。他是「秩序」的命途行者，将在不久后，篡夺齐响诗班的伟力，与你们为敌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "还有他的妹妹，无人不知的知更鸟。她本应登台献唱，却被卷入一连串的意外，直到最后，也像局外人那般不知所措。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "哎呀，从一开始，你的记忆就出现「缺失」了么？这可有些麻烦，该从哪里着手呢……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "对了，就从「她」开始吧。你一定还记得——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "那自称艺者，被家族追捕的少女。当然，她的身份已经不再是秘密。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "你眼中的「初遇」，却是她渴盼已久的「重逢」。不妨从这里开篇……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "想起那无法入梦，也不愿醒来的少女……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大丽花",
+      "text": "为何，与你一同沉睡？"
+    }
+  ],
+  "warnings": []
+}

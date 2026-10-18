@@ -1,0 +1,2490 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "未来市场•其一",
+    "pageId": 7135,
+    "revisionId": 99788,
+    "parentRevisionId": 34308,
+    "revisionTimestamp": "2026-07-19T17:44:23Z",
+    "fetchedAt": "2026-09-28T00:20:07.983Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%9C%AA%E6%9D%A5%E5%B8%82%E5%9C%BA%E2%80%A2%E5%85%B6%E4%B8%80",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%9C%AA%E6%9D%A5%E5%B8%82%E5%9C%BA%E2%80%A2%E5%85%B6%E4%B8%80&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "未来市场·其一",
+    "region": "雅利洛-Ⅵ",
+    "type": "开拓续闻",
+    "version": "1.4",
+    "number": "02",
+    "series": "冬梦激醒",
+    "description": "开拓者的开拓日报：\n刷脸，见布洛妮娅。",
+    "requirements": "完成开拓续闻「未来市场·序」",
+    "requiredLevel": "34",
+    "characters": [
+      "三月七",
+      "托帕&账账",
+      "布洛妮娅",
+      "希儿",
+      "克拉拉",
+      "杰帕德"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "700"
+      },
+      {
+        "item": "星琼",
+        "amount": "110"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "5"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "4"
+      },
+      {
+        "item": "信用点",
+        "amount": "40000"
+      }
+    ],
+    "previousMissions": [
+      "未来市场·序"
+    ],
+    "nextMissions": [
+      "未来市场·其二"
+    ],
+    "objectives": [
+      "前往克里珀堡，和布洛妮娅聊聊",
+      "与三月七交谈，商量对策",
+      "寻找托帕",
+      "尝试与托帕交谈",
+      "交涉失败，和三月七总结情况",
+      "前往磐岩镇支援希儿",
+      "和守在大矿区入口的公司员工对峙",
+      "（可选）和三月七谈谈",
+      "和希儿交谈，前往大矿区",
+      "查看矿民们的情况",
+      "尝试和账账「沟通」",
+      "跟随账账，深入大矿区",
+      "和矿区深处的公司员工对峙"
+    ],
+    "synopsis": [],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往克里珀堡，和布洛妮娅聊聊"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n刷脸，见布洛妮娅。",
+      "location": "雅利洛-Ⅵ-行政区"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一段时间之后。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哈~累了，没想到什么也不干，光是闲逛也能这么消耗体力……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "{{开拓者|你说}}，咱们是不是该去见见布洛妮娅？毕竟是她给咱们发的邀请函嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "或者，咱们也可以再去别处逛逛，玩玩…全看你心情！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你进入了克里珀堡，却看到了托帕…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "…贵星的苦衷我完全理解，大守护者小姐。贝洛伯格当下财务紧张的局面不是因为你——当然，也不是因为这城里任何一个人——的过错导致的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "但就事论事地说，既然贝洛伯格作为独立政体存续到了当下，那这笔债务就不能被当做坏账勾销。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "…啊，看来有重要的访客来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "布洛妮娅！还有…托帕小姐居然也在？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "啊，原来你们已经开始谈合作了？正事要紧，要不我们一会儿再——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "——没事，我们本来就聊得差不多了，这会儿正准备收尾呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "大守护者小姐，还请你认真考虑一下我的方案。如果雅利洛-Ⅵ还想在未来重建与银河众星的联系…你们在公司这里的信用记录会无比重要。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "…我明白，托帕小姐。我会…我需要时间考虑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "当然。不过，在你考虑的同时，我的同事需要在贝洛伯格展开一些必要的工作…还希望上下层区的诸位能够配合。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "真不好意思，因为我的事打扰你们老友重聚了！公事已经聊完了，接下来各位可以慢慢叙旧——先走一步咯，回见~"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "托帕走后…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "布洛妮娅，没事吧？那个托帕…居然有那么强势的一面，本来以为是个很好说话的人呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "开拓者，三月…欢迎你们回来。抱歉，我本打算盛情迎接两位，但那位自称「公司」使者的女士突然出现，打乱了我的思绪……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "既然是和你们两位，那我也没什么好遮掩的…老实说，我现在已经没什么精力思考煦日节的事了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "托帕到底和你说了什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我听到了「债务」两个字…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "…嗯，既然你们之前已经打过照面，那我也不必说明她的身份了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "你们第一次来到贝洛伯格的时候，肯定听人提到过那段历史吧？有关七百多年前的军团入侵、还有因「星核」而生的寒潮……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "现在看来，当时有许多重大的历史事件被埋藏在了风雪之下…那些记忆甚至没能随着历任大守护者传承下来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "托帕小姐给我讲了一个故事：七百年前，星核降落于雅利洛-Ⅵ之后，原本在这个世界驻留的外来者预见到了危机的迫近，纷纷选择离去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "这些外来者中就包括了一批「星际和平公司」的投资人。但他们在临走前做了一件大事——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "——他们找到了坚持驻守家园的「筑城者」，并向后者提供了一大笔资金，用于灾难避险。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "正是凭借那笔资金，贝洛伯格才得以建起如此高大的城墙…甚至连最初一批自动机兵的研发经费都是从那笔钱里划出来的。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "居然还有这种事！所以…所以，难不成托帕说的「业务」，就是来贝洛伯格讨债？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "嗯…恐怕是的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这也太离谱了吧？！早不来晚不来，怎么非挑这个时候？要是咱们没铲除掉星核，这笔账还不是就这么算了？这不明摆着是欺负人嘛！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "根据她的说法，筑城者和公司投资人商定的还款年限是…280年。但借款之后不到百年，雅利洛-Ⅵ和整个银河的联系就彻底切断了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "公司认为雅利洛-Ⅵ遭受了毁灭级别的打击，文明已经不复存在，那笔投资也就被评定为了烂账。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "直到「星核」危机解除，公司才发现贝洛伯格居然一直存续到了现在……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "然后他们就派了托帕过来催债……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "…嗯，连本带息。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "数额是多少？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "天文级别…我甚至不知道该怎么准确地念出那串数字。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "拖着不还会怎么样？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "那笔债务的数额…是天文级别，我甚至不知道该怎么准确地念出那串数字。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "你们还没进来之前，托帕已经警告过我了…如果债务拖欠太久，公司给了她采取「强硬措施」的权力。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "没想到事态会朝这个方向发展…我原本还以为，公司是来帮助贝洛伯格重建的……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "看来我们又得介入了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "是呀，咱们得帮布洛妮娅想想办法！公司的势力那么大，光靠贝洛伯格人自己肯定搞不定这事……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "只靠贝洛伯格人恐怕搞不定…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "是呀，咱们得帮他们想想办法！公司的势力那么大，就算是布洛妮娅出手也很难搞定吧……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "我对「星际和平公司」的了解没有你们多，但如果典籍中的记录属实…那是一个横跨整个银河的庞大组织，他们想镇压住贝洛伯格恐怕易如反掌……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "所以…所以我很庆幸你们来了——我知道两位原本只是想来参加节日庆典的，但是现在……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "…现在我想向你们，向星穹列车求救。两位，你们能否尝试替我说服托帕？借助列车在银河中的声誉，也许……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "放心吧，布洛妮娅！朋友有难，热心的无名客怎么可能拒绝？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们去找她聊聊。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "嗯，毕竟开拓者可擅长谈判啦。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "必要的话，武力取胜。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "呃…倒是没必要闹得那么僵啦，托帕小姐看上去也不是那么不讲理的人。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "有开拓者的三寸不烂之舌，我们去试着说服她吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "谢谢你们！又要把你们卷入麻烦里了，实在抱歉……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "两位去找托帕的这段时间，我也会思索一下应对的策略。祝你们好运——啊，还有，一定要注意安全。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（布洛妮娅）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "布洛妮娅",
+          "text": "开拓者…又把你们卷进贝洛伯格的事务，我很抱歉。但面对「星际和平公司」这种背景强大的势力，我们需要一切能够争取到的外部援助。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "布洛妮娅",
+          "text": "两位去找托帕的这段时间，我也会思索一下应对的策略。祝你们好运——啊，还有，一定要注意安全。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "托帕为何而来，能再讲一遍吗？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "布洛妮娅",
+                  "text": "托帕小姐给我讲了一个故事：七百年前，星核降落于雅利洛-Ⅵ之后，原本在这个世界驻留的外来者预见到了危机的迫近，纷纷选择离去。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "布洛妮娅",
+                  "text": "这些外来者中就包括了一批「星际和平公司」的投资人。但他们在临走前做了一件大事——"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "布洛妮娅",
+                  "text": "——他们找到了坚持驻守家园的「筑城者」，并向后者提供了一大笔资金，用于灾难避险。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "布洛妮娅",
+                  "text": "正是凭借那笔资金，贝洛伯格才得以建起如此高大的城墙…甚至连最初一批自动机兵的研发经费都是从那笔钱里划出来的。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "布洛妮娅",
+                  "text": "根据她的说法，筑城者和公司投资人商定的还款年限是…280年。但借款之后不到百年，雅利洛-Ⅵ和整个银河的联系就彻底切断了。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "布洛妮娅",
+                  "text": "公司认为雅利洛-Ⅵ遭受了毁灭级别的打击，文明已经不复存在，那笔投资也就被评定为了烂账。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "布洛妮娅",
+                  "text": "直到「星核」危机解除，公司才发现贝洛伯格居然一直存续到了现在…于是就派了托帕小姐前来催债。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "我们会尽力搞定这件事。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "布洛妮娅",
+                  "text": "谢谢，开拓者。我相信你们。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与三月七交谈，商量对策"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n布洛妮娅遇上麻烦了。催债的事，不太懂。和三月商量商量对策。",
+      "location": "雅利洛-Ⅵ-行政区-克里珀堡"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "{{开拓者|欸}}，托帕之前不是给了我们她的号码吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "要不干脆直接点，发消息问问她在哪吧？她看上去像是喜欢有话直说的类型。"
+    },
+    {
+      "type": "message-thread",
+      "title": "托帕、三月七、开拓者的群聊",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "托帕小姐，你在忙吗？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "人工智能回复",
+          "contentType": "text",
+          "text": "您好，托帕总监在忙，暂时无法回复您的消息，请稍候。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "自动回复？她工作时间真的不回消息啊……",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "人工智能回复",
+          "contentType": "text",
+          "text": "您好，托帕总监在忙，暂时无法回复您的消息，请稍候。",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "智能回复，告诉我…",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "能不能告诉我托帕去哪了"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "别复读了！",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "别复读了，快告诉我托帕去哪了"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "人工智能回复",
+          "contentType": "text",
+          "text": "您好，正在为您查询托帕总监的行程。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "人工智能回复",
+          "contentType": "text",
+          "text": "托帕总监目前正在「雅利洛-Ⅵ」「贝洛伯格」「上层区」「历史文化博物馆」进行视察工作。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "这家伙还真挺智能的，谢啦！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "人工智能回复",
+          "contentType": "text",
+          "text": "您好，托帕总监在忙，暂时无法回复您的消息，请稍候。",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找托帕"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n碰上麻烦了。贝洛伯格欠了公司一大笔钱。得去和托帕交涉。人在博物馆。",
+      "location": "雅利洛-Ⅵ-行政区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这下知道托帕在哪了，我们快去博物馆找她吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "咱们可得提前想想话术…年纪轻轻能在公司做到总监的位置，绝对是个人精！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n碰上麻烦了。贝洛伯格欠了公司一大笔钱。得去和托帕交涉。人在博物馆。",
+      "location": "雅利洛-Ⅵ-历史文化博物馆"
+    },
+    {
+      "type": "fold",
+      "title": "待机对话（托帕）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "托帕",
+          "text": "六百年前的画作……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "托帕",
+          "text": "临时估值二十七万……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "托帕",
+          "text": "这样的画有三十四幅……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "托帕",
+          "text": "那就是九百一十八万……"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "…哎呀，居然又是二位！咱们这是什么神仙缘分，一天里居然能撞上三次？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "珍惜这段缘…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "托帕",
+              "text": "我还是第一次认识星穹列车的朋友，当然得好好珍惜啦。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "其实我们给你发了消息。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "托帕",
+              "text": "哦，是智能回复告诉你们我在这儿的？这员工定位系统是「技术研发部」负责开发的，是不是挺厉害的？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "你们看过这幅画吗？我虽然不太懂艺术鉴赏，但大概也能从画家的笔触里看出些东西。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "该怎么说呢？整幅画面都传递着一种…悲伤。不是普通人遭遇不顺心时那种短暂的伤感…远比那种感觉更悠长，更厚重。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "那种感伤好像凝聚了历史，画家通过自己的笔触，把贝洛伯格几代…不对，是几十代人的苦难都给概括了出来。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "看来你其实很懂艺术…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "托帕",
+              "text": "哪有哪有，只是胡乱分析一二而已，肯定没法跟专业的人比啦。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "托帕",
+              "text": "星穹列车去过那么多地方，「无名客」个个见多识广，在这方面肯定比我强多了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "和我的理解也差不多嘛。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "托帕",
+              "text": "哈哈哈，你谦虚啦。星穹列车去过那么多地方，「无名客」个个见多识广，在这方面肯定比我强多了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "换世俗点的话说，我看中的肯定不是它的绘制技法。假如我给这幅画估值二十万，这其中至少有十五六万是看中了它的「附加价值」才开出来的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "呃…我不是想打断你们聊高雅的话题哈，不过其实我们有别的事想找你讨论……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "哦，是吗？请尽管开口，莫非两位已经打算和我聊聊潜在的业务合作了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "倒也不是，其实我们……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "——啊，要不咱们边逛边聊吧？这边！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "尝试与托帕交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n找到托帕了。开始交涉。希望别说错话。",
+      "location": "雅利洛-Ⅵ-历史文化博物馆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "这博物馆里的展品，大部分都有些无趣。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "但只要具备一双慧眼，一定能从泥尘里发掘出宝石~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "托帕小姐，我们已经从布洛妮娅那里听说了，关于贝洛伯格的债务问题……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "…啊，她都告诉二位了？你们的关系还真是特别亲密啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "怎么了？二位莫非是想跟我讨论金融专业方面的问题？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我们…哎呀，开拓者，帮帮忙！我实在不擅长这个……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们想帮布洛妮娅求求情。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "托帕",
+              "text": "啊…原来如此。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "公司的要求很不合理。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "托帕",
+              "text": "哈哈哈，你说话真是直接，我欣赏这点！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "列车会替贝洛伯格付清！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "…喂喂，好人可不是你这么当的呀！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "那个，托帕小姐…其实我们是来为布洛妮娅求情的。你也看到贝洛伯格现在的状况了…他们根本没能力偿还那么巨额的债务嘛。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "的确，我理解。站在你们的视角，这件事肯定很不符合情理吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "立场不同，看事情的角度就会不同，这很正常。对我来说，催债就是我的工作——比贝洛伯格的情况更艰难的案例，我也不是没见过。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "…多数不能按时还款的个人或组织都有各自的苦衷。但要是我把每个项目都当作「特例」…那整个星系的经济系统恐怕都要崩盘了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好冷酷的思维模式…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "托帕",
+              "text": "哈哈~类似的话我也听过很多次了，真的。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "但就是还不上，怎么办呢？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "负债人无法用现金还债的情况，「战略投资部」早就屡见不鲜了，我们能提供的解决方案也不止一种。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "但雅利洛-Ⅵ的拖债时间已经超过履行期限太久，很多比较温和的解决方案恐怕已经不适用了。所以，我向布洛妮娅提出……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "…哎呀，差点把商业机密泄露出去了，好险好险~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "这里的展品都很普通啊，看上去没什么价值。再陪我走两步吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "祖辈欠下的债务，却要连累后人偿还……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "仔细想想，这也是宇宙间生命轮回的一部分呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…欸？怎么一下子聊得这么深？！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们走到了一个小熊标本的展览柜前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "哇，看！这是雅利洛-Ⅵ上的小动物吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "白白的，蓬蓬的…好可爱！在哪里能见到活的呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你喜欢小动物？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "托帕",
+              "text": "对，超级喜欢！啊，你们之前见过账账了吧？可惜，它现在应该是自己玩去了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "托帕",
+              "text": "不过仔细想想，既然这种动物的标本会被陈列在这里…大概意味着它已经从这个世界上消失了吧？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "估计已经灭绝了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "托帕",
+              "text": "嗯，想想也是。要不然它的标本也不会被陈列在这里。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "托帕",
+              "text": "真可惜，我超~级喜欢小动物的。啊，你们之前见过账账了吧？可惜，它现在应该是自己玩去了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那个，托帕小姐，到底该怎么做才能让公司对贝洛伯格手下留情呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "布洛妮娅他们费了好大的力气才让这个世界稍微变好了一些…如果所有努力眨眼间就被剥夺，那未免太过残忍了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "你把公司想成什么啦，三月~别忘了，我们和这里的「筑城者」一样，都是「存护」的践行者哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "无论如何，我们提出的方案肯定会把贝洛伯格人民的福祉考虑在内。要是连这点都做不到，「战略投资部」不就成了跟军团一样蛮不讲理的团伙了嘛？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "所以，你是说…我们不用担心？但布洛妮娅她……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "放心吧，大守护者姑娘可是有大智慧的人，她肯定能想明白的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "更何况，如果要我直接回答你的提问…答案是「怎么做都没用」。不管遇到什么阻碍，我都一定会完成雅利洛-Ⅵ这个项目。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "突然有种威压感…好恐怖呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "所以呀，我建议两位还是别在这件事上太费心了，你们觉得呢？不如趁你们还在的时候多享受下节庆前的热闹氛——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "…啊，有同事找我，实在不好意思啦。先走一步，有缘再见~"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "交涉失败，和三月七总结情况"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n交涉失败。可恶。下一步：还有下一步吗？",
+      "location": "雅利洛-Ⅵ-历史文化博物馆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "怎么办…聊了半天，压根一点进展都没有嘛！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们也没承诺一定成功。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "话是这么说，但还是感觉很对不住布洛妮娅……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "她说的有些道理…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "嗯，我也这么觉得。但摆在布洛妮娅面前的问题也很现实……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "应该继续死缠烂打。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "真的吗？我怎么觉得完全动摇不了她呢……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "归根到底，托帕小姐也只是在贯彻她的工作原则而已。退一步说，从列车组的立场出发，跟公司作对肯定不明智……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…哎呀，这里面的利害关系也太复杂，太难处理了吧！学校里可没人教过这些呀——欸？这么一说，我失忆之前有上过学吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…有人给你发消息了？"
+    },
+    {
+      "type": "message-thread",
+      "title": "希儿",
+      "subtitle": "有话直说！！",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "希儿",
+          "contentType": "text",
+          "text": "开拓者，听说你回贝洛伯格了？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "希儿",
+          "contentType": "text",
+          "text": "有空的话回个消息，很急",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "发生什么了吗？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "希儿",
+          "contentType": "text",
+          "text": "一群奇怪的家伙突然跑来下层，把大矿区霸占了",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "希儿",
+          "contentType": "text",
+          "text": "我问了布洛妮娅，她让我先不要跟那些家伙起冲突",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "听她的，别惹他们",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "布洛妮娅说的对，最好别惹他们"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "希儿",
+                  "contentType": "text",
+                  "text": "晚了，「地火」和铁卫已经跟他们起冲突了",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "必须反抗才行",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "不能任由他们欺负矿民，得拿起武器反抗"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "希儿",
+                  "contentType": "text",
+                  "text": "这倒不用提醒，「地火」和铁卫已经跟他们起冲突了",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "希儿",
+          "contentType": "text",
+          "text": "但是那帮人的武器太先进了，花里胡哨的，威力还贼大，压根挡不住",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "希儿",
+          "contentType": "text",
+          "text": "我也是实在没办法了才想到给你发消息求救",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "挺住，我们这就过来"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…什么，公司的人已经开始在下层区捣乱了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "可恶，刚才还在说什么「会考虑贝洛伯格人民的福祉」——这帮公司资本家的话，真是一个字都不能信！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们去救场吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "居然又要拔刀相助了…我现在可完全没那个行侠仗义的心情啊！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "居然又演变成了这样…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "再也不乌鸦嘴了…我现在可完全没那个行侠仗义的心情啊！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "一个字都不能信！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "居然又要拔刀相助了…我现在可完全没那个行侠仗义的心情啊！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "算了，抱怨也没用，忙还是得帮——走，我们去支援希儿他们吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往磐岩镇支援希儿"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n希儿发短信了。公司偷袭了下层区。快去看眼情况。",
+      "location": "雅利洛-Ⅵ-磐岩镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "希儿！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "{{开拓者，三月！|你们来啦！}}还好有你俩在，不然我们真要撑不住了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "讲讲情况吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希儿",
+              "text": "很糟，那帮家伙的武器，还有他们操纵的机兵，威力比我们的大太多了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "希儿",
+              "text": "倒是没人受重伤，只是有几个「地火」的弟兄擦破了些皮。对方没下死手…万幸。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "有人受伤吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希儿",
+              "text": "倒是没人受重伤，只是有几个「地火」的弟兄擦破了些皮。对方没下死手…万幸。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "希儿",
+              "text": "那帮家伙的武器，还有他们操纵的机兵，威力比我们的大太多了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "你看那两个黑衣服的，从刚才开始就一直守着矿区入口，不让任何人出入。仗着自己装备好就到处欺负别人，你们算什么东西！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "…话都不会说吗？可恶，真恼人！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "矿区里面现在是什么情况，有人知道吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "之前倒是有几个慌慌张张跑出来的矿民。听他们说，整个矿区已经被黑衣服的家伙控制了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "那帮家伙，嘴上说着什么「资产评估」…实际根本就是在骚扰下层区人正常生活！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "托帕不在吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希儿",
+              "text": "谁？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "刚才还在逛博物馆来着…不会是她的手下自说自话吧？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "交给我们。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "话说回来，托帕不在附近吗？该不会是她的手下自说自话，在这儿搞破坏吧？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "你们说的这个人，是这帮黑衣人的头头吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "…算了，管她帕托还是托帕，眼下最要紧的是赶紧把大矿区给夺回来。开拓者，三月，一起来吗？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "和守在大矿区入口的公司员工对峙"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n公司占领了大矿区。没素质，欠收拾。",
+      "location": "雅利洛-Ⅵ-磐岩镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "喂，你们两个！是听不懂人话还是没长舌头？识相的话就给我让开！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的员工",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "呃，两位站累了没有，要不要来旁边歇一会儿？公司员工应该能享有午休福利的吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的员工",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我是你们老板的客户，让开。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "软硬不吃…欠揍是吧！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的员工",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这两个家伙，到底怎么回事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的员工",
+      "text": "你们俩，是之前在雪原里跟总监聊天的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…什么啊，原来是之前威胁要灭我们口的家伙！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那你应该知道我们的身份了吧？连你的老板都对我们客客气气的，你这做下属的也该懂点礼貌才对！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的员工",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的员工",
+      "text": "…不行，我不能让开！组长说了，要是漏了人进去，就要扣我半年的绩效！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "好嘛，原来你连个小组长都不是？真是高估你了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的员工",
+      "text": "闭，闭嘴！我为了进公司，躲在一颗小行星上备战了六七年，然后又熬过了十七轮面试才成功入职——你们这些无业人员，凭什么对我评头论足？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "…什么公司，什么面试，废话真多…我的耐心已经到头了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "开拓者，三月，别跟他浪费口水——咱们上！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗，击败公司的基层员工"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "这就没影了？溜得可真快。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这就是十七轮面试筛选出来的实力吗？感觉也不怎么样嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "别掉以轻心。听报信的说，矿区里的家伙们相当不好对付。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "开拓者，等你们准备好了我们就出发。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）和三月七谈谈"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "{{开拓者|欸，你}}，缓过来没有？等你准备好了，咱们得狠狠收拾收拾这帮公司的跟屁虫！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你什么时候换的衣服？！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "…就刚才啊，在博物馆跟托帕聊完以后？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "你不会才发现吧…多关心关心身边的同伴呀，开拓者！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "没想到又要战斗…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "呃…计划赶不上变化嘛，谁能料到会发生这种事呢？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "真遗憾，本来还想美美地度过这几天…这下我的小礼服又只能在箱底吃灰了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "早点解决公司的问题，咱们就能早点享受节日的氛围。准备好了就跟希儿说一声吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "和希尔交谈，前往大矿区"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n下矿区救人。\n帕姆注：开拓者乘客的日报，也太敷衍了帕！给我认真点写帕！",
+      "location": "雅利洛-Ⅵ-磐岩镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "准备好了吗？该去把这帮「公司」的家伙赶出下层区了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "出发吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希儿",
+              "text": "我们走！"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "进入拓境探游大矿区：驱逐公司入侵者"
+            },
+            {
+              "type": "note",
+              "tone": "蓝色",
+              "text": "星际和平公司的员工以「资产评估」名义占领了大矿区——必须帮助矿民们夺回属地。",
+              "context": "介绍"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "再等等。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希儿",
+              "text": "嗯，一定得把准备做全。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与此同时，在史瓦罗的聚落……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "嗨！史瓦罗先生，对吗？那旁边这位可爱的小姑娘…肯定就是克拉拉妹妹了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉拉",
+      "text": "姐…姐姐好。请问您是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "你好，我叫托帕！我来找史瓦罗先生谈些事情。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "克拉拉，回宅邸里等我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉拉",
+      "text": "…欸？但是史瓦罗先生，有客人的话……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "她不是「客人」，更不是「朋友」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "回去等我，克拉拉。会没事的，放心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "看来我的消息源说的没错：大型机器人和小姑娘之间建立了牢不可破的纽带…真是个温暖人心的故事！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "那是「星际和平公司」的标志。你为什么会出现在这里？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "看来和你说话时可以暂时丢掉那些繁文缛节，太好了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "雅利洛-Ⅵ——啊，你熟悉这个说法吗？总之就是你我脚下这颗星球——它很快就要变成属于「公司」的资产了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "没人能逆转这个结果。你不能，那几个「无名客」不能，银河中任何一方势力都不能。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "我现在只考虑一件事，就是尽可能对经过我手的项目负责。我要让公司的股东们看到雅利洛-Ⅵ能够创造的价值。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "长线来说，这是一个…不，只有这么做才能保证贝洛伯格长远的利益。我需要你的协助才能达成这个目的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "「长远利益」——概念模糊。评估意图中……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "评估结果：失败。告诉我，使者——你打算如何说服公司的领导层？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "简单，我给你看一样东西。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "这是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "「源代码」——确切地说，是能取得贝洛伯格所有机械单元统一控制权的「源代码」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "你应该很清楚吧？过去的七百年里，贝洛伯格制造的所有机兵都沿用了「公司」留下的底层系统。如此完善的代码，这里的工程师压根想不到需要替换它的理由。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "你应该还知道，在这下层区的某个地方，曾经有一座巨大的兵工厂。那里沉睡着许多…许许多多的兵器，多到足够碾碎一整支军团的先遣队。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "这就是我和上面谈判的筹码。我要说服他们，让他们相信雅利洛-Ⅵ在公司的长远战略中能占有一席之地。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "但首先，我需要一位向导，告诉我那些兵器被埋在了什么地方。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "我理解了。你口中的「长远利益」，可以被定义为宏观层面的文明存续。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "对于当下活在这里的人类，你又有何计划？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "他们的未来已经被买断了，我只能尽力让他们接受这个事实…用相对平和的态度。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "我明白了。我会协助你的计划。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "…哦？居然这么好说话？我还以为你跟传闻中一样，是个固执己见的角呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "你所谈及的未来超出了我的计算范畴。但情感读数告诉我，你确实在努力考量让这个世界存续的办法。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "史瓦罗",
+      "text": "另外，计算表明：假如我拒绝合作，你有96.4%的概率会强迫我服从。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "看来你的计算还是偏向保守了点~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "那就预祝我们合作愉快！辛苦你带路了，史瓦罗先生。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看矿民们的情况"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n很多矿民，魂不守舍的。上去打听打听。",
+      "location": "雅利洛-Ⅵ-大矿区"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "大矿区，开拓者和希儿这边……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "矿民都聚在那边…这股强烈的既视感是怎么回事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "毕竟你们第一次来的时候，情况也大差不差。只不过比起地痞流氓和几台破破烂烂的机器人，这次的对手难缠多了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "喂，开拓者，快看！那不是托帕身边的扑满吗？好像是叫…「账账」，我没记错吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "啥？那玩意…不是裂界里的生物吗？居然还能当宠物养？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "公司的人嘛，黑科技就是多，养只扑满当宠物也不稀奇啦。我们过去瞅瞅它吧？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "尝试和账账「沟通」"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n扑满！扑满！小~扑满！",
+      "location": "雅利洛-Ⅵ-大矿区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "账账",
+      "text": "…哼唧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "哼唧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "账账",
+              "text": "哼…呼噜，哼唧？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "…哼唧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "账账",
+              "text": "哼唧！呼噜，哼唧！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "哼…呼噜，哼唧，哼！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "账账",
+              "text": "哼？哼唧，呼噜噜…哼！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…你们聊得挺欢啊？它都说什么啦？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "「托帕不在这里」。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "真的假的？！莫非你真的能听懂扑满的语言？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "「生命没有意义」。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "好深奥哦…才怪，你就是在瞎扯吧！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "其实我没听懂。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "…那你装得还挺像的，差点把我给骗了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "喂，你们看！它好像…想离开这里了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "啊，真的耶，说不定是要去找主人了？开拓者，我们先跟上它吧！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随账账，深入大矿区"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n扑满好像在给我们带路。先跟着吧。",
+      "location": "雅利洛-Ⅵ-大矿区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "逃窜的矿工",
+      "text": "帮、帮帮忙啊！穿黑衣服的打人了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "跋扈的员工",
+      "text": "…喂，老乡，问你话呢！你们堆放「地髓」的仓房在哪？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "胆怯的矿工",
+      "text": "我、我真的啥也不知道啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "跋扈的员工",
+      "text": "真难搞，这地方怎么净是些土老帽……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "岂有此理，得给他们点苦头尝尝！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗，击败公司的基层员工"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "账账",
+      "text": "哼！呼噜，哼唧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "嗯？账账好像很开心的样子？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "…但它和公司的人不是一伙的吗？真奇怪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "账账",
+      "text": "哼唧…呼噜！呼哩！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "看，下面有个大家伙！管事的会不会就是他？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "我倒是要看看，今天到底是谁管谁——走吧！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "和矿区深处的公司员工对峙"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n找到了公司的混蛋。小扑满挺有用的。该出手了。",
+      "location": "雅利洛-Ⅵ-大矿区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…咦？账账跑哪去了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "那小东西，一眼看上去又圆又胖，没想到行动竟然那么敏捷。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "没办法…向导丢了，接下来就只能靠咱们自己继续深入了。走吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "喂，那边那个大家伙！这里管事的是你吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小组长",
+      "text": "…本地人？公司正在此处执行资产评估工作，请本地居民跟随负责疏散的员工到安全区域休息……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "…这叫哪门子「疏散」？明明就是你们强行霸占了矿区，还把矿民赶出了自家家门！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "我警告你们，赶紧从这里滚出去，别再让我看见你们那身行头——否则就别怪这把镰刀不长眼了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小组长",
+      "text": "呃…你是谁，说话这么嚣张？「公司」武器的威力，难道还没见识过吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "托帕就允许你们这么乱来？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我要见你们老板！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "托帕！我们要见你的上级，托帕小姐！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小组长",
+      "text": "居然还认识托帕总监？看来身份确实不简单……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小组长",
+      "text": "呃…不对，我管你们是谁？「战略投资部」员工没有义务和不相关人士解释项目的细节。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小组长",
+      "text": "负债人未能在执行期限内还款的情况，公司有权跳过协商阶段，直接接手其资产。都是按规矩办事，你们有什么不服？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "听着挺像那么回事，但这些杂七杂八的规矩不都是你们自己定的？这个世界好不容易才活了过来，才经不起你们这么瞎折腾！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小组长",
+      "text": "呃，这是…这是领导层的决定！我们只是负责执行，你跟我们说这些也没用。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "算了，三月，别跟他们讲道理了！本来我也没指望能和平解决这事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "你不是说那破「公司」的武器很先进吗？正好趁这个机会让我见识见识——来过两招！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小组长",
+      "text": "呃…没想到真的要撕破脸皮，早知道就提前申请加班了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小组长",
+      "text": "…咳，没什么，你们什么都没听见！既然你们执意要战，那就准备好脸抗我这发激光重炮吧！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗，击败公司的资深员工"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小组长",
+      "text": "呃…你、你们究竟是什么来头？！居然连公司的机甲都镇压不了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "末日兽、星核、幻胧，什么强敌咱没见过？就凭你这两下子，也想拦住我们？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小组长",
+      "text": "不行了，已经一发弹药都不剩了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "紧张的员工",
+      "text": "组、组长，总监刚才发来消息……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小组长",
+      "text": "呃…托帕总监？说什么了，快给我念念。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "紧张的员工",
+      "text": "「各项目组在执行资产评估作业期间，不得影响当地居民正常生活秩序——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "紧张的员工",
+      "text": "「——部分严重违反此条指令的项目组，组内全体员工处以扣除60%年终奖金的处罚……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小组长",
+      "text": "60%？！完、完蛋了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小组长",
+      "text": "全体员工，听我指令——立刻从大矿区撤离，撤离！不要留下任何项目组来过的痕迹！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "嚣张跋扈的公司员工离开后…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "唔…所以这边的事就算解决了…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "嗯。看他们那副慌张的样子，大概是没胆量回来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "这个「托帕」，到底是什么人物？不但能驯服裂界生物，还能把那帮黑衣服治得服服帖帖……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这可就说来话长了……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你该问问布洛妮娅。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "贝洛伯格…欠了一笔债。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希儿",
+              "text": "嗯…？债？什么意思？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "最好…还是让布洛妮娅和你解释吧？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "临近过节，情况怎么突然变得这么复杂？真是不让人省心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…啊，有人给咱们发消息了！"
+    },
+    {
+      "type": "message-thread",
+      "title": "布洛妮娅、开拓者、三月七、丹恒的群聊",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "三月，开拓者，你们现在在哪里？一切都好吗？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "布洛妮娅！我们现在在下层区",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "一帮公司的家伙占领了大矿区，我们和希儿刚把他们全都赶走",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "原来如此，你们和希儿在一起",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "没有受伤吧？情况还好吗？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "放心吧，这点程度我们还能应付得了！",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "没能说服托帕",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "抱歉，我们没能说服托帕"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "布洛妮娅",
+                  "contentType": "text",
+                  "text": "不用道歉，开拓者！这本来就不是你们的责任",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "公司不会善罢甘休",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "公司恐怕不会就这么停手"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "布洛妮娅",
+                  "contentType": "text",
+                  "text": "我明白。辛苦你们去和托帕交涉了，这原本不该是你们的责任",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "我这边的情况有些变化，消息里说不清楚",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "你们能回克里珀堡一趟吗？我需要两位的建议",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "不知道为什么，字里行间都能感受到布洛妮娅的焦虑…开拓者，我们尽快回去吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "希儿，你要和我们一起上去吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "不用了，你们去吧。我这边还有些善后工作要处理，被赶出去的矿民都还蒙在鼓里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "她联系了你们，说明在布洛妮娅看来，这件事只有你俩才能帮上忙。我相信她的判断。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "希儿…好，我明白了！我们一定尽力帮上布洛妮娅的忙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "走吧，开拓者，我们回克里珀堡去。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与此同时，在铆钉镇……"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "托帕",
+          "text": "这阵仗…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "托帕",
+          "text": "好像不太友善呀？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "杰帕德",
+          "text": "应大守护者之令——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "杰帕德",
+          "text": "请您在此止步"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "杰帕德",
+          "text": "托帕小姐。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "托帕",
+          "text": "…怪不得人家总说"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "托帕",
+          "text": "这年头欠债的才是爷呢？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "托帕",
+          "text": "回头见啦，戍卫官！"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

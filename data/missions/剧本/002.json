@@ -1,0 +1,4139 @@
+{
+  "schemaVersion": 2,
+  "title": "激「冻」人心的大冒险",
+  "createdAt": "2026-10-01T03:44:55.268Z",
+  "updatedAt": "2026-10-01T21:27:04.716Z",
+  "blocks": [
+    {
+      "id": "7af42119-f897-4db3-a14b-3b09755b02c0",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "dialogue",
+            "speaker": "穹",
+            "text": "宇宙……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "穹",
+            "text": "银河列车……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "穹",
+            "text": "星神……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "穹",
+            "text": "我这是被卷进什么科幻电影了吗？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "穹",
+            "text": "在我身体里的，这个叫星核的东西……"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "三月七",
+            "text": "你在抓星星吗？"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "三月七",
+            "text": "嘻嘻，这事——我也干过。"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "三月七",
+            "text": "不过——抓的不是星星——而是一盏灯"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b9bb1fff-9e08-424d-ab2e-0a119f6aa93e",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 1
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "我刚从冰里醒来的时候，睁开眼睛就看见一簇星光——于是我本能地伸出手，结果那只是车厢的顶灯罢了。"
+      }
+    },
+    {
+      "id": "407671be-1d9d-45b9-aec8-1f92a2446252",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 2
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "当时列车组所有人都在旁边看着我呢。那场面，可尴尬啦。"
+      }
+    },
+    {
+      "id": "71a1a1f2-a3f8-4225-8105-49a0d1b30aa9",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 3,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "哎呀，我还没跟你说过吧？"
+      }
+    },
+    {
+      "id": "3c0348d2-eb0d-46a5-bd5c-907980cfb937",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 3,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "在被列车打捞起来之前，我一直被封在一大块冰里，在宇宙中漂流。"
+      }
+    },
+    {
+      "id": "ca19402b-702c-4972-bdfe-11fbcdb54a04",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 5,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "你是怎么被冻起来的？"
+      }
+    },
+    {
+      "id": "e6cdfc53-5a59-4873-93a6-6499f9860de0",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 5,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "谁知道呢？以前的事我全都不记得了。"
+      }
+    },
+    {
+      "id": "eb4499d0-28a6-48a0-af25-c79e4bb6acc5",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 7
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "所以我赖在列车上，跟着它一站一站走下去。指望着哪天能够找到自己的过去……"
+      }
+    },
+    {
+      "id": "df76d1de-9c75-4272-9e90-7924df74932f",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 8
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "哎呀，说这干嘛，扫兴。"
+      }
+    },
+    {
+      "id": "e68190f3-f190-42ff-a224-7c050d8a954f",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 9,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "对不起。"
+      }
+    },
+    {
+      "id": "538f4615-3992-41e5-8276-03533121f24e",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 9,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "没事，是我自己提起来的嘛。"
+      }
+    },
+    {
+      "id": "3f0a18cb-54aa-4295-97dc-a10e3c1b2c0c",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "开心点。搭乘星穹列车可是非常难得的体验…"
+      }
+    },
+    {
+      "id": "76fc2813-ebdc-46ec-a13d-1a56468683da",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "啊，列车长来了！"
+      }
+    },
+    {
+      "id": "22f15a37-8337-4a07-ba00-7b46ee17f1e6",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "列车已经驶出空间站安全范围，预计在十分钟后开启跃迁。"
+      }
+    },
+    {
+      "id": "388119b4-27b4-4bd5-a916-a158eac3bb7a",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 13
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "请两位乘客坐稳、扶好，小心震动！"
+      }
+    },
+    {
+      "id": "d351fed0-72f1-4058-b3ee-b33d3068b32c",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 14
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "呃…也没必要特地跑来提醒我吧，帕姆？都跃迁过这么多次了~"
+      }
+    },
+    {
+      "id": "b820a3b6-ef99-473c-8e04-0e3e4373ca0a",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 15
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "谁叫三月七乘客每次都想挑战自己，然后摔跤？"
+      }
+    },
+    {
+      "id": "e30516b0-a020-4d8f-96de-12ca33b5a1ae",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 16
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "嘿嘿，这就叫百折不挠。"
+      }
+    },
+    {
+      "id": "ae9fc73d-ca9a-47b3-81df-86af2bac1501",
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "宣誓成为无名客"
+      }
+    },
+    {
+      "id": "5b85545a-78f5-4ffc-893d-f01eb69696de",
+      "node": {
+        "type": "section",
+        "level": 2,
+        "title": "回忆"
+      }
+    },
+    {
+      "id": "e9211cb0-82a3-4c65-ba04-7d94c8a62d00",
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "哼哼，所以——姬子乘客，问出我们的问题帕！"
+      }
+    },
+    {
+      "id": "34134138-54f1-41b7-8b48-81981a4b93f5",
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "我倒觉得，这些问题由列车长来问更合适哦。"
+      }
+    },
+    {
+      "id": "67316c1a-9638-47f6-ad87-77a84b693e05",
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "…咳咳…乘客，你是否愿意加入星穹列车，成为一名「无名客」？"
+      }
+    },
+    {
+      "id": "afadfefa-cc4b-4014-9d12-7be6ba5b39e3",
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "不必着急给出答案。"
+      }
+    },
+    {
+      "id": "d6f37bb6-cdb7-4d19-a521-3ab5d5c1241b",
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "成为无名客，意味着你不再留恋过去，而是选择开拓未来。"
+      }
+    },
+    {
+      "id": "1b304815-5807-4370-9c05-70d435d25cf1",
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "比起关照自身，你更爱探索世界。"
+      }
+    },
+    {
+      "id": "c7105ae1-d3f2-4789-89f4-fa2cd6472f7c",
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "要暂别熟悉的生活，前往未知的世界展开冒险。"
+      }
+    },
+    {
+      "id": "0efc881c-cc10-4246-b9af-a7592d75b58b",
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "不再渴念脚下的大地，而是将远方的群星当做自己的故乡。"
+      }
+    },
+    {
+      "id": "99f74e4b-8554-4dc8-9fc5-c55085196ef1",
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "以及最重要的——成为无名客，意味着往后你承担的职责远大于收获。"
+      }
+    },
+    {
+      "id": "e28e6b2c-ef1f-4236-a1c2-3f036cb1a0b2",
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "即使如此，你也要成为无名客吗？"
+      }
+    },
+    {
+      "id": "9ec7fd5c-2c72-4052-a0ca-be31cd66314e",
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "我愿意。"
+      }
+    },
+    {
+      "id": "87136f08-725d-4813-aa19-5fca2afb0a48",
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "既然乘客已经做出决定了，那就请各位围成一圈，与我一起背诵开拓者的信条。"
+      }
+    },
+    {
+      "id": "ad292fb7-3cdf-4090-ba9e-430cdc1833e1",
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "一，即使命途兴衰消长，开拓者应自有主张。二，即使面对惊涛骇浪，列车组应一致同向。"
+      }
+    },
+    {
+      "id": "ec4614fd-406d-4d43-a652-3f1773ba1173",
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "三，即使身处进退存亡，仍应与不义相抗。四，即使遭到世人遗忘，仍不计事后短长。"
+      }
+    },
+    {
+      "id": "43645623-63b4-4cd1-a415-a0faa1085677",
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "五，即使银河暮色苍茫，仍应将长夜照亮。六，即使局面纷乱无章，仍应看向前方、碾碎乱象。"
+      }
+    },
+    {
+      "id": "16278303-fc16-4557-ad6c-56b211a10c05",
+      "node": {
+        "type": "dialogue",
+        "speaker": "列车组",
+        "text": "愿此行，终抵群星。"
+      }
+    },
+    {
+      "id": "39305345-57b4-4589-94b3-98af4b0d5665",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 17
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "坐到沙发上，等待跃迁开始"
+      }
+    },
+    {
+      "id": "f694aec8-37c0-4514-a9c3-34f7bcb851c3",
+      "source": {
+        "mission": "星间流浪",
+        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/星间流浪.json",
+        "contentIndex": 28,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "dialogue",
+            "speaker": "帕姆",
+            "text": "喂——喂喂——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "帕姆",
+            "text": "请大家回座位坐好"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "三月七",
+            "text": "我不会摔倒——我不会摔倒——我不会摔倒——我不会摔倒——"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "帕姆",
+            "text": "跃迁即将开始"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "帕姆",
+            "text": "请大家做好准备！"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "帕姆",
+            "text": "5"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "帕姆",
+            "text": "4"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "帕姆",
+            "text": "3"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "帕姆",
+            "text": "2"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "帕姆",
+            "text": "1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b03fed51-1e68-4956-962f-dad42ab13568",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "列车完成跃迁后…"
+      }
+    },
+    {
+      "id": "f06cb72c-6460-4365-b1ca-d91e078923f4",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 1
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "几千年过去，雅利洛-Ⅵ已经变成这样了吗……"
+      }
+    },
+    {
+      "id": "6121438e-5dce-410f-975a-0d55bae561ae",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 2
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "欸？那颗白茫茫的星球，就是咱们这次的目标嘛？"
+      }
+    },
+    {
+      "id": "9685ffbf-74dc-4f7e-b3b5-4c88f08d8626",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 3
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "没错…想必这次的「开拓」之旅也不会轻松呢。"
+      }
+    },
+    {
+      "id": "76e99374-39a8-4e85-9583-5848ccef57a3",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 4
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "空间读数异常！星轨稳定率下降至12%！"
+      }
+    },
+    {
+      "id": "700b50b5-a057-4a63-a953-f60b5f4a86f7",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 5
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "停靠计划变动，本站停靠时间由7天延长为无限期！"
+      }
+    },
+    {
+      "id": "535cc246-ac3d-4068-baee-9dce2d635c5d",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "又是这种情况…不用说，这次的星轨异常原因也是——"
+      }
+    },
+    {
+      "id": "217b2e93-a204-49e0-a76f-417a0bf7eae6",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "初步检测的结果已经出来了，异常的根源还是「星核」。"
+      }
+    },
+    {
+      "id": "bb523e79-df63-4836-907c-ee9125fa2677",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 14,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "不必担忧。被星核阻塞航线的情况，我们不是第一次遇上了。"
+      }
+    },
+    {
+      "id": "55e45ffd-a93d-468c-8524-82cd7cee725b",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 14,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "虽然围绕着「星核」的谜团众多，连黑塔都没法完全解析——但至少我们拥有将它的影响抵消的手段。"
+      }
+    },
+    {
+      "id": "479f8ee8-3b79-45d9-84e6-211e45a31e6a",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 15
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "唯一能确信的是，「星核」的坠临会带来文明和生态的剧变，还会产生裂界一类的空间扭曲现象。"
+      }
+    },
+    {
+      "id": "ccfd58a5-ecdb-481f-b2f6-e1cea42ecf6c",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 16
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "雅利洛-Ⅵ之所以会变成这样一颗冰封的星球…和「星核」的影响脱不开关系。"
+      }
+    },
+    {
+      "id": "2952f54c-14de-4064-bcdb-e5565c062bb5",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 17
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "根据我们的猜想，「星核」是某位星神播撒至各个世界的祸种。如果不拔除灾厄的源头，「开拓」也就无从谈起。"
+      }
+    },
+    {
+      "id": "c9d7955c-499e-4b46-8506-79ef5d945f13",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 18,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "姬子这话的意思是…"
+      }
+    },
+    {
+      "id": "57b36b09-ff9b-4558-91da-2ee3bc5ae055",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 18,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "意思就是…列车组有活要干啦！"
+      }
+    },
+    {
+      "id": "3a2c7c6a-2d99-46d8-a712-b1b1a76612df",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 19
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "这次的「开拓之旅」，我希望交给你、三月七和丹恒。"
+      }
+    },
+    {
+      "id": "eb7332a9-2388-497f-9035-cabb487e019d",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 20
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "旅程的目的也很明确：找到给这个世界带来灾厄、并造成了空间扭曲的「星核」，把它带回列车——后面的事就都交给我们吧。"
+      }
+    },
+    {
+      "id": "5f29683c-291a-40cc-b753-ccdaaaaf0f25",
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "45782f51-4b7b-4c69-b104-8472fd647459",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 41,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "猜到了。你没来之前，三月要去哪里，姬子都会让我和瓦尔特先生跟着。"
+      }
+    },
+    {
+      "id": "9f116198-e4f4-4a00-b8af-7b88911077d2",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 41,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "现在你来了，解放的大概也不会是我。"
+      }
+    },
+    {
+      "id": "184e3a83-0002-47b4-a7cb-23b3bbe7a81f",
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "8bc27766-9231-4381-88fa-a9bd8eee2a26",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "一看到这颗星球，咱就在想——这个世界里都是冰耶，会不会和我的过去有什么关系？这个想法一产生就止不住了。"
+      }
+    },
+    {
+      "id": "8467360f-f8b6-47c8-90eb-77e5601d2a59",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 52
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "不过，当时困住我的是一种叫「六相冰」的稀有物质…一般的星球上恐怕很难找到吧？"
+      }
+    },
+    {
+      "id": "4f6c7052-f550-4ceb-ab17-cefc4ac0d04f",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 55
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "三月七看向走来的丹恒…"
+      }
+    },
+    {
+      "id": "e21fd418-a1cc-4628-b6a1-7a73674e9436",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…怎么了？我脸上有东西吗？"
+      }
+    },
+    {
+      "id": "ad93a991-0ae9-4451-90a7-9df53f20c321",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "没！我只是在想象，这次咱们仨会遇到什么有趣的事…嘿嘿！"
+      }
+    },
+    {
+      "id": "b7b04914-0149-4eb0-8979-29015956b952",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 58
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…这个世界还真是多灾多难。先是遇到星核，现在又被你惦记上……"
+      }
+    },
+    {
+      "id": "fc6313ea-273e-47fb-b363-9d5d113a0b6f",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 60
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "雅利洛-Ⅵ「开拓」小分队，现在出发咯！"
+      }
+    },
+    {
+      "id": "81bffd05-fcf5-429b-9f3b-3943e4b58b73",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 61
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "16a5c580-3343-4a22-9f74-2f34a6591b27",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们踏上了雅利洛-Ⅵ这颗星球…"
+      }
+    },
+    {
+      "id": "ef19716d-73f5-4027-b225-df1148fbb75d",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "雅利洛-Ⅵ——我们到了。"
+      }
+    },
+    {
+      "id": "e99988a9-09ce-41d0-97b1-81b2bc28ef9c",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 64
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "——还真是冰天雪地呀。"
+      }
+    },
+    {
+      "id": "9a16303d-c02c-4719-8661-5a8f8b3686b8",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 65,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "感觉也不是很冷啊。"
+      }
+    },
+    {
+      "id": "0bf71a0f-6a6f-47cc-af68-fe1ba70490b6",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 65,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "因为我们有来自「开拓」命途的微弱力量，能够适应严苛的环境。"
+      }
+    },
+    {
+      "id": "be73c24d-d891-4507-9020-3707548e1cab",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 66
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "哎，这白茫茫的一片，咱们该往哪走？"
+      }
+    },
+    {
+      "id": "88e1718d-8b1b-4236-8247-893ed5a8730b",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "根据坐标定位，目标就在前方不远处。"
+      }
+    },
+    {
+      "id": "7cb2a043-1bbc-4e85-af5b-4bc347c87e50",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 68
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "那还等什么，这就出发吧~"
+      }
+    },
+    {
+      "id": "350cafcf-8a90-4337-bd15-8380bf27f00d",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 69,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "为什么不直接降落在目的地？"
+      }
+    },
+    {
+      "id": "3496c520-08ae-4b25-9a6b-d5c67e707f51",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 69,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…把泰科铵大球馆砸出个洞的事，你自己说还是我来？"
+      }
+    },
+    {
+      "id": "b7d5184a-d2f7-4b22-a82c-2c2f1c27c99c",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 69,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "呃，这事就别提了吧，反正着陆在没什么生物的地方就对了。"
+      }
+    },
+    {
+      "id": "a9b3bf5a-79a6-4153-8555-763ca6c49d87",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 69,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "除非你想体验义务劳动半个月的开拓之道。"
+      }
+    },
+    {
+      "id": "74768f6f-22a3-44aa-b318-4246b9030ae5",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 69,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "都说别提了嘛！"
+      }
+    },
+    {
+      "id": "3a40a370-f6b0-4fa7-a651-e1e51bc3789c",
+      "source": {
+        "mission": "激「冻」人心的大冒险",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/激「冻」人心的大冒险.json",
+        "contentIndex": 70
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "记住，迈出的每一步都务必谨慎，我们对于这个世界还所知甚少。"
+      }
+    },
+    {
+      "id": "42d26ed4-ca96-469a-ae62-2b713274f5d6",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "在雪原中寻找文明的迹象"
+      }
+    },
+    {
+      "id": "b838cfd6-def9-4807-a50f-7ad66e44bc91",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 2
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "这里还没有被侵蚀，但裂界滋生的怪物已经跑出来了。"
+      }
+    },
+    {
+      "id": "d7e858e7-5e7c-4378-af0a-bccf5b65db24",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 3
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "这世界里「星核」的影响恐怕非同寻常。"
+      }
+    },
+    {
+      "id": "b162bb26-71b1-43b4-b63e-01f6b749ed83",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 5
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "三月七似乎看见了什么…"
+      }
+    },
+    {
+      "id": "b2fa15c8-75eb-4e47-97ea-cd8ce0f1d4a4",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 6
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "哎，你们看见了吗？好像有什么东西在动……"
+      }
+    },
+    {
+      "id": "2178da7d-9f43-40e5-b72c-90995b810601",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 7
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…只是个寻常的雪堆，确定不是你的幻觉吗？"
+      }
+    },
+    {
+      "id": "5b6f9168-0c7c-42ba-9e5e-ea8114ead716",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 8
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "绝对不是，咱视力可好了！走，咱们靠近点儿看看。"
+      }
+    },
+    {
+      "id": "e6e93817-c740-416e-b7bb-7a877a5395ae",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "调查雪堆"
+      }
+    },
+    {
+      "id": "40f57809-ee63-46c1-8170-26f1ddb2114c",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "…喂，别躲啦，你冻得都打颤了。"
+      }
+    },
+    {
+      "id": "7a8d34e7-1c01-4265-b719-ea10f6b1f117",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你忍着不出声也没用啊……"
+      }
+    },
+    {
+      "id": "a51bb403-8760-4c77-a80f-01bf9fcd0970",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "让一下，三月。"
+      }
+    },
+    {
+      "id": "b337a810-d97c-46fd-945a-dff077b24bf9",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 13
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "对付掩耳盗铃的人，最好的办法——"
+      }
+    },
+    {
+      "id": "afca7670-7ec6-4506-ab13-4fe93d45a89a",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 14
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "——就是把铃铛砸在他头上。"
+      }
+    },
+    {
+      "id": "ce0534d2-dc4f-4098-8a59-5f8ea4420336",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 15
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "躲在雪里的男人",
+        "text": "哎哟！"
+      }
+    },
+    {
+      "id": "ef44a257-31ff-405f-8741-9892b9d0acbe",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 16
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "躲在雪里的男人",
+        "text": "我说哥们儿，不至于吧？钻雪里没啥大过错，不用拿枪尖子捅我吧？"
+      }
+    },
+    {
+      "id": "2d9bc447-f89e-45a5-ae71-303ad11feb99",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 17
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "躲在雪里的男人",
+        "text": "呃，但是，这怪不得各位英雄！哈哈，是我出现得太突兀了，挨这一戳值得，应当，必须！要不怎么能认识各位好朋友呢？哈哈……"
+      }
+    },
+    {
+      "id": "49cafbb6-e83e-4664-98e9-0a5bf4e4ca89",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 18
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "躲在雪里的男人",
+        "text": "…请问杰帕德长官来了嘛？我跟他挺熟的……"
+      }
+    },
+    {
+      "id": "5a232626-cef8-4d52-9e9f-faefe29d596d",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 19
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "谁？"
+      }
+    },
+    {
+      "id": "90345d83-98bb-415a-9fcc-fa4535667bfc",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 20
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "躲在雪里的男人",
+        "text": "噢，你们不是银鬃铁卫？早说呀，自家人打自家人，这不是多此一举嘛！"
+      }
+    },
+    {
+      "id": "dc303b14-a16e-4d6e-a356-7ff8c7fc3a10",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 21
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "躲在雪里的男人",
+        "text": "桑博·科斯基，幸会。"
+      }
+    },
+    {
+      "id": "d72263d2-cf06-4045-b00d-0f36d228a333",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "说实话，没想到在这冰天雪地里能遇见同行。最近买卖不好干，不过你们放心，我桑博从不吃独食，外边这宝藏大得很，有财大家一起赚嘛，哈哈哈。"
+      }
+    },
+    {
+      "id": "378c51e1-5dbc-424f-b414-af7d364c135e",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 24
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "要不一起搭个伙呗？我有可靠消息：银鬃铁卫的主力都被调去前线了，这可是千载难逢的好机会……"
+      }
+    },
+    {
+      "id": "20a99e2e-3646-4159-b9d6-11027b390087",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 25,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "银鬃铁卫？"
+      }
+    },
+    {
+      "id": "385175e5-2b50-4dc4-bac8-c6176bf501fe",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 26
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "…这就有点过了各位，不信任我没关系，但也不用装傻到这个地步嘛。"
+      }
+    },
+    {
+      "id": "d7c90750-1037-406a-be82-131c6d4a43fd",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "得，规矩我懂，大家都是干这行的，有点戒心，能理解！怪我桑博天性热情，太真诚……"
+      }
+    },
+    {
+      "id": "3cd4cfb9-2ccd-41ee-bcc1-c1f3bf944348",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 28
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "相逢一场总归是缘分，各位有什么想了解的尽管问我，知无不言言无不尽！不过长话短说，银鬃铁卫随时可能出现……"
+      }
+    },
+    {
+      "id": "44ade805-1f7f-4963-9442-8b84132dae5a",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 29,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "我真的不知道银鬃铁卫是什么…"
+      }
+    },
+    {
+      "id": "b2022903-dd10-461b-a38d-7945cf3d99ae",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 29,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "…你们是真不知道啊？银鬃铁卫就是贝洛伯格的军队，执法者，警察…那帮家伙完全不懂变通，就喜欢和干咱们这行的人打交道。"
+      }
+    },
+    {
+      "id": "77f019e2-c511-4ed1-a37b-40c07b891843",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 29,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "三人小队面面相觑…"
+      }
+    },
+    {
+      "id": "ea8a9d9f-37f8-4a41-848a-af092da6d2ed",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 29,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "唉，诸位真的是新手啊…嫩成这样，我都有点看不下去了。这样吧，怎么说我也算是你们前辈，就免费给点指导好了。"
+      }
+    },
+    {
+      "id": "83da57bd-dc19-46d1-9aac-bdf0421fe11e",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 29,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "干这行的有很多规矩，得好好教教你们：怎么潜行，怎么找货，怎么估价，怎么躲铁卫，那都是技术活……"
+      }
+    },
+    {
+      "id": "c3186189-4254-400a-ae9d-ea68c0517a33",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 29,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "那倒不必了，你带我们进城吧？我们对路也不大熟。"
+      }
+    },
+    {
+      "id": "2820a0c4-ef47-4466-8e67-15209fd95527",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 29,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "进城？这就回去了？今天还没开张呢妹妹，带个路是小意思，但——"
+      }
+    },
+    {
+      "id": "11756811-d8cc-4fe7-870f-f528d018478c",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 29,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "丹恒瞪了桑博一眼…"
+      }
+    },
+    {
+      "id": "258c3697-9a5a-4a87-b9cf-aa83919602c2",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 29,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "——但我就是乐于助人。哈哈，心地善良就是我桑博的代名词！跟我来，朋友，轻点声，可别被铁卫发现了。"
+      }
+    },
+    {
+      "id": "e64c4da4-6598-4633-ae4f-152a8c7d23f3",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "跟随桑博的指引，向贝洛伯格前进"
+      }
+    },
+    {
+      "id": "3be7bf9b-4dcb-42a2-b6ed-9da13ee4ec2c",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 35
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "——第七条法则就是：不能留下脚印。我有条独门绝技，可以说踏雪无痕，专门用来摆脱追兵……"
+      }
+    },
+    {
+      "id": "6972965c-fcf2-402d-9770-473aad1a6b14",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…这是？"
+      }
+    },
+    {
+      "id": "ef42e367-6964-41ba-9384-e284b4b777e9",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "呃，还记得我说的银鬃铁卫吗？就是他们了……"
+      }
+    },
+    {
+      "id": "1a04e02b-fe8c-4337-8c11-61a4aa8022d6",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 38
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "帮个忙，哥们！我不想被抓啊！"
+      }
+    },
+    {
+      "id": "1963bd88-fc21-4a91-b446-5bad7a7e87ac",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 39
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "士兵",
+        "text": "发现嫌疑人和他的同伙，立即逮捕！"
+      }
+    },
+    {
+      "id": "70d47785-2da2-4b95-9f04-707325bb416e",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 40
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "此时不跑，更待何时！"
+      }
+    },
+    {
+      "id": "6014c0e2-9785-41b7-8296-466237e0f88d",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 41
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "桑博",
+        "text": "交给你们啦，朋友！"
+      }
+    },
+    {
+      "id": "380c7fcf-225d-4db7-bb6d-e2dc62e386cc",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "喂！你这家伙——"
+      }
+    },
+    {
+      "id": "89a627d1-3825-4094-804a-8afa97e59714",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 43
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "击败第一波银鬃铁卫，一个长官打扮的人出现…"
+      }
+    },
+    {
+      "id": "55021b87-2c5d-4e15-950c-2bcdfb70c1a8",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 44
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "我，杰帕德·朗道，银鬃铁卫戍卫官，命令尔等放弃无谓的抵抗。"
+      }
+    },
+    {
+      "id": "5451dbce-a8d4-48db-bd15-3dd839450360",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 49
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "…蓝头发的主犯呢？"
+      }
+    },
+    {
+      "id": "d8dfb7bd-6c50-406b-9795-43bc7e032d67",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "士兵",
+        "text": "抱歉，长官！跟丢了，我们找不到他的足迹……"
+      }
+    },
+    {
+      "id": "40283082-b327-41f0-9eb3-b41a6ecdf495",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "不要紧，他的同伙在我们手里，主犯不会离得太远，一定会有所行动。"
+      }
+    },
+    {
+      "id": "9d75b38a-11ea-4b0f-ab75-c07a0be09121",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 52,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "我们不是他的同伙。"
+      }
+    },
+    {
+      "id": "8abc6445-4292-47c1-aec6-a8835736f0f0",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 52,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "呸，他也配！"
+      }
+    },
+    {
+      "id": "78156b99-449e-4bb2-a263-80c29c9ee339",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 53
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "我可不是狡辩，我们跟那个坏蛋真不是一伙的。你看他丢下我们时哪有半点犹豫啊。"
+      }
+    },
+    {
+      "id": "25bcbcb2-057c-4506-9c78-c86a6b36b2f2",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 54
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "好心把他从雪里救出来，没想到他是利用我们来对付你。你可千万别受挑拨——"
+      }
+    },
+    {
+      "id": "fd5f865f-68a2-4932-b0b3-b4d5c3c782b2",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 55
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "我是戍卫官，并非仲裁团。作为贝洛伯格的市民，你拥有辩护的权利，但那应该在筑城者的注视下进行，不是现在。"
+      }
+    },
+    {
+      "id": "a343aed4-8680-4362-917e-3cb1334b240f",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "带他们回去。"
+      }
+    },
+    {
+      "id": "0f8fe6da-9853-4954-95fe-36300834e46d",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "可我们不是贝洛伯格的市民呀！"
+      }
+    },
+    {
+      "id": "37616dd3-b7c5-44e5-b8d7-e115007c84e6",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 58,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "士兵",
+        "text": "住口！你在说什么胡话——"
+      }
+    },
+    {
+      "id": "bb9a8567-76c6-4476-8a47-2d54db919647",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 58,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "不，也不能这么草率地下判断。你看他们的穿着，那确实不是贝洛伯格的风格。"
+      }
+    },
+    {
+      "id": "5c807d5f-d0c0-4183-a6c0-4980b6db8ef3",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 58,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "对了，我还有照片！"
+      }
+    },
+    {
+      "id": "fa1d5b79-2141-4306-83f4-fecda528359f",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 58,
+        "contentPath": [
+          "options",
+          2,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "照片？"
+      }
+    },
+    {
+      "id": "0c1f9c32-1ea9-43b4-887c-eb8671bf0997",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 59
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你们还没见过自己的星球长什么样子吧？给你们看我拍的雅利洛-Ⅵ……"
+      }
+    },
+    {
+      "id": "181d054e-f130-4436-b6b7-6141add0e2a1",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 60
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "三月七向杰帕德展示了这颗冰雪星球的照片……"
+      }
+    },
+    {
+      "id": "894f79bb-1063-4300-951d-9de0ce57f196",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 61
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "士兵",
+        "text": "你说这个白球是…这里？是我们住的地方？这也太……"
+      }
+    },
+    {
+      "id": "ddc98ae6-6d0a-499f-ada0-c444a0a667bb",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "……"
+      }
+    },
+    {
+      "id": "12978bde-c8ec-4950-9fbb-21c6811bcf07",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "据说很久以前，常有{{天外异客|星际旅行者}}来到这里……但「寒潮」发生以后，就再没有人穿过雪幕，来到贝洛伯格……"
+      }
+    },
+    {
+      "id": "88c25184-a506-43da-9dec-c60fc9dcd401",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 64
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "士兵",
+        "text": "但这几个人——"
+      }
+    },
+    {
+      "id": "d1b568db-3c0b-45a4-b335-f31db12fed3d",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 65
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "这已经不是我们能裁定的事了，如果他们所言属实，那就只有「大守护者」才能决定该怎么做。"
+      }
+    },
+    {
+      "id": "ccf9cf84-b9a3-4ce7-8059-a71f56a8b298",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 66
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "我们该做的，是将他们带到大守护者的面前。"
+      }
+    },
+    {
+      "id": "f6f4d594-2847-458a-b3e0-eb19b10f11ab",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "外来者们，跟我来吧。贝洛伯格就在这片雪幕背后。"
+      }
+    },
+    {
+      "id": "faa9ff11-0287-4b68-90bd-cead9c6db896",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 68
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "杰帕德将你们带到贝洛伯格…"
+      }
+    },
+    {
+      "id": "8b1fecb3-3649-4c09-a76e-7b3c6a4dc0a1",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 69
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "欢迎来到「存护之城」——贝洛伯格。"
+      }
+    },
+    {
+      "id": "924e3d94-06ca-43a6-b3f6-c258e6c29e2a",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 70
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们进入城内…"
+      }
+    },
+    {
+      "id": "034f95e5-82ed-4732-9d50-25b7f829981c",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 71
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "好像不那么冷了耶。"
+      }
+    },
+    {
+      "id": "68caf314-f103-463b-b7cc-ab8865a812fa",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 72
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "…因为你们身处贝洛伯格，人类最后的堡垒。"
+      }
+    },
+    {
+      "id": "a1ae9726-5bc4-48ea-a9a7-44bb5f1585c0",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 73
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "最后的堡垒？"
+      }
+    },
+    {
+      "id": "ed78cf1b-cc36-472c-b535-5caf3529e2f4",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 74
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "……"
+      }
+    },
+    {
+      "id": "253fc3bf-e38d-46b8-b272-2bf2ed8aa076",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 75
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "七百年前，来自天外的{{怪物|反物质军团}}点燃了星球。彼时的大地成了焦土，到处是燃烧的熔火和沸腾的乌烟。"
+      }
+    },
+    {
+      "id": "c3c48a61-967b-48a9-805c-f7cefa5729f6",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 76
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "生死存亡之际，寒潮忽然降临——席卷的狂风毫无预兆，入侵的军团被暴雪掩埋，留存的唯有贝洛伯格——"
+      }
+    },
+    {
+      "id": "fd8297b2-c0bc-4a8d-aed2-79de9a1bd21a",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 77
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "坚定的「筑城者」们建立了这座城市。在「{{存护|星神}}」克里珀的护佑下，贝洛伯格虽受风雪侵凌，却永远温暖。"
+      }
+    },
+    {
+      "id": "75fc5898-4858-4cd7-9afc-de83069364ce",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 78
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "（…他说话好奇怪噢。）"
+      }
+    },
+    {
+      "id": "d1955020-220e-4343-9e29-2aeaaa7bf494",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 79
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "（那不是他之前的语调，他应该是在引用某段典籍。）"
+      }
+    },
+    {
+      "id": "a5016ea9-b0b2-40b4-955c-8e652fa340b7",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 80
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "（噢，那他干嘛要跟我们说这些啊？）"
+      }
+    },
+    {
+      "id": "5e0f5759-7442-48dd-a645-182db3d105b9",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 81
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "因为你问了。"
+      }
+    },
+    {
+      "id": "c2f86b82-44e7-46eb-9d98-07712de6b9f7",
+      "source": {
+        "mission": "如果在冬夜，一群旅人",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/如果在冬夜，一群旅人.json",
+        "contentIndex": 82
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "……"
+      }
+    },
+    {
+      "id": "5984e4df-1bf4-4bea-8183-88aafa2edfd2",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 0
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "跟随杰帕德·朗道前往守护者的居所"
+      }
+    },
+    {
+      "id": "f8833dbd-730c-4415-938a-8d0c0c1d5819",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 14
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "跟随杰帕德到了克里珀堡…"
+      }
+    },
+    {
+      "id": "1205a8ed-657a-49fa-ae16-d5daed3e25b1",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 15
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "到了。"
+      }
+    },
+    {
+      "id": "fbe77710-ecf5-4437-8d77-86191767da2f",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 16
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "这就是克里珀堡，贝洛伯格的心脏，筑城者的总部。"
+      }
+    },
+    {
+      "id": "6b4718ae-b857-4a08-8a88-b5f43058bbd4",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 17,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "{{克里珀|星神}}是「存护」的象征。筑城者们在祂的感召下建立起了贝洛伯格，从天灾和寒潮之中保护了文明的火种。"
+      }
+    },
+    {
+      "id": "bedb9e90-712c-475a-a34e-b8cc3253f8e7",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 17,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "为示尊崇，我们以那位星神为这座堡垒命名。受克里珀庇护的筑城者们也一直引领着这座城市前进，对抗来自外界的种种灾难。"
+      }
+    },
+    {
+      "id": "004716c7-c3b4-409d-84ff-a9f7e224bc75",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 18
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "这座堡垒也是「大守护者」的住处。"
+      }
+    },
+    {
+      "id": "49a75f8c-b87f-4adb-95bf-5e490b88e741",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 19
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "「大守护者」？"
+      }
+    },
+    {
+      "id": "0bc3dc4f-b3a6-4c64-b3d1-edfac5083ed9",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 20
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "就是由筑城者推举任命的贝洛伯格领袖，她们世代守望这座城市，为人民提供庇护。"
+      }
+    },
+    {
+      "id": "cb5003db-dcbd-4e7d-8da9-fa13500c102a",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 21
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "现任的守护者是可可利亚·兰德大人，城市内的一切重大决策都由她颁布。"
+      }
+    },
+    {
+      "id": "41c51e0d-9788-4e7f-9398-a0d699beb475",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 22
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "喔…听上去真是位大人物啊。"
+      }
+    },
+    {
+      "id": "829ccb77-60bf-42a7-93eb-6099fefb2dff",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "我这就带你们去参见可可利亚大人，各位可以预先组织一下语言。她的时间宝贵，所以偏好言简意赅的汇报。"
+      }
+    },
+    {
+      "id": "3786b294-b968-435f-9a10-36503c10b3f8",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 26
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "我派使者提前传了话，可可利亚大人应该已经知道你们的来头了。跟我走吧。"
+      }
+    },
+    {
+      "id": "716d402d-85e0-4dba-a72e-531c2f624f4f",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 27
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "e1de061d-cbdb-42e4-84a2-7eca403068ec",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 28
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "跟着杰帕德面见「大守护者」…"
+      }
+    },
+    {
+      "id": "d767d819-b914-49a5-818f-962b1b6c9f8a",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 29
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "当你们到达时似乎有人正在面见「大守护者」…"
+      }
+    },
+    {
+      "id": "4abd4c7e-963b-4394-9b7d-2ad94fc4fa8f",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 30
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "…但是，这样的牺牲毫无意义，您不可以——"
+      }
+    },
+    {
+      "id": "fc3e1754-3ef5-4e56-bd58-a611bfc3db6b",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 31
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "你可以退下了，布洛妮娅，访客到了。"
+      }
+    },
+    {
+      "id": "bfe390e9-250e-471f-abf2-f800b4d5a623",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 32
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "……"
+      }
+    },
+    {
+      "id": "364c5e0d-9c62-406e-a0e7-f5705c0d2d4b",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 33
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "是，母亲大人。"
+      }
+    },
+    {
+      "id": "ee03a098-eb2f-4dd4-b301-18267a19f55c",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 34
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "守护者大人——我带三位「{{外来者|星际旅行者}}」前来参见。"
+      }
+    },
+    {
+      "id": "fe1e6f58-afa9-44b0-a6f0-17562ce637e6",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 35
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "使者已经把情况告诉我了。做得很好，杰帕德，你也可以退下了。"
+      }
+    },
+    {
+      "id": "e60e2ee2-0621-4947-9deb-5bfd02a186ea",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 36
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "欢迎，从寒潮之外…不，从天外而来的访客，对么？"
+      }
+    },
+    {
+      "id": "34c0ad67-fbdc-45bd-8a8d-dd0fa51ae56e",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 37
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "我是可可利亚·兰德，贝洛伯格的守护者。在此聆听各位的来意。"
+      }
+    },
+    {
+      "id": "6a7977f3-342f-4e97-bf40-cb0f467c4a45",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 38,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "你相信我们来自天外？"
+      }
+    },
+    {
+      "id": "87be1cbf-627d-4e02-bf60-58e659f31d78",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 39
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "难道你很希望我怀疑吗？对自己声称的身份，就这么没有自信？不，我不怀疑。我看得出你们并非这个世界的人。"
+      }
+    },
+    {
+      "id": "32f10494-7574-4fd4-9275-eaaadcef578b",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 40
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "「筑城者」牢记历史，方能坚定己心；我知道在遥远的过去，在寒潮降临，在「军团」入侵之前，这个世界曾经无比繁荣……"
+      }
+    },
+    {
+      "id": "045868ac-cca7-4f74-871c-d1fa5aa877ca",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 41
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "星神将我们的星球与其它世界相连，我们得知了浩瀚银河中的无数可能，也听说了「琥珀王」克里珀——在祂的注视下，我们开始筑建城墙。"
+      }
+    },
+    {
+      "id": "ffe52ddd-bdf5-4f34-a253-7b6abba29270",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 42
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "…所以，不用惊讶。尽管七百年来「筑城者」再未得到过来自星空的消息，但我知道你们的存在。说出来意吧，我听着。"
+      }
+    },
+    {
+      "id": "ce2624f6-83bd-41a6-82b2-ac34d833e93d",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 44
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我们来此，是为了一颗叫做「星核」的东西。"
+      }
+    },
+    {
+      "id": "0a8d8c8b-74e7-4c08-b13b-b8d576952661",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 45
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "星核？"
+      }
+    },
+    {
+      "id": "dc21657d-09ee-4597-bd79-bf16ee325b05",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 46
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "那是一种突然降落在各个世界的物质，它的出现就意味着灾祸。我们途经的许多星球都遭受了星核的毒害。"
+      }
+    },
+    {
+      "id": "0b458476-e6b9-40f4-a197-9d59ac12f34d",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 47
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "您刚刚提到了「反物质军团」入侵；它们到来后不久，这颗星球就出现了「寒潮」；而寒潮诞生时，被称为「裂界」的空间侵蚀现象就发生了，是吗？"
+      }
+    },
+    {
+      "id": "ab80dcd4-1580-4790-92f6-936126ee84fe",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 48
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "…没错。"
+      }
+    },
+    {
+      "id": "674d5321-da98-4b2a-84df-99a89e670cd1",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 49,
+        "contentPath": [
+          "options",
+          1,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "星核在每个星球上制造的灾祸都不一样，但每个被种下星核的世界都会诞生裂界。"
+      }
+    },
+    {
+      "id": "628a5f73-c141-46ef-b205-76a02f254ced",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 50
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你可以把我们当作进行星际旅行的热心肠人士，专门向被星核困扰的世界伸出援手！"
+      }
+    },
+    {
+      "id": "b6fc02c3-74dd-4301-9d9a-78547f652300",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 51
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "……"
+      }
+    },
+    {
+      "id": "d856027d-9fbb-4ab7-8f93-803197dfb7fa",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 52
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "你们把当前的情况分析得很清楚。没错，我们的确遭遇了这些灾祸，有些至今仍是我们的麻烦…但那与各位有什么干系？"
+      }
+    },
+    {
+      "id": "f7500804-bb4d-4c35-8afe-a79d2527e7ca",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 53
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "即使真的有这么一颗「星核」…它引来了灾厄，我也看不出这与各位的关联。我不相信有人会大费周折帮助一个与自己不相干的世界，还毫无所图。"
+      }
+    },
+    {
+      "id": "ed623c17-04c3-4280-b4bb-c7594c211ea0",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 54
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "你说的没错，我们之所以会来寻求合作，归根结底是因为大家的利益一致——如果不封印「星核」，我们也无法离开这个星球。"
+      }
+    },
+    {
+      "id": "3106642a-9b3e-4ce5-a7cf-93d7136eceb3",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 56
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "你们…有办法封印那个叫「星核」的东西？"
+      }
+    },
+    {
+      "id": "b6586532-5210-4ba4-b9f1-e6e61bd13fff",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 57
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "我们有相应的手段。"
+      }
+    },
+    {
+      "id": "3a83a2f2-18c9-46e7-a9ea-602c9cc0319e",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 58
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "好，我相信你们。如果现状真的和这所谓星核有关，各位的到来将是贝洛伯格等待了七百年的希望。我愿意提供一切可能的援助，帮各位找到星核。"
+      }
+    },
+    {
+      "id": "99b8fd28-76c6-4d93-b0c7-24f946234ac0",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 59
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "时候不早了，各位也累了吧。我安排你们入住城中最舒适的旅店休息，好好睡上一觉。明天中午我会派人邀请各位，我们好好地商议这件要事。"
+      }
+    },
+    {
+      "id": "3e2e718d-0a0c-4670-8cf4-687c4f912e91",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 60,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "谢谢您，「大守护者」。"
+      }
+    },
+    {
+      "id": "cccefd4e-d814-4818-8f0c-bbe7e19c5169",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 60,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "可可利亚",
+        "text": "应是我谢谢你们，来自天外的客人。"
+      }
+    },
+    {
+      "id": "32c1f57e-7468-422b-ae83-81d39c357526",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 67
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "bec935af-731f-4840-9ede-22a0dc6a725f",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 68
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们离开办公室后来到广场上，见到了杰帕德…"
+      }
+    },
+    {
+      "id": "a7373625-4fba-45e4-81f9-ca4609ec26f0",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 69
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "「大守护者」似乎对你们青睐有加。我得到命令，不必再限制你们的行动。"
+      }
+    },
+    {
+      "id": "10f1d8a5-2a2d-4e8f-96b6-409a9f82b7f2",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 70,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "她还挺通情达理的。"
+      }
+    },
+    {
+      "id": "621c5862-fc8a-4bdc-bf3d-5da5acf69539",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 70,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "说实话，我都没想到会这么顺利。"
+      }
+    },
+    {
+      "id": "05d53f6b-cb01-4210-aef4-f8e77e54891a",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 71
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "哈哈，我还有公务在身，马上就要返回驻区。希望你们在贝洛伯格愉快。"
+      }
+    },
+    {
+      "id": "e0c534ca-3170-4eb8-9123-e5875c10360a",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 72
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "等一下，能推荐些景点给我们吗？时间还早，咱还想在这儿多逛逛。"
+      }
+    },
+    {
+      "id": "550743d7-18e7-4792-993a-18bc30f7f760",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 73
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "要说值得一瞧的地方，应是黄金歌剧院和历史博物馆。不过博物馆是需要凭证件进入的……"
+      }
+    },
+    {
+      "id": "71d2eb87-fb19-4289-9005-3a6c08f4f3ad",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 74
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "我建议你们先去参观永冬铭碑，它是贝洛伯格最具象征意义的地标。"
+      }
+    },
+    {
+      "id": "3a22c5c1-f802-49c1-8504-cd986809ef79",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 75
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "要是你们对音乐感兴趣，可以去「永动」机械屋，那里偶尔会有露天演出。演出者…唔，你们自己看吧。"
+      }
+    },
+    {
+      "id": "b00a665b-369f-4e41-a3ed-4a8dcfc3bfdf",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 76
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "还有，要入住歌德宾馆的话，请务必记得绕开它旁边那条铁卫驻扎的巷子。那里近期受到了裂界侵蚀的影响，已经被封锁了。"
+      }
+    },
+    {
+      "id": "1ce995b1-47b3-4b2e-b9d0-2706280cdbdd",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 77
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "侵蚀已经接近城市内部了吗…情况很严峻啊。"
+      }
+    },
+    {
+      "id": "9c7c20d5-bbd7-40b7-b849-8e62316fc1a4",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 78
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "杰帕德",
+        "text": "嗯，我们正在与之对抗…告辞了，祝你们一切顺利。"
+      }
+    },
+    {
+      "id": "b0ba0871-05b3-4155-af6b-94b792bcca8a",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 79
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "拜访「永动」机械屋"
+      }
+    },
+    {
+      "id": "bb6114b1-c378-4bc1-b47c-b84103199aad",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 81
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "「永动」机械屋到啦——哎，杰帕德不是说这里有演出吗？"
+      }
+    },
+    {
+      "id": "a5b54dde-c565-4cdd-80d5-9c50cad82ecf",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 82
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "他的原话是「偶尔会有演出」，你把最关键的两个字给屏蔽了。"
+      }
+    },
+    {
+      "id": "2fdb88d7-a7f6-4ad8-98ef-0d0706d34fdc",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 83
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "可恶，我好感兴趣啊……"
+      }
+    },
+    {
+      "id": "1d994b5e-3fe8-4dcf-8fd1-0f5d8df0960b",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 84
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "对了，你们看那边，刚才我就想吐槽了——这个城市好怪哦，为什么要把加热器堆在屋子外面呀？"
+      }
+    },
+    {
+      "id": "17f6f013-1941-4a63-919d-4babb4801e20",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 85
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "正常来说，供暖用的设备不是都该装在室内才对嘛？"
+      }
+    },
+    {
+      "id": "d90ad5e6-164a-4f3e-b195-7cd341285d55",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 87
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "星核带来的灾害，小小的加热器怕是无能为力。"
+      }
+    },
+    {
+      "id": "021a02f7-368d-4a3e-b340-42a1d84a2b18",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "打扮显眼的女人",
+        "text": "哈，你们对着坏掉的加热器，还能聊这么久呢？"
+      }
+    },
+    {
+      "id": "49a21ff6-87f1-4176-897b-7797b79b77a1",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 89
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "哇噢，好帅气的姐姐！"
+      }
+    },
+    {
+      "id": "39bde1da-12fb-43e4-8433-799063038e09",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 90,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "打扮显眼的女人",
+        "text": "你好啊。我叫希露瓦，是这家机械屋的主人。"
+      }
+    },
+    {
+      "id": "f6a29bf4-9aad-42f0-86f7-e9a76ff7334a",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 92
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "我只是有点好奇这个加热器……"
+      }
+    },
+    {
+      "id": "81d5ebd4-605c-4a70-9182-cc11bb0c64c1",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 93
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "加热器…好奇？这不就是个普通的地髓供暖器吗，行政区里到处都是。"
+      }
+    },
+    {
+      "id": "dae0eedd-e507-49d9-ba39-8e001c41a096",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 95
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "啊，我知道了！听一个嘴巴不严实的铁卫说，有几位「外来者」跟可可利亚见了一面——就是你们吧？"
+      }
+    },
+    {
+      "id": "9281f268-08e4-4138-80ef-9368301ab21d",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "这可真是稀客！来来来，加热器也好什么也好，姐姐都跟你们好好聊聊~"
+      }
+    },
+    {
+      "id": "4e48327b-8368-47d3-a45f-05a2030ae42f",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 99
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "你们在外面看见的，是贝洛伯格最常见的地髓供暖器，别看外观不起眼，它可是人们的生命保障。"
+      }
+    },
+    {
+      "id": "fbb4b9c8-b3d7-47a8-bc99-983283a7847d",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 100
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "外面的风雪这么厉害，要是没有靠谱的供暖手段，贝洛伯格上下早就变成一座死城了。"
+      }
+    },
+    {
+      "id": "976d613f-5f65-49f9-9615-463da786af65",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 101,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "贝洛伯格「上下」？"
+      }
+    },
+    {
+      "id": "3b39bb62-0102-4c85-9a17-12e864f93aa5",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 101,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "你们不知道吗？贝洛伯格这座城市的结构，就像连接在一起的两个大圆盘，上层区负责行政跟贸易，下层区负责能源供给和资源开采。"
+      }
+    },
+    {
+      "id": "409543f5-974a-48e1-89e4-6d195c513f97",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 101,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "不过，因为多年前的一条命令，上下层区已经很多年没有人员往来了……"
+      }
+    },
+    {
+      "id": "17be0d01-ab3b-4a50-8bc0-3d6f8f46b0c7",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 101,
+        "contentPath": [
+          "options",
+          1
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "…嗐，说这些干嘛？全当我在自言自语吧。"
+      }
+    },
+    {
+      "id": "43257b18-575d-4317-93ee-3c1346faa650",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 101,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "谢谢你的回答。"
+      }
+    },
+    {
+      "id": "9fd03473-e721-44f5-98f3-139311b7a4cf",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 101,
+        "contentPath": [
+          "options",
+          3
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "希露瓦",
+        "text": "小事小事，你们第一次来贝洛伯格作客，能让你们感受到这座城市的热情就好。"
+      }
+    },
+    {
+      "id": "00ce2e8d-26f4-44c4-b7f2-5949dce0d21e",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 135
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "回到歌德宾馆休息"
+      }
+    },
+    {
+      "id": "c8d49c82-0b93-4b3f-9639-5881a2fc13dc",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 141
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们进入歌德宾馆…"
+      }
+    },
+    {
+      "id": "9d3b776a-434d-48b2-aff8-5708094e216d",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 142
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "哇噢！好明亮的大堂！今晚有软和的床垫和弹弹的枕头啦！"
+      }
+    },
+    {
+      "id": "923696ab-11c0-4678-80a9-96531b1858f9",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 143
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "晚上要不要打枕头大战？要不要要不要？我觉得这酒店的枕头一定是鹅毛绒的~"
+      }
+    },
+    {
+      "id": "66e97284-0913-4cc0-b952-a8ae7d7787fa",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 144
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "三月，当时在克里珀堡——"
+      }
+    },
+    {
+      "id": "195c7148-7f8e-46db-b27b-4a435bf5ff62",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 145
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "停！我知道你要说啥：「三月啊，你当时的话太多了」「三月啊，你不该跟不信任的人透露我们的目的」…我知道啦，谁叫你们两个绕着圈打机锋，不好好说话。"
+      }
+    },
+    {
+      "id": "7d0f4080-8d8f-47e3-b187-1961be543934",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 146
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "但是你看呀，现在结果不是很好嘛？我们得到了贵宾待遇，超~豪华的酒店，还有当地势力的全力支持！看来这次的开拓任务也很顺利！"
+      }
+    },
+    {
+      "id": "87b0174e-ee05-40a4-8c70-1d26d42fdfd4",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 147
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…不，我想说的其实不是这个。"
+      }
+    },
+    {
+      "id": "fd9235bf-ccf0-41b6-8e47-48acbf5056f2",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 148
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "好吧好吧，那你说。"
+      }
+    },
+    {
+      "id": "0b4267b7-3080-4c41-9d9e-bac82cbac86f",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 149
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "当时在克里珀堡——你注意过那位「{{大守护者|可可利亚}}」吗？"
+      }
+    },
+    {
+      "id": "9f8455a9-9797-4e0c-be57-59838bc83be4",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 150
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "那当然啦，跟你们冒险这么久，我的观察力被打磨得，嘿，那可不是一般的凌厉~"
+      }
+    },
+    {
+      "id": "2ec7276f-9193-43d2-a6a5-3c5183818265",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 151,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "只有我什么都没发现吗…"
+      }
+    },
+    {
+      "id": "704ab5e5-2246-4cfd-82aa-5a4aad735606",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 151,
+        "contentPath": [
+          "options",
+          2
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你不是一个人，我也没发现什么异样。她一开始有点难说话，讲完道理后还挺温柔的。"
+      }
+    },
+    {
+      "id": "b2cc82a4-985e-4699-85a0-18a8e6b55090",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 152
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "只是…觉得她的眼神有种穿透力——就是，虽然她在和我们说话，但眼睛却好像在盯着远处的某样东西……"
+      }
+    },
+    {
+      "id": "fc605bc5-5415-4e88-84d0-bec0fe0eaf46",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 153
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "嗯，我也有类似的感觉。就像那个房间里不只有我们几个一样。"
+      }
+    },
+    {
+      "id": "e706925c-3b95-4660-b0da-6c64472f6b59",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 154
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "嗐，被你这么一说，感觉有点吓人……"
+      }
+    },
+    {
+      "id": "cb25cd3f-abe9-4758-ac90-cfdbfc71a9d8",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 156
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "可能是我太敏感了…她承诺要帮助我们，希望她不会食言……"
+      }
+    },
+    {
+      "id": "02e2832d-3aa4-4361-a308-45810e08ec20",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 157
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "早点休息吧，为明天的谈判养足精神。"
+      }
+    },
+    {
+      "id": "209d96ad-a5cc-42a4-ac3f-fd420993b1c0",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 158
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "在歌德宾馆休息"
+      }
+    },
+    {
+      "id": "2036a980-c2d9-43ad-bc36-40df9553a501",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 165
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你上床休息后，似乎梦到了什么…"
+      }
+    },
+    {
+      "id": "e33dc7a0-c26b-4a1f-9b31-75e2382ded76",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 166
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星核之声",
+        "text": "可可利亚…可可利亚……"
+      }
+    },
+    {
+      "id": "ec5e9cfd-c33f-4205-be4b-ff53b6767e41",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 167
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "少女可可利亚",
+        "text": "你…是谁？不对——你是什么？"
+      }
+    },
+    {
+      "id": "15d83c97-75c8-4094-9433-e1d5c380d136",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 168
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星核之声",
+        "text": "我们是盟友…世代陪伴守护者的盟友。"
+      }
+    },
+    {
+      "id": "c6de2268-f4aa-44f9-8043-bc06a806dc34",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 169
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "少女可可利亚",
+        "text": "你们…想要什么？"
+      }
+    },
+    {
+      "id": "e9054419-64d3-4bd6-94d3-c1328af800a8",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 170
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星核之声",
+        "text": "重筑…这个濒死的世界……"
+      }
+    },
+    {
+      "id": "38251417-1347-406e-8560-176447b42723",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 171
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星核之声",
+        "text": "帮助你…实现「愿望」。"
+      }
+    },
+    {
+      "id": "9e060f1e-7cce-44f5-9e1a-36938ef519af",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 172
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "调查宾馆外的骚动"
+      }
+    },
+    {
+      "id": "edadc016-edad-40c3-939c-efc811cf3c2c",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 174
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "敲门声将你吵醒，你来到宾馆走廊…"
+      }
+    },
+    {
+      "id": "ee13449f-fe99-4a3e-97a5-42702d79d0e5",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 175
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你听见了吗？"
+      }
+    },
+    {
+      "id": "20b93877-e8e7-437a-adf6-b4017457d48a",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 176
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "旅店门口来了一群银鬃铁卫，但似乎来者不善。"
+      }
+    },
+    {
+      "id": "2bbc473a-a1f6-4d93-9182-6f6a143b4b3f",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 181
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "你们来到歌德宾馆门外，见到了这群银鬃铁卫…"
+      }
+    },
+    {
+      "id": "71055808-f498-46cf-8546-1a4bd5da944c",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 182
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "严厉的银鬃铁卫",
+        "text": "你们！布洛妮娅统领在下面等着你们。快去见她，别想耍花招！"
+      }
+    },
+    {
+      "id": "981bcb5d-6fa6-4719-8eeb-e2d6d343a2e8",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 184
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "与宾馆外的银鬃铁卫对峙"
+      }
+    },
+    {
+      "id": "1c028adf-4269-4a53-8f66-481a26b924fa",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 187
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "咦，你是…昨天在克里珀堡的……"
+      }
+    },
+    {
+      "id": "e179c16c-b0e6-49a7-8ae7-6ec851984627",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 188
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "我是布洛妮娅·兰德，代行银鬃铁卫统领。以尊贵无上的{{琥珀王|克里珀}}之名，奉大守护者可可利亚·兰德之命，前来捉拿意图掀起叛乱的渗透者。"
+      }
+    },
+    {
+      "id": "5870a612-fefd-43e7-8b1e-5c3309bab3a5",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 189
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "在此，我以大守护者代理的身份，暂时剥夺各位行动及发言的自主权；当裁判团对你们进行审判时，你们会得到辩解的机会。"
+      }
+    },
+    {
+      "id": "7824b6f5-1177-4ed9-8157-df7f4a48760f",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 190
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "布洛妮娅",
+        "text": "放弃无谓的抵抗，跟我走吧。"
+      }
+    },
+    {
+      "id": "a9e8dd43-ce3a-402d-a6a7-0f29129eceed",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 191
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "等、等一下！这跟说好的可不一样啊，她明明说要邀请我们一起商议要事……"
+      }
+    },
+    {
+      "id": "73323bf9-3a82-4465-98b6-62b418105b97",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 192
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "…这是计划好的背叛，毫无疑问。"
+      }
+    },
+    {
+      "id": "1498dee1-46b8-4254-892f-5ceb8614876b",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 193
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "又要沦为阶下囚了…我发现每三个世界，这种情况就要来上一次。"
+      }
+    },
+    {
+      "id": "4e065b60-0ff8-4cb2-90c0-d306e4c568ab",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 194
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "那是因为你总是头脑一热就行动，完全没有计划。"
+      }
+    },
+    {
+      "id": "1822aa70-f2ad-42c1-a46d-18289069c3a2",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 195
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "我也会成长的啦！现在我就在想计划…计划…有了！"
+      }
+    },
+    {
+      "id": "430ac93e-febb-4c96-b0a4-6475acdb181c",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 196
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "你们看那边的巷道！"
+      }
+    },
+    {
+      "id": "1a2f9838-ccdf-4f6c-8470-22302bb584f7",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 197
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "那里因为裂界的侵蚀而被封锁——我知道了，这的确是个可行的计划。"
+      }
+    },
+    {
+      "id": "fe62107b-f4fe-4be9-b72b-d5eeaf5cbc13",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 198
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "做好逃跑的准备。"
+      }
+    },
+    {
+      "id": "1ae97f09-c096-44ea-9211-63b97a756b37",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 199
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "咦，真的可以吗？我随便说说的……"
+      }
+    },
+    {
+      "id": "36b95049-01c7-4321-ae10-376042141a37",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 201
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "观隅反三——"
+      }
+    },
+    {
+      "id": "f680e4c7-13cf-4c36-ae8a-ba161cdc6d77",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 202,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "穹",
+        "text": "啊？"
+      }
+    },
+    {
+      "id": "863e43c0-f1a7-4edb-88c4-309791f606e5",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 203
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "嘘！这是列车团的老暗号了，数到一的时候，你就跟我们一起跑！"
+      }
+    },
+    {
+      "id": "b7bd9ae7-6637-43e6-81c7-b16a84886dfb",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 204
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "君命无二——"
+      }
+    },
+    {
+      "id": "13ef28b2-417a-48f6-8b3a-0b9c8bebe30a",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 205
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "银鬃铁卫",
+        "text": "喂，嘀咕什么呢？快跟我们走！"
+      }
+    },
+    {
+      "id": "9cc12aed-9ae6-4e81-9c93-cc1dbbdfd844",
+      "source": {
+        "mission": "永冬城之夜",
+        "dataFile": "missions/开拓任务/雅利洛-Ⅵ/于枯索的冬夜里/永冬城之夜.json",
+        "contentIndex": 206
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "——凭城借一！"
+      }
+    }
+  ],
+  "id": "002",
+  "chapter": "第一幕・雅利洛-Ⅵ",
+  "characters": {
+    "visible": [
+      "穹",
+      "三月七",
+      "帕姆",
+      "姬子",
+      "丹恒",
+      "瓦尔特",
+      "桑博",
+      "杰帕德",
+      "布洛妮娅",
+      "可可利亚",
+      "希露瓦"
+    ],
+    "hidden": [
+      "列车组",
+      "躲在雪里的男人",
+      "士兵",
+      "打扮显眼的女人",
+      "星核之声",
+      "少女可可利亚",
+      "严厉的银鬃铁卫",
+      "银鬃铁卫"
+    ]
+  }
+}

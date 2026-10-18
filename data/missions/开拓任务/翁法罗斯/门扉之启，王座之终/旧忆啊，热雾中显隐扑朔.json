@@ -1,0 +1,1863 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "旧忆啊，热雾中显隐扑朔",
+    "pageId": 16763,
+    "revisionId": 77768,
+    "parentRevisionId": 55563,
+    "revisionTimestamp": "2026-02-12T18:45:30Z",
+    "fetchedAt": "2026-09-28T00:17:49.438Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%97%A7%E5%BF%86%E5%95%8A%EF%BC%8C%E7%83%AD%E9%9B%BE%E4%B8%AD%E6%98%BE%E9%9A%90%E6%89%91%E6%9C%94",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%97%A7%E5%BF%86%E5%95%8A%EF%BC%8C%E7%83%AD%E9%9B%BE%E4%B8%AD%E6%98%BE%E9%9A%90%E6%89%91%E6%9C%94&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "旧忆啊，热雾中显隐扑朔",
+    "region": "翁法罗斯",
+    "type": "开拓任务",
+    "version": "3.1",
+    "number": "05",
+    "series": "门扉之启，王座之终",
+    "description": "缇宝感知到缇安因身处险境再度使用神力，为排解忧虑，她在阿格莱雅的陪同下一同前往浴场散心。奇怪的是浴场中多人离奇昏倒，经风堇诊断，病因竟是水温过高。而其幕后黑手竟是白厄与万敌一场堪称荒唐的比赛。",
+    "requirements": "完成任务悲音啊，莫让生者空垂涕",
+    "requiredLevel": "21",
+    "characters": [
+      "缇宝",
+      "阿格莱雅",
+      "白厄",
+      "万敌"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "500"
+      },
+      {
+        "item": "星琼",
+        "amount": "60"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "4"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "4"
+      },
+      {
+        "item": "仙馔秘酿",
+        "amount": "200"
+      },
+      {
+        "item": "信用点",
+        "amount": "80000"
+      }
+    ],
+    "previousMissions": [
+      "悲音啊，莫让生者空垂涕"
+    ],
+    "nextMissions": [
+      "门扉啊，叩声仍激荡梦中"
+    ],
+    "objectives": [
+      "与阿格莱雅一起前往浴场",
+      "设法了解事故始末",
+      "入浴"
+    ],
+    "synopsis": [
+      "阿格莱雅与缇宝前往浴场。缇宝感应到缇安使用了「百界门」，担心你们遇到了危险。阿格莱雅相信你与遐蝶会保护好缇安。",
+      "一位客人在浴场晕倒，喃喃着「小心悬锋人」。风堇赶来救助，发现是因为池水温度过高而昏迷。阿格莱雅顿时明白现状。",
+      "阿格莱雅与缇宝看到倒下的白厄。万敌正以胜利者的姿态站在白厄身边，称自己又赢下一场角斗。阿格莱雅向万敌询问角斗内容。",
+      "万敌与白厄在浴场偶遇。在解决族人问题前，万敌不愿面对「纷争」的试炼。白厄提议进行一场竞赛，比谁能在超高温浴池里坚持更久。",
+      "阿格莱雅阻止这场高温闹剧，白厄与万敌转而比试谁能护送更多晕倒的浴客离开。缇宝邀请风堇加入，和阿格莱雅一起去浴场放松一下。",
+      "在浴场交谈中，缇宝说*她们*在很久以前也是成熟的大人，因接过「门径」神职而付出灵魂分裂的代价，每一次使用「百界门」都会深化分裂的影响，使肉体与心智向婴儿退行。风堇劝慰，认为智种学派的研究有机会弥补灵魂。与此同时，缇宝感知到缇宁遭遇危险。",
+      "白厄与万敌谈论在「纷争」试炼中的见闻。白厄遭遇毁灭哀丽秘榭、杀死昔涟的凶手，与之交战，并记下对方的面具、巨剑与黑色斗篷。",
+      "万敌在试炼中见到在流亡岁月中拱卫自己的战友们，他们全都战死于悬锋孤军与奥赫玛联合之前。「纷争」带给他们荣耀，以及死亡。",
+      "万敌将「不死」视作诅咒。他担心带领族人还乡后，会重蹈「纷争」的黑暗与疯狂。缇宝紧急赶来，称缇宁被克拉特鲁斯掳走。",
+      "克拉特鲁斯想要代替万敌填补「纷争」的空缺，挟持缇宁前往创世涡心，却未能通过试炼。克拉特鲁斯劝万敌放弃逐火之旅，回归悬锋。",
+      "为回应克拉特鲁斯对神谕的质疑、重建民众对逐火之旅的信任，缇宝提议带他见证预言的源头。缇宝向你请求帮助，复现久远的记忆。",
+      "万敌回想起弑王之日，他率领悬锋孤军反攻悬锋城，用长枪贯穿欧利庞的胸膛。此举并非为加冕为王，而是带去命中注定的复仇。",
+      "万敌按克拉特鲁斯所说，来找哈托努斯，试图寻求建议。",
+      "哈托努斯将由其修复的悬锋印戒交与万敌，聆听其诉说面对试炼的踌躇。若能避免悬锋人重蹈血腥轮回，万敌愿意接受「纷争」的命运。"
+    ],
+    "extra": {
+      "角色": "缇宝",
+      "命路群像": "门帷的涟漪",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "正在切换至【缇宝】视角…\n缇宝发觉远赴神悟树庭的缇安再次打开了「百界门」，她感到十分焦虑……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一段时间之前 云石天宫内"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "缇安…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "怎么了…是树庭那面遇到麻烦了么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "是。有一道感应转瞬即逝，但特别强烈…他们/她们似乎遇见了棘手的麻烦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "…缇安又使用了「百界门」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "能看见具体的画面吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "不行，和平时一样模糊。但敌人的气息消失了，也许他们/她们转移到了安全的地方吧…大概。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "但愿只是虚惊一场。相信开拓者和遐蝶吧，吾师……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "他们/她们会保护好缇安的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "你怎么把*我们*当小孩子啦，阿雅。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "总有一天，缇安会走到极限，缇宝会从她手里接过「门匠」的职责，这事*我们*心知肚明。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "*我*只是…有些担心她的心智。出发前，缇安已经连短句都念不清了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "至少让*我们*好好道个别吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…我会和你一起祈祷的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "谢谢。阿雅，这次得麻烦你陪*我们*去趟浴场，放松一下啦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "感觉，我俩都很久没有笑过了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与阿格莱雅一起前往浴场"
+    },
+    {
+      "type": "objective-description",
+      "text": "*我们*感知到，缇安又使用神力了，*我们*很担心她的情况…阿雅感觉到*我们*的忧虑，答应一起去趟浴场散心。",
+      "location": "翁法罗斯-「永恒圣城」奥赫玛"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "乘着西风，出发咯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "…好重的热气，平时有这么热吗？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "那边…又有伤者？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晕眩的浴场客人",
+      "text": "啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "这、这是怎么了？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晕眩的浴场客人",
+      "text": "小…心……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晕眩的浴场客人",
+      "text": "小心…悬锋人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "悬锋人？这片惨状…是他们造成的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "阿雅，先别管这些了，快救救伤员！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "——各位，请让一让！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "二位！你们也在，那我就放心了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "怎么昏光庭院也来了！到底出了什么事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "其实我只是来放松的…只是刚到附近，就见好多人横七竖八倒在地上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "我检查了一番，他们没有大碍，感觉只是…水温太高，泡得太久。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "「好多人」同时因为池水高温昏迷？浴场的管理人在何处？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "他消失了，不知去向。有些人嘴里念念有词，说是「悬锋人」干的…阿格莱雅女士有头绪吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "让这些人好好休息吧。两位，随我来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "阿雅，你想到什么了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "当然。虽然不知道他们究竟在打什么算盘，但是时候结束这场闹剧了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "设法了解事故始末"
+    },
+    {
+      "type": "objective-description",
+      "text": "浴场中多人离奇昏倒，经风堇诊断，病因竟是水温过高。而其幕后黑手究竟是…？",
+      "location": "翁法罗斯-「永恒圣城」奥赫玛"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "天啊，这么多人…？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "到底是谁做的……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "可悲的「救世主」，不过如此。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "小…小敌？！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "小白！连小白也……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "凶…手……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "凶手…是…迈德漠斯……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "…呃！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "小敌！你把大家怎么了？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "哼…不过是在又一场角斗中胜出了而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "角、角斗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…果然如此。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "这二人，表面上是圣城最强大的战士，但终究掩盖不了少年心性……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "说说吧，万敌？告诉我们，你和白厄做了些什么傻事。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一段时间以前……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（恢复得如何了，朋友？）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（失败乃兵家常事，别在意。）",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "（泡澡放松一下吧，兄弟。）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "（不，不太对。）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（振作，你还有更远的目标。）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（来喝点么，伙计？）",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "（不介意的话，我们聊聊。）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "（…算了。）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你还活着啊，「救世主」？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…我没看走眼吧？了不起的「救世主」，终于愿意出门见光了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "哼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "「哼」…这算哪门子回答？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "没什么——模仿你平时的样子罢了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "我没在你身上感受到特别的气息…半神的考验，你通过了么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "仪式还未重启。免得你忘记——距离我将你揪出试炼才没过多久。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "我没忘。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "不用谢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "「…长夜最后的光亮，城垣坚固的奥赫玛。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "「有多少人远道而来，以为她是常有无花果和橄榄的丰美园林……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "「…却不曾想，跌入了燃烧的炉膛？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "你又在耍什么把戏？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "一时来了兴致，想念几句诗而已。悬锋的王子，不会听不懂诗歌吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "悬锋人不读这种软弱的文字，但{{我的图书馆|歌耳巴尼帕耳大图书馆}}里不乏这类藏书——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "这几句表达了作者的思乡之情，正如奥赫玛离大部分人的故乡都很遥远。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "——我听得懂诗，{{HKS|混账}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "哈…别装深沉了，朋友。感谢你在危机关头拉了我一把，但依我看，你也没做好试炼的准备吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "别把你我的处境混为一谈。我背后还有族人，在解决他们的问题前，我不能独自登神。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "嚯…听你的意思，勇猛的迈德漠斯，悬锋王位的继承人，居然想打破一族延续千年的古老传统？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "该怎么做，我仍在思考。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "算了，恐怕还轮不到我来给你提建议。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "不过，我倒是突然冒出一个想法……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "讲吧，又是什么馊主意？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "或许我们都需要释放压力。来吧，迈德漠斯，延续你我之前的竞赛……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "这次——就比比谁能在*超高温*浴池里坚持更久！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "怎么，怯场了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "悬锋人的字典里没有「怯场」二字。我只是觉得可笑。野史学家，你难道没听说过悬锋人沐浴，用的都是锻剑淬铁的滚烫铁水？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "今日，我就来教你这些宫廷礼数！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场精灵",
+      "text": "于是！一场旷古绝伦的桑拿大战开始了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场精灵",
+      "text": "那二人的决心登峰造极，强烈的意志令水汽都为之色变，气焰裹挟着水汽直冲云霄，遮天蔽日，使人目不能视……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场精灵",
+      "text": "既然看不清现场赛况…闲着也是闲着，不如来听我讲一段与「王」有关的故事吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场精灵",
+      "text": "还记得某位老战士提及的，「歌耳戈猎狮」的传说吗？故事的主人…主狮公，其实并非一方之霸，还有一头剑羚能与之分庭抗礼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场精灵",
+      "text": "早在黄金世前，两头野兽便已在特雷托斯平原上捉对厮杀。雄狮当剑羚作盘中餐，而剑羚视之为一堵蔑视、压迫、磨难的高墙，它誓用犄角将其推翻……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场精灵",
+      "text": "于是，数万年如一日地，两头野兽在荒野中开始了角逐和追逃——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场精灵",
+      "text": "它瞠乎其后。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场精灵",
+      "text": "它望其项背。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…………"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场精灵",
+      "text": "它无路可退。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "…………"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场精灵",
+      "text": "它插翅难飞。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场精灵",
+      "text": "翁法罗斯的大地上，有些生命死于黄昏，有些生命死于拂晓，而有些生命——它们命中注定死于正午的烈阳！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场精灵",
+      "text": "终于！到了一日中最为炽烈的时刻，强有力的命运应召而至——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场侍者达罗",
+      "text": "两位阁下，需要我把温度调低些么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "哼……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "怎、怎么？呵…你怂了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…滚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场侍者达罗",
+      "text": "您，您是在让我滚，还是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "你自己…看着办……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "浴场侍者达罗",
+      "text": "…那就恕我僭越了，阁下。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "还真是…丑态百出啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "不自量力地向悬锋人发出挑战，这就是下场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "我是说…你们的小小游戏，可是连带着让不少人一起遭了殃呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…那些被杀气震晕的浴客，我们会送他们离开的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "这…不公平……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "你穿得…比我…清凉多了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "…全副武装扎进高温浴池，这是什么新风尚吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "别用那眼神盯着我…是他下的战书。悬锋的字典里没有「逃避」二字。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "好了，这场闹剧就到此为止吧？勇士们，该动起来了。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "状态恢复后，白厄与万敌将晕倒的浴客们送离了案发现场……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "这一次的护送较量，白厄以27比25的惊人优势险胜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "呵…逐火之旅，真是道阻且长啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "…不过，多亏了他俩，悲伤的气氛都烟消云散了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "虽然刚经历一场闹剧，但云石天宫难得这么清净，不如继续先前的行程吧。小风堇，你也一起来吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "这么空旷的浴场是难得一见……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "我本意也想在术后放松一下，那就承蒙缇宝女士邀请啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "那不如，就去最大的浴池吧！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "入浴"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "让我先试试…水温刚好呢！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "如何，这就是享用整座浴场的滋味。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "嘿嘿，太舒服啦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "不过，缇宝老师…你不一起泡泡么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "*我们*就不啦，毕竟变成小孩子了嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "请见谅。受{{雅努斯|门径之泰坦}}的{{赐福|诅咒}}影响，她已不能耐受这池子的水温了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "唔……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "你是对*我们*的事感到好奇吗，小风堇？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "是有些好奇啦，但直觉告诉我…是不是换个话题比较好？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "紧张什么呀，不是不能说的事！其实呢，*我们*在很久很久以前…也像阿雅一样，是成熟的大人哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "但因为种种原因，*我们*接过{{雅努斯|门径之泰坦}}的神职，得到了「门径」的力量……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "而作为交换，付出的便是灵魂分裂的代价。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "每一次洞开「百界门」，都会深化分裂对缇宝她们的影响。从肉体到心智，一步步向着婴儿退行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "其实*我们*也不知道终点会是什么样子。总而言之，这就是*我们*变成小孩子的原因。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "那…先前和{{尼卡多利|纷争之泰坦}}对决时，你们在奥赫玛上空张开的巨大「百界门」，岂不是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "没办法，逐火之旅注定不会一帆风顺嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "也许…会有办法的。智种学派的核心课题就是灵魂，针对它的损耗，或是弥补已经消散的灵魂…只要研究继续下去，没准会有新的发现。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "我们会尽力而为。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "第一反应竟然是否定么？不愧是那刻夏的门生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "我期待你的好消息，风堇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "哈哈，这样又多了一个盼着明天的理由呢……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "…呜！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "缇宝女士？！怎、怎么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "好像…不太对劲，强烈的感应又来了…是缇安？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "不、不对…这次不是缇安……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "…是缇宁！缇宁遇上危险了…！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与此同时……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "哈，这次护送浴客是我赢了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "单方面开启的竞赛，如何能够作数？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "看看你，说两句恭维话又不会掉层皮。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…{{HKS|混账}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "海乙…你在说什么，家乡话？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "「鬣狗」——我在将你比作一条瘦弱的鬣狗。顺带一提，你的重音完全不对。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "咱俩认识也有段时间了，听你说悬锋古语的次数…屈指可数啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "因为我也不擅长这门语言。听和读不成问题。但若要让我以古语写作……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "你还会写东西？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "你的发言仿佛没有脑子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "哈哈，开玩笑的。也难怪，毕竟你童年一直在…漂泊，离家很远。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "多关心下你自己吧，救世主。除去自报家门的场合，你也从不提及故乡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "呵…因为实在没什么可说的。哀丽秘榭只是个小村庄，因为战火，早就不复存在了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "我唯一能见到它的场合就是在梦中。还有……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "还有？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "…在{{「天谴之矛」|纷争之泰坦}}的试炼里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "果然啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "嗯，我看见了，燃烧的哀丽秘榭，我的亲人、朋友、同族…所有人都倒在火海里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "天上挂着半轮血日，就和那时一样，那个凶手在我面前……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "…杀死了昔涟。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "不过这一次，我看清了它的样貌：黑色的斗篷，诡异的面具。破碎的、散发着不详气息的巨剑……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "在试炼里，我和那家伙交手了。但过去这么久，即便我带着决心一路战斗、成长、变强…我还是战胜不了它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "仇恨蒙蔽了你的双眼，你差点就要迷失在那试炼里了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "对…所以我由衷地感谢你，迈德漠斯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "哼，总算学会礼仪了，倒也不算太晚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "那你呢，万敌？你在那试炼里看见了什么…你的恐惧又是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "首先，悬锋人的字典里没有「恐惧」二字。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "…你们的字典里是不是压根没字？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "然后，我在其中看到了奥赫玛。以及……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…我曾经的战友们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "赫菲斯辛、帕狄卡斯、莱昂、托勒密，还有朴塞塔…自我从冥海归来，那五人便始终拱卫左右。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "流亡的岁月，他们与我同生共死。那十年时光，颠沛流离，但也值得怀念。每个夜晚，我们都会在营火边围坐，畅饮蜜酿，纵情高歌……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "翁法罗斯的野风有铁锈的味道。赫菲斯辛总笑话我喝蜜酿加羊奶，说把鲜红的血色拌得不伦不类。他生得瘦小，但在战场上凶悍无比，杀敌如麻。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "帕狄卡斯精通制药，净整些偏方怪方；莱昂善于奔跑，是最受信赖的信使。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "托勒密总爱咬文嚼字，离开悬锋时，从大图书馆顺走了不少古籍——都是我家的，也不用还了。至于朴塞塔…呵，他不爱说话，但弹得一手好琴……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "这五位…我还是第一次听说他们的名字。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "当然。在悬锋孤军与奥赫玛联合前，他们就战死了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "先是帕狄卡斯，他死在第二个{{耕耘月|四月}}，被拉冬人的毒箭射中腹部。他的药方能救所有人，唯独没救下自己。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕狄卡斯",
+      "text": "「迈德漠斯，不要悲伤。我已挣得荣耀，用光荣的死亡回敬夙敌……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "莱昂死在第五个冬天，哀地里亚的暴风雪持续了整整三个月。风雪最大的那夜，敌人发动了袭击。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "哀地里亚…是遐蝶以前所在的城邦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "就是那群狂信徒，他们如悬锋人一般视死如生，唯独少了对荣誉的敬畏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "他们在无底沼泽中围追堵截，莱昂为了殿后被斩断双腿。他消失在异乡的泥土里，尸骨无存。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "莱昂",
+      "text": "「多好啊，迈德漠斯…我终于能将你成王的讯息带向冥界了……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "那之后的第二十个黄昏，我们终于反攻入哀地里亚城中，接受了僭主的求和，但负隅顽抗的叛军却在城中设伏……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "托勒密和他的骑兵队，还未来得及品尝胜利便全军覆没。燃烧崩塌的方尖碑林成为了他们的坟丘。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托勒密",
+      "text": "「迈德漠斯，请你转告我的家人：打倒我托勒密的并非歹毒的诡计，而是翁法罗斯一切历史的重量。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "再后来是朴塞塔。他在厄涅俄努斯城中以歌声诱敌深入，为我们争取了宝贵的时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "恼羞成怒的敌军不惜点燃大火，将我军和整座城池一道焚烧殆尽…他的遗言只留在一小块被烈火烧裂的泥板上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朴塞塔",
+      "text": "「迈德漠斯，戴上王冠吧。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "最后，我最信赖的赫菲斯辛…他本该与我一道见证尘埃落定，却在我与父亲角斗的前夕宿疾复发……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "他隐瞒了病情，待我手刃{{仇敌|先王欧利庞}}凯旋，他已只剩一丝气息。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赫菲斯辛",
+      "text": "「身为悬锋人，却只能在床榻上了却一生…说出去要教人笑话啊。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "「赫菲斯辛，我的挚友…省些力气罢，我去叫医师来……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赫菲斯辛",
+      "text": "「不必了…就算帕狄卡斯还在这里，也无法替我挡下命运。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "「没有人能夺走你的命运！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赫菲斯辛",
+      "text": "「迈德漠斯…{{我们|悬锋人}}的王啊…不要落泪，那不称你的身份。」"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赫菲斯辛",
+      "text": "「别了，挚友。你一定要…带领我等还乡……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "真是…沉重的试炼啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "我现在能理解，你为何会把「不死」视作一种缺陷，甚至诅咒了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "先王为断绝宿业，将我投入冥海，却没料到此举反造就了我的不死之躯，给他招来了命运的复仇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "他死后，我本想过带领族人回归故乡。但彼时的悬锋已是一片荒芜，能在其中生长的只有黑暗与疯狂。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "顶着许多人——也包括克拉特鲁斯——的反对之声，我让悬锋孤军留在了奥赫玛。但我明白，他们的荣耀不可能被磨灭。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…「纷争」的时刻终究会到来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "只要你接过{{尼卡多利|纷争之泰坦}}，就必须踏上还乡的旅程。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "所以，你觉得让族人留在圣城才是更好的选择？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "我不知道。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "但因为我从未加冕为王，那五人从未被册封…也无人知晓他们的荣耀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "…真是复杂啊，你的处境。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "我很难给出有用的建议，或许…你可以找更多人谈谈，比如大工匠。哈托努斯的族人应该经历过相似的困境。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "还有你的那位老师，克拉特鲁斯……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "小敌——大事不妙、不妙啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "缇宝老师？发生了什么，竟然让你如此惊慌？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "快去救人，缇宁她，缇宁她……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "——被克拉特鲁斯掳走了！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "不久后……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…克拉特鲁斯！这是怎么回事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "啊，迈德漠斯……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "没想到，是我先暴露了软肋…呵。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "阿格莱雅！给我一个解释。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "这个男人以武力挟持了缇宁，强迫她带自己来到创世涡心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "然后，他竟然还大胆踏入了{{「天谴之矛」|纷争之泰坦}}的试炼…当然，以失败告终。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "她说的是真的吗？你为何要这么做？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "因为我不想再等待了，你的犹疑令人绝望。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "你若想逃避成王的宿命，那便逃吧。总有人会站出来，填补「纷争」的空缺…引领我族还乡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "吾师，岁月怎会让你变得如此蒙昧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "你还没看清吗？令我彷徨的理由，正是你这溶入骨血的鲁莽和冲动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "克拉特鲁斯，你当真觉得自己有资格染指试炼，亵渎神谕？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "我等黄金裔的使命，在你眼中就是这般儿戏？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "想知道你在悬锋人眼里是什么模样吗，阿格莱雅？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "伪善者…野心家！创世的神谕，逐火之旅，不过是你用来攫取权力的说辞罢了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "住口，克拉特鲁斯！你知道自己在说什么吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "你要维护这女人吗，迈德漠斯？过去的千年里，围绕她——还有她们宣扬的神谕，多少战火燃起，多少城邦自相残杀？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "就算所谓的「创世」真的存在，那新世界里会有悬锋族人的一席之地吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "你的发言结束了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "依照黄金裔与元老院达成的协定，私闯创世涡心之人无需经过议会审判，可由我自行发落。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "克拉特鲁斯，你的行为无可宽恕。我在此宣判……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "阿雅！等一下！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "*我们*…有一个提议。这场城邦之间的矛盾，总得有人站出来解决。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "克拉特鲁斯阁下并未用暴力伤害*我们*。*我们*能感受到，他的焦虑源于对族人前途的担忧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "拜托了，阿格莱雅，请先听听*我们*的想法。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "我在听。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "抱歉，克拉特鲁斯阁下。我们终日只顾着解读预言的碎片，却忽视了那些未被神谕青睐的人们…你的指控尽管刺耳，但也合乎情理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "我们想得到你，还有悬锋族人的信任。我想，最好的办法…就是带你亲眼见证预言的源头。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "…你要如何让我看见虚无缥缈之物？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "你已听说了那位异乡人的事，对吗？出于某种原因，他/她与{{欧洛尼斯|岁月之泰坦}}建立了联系，能完整地复现往日的风景。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "*我们*会请求他/她的帮助。明日，在命运重渊，雅努萨波利斯的神殿…克拉特鲁斯，*我们*愿意为你展示那段久远的记忆，毫无保留。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "…听上去很公平。我接受这个提议。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "但在那之前，你将被剥夺行动的自由。这是我的底线，决无让步的可能。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "呵，这不是我第一次做别人的阶下囚了。悉听尊便，「半神」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "吾师…为何要做到这个地步？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "抱歉，少主…我不能再忍耐了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "自你的父亲死后，我和族人就一直在等待复兴悬锋的时机。我们将一切希望寄托于你，却迟迟没有得到回应。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "还乡的执念已成了我族的病根！你如此睿智，我不相信你看不清简单的真相……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "你很清醒，因此才无比孤独。聪明的人，只能选择与世俗沉沦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "你若真能带领族人打破这染血的命运，就再次证明给我看吧，迈德漠斯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "克拉特鲁斯",
+      "text": "就像你当时做到的那样……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "先王欧利庞",
+      "text": "真是勇猛的斗士…软弱的奥赫玛人，竟也拥有如此豪杰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "先王欧利庞",
+      "text": "履行胜者的义务，报上名来，战士！我向你索求荣耀的死亡！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "「荣耀」…你与这二字何干？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "洗耳恭听吧！我是悬锋孤军之首，{{迈德漠斯|万敌}}——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "——我来贯穿你的胸膛了，父亲！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "先王欧利庞",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "先王欧利庞",
+      "text": "是你…遭人唾弃的野兽，你真的拒绝了死亡。预言不假…朕的悬锋王朝，终究要结束在你手里……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "拒绝？你错了，是死亡惧怕我。拜它所赐，我才有了这副钢铁之躯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "而你，你已病入膏肓了，父亲。将我抛入冥海的人是你，妄图奴役{{泰坦|尼卡多利}}、亵渎神体的人也是你……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "{{HKS|混账}}！软弱的王，哪怕是最卑劣的鬣狗，也比你高贵千倍！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "而现在，命运的复仇找上你了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "先王欧利庞",
+      "text": "那就挥剑吧！拿走我的王冠，用先王的血加冕，继承一切…名正言顺，成为悬锋的新王。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "不，我不要王冠。听好了——倘若悬锋的王只有一种宿命，那它对我毫无意义……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "我只要你的命！为了给母亲和同袍复仇，仅此而已！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "先王欧利庞",
+      "text": "但悬锋的城墙不会随我一同崩塌…吾儿，你以为自己逃得出命运的掌心？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "先王欧利庞",
+      "text": "哈哈哈…都一样，你和我…我们都把纷争和恐惧当做食粮……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "先王欧利庞",
+      "text": "…现在，杀了我！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "先王欧利庞",
+      "text": "歌耳戈之子，注定要浴血代冠——！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…哎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "克拉特鲁斯……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "那家伙说，也许能从大工匠那得到建议…哈托努斯，去见他吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "大工匠，近来可好？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "悬锋的王，是你。你会来，我有预感。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "你知道我会来？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "我听说了，你的事。前进的方向，你在寻找；疑问，有许多。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "但在那之前——这个，收下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "这是…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "悬锋，王者的印戒，属于你母亲。重铸、修复…由我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "母亲明明将它抛入冥海了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "打捞，花了很久。运气很好，我们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "要从冥海中捞出一枚小小的印戒，我无法想象需要多少耐心和勇气。我欠你一个人情。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "感谢，不必。你的救命之恩，我要报答。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "疑问，你带着它来。说吧，现在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "我一直否定的命运，终于还是找上了门。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "我理应接过「纷争」的权柄。如此一来，所有人都会满意：黄金裔、元老院、悬锋族人，还有谱写诗歌的吟游诗人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "但还在犹豫，你。年轻的王，为何踌躇？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…因为我的族人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "男人、女人、长者、孩童…悬锋人对归乡的渴望深入心髓，他们一直在等待这天，企盼王者的归来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "如此，纷争的子民便能够还乡，拥抱传统——即便他们中的大多数人只在史诗中听闻过那「传统」——然后，他们便能围绕在王的身旁，投身战场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "这不是一件好事，你认为。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…过去的千年，悬锋人活在血腥的轮回里。复仇、征战、昌盛、衰败…那段历史中，多少无辜者的血汇入冥河，多少无谓的牺牲可以被避免？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "若要我接受这命运，成为「纷争」的图腾，并带领我的族人重蹈覆辙…那我的确会感到恐惧，对「成王」的恐惧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "不同的悬锋人，你果然是……"
+    }
+  ],
+  "warnings": []
+}

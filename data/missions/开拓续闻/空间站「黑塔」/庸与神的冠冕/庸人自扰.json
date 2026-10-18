@@ -1,0 +1,6617 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "庸人自扰",
+    "pageId": 8895,
+    "revisionId": 58908,
+    "parentRevisionId": 38728,
+    "revisionTimestamp": "2025-04-03T08:07:16Z",
+    "fetchedAt": "2026-09-28T00:20:59.147Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%BA%B8%E4%BA%BA%E8%87%AA%E6%89%B0",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%BA%B8%E4%BA%BA%E8%87%AA%E6%89%B0&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "庸人自扰",
+    "region": "空间站「黑塔」",
+    "type": "开拓续闻",
+    "version": "1.6",
+    "number": "02",
+    "series": "庸与神的冠冕",
+    "description": "空间站最近十分热闹。模拟宇宙再次更新、天才俱乐部的大人物都齐聚于此，每个人都心思各异——你总觉得会有些意想不到的事情发生……",
+    "requirements": "完成开拓任务「天才群星闪耀时」",
+    "requiredLevel": "24",
+    "characters": [
+      "黑塔",
+      "艾丝妲",
+      "螺丝咕姆",
+      "真理医生"
+    ],
+    "relatedItems": [
+      "记忆盲点·信任危机",
+      "记忆盲点·科员失踪",
+      "记忆盲点·仙舟联盟",
+      "记忆盲点·人体自燃",
+      "记忆盲点·能量生命",
+      "记忆盲点·天才俱乐部成员",
+      "线索信息·失踪科员名单",
+      "线索信息·“香味”",
+      "线索信息·附录小册子",
+      "线索信息·穿梭相位的火焰"
+    ],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "1200"
+      },
+      {
+        "item": "星琼",
+        "amount": "120"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "10"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "8"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "8"
+      },
+      {
+        "item": "信用点",
+        "amount": "120000"
+      }
+    ],
+    "previousMissions": [
+      "天才群星闪耀时"
+    ],
+    "nextMissions": [],
+    "objectives": [
+      "告知艾丝妲阮·梅离开的消息",
+      "前往黑塔办公室看看情况",
+      "坐上椅子开始回溯记忆",
+      "通过忆泡探索关联记忆【艾丝妲的烦恼】",
+      "向艾丝妲寻求帮助",
+      "回忆与辛克尔的对话内容",
+      "通过忆泡探索关联记忆【阿兰的调查】",
+      "拜访小阿德勒",
+      "回忆与阿德勒的对话内容",
+      "通过忆泡探索关联记忆【艾丝妲的烦恼】",
+      "再次回忆与艾丝妲的对话内容",
+      "找到与自己对话过的密卷科科员",
+      "回忆与埃美丽的对话内容",
+      "再次回忆与阿兰的对话内容",
+      "再次回忆与阿德勒的对话内容",
+      "再次回忆与黑塔的对话内容",
+      "接受真理医生的质询",
+      "得到阿兰的协助",
+      "向温世玲调查取证",
+      "返回禁闭舱段盘点调查结果",
+      "螺丝咕姆似乎有话要叮嘱你",
+      "追踪逃逸的冥火",
+      "尝试触碰火墙",
+      "追踪逃逸的冥火"
+    ],
+    "synopsis": [],
+    "extra": {
+      "相关活动": "",
+      "相关成就": "通往群星的轨道#天才在左，庸人在右",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "告知艾丝妲阮·梅离开的消息"
+    },
+    {
+      "type": "objective-description",
+      "text": "阮·梅离开了空间站，你觉得还是告知一下艾丝妲比较好",
+      "location": "空间站「黑塔」-主控舱段"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你来到了艾丝妲常在的地方，却不见人影…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（艾丝妲不在么…去跟黑塔说一声好了。）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你收到了群聊消息，有新人入群…"
+    },
+    {
+      "type": "message-thread",
+      "title": "黑塔纠察队",
+      "subtitle": "",
+      "owner": "脸接大招",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "text",
+          "text": "「猹里猹气」邀请「毁人不倦」进入群聊"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "欢迎新同志！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "[此处为一张佩佩的表情包]",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "知名不具",
+          "contentType": "text",
+          "text": "给大佬递茶。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "text": "[此处为一张呜呜伯的表情包]",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "text": "群地位-1 。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "玛氏机器人",
+          "contentType": "text",
+          "text": "群地位-1 。",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "眼熟的剧情",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "脸接大招",
+                  "contentType": "text",
+                  "text": "这剧情有点眼熟。",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "知名不具",
+                  "contentType": "text",
+                  "text": "确实。",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "眼熟的ID",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "脸接大招",
+                  "contentType": "text",
+                  "text": "说起来…「猹里猹气」这ID略眼熟，莫非和「瓜田里猹」有什么关系？",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "猹里猹气",
+                  "contentType": "text",
+                  "text": "…居然知道我转生前的马甲，看来你小子没少冲浪啊。",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "无证开飞船",
+          "contentType": "text",
+          "text": "好了好了，言归正传，现在这事儿咋整？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "追责！必须追责！",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "怎么了？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "脸接大招",
+                  "contentType": "text",
+                  "text": "你们在生什么气？",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "追什么责？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "脸接大招",
+                  "contentType": "text",
+                  "text": "追什么责？",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "text": "原来你还不知道？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "content": [
+            {
+              "type": "fold",
+              "title": "[小视频](https://www.bilibili.com/video/BV1wc411y7ve)",
+              "collapsed": true,
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "播音员",
+                  "text": "黑塔女士单推快讯——各位黑粉，晚上好！现在插播一条紧急新闻。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "播音员",
+                  "text": "日前，伟大的天才俱乐部#83黑塔女士于空间站遭遇袭击后下落不明，截至目前，暂无组织声称对此事件负责。"
+                },
+                {
+                  "type": "list-item",
+                  "ordered": false,
+                  "depth": 1,
+                  "text": "播音员大批黑粉因此对管理层的工作疏漏与不作为，发出强烈抗议与严厉谴责。"
+                }
+              ]
+            }
+          ],
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "你看看，太岁头上动大土，都欺负到黑塔女士头上了！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "玛氏机器人",
+          "contentType": "text",
+          "text": "虽然但是，这些个空间站的管理确实也不像话。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "军团就算了，黑塔女士在自家地盘还能被袭击？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "这、这叫什么事儿嘛！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "无证开飞船",
+          "contentType": "text",
+          "text": "唉，最恨的就是这群尸位素餐的蛀虫。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "毁人不倦",
+          "contentType": "text",
+          "text": "但有一说一，军团风波后，空间站的复兴重建做得还是不错滴。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "玛氏机器人",
+          "contentType": "text",
+          "text": "也对。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "一码归一码，难道他们问题还少吗？",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "味儿对了",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "脸接大招",
+                  "contentType": "text",
+                  "text": "就是这个味儿！",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "脸接大招",
+                  "contentType": "text",
+                  "text": "可重点不是黑塔的安危吗？",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你好急啊",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "脸接大招",
+                  "contentType": "text",
+                  "text": "你好急啊…",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "脸接大招",
+                  "contentType": "text",
+                  "text": "重点不是黑塔的安危吗？",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "你说得对！",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "脸接大招",
+                  "contentType": "text",
+                  "text": "你说得对！",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "知名不具",
+                  "contentType": "text",
+                  "text": "你也这么觉得？有趣，一会儿咱们小窗唠唠。",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "脸接大招",
+                  "contentType": "text",
+                  "text": "不用了…重点不是黑塔的安危吗？",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "咸吃萝卜淡操心，这不是艾丝妲该关心的？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "咱们监督的是结果好坏，至于怎么做，是他们要去考虑的事儿！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "毁人不倦",
+          "contentType": "text",
+          "text": "歪归歪，理是这么个理。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "无证开飞船",
+          "contentType": "text",
+          "text": "可太对了哥！猹里猹气，我的网络嘴替！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "脸接大招",
+          "contentType": "text",
+          "text": "……",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "兄弟们，我们的目标是？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "无证开飞船",
+          "contentType": "text",
+          "text": "没有蛀虫！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "很好，合格了。",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往黑塔办公室看看情况"
+    },
+    {
+      "type": "objective-description",
+      "text": "艾丝妲不在基座舱段，黑塔遇又似乎受到了袭击，你决定先去黑塔办公室看看情况",
+      "location": "空间站「黑塔」-黑塔的办公室"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（黑塔…被袭击了？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（总之先去她办公室看看什么情况吧。）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "空间站里的全部黑塔人偶真的都不见了…"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "…甚至包括模拟宇宙旁的那一个…"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你走进黑塔的办公室…"
+    },
+    {
+      "type": "fold",
+      "title": "[过场动画](https://www.bilibili.com/video/BV1wc411y7ve?t=27.7)",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "你眼前一黑…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（……诶？）"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "不知过了多久，你缓缓睁开眼…"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "艾丝妲和螺丝咕姆站在你面前…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "艾丝妲",
+          "text": "螺丝咕姆先生，这是场有预谋的袭击……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "螺丝咕姆",
+          "text": "结论：敌人的目标是空间站。但手法…我们还不得而知。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "没错。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "这也是我们需要他/她的理由。"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "一道熟悉的声音从旁边传来…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "黑塔的人偶遇袭前，最后见过它的人……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "正是他/她。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "你是……？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "艾丝妲",
+          "text": "这位是公司的学术代表，「博识学会」的拉帝奥先生。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "真理医生",
+          "text": "毕竟他/她刚恢复意识，头脑还不清醒，需要……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "真理医生",
+          "text": "一些提示。"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "真理医生带上了石膏头伪装…"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "又见面了，还记得我么——不记得也无所谓，我没有期待。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "开拓者先生/女士，此刻你一定有满腹疑问。稍安勿躁，艾丝妲会一一向你说明。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "前情你大致也知道了。几个系统时前，黑塔女士的一具人偶遭到了原因未知的袭击，下落不明，信号也始终无法定位。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "没有监控吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "没有。袭击发生的地点是站外基台，不在监控范围内。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "黑塔现在在哪里？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "黑塔女士没把这事放在心上，外出巡访去了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "事件发生前，她受到了公司的邀请。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "是技术研发部。亚婆离女士是位能人，但手下尽是些门外汉，野心勃勃，充满热情，脑袋却一点没有——大小可以和原始人一较高下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "他们想和黑塔开展一些合作，邀请我同行，担任技术顾问。我欣然接受，好近距离观察这群「大聪明俱乐部」的会员如何将公司财产挥霍一空。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "不过…时机过于严丝合缝了。也许是有人走漏风声，让袭击者利用了此事。而黑塔似乎对这类挑衅见怪不怪，也让我对个中蹊跷甚是好奇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "早就听闻拉帝奥先生是学会的翘楚，您愿意协助，是我们的荣幸。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "恭维就免了，你我的时间都很宝贵。况且在一位天才面前谈论凡人的翘楚，在我看来多少有些幽默。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "{{开拓者|这位}}先生/女士，告诉我——最后一次见到那具人偶时，你做了什么？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "…替黑塔跑腿？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装傻，好好想想。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "…听艾丝妲诉苦？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "嗯？好、好像有这么回事…又好像没有？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装傻，好好想想。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "…陪阿兰遛狗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "什么，跟佩佩玩不带我是吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装傻，好好想想。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（仔细想想，那个时候我好像在……）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "坐上椅子开始回溯记忆"
+    },
+    {
+      "type": "objective-description",
+      "text": "你阴差阳错地成为了黑塔遇袭事件中的重要嫌疑人，配合调查之前，你得通过回溯记忆以自证清白。",
+      "location": "空间站「黑塔」"
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "以下部分属于任务「记忆回溯」"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你陷入了回忆…"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "数个系统时前……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "…对了，再帮我做件事，那奇物丢了，我不能放着不管。有空帮我找找——你应该能办到。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "以防你没记住，我再描述一下：那是一种■■■■，没有实体，但拥有生命。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "见着它的痕迹，就给我发个信号。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "■■■■？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（她似乎提到了令人在意的事，但我想不起来了。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（如果有一些提示的话，或许……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "总之，好好干吧。我要出门一趟，想找人帮忙，你可以问艾丝妲。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "通过忆泡探索关联记忆【艾丝妲的烦恼】"
+    },
+    {
+      "type": "objective-description",
+      "text": "黑塔委托你寻找某个丢失的奇物，你可能需要艾丝妲的帮助",
+      "location": "空间站「黑塔」-黑塔的办公室"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（记忆有些模糊了，那之后我做了什么？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（黑塔好像提到了艾丝妲…对，我好像去见了艾丝妲……）"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（温世齐&埃美丽）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "温世齐",
+          "text": "哟，猹哥，什么风把您给吹来了？好久不见，想死兄弟我了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "埃美丽",
+          "text": "嗯嗯，没有啦没有啦，还好的啦。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "温世齐",
+          "text": "那必须是妥妥贴贴。毕竟只要钱到位，什么都好办。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "温世齐",
+          "text": "这是你要的账号，绿色干净，直连内网毫无压力。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "埃美丽",
+          "text": "嗯嗯，好的好的，您有事儿说事。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "温世齐",
+          "text": "那您可太看得起我了，我就是一搞内购的，顺带做点无本买卖。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "温世齐",
+          "text": "小打小闹，上不了台面的。你要是搁学会那儿发达了，苟富贵，勿相忘。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "埃美丽",
+          "text": "几次啦？这是第几次啦？！老东西我跟你讲你不要蹬鼻子上……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（这两个人说话怎么前言不搭后语的…好奇怪啊。）"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "触碰忆泡，进入关联回忆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这是与黑塔见面时的记忆，但有些细节想不起来了。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（先回忆一下后来找艾丝妲的事吧。）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "探索关联记忆【艾丝妲的烦恼】",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "留在当前回忆",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向艾丝妲寻求帮助"
+    },
+    {
+      "type": "objective-description",
+      "text": "管理空间站的艾丝妲应该能提供些什么线索",
+      "location": "空间站「黑塔」-基座舱段"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入关联回忆【艾丝妲的烦恼】"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "…唔，没有实体，但有生命的奇物？抱歉，我一时没有头绪……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "或许界种科和密卷科的人会知道些什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "这会儿辛克尔和■■■就在附近，我建议你向他们打听一下。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "回忆与辛克尔的对话内容"
+    },
+    {
+      "type": "objective-description",
+      "text": "艾丝妲似乎也没什么头绪，好在界种科的辛克尔就在这附近",
+      "location": "空间站「黑塔」-基座舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（艾丝妲好像提到了两个名字，分别是界种科和密卷科的科员……）"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（旁听三名科员的对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "惊恐的科员",
+          "text": "我、我看见了，那个人消失的瞬间！啪的一下，很快的，连个骨头渣都没留下。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "茫然的科员",
+          "text": "怎、怎么办？他看着不像是装的。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "摆烂的科员",
+          "text": "够了够了，相信同事，交给专业的人解决吧。工作做完了吗？"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（旁听两名科员的对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "嘴碎的科员",
+          "text": "我跟你讲个事儿，你可千万别告诉别人。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "八卦的科员",
+          "text": "不告诉不告诉，我这么严的嘴，还能走漏风声？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "嘴碎的科员",
+          "text": "之前那个连环失踪案，是真的。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "八卦的科员",
+          "text": "真的假的？！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "嘴碎的科员",
+          "text": "嘘！嘘！你喊那么大声干嘛？不要命啦？！"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（旁听两名科员的对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "暴躁的科员",
+          "text": "都这么久了，也不见个交代！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "阴沉的科员",
+          "text": "一定有蹊跷，这么长时间，什么事都没查出来，我是不信的。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "阴沉的科员",
+          "text": "现在这状况，我看更像是在刻意隐瞒些什么。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "暴躁的科员",
+          "text": "呸，这些个做管理的，行不行啊。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（旁听以斯帖与科员的对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "以斯帖",
+          "text": "啧啧啧，看看这小女娃，多乖巧，多水灵。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "「学会研究员」",
+          "text": "行行行行行行行，咱们很熟吗？事儿办得怎么样了？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "以斯帖",
+          "text": "诶哟哟，你在我这老婆子面前有什么好谦虚的。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "以斯帖",
+          "text": "要我说，密卷科这上上下下的年轻人啊，论手脚麻利哪个也比不上你。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "「学会研究员」",
+          "text": "你的办事能力，我信得过。要不考虑下？此间事了，跟我一同离开？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "以斯帖",
+          "text": "你看这几摞资料吧，不知是哪个小年轻这么不上道，字搞这么小。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "以斯帖",
+          "text": "我年纪大啦，眼也花啦，你看要不……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "「学会研究员」",
+          "text": "也行，看着啊，这几天我给你整点刺激的。大的要来了！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（又来了…记忆里的只言片语似乎混在了一起。）"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（触碰忆泡）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（一时不记得另一个人了，但其中一人是辛克尔。我记得她……）"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "辛克尔",
+      "text": "这些阴暗的小人，尽干些隔着屏幕搬弄是非的勾当！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "辛克尔",
+      "text": "要是让我查出来是谁…我非要他好看！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（询问失踪奇物的线索）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "辛克尔",
+      "text": "无实体有生命的奇物？那不就是戏命鬼吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "戏什么鬼？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "辛克尔",
+      "text": "哦，现在都叫它呜呜伯了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "呜呜伯…好像哪里不太对。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "辛克尔",
+      "text": "这样吧，我虽然是界种科的室长，但不是界种科最了解奇物的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "辛克尔",
+      "text": "小阿德勒一定能给你更多线索。但这小子最近沉迷调查什么灵异事件，成天见不着人影。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不仅要找奇物，还要找人？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "辛克尔",
+      "text": "惭愧，居然让客人看见这么不成体统的样子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "辛克尔",
+      "text": "空间站刚经历劫后新生，本就是多事之秋，偏偏还有人趁乱煽动科员们的情绪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "辛克尔",
+      "text": "对管理层的不信任情绪愈演愈烈，艾丝妲也相当头疼吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "辛克尔",
+      "text": "唉，我跟你说这些做什么。这是我们自己该解决的事情，别在意。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品记忆盲点·信任危机"
+    },
+    {
+      "type": "fold",
+      "title": "记忆（当前整理的记忆）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "黑塔委托我寻找某个丢失的奇物，奇物的特征十分抽象，看来我可能需要艾丝妲的帮助。\n\n我找到了艾丝妲，但她似乎对此也知之不详。好在界种科的辛克尔和密卷科的什么人就在附近，这多少算是一条线索。\n\n辛克尔正在为空间站内部的信任危机而烦恼。我们简单聊了聊，她推测黑塔要找的可能是呜呜伯，但这结论可能不太对。最后辛克尔向我推荐了小阿德勒，据说他是界种科最了解奇物的人。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "通过忆泡探索关联记忆【阿兰的调查】"
+    },
+    {
+      "type": "objective-description",
+      "text": "辛克尔向你推荐了小阿德勒，据说他是界种科最了解奇物的人",
+      "location": "空间站「黑塔」-基座舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（阿德勒，阿德勒…对了，后来我还遇见了阿兰，阿德勒和他在一块儿。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（记得那是在……）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "触碰忆泡，进入关联回忆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（阿德勒当时和阿兰在一起，他们被卷入了什么事件……）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "探索关联记忆【阿兰的调查】",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "留在当前回忆",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入关联回忆【阿兰的调查】"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "什么？他一个人带着佩佩去现场了？！你怎么就让他……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "保卫科员",
+      "text": "大哥别急，虽然我知道你很急。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你们在做什么？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "我、我在遛狗……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "保卫科员",
+      "text": "我、我在遛弯……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "能统一下口径吗…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "我在遛狗。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "保卫科员",
+      "text": "我是狗。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（…他们似乎有事隐瞒，想蒙混过去。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "找我有什么事吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我想找阿德勒。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "保卫科员",
+      "text": "咦，你也在找他？好巧，我们也是。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "保卫科员",
+      "text": "这小子胆子也忒大，居然自顾自地就跑去现场调查了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么现场这么危险？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "保卫科员",
+              "text": "啊这…不危险、哪有什么危险。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你们不是在遛狗么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "保卫科员",
+              "text": "啊这…这不是佩佩不在嘛。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "保卫科员",
+      "text": "大、大哥，瞒不下去了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "…你还是少说两句吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是有什么麻烦？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "…边走边说吧。"
+    },
+    {
+      "type": "fold",
+      "title": "记忆（当前整理的记忆）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "黑塔委托我寻找某个丢失的奇物，奇物的特征十分抽象，看来我可能需要艾丝妲的帮助。\n\n我找到了艾丝妲，但她似乎对此也知之不详。好在界种科的辛克尔和密卷科的什么人就在附近，这多少算是一条线索。\n\n辛克尔正在为空间站内部的信任危机而烦恼。我们简单聊了聊，她推测黑塔要找的可能是呜呜伯，但这结论可能不太对。最后辛克尔向我推荐了小阿德勒，据说他是界种科最了解奇物的人。\n\n我在拜访阿德勒的途中偶遇了阿兰，他似乎也在寻找阿德勒，我决定与他同行。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "拜访小阿德勒"
+    },
+    {
+      "type": "objective-description",
+      "text": "根据辛克尔的推荐你决定拜访阿德拉，但似乎有其他人也在找他",
+      "location": "空间站「黑塔」-支援舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "你找阿德勒什么事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "…丢失的奇物？原来如此，那是该找他。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "小心，这片区域的裂界状态很不稳定。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们看到了佩佩和阿德勒"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（试图前往其他区域）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（不对，不是这条路。我没去过那里。）"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "在那边！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "他果然出意外了…我们上！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗并获胜"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "佩佩，没事吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩佩",
+      "text": "汪！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "最了解奇物的真的是你？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿德勒",
+      "text": "是我，怎么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "他/她想找你咨询些事，有关奇物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "你们先聊吧。阿德勒，佩佩已经借你了，之前委托你调查的事……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿德勒",
+      "text": "放心，我已经有头绪了。一会儿聊。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（阿兰）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "阿兰",
+          "text": "我就知道你会找我追根究底……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "阿兰",
+          "text": "抱歉，情况特殊，我真的不能多说，只能告诉你是个秘密任务。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "和■■■■■■有关？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（果然，我隐约记得阿兰又说了什么，和我忘记的事有关……）"
+        },
+        {
+          "type": "text",
+          "text": "抛出记忆盲点或许可以唤醒模糊的记忆"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "抛出记忆盲点·信任危机",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "（当前收集的记忆盲点无法唤醒模糊的记忆，请收集更多记忆盲点）"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "离开",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "再次对话"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "阿兰",
+          "text": "我就知道你会找我追根究底……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "阿兰",
+          "text": "抱歉，情况特殊，我真的不能多说，只能告诉你是个秘密任务。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "和■■■■■■有关？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "阿兰",
+          "text": "为、为什么你会知道？！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（果然，我隐约记得阿兰又说了什么，和我忘记的事有关……）"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（触碰忆泡）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（似乎还漏了什么关键信息，再仔细想想。）"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "回忆与阿德勒的对话内容"
+    },
+    {
+      "type": "objective-description",
+      "text": "看看阿德勒对黑塔的委托有何见解",
+      "location": "空间站「黑塔」-支援舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿德勒",
+      "text": "所以，你想了解什么奇物？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "没有实体，但拥有生命。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿德勒",
+      "text": "就这点线索？也太抽象了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "黑塔是这么说的。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿德勒",
+      "text": "抽象也有抽象的美。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿德勒",
+      "text": "你问过界种科的室长吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她说可能是呜呜伯。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿德勒",
+      "text": "好像也没毛病…但似乎又不太对。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "听说■■■■也有类似的生物。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（咦，这里我说了什么？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿德勒",
+      "text": "咦，等等，这么一说…我有了一个大胆的猜想，但需要验证下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿德勒",
+      "text": "今天先到此为止吧，你等我联系。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（阿德勒似乎受到了启发，不过在那之前…我是从谁那里听说了什么？）"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（阿德勒）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "阿德勒",
+          "text": "你问过界种科的室长吗？"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "她说可能是呜呜伯。",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "阿德勒",
+          "text": "好像也没毛病…但似乎又不太对。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "听说■■■■也有类似的生物。",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（咦，这里我说了什么？）"
+        },
+        {
+          "type": "text",
+          "text": "（抛出记忆盲点或许可以唤醒模糊的记忆）"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "抛出记忆盲点·信任危机",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "（当前收集的记忆盲点无法唤醒模糊的记忆，请收集更多记忆盲点）"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "离开",
+              "content": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "记忆（当前整理的记忆）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "黑塔委托我寻找某个丢失的奇物，奇物的特征十分抽象，看来我可能需要艾丝妲的帮助。\n\n我找到了艾丝妲，但她似乎对此也知之不详。好在界种科的辛克尔和密卷科的什么人就在附近，这多少算是一条线索。\n\n辛克尔正在为空间站内部的信任危机而烦恼，想必艾丝妲面对的压力也不小。我们简单聊了聊，她推测黑塔要找的可能是呜呜伯，但这结论可能不太对。最后辛克尔向我推荐了小阿德勒，据说他是界种科最了解奇物的人。\n\n我在拜访阿德勒的途中偶遇了阿兰，他似乎也在寻找阿德勒，我决定与他同行。\n\n阿德勒在遭到袭击时被我们救下。我表明了来意，他似乎从我的话语中受到了什么启发。我应该是从艾丝妲之前提到的另一个人口中了解到了什么。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "通过忆泡探索关联记忆【艾丝妲的烦恼】"
+    },
+    {
+      "type": "objective-description",
+      "text": "有关阿德勒的记忆似乎有点模糊，你隐约记得和之前艾丝妲提到的什么人有关",
+      "location": "空间站「黑塔」-支援舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（再从头回忆下吧，我可能漏掉了什么…对了，艾丝妲提到的另一个名字。）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "触碰忆泡，进入关联回忆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（关于阿兰和阿德勒的记忆有点模糊，我得再回忆下艾丝妲提起的另一个人。）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "探索关联记忆【艾丝妲的烦恼】",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "探索关联记忆【黑塔的委托】",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "留在当前回忆",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "再次回忆与艾丝妲的对话内容"
+    },
+    {
+      "type": "objective-description",
+      "text": "得到辛克尔的建议之后你似乎又和艾丝妲聊了些什么，尝试着回忆一下",
+      "location": "空间站「黑塔」-基座舱段"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入关联回忆【艾丝妲的烦恼】"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（旁听以斯帖与科员的对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "以斯帖",
+          "text": "啧啧啧，看看这小女娃，多乖巧，多水灵。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "「学会研究员」",
+          "text": "行行行行行行行，咱们很熟吗？事儿办得怎么样了？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "以斯帖",
+          "text": "诶哟哟，你在我这老婆子面前有什么好谦虚的。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "以斯帖",
+          "text": "要我说，密卷科这上上下下的年轻人啊，论手脚麻利哪个也比不上你。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "「学会研究员」",
+          "text": "你的办事能力，我信得过。要不考虑下？此间事了，跟我一同离开？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "以斯帖",
+          "text": "你看这几摞资料吧，不知是哪个小年轻这么不上道，字搞这么小。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "以斯帖",
+          "text": "我年纪大啦，眼也花啦，你看要不……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "「学会研究员」",
+          "text": "也行，看着啊，这几天我给你整点刺激的。大的要来了！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（又来了…记忆里的只言片语似乎混在了一起。）"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（再仔细回忆一下吧……）"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "…唔，没有实体，但有生命的奇物？抱歉，我一时没有头绪……"
+    },
+    {
+      "type": "text",
+      "text": "（抛出记忆盲点或许可以唤醒模糊的记忆）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "抛出记忆盲点·信任危机",
+          "content": [
+            {
+              "type": "text",
+              "text": "（回想起了更多遗漏的记忆）"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "怎么样，打听到你想要的情报了么？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "暂时没有进展。",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "原来如此，辛克尔和■■■是这么看的么，这至少有头绪了不是吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "看见没，我手下的科员可是很优秀的。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "听说你有麻烦。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "艾丝妲",
+                      "text": "家常便饭而已，不用担心。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "感觉你在焦虑。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "艾丝妲",
+                      "text": "焦虑？我吗？果然还是看得出来吗……"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "…质疑的声音在军团事件后从未平息过。物理的损坏总能修复，但治愈人们心中的伤却要很久很久。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "袭击过后，科员中就一直有人对空间站的管理和安保抱有质疑。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "本来重建与复兴的成果已经抚平了一些噪音，但最近科员的连续失踪又让事情再度发酵了。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "科员的连续失踪？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "没错，短短几天内已有4名科员先后失踪。没有外勤记录，就这么凭空消失了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "大家好不容易才从灾难中缓过神，我担心不安扩散，就封锁了消息，让防卫科秘密调查。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "但如你所见，在这个密封的罐头里，从来没有不透风的墙。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "找回一度失去的信任，远比建立它要困难得多，所以我才会感到焦虑。我也担心此事背后存在借机煽动舆情的人。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "但现在比起揪出他们，查明事件的真相才更重要。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "需要帮忙么？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "不用啦。好意我心领了，你不是还有黑塔女士的委托要调查么？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "对了，■■■提到的那件事，我也有所耳闻，会一起调查下。空间站的麻烦，我会想办法解决的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "（果然，除辛克尔外，我还咨询了另一个人，只记得对方是密卷科的。）"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "离开",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品记忆盲点·科员失踪"
+    },
+    {
+      "type": "fold",
+      "title": "记忆（当前整理的记忆）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "黑塔委托我寻找某个丢失的奇物，奇物的特征十分抽象，看来我可能需要艾丝妲的帮助。\n\n我找到了艾丝妲，但她似乎对此也知之不详。好在界种科的辛克尔和密卷科的什么人就在附近，这多少算是一条线索。\n\n辛克尔正在为空间站内部的信任危机而烦恼，想必艾丝妲面对的压力也不小。我们简单聊了聊，她推测黑塔要找的可能是呜呜伯，但这结论可能不太对。最后辛克尔向我推荐了小阿德勒，据说他是界种科最了解奇物的人。\n\n辛克尔提到的信任危机问题让我有点在意。我与艾丝妲聊起了这个话题，却意外得知空间站最近有科员连续失踪事件发生。但我总觉得这中间漏掉了什么，自己应该向密卷科的什么人也咨询过失踪奇物的线索。\n\n我在拜访阿德勒的途中偶遇了阿兰，他似乎也在寻找阿德勒，我决定与他同行。\n\n阿德勒在遭到袭击时被我们救下。我表明了来意，他似乎从我的话语中受到了什么启发。我应该是从艾丝妲之前提到的密卷科的某人口中了解到了什么。\n\n阿兰在秘密调查着些什么，救下阿德勒后我试图刨根问底，但他似乎有难言之隐。我猜测应该和艾丝妲之前提到过的科员连续失踪事件有关。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "找到与自己对话过的密卷科科员"
+    },
+    {
+      "type": "objective-description",
+      "text": "除了界种科的辛克尔你还向密卷科的什么人咨询过失踪奇物的线索，会是谁呢",
+      "location": "空间站「黑塔」-黑塔的办公室"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（辛克尔之外的另一个人应该是密卷科的，快想想是谁……）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "触碰忆泡，进入关联回忆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（辛克尔之外的另一个人应该是密卷科的，快想想是谁……）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "探索关联记忆【黑塔的委托】",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "探索关联记忆【阿兰的调查】",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "留在当前回忆",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入关联回忆【黑塔的委托】"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（那个人的身份很重要，也许能把一切都串起来……）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "旁听温世齐与埃美丽对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "温世齐",
+      "text": "哟，猹哥，什么风把您给吹来了？好久不见，想死兄弟我了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "埃美丽",
+      "text": "嗯嗯，没有啦没有啦，还好的啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "温世齐",
+      "text": "那必须是妥妥贴贴。毕竟只要钱到位，什么都好办。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "温世齐",
+      "text": "这是你要的账号，绿色干净，直连内网毫无压力。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "埃美丽",
+      "text": "嗯嗯，好的好的，您有事儿说事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "温世齐",
+      "text": "那您可太看得起我了，我就是一搞内购的，顺带做点无本买卖。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "温世齐",
+      "text": "小打小闹，上不了台面的。你要是搁学会那儿发达了，苟富贵，勿相忘。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "埃美丽",
+      "text": "几次啦？这是第几次啦？！老东西我跟你讲你不要蹬鼻子上……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这里也是…记忆里的只言片语似乎混在了一起。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（难道是我把不相关的事记在一起了？）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（将混淆的记忆复位）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（相信自己的记忆）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "记忆（当前整理的记忆）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "黑塔委托我寻找某个丢失的奇物，奇物的特征十分抽象，看来我可能需要艾丝妲的帮助。\n\n我找到了艾丝妲，但她似乎对此也知之不详。好在界种科的辛克尔和密卷科的埃美丽就在附近，这多少算是一条线索。\n\n辛克尔正在为空间站内部的信任危机而烦恼，想必艾丝妲面对的压力也不小。我们简单聊了聊，她推测黑塔要找的可能是呜呜伯，但这结论可能不太对。最后辛克尔向我推荐了小阿德勒，据说他是界种科最了解奇物的人。\n\n辛克尔提到的信任危机问题让我有点在意。我与艾丝妲聊起了这个话题，却意外得知空间站最近有科员连续失踪事件发生。但我总觉得这中间漏掉了什么，自己应该向密卷科的埃美丽也咨询过失踪奇物的线索。\n\n我在拜访阿德勒的途中偶遇了阿兰，他似乎也在寻找阿德勒，我决定与他同行。\n\n阿德勒在遭到袭击时被我们救下。我表明了来意，他似乎从我的话语中受到了什么启发。我应该是从艾丝妲之前提到的密卷科的某人口中了解到了什么。\n\n阿兰在秘密调查着些什么，救下阿德勒后我试图刨根问底，但他似乎有难言之隐。我猜测应该和艾丝妲之前提到过的科员连续失踪事件有关。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "回忆与埃美丽的对话内容"
+    },
+    {
+      "type": "objective-description",
+      "text": "埃美丽提供的线索对之后的阿德勒产生了启发，尝试着回忆一下究竟是什么",
+      "location": "空间站「黑塔」-基座舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（我想起来了，另一个人是埃美丽！她当时在基座舱段。）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "触碰忆泡，进入关联回忆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（回忆一下埃美丽当时说了些什么吧。）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "探索关联记忆【艾丝妲的烦恼】",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "探索关联记忆【阿兰的调查】",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "留在当前回忆",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入关联回忆【艾丝妲的烦恼】"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "旁听以斯帖与埃美丽对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "以斯帖",
+      "text": "啧啧啧，看看这小女娃，多乖巧，多水灵。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "埃美丽",
+      "text": "嗯嗯，没有啦没有啦，还好的啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "以斯帖",
+      "text": "诶哟哟，你在我这老婆子面前有什么好谦虚的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "以斯帖",
+      "text": "要我说，密卷科这上上下下的年轻人啊，论手脚麻利哪个也比不上你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "埃美丽",
+      "text": "嗯嗯，好的好的，您有事儿说事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "以斯帖",
+      "text": "你看这几摞资料吧，不知是哪个小年轻这么不上道，字搞这么小。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "以斯帖",
+      "text": "我年纪大啦，眼也花啦，你看要不……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "埃美丽",
+      "text": "几次啦？这是第几次啦？！老东西我跟你讲你不要蹬鼻子上……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不好意思打断一下…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "以斯帖",
+      "text": "哟，乖乖小年轻，又来一个。好好好，人多点好，多点好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "埃美丽",
+      "text": "什么，你说艾丝妲叫你来找我？无实体但有生命的奇物…奇物不该问界种科吗，关密卷科什么事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "埃美丽",
+      "text": "不过，我倒是听说过类似的东西。听一位出外勤的同事说，仙舟联盟就有这种生命。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "埃美丽",
+      "text": "啊，我只是转述啊，没有要帮你的意思。唉，最近空间站的气氛越来越怪了，随便站队很危险的。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品记忆盲点·仙舟联盟"
+    },
+    {
+      "type": "fold",
+      "title": "记忆（当前整理的记忆）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "黑塔委托我寻找某个丢失的奇物，奇物的特征十分抽象，看来我可能需要艾丝妲的帮助。\n\n我找到了艾丝妲，但她似乎对此也知之不详。好在界种科的辛克尔和密卷科的埃美丽就在附近，这多少算是一条线索。\n\n辛克尔正在为空间站内部的信任危机而烦恼，想必艾丝妲面对的压力也不小。我们简单聊了聊，她推测黑塔要找的可能是呜呜伯，但这结论可能不太对。最后辛克尔向我推荐了小阿德勒，据说他是界种科最了解奇物的人。\n\n除了界种科的辛克尔我还向密卷科的埃美丽咨询了失踪奇物的线索，她告诉我据说仙舟联盟里就有类似的生命体。\n\n辛克尔提到的信任危机问题让我有点在意。我与艾丝妲聊起了这个话题，却意外得知空间站最近有科员连续失踪事件发生。\n\n我在拜访阿德勒的途中偶遇了阿兰，他似乎也在寻找阿德勒，我决定与他同行。\n\n阿德勒在遭到袭击时被我们救下。我表明了来意，他似乎从我的话语中受到了什么启发。这应该是和密卷科埃美丽提到的存在于仙舟联盟的类似生命体有关。\n\n阿兰在秘密调查着些什么，救下阿德勒后我试图刨根问底，但他似乎有难言之隐。我猜测应该和艾丝妲之前提到过的科员连续失踪事件有关。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "再次回忆与阿兰的对话内容"
+    },
+    {
+      "type": "objective-description",
+      "text": "艾丝妲提到的那起事件让阿兰放下了提防，他手中掌握着重要的调查结果",
+      "location": "空间站「黑塔」-支援"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（埃美丽提到的仙舟物种似乎就是启发了阿德勒的东西。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（艾丝妲提到的科员失踪应该也和阿兰的调查有关。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（现在的话，应该能把一切串联起来了。）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "触碰忆泡，进入关联回忆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（埃美丽提到的仙舟物种似乎就是启发了阿德勒的东西。）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "探索关联记忆【阿兰的调查】",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "探索关联记忆【黑塔的委托】",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "留在当前回忆",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "我就知道你会找我追根究底……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "抱歉，情况特殊，我真的不能多说，只能告诉你是个秘密任务。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "和■■■■■■有关？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（果然，我隐约记得阿兰又说了什么，和我忘记的事有关……）"
+    },
+    {
+      "type": "text",
+      "text": "（抛出记忆盲点或许可以唤醒模糊的记忆）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "抛出记忆盲点·科员失踪",
+          "content": [
+            {
+              "type": "text",
+              "text": "（回想起了更多遗漏的记忆）"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿兰",
+              "text": "抱歉，情况特殊，我真的不能多说，只能告诉你是个秘密任务。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "和科员失踪事件有关？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿兰",
+              "text": "为、为什么你会知道？！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿兰",
+              "text": "…这样啊，你也察觉到小姐的压力了么？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "有什么进展么？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿兰",
+              "text": "…我和你坦白吧，非常棘手。监控没有拍到任何一名失踪科员消失时的影像。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿兰",
+              "text": "唯一的线索是阿德勒的发现：在失踪事件发生前后，空间站的自动灭火系统有短暂启动的记录。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿兰",
+              "text": "也就是说，每位受害者的失踪都伴随着匪夷所思的起火现象。而在走访过程中，一些目击证词也印证了这点…"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿兰",
+              "text": "他们是这么描述的…「人体自燃」。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "获得物品记忆盲点·人体自燃"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "抛出记忆盲点·仙舟联盟",
+          "content": [
+            {
+              "type": "text",
+              "text": "（当前抛出的记忆盲点无法唤醒模糊的记忆，请尝试其他记忆盲点）"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "抛出记忆盲点·信任危机",
+          "content": [
+            {
+              "type": "text",
+              "text": "（当前抛出的记忆盲点无法唤醒模糊的记忆，请尝试其他记忆盲点）"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "离开",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（阿兰）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "阿兰",
+          "text": "抱歉，情况特殊，希望你能帮我保密……"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "记忆（当前整理的记忆）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "黑塔委托我寻找某个丢失的奇物，奇物的特征十分抽象，看来我可能需要艾丝妲的帮助。\n\n我找到了艾丝妲，但她似乎对此也知之不详。好在界种科的辛克尔和密卷科的埃美丽就在附近，这多少算是一条线索。\n\n辛克尔正在为空间站内部的信任危机而烦恼，想必艾丝妲面对的压力也不小。我们简单聊了聊，她推测黑塔要找的可能是呜呜伯，但这结论可能不太对。最后辛克尔向我推荐了小阿德勒，据说他是界种科最了解奇物的人。\n\n除了界种科的辛克尔我还向密卷科的埃美丽咨询了失踪奇物的线索，她告诉我据说仙舟联盟里就有类似的生命体。\n\n辛克尔提到的信任危机问题让我有点在意。我与艾丝妲聊起了这个话题，却意外得知空间站最近有科员连续失踪事件发生。\n\n我在拜访阿德勒的途中偶遇了阿兰，他似乎也在寻找阿德勒，我决定与他同行。\n\n阿德勒在遭到袭击时被我们救下。我表明了来意，他似乎从我的话语中受到了什么启发。这应该是和密卷科埃美丽提到的存在于仙舟联盟的类似生命体有关。\n\n阿兰在秘密调查着些什么，救下阿德勒后我试图刨根问底，但他似乎有难言之隐。我稍微试探了一下，果然他在调查的是艾丝妲之前提到过的科员连续失踪事件。在阿德勒的帮助下，他发现每起失踪事件都伴随着人体自燃现象。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "再次回忆与阿德勒的对话内容"
+    },
+    {
+      "type": "objective-description",
+      "text": "通过埃美丽的见闻，阿德勒有了一个大胆的猜想",
+      "location": "空间站「黑塔」-支援舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿德勒",
+      "text": "你问过界种科的室长吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她说可能是呜呜伯。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿德勒",
+      "text": "好像也没毛病…但似乎又不太对。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "听说■■■■也有类似的生物。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（咦，这里我说了什么？）"
+    },
+    {
+      "type": "text",
+      "text": "抛出记忆盲点或许可以唤醒模糊的记忆"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "记忆盲点·仙舟联盟",
+          "content": [
+            {
+              "type": "text",
+              "text": "（回想起了更多遗漏的记忆）"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿德勒",
+              "text": "好像也没毛病…但似乎又不太对。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "听说仙舟联盟也有类似的生物。",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿德勒",
+              "text": "哦，没错，那东西叫岁阳。硬要说的话，呜呜伯也算是岁阳的亲戚，都是一种能量生命。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿德勒",
+              "text": "咦，等等，这么一说…我有了一个大胆的猜想，但需要验证下。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿德勒",
+              "text": "今天先到此为止吧，你等我联系。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "获得物品记忆盲点·能量生命"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "记忆盲点·科员失踪",
+          "content": [
+            {
+              "type": "text",
+              "text": "（当前收集的记忆盲点无法唤醒模糊的记忆，请收集更多记忆盲点）"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "记忆盲点·信任危机",
+          "content": [
+            {
+              "type": "text",
+              "text": "（当前收集的记忆盲点无法唤醒模糊的记忆，请收集更多记忆盲点）"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "离开",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "记忆（当前整理的记忆）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "黑塔委托我寻找某个丢失的奇物，奇物的特征十分抽象，看来我可能需要艾丝妲的帮助。\n\n我找到了艾丝妲，但她似乎对此也知之不详。好在界种科的辛克尔和密卷科的埃美丽就在附近，这多少算是一条线索。\n\n辛克尔正在为空间站内部的信任危机而烦恼，想必艾丝妲面对的压力也不小。我们简单聊了聊，她推测黑塔要找的可能是呜呜伯，但这结论可能不太对。最后辛克尔向我推荐了小阿德勒，据说他是界种科最了解奇物的人。\n\n除了界种科的辛克尔我还向密卷科的埃美丽咨询了失踪奇物的线索，她告诉我据说仙舟联盟里就有类似的生命体。\n\n辛克尔提到的信任危机问题让我有点在意。我与艾丝妲聊起了这个话题，却意外得知空间站最近有科员连续失踪事件发生。\n\n我在拜访阿德勒的途中偶遇了阿兰，他似乎也在寻找阿德勒，我决定与他同行。\n\n阿德勒在遭到袭击时被我们救下。我表明了来意，他表示界种科辛克尔推测的呜呜伯和密卷科埃美丽听说的岁阳都是一种能量生命，并似乎从中受到了什么启发。\n\n阿兰在秘密调查着些什么，救下阿德勒后我试图刨根问底，但他似乎有难言之隐。我稍微试探了一下，果然他在调查的是艾丝妲之前提到过的科员连续失踪事件。在阿德勒的帮助下，他发现每起失踪事件都伴随着人体自燃现象。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "再次回忆与黑塔的对话内容"
+    },
+    {
+      "type": "objective-description",
+      "text": "阿德勒的见解让你终于回想起黑塔委托的全貌，再次确认一下委托的内容吧",
+      "location": "空间站「黑塔」-黑塔的办公室"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（人体自燃…这应该就是事件的全貌了。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（以防万一，再回忆下开头与黑塔的对话吧…）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "触碰忆泡，进入关联回忆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（从头好好检查一遍，回到最开始与黑塔的对话…）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "探索关联记忆【黑塔的委托】",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "探索关联记忆【艾丝妲的烦恼】",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "留在当前回忆",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与黑塔对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "以防你没记住，我再描述一下：那是一种■■■■，没有实体，但拥有生命。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "见着它的痕迹，就给我发个信号。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "■■■■？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（她似乎提到了令人在意的事，但我想不起来了。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（如果有一些提示的话，或许……）"
+    },
+    {
+      "type": "text",
+      "text": "（抛出记忆盲点或许可以唤醒模糊的记忆）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "抛出记忆盲点·能量生命",
+          "content": [
+            {
+              "type": "text",
+              "text": "（回想起了更多遗漏的记忆）"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "黑塔",
+              "text": "以防你没记住，我再描述一下：那是一种能量生命，没有实体，但拥有生命。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "黑塔",
+              "text": "见着它的痕迹，就给我发个信号。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "能量生命？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "黑塔",
+              "text": "重点不是这个。如果不是和天才俱乐部有关，我才不会管它。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "黑塔",
+              "text": "总之，好好干吧。我要出门一趟，想找人帮忙，你可以问艾丝妲。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "获得物品记忆盲点·天才俱乐部成员"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "抛出记忆盲点·科员失踪",
+          "content": [
+            {
+              "type": "text",
+              "text": "（当前抛出的记忆盲点无法唤醒模糊的记忆，请尝试其他记忆盲点）"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "抛出记忆盲点·仙舟联盟",
+          "content": [
+            {
+              "type": "text",
+              "text": "（当前抛出的记忆盲点无法唤醒模糊的记忆，请尝试其他记忆盲点）"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "离开",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "记忆梳理",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "text",
+          "text": "黑塔委托我寻找某个丢失的奇物，那是一种和天才俱乐部有关的能量生命，看来我可能需要艾丝妲的帮助。\n\n我找到了艾丝妲，但她似乎对此也知之不详。好在界种科的辛克尔和密卷科的埃美丽就在附近，这多少算是一条线索。\n\n辛克尔正在为空间站内部的信任危机而烦恼，想必艾丝妲面对的压力也不小。我们简单聊了聊，她推测黑塔要找的可能是呜呜伯，但这结论可能不太对。最后辛克尔向我推荐了小阿德勒，据说他是界种科最了解奇物的人。\n\n除了界种科的辛克尔我还向密卷科的埃美丽咨询了失踪奇物的线索，她告诉我据说仙舟联盟里就有类似的生命体。\n\n辛克尔提到的信任危机问题让我有点在意。我与艾丝妲聊起了这个话题，却意外得知空间站最近有科员连续失踪事件发生。\n\n我在拜访阿德勒的途中偶遇了阿兰，他似乎也在寻找阿德勒，我决定与他同行。\n\n阿德勒在遭到袭击时被我们救下。我表明了来意，他表示界种科辛克尔推测的呜呜伯和密卷科埃美丽听说的岁阳都是一种能量生命，并似乎从中受到了什么启发。\n\n阿兰在秘密调查着些什么，救下阿德勒后我试图刨根问底，但他似乎有难言之隐。我稍微试探了一下，果然他在调查的是艾丝妲之前提到过的科员连续失踪事件。在阿德勒的帮助下，他发现每起失踪事件都伴随着人体自燃现象。\n\n黑塔委托我调查的是和呜呜伯与岁阳类似的能量生命，发生在科员身上的人体自燃现象也是个棘手的麻烦。但之前阿德勒似乎有一个大胆的猜想，他的直觉很准，似乎可以期待一下。"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "以上部分属于任务「记忆回溯」"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "接受真理医生的质询"
+    },
+    {
+      "type": "objective-description",
+      "text": "记忆盲点已经收集完毕，接下来是面对质询以及做出申辩的时间",
+      "location": "空间站「黑塔」-禁闭舱段"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "时间回到现在……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "感谢这一大段冗长而沉闷的叙述，你一定累了吧——反正我是听累了。谢谢，人麻了已经"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "所以，你和黑塔的最后一面是在她的办公室。你接下委托，为寻找奇物四处奔波，而对其他事浑然不知，直到艾丝妲小姐联络了你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "如果这就是你的主张，那换我提问了：有任何人能证明此事么？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "黑塔？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "艾丝妲？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "不，她并不在现场，只是从你口中听的转述——这无法构成证明。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "螺丝咕姆？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "螺丝咕姆",
+              "text": "抱歉，黑塔并未向我提及此事。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "逻辑：可以向黑塔本人求证。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "嗯，现在迈开腿开始奔跑，或许能在四个系统时后追上公司的接驳星船——眼下，没有第三者能为他/她作证。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "拉帝奥先生，你的提问方式总有种先入为主的倾向。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "失礼了，是我的坏习惯。从事学术研究的人，总会变得很难相信一件事。相反，质疑它要容易得多。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "就经验来看，这也是最高效的做法：怀着否定的心态求索，也是一种求索，同样能帮助我们抵达正确的终点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "如果他/她确实无罪，就用回答来为自己洗脱嫌疑吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "质询开始"
+    },
+    {
+      "type": "fold",
+      "title": "如果退出游戏后重新登录",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "fold",
+          "title": "额外对话（螺丝咕姆）",
+          "collapsed": true,
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "螺丝咕姆",
+              "text": "在这种情境下重逢。逻辑：并不令人喜悦。"
+            }
+          ]
+        },
+        {
+          "type": "fold",
+          "title": "额外对话（艾丝妲）",
+          "collapsed": true,
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "别担心，只是走个过场了解下情况，你不会真觉得我们怀疑你吧？"
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "真理医生",
+          "text": "请开始你的陈述——想清楚，再发言。"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "进入质询"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "根据你的陈述，你同黑塔见面的原因是收到了指名委托。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "申辩",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "如果你认识黑塔，就不会觉得这有什么奇怪……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别人说话时不要插嘴——没人教过你礼仪吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "回忆：记忆盲点·信任危机",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "回忆：记忆盲点·人体自燃",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "回忆：记忆盲点·天才俱乐部成员",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "委托的内容，是寻找一件连名字都知之不详的奇物。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "申辩",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "（黑塔确实没告诉我奇物的名字。我们当时在聊其他话题，她是顺带提起的……）"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "但对于奇物的特征，黑塔做了详细的描述，显然不是我杜撰的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "确实。你编不出来。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "（怎么回事，这种被轻视的感觉……）"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "回忆：记忆盲点·信任危机",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "回忆：记忆盲点·人体自燃",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "回忆：记忆盲点·天才俱乐部成员",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "可黑塔的收藏多如繁星，很难想象她会对一件寻常奇物如此珍而重之。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "申辩",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "没错，但前提是「寻常」的奇物。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "不妨有话直说。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "螺丝咕姆",
+              "text": "正确的视角。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "回忆：记忆盲点·信任危机",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "回忆：记忆盲点·人体自燃",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "回忆：记忆盲点·天才俱乐部成员",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "奇物并非重点，只是因为它和天才俱乐部有关，黑塔才格外重视。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "螺丝咕姆",
+              "text": "想必那件奇物是某位天才的创造。逻辑：具有非凡的意义。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "嗯…这一点倒是成立。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "进入下一辩论回合"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "黑塔关注的，应当不是奇物本身。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入下一轮辩论"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "随后你是这么说的：为了调查丢失的奇物，曾向艾丝妲求助。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "申辩",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "没错，为了获得更多有关奇物的信息。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "虽然没有得到直接回答，但艾丝妲为我引荐了合适的科员。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "回忆：记忆盲点·信任危机",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "回忆：记忆盲点·人体自燃",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "回忆：记忆盲点·天才俱乐部成员",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "可在问询开始前，她却对此事只字未提。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "申辩",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "拉帝奥先生，这是因为……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "我是在向他/她提问，艾丝妲小姐。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "从表现出模棱两可的态度开始，你的证言也不再可信了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "回忆：记忆盲点·信任危机",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "回忆：记忆盲点·人体自燃",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "回忆：记忆盲点·天才俱乐部成员",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "我开始好奇了：是你在说谎，还是她有所隐瞒？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "申辩",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "艾丝妲不是刻意要隐瞒的，只是碍于立场…有些事不适合放到台面上讲。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "有什么立场比黑塔的安危更重要？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "…也罢，既然我默许拉帝奥先生参与此事，他就不是外人了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "开拓者，没事的，告诉他吧。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "回忆：记忆盲点·信任危机",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "反物质军团的风波过后，空间站始终人心浮动，深陷信任危机。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "如果此时再有恶性事件发生，无异于火上浇油，会彻底点燃内部的矛盾。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "哦，难怪艾丝妲小姐会默许我的加入。毕竟博识学会的代表不太会和空间站有所牵连，但立场却与公司一致。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "不用担心偏私，也会保护空间站的利益——一举两得。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "进入下一辩论回合"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "回忆：记忆盲点·人体自燃",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "回忆：记忆盲点·天才俱乐部成员",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "推测：艾丝妲选择了沉默。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入下一轮辩论"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "科员连续失踪…防卫科队长阿兰的任务，我也有所耳闻。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "申辩",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "没错，我是在拜访阿德勒的途中遇见阿兰的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "阿德勒？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "一名II级科员，界种科室长口中「界种科最了解奇物的人」。当时他碰巧在协助阿兰调查连续失踪事件。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "那他有告诉你答案么？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "阿德勒当时似乎想到了什么，但之后却迟迟没有联络我。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "回忆：记忆盲点·信任危机",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "回忆：记忆盲点·人体自燃",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "回忆：记忆盲点·天才俱乐部成员",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "但这显然与我们在讨论的人偶遇袭没有关系。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "申辩",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "（两起事件没有关联？我不这么认为。证据应该是存在的，只要调查某项记录……）"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "回忆：记忆盲点·信任危机",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "回忆：记忆盲点·人体自燃",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "不，如果我没记错，艾丝妲是这么说的：「一具人偶遭到了原因未知的袭击，下落不明，信号也始终无法定位。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "「下落不明」…不就是「失踪」吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "她是说了，那又如何？如果你想证明二者是同一件事，就拿出证据。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "证据应该是存在的。阿兰在调查连续失踪事件时，发现了一件怪事。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "在科员消失前后，空间站的自动灭火系统有短暂启动的记录。阿兰是这么形容的，每位受害者的失踪都伴随着离奇的自燃……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "咦？可空间站哪里都没有着火的痕迹呀……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "这正是奇怪的地方。但眼下，这一信息还有更重要的意义。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "虽然不能作为直接证据，但如果人偶遇袭前后，系统中也出现了灭火装置的启动记录……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "那就有充足的理由怀疑，两起事件彼此相关。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "质询结束"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "回忆：记忆盲点·天才俱乐部成员",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "不要装傻，你知道我在说什么！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "申辩",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "你再怎么怀疑，我也只是一个被意外卷入的无关人士。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "——和同样被意外卷入，却开始扮演审问者的你没什么不同。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "哦。所以呢？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "回忆：记忆盲点·信任危机",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "回忆：记忆盲点·人体自燃",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "回忆：记忆盲点·天才俱乐部成员",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我想起来了，当时…当时……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "别装了，请你闭嘴。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "更正：关联或许存在。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "质询结束"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "…如果两起事件确是同一人所为，那你的嫌疑会下降许多。但前提是系统中有你主张存在的记录。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "去主控室看看就知道了，出发吧…咦，有什么动静？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你收到了一条短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "黑塔纠察队",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "来了来了来了！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "无证开飞船",
+          "contentType": "text",
+          "text": "什么来了？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "大的要来了！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "毁人不倦",
+          "contentType": "text",
+          "text": "？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "text": "我的天哪！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "content": [
+            {
+              "type": "fold",
+              "title": "[含有大的的视频](https://www.bilibili.com/video/BV1wc411y7ve?t=85.2)",
+              "collapsed": true,
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "播音员",
+                  "text": "黑塔女士单推快讯——插播一条紧急新闻！插播一条紧急新闻！"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "播音员",
+                  "text": "黑塔女士遇袭一事终于有了下文！「泯灭帮」宣称对整起事件负责，并将采取下一步行动。协会对此表示强烈谴责……"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "narration",
+                  "tone": "描述",
+                  "text": "紧急快讯被干扰了…"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "？？？",
+                  "text": "星间诸神离世异俗，无心顾及渺渺众生。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "？？？",
+                  "text": "唯有负创的恩主，得令诸界沐浴「毁灭」的火光。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "？？？",
+                  "text": "总有怯懦小人，妄图拒绝恩典、逃离赐伤。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "？？？",
+                  "text": "逃吧，尽管逃吧——无论逃往何处，泯灭终将到访！"
+                }
+              ]
+            }
+          ],
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "这是…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "一纸宣战书，一封预告函——你们被盯上了。军团余波未息，泯灭帮便紧随其后，看来比起智识，贵空间站和毁灭的命途更投缘。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "这位「冥火大公」阿弗利特是诞自已灭星球「陀斐特」的生命。无时无刻不在燃烧的火魔一族视纳努克为皇帝，称其为恩主，却从未得到星神的瞥视。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "一群可怜的疯子。我喜欢原始博士的评价：「纳努克从所谓『泯灭帮』身上看到的价值，或许还远不及一个故意将花瓶打碎的婴孩」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "火魔天性凶暴，燃烧和破坏是他们的本能。而阿弗利特尤为邪恶残忍，他所领导的「永火官邸」甚至和同为泯灭帮的「耶佩拉兄弟会」是死敌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "耶佩拉兄弟会，似乎在哪儿见过这个名字……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "在星核猎手的通缉令上，他们被指控与耶佩拉叛乱案有关——导致了兄弟会的覆灭。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "耶佩拉宫在烈焰中倾倒，而后阿弗利特的势力日益壮大，你相信这只是巧合？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "同样的事马上就要在空间站上演了。身为火魔，他当然擅长人体自燃的把戏，科员和人偶的失踪也都是计划的一部分，而在这之后……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "那条视频很快就会在空间站传开。看着吧，用不了多久，「黑塔」就会变成一片火海。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "「信任」的毁灭。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "要毁灭的，恐怕不止信任。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "不想坐以待毙，就采取行动。你，跟我走。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "只有我？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "不然呢，让他们俩到处乱跑，把「空间站出事了」写脸上？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "这么做就落了下乘…我会留在这里，尽力控制消息扩散，期间调查就拜托你们了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "得到阿兰的协助"
+    },
+    {
+      "type": "objective-description",
+      "text": "质询结束，你暂时洗清了嫌疑，但真理医生点名要求你一同前往阿兰处寻求协助",
+      "location": "空间站「黑塔」-主控舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "很遗憾发生了这种事…事态紧急，你们需要什么，防卫科一定全力相助。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "一份失踪科员的名单，和他们的详细信息。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "可以是可以，但防卫科详细排查了他们的身份背景和人际关系，没发现什么共同点。泯灭帮是伙亡命徒，可能是无差别袭击……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "一份失踪科员的名单，和他们的详细信息。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "好、好的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "拿着，记住这些名字，然后找个消息灵通的朋友，就说你想知道这些人的联系。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "有什么头绪？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "与帕梅拉发消息让你拿姬子照片换「瓜田里猹」消息的那个人"
+    },
+    {
+      "type": "message-thread",
+      "title": "帕梅拉",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "好久不见。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "老规矩，姬子，一张照片切一个瓜，包甜。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "能赊账吗？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "别人不能，你可以谈。20点利息，赊账5次，多付一张。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "还得是您。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "那是，谈完价钱谈事情，说吧。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "帮我找找这群人之间的关联。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "哦？好东西。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "这失踪案传得沸沸扬扬，消息又封锁得紧，完整名单我都没有。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "你也对管理层不满？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "哪能啊。我就一小职员，有鱼摸就好。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "那些个天天嚼上头舌根的主，要我看都是吃饱了撑的。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "擅自期待和擅自失望的都是一拨人，跟他们扯上关系，没好事。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "你倒是活得通透。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "夸我也别想赖账啊。放心，有消息我就联系你。",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "还有什么需要我做的么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "带我去见那个「界种科最了解奇物的人」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "他、他也消失了……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "发生什么事了？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "最开始我还没在意，毕竟阿德勒平时就常常不见人影。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "但已经好几个系统时了，我一直联系不上他，甚至调用监控都找不到他的踪影……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "最后一次见他，是在主控舱段，和应物科的温世玲在一起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "带路吧。你说过这个阿德勒似乎有什么线索，但没来得及说出口。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "如果他的失踪也和袭击有关——恐怕他真的意识到了什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（的确。记得当时启发阿德勒的关键词是「能量生命」，冥火大公也是一种元素生命，只是巧合么？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（有必要调查一下……）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "向丹恒发消息"
+    },
+    {
+      "type": "message-thread",
+      "title": "丹恒",
+      "subtitle": "智库相关找我",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "我需要你的帮助。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "什么事？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "你知道「冥火大公」阿弗利特吗？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "泯灭帮？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "最好不要扯上关系。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "空间站遇上了麻烦，和他有关。"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "详情阿兰会跟你说。"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "我想知道更多和他有关的事。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "明白了，等我消息。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "你自己多小心。情况有变，第一时间通知。",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品线索信息·失踪科员名单"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向温世玲调查取证"
+    },
+    {
+      "type": "objective-description",
+      "text": "阿德勒的失踪令事件更加扑朔迷离，但温世玲似乎还记得他失踪前的反常举动",
+      "location": "空间站「黑塔」-主控舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "温世玲",
+      "text": "臭小子！臭小子！臭小子！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "温世玲",
+      "text": "玩失踪，我叫你玩失踪，别让我再见到你！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "谁又惹你生气了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "温世玲",
+              "text": "是你啊，我跟你说，阿德勒，阿德勒他不见了呜呜呜啊啊啊啊……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "阿德勒怎么你了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "温世玲",
+              "text": "阿德勒，阿德勒他不见了呜呜呜啊啊啊啊……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "温世玲",
+      "text": "他、他最近很奇怪，老在研究什么人体自燃、灵异现象……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "温世玲",
+      "text": "我叫他，他也不理我，嘴里还念念有词，神神叨叨的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "他说了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "温世玲",
+      "text": "好、好像是「香味」什么的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "香味……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们会带他回来的。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "温世玲",
+      "text": "谁要他回来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "温世玲",
+      "text": "但如果你们要找他…最后一次见到他时，他一直在翻这本小册子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "温世玲",
+      "text": "虽然我不知道他究竟在找什么，但希望对你们有用……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你收到了帕梅拉的短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "帕梅拉",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "我来了。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "有结果了？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "有，但很微妙。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "说说看。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "这些受害者，身份各异，人际关系也确实没什么交集。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "但是……",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "他们都在黑网上发表过针对管理层的过激言论，且拥护者很多。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "……什么？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "我知道这个结果会让人联想到很多事。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕梅拉",
+          "contentType": "text",
+          "text": "很遗憾，这就是事实。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "……辛苦了。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "看你的脸色，不像什么好消息。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（转述帕梅拉的发现。）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "哦，失踪的科员是声讨管理层的意见领袖，这就有些耐人寻味了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "在你回消息的时候，我也翻完了这本册子。上面记录了几位天才俱乐部会员的生平——不乏一些有趣的信息。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "是时候回去和艾丝妲小姐，还有螺丝咕姆先生聊一聊了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你收到了丹恒的短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "丹恒",
+      "subtitle": "智库相关找我",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "这个阿弗利特不简单。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "怎么说？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "陀斐特的火魔生性凶猛残暴，但阿弗利特却轻而易举地成为了一族领袖。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "在火魔中，他的火焰性质也属于特殊的那一类。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "什么意思？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "在不少永火官邸引发的恶性事件中，我发现了类似的目击报告：「暴徒自火焰中降临」。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "只是我的推测，阿弗利特的火焰，或许继承了某种和他起源有关的，燃烧之外的能力。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "具备类似性质的火焰，我听说过一种，因其不断在相位中穿梭而难以捕捉。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "有关它的资料并不多，唯有一笔「燃烧诸界，留下众多火焰后裔」引人注意。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "阿弗利特…也许就是其后裔之一。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "相位穿梭……"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "大致就这些。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "关联记录数量有限，不知对你有没有帮助。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "足够了，谢谢。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "那就好。",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品线索信息·“香味”、线索信息·附录小册子、线索信息·穿梭相位的火焰"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "返回禁闭舱段盘点调查结果"
+    },
+    {
+      "type": "objective-description",
+      "text": "真理医生似乎已经从蛛丝马迹中找到了答案，该回禁闭舱段复盘整起事件了",
+      "location": "空间站「黑塔」-禁闭舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "你们回来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "我派人监控黑网，勉强限制了视频的传播，事态暂时没有进一步发酵。你们那边呢，结果如何？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "不容乐观，或者换种说法——糟透了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "时间紧迫，这就从头梳理一遍现状吧。从已知信息中，可以发现三个突破口……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "说明开始"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "首先，是阿德勒的失踪，他一定抓住了什么关键线索。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "议论",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "阿德勒也……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "螺丝咕姆",
+              "text": "你认为，阿德勒的发现引起了敌人的注意。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "正是。而且我已弄清了他发现的东西。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "出示：线索信息·“香味”",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "线索信息·附录小册子",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "线索信息·穿梭相位的火焰",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "其次，是受害者的共同点，当然，这是个不怎么愉快的话题。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "议论",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "不愉快的话题？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "只看明面上的资料，这些消失的科员并无共通性。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "但在调查了网络浏览记录后，{{开拓者|你}}发现他们都是空间站黑网的意见领袖。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "这意味着什么，艾丝妲小姐一定很清楚吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "出示：线索信息·“香味”",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "线索信息·附录小册子",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "线索信息·穿梭相位的火焰",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "最后，是冥火大公的能力，也就是「人体自燃」的秘密。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "议论",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "关于这一点，{{开拓者|你}}想必也已知晓。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "陀斐特的火魔，泯灭帮的大公…阿弗利特身上还有一个秘密。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "出示：线索信息·“香味”",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "线索信息·附录小册子",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "线索信息·穿梭相位的火焰",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "在过去永火官邸引发的混乱中，曾有人目击「暴徒自火焰中降临」的景象。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "冥火大公的火焰具有某种特殊的性质，而这种性质…正是「人体自燃」的秘密所在。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "看——答案已经呼之欲出了。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "第一部分说明完毕"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "将三者串联起来的是……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "下一轮说明开始"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "这本小册子上记载着一种能穿梭相位的火焰，据说其「燃烧诸界，留下了众多火焰后裔」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "议论",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "螺丝咕姆",
+              "text": "是「相位灵火」，#29丝丝喀尔的造物。她是位了不起的天才，聪明，善良，而且谦卑。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "螺丝咕姆",
+              "text": "但可惜，以人类的时间观念来界定，她只活了短暂的二十九天。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "螺丝咕姆",
+              "text": "相位灵火甫一出生就变换到了其他相位，等归来时，丝丝喀尔已然寿终正寝。此后它就这样不断变换相位，再难以被捕捉。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "出示：线索信息·失踪科员名单",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "线索信息·附录小册子",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "线索信息·穿梭相位的火焰",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "这种火焰的火种…想必就是黑塔丢失的奇物。而冥火大公则是火焰的后裔。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "议论",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "螺丝咕姆",
+              "text": "曾有人偶然窥见相位灵火的踪迹，捕得一绺子火。黑塔将其收下，又借予阮·梅研究，不想灵火火种却因此丢失。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "螺丝咕姆",
+              "text": "如果阿弗利特也是相位灵火的后裔，此事的全貌就清晰可见了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "出示：线索信息·失踪科员名单",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "线索信息·附录小册子",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "线索信息·穿梭相位的火焰",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "恐怕这就是阿德勒在调查中发现的真相。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "议论",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "毫无疑问，黑塔委托{{开拓者|你}}寻找的奇物就是「相位灵火」的火种。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "而阿德勒通过「能量生命」这一点，早早察觉了人体自燃和相位灵火的关系。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "出示：线索信息·失踪科员名单",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "线索信息·附录小册子",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "据温世玲所说，阿德勒在消失前始终念叨着「香味」一词。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "但那恐怕是「相位」——他在这本小册子中看到了#29丝丝喀尔的专题，验证了自己的猜想。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "身为其后裔，冥火大公有着和相位灵火相似的能力。恐怕他无法做到「相位变换」，但能实现劣化的「空间转移」。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "这就是人体自燃的真相：科员们并非消失，而是被「转移」了。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "说明结束"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "线索信息·穿梭相位的火焰",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我明白了，答案是…是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真理医生",
+              "text": "牵强附会，差不多得了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "（这个证物的确有说服力……）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "说明结束"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "受害者们的下落，暂时还不得而知。但至此，冥火大公的计划已然明了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "突如其来的连续失踪，无疑是培育混乱的最佳温床。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "待到不安的种子生根发芽，便发出袭击声明，将暗中发酵的危机推至台前，催它生长，开花结果。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "而下一步，啪——就是点燃火星。看看这些失踪的科员，假设他们的共同点被人发现，会是什么后果？不用我多说。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "一切都是布好的陷阱，目的从一开始就是挑起空间站的内乱！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "…来不及了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "真理医生的话很快在群里应验…"
+    },
+    {
+      "type": "message-thread",
+      "title": "黑塔纠察队",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "text",
+          "text": "「猹里猹气」上传了【文档】失踪科员身份考"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "无证开飞船",
+          "contentType": "text",
+          "text": "？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "毁人不倦",
+          "contentType": "text",
+          "text": "？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "毁人不倦",
+          "contentType": "text",
+          "text": "这是个啥？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "text": "“失踪科员皆系空间站黑网意见领袖……”",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "text": "好家伙，防卫科都不知道的东西，你小子消息倒是很灵通啊。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "咳，我这不也是刚从隔壁转的嘛。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "毁人不倦",
+          "contentType": "text",
+          "text": "感觉有点强行啊，但如果这是真的……",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "无证开飞船",
+          "contentType": "text",
+          "text": "我闻到了阴谋的味道。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "自导自演一出失踪戏码，实则是为了铲除异己。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "啧啧，好手段呐。可惜正义虽迟但到，管理层必须下台！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "无证开飞船",
+          "contentType": "text",
+          "text": "管理层必须下台！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "毁人不倦",
+          "contentType": "text",
+          "text": "但如果真是这样的话，这个群岂不是危险了？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "无证开飞船",
+          "contentType": "text",
+          "text": "……",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "text": "……",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "猹里猹气",
+          "contentType": "text",
+          "text": "？",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "这…这……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "…不，还不够。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "没错，还差一把火。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "什么意思？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "如果止步于此，你还有辩解的机会。换作是我……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "…就不会给你这个机会。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "螺丝咕姆",
+          "text": "莫非……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "艾丝妲",
+          "text": "怎么了？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "艾丝妲",
+          "text": "诶？"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "艾丝妲周身出现了淡蓝色火光…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "艾丝妲",
+          "text": "火火火火火啊……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "艾丝妲！"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "艾丝妲在你们眼前消失了…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "冷静。艾丝妲只是被传送走了，并无生命危险。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "通过实际接触，我确认阿弗利特的火焰只是原始灵火的火星，不具备相位变换能力。逻辑：艾丝妲仍在空间站内。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "现在该怎么办？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "那团火焰一定还在舱段某处。找到它，总有办法把她带回来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "呵呵，只是一点火星？来自天才的傲慢倒是令我甚感投缘。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "若做得到，就来试试罢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "看来冥火大公并未亲临空间站，只是趁乱将一团冥火投入此地，让它四处游移，狩猎科员。若冥火熄灭，他的阴谋也将荡然无存。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "我会前往黑塔办公室，启用奇物收容室的折叠空间。只要对参数略作修改，它便可用于阻断对方的转移路线，将其封闭在空间站内。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "拉帝奥先生，请你和开拓者先生/女士同行，将其收容。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入拓境探游逃逸冥火"
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "艾丝妲在眼前被冥火吞没生死未卜。如何将她找回那是更后面的事情，在那之前首先得将逃逸的冥火捕获。",
+      "context": "介绍"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "螺丝咕姆似乎有话要叮嘱你"
+    },
+    {
+      "type": "objective-description",
+      "text": "艾丝妲在你们眼前被冥火吞没，先听听螺丝咕姆的判断再做打算",
+      "location": "空间站「黑塔」-禁闭舱段"
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "以下部分属于任务「逃逸冥火」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "冥火也是一种能量生命，会被显像仪捕捉到痕迹。跟上它。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "追踪逃逸的冥火"
+    },
+    {
+      "type": "objective-description",
+      "text": "艾丝妲在眼前被冥火吞没生死未卜，首先得找出逃逸冥火的踪迹",
+      "location": "空间站「黑塔」-禁闭舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "道路被火焰吞没了！它刚刚完成了一次转移。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "小心点——准备好冲进火海。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "尝试触碰火墙"
+    },
+    {
+      "type": "objective-description",
+      "text": "冥火流窜过程中形成了古怪的火墙，穿越火墙会造成空间坐标的偏移",
+      "location": "空间站「黑塔」-禁闭舱段"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "触碰火墙"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "空间坐标发生了偏移……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "看，还在空间站内。和螺丝咕姆说的一样，它无法逃出这里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "你知道对待穷途末路的猎物该怎么做么？——追逐，直至死地。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "追踪逃逸的冥火"
+    },
+    {
+      "type": "objective-description",
+      "text": "虽然一度追上了冥火，但是穿梭空间的特性它又一次成功逃脱",
+      "location": "空间站「黑塔」-禁闭舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "火焰在熄灭…这空间…有古怪……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "它还在试图挣扎。折叠空间的状态变化了，一看便知它逃去了哪里。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "objective-description",
+      "text": "穿梭空间的特性果然很难缠，冥火再一次在你眼前逃脱",
+      "location": "空间站「黑塔」-禁闭舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "人类…为什么？这与你无关……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "火焰在逐渐衰弱，冥火大公无法再维持它了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "objective-description",
+      "text": "冥火的力量在逐渐消散，看来这是一场消耗战",
+      "location": "空间站「黑塔」-禁闭舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "你的目的，究竟……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "看来这场追逐，该到头了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "objective-description",
+      "text": "冥火的力量肉眼可见的虚弱下去，这是捕获它的好机会",
+      "location": "空间站「黑塔」-禁闭舱段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "结束了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "无知的愚者盲目追逐火光，殊不知毁灭的恩赐已然落在脚旁。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "难怪恩主的军团亲临，也未能将此地净化，至此，我就暂且承认自己的鲁莽吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "但下一次，我将亲自造访，用冥火为你们献上罪业的悼亡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "寄宿在其中的微弱意识消失了，冥火大公抛弃了这团火焰……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "…嗯？不，等等——"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "你尝试触摸冥火…"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "…却被冥火上身…"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "冥火开启多个跃迁火墙，放出琳琅满目的怪物…"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "啧…拖延时间的无聊把戏，差不多得了。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入第二波战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "所谓「暴徒自火焰中降临」，就这点程度？看来原始博士所言不假。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入第三波战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "火势在减弱，它要逃了————你，看好艾丝妲小姐的下落。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "赢得胜利"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "你接住了从空中出现的艾丝妲…"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "冥火穿墙逃走了…"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "以上部分属于任务「逃逸冥火」"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们返回螺丝咕姆处…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "辛苦了，你做得很好。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "艾丝妲怎样了？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "请放心，艾丝妲只是受了些惊吓，正在医疗室内恢复。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "以及，在你们追踪敌人的过程中，防卫科找到了失踪的受害者。结论：他们都很安全。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "怎么找到的？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "多亏了阿德勒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "他们都落入了一件空间奇物中，深陷其间无法脱身，直到界种科最了解奇物的人从内部解开了它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "阿兰带人赶到时，这些失踪者大多因过度惊吓而奄奄一息，但都没有生命危险。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "事情告一段落了？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "嗯，至此便结束了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "总觉得你的戏份很少…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "此间事了，相信剩下的风波靠空间站内部便能自行平息。我替黑塔感谢你的付出，先生/女士。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "不过在整起事件中，还有一重疑问尚未得到解决。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "而那是我应当去处理的事了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你收到了群聊消息…"
+    },
+    {
+      "type": "message-thread",
+      "title": "黑塔纠察队",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "text": "听说了吗",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "毁人不倦",
+          "contentType": "text",
+          "text": "嗯",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "毁人不倦",
+          "contentType": "text",
+          "text": "艾丝妲站长也被袭击了。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "玛氏机器人",
+          "contentType": "text",
+          "text": "这个冥火大公",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "玛氏机器人",
+          "contentType": "text",
+          "text": "其心可诛！其心可诛！",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "毁人不倦",
+          "contentType": "text",
+          "text": "古往今来都是攻心最可怕",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "text": "确实，看来这个泯灭帮也不是传闻中那样打打杀杀不带脑子",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "text": "要不是站长最后被救下来了，这口黑锅可就背定喽。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "无证开飞船",
+          "contentType": "text",
+          "text": "这倒不一定，万一这也是她的自导自演呢",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "无证开飞船",
+          "contentType": "text",
+          "text": "一招苦肉计逆风翻盘",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "玛氏机器人",
+          "contentType": "text",
+          "text": "倒也不是没有道理……",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "毁人不倦",
+          "contentType": "text",
+          "text": "可拉倒吧你，差不多得了。",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "毁人不倦",
+          "contentType": "text",
+          "text": "仔细想想犯得着吗？为了几个只敢隔空打字的黑子这么兴师动众",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "玛氏机器人",
+          "contentType": "text",
+          "text": "确实",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "text": "说起来之前那个叫得最起劲的猹里猹气呢",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "毁人不倦",
+          "contentType": "text",
+          "text": "对哦，他当时拉我进来的时候说得可义正词严了",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "text": "我看看",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "比尔盖瓦",
+          "contentType": "text",
+          "text": "嘶，这人不声不响地怎么就已经退了……",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "在禁闭舱段的某处，冥火从墙中钻出，正欲逃跑…"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "…却被一旁等待的真理医生收入了奇物之中…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "螺丝咕姆",
+          "text": "恭候多时了。"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "小小禁闭舱段，人却越来越多…"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "事件余波未熄，你们应该还有很多事要处理吧？还是说，空间站的安危与你无关？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "答案：我正是为此而来。毕竟事件真正的主角——在这里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "…是从什么时候开始怀疑我的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "「从事学术研究的人，总会变得很难相信一件事。相反，质疑它要容易得多。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "从一开始，拉帝奥先生。我也有和你一样的坏习惯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "我深感荣幸，螺丝咕姆先生。可既然你早已看穿，又为何一言不发？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "出于好奇。逻辑：我做了和你一样的决定：同{{行|xíng}}，观察。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "哦…那你又是何时确信的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "以结果而言，除去轻微的精神损伤，没有科员在这场袭击中受到实质性的伤害。这不符合泯灭帮的作风。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "逻辑：是第三者救了他们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "若非我偶然取得灵火火种，出手干涉了冥火的传送，那些人早已是漂在窗外的太空垃圾了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "你比计算中更坦诚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "但终究在你的计算中，不是么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "最后一个问题：螺丝咕姆，天才如你，能算出我这么做的理由么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "我无法确定，只能做出推论：对弱者出手相救，是医者仁心；此后袖手旁观，任事态发酵，是学者的严厉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "而身居幕后，掌控全局——则是向天才寄出的挑战。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "螺丝星的君王果然通晓人心，只可惜也和天才一样远离凡众——你还是错了一点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "袖手旁观才是真正的医治：这世上有种顽疾名为「愚钝」，比任何病症都更难根除。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "智识的命途既无道理，也无逻辑，天才们漫步繁星，凡庸却连一处脚印都无法追及。庸人只得学着独立行走，在跌倒爬起中度过碌碌一生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "但失败的人生同样是人生，他们有权品尝至最后；也只有摔倒在地，无人扶起的时候，愚者才能领悟如何站起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "我有洁癖，见不得笨蛋、傻瓜、白痴，看见了，就想死——可惜这空间站也和博识学会一样，并无天才，遍地凡庸。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "你想要根除的，是科员对「天才」的盲信。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "我只是列出自己的质疑，至于答案…他们自会解明。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "怀着否定的心态求索，也是一种求索，同样能帮助我们抵达正确的终点。一群庸人若要开悟，这是必经的过程。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "比起学者，你的确更像一位「医生」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "至于我留下的点点星火……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "相信艾丝妲能妥善处理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "这也是留给她的课题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真理医生",
+      "text": "那么，告辞了，希望未来也能有机会与诸位天才相遇。相信届时，也会如今日这般……"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "真理医生",
+          "text": "一场闹剧，诸般烦恼。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "真理医生",
+          "text": "终究不过…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "真理医生",
+          "text": "庸人自扰。"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "真理医生转身离开，消失在空间站内…"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "真理医生已成为列车的访客，回到列车将有机会遇到真理医生"
+    },
+    {
+      "type": "fold",
+      "title": "后续短信（黑塔）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "message-thread",
+          "title": "黑塔",
+          "subtitle": "此号停用 | 商务联系：艾丝妲",
+          "owner": "开拓者",
+          "collapsed": false,
+          "content": [
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "黑塔",
+              "contentType": "text",
+              "text": "事我听说了，干得不错",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "right",
+              "speaker": "开拓者",
+              "contentType": "text",
+              "text": "艾丝妲怎么样了？"
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "黑塔",
+              "contentType": "text",
+              "text": "已经在干活了",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "right",
+              "speaker": "开拓者",
+              "contentType": "text",
+              "text": "我是说她的安全…"
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "黑塔",
+              "contentType": "text",
+              "text": "有我在，你还不放心？",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "right",
+              "speaker": "开拓者",
+              "contentType": "text",
+              "text": "有你在，我才不放心。"
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "黑塔",
+              "contentType": "text",
+              "text": "那确实",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "right",
+              "speaker": "开拓者",
+              "contentType": "text",
+              "text": "可惜没能找到「相位灵火」。"
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "黑塔",
+              "contentType": "text",
+              "text": "算了",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "黑塔",
+              "contentType": "text",
+              "text": "就当阮·梅欠我一个人情",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "黑塔",
+              "contentType": "text",
+              "text": "价值还更高",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "黑塔",
+              "contentType": "text",
+              "text": "就这样吧",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "right",
+              "speaker": "开拓者",
+              "contentType": "text",
+              "text": "还得感谢拉帝奥先生。"
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "黑塔",
+              "contentType": "text",
+              "text": "那是谁？",
+              "acknowledged": true
+            },
+            {
+              "type": "message",
+              "side": "right",
+              "speaker": "开拓者",
+              "contentType": "text",
+              "text": "嗯？"
+            },
+            {
+              "type": "message",
+              "side": "left",
+              "speaker": "黑塔",
+              "contentType": "text",
+              "text": "嗯？",
+              "acknowledged": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

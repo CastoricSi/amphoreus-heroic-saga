@@ -1,0 +1,3671 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "夜色名为温柔",
+    "pageId": 9817,
+    "revisionId": 77430,
+    "parentRevisionId": 60352,
+    "revisionTimestamp": "2026-02-01T17:02:42Z",
+    "fetchedAt": "2026-09-28T00:16:22.253Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%A4%9C%E8%89%B2%E5%90%8D%E4%B8%BA%E6%B8%A9%E6%9F%94",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%A4%9C%E8%89%B2%E5%90%8D%E4%B8%BA%E6%B8%A9%E6%9F%94&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "夜色名为温柔",
+    "region": "匹诺康尼",
+    "type": "开拓任务",
+    "version": "2.0",
+    "number": "08",
+    "series": "喧哗与骚动",
+    "description": "流萤看起来似乎很愧疚。她希望带你再去一个地方——不是什么旅游景点，而是只属于她的「秘密据点」——她将在那里道出所有秘密。\n跟上她吧，她看起来没有恶意。",
+    "requirements": "完成任务好兆头，我的朋友",
+    "requiredLevel": "34",
+    "characters": [
+      "流萤",
+      "钟表小子",
+      "黄泉",
+      "米沙",
+      "花火",
+      "砂金",
+      "三月七",
+      "瓦尔特",
+      "姬子"
+    ],
+    "relatedItems": [
+      "「欢欣」齿轮"
+    ],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "900"
+      },
+      {
+        "item": "星琼",
+        "amount": "110"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "12"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "10"
+      },
+      {
+        "item": "金表钞",
+        "amount": "450"
+      },
+      {
+        "item": "《使一颗心免于哀伤》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "100000"
+      }
+    ],
+    "previousMissions": [
+      "好兆头，我的朋友"
+    ],
+    "nextMissions": [
+      "犹在镜中"
+    ],
+    "objectives": [
+      "跟随流萤，前往「秘密据点」",
+      "跟随钟表小子",
+      "对帮派老大使用钟表把戏",
+      "继续跟随流萤，前往「秘密据点」",
+      "与流萤会合",
+      "跟随流萤，抵达筑梦边缘深处",
+      "对猎犬家系成员使用钟表把戏",
+      "继续跟随流萤，抵达筑梦边缘深处",
+      "利用梦境的特性继续前进",
+      "利用梦境的特性构筑通路",
+      "继续跟随流萤，抵达筑梦边缘深处",
+      "乘坐弹珠机",
+      "继续跟随流萤，抵达筑梦边缘深处",
+      "（可选）休息一下，眺望匹诺康尼大剧院",
+      "继续跟随流萤，抵达筑梦边缘深处",
+      "找到第一块拼图碎片",
+      "从路人处获得筑梦师缺失的情绪齿轮",
+      "补全筑梦师的心绪表盘",
+      "找到第二块拼图碎片",
+      "利用梦境的特性构筑通路",
+      "继续跟随流萤，抵达筑梦边缘深处"
+    ],
+    "synopsis": [
+      "你与流萤同行时，遇到向你呼救的钟表小子。钟表小子称米沙有危险，奇怪的是，似乎只有你能看到它。",
+      "钟表小子称自己与哈努兄弟、仓鼠球骑士等卡通人物是匹诺康尼的守护者，只能被有童心的人看到。你决定带流萤一起前去解救米沙。",
+      "你看到米沙与黄泉被一群帮派分子团团围住，无法脱身。钟表小子请求你为他们解围。",
+      "钟表小子称，石头老板是一切混乱的罪魁祸首。钟表小子将「钟表把戏」传授给你，希望你带回人们的好情绪，让大家和好如初。",
+      "帮派老大要给黄泉一个教训，怒斥你多管闲事。你尝试对其施展钟表把戏。",
+      "于此闹事的假面愚者引来了帮派盘查。误会解除后，米沙与黄泉向你道谢。黄泉好奇你如何影响他人的情绪，你解释自己使用钟表把戏。",
+      "黄泉称自己前不久与一位身披黑纱、来自「流光忆庭」的女士共舞，对方以模因形式存在。黄泉认为，这与你提到的钟表小子很相似。",
+      "黄泉祝你与流萤在梦里过得愉快，米沙与钟表小子向你道别。问题解决后，你继续跟随流萤前往她的「秘密据点」。",
+      "你与流萤来到一处咖啡厅，但「秘密据点」的入口却在咖啡厅旁的窨井盖下。流萤搬动井盖，带领你钻入其中。",
+      "砂金与假面愚者花火谈判，尝试获取其协助。花火嘲讽砂金的茨冈尼亚血统，拒绝与公司合作，但给与砂金一句提示：去和哑巴交朋友。",
+      "你与流萤来到「筑梦边境」，游客通常不被允许到达此地。这里是梦境世界的建造边缘，流萤的「秘密据点」就在这里面。",
+      "猎犬家系成员将你与流萤拦截，称前方是闲人免进的施工重地。守卫的言语中没有通融余地，或许你可以试着对他使用钟表把戏。",
+      "站在你面前的守卫十分沉着，看起来毫无破绽。也许你该在钟表把戏中使用「激将法」。",
+      "在钟表把戏的作用下，守卫的心情变为「欢欣」。他热情地邀请你跳支舞，但仍然不允许你们从此通过。也许你得使些「激将法」才行。",
+      "在钟表把戏的作用下，守卫的心情变为「悲伤」。他觉得自己是多余的，求你别践踏他最后的尊严。也许你得使些「激将法」才行。",
+      "在钟表把戏的作用下，守卫的心情变为「愤怒」。他不由分说地要「教育」你们遵守规则，召来美梦剧团向你发起攻击。",
+      "你战胜了美梦剧团，在守卫面前展现了青春的力量。守卫喃喃着感慨与懊悔，将你与流萤放行。",
+      "你与流萤于此眺望匹诺康尼大剧院。剧院散发着耀眼的光芒，宛若五光十色的美梦本身。沐浴光芒之人会被其温暖吸引，一如逐火飞萤。",
+      "在钟表把戏的作用下，筑梦师的心情变为「欢欣」。筑梦师沉浸在绝妙的灵感中，创作出拼图碎片。",
+      "你与流萤遇到无法绕过的看守。流萤提议与你一同把它们赶跑，你的球棒再次派上用场。",
+      "流萤向你袒露心声，为先前的隐瞒致歉，她的确是一个「偷渡犯」。流萤的故乡早已毁灭，她患有「失熵症」，只有在梦里才可以不用待在「医疗舱」中。流萤的目标是「钟表匠的遗产」，她认为人们之所以沉睡，是因为害怕从「梦」中醒来。",
+      "气氛有些沉重，你回想列车组成员们的行事方式，提议与流萤合照留念。流萤欣然应允，她将手机递给你，眼神里满是期待。",
+      "与快门声一同刻入你记忆中的，还有身旁可爱女孩的温柔呼唤：「茄子——！」",
+      "你即将与列车组集合，流萤也需要返回现实休息。美好的时光总是短暂，你与流萤在「黄金的时刻」分别。"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#夜色名为温柔、众秘探奇#集异璧",
+      "相关书籍": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随流萤，前往「秘密据点」"
+    },
+    {
+      "type": "objective-description",
+      "text": "流萤看起来似乎很愧疚。她希望带你再去一个地方——不是什么旅游景点，而是只属于她的「秘密据点」——她将在那里道出所有秘密。\n跟上她吧，她看起来没有恶意。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "走这边吧……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（…咦？那里是不是有个什么…东西在呼救？）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "滴答！救命！救命啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "要出人命啦！来人啊！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "发生什么事了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "？？？",
+              "text": "我说得很清楚了——要出人命啦！救命！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你在求救吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "？？？",
+              "text": "是啊，是啊！请你帮帮我，不然要出人命啦！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你是个什么…东西？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "？？？",
+              "text": "嘿！我可是块钟表，不是什么「东西」！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "嘿，等等——你…能看得到我？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…怎么了？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我看到一个…有手有脚的钟表。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我好像看到奇怪的东西了…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "没什么，不重要。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "难道…你真能看得到我？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "滴答！太好了！太好了！米沙他有救了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "哦，抱歉，还没有进行自我介绍呢！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "我叫钟表小子，是美梦小镇匹诺康尼的大明星！我和我的朋友们一起守护着这座小镇的和平——他们分别是哈努兄弟、汽水先生、折纸小鸟、仓鼠球骑士……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "…还有米沙！米沙他遇到危险啦——滴答！救命！救命！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "钟表小子，我能帮上你的忙吗？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "钟表小子？你是个动画人物？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "会说话的钟表。我一定是疯了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "会说话的钟表？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…钟表小子？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "你是说…你看到了一个现实中不存在的动画人物？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是的，我看到了他。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不会是幻觉吧…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "滴答，我当然存在啦！我可是美梦小镇匹诺康尼的大明星，从来不吹牛！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你看不到吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "呃…在哪儿？我看不到啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "滴答！我猜，只有直率、纯真、有童心的孩子才能看见我——比如这位灰色的朋友！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "他说只有孩子能看到他。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "呃，可是你看上去比我大吧，只看外表的话……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "他说你不够直率、纯真、有童心。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "…我哪里不够直率、纯真、有童心了…！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "滴答，滴答！灰色的朋友！既然你能看到我，那你一定能帮我个忙！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "我的好朋友米沙，他遇到麻烦了！求求你，救救他吧！不然就要出人命啦！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "他说求我帮帮他…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "欸……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "他说要出人命了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "欸…这么严重吗……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "那你要先去帮帮这位…呃，只有你能看到的钟表小子吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我没有怀疑你，毕竟在梦里什么都有可能发生…我说的地方，晚点再去也没问题的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "滴答，滴答！快跟上，快跟上，灰色的朋友！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "米沙遇到危险啦！他就在那里，我来带你去！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（米沙这个名字好令人在意…总之先看看发生了什么吧。）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随钟表小子"
+    },
+    {
+      "type": "objective-description",
+      "text": "流萤看起来似乎很愧疚。她希望带你再去一个地方——不是什么旅游景点，而是只属于她的「秘密据点」——她将在那里道出所有秘密。\n没走出多久，你就被一只会说话的钟表拦住了去路。他拜托你帮他解救米沙，酒店的门童。也许你应该去看看？",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "快，快！要像仓鼠球骑士那样快！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "咦，那儿有好多人，好像真的发生什么事了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "滴答！就是那里，就是那里！钟表小子可不会吹牛！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你看到一帮人围着黄泉和米沙…"
+    },
+    {
+      "type": "fold",
+      "title": "待机语音",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "帮派老大",
+          "text": "有种咱俩比划比划！"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "米沙",
+      "text": "各位，请冷静一下……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帮派老大",
+      "text": "不懂规矩的家伙，看我怎么收拾你！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "众帮派分子",
+      "text": "好啊！老大，好好教训她！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "怎么会这样……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那不是米沙吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "咦？米沙是谁？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "那不是黄泉吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "咦？你认识她吗？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "怎么都是熟人啊？！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "咦？「都是」是什么意思…？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "噢，看吧，看吧！我没有撒谎！米沙遇到危险啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "滴答！求你了，灰色的朋友！帮帮米沙吧！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "先跟我说说发生了什么事吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "你在和钟表小子说话？…嗯，我也很好奇发生了……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我该怎么帮他？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "你在和钟表小子说话？…是啊，局面看起来要控制不住了……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我的球棒已经等不及了！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "可是球棒的效率太低…不对！我是说，我们不能用这么粗暴的方式解决问题……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "滴答，滴答！场面变得这么混乱，都是石头老板的错！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "石头老板是美梦小镇里最坏的坏蛋——他是个贪心鬼，想要把美梦小镇的镇民都赶走，独占珍贵的石料……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "于是，他指使自己的手下搅乱了梦境，把大家的好情绪全都抽走了！美梦小镇从此充满了焦虑和纷争，大家再也不是一家人！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "但身为美梦小镇的守护者，钟表小子不能坐视不管——只要使用「钟表把戏」，让流淌在梦境的好情绪重新回到人们心里，大家一定能和好如初！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "来吧，灰色的朋友！我有种预感，你一定能够学会钟表把戏，毕竟你特殊到能够看见我！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "而且你是美梦小镇的客人，石头老板没料到你的存在！如果你出手，那个大坏蛋一定被打得措手不及！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么钟表把戏？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "我这就告诉你！闭上眼睛——"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "真的没问题吗…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "没关系，我们至少可以先试试看！闭上眼睛——"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你自己怎么不上？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "我自己一个人是用不了钟表把戏的，因为他们都看不见我！所以拜托你了，闭上眼睛——"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "滴答！这样我们就是*一心同体*了，有没有感觉力量在体内流动！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "来吧，现在去找那个生气的帮派老大——施展钟表把戏，把好情绪全都灌进去，砰，大功告成！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "一定要记住：绝对不能用钟表把戏做坏事——我们可是美梦小镇的守护者，滴答！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "对帮派老大使用钟表把戏"
+    },
+    {
+      "type": "objective-description",
+      "text": "跟随钟表小子来到事发现场，你注意到正在被围攻的不仅有米沙，还有那位容易迷路的巡海游侠。事出紧急，钟表小子亲自传授了你一门独门绝技「钟表把戏」，据说能用来「把好情绪灌注到他人体内」…真的吗？试试看就知道了。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（黄泉&米沙）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "两人暂时无暇聊天，还是先利用「钟表把戏」解决眼下的问题吧。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与帮派老大对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帮派老大",
+      "text": "你小子/小丫头滚一边去，别碍事！我要让那个女人明白自己惹错人了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "施展钟表把戏！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "通过钟表把戏，可以调校转换这家伙的情绪状态！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "最后在这里进行确认，滴答！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "不打扰你了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "咦，你看不到他的内心吗？这下我们该怎么办……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "帮派老大的当前情绪：愤懑"
+    },
+    {
+      "type": "tabs",
+      "tabs": [
+        {
+          "id": 1,
+          "title": "调校为镇静",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "…我刚才是…怎么了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "嘿，他好像变正常了——太好了！你成功了！"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "我看到个表盘，然后拨动了它。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "钟表小子",
+                      "text": "对！这就说明你成功施展了钟表把戏！"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "我不知道啊…是我干的吗？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "钟表小子",
+                      "text": "应该…是的吧？不然，他怎么会突然冷静下来呢？"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "我刚才…不会是想要和那位小姐打一架吧？我疯了吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "众帮派分子",
+              "text": "老大这是怎么了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "哎，不好意思，请教您一个问题——是您让我冷静下来的吗？我有点发昏……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "别客气，应该的。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "帮派老大",
+                      "text": "好吧，谢谢您。要是对宾客动了粗，我们可要被猎犬家系重罚了。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "我的天啊，你变得好有礼貌。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "帮派老大",
+                      "text": "嗐，毕竟要是对宾客动了粗，我们可要被猎犬家系重罚了。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "实在抱歉啊，给各位添麻烦了…唉，我这火气怎么就突然往上涌了呢？真是莫名其妙……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "噢，灰色的朋友！你一定要告诉他，是石头老板干的好事！"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "人总有情绪失控的时候。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "帮派老大",
+                      "text": "嗐，让各位来宾看笑话了…真是不好意思。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "也许因为我们都在梦里吧。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "帮派老大",
+                      "text": "哈哈，这也不失为一种原因。"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "是石头老板干的，想不到吧？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "帮派老大",
+                      "text": "石头老板？呃，我没明白您的意思……"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "不管怎么样，我得给各位好好赔礼道歉才是——小的们，给我列队！好好向贵客们道歉！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "众帮派分子",
+              "text": "是、是！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "预备——起！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "众帮派分子",
+              "text": "给您添麻烦了！非常抱歉！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "噢，天哪——他们看起来可真诚恳。既然这样，你是不是也能叫他们离开了？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "谢谢你们的好意…",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "…但能给我们一些私人空间吗？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "当然、当然！一切都由各位说了算——小的们，散了！别打扰我们的贵客享受休闲时光！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "众帮派分子",
+              "text": "是！老大！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "调校为欢欣",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "…哈哈哈哈哈！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "你成功了！可他怎么变成了这个样子？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "我看到个表盘，然后拨动了它。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "钟表小子",
+                      "text": "对！这就说明你成功施展了钟表把戏！"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "我不知道啊…是我干的吗？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "钟表小子",
+                      "text": "应该…是的吧？不然，他怎么会突然开始笑呢？"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "只是…噢，他的样子可真让人害怕——就像是真正的、喜怒无常的石头老板一样。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "哦，嗨，各位！请原谅我的冒昧，欢迎来到梦想之地匹诺康尼！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "小的们，给我列队！好好欢迎我们的贵客！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "众帮派分子",
+              "text": "是、是！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "预备——起！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "众帮派分子",
+              "text": "欢迎来到梦想之地匹诺康尼！"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "呃…谢谢你们？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "帮派老大",
+                      "text": "别客气，都是应该的！"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "众帮派分子",
+                      "text": "都是应该的！"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "客气什么，都是自己人！",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "帮派老大",
+                      "text": "您说得对！在祂的眼中，我们都是一家人！"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "众帮派分子",
+                      "text": "都是一家人！"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "免礼，平身。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "帮派老大",
+                      "text": "全听您的吩咐！您是我们最尊贵的客人——"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "众帮派分子",
+                      "text": "您开心就好！"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "噢，天哪！看来你在他们心里有相当的分量啦。既然这样，你是不是也能叫他们离开了？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "谢谢你们的好意…",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "…但能给我们一些私人空间吗？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "当然、当然！一切都由各位说了算——小的们，散了！别打扰我们的贵客享受休闲时光！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "众帮派分子",
+              "text": "是！老大！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "调校为悲郁",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "…呜…呜呜呜……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "噢，我的天啊！是你把他弄哭了吗？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "我看到个表盘，然后拨动了它。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "钟表小子",
+                      "text": "对！这就说明你成功施展了钟表把戏！"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "我不知道啊…是我干的吗？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "钟表小子",
+                      "text": "应该…是的吧？不然，他怎么会哭成这个样子呢？"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "呜呜…呜呜呜……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "众帮派分子",
+              "text": "老大这是怎么了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "噢，他的样子可真让人伤心，就连美梦小镇的守护者也快要哭出来啦。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "你怎么了？为什么这么伤心？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "帮派老大",
+                      "text": "呜呜…我…突然想起了母星的老妈……"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "哥们，别哭了，多大个人了。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "帮派老大",
+                      "text": "呜呜…我…突然想起了母星的老妈……"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "我可真是个大恶人。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "帮派老大",
+                      "text": "呜呜…这不是您的错，我只是…突然想起了我母星的老妈……"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "众帮派分子",
+              "text": "我们现在该怎么办？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "噢，天哪——他们简直要乱套了。不过，现在是不是个让他们离开的好机会？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "朋友，您要不然…",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "…找个地方静一静？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "呜呜…您说的是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帮派老大",
+              "text": "呜…小的们，都给我散了…让我一个人静静……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "众帮派分子",
+              "text": "是！老大！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "米沙",
+      "text": "我们又见面了，客人！是你帮我们化解了危机吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "米沙，怎么了？你认识这位灰色的朋友吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "米沙",
+      "text": "他/她是尊贵的客人——前不久我们成为了朋友。我跟你提起过，记得吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "噢，原来就是他/她！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "米沙",
+      "text": "总之，谢谢你！如果你没有及时赶到，这里就要乱作一团了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "谢谢你，开拓者。真没想到这么快就再会了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不客气，应该的。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我也没想到这么快。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "方才的混乱…听说是有群假面愚者在街头闹事，扰乱了秩序。我途径此地，受到盘查，过程中发生了一些…误会。就结果而言，又给你添麻烦了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这位小姐…也是你的熟人吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "熟人说不上，有过一面之缘，他/她此前在酒店帮了我，是位善良的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "也很高兴认识你，美丽的小姐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "美、美丽的小姐……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "不过，你刚才对那位先生做了什么？他瞬间的情绪变化…有些不可思议。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我也想问这个…到底发生了什么？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "钟表小子赋予了我钟表把戏。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "没错！就是我，钟表小子！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "当然，也多亏了你。如果没有你施展的钟表把戏，美梦小镇可就要陷入麻烦啦！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "是话疗，我用了话疗。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "你在说什么！不是话疗，是钟表把戏！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "黄泉",
+              "text": "恐怕没这么简单吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "我猜，是不是和那个…只有你能看见的钟表小子有关？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "看到我的球棒会害怕很正常啦。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "钟表小子",
+              "text": "你在说什么！不是球棒，是钟表把戏！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "黄泉",
+              "text": "恐怕没这么简单吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "我猜，是不是和那个…只有你能看见的钟表小子有关？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "…钟表小子？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "对，就是那个卡通人物…好像出现在了现实——我的意思是——梦境里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "虽然我也没太搞清楚状况…但开拓者说，似乎只有直率、纯真、有童心的小孩子才能看见它……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "…看来我也已经过了这样的年纪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "但倘若这位钟表小子真的存在，许多事就解释得通了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "咦，你也能看到我吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "我能感受到，有些似是而非的事物陪伴在你身旁。可惜我无法像你一样与之沟通。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "也许我们都对「忆质」有所反应，才能察觉这些梦中的不可思议之物。而你比我更敏锐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "我本以为是那位优雅的忆者在你脑海中留下了什么，现在看来，这梦中和她一样特别的存在不在少数。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "优雅的忆者？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "「她」是谁？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "tabs",
+      "tabs": [
+        {
+          "id": 1,
+          "title": "随机对话1",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黄泉",
+              "text": "与你分别后不久，我无意步入一场舞会，一位身披黑纱的女士邀请我共舞一曲。这是我第一次跳舞…是段令人难忘的经历。[《崩坏：星穹铁道》动画短片：「永劫轮舞」](https://www.bilibili.com/video/BV1aC411h7e6/)"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "随机对话2",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黄泉",
+              "text": "与你分别后不久，我在酒店邂逅了一位身披黑纱的女士。她也是受邀前来的客人，向我提起盛会的话题，我们便举起酒杯…相谈甚欢。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "随机对话3",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黄泉",
+              "text": "与你分别后不久，我察觉到有人在暗中窥视。循着镜子中的视线，我最终找到了一位身披黑纱的女士，并与她做了些…深入交流。暂且不细述了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "可惜，忘了请教她的名字…只知道她来自「流光忆庭」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "流光忆庭…是那群奉侍「记忆」星神的人吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "是啊。他们能以模因的形式穿梭于各个世界，只出现在特定的人眼中——不觉得和你口中的钟表小子很像吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "到底是家族的盛会，也许应邀而来的客人比我们想象中还要多上许多呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "总之，再次承蒙各位关照。祝你们在梦里过得愉快，我就不打扰二位…约会了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "不、不是约会…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "呵呵。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "黄泉离开了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…她走掉了。那，我们也…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "去忙吧去忙吧，谢谢你，灰色的朋友！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "米沙",
+      "text": "真的非常感谢！果然无名客都是很了不起的人啊…希望我们有缘再见！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "有缘再见，滴答！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "米沙已成为列车的访客，回到列车将有机会遇到米沙"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续跟随流萤，前往「秘密据点」"
+    },
+    {
+      "type": "objective-description",
+      "text": "解决了钟表小子的大危机，你与众人道别。接下来该接着前往流萤的「秘密据点」了——如果你还记得。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "跟我来吧，这次别再被看不见的朋友叫走了哦……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "抱歉，这次要去的地方必须得坐弹球机…你先请，我会跟在你后面的。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（秘密据点…是咖啡厅？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "来这边——"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我们到了，就是这里。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好漂亮的咖啡厅。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这里就是秘密据点？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "不，不是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "——是这里。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好漂亮的窨井盖。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这里就是…秘密据点？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "嗯，「秘密据点」在里面。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "「里面」？什么意思？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "就是字面意思。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你是要我…钻进去？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "周围的人还在看着呢…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "没关系的！梦里什么都会发生，每天都有好多人从天上掉下来——行人早都见怪不怪了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我先做个示范——刚开始会有点黑，你要跟紧哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与此同时，另一边…"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "一个少女突兀地向身后的某人问话…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "{{？？？|花火}}",
+      "text": "哎，我问你哦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "你吸引女孩子注意的方式，就是大摇大摆地跟踪她么？快半个系统时了哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "准确地说，是45分钟。愉快的时光总是过得飞快，不是吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "呵，小孔雀…你有对漂亮的眼珠啊。老家是茨冈尼亚的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "想要进一步提示吗？比如，我是个{{埃维金|蜂蜜}}人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "嗯…我的眼睛成色是不如你，但我不瞎……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "——全宇宙有哪个不知道你们茨冈尼亚人？天生的骗子、小偷、交际花…口蜜腹剑，名副其实。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "要我说，比起梦里，你更适合待在窨井盖下…啊，那里就有一只，快去吧~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "不必了，阴暗的角落和我气质不搭。还是这座美梦更适合我，轻浮、虚荣、华而不实……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "…还不会下雨！我这身行头可娇贵得很哪，禁不起风吹雨淋。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "收起你那俏皮的舌头，小孔雀。请回吧，我们是愚者，不是傻瓜，不打算和公司的哈巴狗玩朋友游戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "哦，这话当真？你从来没和公司的人交过朋友？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "当我没读过匹诺康尼历史么？别想把我卷进你们无聊的办公室政治。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "愚者——从应邀参加这场盛会起，你就没得挑了。及时选边站，别让自己血本无归。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "你听起来很有把握嘛~显得你已经把家族那位鸡翅膀男孩搞定了似的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "怎么办到的，小孔雀？脱光衣服向他下跪赔罪，承诺「呜呜呜，公司绝对不会打匹诺康尼的主意」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "朋友…得了吧，你们只会把别人当作筹码。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "筹码不好吗？在赌桌上，只有筹码不会把自己赔进去。你看流光忆庭和星穹列车的朋友都明白这个道理，他们就很聪明。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "可聪明的人从一开始就不会入局。你瞧，我是不是更聪明一点？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "听好了，小孔雀，你也是收到过「酒馆」邀请的人。想邀假面愚者入伙？可以，动动脑子，{{乐子神|阿哈}}想要的究竟是什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "给你个提示吧：既然你谁也说服不了，何不考虑去找个哑巴做朋友呢？至少他不会反驳你，哈哈。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "再见了~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "谢谢！「和哑巴交朋友」——我会铭记在心的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "……"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "砂金望向远方的大剧院…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "…真是麻烦。看来，还得再去会会「家族」啊。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与流萤会合"
+    },
+    {
+      "type": "objective-description",
+      "text": "在灌满糖浆的下水道中经历了一段阴暗地爬行，你成功抵达了流萤的「秘密据点」…的入口。\n流萤正在不远处等你，你应该和她会合。",
+      "location": "匹诺康尼-筑梦边境"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "来这边——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我们就快到了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（距离过远）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（还是不要离流萤太远吧…）"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "看，很漂亮的地方，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "通常，游客是不被允许到这来的，所以我们得小心一点，别被其他人发现了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "别担心，不是什么危险地带。你可以把这里理解为黄金时刻的边境，更往外的梦境，家族还在建设改造中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我的「秘密据点」就在这里面。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随流萤，抵达筑梦边缘深处"
+    },
+    {
+      "type": "objective-description",
+      "text": "流萤向你解释了此处是为何地：黄金时刻的边境，梦境的更深处，家族的建设改造地（换句话说，梦中的工地），她还补充说，自己的「秘密据点」就在深处…只是「家族」眼线密布，两人得偷偷溜进去才行。\n向筑梦边缘深处进发吧——身为无名客，偷偷溜进工地只是小菜一碟，对吧？",
+      "location": "匹诺康尼-筑梦边境"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我们偷偷溜进去吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "两位，劳驾。前方是施工重地，闲人免进。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "呀…一上来就被逮到啦。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "可否通融一下。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "好吧，那我们回去。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "我来吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "请您…通融一下吧？我们不会给大家添麻烦的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "不行。上头有规矩，任何非筑梦师团队成员都禁止进入。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "态度也太强硬了吧……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们认识加拉赫。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "猎犬家系成员",
+              "text": "谁？听都没听过。今天就是梦主本人来了，我也不会放你们进去。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这些信用点是一点心意…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "猎犬家系成员",
+              "text": "行了，你收回去。这次我权当没看见，下次再这样我可要通知橡木家系了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "求求你了求求你了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "猎犬家系成员",
+              "text": "每天求我的人可多了，我难道都要通融一下？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "两位也不必再耍其他小聪明了。请回吧，这对你我都好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "唔，看来我们是说服不了他了——我再想想办法吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（也许…可以再用一次钟表把戏？这应该不算「做坏事」吧……）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "对猎犬家系成员使用钟表把戏"
+    },
+    {
+      "type": "objective-description",
+      "text": "流萤向你解释了此处是为何地：黄金时刻的边境，梦境的更深处，家族的建设改造地（换句话说，梦中的工地），她还补充说，自己的「秘密据点」就在深处…只是「家族」眼线密布，两人得偷偷溜进去才行。\n你们的旅途刚一开始就结束了，因为一名极有原则的猎犬家系成员把守着大门。如果你们想继续深入，恐怕必须得用钟表把戏干点坏事了…愿钟表小子宽恕你。",
+      "location": "匹诺康尼-筑梦边境"
+    },
+    {
+      "type": "fold",
+      "title": "试图强行闯入",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（感受到了锐利的视线，还是回头吧…）"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "两位也不必再耍其他小聪明了。请回吧，这对你我都好。"
+    },
+    {
+      "type": "text",
+      "text": "眼前的男人十分沉着，看起来毫无破绽——也许你得使些「激将法」才行。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "尝试洞察他的内心。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不打扰你了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "猎犬家系成员",
+              "text": "感谢您配合「家族」的工作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "猎犬家系成员当前情绪：镇静"
+    },
+    {
+      "type": "fold",
+      "title": "将猎犬家系成员的情绪调校为欢欣",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "噢，天哪……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "天哪…天哪、天哪、天哪…！"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "朋友，你怎么了？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "我现在非常…开心！"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你变得好怪——这下糟了。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "糟了？哪里糟了？我现在非常…开心！"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "天哪天哪天哪…",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "哈，朋友——你看起来像我一样…开心！"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "你能感受到吗？这种感觉…甚至可以说——有点疯狂！就像连续喝了十瓶元年苏乐达，然后在梦境贩售店狠狠泡上一整天！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "如果米娅在这儿，我们就能高歌一曲，她一定懂我的感受！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "我简直要控制不住这种狂热的情绪了…我向你发出邀请，英俊的先生/美丽的小姐——与我跳一支舞吧！现在！此时此刻！就在这里！"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "和你跳舞就能放我们过去了吗？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "噢，当然不能——规矩就是规矩！"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "不过，就算您不愿意与我共舞——也没关系！"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "我必须得…婉拒你。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "噢，这可真是太糟糕了。但没关系，我依旧狂热！"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "我只需要这疯狂的感觉，与扑通乱跳的心…但愿它一直都在！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "当然，你们还是不能通过这里——这是我的职责！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "流萤",
+          "text": "他可真是…太有原则了。"
+        },
+        {
+          "type": "text",
+          "text": "男人变得十分开心，但依旧滴水不漏——也许你得使些「激将法」才行。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "尝试再次洞察他的内心。",
+              "content": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "将猎犬家系成员的情绪调校为悲郁",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "啊，两位尊贵的客人…欢迎来到匹诺康尼。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "我是猎犬家系的成员，负责维持梦境世界的治安——虽然在家族的保护下，梦里根本不会有危险——当然，这也意味着我是多余的，连垃圾桶都不如。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "你不必这样妄自菲薄。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "噢，抱歉。我只是…情难自禁。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "没关系，我可以创造危险！",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "噢，请别。因为我一定制服不了你。"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "没关系，我喜欢垃圾桶。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "噢，那我会建议您找爱德华医生接受精神分析治疗。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "总之，请给我一点私人空间吧，尊贵的客人。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "两位大可去好好享受这灯红酒绿的梦境世界，而不是在这里陪我这样一个连垃圾桶都不如的家伙谈心。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "那可以请你放我们过去吗？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "噢，当然不能。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "我的尊严已经所剩无几——行行好，求您别把我这仅存的一点也踩碎了。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "那就请你不要挡我们的道了。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "噢，很抱歉挡了你们的路。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "但我的尊严已经所剩无几——行行好，求您别把我这仅存的一点也踩碎了。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "当然，你们也可以选择强闯过去…但我发誓一定会跟二位拼命——我已经没什么好失去的了……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "流萤",
+          "text": "我感觉自己好有负罪感……"
+        },
+        {
+          "type": "text",
+          "text": "男人刚才提到了「拼命」…如果你良心还过得去，或许真的可以试试看。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "尝试再次洞察他的内心。",
+              "content": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "将猎犬家系成员的情绪调校为愤懑"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "我说了多少遍——施工重地，非请勿入！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "你们两个，一定要在我面前现眼是吗？那别怪我不客气了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "来啊，比划比划！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "猎犬家系成员",
+              "text": "哈，这可是你自找的！但你可别太嚣张——像你这种人，我见过太多了！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我不是这个意思…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "猎犬家系成员",
+              "text": "别想狡辩——你这种人我见过太多了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "仗着自己年轻有活力，天不怕地不怕，每天游手好闲、惹是生非，自私自利，一点都不知道为社会贡献价值！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "像你这样无视规则的小屁孩，我要修正你——上吧，美梦剧团！给我狠狠地教训他们/她们！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗并获胜"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "可恶，我竟然输了…这就是…青春的力量吗……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "如果那时我也有这种力量，米娅…我们是不是就能有个不一样的结局？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "你们走吧。胜者的权利，尽情享用吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "他是不是有点入戏了？但总算能过去了……"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（猎犬家系成员）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "你们走吧。胜者的权利，尽情享用吧……"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续跟随流萤，抵达筑梦边缘深处"
+    },
+    {
+      "type": "objective-description",
+      "text": "流萤向你解释了此处是为何地：黄金时刻的边境，梦境的更深处，家族的建设改造地（换句话说，梦中的工地），她还补充说，自己的「秘密据点」就在深处…只是「家族」眼线密布，两人得偷偷溜进去才行。\n跨越了倒下的猎犬家系成员，你们决定继续前进。不虚此行，对吧？",
+      "location": "匹诺康尼-筑梦边境"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "结果是这样进来的…钟表戏法，好神奇啊。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这里没路了，所以我们要借用下筑梦师的工具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "接下来的事，会有点超乎你的想象……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "启动「筑梦遥眼」"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "利用梦境的特性继续前进"
+    },
+    {
+      "type": "objective-description",
+      "text": "流萤向你解释了此处是为何地：黄金时刻的边境，梦境的更深处，家族的建设改造地（换句话说，梦中的工地），她还补充说，自己的「秘密据点」就在深处…只是「家族」眼线密布，两人得偷偷溜进去才行。\n通向深处的道路扑朔迷离，恐怕你得开动脑筋，活用梦境的性质才能继续前进。",
+      "location": "匹诺康尼-筑梦边境"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（空间竟然连在一起了…？！）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这样就可以去对面啦。隐夜鸫家系就是这么修缮梦境的，很奇妙吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "还有飘在空中的筑材…也可以利用下。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "操作「筑梦模块」"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "就像踩上水中的漂浮木板一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我们往那个方向走。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "利用梦境的特性构筑通路"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "从这可以去到对面楼顶，得借用一些机关。我记得是藏在了这里……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "完成筑梦拼图"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续跟随流萤，抵达筑梦边缘深处"
+    },
+    {
+      "type": "objective-description",
+      "text": "流萤向你解释了此处是为何地：黄金时刻的边境，梦境的更深处，家族的建设改造地（换句话说，梦中的工地），她还补充说，自己的「秘密据点」就在深处…只是「家族」眼线密布，两人得偷偷溜进去才行。\n跨越了倒下的猎犬家系成员，你们决定继续前进。不虚此行，对吧？",
+      "location": "匹诺康尼-筑梦边境"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "砰的一下就出来了，不管看多少次都觉得很梦幻。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "那就让我们过去吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "旋转「筑梦模块」"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "乘坐弹珠机"
+    },
+    {
+      "type": "objective-description",
+      "text": "流萤向你解释了此处是为何地：黄金时刻的边境，梦境的更深处，家族的建设改造地（换句话说，梦中的工地），她还补充说，自己的「秘密据点」就在深处…只是「家族」眼线密布，两人得偷偷溜进去才行。\n通向深处的道路扑朔迷离，恐怕你得开动脑筋，活用梦境的性质才能继续前进。",
+      "location": "匹诺康尼-筑梦边境"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续跟随流萤，抵达筑梦边缘深处"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "看，匹诺康尼大剧院——从这里望去，同样一览无余。"
+    },
+    {
+      "type": "section",
+      "level": 4,
+      "title": "（可选）休息一下，眺望匹诺康尼大剧院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "它就在那里，永远散发着耀眼的光芒，就像这五光十色的美梦本身。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我想，沐浴在光中的人，一定都会被那种温暖所吸引吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…就像无数追逐火焰的飞萤。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "走吧，我们还剩一半路。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续跟随流萤，抵达筑梦边缘深处"
+    },
+    {
+      "type": "objective-description",
+      "text": "流萤向你解释了此处是为何地：黄金时刻的边境，梦境的更深处，家族的建设改造地（换句话说，梦中的工地），她还补充说，自己的「秘密据点」就在深处…只是「家族」眼线密布，两人得偷偷溜进去才行。\n通向深处的道路扑朔迷离，恐怕你得开动脑筋，活用梦境的性质才能继续前进。",
+      "location": "匹诺康尼-筑梦边境"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "启动「筑梦遥眼」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这次构造有些复杂了…得好好思考一下。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "不知道这个状态下，还能不能操作飘浮的筑材……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "回收「筑梦遥眼」抵达对岸"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "家族从银河招揽了许多艺术家、建筑师、学者…组成「筑梦师」团队，编织匹诺康尼的美梦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这里是游客不会踏足的拓荒地，所以不像市中心那样热闹…但我很喜欢这种僻静的气氛。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "利用「筑梦遥眼」再次跨越高楼"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "一眨眼的工夫，就轻轻从那栋楼到了这栋楼…在现实里，这是不可能发生的事。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们面前再次出现了筑梦拼图…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "老样子——你已经很擅长了，对吧？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "调查筑梦拼图后碎片逃走了…"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "找到第一块拼图碎片"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "筑梦师",
+      "text": "可恶…到底是哪里出了问题？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "筑梦师",
+      "text": "是我太久没喝苏乐达了吗，还是因为连加了两个月的班——怎么偏偏今天没灵感了呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你看起来很困扰…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "能把拼图碎片给我吗？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "朋友，别卷了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "筑梦师",
+      "text": "…什么人？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "筑梦师",
+      "text": "哪来的游客…我不管你们怎么溜进来的，现在别烦我——要是我没法按时交付，准没你们好果子吃！"
+    },
+    {
+      "type": "text",
+      "text": "看来你得想办法让这位筑梦师振作起来了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "尝试洞察他的内心。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不打扰你了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "筑梦师",
+              "text": "一边去一边去，让我一个人静静！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "咦？这个人的「情绪齿轮」不见啦，滴答！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "我们可以通过「情绪汲取」，获得想要的齿轮。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟表小子",
+      "text": "我感觉到附近就有齿轮存在，去找找看吧。"
+    },
+    {
+      "type": "section",
+      "level": 4,
+      "title": "从路人处获得筑梦师缺失的情绪齿轮"
+    },
+    {
+      "type": "fold",
+      "title": "待机文本",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "窃喜的宾客：这个约会场合很棒吧？\n愉悦的宾客：真不愧是你！"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "汲取情绪"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "窃喜的宾客",
+      "text": "嘿嘿，你瞧，我没骗你吧——这个约会场合是不是很棒？你看嘛，这周围的景色是不是很迷人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "愉悦的宾客",
+      "text": "真不愧是你，好点子真多！这里的视野真好，整个黄金的时刻都尽收眼底……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "愉悦的宾客",
+      "text": "…不过咱们一会儿该怎么离开呢？不会又要爬一次通风管道吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "窃喜的宾客",
+      "text": "呃，这个…嗐，总会有办法的！先别想那么多了，还是先享受当下吧！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品「欢欣」齿轮"
+    },
+    {
+      "type": "section",
+      "level": 4,
+      "title": "补全筑梦师的心绪表盘"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "筑梦师",
+      "text": "可恶…到底是哪里出了问题？"
+    },
+    {
+      "type": "text",
+      "text": "看来你得想办法让这位筑梦师振作起来了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "尝试洞察他的内心。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不打扰你了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "筑梦师",
+              "text": "一边去一边去，让我一个人静静！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "提交「欢欣」齿轮解锁心绪表盘"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "筑梦师",
+      "text": "哈，有了！一个绝妙的点子！让我找张纸记下来……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "筑梦师",
+      "text": "…不行不行，等我蒙头睡一觉，醒来铁定又忘了。心动不如行动，干脆现在就把它复现出来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "他自顾自走了…但留下了拼图碎片。"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-夜色名为温柔-拼图碎片.png",
+      "displayWidth": "200px",
+      "fullWidth": "500px",
+      "asset": "assets/sr-images/开拓任务-夜色名为温柔-拼图碎片.png"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得第一块拼图碎片"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "找到第二块拼图碎片"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们看到一名镇守战利品的惊梦剧团的圆幕先生"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "另一枚碎片…是被它拿走了吗？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗并获胜"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得第二块拼图碎片"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "利用梦境的特性构筑通路"
+    },
+    {
+      "type": "narration",
+      "tone": "完成筑梦拼图",
+      "text": "完成筑梦拼图"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续跟随流萤，抵达筑梦边缘深处"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这一刻终于来了…每次到这儿，我都要卡好久。但终点也快到了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这个地方，构造真的很复杂，每次经过都会头疼…记得不仅要启动，还得关闭筑梦遥眼几次才能通过。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续跟随流萤，抵达筑梦边缘深处"
+    },
+    {
+      "type": "objective-description",
+      "text": "流萤向你解释了此处是为何地：黄金时刻的边境，梦境的更深处，家族的建设改造地（换句话说，梦中的工地），她还补充说，自己的「秘密据点」就在深处…只是「家族」眼线密布，两人得偷偷溜进去才行。\n跨越了重重阻碍，终点已经离你们不远了。只是路上有不少怪物盘踞，你们应当小心前进。",
+      "location": "匹诺康尼-筑梦边境"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "呼…总算搞定了。过了这里，后面就没什么阻碍了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "惊梦剧团的十七分熟和惊梦剧团的气泡锂犬挡在了你们面前"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "呃，我记得这里上次还没有看守的…是我出入太多引起注意了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…好像绕不开，只能把它们敲晕了……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我准备好了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这根球棒终于有用了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "那，我们上吧——把它们赶跑！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗并获胜"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续跟随流萤，抵达筑梦边缘深处"
+    },
+    {
+      "type": "objective-description",
+      "text": "流萤向你解释了此处是为何地：黄金时刻的边境，梦境的更深处，家族的建设改造地（换句话说，梦中的工地），她还补充说，自己的「秘密据点」就在深处…只是「家族」眼线密布，两人得偷偷溜进去才行。\n你们成功跨越了此行必经的一切阻碍，可喜可贺——终点就在前方不远处。",
+      "location": "匹诺康尼-筑梦边境"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "到了到了——就是这里！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你跟随流萤登上阶梯…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（…歌声？是从哪里传来的？）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们来到了天台上，夜空中流星划过，远处的地平线透露出一缕阳光…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "你听过这首歌吗，《使一颗心免于哀伤》，那位知更鸟的作品。谐乐大典在即，梦境中偶尔也会奏响她的音乐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这里是离梦中的天空最近的地方，远离城市的喧嚣，也没有筑梦师的争吵。可以不被任何人打扰，感受当下——当下的风景，人，还有梦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "多美啊…时光永远停驻在这黄金的时刻，一场金色的梦。酒馆的愚者和忆庭的忆者，流浪的游侠和公司的使节，星穹列车的无名客…和我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "所有人在这里平等地睡去，无论缘由，尽管我们确实各怀目的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…对不起，开拓者，我的确是一个「偷渡犯」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我知道。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "果然瞒不住你呀。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我没想到…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "我觉得应该告诉你。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我的故乡在很久以前就毁灭了，也许是军团干的，也可能是虫群…我是个星际难民，就和匹诺康尼的许多「本地人」一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "「同谐」包容所有的人，也包括那些远道而来的漂泊者。家族接纳他们，但他们…终究不属于这里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "在这座金碧辉煌的大都会中，有些人的梦名为匹诺康尼，而有些人的梦…却和现实无异，尽管每一个来到这里的普通人，最初都怀抱着相同的目的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我也一样。现实里的我有着求而不得的愿望——它太过强烈，因此我诉诸梦境……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我能够理解。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "是什么愿望？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "不能逃避现实。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…「失熵症」。你听说过这个词吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "是一种奇怪的现象。罹患这种病症的人，物理结构会陷入不可逆的慢性解离。这意味着你正在慢慢消失，而这种「消失」在旁人眼中甚至难以察觉——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "你依旧能跑、能跳、能和他人交流。一切看起来都那么正常，只不过你总是比别人慢一点点……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…然后越来越慢、越来越慢，直到自己和整个世界的轮廓都变得模糊不清。你分不清现实和梦境，因为它们变得同样破碎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "所以，我该如何拒绝呢…你能想象吗？在这场梦里，我竟然可以…可以不用待在冰冷的「医疗舱」里……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我可以将医生的话抛在脑后，用我自己的身体，随心所欲地去听、去看、去触碰、去思考、去领会。尽管这个世界并不真实，但这感受却无比珍贵……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…就像此时此刻。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "对不起。因为一些原因，有些事…我现在还不能向你全盘托出。但也有些事，我应该对你坦诚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "「钟表匠的遗产」固然是我的所求，但我们未必要分道扬镳，走向对立，至少…我不希望这种事发生。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我也希望如此。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "…谢谢你。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我无法给予承诺…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "…没关系，谢谢你。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我不能信任一个有所隐瞒的人。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "…我知道，没关系。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "你究竟是谁？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "我会告诉你的，但…不是现在。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "「我梦见一片焦土，一株破土而生的新蕊，它迎着朝阳绽放，向我低语呢喃。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "还记得邀请函上的问题吗——生命因何而沉睡？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "你看，在这片梦想之地，一切都被允许，一切都有可能。不堪回首的过去像泡沫一样散去，不愿面对的明天永远也不会到来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "人们为何选择沉睡？我想……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "是因为害怕从「梦」中醒来。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "气氛突然变得好沉重，抱歉，不该这样的…让我想想，怎么活跃气氛比较好？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "对了——你在列车上有很多朋友。你们平时遇到这种状况，是怎么做的？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "帕姆会用喷壶让我们冷静一下…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "喷壶？这也太…直接了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "或许…我们还有其他选择？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "丹恒会一本正经地讲冷笑话…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "讲笑话？啊，我…没什么幽默感……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "也许…我们可以想想其他办法？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "姬子会给我们泡杯咖啡…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "咖啡…当下好像也没有这个条件……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "我们…应该还可以参考其他人的做法？"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "杨叔会想办法转移话题…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "我…我已经在想办法转移话题了……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "…但我失败了。也许…你们还有其他办法？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "三月会拉着我们一起自拍…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "自拍，自拍…你说得对，我来这里好多次了，怎么没想到拍张照呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "不过对着自己一个人…总有些不习惯。要一起吗？就当是留个纪念。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好啊。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "我有点怕镜头的，别笑话我哦。来…你拿着吧。"
+            },
+            {
+              "type": "text",
+              "text": "女孩将手机递给了你，眼神里满是期待。\n你接过手机，呼出相机应用，切换摄像头。一气呵成。然后，你伸直胳膊，将手机拿远，确保取景框中能够容纳你们二人。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "稍等，让我准备一下……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "…好了！开始吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "一……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "二……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "茄子——！"
+            },
+            {
+              "type": "tabs",
+              "tabs": [
+                {
+                  "id": 1,
+                  "title": "星",
+                  "content": [
+                    {
+                      "type": "image",
+                      "file": "开拓任务-夜色名为温柔-CG2.png",
+                      "displayWidth": "600px",
+                      "fullWidth": "1100px",
+                      "asset": "assets/sr-images/开拓任务-夜色名为温柔-CG2.png"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "title": "穹",
+                  "content": [
+                    {
+                      "type": "image",
+                      "file": "开拓任务-夜色名为温柔-CG1.png",
+                      "displayWidth": "600px",
+                      "fullWidth": "1100px",
+                      "asset": "assets/sr-images/开拓任务-夜色名为温柔-CG1.png"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "不了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "流萤",
+              "text": "…不行吗？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "开玩笑的，来吧。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "流萤",
+                      "text": "我有点怕镜头的，别笑话我哦。来…你拿着吧。"
+                    },
+                    {
+                      "type": "text",
+                      "text": "女孩将手机递给了你，眼神里满是期待。\n你接过手机，呼出相机应用，切换摄像头。一气呵成。然后，你伸直胳膊，将手机拿远，确保取景框中能够容纳你们二人。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "流萤",
+                      "text": "稍等，让我准备一下……"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "流萤",
+                      "text": "…好了！开始吧。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "流萤",
+                      "text": "一……"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "流萤",
+                      "text": "二……"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "流萤",
+                      "text": "茄子——！"
+                    },
+                    {
+                      "type": "tabs",
+                      "tabs": [
+                        {
+                          "id": 1,
+                          "title": "星",
+                          "content": [
+                            {
+                              "type": "image",
+                              "file": "开拓任务-夜色名为温柔-CG2.png",
+                              "displayWidth": "600px",
+                              "fullWidth": "1100px",
+                              "asset": "assets/sr-images/开拓任务-夜色名为温柔-CG2.png"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "title": "穹",
+                          "content": [
+                            {
+                              "type": "image",
+                              "file": "开拓任务-夜色名为温柔-CG1.png",
+                              "displayWidth": "600px",
+                              "fullWidth": "1100px",
+                              "asset": "assets/sr-images/开拓任务-夜色名为温柔-CG1.png"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "我不想这么做。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "流萤",
+                      "text": "嗯…好。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你收到了列车组的短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "星穹列车一家人",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message-system",
+          "text": "姬子邀请开拓者、三月七、瓦尔特加入群聊"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "各位，玩得还开心吗"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "开心是开心"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "但总觉得哪里不对…"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "有种不真实的感觉，怪怪的，说不上来"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "毕竟是在梦里",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "毕竟是在梦里"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "调查有些进展",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "调查有些进展"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "我在拍卖会上遇见一个戴石膏头的男人，什么都没做就走了，好可疑"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "瓦尔特",
+          "contentType": "text",
+          "text": "我也有些不太愉快的发现。情况复杂，最好能当面讲。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "我也是"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "看来是时候回一趟现实了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "来我的房间集合吧"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "你要回去了吗？时间过得真快呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我也打算返回现实休息了…走吧，我们就在「黄金的时刻」分别。"
+    },
+    {
+      "type": "section",
+      "level": 2,
+      "title": "注释"
+    }
+  ],
+  "warnings": []
+}
