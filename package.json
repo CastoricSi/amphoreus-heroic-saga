@@ -40,7 +40,12 @@
 		"deploy": "wrangler deploy",
 		"dev": "vite",
 		"lint": "eslint .",
-		"preview": "npm run build && vite preview"
+		"preview": "npm run build && vite preview",
+		"editor": "vite --config src/editor/vite.config.ts --open",
+		"editor:typecheck": "tsc -p src/editor/tsconfig.json",
+		"editor:mission-update": "node src/editor/scripts/mission-sync.js update",
+		"editor:mission-reset": "node src/editor/scripts/mission-sync.js reset",
+		"editor:test-parser": "node --test src/editor/scripts/sr-wikitext-parser.test.js"
 	},
 	"type": "module"
 }
