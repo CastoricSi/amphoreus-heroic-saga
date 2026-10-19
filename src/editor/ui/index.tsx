@@ -1,4 +1,4 @@
-import { useEffect, useId, useRef, useState, type ComponentPropsWithRef, type CSSProperties, type HTMLAttributes, type InputHTMLAttributes, type KeyboardEvent, type ReactElement, type ReactNode, type TextareaHTMLAttributes } from "react";
+import { useEffect, useId, useLayoutEffect, useRef, useState, type ComponentPropsWithRef, type CSSProperties, type HTMLAttributes, type InputHTMLAttributes, type KeyboardEvent, type ReactElement, type ReactNode, type TextareaHTMLAttributes } from "react";
 import { IconChevronDown, IconX } from "./icons";
 import "./ui.css";
 
@@ -100,7 +100,7 @@ export function Tooltip({ label, children }: { label: ReactNode; children: React
 	const show = () => {
 		hide();
 		timer.current = window.setTimeout(() => {
-			const target = anchor.current?.firstElementChild;
+			const target = anchor.current;
 			const element = tip.current;
 			if (!target || !element) return;
 			element.showPopover();
@@ -119,7 +119,18 @@ export function Tooltip({ label, children }: { label: ReactNode; children: React
 	</span>;
 }
 
-interface MenuItem { label: ReactNode; onClick: () => void; id?: string }
+export interface MenuItem { label: ReactNode; onClick: () => void; id?: string; shortcut?: string; disabled?: boolean; danger?: boolean }
+/** A menu row: an action, a divider, or a small group heading. */
+export type MenuEntry = MenuItem | "separator" | { heading: string };
+
+function MenuItems({ items, onPick }: { items: MenuEntry[]; onPick: (item: MenuItem) => void }) {
+	return <>{items.map((item, index) => item === "separator"
+		? <div key={`separator-${index}`} className="ui-menu-separator" role="separator" />
+		: "heading" in item
+		? <div key={`heading-${index}`} className="ui-menu-heading" role="presentation">{item.heading}</div>
+		: <button key={item.id ?? String(index)} type="button" role="menuitem" className="ui-menu-item" data-danger={item.danger || undefined} disabled={item.disabled} onClick={() => onPick(item)}><span>{item.label}</span>{item.shortcut ? <kbd className="ui-menu-shortcut">{item.shortcut}</kbd> : null}</button>)}</>;
+}
+
 interface MenuButtonProps { label: ReactNode; items: MenuItem[]; align?: "start" | "end"; active?: boolean; className?: string; size?: UiSize; variant?: UiVariant; color?: UiColor }
 
 export function MenuButton({ label, items, align = "start", active, className = "", size = "sm", variant = "subtle", color }: MenuButtonProps) {
@@ -149,9 +160,44 @@ export function MenuButton({ label, items, align = "start", active, className = 
 			{label}<IconChevronDown size={13} />
 		</Button>
 		<div ref={menu} id={menuId} popover="auto" role="menu" className="ui-menu">
-			{items.map((item, index) => <button key={item.id ?? String(index)} type="button" role="menuitem" className="ui-menu-item" onClick={() => { menu.current?.hidePopover(); item.onClick(); }}>{item.label}</button>)}
+			<MenuItems items={items} onPick={(item) => { menu.current?.hidePopover(); item.onClick(); }} />
 		</div>
 	</>;
+}
+
+interface ContextMenuProps { position: { x: number; y: number } | null; items: MenuEntry[]; onClose: () => void }
+
+/** Menu opened at the pointer. Dismissed by clicking elsewhere, Escape, scrolling or resizing. */
+export function ContextMenu({ position, items, onClose }: ContextMenuProps) {
+	const menu = useRef<HTMLDivElement>(null);
+	useLayoutEffect(() => {
+		const element = menu.current;
+		if (!element) return;
+		if (!position) { if (isPopoverOpen(element)) element.hidePopover(); return; }
+		if (!isPopoverOpen(element)) element.showPopover();
+		const rect = element.getBoundingClientRect();
+		element.style.left = `${Math.max(4, Math.min(position.x, window.innerWidth - rect.width - 4))}px`;
+		element.style.top = `${Math.max(4, Math.min(position.y, window.innerHeight - rect.height - 4))}px`;
+	}, [position, items]);
+	useEffect(() => {
+		if (!position) return;
+		const dismissOutside = (event: Event) => { if (!menu.current?.contains(event.target as Node)) onClose(); };
+		// Capture phase on window runs before any other key handler, so Escape only closes the menu.
+		const dismissOnEscape = (event: globalThis.KeyboardEvent) => { if (event.key === "Escape") { event.preventDefault(); event.stopPropagation(); onClose(); } };
+		window.addEventListener("pointerdown", dismissOutside, true);
+		window.addEventListener("keydown", dismissOnEscape, true);
+		window.addEventListener("resize", onClose);
+		window.addEventListener("scroll", onClose, true);
+		return () => {
+			window.removeEventListener("pointerdown", dismissOutside, true);
+			window.removeEventListener("keydown", dismissOnEscape, true);
+			window.removeEventListener("resize", onClose);
+			window.removeEventListener("scroll", onClose, true);
+		};
+	}, [position, onClose]);
+	return <div ref={menu} popover="manual" role="menu" className="ui-menu ui-context-menu" onContextMenu={(event) => event.preventDefault()}>
+		<MenuItems items={items} onPick={(item) => { onClose(); item.onClick(); }} />
+	</div>;
 }
 
 interface ModalProps { opened: boolean; onClose: () => void; title: ReactNode; children: ReactNode; size?: "sm" | "md" | "lg" | "xl" }

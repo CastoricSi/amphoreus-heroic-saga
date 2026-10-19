@@ -1,6 +1,8 @@
+import { spawn, type ChildProcess } from "node:child_process";
 import { promises as fs } from "node:fs";
 import type { IncomingMessage, ServerResponse } from "node:http";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import type { Plugin } from "vite";
 import { parseBlocks, parseStarRailMission } from "./scripts/sr-wikitext-parser.js";
 
@@ -10,6 +12,15 @@ const missionRoot = path.join(dataRoot, "missions");
 const screenplayRoot = path.join(missionRoot, "剧本");
 const assetRoot = path.join(dataRoot, "assets");
 const imageManifestPath = path.join(assetRoot, "sr-images", "manifest.json");
+const scriptRoot = fileURLToPath(new URL("./scripts/", import.meta.url));
+
+// Whitelist of runnable entry points in ./scripts; the other files there are modules these import.
+const editorScripts = [
+	{ id: "mission-update", label: "增量更新任务数据", description: "重新获取任务索引，只下载新增或缺失的任务页面和图片。", args: [path.join(scriptRoot, "mission-sync.js"), "update"] },
+	{ id: "mission-reset", label: "完全重建任务数据", description: "清空并重新获取三类任务的全部页面，耗时较长。剧本目录不受影响。", confirm: "将清空并重新下载全部任务资料（剧本不受影响），确定继续吗？", args: [path.join(scriptRoot, "mission-sync.js"), "reset"] },
+	{ id: "test-parser", label: "运行解析器测试", description: "运行 BWiki 源文解析器的单元测试。", args: ["--test", path.join(scriptRoot, "sr-wikitext-parser.test.js")] },
+];
+let runningScript: ChildProcess | null = null;
 
 type JsonRecord = Record<string, unknown>;
 
@@ -39,6 +50,7 @@ function screenplayId(document: JsonRecord, fileName: string) {
 
 function visibleTextLength(value: string) {
 	const visible = value
+		.replace(/\{\{~~[\s\S]*?~~\}\}/gu, "")
 		.replace(/\{\{([^{}|]+)\|[^{}]+\}\}/gu, "$1")
 		.replace(/\[([^\]]+)\]\([^)]+\)/gu, "$1")
 		.replace(/\s/gu, "");
@@ -177,6 +189,28 @@ async function reorderScreenplays(order: string[]) {
 	return listScreenplays();
 }
 
+function runScript(id: string, response: ServerResponse) {
+	const script = editorScripts.find((candidate) => candidate.id === id);
+	if (!script) throw new Error("脚本不存在");
+	if (runningScript) throw new Error("已有脚本正在运行");
+	// Streams newline-delimited JSON events: { type: "output", text } … { type: "exit", code }.
+	response.statusCode = 200;
+	response.setHeader("Content-Type", "application/x-ndjson; charset=utf-8");
+	response.setHeader("Cache-Control", "no-cache");
+	const send = (event: Record<string, unknown>) => { if (!response.writableEnded) response.write(`${JSON.stringify(event)}\n`); };
+	const child = spawn(process.execPath, script.args, { cwd: workspaceRoot, env: { ...process.env, FORCE_COLOR: "0", NO_COLOR: "1" } });
+	runningScript = child;
+	child.stdout.setEncoding("utf8").on("data", (text: string) => send({ type: "output", text }));
+	child.stderr.setEncoding("utf8").on("data", (text: string) => send({ type: "output", text }));
+	child.on("error", (error) => send({ type: "output", text: `${error.message}\n` }));
+	child.on("close", (code, signal) => {
+		if (runningScript === child) runningScript = null;
+		send({ type: "exit", code: code ?? (signal ? -1 : 0) });
+		response.end();
+	});
+	response.on("close", () => { if (child.exitCode === null) child.kill(); });
+}
+
 async function handleRequest(request: IncomingMessage, response: ServerResponse) {
 	const url = new URL(request.url ?? "/", "http://localhost");
 	const pathname = url.pathname;
@@ -216,6 +250,22 @@ async function handleRequest(request: IncomingMessage, response: ServerResponse)
 
 	if (request.method === "GET" && pathname === "/editor-api/images") {
 		sendJson(response, 200, await listImageAssets());
+		return;
+	}
+
+	if (request.method === "GET" && pathname === "/editor-api/scripts") {
+		sendJson(response, 200, { scripts: editorScripts.map(({ id, label, description, confirm }) => ({ id, label, description, confirm })), running: Boolean(runningScript) });
+		return;
+	}
+
+	if (request.method === "POST" && pathname === "/editor-api/scripts/run") {
+		runScript(url.searchParams.get("id") ?? "", response);
+		return;
+	}
+
+	if (request.method === "POST" && pathname === "/editor-api/scripts/stop") {
+		runningScript?.kill();
+		sendJson(response, 200, { ok: true });
 		return;
 	}
 

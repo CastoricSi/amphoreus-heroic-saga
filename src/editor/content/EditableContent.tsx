@@ -1,7 +1,6 @@
 import type { MouseEvent, PointerEvent } from "react";
-import { Button } from "../ui";
 import { BufferedInput, BufferedTextarea } from "../ui/BufferedFields";
-import { clone, newNodeTemplates, nodeSummary } from "./node-config";
+import { nodeSummary } from "./node-config";
 import { normalizeMessageThreadContent } from "./screenplay-model";
 import { editorAssetUrl, imageDisplayStyle } from "./tree";
 import type { JsonNode } from "./types";
@@ -21,10 +20,6 @@ export function EditableContent({ node, onChange, onDialogueCursor, depth = 0 }:
 	const updateChild = (index: number, child: JsonNode) => set("content", content.map((item, itemIndex) => itemIndex === index ? child : item));
 	const stop = (event: MouseEvent | PointerEvent) => event.stopPropagation();
 	const assetUrl = editorAssetUrl(node.asset);
-
-	if (type === "fold") {
-		return <div className="read-node read-node-fold inline-edit-node" data-depth={depth}><div className="read-node-heading"><BufferedInput className="inline-heading-input" value={String(node.title ?? "")} placeholder="折叠组标题" onPointerDown={stop} onClick={stop} onValueChange={(value) => set("title", value)} /></div><div className="read-node-children">{content.map((child, index) => <EditableContent key={index} node={child} depth={depth + 1} onChange={(value) => updateChild(index, value)} />)}<div className="inline-nested-actions" onPointerDown={stop} onClick={stop}><Button variant="outline" color="blue" size="xs" onClick={() => set("content", [...content, clone(newNodeTemplates.dialogue)])}>＋ 对话</Button><Button variant="outline" color="blue" size="xs" onClick={() => set("content", [...content, clone(newNodeTemplates.text)])}>＋ 文本</Button></div></div></div>;
-	}
 
 	if (type === "tabs") {
 		return <div className="read-node read-node-tabs inline-edit-node" data-depth={depth}><div className="read-node-heading"><strong>{tabs.length} 个条件分支</strong></div><div className="read-choice-list">{tabs.map((tab, tabIndex) => { const children = Array.isArray(tab.content) ? tab.content as JsonNode[] : []; const updateTab = (value: JsonNode) => set("tabs", tabs.map((item, index) => index === tabIndex ? value : item)); return <section className="read-choice-option tab-option" key={tabIndex}><header><span>{tabIndex + 1}</span><BufferedInput className="inline-option-input" value={String(tab.title ?? "")} placeholder="分支标题" onPointerDown={stop} onClick={stop} onValueChange={(value) => updateTab({ ...tab, title: value })} /><em>{children.length} 段内容</em></header><div className="read-node-children">{children.map((child, childIndex) => <EditableContent key={childIndex} node={child} depth={depth + 1} onChange={(value) => updateTab({ ...tab, content: children.map((item, index) => index === childIndex ? value : item) })} />)}</div></section>; })}</div></div>;

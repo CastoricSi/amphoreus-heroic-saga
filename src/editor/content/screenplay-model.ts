@@ -1,6 +1,6 @@
 import { plainRubyText } from "./rich-text-utils";
 import { clone } from "./node-config";
-import type { JsonNode, MissionIndex, MissionRef, NodePath, ScreenplayDocument, ScriptBlock, ScriptNodeAddress, ScriptTextMatch, SearchMode } from "./types";
+import type { JsonNode, MissionIndex, MissionRef, ScreenplayDocument, ScriptNodeAddress, ScriptTextMatch, SearchMode } from "./types";
 
 export function findMessageOwner(nodes: JsonNode[]): string {
 	for (const node of nodes) {
@@ -40,27 +40,6 @@ function isMessageFold(node: JsonNode) {
 	return node.type === "fold" && /^短信\s*[：:]/u.test(String(node.title ?? "")) && Boolean(findMessageOwner(Array.isArray(node.content) ? node.content as JsonNode[] : []));
 }
 
-export function groupLegacyMessageThreadNodes(nodes: JsonNode[]): JsonNode[] {
-	const normalized = nodes.map((node) => {
-		const next = clone(node);
-		if (Array.isArray(next.content)) next.content = groupLegacyMessageThreadNodes(next.content as JsonNode[]);
-		if (Array.isArray(next.options)) next.options = (next.options as JsonNode[]).map((option) => ({ ...option, ...(Array.isArray(option.content) ? { content: groupLegacyMessageThreadNodes(option.content as JsonNode[]) } : {}) }));
-		if (Array.isArray(next.tabs)) next.tabs = (next.tabs as JsonNode[]).map((tab) => ({ ...tab, ...(Array.isArray(tab.content) ? { content: groupLegacyMessageThreadNodes(tab.content as JsonNode[]) } : {}) }));
-		return next;
-	});
-	const grouped: JsonNode[] = [];
-	for (let index = 0; index < normalized.length; index += 1) {
-		const node = normalized[index];
-		if (node.type !== "message-thread-start") { grouped.push(node); continue; }
-		const endIndex = normalized.findIndex((candidate, candidateIndex) => candidateIndex > index && candidate.type === "message-thread-end");
-		if (endIndex < 0) { grouped.push(node); continue; }
-		const content = normalized.slice(index + 1, endIndex);
-		grouped.push(toMessageThread({ type: "message-thread", title: node.title, subtitle: node.subtitle, owner: findMessageOwner(content) || "开拓者", collapsed: false, content }));
-		index = endIndex;
-	}
-	return grouped;
-}
-
 export function expandChoiceOption(option: JsonNode, asMessage = false): JsonNode[] {
 	const replies = Array.isArray(option.content) ? (option.content as JsonNode[]).flatMap(expandDialogueChoices) : [];
 	if (asMessage) return replies.length ? replies : [{ type: "message", side: "right", speaker: "开拓者", contentType: "text", text: String(option.text ?? "") }];
@@ -76,26 +55,6 @@ export function expandDialogueChoices(node: JsonNode): JsonNode[] {
 	if (Array.isArray(next.content)) next.content = (next.content as JsonNode[]).flatMap(expandDialogueChoices);
 	if (Array.isArray(next.tabs)) next.tabs = (next.tabs as JsonNode[]).map((tab) => ({ ...tab, ...(Array.isArray(tab.content) ? { content: (tab.content as JsonNode[]).flatMap(expandDialogueChoices) } : {}) }));
 	return [isMessageFold(next) || next.type === "message-thread" ? toMessageThread(next) : next];
-}
-
-export function normalizeScriptBlocks(blocks: ScriptBlock[]) {
-	let changed = false;
-	const expanded = blocks.flatMap((block) => {
-		const nodes = expandDialogueChoices(block.node);
-		if (nodes.length !== 1 || JSON.stringify(nodes[0]) !== JSON.stringify(block.node)) changed = true;
-		return nodes.map((node, index) => ({ ...block, id: index === 0 ? block.id : crypto.randomUUID(), node }));
-	});
-	const normalized: ScriptBlock[] = [];
-	for (let index = 0; index < expanded.length; index += 1) {
-		const block = expanded[index];
-		if (block.node.type !== "message-thread-start") { normalized.push(block); continue; }
-		const endIndex = expanded.findIndex((candidate, candidateIndex) => candidateIndex > index && candidate.node.type === "message-thread-end");
-		if (endIndex < 0) { normalized.push(block); continue; }
-		const content = expanded.slice(index + 1, endIndex).map((candidate) => candidate.node);
-		normalized.push({ ...block, node: toMessageThread({ type: "message-thread", title: block.node.title, subtitle: block.node.subtitle, owner: findMessageOwner(content) || "开拓者", collapsed: false, content }) });
-		changed = true; index = endIndex;
-	}
-	return { blocks: normalized, changed };
 }
 
 export function syncScreenplayCharacters(document: ScreenplayDocument) {
@@ -137,31 +96,6 @@ export function replaceDialogueSpeaker(node: JsonNode, from: string, to: string)
 	return next;
 }
 
-function childNodePaths(node: JsonNode, path: NodePath): Array<{ node: JsonNode; path: NodePath }> {
-	if (Array.isArray(node.content)) return (node.content as JsonNode[]).map((child, index) => ({ node: child, path: [...path, "content", index] }));
-	if (node.type === "choice" && Array.isArray(node.options)) return (node.options as JsonNode[]).flatMap((option, optionIndex) => Array.isArray(option.content) ? (option.content as JsonNode[]).map((child, childIndex) => ({ node: child, path: [...path, "options", optionIndex, "content", childIndex] })) : []);
-	if (node.type === "tabs" && Array.isArray(node.tabs)) return (node.tabs as JsonNode[]).flatMap((tab, tabIndex) => Array.isArray(tab.content) ? (tab.content as JsonNode[]).map((child, childIndex) => ({ node: child, path: [...path, "tabs", tabIndex, "content", childIndex] })) : []);
-	return [];
-}
-
-export function collectNodePaths(nodes: JsonNode[]) {
-	const paths: NodePath[] = [];
-	const visit = (node: JsonNode, path: NodePath) => {
-		paths.push(path);
-		if (node.type === "choice" && Array.isArray(node.options)) { (node.options as JsonNode[]).forEach((option, optionIndex) => { const optionPath = [...path, "options", optionIndex] as NodePath; paths.push(optionPath); if (Array.isArray(option.content)) (option.content as JsonNode[]).forEach((child, childIndex) => visit(child, [...optionPath, "content", childIndex])); }); return; }
-		for (const child of childNodePaths(node, path)) visit(child.node, child.path);
-	};
-	nodes.forEach((node, index) => visit(node, [index]));
-	return paths;
-}
-
-export function nodeAtPath(nodes: JsonNode[], path: NodePath) {
-	let value: unknown = nodes;
-	for (const segment of path) { if ((typeof value !== "object" || value === null) && !Array.isArray(value)) return null; value = (value as Record<string | number, unknown>)[segment]; }
-	return value && typeof value === "object" && !Array.isArray(value) ? value as JsonNode : null;
-}
-
-export function isAncestorPath(ancestor: NodePath, descendant: NodePath) { return ancestor.length < descendant.length && ancestor.every((segment, index) => segment === descendant[index]); }
 export function nestedNodeAtPath(root: JsonNode, path: number[]) { let node = root; for (const index of path) { const content = Array.isArray(node.content) ? node.content as JsonNode[] : []; if (!content[index]) return null; node = content[index]; } return node; }
 export function updateNestedNode(root: JsonNode, path: number[], update: (node: JsonNode) => JsonNode): JsonNode { if (!path.length) return update(root); const [index, ...rest] = path; const content = Array.isArray(root.content) ? root.content as JsonNode[] : []; if (!content[index]) return root; return { ...root, content: content.map((child, childIndex) => childIndex === index ? updateNestedNode(child, rest, update) : child) }; }
 export function removeNestedNode(root: JsonNode, path: number[]): { root: JsonNode; node: JsonNode | null } { if (!path.length) return { root, node: null }; const [index, ...rest] = path; const content = Array.isArray(root.content) ? root.content as JsonNode[] : []; if (!content[index]) return { root, node: null }; if (!rest.length) return { root: { ...root, content: content.filter((_, childIndex) => childIndex !== index) }, node: content[index] }; const removed = removeNestedNode(content[index], rest); return { root: { ...root, content: content.map((child, childIndex) => childIndex === index ? removed.root : child) }, node: removed.node }; }

@@ -1,35 +1,23 @@
-@font-face {
-	font-family: "MiSans Local";
-	src: url("./assets/fonts/MiSans-Light.ttf") format("truetype");
-	font-style: normal;
-	font-weight: 300;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "MiSans Local";
-	src: url("./assets/fonts/MiSans-Regular.ttf") format("truetype");
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "MiSans Local";
-	src: url("./assets/fonts/MiSans-Demibold.ttf") format("truetype");
-	font-style: normal;
-	font-weight: 600 800;
-	font-display: swap;
-}
-
 :root {
-	font-family: "MiSans Local", "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+	font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
 	line-height: 1.5;
 	color: #202124;
 	background: #f1f3f4;
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
+	/* Shared color tokens. */
+	--app-bg: #eef2f6;
+	--surface: #fff;
+	--surface-subtle: #f7f9fc;
+	--surface-raised: #fbfcfe;
+	--text: #17202a;
+	--text-muted: #687384;
+	--border: #dce2ea;
+	--border-strong: #cbd4df;
+	--accent: #1769aa;
+	--accent-soft: #e6f2ff;
+	--danger: #b3261e;
 	/* Editor-wide corner radius. Change this single value to retheme every non-circular surface. */
 	--radius: 8px;
 }

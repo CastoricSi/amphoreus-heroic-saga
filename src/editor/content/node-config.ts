@@ -31,6 +31,7 @@ export const newNodeTemplates: Record<string, JsonNode> = {
 	section: { type: "section", level: 2, title: "新章节" },
 	choice: { type: "choice", presentation: "dialogue", options: [{ id: 1, text: "新选项", content: [] }] },
 	divider: { type: "divider" },
+	fold: { type: "fold", title: "折叠内容", content: [] },
 	note: { type: "note", text: "" },
 	text: { type: "text", text: "" },
 	image: { type: "image", file: "", asset: "" },

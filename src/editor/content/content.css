@@ -1,8 +1,4 @@
 .source-card { margin: 0 0 2px; padding: 0; border: 0; background: transparent; }
-.source-card-body { min-width: 0; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 3px 7px; align-items: baseline; }
-.node-kind { width: fit-content; padding: 2px 5px; border-radius: var(--radius); color: #66583f; background: #ebe2d2; font-size: 9px; font-weight: 700; white-space: nowrap; }
-.source-card-body strong { min-width: 0; overflow: hidden; color: #4a4540; font-size: 11px; text-overflow: ellipsis; white-space: nowrap; }
-.source-summary { grid-column: 1 / -1; display: -webkit-box; overflow: hidden; color: #4f4b46; font-size: 11px; line-height: 1.55; -webkit-box-orient: vertical; -webkit-line-clamp: 3; white-space: pre-wrap; }
 .read-node { --node-accent: #98928a; --node-bg: #f5f3ef; min-width: 0; color: #47433e; font-size: 12px; }
 .read-node-dialogue { --node-accent: #6e98bb; --node-bg: #edf4f8; --node-text: #202124; }
 .read-node-narration { --node-accent: #8c8a86; --node-bg: #f1f0ed; --node-text: #6b7280; }
@@ -42,10 +38,10 @@
 .read-node.is-leaf.is-selected > .read-node-line, .read-node.is-leaf.is-selected > .read-node-line:hover { color: #0d47a1; background: #e3f2fd; box-shadow: inset 0 0 0 1px #90caf9; }
 .read-node.has-children { overflow: hidden; border: 1px solid color-mix(in srgb, var(--node-accent) 28%, #dfe3e8); border-radius: var(--radius); background: #fff; box-shadow: 0 1px 3px #3c40431f; }
 .read-node.has-children > .read-node-line { border: 0; border-radius: var(--radius) var(--radius) 0 0; background: var(--node-bg); }
-.node-select { flex: 0 0 auto; width: 14px; height: 14px; margin: 1px 1px 0 0; accent-color: var(--accent); cursor: pointer; }
 .read-speaker { color: #403b35; white-space: nowrap; }
 .inline-ruby { ruby-align: center; ruby-position: over; }
 .inline-ruby rt { color: #667786; font-size: .58em; font-weight: 500; line-height: 1; }
+.inline-strike { text-decoration: line-through; text-decoration-thickness: 1px; opacity: .42; }
 .inline-link { color: #1565c0; text-decoration: none; text-underline-offset: 2px; }
 .inline-link:hover { text-decoration: underline; }
 .read-text { min-width: 0; flex: 1; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
@@ -142,7 +138,6 @@
 .inline-edit-node input, .inline-edit-node textarea { min-width: 0; height: auto; margin: 0; padding: 0; border: 0; outline: 0; color: inherit; background: transparent; font: inherit; box-shadow: none !important; }
 .inline-edit-node input::placeholder, .inline-edit-node textarea::placeholder { color: #9aa0a6; }
 .inline-textarea { min-height: 20px; flex: 1; resize: none; field-sizing: content; line-height: 1.5; overflow: hidden; }
-.inline-text-input { min-height: 20px; flex: 1; }
 .editable-image-preview { display: grid; justify-items: center; gap: 3px; cursor: default; }
 .editable-image-preview small { max-width: 100%; overflow: hidden; color: #777f88; font-size: 9px; text-overflow: ellipsis; white-space: nowrap; }
 .image-missing { padding: 12px; color: #8a9096; text-align: center; }
@@ -157,6 +152,3 @@
 .inline-thread-fields { min-width: 0; display: grid; flex: 1; gap: 2px; }
 .inline-thread-fields input:first-child { font-weight: 700; }
 .inline-thread-fields input:last-child { color: #65746e; font-size: 10px; }
-.inline-nested-actions { display: flex; align-items: center; gap: 5px; padding: 5px 4px 2px; }
-.inline-nested-actions button { padding: 3px 8px; border: 1px dashed #a9bfd8; border-radius: var(--radius); color: #28649e; background: #f5f9fd; font-size: 9px; cursor: pointer; }
-.inline-nested-actions button:hover { border-color: #6f9dce; background: #e8f1fb; }

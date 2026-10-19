@@ -1,0 +1,1691 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "人造天堂，脑髓地狱",
+    "pageId": 41437,
+    "revisionId": 104445,
+    "parentRevisionId": 104167,
+    "revisionTimestamp": "2026-10-16T14:38:35Z",
+    "fetchedAt": "2026-10-18T21:41:50.883Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E4%BA%BA%E9%80%A0%E5%A4%A9%E5%A0%82%EF%BC%8C%E8%84%91%E9%AB%93%E5%9C%B0%E7%8B%B1",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E4%BA%BA%E9%80%A0%E5%A4%A9%E5%A0%82%EF%BC%8C%E8%84%91%E9%AB%93%E5%9C%B0%E7%8B%B1&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "人造天堂，脑髓地狱",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.6",
+    "number": "04",
+    "series": "月升之前，与兽共舞",
+    "description": "",
+    "requirements": "完成任务无私的基因",
+    "requiredLevel": "",
+    "characters": [
+      "虚照",
+      "灯塔",
+      "摩多伽",
+      "亚婆离",
+      "不死途",
+      "朽叶",
+      "普狸策",
+      "幻太子",
+      "三月七",
+      "真珠"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "星琼",
+        "amount": "90"
+      },
+      {
+        "item": "里程",
+        "amount": "600"
+      },
+      {
+        "item": "信用点",
+        "amount": "200000"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "480"
+      },
+      {
+        "item": "《缸中脑》",
+        "amount": "1"
+      },
+      {
+        "item": "《暴食症》",
+        "amount": "1"
+      },
+      {
+        "item": "《飞跃疯人院》",
+        "amount": "1"
+      }
+    ],
+    "previousMissions": [
+      "无私的基因"
+    ],
+    "nextMissions": [
+      "狩猎愉快"
+    ],
+    "objectives": [
+      "前往生研院，继续冒险",
+      "查看亚婆离的情况",
+      "前往千星城，继续冒险"
+    ],
+    "synopsis": [],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往生研院，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "谈判中出现了意外变故，所有的摩多伽都陷入故障，亚婆离疑似遭遇不测。\n不是，那我缺的「贪饕」诱饵谁给我补啊？",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "是不死途，对吧？果然和他们俩无关。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "他们也不知情。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "他们也很意外。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "既然如此，就只剩下一个答案了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "是我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "是我干的。一切都是我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "灯塔…你为什么在这里？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "你的情绪…像一场风暴，汹涌、悲伤。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "你对亚婆离做了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "她成功了，她得到了梦寐以求的答案。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "而我也将得到…解脱。我们都得偿所愿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "想知道真相的话，就自己下去看看吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "走吧，开拓者，抓紧时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "只是「解脱」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "灯塔，这种结局，能让你满意吗？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看亚婆离的情况"
+    },
+    {
+      "type": "objective-description",
+      "text": "谈判中出现了意外变故，所有的摩多伽都陷入故障，亚婆离疑似遭遇不测。\n灯塔说，这一切都是他干的。\n情况紧急，必须确认亚婆离的情况。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "啊…天外的救世主，我的行刑官。你还要过多久才会来到此地？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "什么……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "归寂的骰子，为什么会在这里？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "好久不见，「主角」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "多亏亚婆离旺盛的求知欲，我们才得以重逢。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是你干的好事？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "归寂的骰",
+              "text": "当然…不是我。但你说得对，这确实是一桩好事。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "她到底怎么了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "归寂的骰",
+              "text": "她，大开眼界！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "哦，又来了两个。这下人都到齐了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "醒醒，亚婆离女士，该起来迎客了！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疯狂的声音",
+      "text": "哈…哈哈哈！古老的血在歌唱！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疯狂的声音",
+      "text": "不要消化那颗星星…太初的星星！还有眼睛！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "那个缸里…泡着什么东西？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "那应该就是…亚婆离。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "▄█异▀█▄▀常▄▄"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "……"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往生研院，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "谈判中出现了意外变故，所有的摩多伽都陷入故障，亚婆离疑似遭遇不测。\n灯塔说，这一切都是他干的。\n情况紧急，必须确认亚婆离的情况。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "空手而来，我很抱歉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "都说技术研发部的主管是位年轻女士……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "我没想到，「年轻」到只有一颗大脑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "彼此彼此。我解剖过的脑袋不计其数，但你是最特别的一颗。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "人不可貌相。等你打开它后再惊叹吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "正有此意，可惜我要的「知识」——现在——还不在你脑内。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "这是…什么冷笑话吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "你的身体在数个恒星系外，还没来得及被「贪饕」消化。理论上，你还能捕捉它的信号。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "我要借你的大脑，一探兽蜕腹中的秘密。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "驾轻就熟啊，恐怕不是第一次了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "拿一位绝灭大君开刀，是第一次。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "在投身「毁灭」前，我好歹也是「观星者」，今天竟沦落成公司的胃镜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "好吧，反正我也没有别的去处了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "同步率：89%…96%……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "再过几秒，你就能和身子叙旧了。感觉如何？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "像是要想起一个忘记很久的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "连接已同步。开始转存。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "我什么都看不见，实验失败了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "别费心思撒谎了，你的前额叶比舌头更诚实。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "好吧，我是能看见：被咬碎的节肢、银轨、琥珀、黑洞…到处都是。奥博洛斯的一餐，就是整个宇宙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "祂从来没有满足过，以后也不会。就算死了，尸体也还在暴食。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "哈，前面还有颗脑袋，让我看看，是哪个倒霉家伙——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "…谁？你？我？这…这怎么可能……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "开什么玩笑，哈…哈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "你笑什么——你看见了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "他爸爸的，你杀了我吧！为什么——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "为什么是你的头颅？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "不像装的，他疯了？这不可能。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "对！不可能！这东西几百个琥珀纪前就没了，怎么可能出现在这里！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "除非！除非！亚婆离！只有一种解释——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "摩多伽，上传他的视觉信号。快！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "女士，同步中断了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "是你？你切断了和身体的联系。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "…为我刚才的失礼道歉。我必须守住这个秘密。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "很有趣，不是吗？我本以为自己出局了，只剩一个脑袋，等着被人当作垃圾收掉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "但我看见的东西，却告诉我不是这样……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "阿哈愚弄了所有人。我依然被「欢愉」的诅咒，牢牢按死在这场游戏中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "我不关心你的游戏！摩多伽，还有灯塔——安排清道夫，把他脑袋里的东西挖出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "本来你不用死的，我很遗憾。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "为你变个魔术吧，亚婆离——看看一个大君的头颅，还能做到什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "灯塔，动手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "说起来，你为她工作多久了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "五年，没出过任何岔子，包括今天。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "那你有没有想过，为什么是「五年」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "一九八四。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "你说什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "别听他胡言乱语——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "鸽川区。学院。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "唔——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "黑板报。颜料。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "给我停下——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "还愣着干什么？我说了，动手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "幻月游戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "——够了！!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "呵……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "灯塔，你做什么！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "别催他。他只是和我一样，想起了一个忘记很久的名字——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "「告死魔」，马库斯·安塔利。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "五年前，血涂游戏的凶手被公司处决。说来也巧，尸体的转移申请上，盖的是技术研发部的章。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "始作俑者自以为洗掉了埋在倏忽血肉里的记忆，殊不知，它们只是被灯塔的「古兽源质」吸收了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "亚婆离，多亏你将我与兽蜕相连，我才能唤起他体内那份沉睡已久的渴望。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "…我听不懂你在说什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "血腥的原料、肮脏的实验…我遵您命令管理这条生产线，从无二心。只是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "为什么不告诉我真相，亚婆离女士？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "为什么…你要让一个杀人犯，做起英雄的大梦，整整五年？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "因为她心中有鬼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "十五年前，倏忽细胞流入乐园时，一位大人物早就有所察觉。可惜，她非但没有阻止，反而选择顺水推舟——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "把你推向名为「告死魔」的深渊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "你是怎么知……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "…啊，哈哈哈…归寂，我明白了，当初用倏忽细胞调换那份试剂的，是你！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "灯塔，睁开眼好好看看，谁才是那个该下地狱的家伙？别被他当枪使了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "嘘——不要替他做决定。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "…你们两个，都该下地狱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "什么？灯塔，不要忘了…唔，呃啊…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "——不，马库斯！你做了什么？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "头疼欲裂？这就对了。他只是产生了一个小小的念头。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "然后，在深不见底的地下，他的分身拨动了一个小小的旋钮。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "于是，千星城的古兽源质，一窝蜂地涌进你小小的大脑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "…轮到你了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "当然，我尊重你复仇的权利。请便。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "不，我不会杀死你，也无法杀死你——死亡对你无足轻重。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "对亚婆离的复仇，也不是因为我受你蛊惑，而是她应得的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "…哦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "唤醒「告死魔」的记忆，就想让我变回那个怪物？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "永别了，大君。我会去做我该做的事——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "…如果我还有资格的话。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "唔…你瞧，面具派对结束了，亚婆离。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "谁通过了挑战、谁没有，一目了然。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "你说，这算不算「如愿以偿」？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看亚婆离的情况"
+    },
+    {
+      "type": "objective-description",
+      "text": "谈判中出现了意外变故，所有的摩多伽都陷入故障，亚婆离疑似遭遇不测。\n灯塔说，这一切都是他干的。\n情况紧急，必须确认亚婆离的情况。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "原来如此，我就知道——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "腹腔——嗤笑——不连续的认知——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "出芽生殖——破壳而出——归于本源——温暖的黑暗！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "这个蒲公英似的脑花，就是亚婆离？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "在我们深入调查的时候，{{犯人|亚婆离}}却先一步遇害了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "她罪有应得。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这东西是亚婆离？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "没错，她的大脑。她把自己改造成了「幻月」。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "她好像不太健康…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "这就要问在场的嫌疑人了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "不死途，你们那发生了什么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "说来话长，回头再说吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "呵——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "就知道是你，我说什么来着……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "有你在，气氛就会被搞砸。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "如果放任亚婆离继续转化——她会一口吞下整个千星城。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "但如果杀了她，后果同样不堪设想。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "我好好奇，你们要怎么选。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "为什么——我得到了答案，却一点也不满足——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "亚婆离注定死在今天，只是过程略有区别而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "我再强调一次，失去这颗「人造幻月」，千星城的幻造种都要陪葬。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "我也再强调一次，我不在乎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缸中脑·亚婆离",
+      "text": "摩多伽，好饿，我好饿啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "「好饿好饿好饿好饿好饿好饿好饿！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "终究还是太晚了吗……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "又到了生死抉择的时刻。开拓者，你会怎么选？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "至少要保护自己…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "如果必要，我不会犹豫。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "一定有别的办法。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "无论哪一种，相信——并贯彻它吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "只有这样，人才能在兽群中活下去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "「我嗅到了！姊妹——影子——还有——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？·亚婆离",
+      "text": "你为什么在这里？你不该在这儿！你被吃掉了！你在肚子里！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "…嗯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "「但无所谓，没人能逃走——我看见了祂，也看见了祂看见的——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？·亚婆离",
+      "text": "所有人变成肉块的模样——！"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "看来，我们的游侠被道德困住了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "那么…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "我来做出决定。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "哈哈…你又是谁？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "真是意外的…可口的食物！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "让人期待，吞下你们的喜悦！"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "有什么东西——在孵化？！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "狂兽的胚芽首次出现"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "狂兽的胚芽",
+      "text": "嘎嘎——痒——好吃——"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "狂兽的胚芽再次出现"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "狂兽的胚芽",
+      "text": "肉汁——分你一半——"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入第二阶段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "这是——她进化了？！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "敌方使用技能：饥饿的鸣响"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "堕神之血·亚婆离",
+      "text": "来吧——和我一同，回归兽母怀抱——"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "敌方使用技能：血脑屏障"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "堕神之血·亚婆离",
+      "text": "我的姊妹，胞亲——为何，要与我为敌——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "对不起，但你看着很好吃。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "敌方血量剩余1%"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "堕神之血·亚婆离",
+      "text": "没人能够逃走——兽口高悬于众生头顶——"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "战斗结束"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往生研院，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "亚婆离之死打破了千星城的愿力循环。失去「人造幻月」后，幻造种们将会面临愿力枯竭的绝境。\n恐慌弥漫，危机中的居民一如既往地呼唤着超级英雄的名字——「灯塔」。\n而一场横跨十五年的悬案，也将随之迎来尾声。",
+      "location": ""
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "不死途先生。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "请助我「一臂之力」。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "小浣熊，来我这边！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "该让「影子」登场了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "那你也该知道，可能付出什么代价——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "沉沦于影中之骸，无眠的伏形之兽啊……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "奥博洛斯，吞下你的子嗣吧！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "朽叶！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "许久未有如此酣畅的进食了……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "…真是怀念啊。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "开拓者，没事吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "千钧一发…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "谢谢，我没事。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "看得我也饿了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "托你的福，我久违地吃了顿饱饭。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "亚婆离死了，千星城的幻造种会跟着一起消失，而复活的「告死魔」却能逍遥法外。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "…我们可真是「恪尽职守」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "开拓者，拜托你们立刻带上幻造种回二相乐园避难，能救多少是多少，剩下的烂摊子我来……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "别这么严肃。说过很多次了，你们人类的难题，我不在乎……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "因为它太好解决了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "千星城缺少一个控制源质的人兽嵌合体？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "它就在这儿。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你说谁…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "难道，你自己？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "…你？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "你要把自己关在这个培养皿里，充当新的「幻月」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "你知道后果——公司的善后部门马上会赶来，接踵而至的，是一群比亚婆离更没底线的疯子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "你能想到的所有灭绝人性的实验，都会排着队找上门，他们根本不会把你当成人来对待，只会把你当成——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "一匹「兽」，对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "我在二相乐园住了上千年。往事暂且不提，光是担任治安官的这些年，就足以让我意识到——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "虽然流淌着古兽的血脉，但我比世界上绝大部分恶徒，都更配称作一个人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "这是「人」必要的牺牲，侦探。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "我，你……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我不接受这种牺牲！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "别急，一定有其他办法。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "虚照，你好歹是星…星际有名的大师！快出出主意。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "你知道，世人对「欢愉」的刻板印象里，同样不包含「复活」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "要创造等同的奇迹，只能付出极其高昂的代价。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "如果做不到，我就不相信你！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "就不能再画一个月亮吗？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "我给你代价，拿走我的肚脐——",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "「不要，这一点也不好玩。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "如果「阿哈」在这里，多半会这么说吧。但善良的模糊二维马老师，不介意再为你变个魔术——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "朽叶小姐，不必急着摘下面具，派对还没有结束呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "还记得吗？这里是千星城，人们有自己的英雄。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往千星城，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "亚婆离之死打破了千星城的愿力循环。失去「人造幻月」后，幻造种们将会面临愿力枯竭的绝境。\n恐慌弥漫，危机中的居民一如既往地呼唤着超级英雄的名字——「灯塔」。\n而一场横跨十五年的悬案，也将随之迎来尾声。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "普狸策",
+      "text": "是我太累了吗？有点喘不上气来哩。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "幻太子",
+      "text": "哔啵，眼睛，好像一下子模糊了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "普狸策，你们怎么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "普狸策",
+      "text": "千星城里的愿力，突然消失哩。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的轻脚",
+      "text": "好难受，浑身都好痛。灯塔，灯塔呢？快来救救我们！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "普狸策",
+      "text": "好困…眼皮睁不开哩，好想睡觉……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "不行，千万不能闭上眼睛！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "普狸策",
+      "text": "早知道，就不来千星城哩……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "别担心，小家伙，你会活下去的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "有人在呼唤「灯塔」，所以——我来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "第144个。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的声音",
+      "text": "灯塔，这种结局，能让你满意吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的自己",
+      "text": "…你认错人了，我是「告死魔」，马库斯·安塔利。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的自己",
+      "text": "而现在，我要让{{这个杀人犯|所有的灯塔}}迎来应有的{{审判|死亡}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恐惧的轻脚",
+      "text": "是灯塔！救救我！灯塔先生！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "第145个。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的声音",
+      "text": "但我想，你还有另一个选择。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的声音",
+      "text": "不是回首过去，而是…看看「现在」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚弱的轻脚",
+      "text": "灯塔！是灯塔……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "…第146个。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚弱的轻脚",
+      "text": "我知道，你会来救我们……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的声音",
+      "text": "这有三张面具，学会的马库斯、乐园的告死魔，还有……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的声音",
+      "text": "来吧，选择你真正想要的那一张，然后戴上它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "我是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "千星城的灯塔。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚弱的轻脚",
+      "text": "好…暖和……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "有个人告诉我，这么做，就能「交换」你我的愿力。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "这能让附近的幻造种存续好一阵子，直到祂完成使命，重新赋予你们生命。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚弱的轻脚",
+      "text": "可是…你的身体……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚弱的轻脚",
+      "text": "这样下去，你会……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "别在意。有得有失，简单的数学题。至少这一刻，我在做自己想做的事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "{{从你们这借来的愿力|从他人那夺走的生命}}，终究到了归还的时刻。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "在「灯塔」的光芒下，笑着活下去吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的自己",
+      "text": "为什么要给我这个机会？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的自己",
+      "text": "马库斯·安塔利是该死的杀人魔，无论做出多少补救，{{他|我}}的罪都不可能赎清。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的声音",
+      "text": "在漫长的生命里，我见过许多能改变一个人的东西，爱、旅途、记忆…甚至是一张面具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的声音",
+      "text": "但这些都不重要，重要的是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的声音",
+      "text": "我相信一个人能够做出改变。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的声音",
+      "text": "而现在，千星城有上千座「灯塔」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "回忆中的声音",
+      "text": "足以改变这个世界的命运。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "善恶终有报，故事的结局应当如此——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "这场横跨了十五年的悬案，终于迎来尾声了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往生研院，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "亚婆离之死打破了千星城的愿力循环。失去「人造幻月」后，幻造种们将会面临愿力枯竭的绝境。\n恐慌弥漫，危机中的居民一如既往地呼唤着超级英雄的名字——「灯塔」。\n而一场横跨十五年的悬案，也将随之迎来尾声。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垂死的亚婆离",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "好久不见，亚婆离女士。很高兴看见你还活着。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垂死的亚婆离",
+      "text": "你知道自己做了什么……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垂死的亚婆离",
+      "text": "在公司的地盘，公然杀害一名主管……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "对此我很遗憾，战略投资部必将追查到底，绝不放过凶手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垂死的亚婆离",
+      "text": "如果我死了，千星城的秘密也会重见天日……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垂死的亚婆离",
+      "text": "你不可能…置身事外……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "对你的死亡，和可能造成的连带损失，我深表痛心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "不过，乐园的经历让我学到许多，足以得出新的结论——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "「石心十人」的身份于我无足轻重，但你的死亡，对所有人都格外关键。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "犯人亚婆离，间接导致两次告死魔事件，并企图对哈托彼亚进行活化改造。根据《乐园管理条例第129条》，我以首席执行官的名义宣判——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "亚婆离女士，请你去死吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垂死的亚婆离",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垂死的亚婆离",
+      "text": "也罢……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垂死的亚婆离",
+      "text": "反正，我看见了真相……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "至此，跨时十五年……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "告死魔事件，正式结案。"
+    }
+  ],
+  "warnings": []
+}

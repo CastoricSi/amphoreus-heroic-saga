@@ -21,6 +21,15 @@ function splitRubyMarker(body: string) {
 	return null;
 }
 
+// `{{~~text~~}}` marks struck-out text: shown faded with a line through, and dropped from copied/plain text.
+export function strikeMarkerBody(body: string) {
+	return body.length >= 4 && body.startsWith("~~") && body.endsWith("~~") ? body.slice(2, -2) : null;
+}
+
+export function wrapStrikeMarker(text: string) {
+	return `{{~~${text}~~}}`;
+}
+
 export function plainRubyText(text: string): string {
 	let output = "";
 	let cursor = 0;
@@ -30,7 +39,9 @@ export function plainRubyText(text: string): string {
 		output += text.slice(cursor, start);
 		const end = findRubyMarkerEnd(text, start);
 		if (end < 0) return output + text.slice(start);
-		const parts = splitRubyMarker(text.slice(start + 2, end - 2));
+		const body = text.slice(start + 2, end - 2);
+		if (strikeMarkerBody(body) !== null) { cursor = end; continue; }
+		const parts = splitRubyMarker(body);
 		output += parts ? plainRubyText(parts[0]) : text.slice(start, end);
 		cursor = end;
 	}
@@ -45,7 +56,8 @@ export function collectRubyAnnotations(text: string) {
 		if (start < 0) break;
 		const end = findRubyMarkerEnd(text, start);
 		if (end < 0) break;
-		const parts = splitRubyMarker(text.slice(start + 2, end - 2));
+		const body = text.slice(start + 2, end - 2);
+		const parts = strikeMarkerBody(body) === null ? splitRubyMarker(body) : null;
 		if (parts) {
 			annotations.push(plainRubyText(parts[1]));
 			annotations.push(...collectRubyAnnotations(parts[0]), ...collectRubyAnnotations(parts[1]));

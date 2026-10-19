@@ -34,7 +34,8 @@ export interface ScriptBlock {
 	node: JsonNode;
 }
 
-export type CutScriptBlock = Omit<ScriptBlock, "id">;
+/** A block as it moves between sibling lists (clipboard, insertion); top-level blocks get an id when placed. */
+export type ScriptItem = Omit<ScriptBlock, "id"> & { id?: string };
 export type NodePath = Array<string | number>;
 
 export interface ScriptNodeAddress {

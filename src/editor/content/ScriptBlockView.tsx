@@ -26,9 +26,10 @@ interface ScriptHierarchyNodeProps {
 	onChange: (path: number[], node: JsonNode) => void;
 	onDrop: (target: ScriptNodeAddress, dragged: ScriptNodeAddress, nest: boolean) => void;
 	onDialogueCursor: (address: ScriptNodeAddress, offset: number) => void;
+	onContextMenu: (address: ScriptNodeAddress, position: { x: number; y: number }) => void;
 }
 
-function ScriptHierarchyNode({ blockId, node, path, level, selectedAddresses, editableAddress, activeMatch, onSelect, onChange, onDrop, onDialogueCursor }: ScriptHierarchyNodeProps) {
+function ScriptHierarchyNode({ blockId, node, path, level, selectedAddresses, editableAddress, activeMatch, onSelect, onChange, onDrop, onDialogueCursor, onContextMenu }: ScriptHierarchyNodeProps) {
 	const [dragOver, setDragOver] = useState(false);
 	const isMessageThread = node.type === "message-thread";
 	const isContainer = node.type === "fold" || isMessageThread;
@@ -42,6 +43,14 @@ function ScriptHierarchyNode({ blockId, node, path, level, selectedAddresses, ed
 		event.stopPropagation();
 		if ((event.target as HTMLElement).closest(".selectable-row")) return;
 		onSelect(address, event.shiftKey);
+	};
+	const openContextMenu = (event: MouseEvent) => {
+		event.stopPropagation();
+		// Keep the browser menu (copy / paste) while text is selected inside a field.
+		const target = event.target;
+		if ((target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement) && target.selectionStart !== target.selectionEnd) return;
+		event.preventDefault();
+		onContextMenu(address, { x: event.clientX, y: event.clientY });
 	};
 	const handleDrop = (event: DragEvent) => {
 		event.preventDefault();
@@ -62,20 +71,20 @@ function ScriptHierarchyNode({ blockId, node, path, level, selectedAddresses, ed
 
 	if (isContainer) {
 		const collapsed = Boolean(node.collapsed) && !containsActiveMatch;
-		return <article id={scriptNodeDomId(address)} className={wrapperClass} data-level={level} data-search-active={isActiveMatch || undefined} onClick={select} onDragOver={(event) => { event.preventDefault(); event.stopPropagation(); event.dataTransfer.dropEffect = "move"; setDragOver(true); }} onDragLeave={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node)) setDragOver(false); }} onDrop={handleDrop}>
+		return <article id={scriptNodeDomId(address)} className={wrapperClass} data-level={level} data-search-active={isActiveMatch || undefined} onClick={select} onContextMenu={openContextMenu} onDragOver={(event) => { event.preventDefault(); event.stopPropagation(); event.dataTransfer.dropEffect = "move"; setDragOver(true); }} onDragLeave={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node)) setDragOver(false); }} onDrop={handleDrop}>
 			<CollapsibleContent leadingActions={dragHandle} collapsed={collapsed} onCollapsedChange={(nextCollapsed) => onChange(path, { ...node, collapsed: nextCollapsed })} className={`${isMessageThread ? "read-node-message-thread" : "read-node-fold"} inline-edit-node`} depth={level - 1} heading={editable ? isMessageThread ? <MessageThreadHeadingFields node={node} content={content} onChange={(value) => onChange(path, value)} /> : <BufferedInput className="inline-heading-input" value={String(node.title ?? "")} placeholder="折叠组标题" onPointerDown={(event) => event.stopPropagation()} onClick={(event) => event.stopPropagation()} onValueChange={(value) => onChange(path, { ...node, title: value })} /> : <div className="container-heading-copy"><strong><HighlightedRichText text={String(node.title ?? (isMessageThread ? "未命名短信会话" : "未命名折叠组"))} highlight={isActiveMatch && activeMatch?.field === "title" ? activeMatch : undefined} /></strong>{isMessageThread ? <small>{String(node.subtitle ?? "") || "无副标题"} · 手机持有者：{String(node.owner ?? "开拓者")}</small> : null}</div>}>
-				{content.map((child, index) => <ScriptHierarchyNode key={index} blockId={blockId} node={child} path={[...path, index]} level={level + 1} selectedAddresses={selectedAddresses} editableAddress={editableAddress} activeMatch={activeMatch} onSelect={onSelect} onChange={onChange} onDrop={onDrop} onDialogueCursor={onDialogueCursor} />)}
+				{content.map((child, index) => <ScriptHierarchyNode key={index} blockId={blockId} node={child} path={[...path, index]} level={level + 1} selectedAddresses={selectedAddresses} editableAddress={editableAddress} activeMatch={activeMatch} onSelect={onSelect} onChange={onChange} onDrop={onDrop} onDialogueCursor={onDialogueCursor} onContextMenu={onContextMenu} />)}
 			</CollapsibleContent>
 		</article>;
 	}
 
-	return <article id={scriptNodeDomId(address)} className={wrapperClass} data-level={level} data-search-active={isActiveMatch || undefined} onClick={select} onDragOver={(event) => { event.preventDefault(); event.stopPropagation(); setDragOver(true); }} onDragLeave={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node)) setDragOver(false); }} onDrop={handleDrop}>
+	return <article id={scriptNodeDomId(address)} className={wrapperClass} data-level={level} data-search-active={isActiveMatch || undefined} onClick={select} onContextMenu={openContextMenu} onDragOver={(event) => { event.preventDefault(); event.stopPropagation(); setDragOver(true); }} onDragLeave={(event) => { if (!event.currentTarget.contains(event.relatedTarget as Node)) setDragOver(false); }} onDrop={handleDrop}>
 		{dragHandle}
 		{editable ? <EditableContent node={node} onChange={(value) => onChange(path, value)} onDialogueCursor={(offset) => onDialogueCursor(address, offset)} /> : <ReadOnlyContent node={node} path={path} selected={new Set()} highlight={isActiveMatch && activeMatch ? activeMatch : undefined} onToggle={(_path, _descendants, modifiers) => onSelect(address, Boolean(modifiers?.shiftKey))} />}
 		{dialogueCopyActions}
 	</article>;
 }
 
-export function ScriptBlockView({ block, selectedAddresses, editableAddress, activeMatch, onSelect, onChange, onDrop, onDialogueCursor }: Omit<ScriptHierarchyNodeProps, "blockId" | "node" | "path" | "level"> & { block: ScriptBlock }) {
-	return <ScriptHierarchyNode blockId={block.id} node={block.node} path={[]} level={1} selectedAddresses={selectedAddresses} editableAddress={editableAddress} activeMatch={activeMatch} onSelect={onSelect} onChange={onChange} onDrop={onDrop} onDialogueCursor={onDialogueCursor} />;
+export function ScriptBlockView({ block, selectedAddresses, editableAddress, activeMatch, onSelect, onChange, onDrop, onDialogueCursor, onContextMenu }: Omit<ScriptHierarchyNodeProps, "blockId" | "node" | "path" | "level"> & { block: ScriptBlock }) {
+	return <ScriptHierarchyNode blockId={block.id} node={block.node} path={[]} level={1} selectedAddresses={selectedAddresses} editableAddress={editableAddress} activeMatch={activeMatch} onSelect={onSelect} onChange={onChange} onDrop={onDrop} onDialogueCursor={onDialogueCursor} onContextMenu={onContextMenu} />;
 }

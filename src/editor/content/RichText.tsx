@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { findRubyMarkerEnd, splitRubyMarker } from "./rich-text-utils";
+import { findRubyMarkerEnd, splitRubyMarker, strikeMarkerBody } from "./rich-text-utils";
 
 function markdownLinkAt(text: string, start: number) {
 	if (text[start] !== "[") return null;
@@ -44,7 +44,10 @@ export function InlineRubyText({ text }: { text: string }) {
 		if (rubyStart > cursor) output.push(text.slice(cursor, rubyStart));
 		const end = findRubyMarkerEnd(text, rubyStart);
 		if (end < 0) { output.push(text.slice(rubyStart)); break; }
-		const parts = splitRubyMarker(text.slice(rubyStart + 2, end - 2));
+		const body = text.slice(rubyStart + 2, end - 2);
+		const struck = strikeMarkerBody(body);
+		if (struck !== null) { output.push(<s className="inline-strike" key={`${rubyStart}-${end}`}><InlineRubyText text={struck} /></s>); cursor = end; continue; }
+		const parts = splitRubyMarker(body);
 		if (!parts) output.push(text.slice(rubyStart, end));
 		else output.push(<ruby className="inline-ruby" key={`${rubyStart}-${end}`}><InlineRubyText text={parts[0]} /><rt><InlineRubyText text={parts[1]} /></rt></ruby>);
 		cursor = end;

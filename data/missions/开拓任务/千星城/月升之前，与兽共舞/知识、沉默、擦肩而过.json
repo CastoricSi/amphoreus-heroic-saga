@@ -1,0 +1,2588 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "知识、沉默、擦肩而过",
+    "pageId": 41435,
+    "revisionId": 104165,
+    "parentRevisionId": 104156,
+    "revisionTimestamp": "2026-10-09T09:15:54Z",
+    "fetchedAt": "2026-10-18T21:41:47.806Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%9F%A5%E8%AF%86%E3%80%81%E6%B2%89%E9%BB%98%E3%80%81%E6%93%A6%E8%82%A9%E8%80%8C%E8%BF%87",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%9F%A5%E8%AF%86%E3%80%81%E6%B2%89%E9%BB%98%E3%80%81%E6%93%A6%E8%82%A9%E8%80%8C%E8%BF%87&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "知识、沉默、擦肩而过",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.6",
+    "number": "02",
+    "series": "月升之前，与兽共舞",
+    "description": "",
+    "requirements": "完成任务剧场及其复象",
+    "requiredLevel": "",
+    "characters": [
+      "真珠",
+      "银狼",
+      "绘世",
+      "灯塔",
+      "虚照",
+      "「旁白」",
+      "不死途",
+      "朽叶",
+      "摩多伽",
+      "亚婆离"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "星琼",
+        "amount": "120"
+      },
+      {
+        "item": "里程",
+        "amount": "800"
+      },
+      {
+        "item": "信用点",
+        "amount": "120000"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "15"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "640"
+      },
+      {
+        "item": "《白昼的背面》",
+        "amount": "1"
+      }
+    ],
+    "previousMissions": [
+      "剧场及其复象"
+    ],
+    "nextMissions": [
+      "无私的基因",
+      "「星际幻宠」乐园"
+    ],
+    "objectives": [
+      "前往珠星大厦，继续冒险",
+      "前往千星城，继续冒险",
+      "乘坐「摆渡车」前往生研院",
+      "进入生研院",
+      "参观尘灵生态园，寻找可引荐的员工",
+      "安抚园区里的尘灵",
+      "跟随虚照，去见见老朋友",
+      "前往生研院，继续冒险",
+      "乘车前往幻造种生产区",
+      "乘坐赛车，深入生研院",
+      "继续往前，挖掘生研院的秘密",
+      "实地参观赛车生产线",
+      "跟随摩多伽，前往会见亚婆离"
+    ],
+    "synopsis": [],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往珠星大厦，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "根据愚者带来的情报，亚婆离主管的生研院里有足以激发「贪饕」食欲的东西，那正是钓猎「贪饕」所需的诱饵。\n再度入画只是权宜之计，二相乐园若要存续，还需应对来自公司其他部门的潜在威胁。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "容我向参与画界仪式的二位致谢：绘世女士，银狼小姐，辛苦了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "第一阶段「绘画」工作，到此暂告段落。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "暂告段落？看起来你还想把咱俩当免费牛马差使？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我以为：银狼小姐乐在其中。况且，绘世女士的「幻造」技艺，对您也是珍贵的报酬。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "您还希望得到什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我的数据切片，该还我了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "你是指：「公司狼」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "不许叫它公司狼！我丢不起这个人！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "当然。物归原主，不过是眨眼间的事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我天，你还把它拷贝了好几份？太没公德了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "精湛的技能理当被分享：正如二位也曾与我共享「幻造」的技艺。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "抱歉，我必须打断你们，真珠女士，你刚才说「暂告段落」，是指危机尚未解除？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "是。借助琥珀王的注视将乐园封入画中，只是权宜之计。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "权宜之计…怎么，你想更进一步，杀死兽蜕？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "阿哈都没打成的BOSS，你要拿下首杀？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "酷哦！虽然但是…我觉得你是不是有点贪心了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我不敢奢望…但确实怀抱着一线希望。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "「兽蜕武器化」只是暂时被搁置。以我对市场开拓部决策风格的理解：要不了多久，他们会再度制造意外，将之重新提上议程。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "所以，你准备进行第三次「绘画」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "真珠女士，作为绘师，当我踏入这片空间时，我能看到数不清的笔触交织在此处。色彩被涂抹、覆盖、又涂抹…你曾在这里不停摹仿我的画作。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "您说的不错。但绘画的事，就到此为止了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "即便摹仿千次，即便能复现《覆世沧浪图》，我和您的作品仍存在不到4%的误差。我曾以为这是自己技艺不足……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "可在我看来，你的画技早已超越我了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我很高兴：您能承认这个事实。所以，这4%误差源于一个永远无法被模仿的变量——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "画师在创作的瞬间，统摄全局，挥毫抒发的感触。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "千年过后，即便您亲自到场，提笔再画，也不过是造就另一幅赝品罢了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "是啊。对绘师而言，每一幅作品诞生的契机都是独一无二的。我倚之创作的，不仅是技艺，还有愤怒…和恐惧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "愤怒、恐惧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "愤怒于未能阻止归寂，恐惧于将世界存续系于一己之身——更恐惧画界仪式的失败。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "千年之前的那一刻，正是这种强烈的情感，将我与这个世界牢牢联结在了一起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "如同琥珀王的垂眸，这是绝对无法复现的人类奇迹。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "在领悟到这一点时，我也找到了我的「4%」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我有了在无法预测的地方「落笔」的冲动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "智械的冲动？我还以为你一直都理性得要命。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "怎么会？我是石心十人的一员：理解风险，正是我的天职。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "但我始终只在计算和摒除不确定性，而非用它来引导创作。 我一直在摹仿杰作，可真正让我领悟的，是那些无法计算的事物——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "一名侦探拒绝亿万信用点也要找到真相的执着；一个受害者燃烧十五年生命向乐园复仇的愤怒……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "还有，星穹列车的无名客在风暴中试图成为风帆的勇气。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "在绝境中爆发的这些情感的力量，是任何模型都无法推演的变量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "所以，你不再追求「复现」了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "是的。我的母题是理解艺术，但艺术不止是绘画：我的目标是为二相乐园绘制一张未来的图景，而不是重复过去的壮举。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我要让「兽蜕武器化」和它的始作俑者，再也无法卷土重来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "所以，在列车出发前，我在这幅图景上落下了三处「闲笔」——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "一位死者，一名凶手，还有一个侦探。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "至于命运的笔最终能否画出我们想要的那番景象……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "就让我们瞧瞧，欢愉之主是否乐见其成吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往千星城，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "根据愚者带来的情报，亚婆离主管的生研院里有足以激发「贪饕」食欲的东西，那正是钓猎「贪饕」所需的诱饵。\n再度入画只是权宜之计，二相乐园若要存续，还需应对来自公司其他部门的潜在威胁。",
+      "location": ""
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "乘坐「摆渡车」前往生研院"
+    },
+    {
+      "type": "objective-description",
+      "text": "根据愚者带来的情报，亚婆离主管的生研院里有足以激发「贪饕」食欲的东西，那正是钓猎「贪饕」所需的诱饵。\n与公司的大人物打交道，我们也算是经验丰富了吧？至少比起在田，亚婆离的工作地点要好找一些。",
+      "location": ""
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "对话版本 1",
+          "content": [
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "对话版本 1",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "灯塔",
+                      "text": "天窗敞开，景色不错吧？"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "虚照",
+                      "text": "再壮观的景色，天天看就不稀奇啦。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "对话版本 1",
+          "content": [
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "对话版本 1",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "开拓者",
+                      "text": "先是指针塔，然后是亚婆离的地盘…不知道她又会给我们准备什么惊喜。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "虚照",
+                      "text": "好啦，亲爱的乘客，站好坐稳抓好扶手。最重要的是——放轻松。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "计划，什么计划？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "就是拿到诱饵的计划啊！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "就是说服亚婆离的计划啊！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "难道我们就这样自顾自走进去？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你不会忘了吧，亚婆离可是站在奥斯瓦尔多一边的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "哼哼，跟着我你就放心吧。最伟大的魔术师和她的助手出手，还有什么事搞不定？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我们会用更加「欢愉」的方式，来拜访这位素未谋面的老朋友。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "一场恰好能传进她耳朵里的演出，让她发现两位更加值得合作的伙伴。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "到时候，她会自己来见我们。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "谁叫你是阿哈呢。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "也是，谁敢对阿哈说不呢？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "星神真是太方便了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "这就是星神身份给你的底气吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "不…开拓者，出发前，我想和你商量一件事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "关于「我是阿哈」这件事，我希望只是你我之间的秘密。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "公司里不少人觊觎星神的力量，亚婆离绝不会是最后一个。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "弗莱明站在我们这一边，没用。公司像个臃肿的巨人，头颅没办法控制四肢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "换做以前，陪他们玩玩也无伤大雅。但现在，饿着肚子的「贪饕」可等不了多久。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好，我答应你。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "微服私访，我喜欢。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "那说好了，如果食言的话……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我就会动用欢愉的权柄，夺走你的肚脐眼。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好邪恶！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "哼哼，知道怕就好。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "可以换成阑尾吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "谁和你讨价还价！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "事不宜迟，咱们赶紧出发，去给「贪饕」找开胃前菜吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "进入生研院"
+    },
+    {
+      "type": "objective-description",
+      "text": "根据愚者带来的情报，亚婆离主管的生研院里有足以激发「贪饕」食欲的东西，那正是钓猎「贪饕」所需的诱饵。\n与公司的大人物打交道，我们也算是经验丰富了吧？至少比起在田，亚婆离的工作地点要好找一些。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "这儿就是生研院？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "更像尘灵主题公园。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "相比科研机构，更像是游乐园。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "有种度假区的感觉…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "只能说，很有千星城的风格。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "也能理解。任何技术都不能停留在概念上，幻造也一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "就像星穹列车要用星铁FES来收集愿力，「娱乐」拥有最显而易见的商业价值。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "当价值一旦被看见，资金就会像潮水一样，源源不断地涌来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "至于这些资金会被亚婆离用到哪儿，就是另外的事了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "亚婆离想用愿力做什么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "从「兽蜕武器化」的方案来看，她多半是在试探操纵古兽的可能。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "琥珀王应该你来当。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "哈哈，泥瓦匠这活太累，不适合我。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "看得出来，这亚婆离不仅仅是个学者，还是个喜欢物尽其用的商人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "有商人的一面，就有讨价还价谈判的可能。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "咱们往前走走吧，看看能不能找个工作人员，给咱们引荐引荐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "哦？没人在门口列队欢迎，真是不习惯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "深瞳",
+      "text": "扫描完毕——欢迎两位来宾进入生命科学研究院！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "「欢迎」？我没有听错吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "怪了，我怎么听见喷泉、音乐，还有孩子的笑声？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "活跃的尘灵",
+      "text": "卟卟卟…怪味道，别过来！怪味道，别过来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "总觉得生研院的气氛有些不对劲……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "是啊，似乎有人…捷足先登了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "活跃的尘灵",
+      "text": "卟卟卟…怪味道，别过来！怪味道，别过来！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "喧哗的尘灵",
+      "text": "卟卟卟，好热，好饿——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "兴奋的孩子",
+      "text": "爸爸你看，尘灵住的房子，比咱们家还要豪华呢！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "兴奋的孩子",
+      "text": "爸爸你看，以前从来没见过尘灵到处乱跑乱跳！难道今天是它们放风的日子？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "陪同的父亲",
+      "text": "哈哈，这一趟真是来值了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "兴奋的孩子",
+      "text": "爸爸你看，尘灵住的房子，比咱们家还要豪华呢！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "陪同的父亲",
+      "text": "哈哈…大庭广众的别说这些。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "窃窃私语的维护人员",
+      "text": "怪了，愿力的浓度才上升了两个点，按理说不会闹腾成这样。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "窃窃私语的维护人员",
+      "text": "怪了，愿力的浓度才上升了两个点，按理说不会闹腾成这样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "一筹莫展的维护人员",
+      "text": "幻造领域研究还有不少空白啊…叫控制组调些人手过来，别让它们跑出生态展览区！"
+    },
+    {
+      "type": "text",
+      "text": "阻断了一切信息的大门，但残留的气息却仍令人感到不安。"
+    },
+    {
+      "type": "text",
+      "text": "有机体的形变，废品被处理时无力的哀嚎，意识畸变的呓语，统统被隔绝，包装成秘密。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "若在操作过程中出现幻听、呓语症状，应立即终止实验人员与源质的接触，并对其意识进行无害化处理。"
+    },
+    {
+      "type": "text",
+      "text": "生研院内的设施均由无机材料制造，若发现其出现不明生物特质，应立即汇报，并对该区域模块进行隔离、切割与销毁处理。"
+    },
+    {
+      "type": "text",
+      "text": "若实验人员出现强烈的饥饿感，或对源质产生依赖情绪，请立即汇报，并按程序进行▇▇类处理。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "操控着众多实验舱的管理平台，哪怕是对古兽源质的应用，也不外乎「验证」、「复现」和「量产」的经典流程。"
+    },
+    {
+      "type": "text",
+      "text": "同化、植入、解剖…一条条触目惊心的实验记录赤裸裸地呈现在你的眼前，在这里，实验体和实验者，不过是一线之隔。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "厚重的门扉，被无数足以将闯入者碾为齑粉的机器守护着，直到某位骇客的切片令它们沉沉睡去。"
+    },
+    {
+      "type": "text",
+      "text": "此刻，它们正做着一场没有电子羊的美梦。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "参观尘灵生态园，寻找可引荐的员工"
+    },
+    {
+      "type": "objective-description",
+      "text": "根据愚者带来的情报，亚婆离主管的生研院里有足以激发「贪饕」食欲的东西，那正是钓猎「贪饕」所需的诱饵。\n与公司的大人物打交道，我们也算是经验丰富了吧？至少比起在田，亚婆离的工作地点要好找一些。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "喧哗的尘灵",
+      "text": "卟卟卟，好热，好饿——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "巨大的尘灵",
+      "text": "卟卟卟，硬邦邦——卟卟卟，啃不动——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "唉，怎么偏偏在我值班的这天出了大乱子？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "请两位往后站些，尘灵很活泼，但没有攻击性。只是要小心头顶，别让它砸着了，影响两位游玩的好心情。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "尘灵罢工了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "讲解员",
+              "text": "哈哈，尘灵只有最基础的智能。与其说是罢工，更像是在闹脾气——"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "它怎么爬这么高？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "讲解员",
+              "text": "哈哈，是啊，我们拒绝幻造种表演，但架不住幻造种硬要表演。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "讲解员",
+              "text": "两位运气不错。我入职以来，还是第一次见到这些小家伙这么活跃——"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "喧哗的尘灵",
+      "text": "卟卟卟，好饿，好热！卟卟卟，不要回去！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "嘘——别人说话的时候保持安静，才是有礼貌的乖孩子哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "尘灵竟然消停了？简直和魔法一样……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "这、这到底是怎么做到的？两位莫非是博识学会的学士？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "不，只是一个小小的把戏罢了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "有什么可以帮助两位的吗？我可以带两位游览园区，体验一下幻造种和人类共存的美好生活。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "帮我介绍一下这里吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "讲解员",
+              "text": "这儿是「尘灵生态园」，隶属于生命科学研究院。五年前，亚婆离女士就是在这儿剪彩，宣布千星城第一个人造幻造种λ-8983诞生的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "讲解员",
+              "text": "那之后，幻造种从实验室走进了千家万户，这儿也慢慢褪去了科普讲解的功能，慢慢成了尘灵和市民们共同休闲放松的主题公园。"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "返回上方提问，可继续选择尚未选择的问题"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "刚才发生了什么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "讲解员",
+              "text": "我也摸不着头脑，毕竟，我只是个导览员罢了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "讲解员",
+              "text": "正常情况下，尘灵受愿力波动影响，只不过会稍微兴奋一些。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "讲解员",
+              "text": "但像这样擅自离开栖息地，上蹿下跳、集体失控的情况…说实话，真的很少见。"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "返回上方提问，可继续选择尚未选择的问题"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我们想见亚婆离女士。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "请替我们传声话吧。我们来找亚婆离女士，谈一笔交易。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "讲解员",
+              "text": "见亚婆离部长？我不记得她今天有接待日程啊。二位究竟是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "这位是星穹列车的代理领航员，开拓者。至于我，你可以叫我宝乐思·梅丽。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "讲解员",
+              "text": "原来是二位…请稍等片刻，我立刻去通报！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "看来咱们俩在指针塔扭转公司决定的事情已经传开了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "只是…这片区域流通的愿力有些古怪。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "我开始好奇起来了，亚婆离那家伙，到底是依靠怎样的技术维持幻造种存在的？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "也许那小家伙能告诉我们答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "喷泉那边吵吵嚷嚷的，发生什么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "躁动的尘灵",
+      "text": "想要去喷泉——大冲浪——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "躁动的尘灵",
+      "text": "卟卟，好凉快，好清爽——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不安的尘灵",
+      "text": "卟卟卟，它爬得好高卟！摔下来会青一块紫一块卟？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "躁动的尘灵",
+      "text": "眼睛、好沉重…有点晕乎乎的卟……"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "安抚园区里的尘灵"
+    },
+    {
+      "type": "objective-description",
+      "text": "幻造种依靠愿力来维持自身存在，原本无法离开幻月映照的范围长存。\n也许躁动不安的尘灵们，会给出关于千星城愿力之谜的答案。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "惊讶的尘灵",
+      "text": "卟卟卟——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "呼，可真费了番力气…别怕，是我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "接下来该看看亚婆离的黑箱里，千星城的愿力是怎样流转的了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "原来如此。我们来对了地方……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我能感应到，在千星城…有一枚「人造幻月」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "而且，我们不是这里的第一批客人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "比我想象的更加热闹，不少老朋友也在这里。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "「老朋友」？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "跟我来吧，去见见他们。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "剩下的，我们路上慢慢说。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "巨大的尘灵",
+      "text": "卟卟，晕乎乎……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "可别小瞧我啊，比你大得多的猎物，姐姐也捉到过哦！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随虚照，去见见老朋友"
+    },
+    {
+      "type": "objective-description",
+      "text": "原来如此，我逐渐开始理解。\n走，换个地方说话。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "看来我们比那位学士更早到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "正好，我们可以谈谈刚才的发现。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "幻月和古兽，是二相乐园幻月游戏持续存在的必要条件。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "亚婆离一定是对幻月游戏进行了某种「逆向工程」，然后在千星城，复制了同样的愿力循环系统。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "这也就是为什么幻造种能在千星城里繁荣存在。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "阿哈真没面子。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "技术研发部，有点东西。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "亚婆离居然能办到这种事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "难怪这让她产生了可以把兽蜕武器化的念头。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "但我真的很好奇她到底做了什么？这家伙知不知道，自己的实验产生的后果。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "啊，谜底揭晓——引发尘灵骚动的不是我们，而是我们的老朋友。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "很遗憾，不死途先生，我们的潜入计划似乎败露了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "哈哈，但好在发现我们的是你们，虚照女士，开拓者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "果然是这样，尘灵不是来欢迎我们的，而是你手臂的味道，激发了它们的「食欲」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不死途和朽叶小姐？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「旁白」",
+              "text": "可别忘了，在下也在场啊。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你们怎么会在这儿？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "避难者的安置告一段落了。我们决定——"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "是真珠女士的安排。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "「我托付二位的情报来自我多年调查所得，并未加密，也并不一定要呈交给公司高层。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "「我的请求只有一个：不惜一切，确保二相乐园的安全。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "这不是秘密使命，真珠也从没要求我们保密。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "那个关键的情报是：在战略投资部还管辖哈托彼亚的时代，亚婆离从二相乐园拿走了「某件东西」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "那是兽蜕的血肉，还是丰饶的样本？不得而知。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "但利用它，亚婆离在千星城构建了愿力循环，也许这就是她提出「兽蜕武器化」的底气所在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "我们来这里，是为了将她的野心掐灭。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "找到危险的源头…并把它们「彻底销毁」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "两位来这里，又是为了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "原来你们在这儿，两位贵客！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这里的尘灵也都跑开了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "「人造幻月」是怎么回事？不会和骰子说的那头「古兽」有关吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "幻月加上古兽，活脱脱一个复刻版的幻月游戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "这已经不是技术能解决的问题了…她一定采取了什么更特殊的手段。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往生研院，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "原来如此，我逐渐开始理解。\n走，换个地方说话。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "啊，终于找到你们了！星穹列车的开拓者和梅丽女士——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "请您允许我这样称呼，如果您喜欢的话。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "…什么意思？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "您还不知道吗？您的真实身份，现在已经传开了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么？！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这可不是我说的。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "听说，您和无名客进了空声院，在田先生就改了主意。然后整个千星城都谈论起了那个名字……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "东方启行！除了公司初创时和弗莱明一同创业的巨头的后人，恐怕没有别的人有这样的能量了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "呼——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "原来如此。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "太好了，肚脐眼保住了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "我已经将两位贵客莅临的消息转达给了亚婆离部长，她派我来接待二位…等等，怎么是五位？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "他们…都是我的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "保镖。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "助理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "…以及宠物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "哈哈，顺序是不是搞错了呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "可以理解。对您这个身份地位的人来说，这样的排场已经算是很低调了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "请各位随我一起移步研究所吧。梅丽女士，亚婆离女士对您提到的「交易」很感兴趣。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "有这么简单吗？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不会是陷阱吧…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我们搅黄了她的大计划，她不会见怪吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "见怪？不，不。亚婆离女士不会见怪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "您见到她就知道了。情绪对她来说…只是生命指标共同营造出的假象。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "更何况，知识不为任何人服务，它只为澄明自身而存在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "只要您也想从这个可鄙的世界攫取美丽的知识，那么，您和她一定会有话聊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "现在，我们出发吧？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "乘车前往幻造种生产区"
+    },
+    {
+      "type": "objective-description",
+      "text": "根据愚者带来的情报，亚婆离主管的生研院里有足以激发「贪饕」食欲的东西，那正是钓猎「贪饕」所需的诱饵。\n与公司的大人物打交道，我们也算是经验丰富了吧？至少比起在田，亚婆离的工作地点要好找一些。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "欢迎，亲爱的贵宾。请系好安全带，准备好领略一场大开眼界的求知之旅！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "乘坐赛车，深入生研院"
+    },
+    {
+      "type": "objective-description",
+      "text": "果然，剥去尘灵生态园这层糖衣，生研院就显露出冷峻的内在一面。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "嚯，车载音响？够气派的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛车幻造种",
+      "text": "车载音响？我可不是那种简单的机械哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "呵呵，我们的生产线，可不止生产尘灵一种幻造种啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "各位，请上车吧！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续往前，挖掘生研院的秘密"
+    },
+    {
+      "type": "objective-description",
+      "text": "果然，剥去尘灵生态园这层糖衣，生研院就显露出冷峻的内在一面。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "这里就是生产区域了。哈哈，要不是您，我可没什么机会来到这里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "多么优雅的设计啊！幻造种在这里的流水线上夜以继日地生产而出…成为千星城繁荣昌盛的基石。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "长久以来，「幻造」这一现象一直存在于偏远边星，不为人知。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "而技术研发部入驻二相乐园不过数十年，亚婆离女士便完美地复刻了愿力生成循环系统！她一直觉得，所有现象都能被归纳为优美的原理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "可惜这个道理，哈托彼亚那些只知道埋头画画的原始人是不会明白的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "梅丽女士，您怎么脸色有点不好？是走累了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "别担心，前面就是保密区域，部长就在那里等您。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "不过，她正在进行一场非常重要的实验，需要稍等片刻。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "倘若两位对技术研发部的幻造种制造工业感兴趣，我也可以带你们参观一番。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这有什么好玩的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "你这就不懂行了吧？愚者们有句老话说得好——人间处处是乐园啊。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "咱们真有时间参观吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "我想看看，亚婆离对幻造技术了解到什么地步了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "我们可以从原料冲压阶段开始，虽然不是我的本职工作，但我也会尽己所能地满足两位的需求。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "在那之前，请允许我带这三位不在到访名单中的客人，到休息室暂候。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "参观？隔着这大玻璃罩子走马观花多没意思，作为体验派，用眼睛看不是我的风格，开拓者，咱们去流水线里逛逛！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "这…恐怕不太符合规定……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "规定？你对东方家族的后人谈规定？好好想想，公司的技术不就是我家的技术吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "不不不，您误会了！我的意思是，幻造种生产线有一定的危险性，两位的身份又是如此尊贵…总之……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "总之，他同意了。我们走起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "我根本没同意啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "抱歉，请三位在这里稍候，我会联系同事来接洽——两位贵客，等等我！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "瞧瞧这流水线的规模，比起珠星大厦，有过之而无不及啊，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "我不打算对我的上司评头论足。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "反倒是你的那位邻居…她刚才的举措，可不像纯粹出于好奇心。她是不是发现了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "我得纠正你——不是「邻居」，而是「房东」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "而我呢，也不打算对我的房东评头论足。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "呵…那么，继续任务吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "在下一个喋喋不休的说教家领我们去休息室喝咖啡之前，我们最好自己找找出路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "这里的氛围，果然和前边大不相同。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "您的眼光很敏锐。如果说「生态园」是我们的脸面，那么这片「生产区」就是生研院的内脏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "而更深处的「研发区」…便是生研院的「大脑」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽分体",
+      "text": "第98组实验数据提取中，未观测到不良反应。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽分体",
+      "text": "哈托彼亚引力范围内的空间涟漪与示波无异常，正在记录第16组观测数据。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽分体",
+      "text": "根据最新指令，拟将古兽源质分配额度进行重新调整。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "实地参观赛车生产线"
+    },
+    {
+      "type": "objective-description",
+      "text": "不是手绘，而是用工业化的管线来批量生产幻造种？这场面，我也是头一回见到。\n只是这千篇一律的流水线产品，实在有些乏味。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "场景角色",
+      "text": "千万别闹出什么乱子…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "场景角色",
+      "text": "两位贵客，等等我！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往生研院，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "不是手绘，而是用工业化的管线来批量生产幻造种？这场面，我也是头一回见到。\n只是这千篇一律的流水线产品，实在有些乏味。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "在二相乐园，核心都是幻造种体内长出来的，但你们却反过来，用核心创造了幻造种……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "哈哈…梅丽女士还真是博闻强识呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "参观流程就到此为止吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "等等，摩多伽女士，您怎么来了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "那个…我……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "看来，终于有个能解释我们所有疑惑的人了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "接下来交给我就好，弗恩学士，你可以回实验室了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讲解员",
+      "text": "好、好的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "初次见面，我是亚婆离女士的私人智械助理，摩多伽，很高兴看到你们在生研院玩得这么开心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "居然不是本人亲自到场迎接，没什么诚意啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "亚婆离女士正在进行一场极其重要的实验，无暇抽身。在实验完成前，生研院的所有工作由我全权接管。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "我会代她审核你们的合作提案，以判断其价值是否值得消耗技术研发部部长的时间。"
+    },
+    {
+      "type": "template",
+      "name": "#tag:tabber",
+      "positional": [],
+      "named": {
+        "亚婆离在做什么实验？": "*摩多伽：抱歉，这是S级机密，您无权获知。\n:返回上方提问，可继续选择尚未选择的问题\n\n-\n亚婆离从哪儿得到的古兽的知识？=\n*摩多伽：抱歉，这是A级机密，您无权获知。\n:返回上方提问，可继续选择尚未选择的问题\n\n-\n我们要钓起古兽的饵料。=\n*摩多伽：抱歉，这是B级机密，您无权获知。\n:返回上方提问，可继续选择尚未选择的问题"
+      }
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "本组选项全部选择后"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "都是机密还怎么谈合作？有什么不是机密吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "机密目录也是机密。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "哈哈，这亚婆离真有意思，特地派了个油盐不进的智械来逗我们玩。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "别装傻了，我知道你在二相乐园做了什么——我也知道，你听得见我们的谈话，亚婆离。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "…检测到关键词，将访客的标签更新为「有趣的大脑」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "对二相乐园的打捞与开发工作，完全符合「诸世界重建计划」的规范，因此，您的指控并不成立。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我收回前言，你这家伙的演技真不错，我都想挖你去伶人剧团上班了，明明流水线上正大摇大摆地放着古兽的血肉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我看弗莱明也是心大，克里珀那老家伙要是知道自家地盘在搞这玩意儿，横竖得给你们来一锤子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "本能会驱使古兽的血肉和{{本源|贪饕}}相互吸引，当年，星神们就是用同样的办法，把「贪饕」骗进了陷阱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "也就是说，能钓起祂的饵料，一直大摇大摆地放在我们面前——技术研发部在二相乐园的目标，从来就不是幻月游戏，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "很抱歉，这也是商业机密。但基于您的反馈，我会重新开启谈判进程。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "已知，合作者需要我方提供诱导古兽的饵料。提问：该提案的报酬是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "亚婆离，你想要洞悉古兽的秘密，可惜「兽蜕武器化」的计划已经被否决了。奥斯瓦尔多承诺的东西成了空头支票，但我们可以给你。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你想对古兽进行实验。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我们的目标并不冲突。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "做生意讲究求同存异。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我们不是朋友，但也不是敌人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "相反，我们带来了一个你绝对无法拒绝的条件——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "把饵料给我们，我们会把「贪饕」从哈托彼亚的深处钓出来，制造一场星神级的应用实验。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "请稍等，正在深度思考，模拟亚婆离女士的决策树……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "已将访客画像调整为「优秀的大脑」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "从古兽、古兽衍生物、「贪饕」兽蜕的躯体中提取的生物质，学名：古兽源质。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "要钓起贪饕，需要大质量、高浓度的古兽源质，这里稀释后的衍生品不符合需求。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "结论：请随我前往生研院深处，亚婆离女士将在实验结束后与二位洽谈合作事宜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽分体",
+      "text": "第98组实验数据提取中，未观测到不良反应。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽分体",
+      "text": "结论：保持当前变量，继续实验。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么实验？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "生研院有多少摩多伽？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "你看过《苍天航路绒绒号》吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽分体",
+      "text": "抱歉，这是机密事项。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽分体",
+      "text": "哈托彼亚引力范围内的空间涟漪与示波无异常，正在记录第16组观测数据。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽分体",
+      "text": "拟将于1个系统时后回收第17组观测装置。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你们想观测什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "二相乐园怎么样了？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "奥斯瓦尔多是不是很讨厌？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽分体",
+      "text": "抱歉，这是机密事项。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽分体",
+      "text": "根据最新指令，拟将古兽源质分配额度进行重新调整。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽分体",
+      "text": "已更改安全协议。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你们从哪儿得到的源质？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你知道完美进化学派吗？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "你一个月工资多少？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽分体",
+      "text": "抱歉，这是机密事项。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随摩多伽，前往会见亚婆离"
+    },
+    {
+      "type": "objective-description",
+      "text": "「古兽源质」，吸引「贪饕」的诱饵，同时也是生研院制造幻造种的原材料。公司的大手真是什么都能找来。\n接下来，就看我们能从亚婆离那里谈下多大的订单了。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "我们已经抵达核心区域，亚婆离女士的实验即将完成，请稍等片刻。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "开拓者，还记得我在珠星大厦和你第一次碰面的情形吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不记得，好久以前了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你是说，机铠的诞生？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我当时告诉你，在看着没有生命的外物时，人总会不自觉将它想象成有生命，可以思考和活动的存在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "是这种「移情作用」产生的愿力赋予了幻造种们生命，也赋予了他们「人性的面具」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "但在归寂的计划中，他曾利用这份愿力，试图驯化兽蜕的力量，用来创造自己的怪物大军。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "亚婆离受到了启发？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "她想让古兽说人话？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "为了满足自己对古兽的好奇，她甚至开始模仿自己敌人的行动。我说的对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "很抱歉，这是——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "下面就由我来接待吧，摩多伽。两位，很抱歉现在才能分神关注你们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "这位梅丽女士，你的颅骨造型实在很美，我可以给它拍张照吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "说真的，我很少看到这种一眼就让人有打开冲动的颅相…真想看看里面装着什么样的秘密。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你休想！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "藏头露尾，干嘛不亲自现身？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "亚婆离",
+              "text": "实验还未结束。为了提前见两位，我分出了一条神经元。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你想直接开打？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "亚婆离",
+              "text": "不不，不要大惊小怪，我只是对人类的生物形态学有一点爱好。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "我保证我会完好无损地把她拼回去的。但看来，眼下既没有时间，你们也没有意愿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "言归正传，梅丽小姐，你知道的很多。是战投的人告诉你的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "抱歉，这是——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "呵呵，我就当是这样吧，你们的来意我已知晓，但在那之前，我希望二位能诚实地告诉我，你们怎么看待「兽蜕武器化」的方案？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这个方案毫无人性可言！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "它看似诱人，代价却是哈托彼亚上无数的死亡，这甚至算不上牺牲，这是献祭。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我不相信你们能操控贪饕。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "控制古兽，和控制「贪饕」的神骸，难度天差地别。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "公司的想法太狂妄了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "星神的力量不是人类可以掌握的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "何况，连天才也做不到的事情，我不认为你能做到。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "我？我当然做不到，博识学会也一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "但公司可以。你面对的是宇宙史上前所未有的超巨企业，人类所能构成的最庞大的组织。量变带来质变，对于公司这样的庞然巨物，一切都会有所不同。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "纳努克能湮灭星辰，公司的灭星武器也可以。药师能点化生命、延年益寿，公司的生物技术也能办到。这一切只是时间、成本的不同。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "提炼足量的古兽源质，就能控制兽蜕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "不知你们是否在生物课上学过？对青蛙的死骸放电，它的大腿也会抽搐。万物同理，只是简单与复杂的差异。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我没上过学。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "亚婆离",
+              "text": "好，那我现在告诉你了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这只是你一厢情愿。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "亚婆离",
+              "text": "许多拓展人类力量的发明在出现前，也曾被视为一厢情愿。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "以「开拓」信徒而言，你的思想保守得可怜，小朋友。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "神能做到的，人也能做到。只要投入足够的资源，一切皆有可能。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "我知道你们不信。但是在那中枢管道下方，我创造出了比正品更可控的「幻月」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "这还只是第一步，奥博洛斯的兽蜕已经苏醒，只要与祂血肉相连，我便能得到祂的智慧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "一位星神将成为公司的资产——这将是前无古人的壮举！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "亚婆离的实验要做多久？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "根据估测，实验将在一个系统时内完成。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "那些管道是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "生研院的「血管」和「神经」，能源、信息…生研院所需的一切，都经由它们流通往各处，最终交汇在这里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "也包括古兽源质？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "这是机密事项。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "两位面前的这块石碑上铭刻着完美进化学派对智慧生命的期许。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "有兴趣的话，两位可以读一读。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…有这么多「你」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "否定，我们之间存在显著的性能差别，而我性能最高。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你们只有这句回答吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽",
+      "text": "很抱歉——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这也是机密事项…我都学会抢答了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往生研院，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "「古兽源质」，吸引「贪饕」的诱饵，同时也是生研院制造幻造种的原材料。公司的大手真是什么都能找来。\n接下来，就看我们能从亚婆离那里谈下多大的订单了。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "如果阿哈听到你这些话，祂一定会说——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "亚婆离，收手吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "上千个琥珀纪前，集众星神之力，以众多星系的消亡和一位星神的隐遁为代价，才得以将「贪饕」肢解封印。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "你的底气，只是一个不谙世事的孩子，在捡到火把时自诩掌控了火焰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "你以为能替你解开谜题的那家伙，也不是什么通往真理的钥匙。如果你一意孤行，它只会…变成一场迟来的报应。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "把古兽源质交给我们，一切还来得及。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "你们…是不是太高看自己了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "刚才那段谈话，只是我在向人畅谈我的梦想。我从来没打算和你们交易。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "因为，只要你们死在哈托彼亚，公司势必会重启我的计划。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "哪怕你们真有亿万分之一的概率再度封印兽蜕，只要列神之战迫在眉睫，我的计划就永远在董事会的备选方案中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "那就是没得谈了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "谈，有什么不可以谈呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "只要你们把阿哈找来，让祂代替「贪饕」躺上我的手术台，我就答应你们所有的要求。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你真是执迷不悟。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "害我白高兴了。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "我劝你还是听她的话。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "梅丽女士，别把自己当圣人，自顾自地劝人迷途知返。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我不是在劝诫，我是在给你一个改变的机会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "如果你们还想继续欣赏我的成果，我不介意带两位在这里参观一番，但若你们想要在这里无理取闹——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "那么，我只好下逐客令了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "两位聪明人，你们怎么选？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我放弃了。记住了，这可是你自己选的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "既然你这么想见阿哈，我就满足你的愿望。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽们",
+      "text": "▄▄▄你█▀▄你▀▄你你▄"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽们",
+      "text": "▄█▀▄▄▄▀▄"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摩多伽们",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "哇，你做了什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "总算清净了。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "这下知道我们的厉害了吧？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "不，开拓者，我什么都没做。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "…有人捷足先登。出事的——是亚婆离。"
+    }
+  ],
+  "warnings": []
+}

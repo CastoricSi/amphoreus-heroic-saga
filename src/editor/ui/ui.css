@@ -109,19 +109,28 @@
 .ui-interactive-surface[aria-disabled="true"] { opacity: .5; pointer-events: none; }
 
 /* Popover layers (tooltip, menu) ---------------------------------------- */
-.ui-tooltip-anchor { display: contents; }
+.ui-tooltip-anchor { display: inline-flex; flex: 0 0 auto; }
+/* Disabled buttons swallow mouse events; let the hover reach the anchor so the tooltip can explain why. */
+.ui-tooltip-anchor > :disabled { pointer-events: none; }
 .ui-tooltip, .ui-menu { inset: auto; margin: 0; border: 0; }
 .ui-tooltip { max-width: 320px; padding: 6px 10px; border-radius: var(--radius); color: #fff; background: #202124; font-size: 11px; line-height: 1.4; pointer-events: none; }
 .ui-tooltip:popover-open { animation: ui-pop-in var(--ui-motion-fast) var(--ui-ease-standard); }
 .ui-menu { min-width: 148px; padding: 4px; border-radius: var(--radius); color: inherit; background: #fff; box-shadow: 0 6px 16px rgb(15 23 42 / .12), 0 0 0 1px rgb(15 23 42 / .08); }
 .ui-menu:popover-open { display: grid; animation: ui-pop-in var(--ui-motion-fast) var(--ui-ease-standard); }
-.ui-menu-item { min-height: 26px; padding: 4px 8px; border-radius: var(--radius); font-size: 10px; line-height: 1.35; text-align: left; white-space: nowrap; }
-.ui-menu-item:is(:hover, :focus-visible) { color: #1f4a80; background: #eef4fb; outline: none; }
+.ui-menu-item { display: flex; min-height: 26px; align-items: center; gap: 16px; padding: 4px 8px; border-radius: var(--radius); font-size: 11px; line-height: 1.35; text-align: left; white-space: nowrap; }
+.ui-menu-item:is(:hover, :focus-visible):not(:disabled) { color: #1f4a80; background: #eef4fb; outline: none; }
+.ui-menu-item:disabled { opacity: .4; }
+.ui-menu-item[data-danger] { color: #b3261e; }
+.ui-menu-item[data-danger]:is(:hover, :focus-visible):not(:disabled) { color: #962018; background: #fcecea; }
+.ui-menu-shortcut { margin-left: auto; color: #8a929c; font-family: inherit; font-size: 10px; }
+.ui-menu-separator { height: 1px; margin: 4px 2px; background: #e6e9ee; }
+.ui-menu-heading { padding: 4px 8px 2px; color: #8a929c; font-size: 10px; }
+.ui-context-menu { min-width: 180px; }
 .ui-menu-trigger.is-active { --ui-fg: #244d72; --ui-bg: #e8f1fb; }
 @keyframes ui-pop-in { from { opacity: 0; transform: scale(.96); } }
 
 /* Modal ----------------------------------------------------------------- */
-.ui-modal { --modal-width: 500px; width: min(var(--modal-width), calc(100vw - 32px)); max-width: none; max-height: min(88vh, 900px); padding: 0; border: 0; border-radius: var(--radius); color: inherit; background: #fff; box-shadow: 0 20px 50px rgb(15 23 42 / .25), 0 0 0 1px rgb(15 23 42 / .08); }
+.ui-modal { --modal-width: 500px; width: min(var(--modal-width), calc(100vw - 32px)); max-width: none; max-height: min(88vh, 900px); margin: auto; padding: 0; border: 0; border-radius: var(--radius); color: inherit; background: #fff; box-shadow: 0 20px 50px rgb(15 23 42 / .25), 0 0 0 1px rgb(15 23 42 / .08); }
 .ui-modal[data-size="sm"] { --modal-width: 380px; }
 .ui-modal[data-size="lg"] { --modal-width: 680px; }
 .ui-modal[data-size="xl"] { --modal-width: 960px; }

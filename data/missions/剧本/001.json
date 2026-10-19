@@ -1,1507 +1,911 @@
 {
   "schemaVersion": 2,
-  "title": "今天是昨天的明天",
-  "createdAt": "2026-09-30T21:38:26.251Z",
-  "updatedAt": "2026-10-07T05:58:44.708Z",
+  "id": "001",
+  "title": "",
+  "chapter": "",
+  "characters": {
+    "visible": [
+      "帕姆",
+      "丹恒",
+      "姬子",
+      "瓦尔特",
+      "三月七",
+      "黑天鹅",
+      "开拓者",
+      "星期日"
+    ],
+    "hidden": []
+  },
+  "createdAt": "2026-10-18T21:54:55.988Z",
+  "updatedAt": "2026-10-19T06:13:28.656Z",
   "blocks": [
     {
-      "id": "e58b42aa-a32f-4b1f-b8c1-2f50a13f8b5b",
+      "id": "d3dfbc60-67f3-452b-a64e-3c6322cf8b9d",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 5
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "各位乘客请稍候，航线会议马上开始。"
+      }
+    },
+    {
+      "id": "813f8f18-a743-42d8-baf4-832f0cbfc6f4",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 8
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "{{~~既然大家都准备好了，~~}}我先列下几个选项：首先是「海洋星球」露莎卡。"
+      }
+    },
+    {
+      "id": "990429e2-e6e3-4df0-aae6-1d398addaceb",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "那里是米哈伊尔先生的故乡。露莎卡曾受星核影响，全球海平面上升，不知现在变成什么样了。"
+      }
+    },
+    {
+      "id": "78241665-24a4-4946-a4e3-0227df2bfa19",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "然后是「玛瑙世界」梅露丝坦因。"
+      }
+    },
+    {
+      "id": "1d264f2d-eb8b-434a-b5a2-23df7df051df",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "「纯美」伊德莉拉的飞升之地，永存不灭之美的世界。据说那里是星核之灾的原爆点之一，多半不怎么安全。"
+      }
+    },
+    {
+      "id": "de6ccd46-a022-4379-ae94-0fffbe56bdae",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "考虑到{{列车燃料|开拓力}}问题，这趟出行最好计划得周密些。"
+      }
+    },
+    {
+      "id": "2342422a-aee4-4b6c-8d41-1577f5f00f5e",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 13
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "最后，也是最大胆的选项——「永恒之地，翁法罗斯」。"
+      }
+    },
+    {
+      "id": "edaa9582-8a71-4817-9ae4-7dbd25e68592",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 14
+      },
+      "node": {
+        "type": "narration",
+        "text": "阿基维利也没去过的世界，智库里一点资料都没有…但如果这趟「开拓」成功，燃料问题就解决了！"
+      }
+    },
+    {
+      "id": "8ed71d0e-f29d-41d2-8377-db6e21282436",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 17
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "而且，那是一个完全未知的世界哎，还有什么比它更适合「开拓」？"
+      }
+    },
+    {
+      "id": "6787e94a-1b23-41b0-b5c0-4dcd6ea33c83",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 18
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "我的看法也一样。虽说前路未卜，但另外两个站点也谈不上多么安全。既然都要冒险，不如大胆一点。"
+      }
+    },
+    {
+      "id": "9ea7dcfa-3709-4757-a4da-3cb30663ac39",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 19
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "同意。"
+      }
+    },
+    {
+      "id": "8cdf7db4-d169-4484-9724-4e2845e5e310",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 20
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "果然大家都倾向星图中不曾描绘的世界啊，列车真是吸引了一群意气相投的伙伴。"
+      }
+    },
+    {
+      "id": "1c49edbe-771b-4436-a299-421cb5af9b98",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 21
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "——当然，我的答案也是翁法罗斯。"
+      }
+    },
+    {
+      "id": "397387ee-750f-4831-b4f9-6a057889ed5f",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 22
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "看来列车长预先准备的投票方案，已经不需要了帕。"
+      }
+    },
+    {
+      "id": "cdb9d05e-b309-4e1f-af67-f20623f943b8",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "那我正式宣布：下一站——翁法罗斯！"
+      }
+    },
+    {
+      "id": "f9d728cc-d469-4b2a-9fe8-6afa1c88daa1",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 24
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "好诶！那就等列车长的跃迁通知啦。"
+      }
+    },
+    {
+      "id": "347b52ea-d9a3-44e9-a1a7-cf7e5af04607",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 25
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "本姑娘先回房间一趟，给相机清点储存空间！这回要美美拍照。"
+      }
+    },
+    {
+      "id": "c9008f3b-8879-4e62-9209-d53107249f45",
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "078510d9-2a45-4c14-aaf9-8b50249fc8ae",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 60
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "你是否听过这么一种说法：「忆者穿行诸界，只为搜集一切珍贵的记忆」。"
+      }
+    },
+    {
+      "id": "e11643bd-177a-4845-a622-de8e6a063633",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 61
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "打捞湮没无闻的「记忆」是我的职责，而忆庭之镜映照出的翁法罗斯…就像橱窗中的珍宝，闪闪发光，也难以触及。"
+      }
+    },
+    {
+      "id": "60c6e7fc-95f3-4927-8223-fbd7599e0132",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "我需要一枚能钉破玻璃的尖钉，也就是各位。只有「开拓」能深入翁法罗斯，穿过层层迷雾，令世界的「记忆」重现天日。"
+      }
+    },
+    {
+      "id": "b2dc5448-2104-4373-9db2-57c4faa7ec4f",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "你不会让我失望的，对吗？"
+      }
+    },
+    {
+      "id": "a207dd80-e052-444f-995d-4e72e6ec5939",
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "da2e528e-a546-4e01-982f-33656df9e88e",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 79
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "各位乘客请注意——列车即将跃迁——请坐稳扶好帕——！"
+      }
+    },
+    {
+      "id": "0034336a-d624-4aa4-91d0-1d2be1800554",
+      "node": {
+        "type": "fold",
+        "title": "播放《星间旅行》",
+        "content": [
+          {
+            "type": "narration",
+            "text": "介绍三月七、丹恒、瓦尔特、姬子、帕姆、黑天鹅、星期日、黑塔"
+          },
+          {
+            "type": "text",
+            "text": "列车即将启动，但画面闪动，列车周围忽然有粉色的花瓣飘落……"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0cec9579-1458-479a-a721-83fdf844b602",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 80
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "narration",
+            "tone": "灰",
+            "text": "列车开始跃迁…"
+          },
+          {
+            "type": "narration",
+            "tone": "灰",
+            "text": "…但在窗外似乎只是一片空旷的宇宙…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "黑天鹅",
+            "text": "什么都没有…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "黑天鹅",
+            "text": "令人疑惑？"
+          },
+          {
+            "type": "narration",
+            "tone": "灰",
+            "text": "黑天鹅拨开空间，显露出藏在星空中下一站…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "黑天鹅",
+            "text": "答案就藏在星空中。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d6c33552-ebcd-42e0-8e17-1ea952c9af57",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 82
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "「永恒之地，翁法罗斯」。"
+      }
+    },
+    {
+      "id": "4b0b201c-1c10-4b93-893c-fcca0937495b",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 84
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "正如各位所见，翁法罗斯被一团混沌的物质包裹着，难以被外部观测。普通的星际旅行无法意识到它的存在，更遑论经过和到达。"
+      }
+    },
+    {
+      "id": "4247e878-1b42-4b25-b78c-19e8a5d5d91b",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 85
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "但忆庭窥见了这里，一并发现的，还有其中变幻莫测的命途行迹。"
+      }
+    },
+    {
+      "id": "42369e09-48a7-457a-bd23-c5b50225961f",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 86
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "「三重命途交织缠绕着翁法罗斯，共同谱写世界的命运」——按照你的说法，普通的命途行者不会在镜中留下痕迹，所以……"
+      }
+    },
+    {
+      "id": "de3e68ff-2da2-4e96-9fd9-33c270860880",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 87
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "在这遗世独立的星系，诞生过至少三位堪比「令使」的存在。"
+      }
+    },
+    {
+      "id": "e90e7616-7840-4444-98e1-36fb1b6dee01",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "甚至，可能是星神本人垂迹。"
+      }
+    },
+    {
+      "id": "954ef548-cf93-4c4f-92e3-388733119a27",
       "node": {
         "type": "fold",
         "title": "折叠内容",
         "content": [
           {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "来做个交换吧？"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "有关「记忆」的交换。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "我梦见一缕光，一盏水晶之杯。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "那晶光对我启口："
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "敬请聆听，有关星空的寓言。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "无名的人、无命的人，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "自荒原那端前来，身披群星的光彩。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "走吧，只管踏着太阳风行进。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "你终将回归我的怀抱，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "只须向着那光前行。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "可那光开始燃烧，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "洞穿云翳，变作金色的死亡。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "高塔倾倒、人们奔逃，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "因为太阳将要落下，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "遭遇凶恶的毁伤。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "但地上的稚子，请务必不要惊惶！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "会有光矢到来，肃清邪恶的孽障；"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "你要循着辙迹，拜谒风暴所向——"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "天体保守秘密，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "数算接连万物的根系。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "但它噤声，仿若宇宙中心的迷雾；"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "聆听寂静，你将知晓群星在何处休憩。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "令旅杖敲击大地吧，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "它们说，一次、两次。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "微小的幼芽将成长参天，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "甘霖自枝头落下，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "为你驱除病痛与毒害。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "蒙上双眼吧，它们说，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "勿要迫近的晦暗使你心神忌惮。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "因为它要教你的灵魂如灌铅般沉重，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "双脚变得麻木不堪。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "推开那庄严的城门吧，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "它们说，拾起青金石板。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "高声朗读，认得那泥砖是何物所炼，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "识得那墙基为何人所奠！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "然后，它们说，抵达尽头的人啊，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "到包容一切的乐园去！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "加入这盛大的颂歌与欢宴，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "听亿万又亿万颗心脏的跳动，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "拥你入怀——"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "看那宫廷的弄臣{{花言巧语|寻欢作乐}}，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "水手{{烂醉如泥|狂饮暴食}}。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "听镜中的婴儿{{啼笑|收梢}}，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "{{浪潮|振翅}}{{入梦|知觉}}，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "天平{{颓圮|轮转}}，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "恭迎无形的{{储君|溯洄者}}。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "最终，以你的身躯丈量世界，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "将凡此种种铭记于心。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "它们说，这正是你应行的道路——"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "{{阿基维利|开拓者}}，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "{{再度启程|联结世界}}吧，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "{{阿基维利|开拓者}}！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "无数流星划过今夜的天空，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "如果选中了正确的那一颗……"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "它将把你的愿望，"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "带向千百个世界。"
-          }
-        ],
-        "collapsed": false
-      }
-    },
-    {
-      "id": "632ee9a8-df3e-4de4-bb6e-1892545ce0e7",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 0
-      },
-      "node": {
-        "type": "fold",
-        "title": "开场动画[「一幕短剧」](https://www.bilibili.com/video/BV1dv4y1A7gL?p=1)",
-        "collapsed": false,
-        "content": [
-          {
-            "type": "dialogue",
-            "speaker": "空间站内的众人",
-            "text": "啊！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "空间站内的众人",
-            "text": "那是什么！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "红色头发的站长",
-            "text": "引导疏散，动作要快！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "白色头发的少年",
-            "text": "走！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "纠缠之缘的转世",
-            "text": "小心！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "卡芙卡",
-            "text": "看来我来得不是时候呢。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "不，我想你来得正是时候。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8a9fd301-22a2-44bb-839e-7c8df68fee0a",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 1
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "？？？",
-        "text": "系统时间23时47分15秒，你很准时，卡芙卡。"
-      }
-    },
-    {
-      "id": "c6ae2846-b4b0-4df8-bb6c-a36f28c36d01",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 2
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "{{艾利欧|星核猎手}}看见的未来是不会出错的。刚刚的爆炸是怎么回事，这也在他的「剧本」里吗？"
-      }
-    },
-    {
-      "id": "eceda5ba-e5f8-4fe1-a594-c458cb634946",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 3
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "？？？",
-        "text": "在，「系统时间23时44分59秒，爆炸产生的脉冲造成了主控系统的大面积瘫痪。」"
-      }
-    },
-    {
-      "id": "49f11de4-de8f-442e-a657-774b57629a5d",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 4
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "是你做的？"
-      }
-    },
-    {
-      "id": "63a726c8-f0de-4d5c-89a1-9f751b67e042",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 5
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "？？？",
-        "text": "「反物质军团」干的，它们在两个系统时前全面入侵了空间站。"
-      }
-    },
-    {
-      "id": "7c53ff18-69ba-4f78-a9a5-7207d5a70155",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 6
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "我们需要和军团交手么？"
-      }
-    },
-    {
-      "id": "be3ed95e-36b6-4068-99da-cde63fb0d05b",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 7
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "？？？",
-        "text": "不知道，艾利欧没有说，那这件事就不重要。"
-      }
-    },
-    {
-      "id": "2b097987-7b66-4bc8-98d8-a8f07a1194b1",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 8
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "明白了~那么从现在开始，行动由我接手。"
-      }
-    },
-    {
-      "id": "357d42b2-abff-4bd6-96b4-c9f2059894e0",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 9
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "？？？",
-        "text": "收到。这次能让我玩得开心点吗？之前的几次行动都很无聊呢。"
-      }
-    },
-    {
-      "id": "b0204334-df0b-4d38-a54c-292a029b3eec",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 10
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "抱歉，今天的任务非常枯燥：仅仅是把目标「放进去」而已。"
-      }
-    },
-    {
-      "id": "dca22153-70de-4d74-a04d-2646cc8cae1a",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 11
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "——但想要找什么乐子，我都不会拦着你。"
-      }
-    },
-    {
-      "id": "83a1c95a-01c2-44c1-a990-830728e4a7ff",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 12
-      },
-      "node": {
-        "type": "fold",
-        "title": "过场动画",
-        "collapsed": false,
-        "content": [
-          {
-            "type": "dialogue",
-            "speaker": "卡芙卡",
-            "text": "——毕竟"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "卡芙卡",
-            "text": "艾利欧没写在剧本里的"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "卡芙卡",
-            "text": "都无关紧要"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e6b0984f-2603-4448-a22f-1c33cc8f09f1",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 14
-      },
-      "node": {
-        "type": "narration",
-        "tone": "描述",
-        "text": "与反物质军团战斗"
-      }
-    },
-    {
-      "id": "a81c9ba6-3234-427e-949f-1ba5f624d5c8",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 32
-      },
-      "node": {
-        "type": "fold",
-        "title": "过场动画",
-        "collapsed": false,
-        "content": [
-          {
             "type": "narration",
-            "tone": "描述",
-            "text": "卡芙卡收拾了一只落单的虚卒，但另一只从卡芙卡的背后准备发动偷袭…"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "…一名少女操作着屏幕，将虚卒传送到了其他空间…"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "替人擦屁股可不是我的工作。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "你说对不对，卡芙卡？"
+            "text": ""
           }
         ]
       }
     },
     {
-      "id": "f3fa33da-4fa5-4b98-b84b-09cc54e8a206",
+      "id": "69c4b35d-ce28-4db8-9d00-c524b6e37faa",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 33
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 89
       },
       "node": {
         "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "好啦好啦，你把它丢哪去了，银狼？"
+        "speaker": "瓦尔特",
+        "text": "如此人杰地灵的世界，在寰宇间却寂寂无名。确实有些奇怪。"
       }
     },
     {
-      "id": "9f5be1dc-b71d-4a72-803c-a816575c068c",
+      "id": "e7a9b22d-1450-44f1-9f61-27e7944f6b33",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 34
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 90
       },
       "node": {
         "type": "dialogue",
-        "speaker": "银狼",
-        "text": "随手打的坐标，没什么讲究。你很关心那只虚卒的去向吗？"
+        "speaker": "姬子",
+        "text": "先前，我们已经知道了这三重命途的其中一重是「智识」……"
       }
     },
     {
-      "id": "cfc22d20-302a-40d9-bd6a-35edc270fc82",
+      "id": "9786a2d0-09fd-40b5-a012-7dad7485c38f",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 35
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "不关心啊~只是不管看几次我都会想，你的手段还真是不可思议~"
-      }
-    },
-    {
-      "id": "9f9c36ab-0554-43db-a424-b89a33e906b2",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 36
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "银狼",
-        "text": "修改现实数据而已，不值一提的小把戏。"
-      }
-    },
-    {
-      "id": "5a93d87a-f1c6-4c42-8fde-0010a9e91289",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 37
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "你刚刚看什么东西那么津津有味？也给我瞧瞧？"
-      }
-    },
-    {
-      "id": "7698d6e8-3c59-43c0-8ff9-ec90ff787200",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 38
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "银狼",
-        "text": "黑塔的玩具，空间站收藏的「奇物」目录。里边有很多有趣的东西。"
-      }
-    },
-    {
-      "id": "a3523717-4157-48ba-9f68-17f8813ecd77",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 39
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "比如？"
-      }
-    },
-    {
-      "id": "21ccffd3-ba88-4ec6-95b6-dc7d96f18ea6",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 40
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "银狼",
-        "text": "有一把枪，能给它准星里出现的生物打分，从0到100不等。"
-      }
-    },
-    {
-      "id": "4edfaafb-1c09-43b5-99df-5d77d291f2aa",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 41
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "…这哪里有趣了。"
-      }
-    },
-    {
-      "id": "af743d65-2b31-4a50-9635-c66b1e6adf20",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 42
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "银狼",
-        "text": "你不好奇自己会得多少分吗？…我还挺想知道的。"
-      }
-    },
-    {
-      "id": "b661bdc8-b28c-4158-887b-7663ae0ad905",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 43
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "好啊，要是顺路的话就去玩一下吧~目标地点在哪儿？"
-      }
-    },
-    {
-      "id": "7329075d-66dc-468f-923f-031ba02cfd89",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 44
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "银狼",
-        "text": "沿着左边门后的回廊继续深入，有个放置了某种「奇物」的房间。"
-      }
-    },
-    {
-      "id": "0def5a58-5178-4f59-98f1-2fb7fd25b25f",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 45
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "{{「星核」|万界之癌}}就在那里？"
-      }
-    },
-    {
-      "id": "5e1b4958-f8eb-4b90-a86a-dd77faca507e",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 46
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "银狼",
-        "text": "它能告诉我们「星核」在哪里。"
-      }
-    },
-    {
-      "id": "f64bed03-9b73-4ddc-a8df-86672427ebba",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 21
-      },
-      "node": {
-        "type": "section",
-        "level": 3,
-        "title": "穿过长廊成功进入空间站内部"
-      }
-    },
-    {
-      "id": "66a4ad8a-6061-4e98-9edc-f60ce3d8e69f",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 22
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "反物质军团什么时候变得这么弱了？"
-      }
-    },
-    {
-      "id": "2d3744df-ccac-42e7-955d-35d794de1cf0",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 23
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "？？？",
-        "text": "我能诱来的兵力就这么多了，你也不想这里被军团的主力盯上吧？"
-      }
-    },
-    {
-      "id": "39aa651c-ad15-405b-a97b-0619cd43bfb9",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 24
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "只有这种货色，拖不住星穹列车那伙人啊。"
-      }
-    },
-    {
-      "id": "a4986646-0ef1-4d5d-821c-3b04e9f59c02",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 25
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "？？？",
-        "text": "放心，一只末日兽也来了。"
-      }
-    },
-    {
-      "id": "71794fb9-4230-416a-8329-81ce4f4e123d",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 57
-      },
-      "node": {
-        "type": "section",
-        "level": 3,
-        "title": "走廊尽头的监控室或许有猫腻"
-      }
-    },
-    {
-      "id": "96f6c4de-bbae-4bde-a8a8-20872b2b0ad6",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 65
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "一个人都没有，疏散做得相当彻底呢。是黑塔亲自下的指示么？"
-      }
-    },
-    {
-      "id": "3fcaaf8c-6119-46a1-94e5-84f8cb4b6a98",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 66
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "银狼",
-        "text": "看访问记录，那女人都大半年没登录过这里了，避难工作是由代理站长——一个叫艾丝妲的人指挥的。"
-      }
-    },
-    {
-      "id": "daec86e3-bcd4-4a58-b41c-fea2a1a59473",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 67
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "没听过的名字…啊，艾利欧好像说过我们不会碰上黑塔，看来她是真的不在。"
-      }
-    },
-    {
-      "id": "30fcebb4-7acc-4694-9e9a-7a74a6d672f6",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 68
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "{{「星核」|万界之癌}}在哪里？"
-      }
-    },
-    {
-      "id": "fb92ba01-bc0b-4e33-be56-94d27b98dfd7",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 69
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "银狼",
-        "text": "艾利欧的剧本没有提到「星核」的具体位置，也就是说在他看到的未来里……"
-      }
-    },
-    {
-      "id": "99b3e73a-66ef-4bc5-b17a-a15dccfa6bd8",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 70
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "——我们并不是通过物理移动手段找到「星核」的。"
-      }
-    },
-    {
-      "id": "f8f096ec-9e31-4dec-b529-4920616f439f",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 71
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "银狼",
-        "text": "这空间站里匪夷所思的东西那么多，有这样的「奇物」也不出奇。"
-      }
-    },
-    {
-      "id": "9df72cfc-022c-418f-b7d2-cf062503165a",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 72
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "用「奇物」隐藏「奇物」，的确是那女人会干的事情…你翻了那么久目录，想必有头绪了吧？"
-      }
-    },
-    {
-      "id": "91a4d181-5172-4434-b6d6-754383208342",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 73
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "银狼",
-        "text": "必要的线索都有了，接下来只需要一点小小的技巧。"
-      }
-    },
-    {
-      "id": "4743ecc6-3049-43a9-bf00-61648e4b8d6f",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
         "contentIndex": 91
       },
       "node": {
-        "type": "narration",
-        "tone": "描述",
-        "text": "银狼伫立在原地便黑入了所有监控系统，找到了唯一一台没有受影响的终端…"
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "而第二重——不必向各位隐瞒，就在刚才，你们已亲眼见证了它，是「记忆」。"
       }
     },
     {
-      "id": "683c3004-45bf-4bfe-be04-b1ae571ab1db",
+      "id": "b963fb8d-a8c4-45d7-b45f-4633f2ed0c32",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
         "contentIndex": 92
       },
       "node": {
         "type": "dialogue",
-        "speaker": "银狼",
-        "text": "你看，找着了。"
+        "speaker": "瓦尔特",
+        "text": "难怪忆庭的使者能揭开它的面纱啊。那，最后一重呢？"
       }
     },
     {
-      "id": "d72208f2-eca6-4365-b87a-a03c91f1d366",
+      "id": "a3513cf2-9e53-436f-aaa1-abbc1416a0b8",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 106
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 93
       },
       "node": {
-        "type": "section",
-        "level": 3,
-        "title": "在银狼的协助下成功取出星核"
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "很遗憾，命运吝啬于展现它的底色，我也不知道第三重命途是什么。"
       }
     },
     {
-      "id": "1b641f23-9467-4ed2-9207-64ab3f811a6d",
+      "id": "0d32db25-29bc-4e57-b7da-110cf3935f32",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 108
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 94
       },
       "node": {
-        "type": "fold",
-        "title": "调查星核",
-        "collapsed": true,
-        "content": [
-          {
-            "type": "text",
-            "text": "这就是「星核」——你们星核猎手在宇宙中四处猎捕的东西。不过，它只是个幌子。艾利欧知道，刃知道，你也知道。星核猎手还有更重要的目标。\n\n为此，这颗被黑塔捕获并封印的星核，将别有它用。当银狼解开封印时，你就要拿走它，把它放进早已为此刻准备多时的「容器」里……\n\n再次调查\n\n这就是「星核」——某位星神把它散播到银河各处，制造混乱和灾祸。"
-          }
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "它潜藏在「智识」和「记忆」的光芒下，与二者分庭抗礼。是「均衡」？「神秘」？还是「不朽」？我没有头绪。"
+      }
+    },
+    {
+      "id": "a4c9c1bf-ead9-47fb-997d-b6d674c7aec8",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 95
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "这条缠绕翁法罗斯的白色光带，也许就是三重命途彼此交织的结果。也只有各位「开拓」的行者能深入漩涡中心，看清它的容貌。"
+      }
+    },
+    {
+      "id": "43160458-d28b-4c89-997b-7395f6bd45af",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "话虽如此，情报还是太少了。"
+      }
+    },
+    {
+      "id": "a04f810e-3a6f-46cf-a097-cc271640852a",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 97
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "更实际的问题是，现在没法进行降落选址。等待我们的可能是大海、没有氧气的真空带、甚至火山岩浆……"
+      }
+    },
+    {
+      "id": "124e8bfb-c142-40d5-918c-339270389471",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 100
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "…等会儿，是不是少了个人？"
+      }
+    },
+    {
+      "id": "3adfa2fe-fac8-4239-a16c-198d34da1f7a",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 101,
+        "contentPath": [
+          "options",
+          0
         ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "咦，三月七呢？"
       }
     },
     {
-      "id": "afd7f634-e133-4fb2-8d5b-d76535f74a96",
+      "id": "2186b700-f3ae-4c55-84f0-9c9813b69390",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 102
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "记得出发前，她说要鼓捣相机就回了房间。之后一直没见她出来。"
+      }
+    },
+    {
+      "id": "522d9f2b-5717-4cdf-ac96-2a1b751dcb44",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 103
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "奇怪。按理说，小三月应该是最兴奋的那个，怎么今天一反常态？去她房间看看吧。"
+      }
+    },
+    {
+      "id": "dd23c863-8463-4aa4-8645-005bda11ee59",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
         "contentIndex": 109
-      },
-      "node": {
-        "type": "narration",
-        "tone": "描述",
-        "text": "操作控制装置"
-      }
-    },
-    {
-      "id": "2815807b-0185-4ea7-b151-85cd049e785a",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 110
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "银狼",
-        "text": "有套独立的防护系统…看来对黑塔而言，「星核」不是寻常的藏品呢。"
-      }
-    },
-    {
-      "id": "58c76182-57f0-467a-9896-2c23c5f112b1",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 111
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "取得出来么？"
-      }
-    },
-    {
-      "id": "d5a60097-d8b8-4034-b2a4-e7e5f9460262",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 112
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "银狼",
-        "text": "当然，在骇客领域，就算天才黑塔也不是我的对手。"
-      }
-    },
-    {
-      "id": "c558ed09-4f3e-41af-b63c-ed3f7ce57fb2",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 113
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "好啊，那载体的准备也拜托你了~"
-      }
-    },
-    {
-      "id": "fc478487-8f19-4b6b-83c0-0c51164eacc8",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 114
-      },
-      "node": {
-        "type": "fold",
-        "title": "过场动画",
-        "collapsed": false,
-        "content": [
-          {
-            "type": "dialogue",
-            "speaker": "银狼",
-            "text": "载体准备好了"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "银狼",
-            "text": "你来决定吧。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "卡芙卡",
-            "text": "艾利欧说过，这个选择会改变很多东西……"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "银狼",
-            "text": "艾利欧也说过，做出这个选择的人必须是你。"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "启用载体「穹」"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "银狼",
-            "text": "要给他一个新的名字么？"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "卡芙卡",
-            "text": "唔……"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "卡芙卡",
-            "text": "就这样吧。"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "银狼操作终端后出现了一位少年…"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "卡芙卡",
-            "text": "他还记得多少？"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "银狼",
-            "text": "至少会记得你。"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "卡芙卡将星核放进少年的体内…"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "卡芙卡",
-            "text": "该起床了。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5c02f7eb-b9ed-4a65-a5cd-8cf0afedc54e",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 115
       },
       "node": {
         "type": "divider"
       }
     },
     {
-      "id": "f7c4e84b-9c1c-4118-b83b-0eb90a71b233",
+      "id": "d4591424-42df-4dbc-afb2-be346442b1f7",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "小三月，你在房间里吗？"
+      }
+    },
+    {
+      "id": "8a5e30c6-9416-45e2-9bbd-01f0c58927a1",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 111
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "我…在……"
+      }
+    },
+    {
+      "id": "87ef0f6d-ba7d-4fb9-8785-70e80c552321",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 112
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "抱歉，不知怎的…跃迁结束后，就使不上力了……"
+      }
+    },
+    {
+      "id": "d211b94c-157b-4a44-9994-11bcc9b66287",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 114
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "黑天鹅小姐，能麻烦你探查一下房间里的「记忆」吗？"
+      }
+    },
+    {
+      "id": "00fd220a-e5b7-4604-8017-c72abb2d7ad9",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 115
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "交给我吧。"
+      }
+    },
+    {
+      "id": "495ce309-a988-440b-b1fb-677665f2b71d",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
         "contentIndex": 116
       },
       "node": {
         "type": "narration",
         "tone": "描述",
-        "text": "你睁开双眼…"
+        "text": "黑天鹅将额头抵在三月七的脑袋上，像是在感受她的体温……"
       }
     },
     {
-      "id": "ed0eb297-fefe-456a-a0e3-5bc0c5032f02",
+      "id": "860264e5-3343-4438-b1b5-c5170a801d69",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
         "contentIndex": 117
       },
       "node": {
         "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "……"
+        "speaker": "黑天鹅",
+        "text": "…从三月七的记忆来看，她突然变得十分虚弱，像是被什么东西压住了身体，变化发生在一瞬间，应该不是病理因素。"
       }
     },
     {
-      "id": "ae5b5300-439b-45a4-a79f-d8c213833ccf",
+      "id": "0f89d2d9-7af7-44ef-bb30-068f94642de8",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 118,
-        "contentPath": [
-          "options",
-          1
-        ]
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 118
       },
       "node": {
         "type": "dialogue",
-        "speaker": "穹",
-        "text": "卡芙…卡？"
+        "speaker": "星期日",
+        "text": "或许是外部环境的影响？"
       }
     },
     {
-      "id": "c548e9b0-43aa-483b-931c-e9fd12f268ee",
+      "id": "d6d24b9d-7732-4dd1-8cf7-882b5dd418c3",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 118,
-        "contentPath": [
-          "options",
-          1
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "太好了，你还记得我。"
-      }
-    },
-    {
-      "id": "4124675b-738b-4af9-8a81-c814a6ed1da6",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 118,
-        "contentPath": [
-          "options",
-          1
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "银狼",
-        "text": "……"
-      }
-    },
-    {
-      "id": "296a9a55-6322-451c-a846-406e361b0b1a",
-      "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
         "contentIndex": 119
       },
       "node": {
         "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "听我说：你的脑袋里现在一片混沌。你不清楚自己是谁，为什么在这儿，接下来要做什么；你觉得我很熟悉，却不清楚该不该信任我——"
+        "speaker": "三月七",
+        "text": "哎哟！怎么人全来了，早知道先把房间收拾一遍了……"
       }
     },
     {
-      "id": "e63dc0f9-01bf-43e0-832c-2d88bbb5f8c1",
+      "id": "883fd68b-7ba8-4bf5-92af-26ab5329b269",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
         "contentIndex": 120
       },
       "node": {
         "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "——但这都不重要。重要的是我要走了，要把你一个人丢在这个空间站里。所以从现在开始，你不用再思考过去，也不用再怀疑自己。"
+        "speaker": "瓦尔特",
+        "text": "星期日自幼在忆质充盈的星系长大，擅长精神治疗，我请他也来做些诊断。"
       }
     },
     {
-      "id": "d17be8cb-8e98-4308-88d5-a0b99e16fe4a",
+      "id": "c99b6857-8069-49ad-bc9b-7632d651d95e",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
         "contentIndex": 121
       },
       "node": {
         "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "听我说：接下来你会遇到很多危险，身处可怕的困境；但你也会遇到许多美妙的事情。你会拥有像家人那样的同伴，开始做梦也想象不到的冒险……"
+        "speaker": "星期日",
+        "text": "列位去过匹诺康尼，应当知晓在跃迁至阿斯德纳时，一些人会陷入联觉梦境。"
       }
     },
     {
-      "id": "fe02b687-0187-49a0-8722-a85f7bd97657",
+      "id": "6777e81e-9682-451b-bfd2-7d02b2327b2e",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
         "contentIndex": 122
       },
       "node": {
         "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "而在旅途的尽头，所有困扰你的谜题都将会解开。"
+        "speaker": "星期日",
+        "text": "我想此刻也是同理。三月小姐受到了某种来自外部的影响，可能是来自命途、星神…或是翁法罗斯本身。"
       }
     },
     {
-      "id": "0a5da887-6e11-45a7-bf8e-7d133827e770",
+      "id": "793372db-4f31-4ae1-b6ff-786e35c698a3",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 124,
-        "contentPath": [
-          "options",
-          0,
-          "content",
-          1
-        ]
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 123
       },
       "node": {
         "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "听我说：记住这一刻的感受。只要心中有方向，你就一定能抵达故事的结局。"
+        "speaker": "黑天鹅",
+        "text": "我也这么认为。"
       }
     },
     {
-      "id": "182d5834-9edf-48b9-a0d3-912736914e7c",
+      "id": "6167597b-8bea-469b-b702-85af418a30d2",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
-        "contentIndex": 124,
-        "contentPath": [
-          "options",
-          0,
-          "content",
-          2
-        ]
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 124
       },
       "node": {
         "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "我就是喜欢这样的你。"
+        "speaker": "瓦尔特",
+        "text": "为什么只有她受到了影响？"
       }
     },
     {
-      "id": "4cbdeb06-9e04-4314-8ef3-8c66bc037fa3",
+      "id": "ca5222d0-d852-451b-ba0c-f0f4851b53f7",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
         "contentIndex": 125
       },
       "node": {
         "type": "dialogue",
-        "speaker": "银狼",
-        "text": "还要说多久？按照剧本，{{星穹列车|「开拓」的旅行者}}的人就快到了，我们不该跟他们照上面。"
+        "speaker": "星期日",
+        "text": "具体不得而知，可能只是时间早晚。"
       }
     },
     {
-      "id": "f3ad0aaf-b4d2-4ff6-a8f7-1b39b09450b5",
+      "id": "e026d29c-ca88-43cc-b2dd-79edea4bb3ba",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
         "contentIndex": 126
       },
       "node": {
         "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "我知道，银狼。再一会儿，就一会儿。"
+        "speaker": "星期日",
+        "text": "不过，在查明原因前，我建议三月七小姐不要贸然接近翁法罗斯。"
       }
     },
     {
-      "id": "b5ef174a-cb62-415d-97bd-62a604b547ee",
+      "id": "4e3bb3cb-3a72-4bca-8b65-5b5958bc4587",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
         "contentIndex": 127
       },
       "node": {
         "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "时间快到了，我该走了…听我说：很快就会有人找到你，放心跟他们走吧。除我以外，你什么都不记得。"
+        "speaker": "姬子",
+        "text": "……"
       }
     },
     {
-      "id": "ee6449fc-7410-4dfb-95f4-25e5e8ddafa6",
+      "id": "70772161-6521-40be-96b0-773e2b5bda00",
       "source": {
-        "mission": "混乱行至深处",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/混乱行至深处.json",
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 128
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "没事的，姬子，我很乖的。大家先出发吧，等我恢复了，立刻就追上你们……"
+      }
+    },
+    {
+      "id": "41935bcb-197b-4170-a9ba-ac72452f0e8f",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
         "contentIndex": 129
       },
       "node": {
         "type": "dialogue",
-        "speaker": "卡芙卡",
-        "text": "当你有机会做出选择的时候，不要让自己后悔……"
+        "speaker": "三月七",
+        "text": "开拓者，这个给你，把我的相机带上！说好落地要拍照的，这下只能拜托你啦……"
       }
     },
     {
-      "id": "a58068d9-5010-44d1-884c-7c7fb86ec087",
+      "id": "de90700e-053c-48ca-bb07-18ef02ccbaca",
       "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 0
-      },
-      "node": {
-        "type": "narration",
-        "tone": "描述",
-        "text": "你看见卡芙卡转身离开，你昏昏睡去…"
-      }
-    },
-    {
-      "id": "bc23c430-d46d-462f-9a9c-b5bbbcfb5a75",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 1
-      },
-      "node": {
-        "type": "narration",
-        "tone": "描述",
-        "text": "…不知道过了多久，你耳边传来声音…"
-      }
-    },
-    {
-      "id": "7306eecd-6652-481d-90dc-471ffc983711",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 2
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "男声",
-        "text": "这个人的坐标不是由空间站发出的……"
-      }
-    },
-    {
-      "id": "7b78927e-2d9a-409b-ad2c-90d7d1676db1",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 3
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "女声",
-        "text": "都这时候了还计较啥啊。这个大活人就在我们眼前，总不能是假的吧。"
-      }
-    },
-    {
-      "id": "259f9d65-081b-4503-84f6-e95d4216f3c4",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 4
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "男声",
-        "text": "…心跳和脉搏很微弱，三月，准备做人工呼吸。"
-      }
-    },
-    {
-      "id": "753091af-150f-429c-a581-9dc55603fddd",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 5
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "女声",
-        "text": "啊？！我…我没什么经验！丹恒你来吧！"
-      }
-    },
-    {
-      "id": "32155bcd-dd7b-45fa-8c52-e2685ed9f0c5",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 6
-      },
-      "node": {
-        "type": "fold",
-        "title": "过场动画",
-        "collapsed": false,
-        "content": [
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "你睁开双眼，看到一名少年的脸庞正在离你很近的距离…"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "停——住口！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "人醒了！"
-          }
-        ]
-      }
-    },
-    {
-      "id": "340ac2b3-e4df-4e00-8b15-95587a512449",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 7
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "？？？",
-        "text": "你没事吧，听得清我说话吗？记不记得自己叫什么名字？"
-      }
-    },
-    {
-      "id": "c184d52e-e7a9-44d8-842e-ac4fb07e8cce",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 8,
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 130,
         "contentPath": [
           "options",
           0
@@ -1509,89 +913,16 @@
       },
       "node": {
         "type": "dialogue",
-        "speaker": "穹",
-        "text": "我…什么都不记得了。"
+        "speaker": "开拓者",
+        "text": "放心交给我吧。"
       }
     },
     {
-      "id": "31581b3d-9a05-46b8-a8e6-d493bd1cfad7",
+      "id": "ed29ac9b-77b1-4923-a1a6-701a44ccfa37",
       "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 9
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "？？？",
-        "text": "…那可麻烦了，能努力回忆一下吗？你的名字是……"
-      }
-    },
-    {
-      "id": "d4198711-3462-4565-b221-6e64eefe85b4",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 10,
-        "contentPath": [
-          "options",
-          0
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "穹",
-        "text": "我的名字是……穹。"
-      }
-    },
-    {
-      "id": "a70ab1e7-4b25-40c9-8081-5a5d45ecddbd",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 11
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "你好，我是丹恒，这是三月七。"
-      }
-    },
-    {
-      "id": "c66c77b2-8fd4-4b54-a3fa-25ea662e733f",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 12
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "这座空间站遭到了反物质军团的袭击，我们是受艾丝妲站长的委托前来救援的。"
-      }
-    },
-    {
-      "id": "b1b495e0-d89a-4978-b1ee-850d6d4396a8",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 13,
-        "contentPath": [
-          "options",
-          0
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "穹",
-        "text": "反物质军团？"
-      }
-    },
-    {
-      "id": "6da4072e-c704-43da-848b-7abc33669df3",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 13,
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 130,
         "contentPath": [
           "options",
           0
@@ -1600,267 +931,93 @@
       "node": {
         "type": "dialogue",
         "speaker": "三月七",
-        "text": "「毁灭」纳努克的打手。你们运气很好，最危险的{{绝灭大君|「毁灭」的令使}}不在附近，来的只是一群四处作恶的散兵游勇。"
+        "text": "嘿嘿，知道你靠得住。"
       }
     },
     {
-      "id": "f768ec85-488b-41a0-9e02-8234196cadb5",
+      "id": "810ebb3a-8fff-485c-851c-e2868c14df0d",
       "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 16
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 131
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "各位，让三月七好好休息吧。我们去外面说话。"
+      }
+    },
+    {
+      "id": "8ec4b8c8-c9f2-4283-84e5-9baad0c361f5",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 132
       },
       "node": {
         "type": "dialogue",
         "speaker": "三月七",
-        "text": "星穹列车也停在那附近！所以不必担心怪物的袭击，我们会解决这次危机的！"
+        "text": "去吧去吧。别担心，下次见面，咱就变回那个活蹦乱跳的美少女了。记得多拍些照片啊，我会检查作业的！"
       }
     },
     {
-      "id": "4a3d0e5f-2169-4d5a-b17a-8a440cf1becd",
+      "id": "0a4b1832-1e7c-45d7-af3e-491199496678",
       "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 17,
-        "contentPath": [
-          "options",
-          1
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "穹",
-        "text": "星穹列车？"
-      }
-    },
-    {
-      "id": "8c99a077-0eea-4a77-90cd-b4c0e05c971e",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 17,
-        "contentPath": [
-          "options",
-          1
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "嗯，你没见过吗？列车时不时会来到太空站的。"
-      }
-    },
-    {
-      "id": "f7a098bf-11dd-4876-8c48-f765341d170f",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 17,
-        "contentPath": [
-          "options",
-          1
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "那是一辆神奇的列车，拥有「开拓」星神的力量，能够在星海中穿行。"
-      }
-    },
-    {
-      "id": "0577bcf8-3591-45f2-8912-a4d02ab41287",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 17,
-        "contentPath": [
-          "options",
-          0,
-          "content",
-          0
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "我和丹恒是星穹列车的乘员，请多关照啦！"
-      }
-    },
-    {
-      "id": "9b93456f-f0df-4496-b558-6315c127e2b9",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 19
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "你和三月一起回去吧。"
-      }
-    },
-    {
-      "id": "0dbe1a88-facb-49eb-9c35-24186846a149",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 20
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "防卫科的阿兰在这附近失去了联系，我得把他带回去。"
-      }
-    },
-    {
-      "id": "4e7c6884-a6cc-4206-a5de-cd970dabcbcf",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 21
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "唔，也行，那你自己小心喔。"
-      }
-    },
-    {
-      "id": "42711bf0-65a8-43d8-8d67-63ec2ec550c0",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 22
-      },
-      "node": {
-        "type": "narration",
-        "tone": "描述",
-        "text": "丹恒离开了…"
-      }
-    },
-    {
-      "id": "eb60ee7c-0473-456d-a295-affefb138994",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 23
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "要不你把这个棒球棍正式出场拿上吧。"
-      }
-    },
-    {
-      "id": "71839337-4273-4b8e-b000-bebe50ae90be",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 24
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "军团在太空站疯狗似地乱窜，返程的路也不安全，还是带点防身武器为好。"
-      }
-    },
-    {
-      "id": "fa0f48a4-9dda-405c-94a5-64931298d318",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 25
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "只是个建议啦——没事，你有我呢！"
-      }
-    },
-    {
-      "id": "cda8c6b2-2179-4c72-b08c-35caa04c6495",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 27
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 134
       },
       "node": {
         "type": "section",
         "level": 3,
-        "title": "离开这里，看看外面的情况"
+        "title": "听听伙伴们的看法"
       }
     },
     {
-      "id": "f70f653c-54b0-4541-9fcf-77458edd0985",
+      "id": "9ee75d86-b66a-4adc-9cba-b8ce447187da",
       "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 41
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 135
       },
       "node": {
         "type": "dialogue",
-        "speaker": "三月七",
-        "text": "呃，说起来你穿的也不是空间站的制服，你真的是这儿的人吗？"
+        "speaker": "瓦尔特",
+        "text": "你觉得翁法罗斯会和三月七的过去有关吗？"
       }
     },
     {
-      "id": "b87dab79-e005-4880-ba35-ec308a820e8f",
+      "id": "3f6da646-3b4e-4402-a634-bcddf6be67d9",
       "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 43
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 136
       },
       "node": {
         "type": "dialogue",
-        "speaker": "三月七",
-        "text": "…算了，咱也不问了。"
+        "speaker": "姬子",
+        "text": "不至于这么巧，我没见到任何和「六相冰」有关的线索。更有可能是翁法罗斯的某种力量率先在她身上显现了。"
       }
     },
     {
-      "id": "d50f1720-3cf8-4bd4-9e3e-8ffdeef734b5",
+      "id": "04725593-c77f-431a-8aa8-d0b72fe0c3bf",
       "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 44
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 137
       },
       "node": {
         "type": "dialogue",
-        "speaker": "三月七",
-        "text": "走吧，送你回去~"
+        "speaker": "姬子",
+        "text": "开拓者，这趟「开拓」之旅，我想交给你和丹恒打头阵，可以吗？"
       }
     },
     {
-      "id": "ac6c9372-7d73-4b46-9757-d5c254c2ace1",
+      "id": "f0b2e86b-0d17-4807-88af-96ab1fbb6c98",
       "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 45
-      },
-      "node": {
-        "type": "section",
-        "level": 3,
-        "title": "前往中庭处的中央电梯"
-      }
-    },
-    {
-      "id": "ddad58c0-dc25-4422-a661-d440fb865d6b",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 47
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "啊，我就知道……"
-      }
-    },
-    {
-      "id": "b9324b28-51eb-48f6-9446-b66b2a3482b6",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 48,
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 138,
         "contentPath": [
           "options",
           0
@@ -1868,1352 +1025,152 @@
       },
       "node": {
         "type": "dialogue",
-        "speaker": "穹",
-        "text": "成功了？"
+        "speaker": "开拓者",
+        "text": "没问题，我俩配合默契。"
       }
     },
     {
-      "id": "d17124af-a3a3-46ef-8193-69f03aadb281",
+      "id": "6ea6e9cd-d88a-498e-b15c-de10953eaad1",
       "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 48,
-        "contentPath": [
-          "options",
-          0
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "没，电梯好像损坏了，按键都没反应。"
-      }
-    },
-    {
-      "id": "a7c7db8a-e53f-488e-a7b6-e8fc4d810501",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 49
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "要是万能的丹恒老师在就好了，他懂一堆莫名其妙的东西，没准连电梯也会修……"
-      }
-    },
-    {
-      "id": "d95cee23-03cd-4b37-a99e-332393fe868b",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 50
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "那个我不会。"
-      }
-    },
-    {
-      "id": "bc736bd8-90d7-4f97-890d-fb5f15f48d3a",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 51
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "哇，你怎么在这儿？！…你怎么比我们还快？"
-      }
-    },
-    {
-      "id": "ddaefd88-5c0d-49af-818f-df4159a88590",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 52
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "我走另一条路，从上面一层绕过来的，正好在监控室看见你们。"
-      }
-    },
-    {
-      "id": "808218e3-6d36-41f4-8dc4-412cc2516dfa",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 53
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "阿兰也在监控室。他受了点伤，但没生命危险。"
-      }
-    },
-    {
-      "id": "e1044bde-ce77-4fb0-80cf-7ed1fd76ea5f",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 54
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "你找到他了啊…阿兰他知道这电梯怎么回事吗？"
-      }
-    },
-    {
-      "id": "e80f4823-e96a-4057-8bcc-e8c37d49cd0a",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 58
-      },
-      "node": {
-        "type": "section",
-        "level": 3,
-        "title": "前往监控室，与阿兰会合"
-      }
-    },
-    {
-      "id": "f882eb6d-8745-4307-ba1d-34d142871245",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 70
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "阿兰",
-        "text": "艾丝妲小姐委托你们来找我，应该有给你们解锁的密钥吧？"
-      }
-    },
-    {
-      "id": "3c9625c5-b35a-4e39-a883-fd59856bd611",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 71
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "好像…是给了我一张卡……"
-      }
-    },
-    {
-      "id": "d4362bc4-4bcf-434c-8bd2-03166f9a8453",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 72
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "三月……"
-      }
-    },
-    {
-      "id": "b99ce1b0-89c9-4616-a451-d1e656237e41",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 73
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "我不记得放哪儿了……"
-      }
-    },
-    {
-      "id": "c13ea0d0-8b7f-4412-a2fb-b2c052d64640",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 74
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "阿兰",
-        "text": "你……"
-      }
-    },
-    {
-      "id": "64cf19d9-6771-45d4-a79e-b762129560f6",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 75
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "啊我找到了！"
-      }
-    },
-    {
-      "id": "dd9a5419-c505-49c4-84e8-29d0fa59aecd",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 76
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "我……"
-      }
-    },
-    {
-      "id": "242317ee-003e-4d27-b728-c02793084e3f",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 77
-      },
-      "node": {
-        "type": "section",
-        "level": 3,
-        "title": "使用密钥"
-      }
-    },
-    {
-      "id": "11428a22-2656-4675-8054-d84359472a86",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 81
-      },
-      "node": {
-        "type": "narration",
-        "tone": "描述",
-        "text": "电梯运行至最上层"
-      }
-    },
-    {
-      "id": "621a24f4-5ca3-40b1-b89a-7a8d7946b92d",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 82
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "走吧。"
-      }
-    },
-    {
-      "id": "8e524664-bbae-4a1c-8071-e1e3ead665bb",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 92
-      },
-      "node": {
-        "type": "section",
-        "level": 3,
-        "title": "前往最上层乘坐电梯，到达主控舱段"
-      }
-    },
-    {
-      "id": "681e2134-4737-4aa3-aa7a-11dabed36f91",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 110
-      },
-      "node": {
-        "type": "narration",
-        "tone": "描述",
-        "text": "你们来到电梯口旁…"
-      }
-    },
-    {
-      "id": "ac1a81dc-1e50-41aa-b37d-cd0425b56664",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 111
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "这就到电梯口了？一路上也没遇到多少敌人嘛~"
-      }
-    },
-    {
-      "id": "2d44049c-ffe4-41e4-be42-38aa82bcc8ae",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 112
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "唉，话一出口我就觉得大事不妙……"
-      }
-    },
-    {
-      "id": "37cfd7c8-e63e-4e8c-a1f1-26b900e65602",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 113
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "说明你成长了，三月。"
-      }
-    },
-    {
-      "id": "2f9516a6-f6a5-4509-a386-f2779515717e",
-      "source": {
-        "mission": "漩涡止于中心",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/漩涡止于中心.json",
-        "contentIndex": 114
-      },
-      "node": {
-        "type": "fold",
-        "title": "过场动画",
-        "collapsed": false,
-        "content": [
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "一只虚卒·践踏者突然出现…"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "…丹恒及时挡在你们几人前面…"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "…你们合力打残虚卒·践踏者，但它召唤出了更多援兵…"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "三月七",
-            "text": "喂喂喂"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "三月七",
-            "text": "打不过就群殴…是不是玩不起？"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "一架战斗无人机出现帮助你们赢得了逃跑的时机…"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "丹恒",
-            "text": "走！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "每次都搞得这么惊险。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "不过，回来就好。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0843b140-0b89-4dc5-b26f-dd4bf60ba794",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 0
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 139
       },
       "node": {
         "type": "dialogue",
         "speaker": "姬子",
-        "text": "小三月，丹恒，辛苦你们啦。"
+        "text": "翁法罗斯这一站意义特殊，车上的每位乘客都不可或缺。开荒世界的工作交给年轻人正合适，相信你和丹恒能成为彼此的照应。"
       }
     },
     {
-      "id": "2362c461-9372-4547-a321-70a004b2eabf",
+      "id": "a1477a3a-259a-421c-99c8-1c9dc4cfeea7",
       "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 1
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 140
       },
       "node": {
         "type": "dialogue",
-        "speaker": "三月七",
-        "text": "姬子~你早点来嘛！最后那票反物质军团和蝗虫似的。咱可是用箭的，打起来多费劲呀。"
+        "speaker": "瓦尔特",
+        "text": "看来我们得留下来处理些大人的事务了。"
       }
     },
     {
-      "id": "6b093be4-1c85-44e2-a309-52735943754e",
+      "id": "e4768d2f-ea24-4b8a-b9f3-3c0c614d733e",
       "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 2
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "来得早也没用啊。我的轨道炮倒是能打掉一片，不过黑塔回来看见空间站这模样，非找我们算账不可。"
-      }
-    },
-    {
-      "id": "cf813ce5-2a31-4cb0-8318-109679e3993e",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 3
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 141
       },
       "node": {
         "type": "dialogue",
         "speaker": "姬子",
-        "text": "你没事吧，阿兰？艾丝妲很担心你。"
+        "text": "别心急，瓦尔特，会有你活跃的机会的。"
       }
     },
     {
-      "id": "aeee5333-5fb2-4934-86dc-e71ceec60086",
+      "id": "a83222a4-94c5-46b4-ac5c-b7c69af9ed14",
       "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 4
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 142
       },
       "node": {
         "type": "dialogue",
-        "speaker": "阿兰",
-        "text": "我没什么大碍，伤口包扎下就好。谢谢你们，我先向艾丝妲站长汇报情况去了，再见。"
+        "speaker": "黑天鹅",
+        "text": "三月七也需要有人照顾，我来搭把手吧。"
       }
     },
     {
-      "id": "1784b781-7c44-4d46-9e9d-d8dcdd8e7c7c",
+      "id": "81b2f34d-fb68-49f9-98ed-b73cb0994e25",
       "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 5
-      },
-      "node": {
-        "type": "narration",
-        "tone": "描述",
-        "text": "阿兰离开了…"
-      }
-    },
-    {
-      "id": "75180946-1e66-4ef5-8d4c-43ea26bba3a0",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 6
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 143
       },
       "node": {
         "type": "dialogue",
-        "speaker": "姬子",
-        "text": "嗨，初次见面，我是姬子，星穹列车的领航员。"
+        "speaker": "星期日",
+        "text": "我也没有异议，悉听各位的安排。"
       }
     },
     {
-      "id": "6b04b6de-a9bd-4bd2-9732-5e50c748799f",
+      "id": "ceb2af4f-0dee-468c-b784-7df698ef514c",
       "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 7
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "也就是说，列车怎么行动都听她的。"
-      }
-    },
-    {
-      "id": "799dbfa7-273f-4e11-a5ec-27d63d6630a1",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 8
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 144
       },
       "node": {
         "type": "dialogue",
         "speaker": "姬子",
-        "text": "这一路过来，小三月没给你添什么麻烦吧？"
+        "text": "看来是达成共识了，那你们两人跟我来观景车厢吧。"
       }
     },
     {
-      "id": "9420fdc0-3f5c-456c-8aee-b7777a82e5d8",
+      "id": "dd225fd9-b6d2-4334-922f-ec4490746ef0",
       "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 9
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "你想好再回答哦。"
-      }
-    },
-    {
-      "id": "88b92d50-b625-47b6-becd-e7ccd68310a6",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 10,
-        "contentPath": [
-          "options",
-          2
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "穹",
-        "text": "那我还是放弃回答吧。"
-      }
-    },
-    {
-      "id": "01bde23e-6200-41ab-8584-58d692a07138",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 10,
-        "contentPath": [
-          "options",
-          2
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "…好像队伍里一下子冒出来两个丹恒。"
-      }
-    },
-    {
-      "id": "015cd37b-0267-452c-a707-c49aa470515d",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 10,
-        "contentPath": [
-          "options",
-          2
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "你聊你的，别扯上我。"
-      }
-    },
-    {
-      "id": "9c96db0a-b90f-4c5c-a9e8-7f0983c9acf5",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 11
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 145
       },
       "node": {
         "type": "dialogue",
         "speaker": "姬子",
-        "text": "哈哈，年轻人就是容易打成一片，看来你们已经相当熟络了。"
+        "text": "以防万一，我在出发前准备了一个「后备方案」，没想到这么快就到了揭秘的时候。"
       }
     },
     {
-      "id": "27c841d2-a961-48eb-9f95-b9eff5471211",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 14
-      },
-      "node": {
-        "type": "section",
-        "level": 3,
-        "title": "向艾丝妲了解情况"
-      }
-    },
-    {
-      "id": "ca47dbfa-147f-4dca-be5f-6f75111e3095",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 16
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "艾丝妲",
-        "text": "投射雷达跟踪正常，遥测信号频率偏高！必须维持在平均水平！"
-      }
-    },
-    {
-      "id": "b16e697f-1c5d-4cc0-b77c-08f48c2e4860",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 17
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "艾丝妲",
-        "text": "根据预测，军团即将进行十个波次以上的连续袭击，大家扛住！"
-      }
-    },
-    {
-      "id": "147cf058-63ee-4afc-88e2-62f59ea251a7",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 18
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "艾丝妲站长！我们回来啦！"
-      }
-    },
-    {
-      "id": "587dbbb0-1976-411e-add5-d862ebc69c69",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 19
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "艾丝妲",
-        "text": "呼，你们平安回来了就好。阿兰刚刚来过了，收容舱段的事他都告诉我了。还有他的伤…多亏你们的帮助。"
-      }
-    },
-    {
-      "id": "7ae0a3e4-6435-45bb-b8a7-55992940c49d",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 20
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "艾丝妲",
-        "text": "灾难当头时，越发体会到科员才是空间站最珍贵的财富…唉，我们对突发事件的准备实在太少了，忽略了安保和战斗人员的建设。"
-      }
-    },
-    {
-      "id": "82f16f51-9377-4e89-b77f-94c134c369dc",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 21
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "艾丝妲",
-        "text": "倒是你们星穹列车的乘员，个个身手不凡……"
-      }
-    },
-    {
-      "id": "9ebd5da4-3146-460c-a44b-d5a08b31d831",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 22
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "空间站当下情况如何？"
-      }
-    },
-    {
-      "id": "8334976c-d282-4a69-9427-9edf43e1902b",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 23
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "艾丝妲",
-        "text": "目前状况还在控制之中……"
-      }
-    },
-    {
-      "id": "bdd69d9d-c3d7-4cb3-8125-0ea3f9d98684",
-      "source": {
-        "mission": "宇宙安宁片刻",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/宇宙安宁片刻.json",
-        "contentIndex": 70
-      },
-      "node": {
-        "type": "fold",
-        "title": "过场动画",
-        "collapsed": false,
-        "content": [
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "突然空间站警报大响…"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "…一只末日兽突破了空间站的保护屏障…"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "艾丝妲",
-            "text": "你们坐列车走。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "艾丝妲",
-            "text": "我留下。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "三月七",
-            "text": "可……"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "姬子",
-            "text": "我们走。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "254d6431-ecd2-4159-a603-9e242792273b",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 0
-      },
-      "node": {
-        "type": "narration",
-        "tone": "描述",
-        "text": "你和列车组的成员离开了主控舱段，与艾丝妲的通信受到干扰…"
-      }
-    },
-    {
-      "id": "997aa4c2-f9d9-4113-986e-e61bf0f938df",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 1
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "艾丝妲",
-        "text": "支援舱段部分的防护罩也撑不了多久，你们尽快……"
-      }
-    },
-    {
-      "id": "0b0aed0a-ced5-4046-af32-a3456dca1ff6",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 2
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "艾丝妲",
-        "text": "这里…就…交给……"
-      }
-    },
-    {
-      "id": "c6e74604-0b7d-4798-ac38-d98e4dd3ee01",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 3
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "艾丝妲",
-        "text": "你们…尽快……"
-      }
-    },
-    {
-      "id": "c91a1603-f035-4238-bdbe-df46600f76d8",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 4
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "…通讯断了。"
-      }
-    },
-    {
-      "id": "aff26e65-c14c-4b2b-8055-cfa0654562dd",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 5
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "要回去么？提醒一句：那是末日兽，军团的对星体兵器。"
-      }
-    },
-    {
-      "id": "403409af-00fe-40cc-9b3c-eff41626ecc3",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 6
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "这空间站是黑塔建的。{{绝灭大君|「毁灭」的令使}}不出手，这里不会有什么大碍。"
-      }
-    },
-    {
-      "id": "131848b4-3a32-4ce7-b806-89498e466b6e",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 7
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "可、可咱们也不能就这么跑了吧……"
-      }
-    },
-    {
-      "id": "3cad9eae-b3fc-4145-b1dc-dae15f73929a",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 8
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "末日兽撕开防护罩易如反掌，黑塔不在，这儿的防御系统对反物质军团来说太过脆弱。"
-      }
-    },
-    {
-      "id": "66e21fc4-b055-4005-9372-07345562592c",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 9
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "军团拥有星神{{纳努克|「毁灭」}}的赐福。它们有备而来，这里的人是守不住的。"
-      }
-    },
-    {
-      "id": "358e5c22-08ce-493d-9c0a-34a984322f8f",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 10
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "所以我们才必须离开——而且要带上他一起走。"
-      }
-    },
-    {
-      "id": "cfda9224-ccca-4638-ad47-d06b15bbe0b6",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 12
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "这样吗…他——很关键？"
-      }
-    },
-    {
-      "id": "04116409-299f-4d46-baac-424db121b1c8",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 13
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "他是破局之人——当然，我也可能弄错。"
-      }
-    },
-    {
-      "id": "b1971faf-1182-43fb-80c1-d10672b845d7",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 14
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "…既如此。好吧，接下来该怎么做？"
-      }
-    },
-    {
-      "id": "e79354db-f495-4177-a804-78fca6c63374",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 15
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "这里是检修科员工作的支援舱段，能通往最近的月台。我们去那儿，和瓦尔特会合。"
-      }
-    },
-    {
-      "id": "97b3bd90-6001-4da7-9914-69dc9f9b56a2",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 16
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "杨叔？杨叔也来了？他不是留在车上了吗？"
-      }
-    },
-    {
-      "id": "f692317b-db38-4aa3-a05c-2c63ef9a2440",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 17
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "星穹列车的行车仪上即时记录我们的行迹。空间站的动静这么大，瓦尔特先生不可能注意不到。"
-      }
-    },
-    {
-      "id": "1503d33f-15a5-4fc1-a895-38511d8c3aab",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 18
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "嗯，我敢保证，你们的杨叔正在赶来的路上。"
-      }
-    },
-    {
-      "id": "ae726305-c0b7-4b88-93c7-8dccf88f7886",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 26
-      },
-      "node": {
-        "type": "section",
-        "level": 3,
-        "title": "尽快到达月台"
-      }
-    },
-    {
-      "id": "6a79cb32-6483-4387-9875-094e03af3170",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 28
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "看见月台了，好耶！"
-      }
-    },
-    {
-      "id": "d342bb66-0a27-4c23-8e14-5a2046cba6bb",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 29
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "…列车还没到。"
-      }
-    },
-    {
-      "id": "2e628e0f-41df-4434-bfd8-dcdeb4bcb680",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 30
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "保不准就在附近！我视力好，先去瞅瞅。"
-      }
-    },
-    {
-      "id": "5632e315-c2df-49ed-9871-0f88505ec61c",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 31
-      },
+      "id": "2196bbb3-8f03-4214-8377-07f5b4ab0c2b",
       "node": {
         "type": "divider"
       }
     },
     {
-      "id": "0758d88b-9f0d-41be-b3ba-af2968e46de5",
+      "id": "dfbbec94-0e90-42ad-a8cf-2f6c430af51f",
       "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 32
-      },
-      "node": {
-        "type": "fold",
-        "title": "过场动画",
-        "collapsed": false,
-        "content": [
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "你们即将到达月台，突然丹恒喊住了跑在前面的三月七…"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "一只巨兽飞来…"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "丹恒",
-            "text": "等等，三月！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "姬子",
-            "text": "末日兽……"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "姬子",
-            "text": "居然真的追过来了。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "三月七",
-            "text": "你下来啊！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "姬子",
-            "text": "都小心了。"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "末日兽降落在了月台上…"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e7805397-c83d-43f1-9250-403386944db7",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 33
-      },
-      "node": {
-        "type": "narration",
-        "tone": "描述",
-        "text": "进入战斗并击败末日兽"
-      }
-    },
-    {
-      "id": "3a52c702-335d-47f5-9fbf-e4154c5255dc",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 34
-      },
-      "node": {
-        "type": "fold",
-        "title": "过场动画",
-        "collapsed": false,
-        "content": [
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "末日兽爆发出最后一点力量攻向你们…"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "…躲闪不及的三月七眼看就要被末日兽击中…"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "众人",
-            "text": "三月！"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "你一个闪身挡在三月七的面前，承受了末日兽的所有攻击…"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "…之后你陷入昏迷，在这期间你似乎看到了什么…"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "…你似乎看到了过去，又似乎看到了未来…"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "该启程了"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "穹",
-            "text": "这到底是……"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "去抵达那个终点。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "穹",
-            "text": "…什么人？"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "用自己的意志抵达那个结局。"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "看"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "祂，已经注意到你了。「毁灭」星神纳努克现身"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "太多画面涌入你的脑海，你体内的星核即将爆发，你痛苦万分…"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "…一个男人出现，只是用他的拐杖在你额头上一点，就使你回到平静…"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "三月七",
-            "text": "杨叔！他……"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "瓦尔特",
-            "text": "已经没事了"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "瓦尔特",
-            "text": "换个地方说话吧。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fdbd9c54-9c49-46b8-927c-438539ab0c2d",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 35
-      },
-      "node": {
-        "type": "divider"
-      }
-    },
-    {
-      "id": "b8c40941-7037-42da-8523-70abb6a88818",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 36
-      },
-      "node": {
-        "type": "narration",
-        "tone": "描述",
-        "text": "你缓缓睁开眼睛…"
-      }
-    },
-    {
-      "id": "b4bf090d-bb0d-44df-9527-e5b4cafa2848",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 37
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "穹",
-        "text": "（这里是…空间站？）"
-      }
-    },
-    {
-      "id": "046cd5e4-c860-42c4-b48d-65b9539d2d3b",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 38,
-        "contentPath": [
-          "tabs",
-          1,
-          "content",
-          0
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "嗨~"
-      }
-    },
-    {
-      "id": "cd8ae16e-becc-4f0a-9e91-7d151868fb41",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 40
-      },
-      "node": {
-        "type": "section",
-        "level": 3,
-        "title": "寻找姬子"
-      }
-    },
-    {
-      "id": "f8ffe2ee-baf0-4d73-849d-34c535a00651",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 42
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 151
       },
       "node": {
         "type": "dialogue",
         "speaker": "姬子",
-        "text": "你醒了。我让小三月他们留在列车附近照看一下。"
+        "text": "地面小分队的成员到齐了，让列车长宣布「后备方案」吧。"
       }
     },
     {
-      "id": "5585d251-472d-45fe-9830-d80c3ddfe89c",
+      "id": "43d2063b-724d-4b2f-b5c6-4ccfce5edd26",
       "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 43
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 152
       },
       "node": {
         "type": "dialogue",
-        "speaker": "姬子",
-        "text": "时间差不多，我等的人应该快到了。"
+        "speaker": "帕姆",
+        "text": "嗯，此行凶险，列车长和领航员为你们准备了一份特别的「开拓」礼物——"
       }
     },
     {
-      "id": "c60a2cda-6067-4dd5-b18b-8f59af5b2f1e",
+      "id": "fa772421-5824-4545-ace2-b8598bf86126",
       "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 44
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 153
       },
       "node": {
         "type": "dialogue",
-        "speaker": "？？？",
-        "text": "我才走了几个月啊？嗯？空间站就搞成了这个德性？"
+        "speaker": "帕姆",
+        "text": "一、节、车、厢帕！"
       }
     },
     {
-      "id": "8831c084-c3fb-464c-a08b-72f340577bdc",
+      "id": "4353441a-af11-42e8-a952-badd2f3d7f22",
       "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 45
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "你回来啦，黑塔。"
-      }
-    },
-    {
-      "id": "815c752e-acd3-48dd-ba33-e2ec288a65ea",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 46
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "这位就是空间站真正的主人，「天才俱乐部」#83，黑塔。"
-      }
-    },
-    {
-      "id": "39ffd930-df0c-4533-bac9-9599da5a8007",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 47
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "黑塔",
-        "text": "介绍我就好好介绍，提什么俱乐部？我那么多非凡成就，哪个不比#83好听？"
-      }
-    },
-    {
-      "id": "9679ffe2-3683-4f55-8b0c-2225f315c891",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 48,
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 154,
         "contentPath": [
           "options",
           0
@@ -3221,865 +1178,67 @@
       },
       "node": {
         "type": "dialogue",
-        "speaker": "穹",
-        "text": "空间站…黑塔…？"
+        "speaker": "开拓者",
+        "text": "什么玩意？"
       }
     },
     {
-      "id": "21fcd72c-a85a-4abc-ac77-4d754d60bb4b",
+      "id": "26eae69e-41f8-4a1e-ab06-d5e2379e3f08",
       "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 48,
-        "contentPath": [
-          "options",
-          0
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "黑塔",
-        "text": "对啊，你现在才反应过来？你们搞得天翻地覆的地方，是我的私人财产。"
-      }
-    },
-    {
-      "id": "68fd63ee-7f70-43da-a002-474d58d3ad8c",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 49
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "黑塔",
-        "text": "现在「星核」是这个小鬼了？"
-      }
-    },
-    {
-      "id": "45cf7326-ceee-47cb-9b25-e5bf6aac48a9",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 50
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "黑塔",
-        "text": "哼，那我得好好看看。"
-      }
-    },
-    {
-      "id": "15212b99-c13a-48a6-8f1c-c5a5d4700bb8",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 51
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "黑塔",
-        "text": "哼哼，真是神了，为了拘束这颗未启动的星核，让湛蓝星免于灾祸，我造了一整座太空站……"
-      }
-    },
-    {
-      "id": "eab36357-6c11-4b3e-87ce-8e5e3f65bc1d",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 52
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "黑塔",
-        "text": "有人却返璞归真，用这小鬼一具身体就搞定了——怎么做到的？"
-      }
-    },
-    {
-      "id": "55ec2d14-8e77-4a04-840a-4b89b9488f29",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 53
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 155
       },
       "node": {
         "type": "dialogue",
         "speaker": "姬子",
-        "text": "而且「星核」在他体内还很稳定……"
+        "text": "翁法罗斯不在星际和平通信的服务范围内，缺乏远程联络的手段。"
       }
     },
     {
-      "id": "43a87c45-f262-4175-9aa4-a839a83fdfc4",
+      "id": "fb0fe45f-382c-4afe-9ea1-50f0fcfdd491",
       "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 56
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "黑塔",
-        "text": "我能拿他做点研究吗？"
-      }
-    },
-    {
-      "id": "80cc3fe5-9fd6-4af2-b5a3-e90d3c2a4416",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 58,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1
-        ]
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 156
       },
       "node": {
         "type": "dialogue",
         "speaker": "姬子",
-        "text": "你别太欺负人家了。"
+        "text": "为了给你们最大限度的支援，我们计划将星穹列车的一节车厢分离出去，当作降落舱使用，落地后也能充当安全屋。"
       }
     },
     {
-      "id": "44a18347-9c3e-4c9c-b925-0c78f6cc9540",
+      "id": "8bd3cbb4-2f48-4577-8715-432d01d99ce8",
       "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 59
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 157
       },
       "node": {
         "type": "dialogue",
-        "speaker": "黑塔",
-        "text": "我现在感兴趣，什么都愿意迁就。身体里有颗星核哎，多有意思！谢恩吧！我出手帮你，这可是星际和平公司花钱都请不着的服务。"
+        "speaker": "帕姆",
+        "text": "放心，车厢上有独立的推进器，一定能把你们送进翁法罗斯，找个安全的地点着陆。"
       }
     },
     {
-      "id": "28ffcb9c-9a53-4450-aa52-43d5dd26dd73",
+      "id": "6bb513b9-1f74-40c4-95f5-0766bcdda35c",
       "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 60
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "明白了吗，黑塔想让你留在她的空间站呢。"
-      }
-    },
-    {
-      "id": "54a47930-91aa-4f13-bdfa-92cddc993d22",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 61
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "黑塔",
-        "text": "别，要严谨：只留一阵子——我做完研究，或者做到一半没兴趣了，这小鬼就得走人。"
-      }
-    },
-    {
-      "id": "70fb26a2-d91a-405a-8a3e-8927e5810aba",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 62
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "之后呢？"
-      }
-    },
-    {
-      "id": "a5091d38-53e8-42d4-85b2-c77fa1247205",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 63
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "黑塔",
-        "text": "之后关我什么事？"
-      }
-    },
-    {
-      "id": "827007b1-811b-4b13-b02c-5b620d06f4b2",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 64
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "你知道你还有另一个选择，月台上停着一辆星穹列车。如果你愿意，可以跟我们一起走。"
-      }
-    },
-    {
-      "id": "0d583b27-9f52-4100-86b0-be12d03796a0",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 65
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "列车和「星核」没少打交道。你所担忧的，也是我们在寻求的答案。再者说……"
-      }
-    },
-    {
-      "id": "908f5a3e-37a6-4296-ad41-94e301223a66",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 66
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "我们随时可以回来让黑塔做研究呀，她现在兴趣满满呢。"
-      }
-    },
-    {
-      "id": "589d9ee4-db54-4fc5-804a-daca4ec578ff",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 67
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "黑塔",
-        "text": "这倒不错，还多少能保持点新鲜感。用不着这小鬼的时候，我也不用操这个心。"
-      }
-    },
-    {
-      "id": "1f884ed5-f51e-4181-adc3-f959539a4fb3",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 68,
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 160,
         "contentPath": [
-          "options",
-          1
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "穹",
-        "text": "你真是我见过最自私的人。"
-      }
-    },
-    {
-      "id": "c2f5e650-1a75-435f-9e82-8d06563f5a94",
-      "source": {
-        "mission": "阴影从未离去",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/阴影从未离去.json",
-        "contentIndex": 68,
-        "contentPath": [
-          "options",
-          1
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "黑塔",
-        "text": "那你真该见见天才俱乐部的其他几位，有的卖了你你还得说声谢谢。而我至少想什么就说什么。"
-      }
-    },
-    {
-      "id": "1c925ca0-229f-4b30-a05e-c7a51efe643a",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 4
-      },
-      "node": {
-        "type": "section",
-        "level": 3,
-        "title": "找人聊聊，并告诉姬子自己的决定"
-      }
-    },
-    {
-      "id": "7e2863aa-10ee-49cf-9eba-a9d41403d4ce",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 6,
-        "contentPath": [
-          "content",
-          1,
-          "options",
-          1,
-          "content",
-          0
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "如果指的是对你乘上星穹列车的看法…你想多了。"
-      }
-    },
-    {
-      "id": "ccfda773-cf55-45e3-bc6c-3b20bc003452",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 6,
-        "contentPath": [
-          "content",
-          1,
-          "options",
-          1,
-          "content",
-          1
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "丹恒",
-        "text": "我的态度很简单：无所谓。建议你也不用考虑我的想法，做你自己想要的选择。"
-      }
-    },
-    {
-      "id": "20b06790-5d05-4ec7-911b-42b0f220f095",
-      "node": {
-        "type": "divider"
-      }
-    },
-    {
-      "id": "23852c11-654c-4438-857d-216d8dc4bfcf",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 7,
-        "contentPath": [
-          "content",
-          3,
           "options",
           0,
           "content",
-          1
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "回忆起在收容舱段的时候，我还在想这孩子晕过去一定是身体很虚弱啦，所以得好好照顾你，没想到你捡了根棒球棍就生龙活虎起来了。"
-      }
-    },
-    {
-      "id": "1d532cb0-e023-4906-bc56-22f273be12d5",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 7,
-        "contentPath": [
-          "content",
-          3,
-          "options",
-          0,
-          "content",
-          2
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "再一眨眼，你就把那大家伙给打进杨叔的黑洞里，还救了我…我还没向你好好道谢……"
-      }
-    },
-    {
-      "id": "abf3e9e0-d635-4699-937e-d066413ee05a",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 7,
-        "contentPath": [
-          "content",
-          3,
-          "options",
-          0,
-          "content",
-          3
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "三月七",
-        "text": "唉，不会就要在这儿分开了吧……"
-      }
-    },
-    {
-      "id": "deeff70a-9528-430b-88b9-05fdcde192da",
-      "node": {
-        "type": "divider"
-      }
-    },
-    {
-      "id": "8505e016-6f23-40b4-8155-35a6501d12ed",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 10
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "怎么样，想好了么？"
-      }
-    },
-    {
-      "id": "e42fab8b-3821-4b06-9bdb-0b301bd6829b",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          3
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "穹",
-        "text": "姬子小姐，你……为什么邀请我上车？"
-      }
-    },
-    {
-      "id": "f7e73e25-96b8-4828-83da-5dc4437c92a8",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          3
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "因为你和其他人不一样。"
-      }
-    },
-    {
-      "id": "4e0d58ac-0fe2-4f2d-9b13-9e15de9c736e",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          3
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "穹",
-        "text": "是因为星核么？"
-      }
-    },
-    {
-      "id": "08128b98-19a4-45bf-bff2-14c246669228",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          3
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "「星核」是首要原因，但也不是唯一的原因。"
-      }
-    },
-    {
-      "id": "2d432a36-be68-452d-831f-3abfbc2c6e51",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          3
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "我觉得你需要一个机会，去发现自己与其他人相比有哪些不同之处。大家都告诉你你是多么的独特，你体内有颗「星核」……"
-      }
-    },
-    {
-      "id": "5e84afb0-a572-4a5f-a083-b6c7c0943fa9",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          3
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "但你自己清楚地认识到这一点，和别人告诉你——不管这说法是来自我还是黑塔，不管这说法看上去有多么可信——这两者是完全不同的。"
-      }
-    },
-    {
-      "id": "88279594-1d5f-4809-94ba-80daf421edf6",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          3
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "你得经历得够多，才能知道你是否因「星核」获得了什么，又失去了什么，以及你自己到底是谁…学会如何掌控这颗「星核」，才能掌控自己的命运。"
-      }
-    },
-    {
-      "id": "785b48f8-3431-4c8c-a4df-aaeb9eb47d81",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          3
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "「星核」对你而言或许还是未知，但在你身体内这件事已是既定事实，你得牢牢地抓住这一点，才能走向更遥远的未来。"
-      }
-    },
-    {
-      "id": "ef80bd4f-bf9d-4d9e-a472-6281b8ffb6d7",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          2
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "穹",
-        "text": "列车接下来会去哪里？"
-      }
-    },
-    {
-      "id": "b899d30e-2f85-4a18-9a4b-88aae4b3c04f",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          2
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "一如既往，追随阿基维利的足迹。"
-      }
-    },
-    {
-      "id": "5d74afc8-6b39-4e16-bc7f-a538a33bfb43",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          2
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "过去，我们已经停靠了好几个世界，将来，我们也会如此继续——银河里有数不清的下一站。"
-      }
-    },
-    {
-      "id": "d08491fe-9f37-4cb7-b145-27f9680f1791",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          2
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "星辰大海不仅是我的梦想，也是列车的心愿，我渴望探索新世界，而列车希望重回它过去的航路。"
-      }
-    },
-    {
-      "id": "ad0b011f-e982-403e-b963-d079fa345f85",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          1,
-          "content",
           0
         ]
       },
       "node": {
         "type": "dialogue",
         "speaker": "姬子",
-        "text": "我已经来过这儿好多回了，对我来说，这本来只是一场普通的旅途而已。"
-      }
-    },
-    {
-      "id": "408e3b30-90e5-4a31-9c7f-0fd40d454184",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          1,
-          "content",
-          1
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "但现在，一切已经没那么普通了。"
-      }
-    },
-    {
-      "id": "5a9b573e-3eea-439c-b039-e1ceeff427be",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          1,
-          "content",
-          2
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "即使是重走已有的航路，仍旧会有新的收获，这就是「开拓」的意义吧。"
-      }
-    },
-    {
-      "id": "aa14a641-1425-4c2a-8759-947e6989fb8d",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          2,
-          "content",
-          1,
-          "options",
-          0,
-          "content",
-          3
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "要不现在就上车聊聊，我给你泡杯咖啡——独门手艺。"
-      }
-    },
-    {
-      "id": "6be3947c-69a3-47db-9e08-11e3db4b7a64",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          0
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "穹",
-        "text": "好。"
-      }
-    },
-    {
-      "id": "2a1dc502-5c35-4ce1-bfed-ea719a7fbe0c",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          0
-        ]
-      },
-      "node": {
-        "type": "dialogue",
-        "speaker": "姬子",
-        "text": "跟我来吧。"
-      }
-    },
-    {
-      "id": "3ffd60f3-bb61-45df-b06d-63650d303244",
-      "source": {
-        "mission": "旅途正在继续",
-        "dataFile": "missions/开拓任务/空间站「黑塔」/今天是昨天的明天/旅途正在继续.json",
-        "contentIndex": 11,
-        "contentPath": [
-          "options",
-          0
-        ]
-      },
-      "node": {
-        "type": "fold",
-        "title": "过场动画",
-        "collapsed": false,
-        "content": [
-          {
-            "type": "dialogue",
-            "speaker": "三月七",
-            "text": "走咯走咯~"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "姬子",
-            "text": "上车吧"
-          },
-          {
-            "type": "narration",
-            "tone": "描述",
-            "text": "你登上了列车，一个长着两只长耳朵穿着制服的毛茸茸的生物向你搭话…"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "喂！"
-          },
-          {
-            "type": "dialogue",
-            "speaker": "？？？",
-            "text": "叫你呢喂！"
-          }
-        ]
+        "text": "向着「永恒之地」——出发吧！"
       }
     }
-  ],
-  "id": "001",
-  "chapter": "序幕・空间站「黑塔」",
-  "characters": {
-    "visible": [
-      "卡芙卡",
-      "银狼",
-      "穹",
-      "丹恒",
-      "三月七",
-      "阿兰",
-      "姬子",
-      "艾丝妲",
-      "瓦尔特",
-      "黑塔"
-    ],
-    "hidden": [
-      "？？？",
-      "空间站内的众人",
-      "红色头发的站长",
-      "白色头发的少年",
-      "纠缠之缘的转世",
-      "男声",
-      "女声",
-      "众人"
-    ]
-  }
+  ]
 }
