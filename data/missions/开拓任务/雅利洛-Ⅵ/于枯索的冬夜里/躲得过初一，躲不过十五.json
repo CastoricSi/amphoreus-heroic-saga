@@ -1,0 +1,524 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "躲得过初一，躲不过十五",
+    "pageId": 2380,
+    "revisionId": 77285,
+    "parentRevisionId": 72610,
+    "revisionTimestamp": "2026-01-18T19:10:17Z",
+    "fetchedAt": "2026-09-28T00:15:01.817Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E8%BA%B2%E5%BE%97%E8%BF%87%E5%88%9D%E4%B8%80%EF%BC%8C%E8%BA%B2%E4%B8%8D%E8%BF%87%E5%8D%81%E4%BA%94",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E8%BA%B2%E5%BE%97%E8%BF%87%E5%88%9D%E4%B8%80%EF%BC%8C%E8%BA%B2%E4%B8%8D%E8%BF%87%E5%8D%81%E4%BA%94&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "躲得过初一，躲不过十五",
+    "region": "雅利洛-Ⅵ",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "04",
+    "series": "于枯索的冬夜里",
+    "description": "为了逃脱追捕，你们冲进了裂界。可你们怎会突然沦落至此？三月七也无法解释，因为她的人设只是一位单纯可爱的少女。\n不过，你们迅速达成共识：当务之急是找到裂界的出口，其他事项等离开这片险地再作商议。",
+    "requirements": "完成永冬城之夜",
+    "requiredLevel": "0",
+    "characters": [
+      "丹恒",
+      "三月七",
+      "布洛妮娅",
+      "桑博",
+      "可可利亚"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "600"
+      },
+      {
+        "item": "星琼",
+        "amount": "80"
+      },
+      {
+        "item": "冒险记录",
+        "amount": "6"
+      },
+      {
+        "item": "凝缩以太",
+        "amount": "3"
+      },
+      {
+        "item": "奇巧零食",
+        "amount": "10"
+      },
+      {
+        "item": "简易抢救器",
+        "amount": "10"
+      },
+      {
+        "item": "固态净水",
+        "amount": "10"
+      },
+      {
+        "item": "基本食材",
+        "amount": "10"
+      },
+      {
+        "item": "果腹粮食",
+        "amount": "10"
+      }
+    ],
+    "previousMissions": [
+      "永冬城之夜"
+    ],
+    "nextMissions": [
+      "捉迷藏"
+    ],
+    "objectives": [
+      "寻找裂界出口，逃脱追捕",
+      "寻找裂界出口，逃脱追捕",
+      "消灭怪物并启动开关",
+      "寻找裂界出口，逃脱追捕"
+    ],
+    "synopsis": [
+      "你们发现一道无法直接打开的大门。你在希露瓦的机械屋见过类似的装置机关，尝试进行破解。",
+      "你与三月七、丹恒发现一处关闭的大门，开关就在不远处，但是必须先解决掉附近游荡的怪物。",
+      "布洛妮娅率领银鬃铁卫追至裂界内部，再度将你们包围。铁卫们做好了战斗准备，这次不会轻易将你们放跑。",
+      "布洛妮娅称，可可利亚已经识破你们的身份伪装与颠覆意图。当下无路可退，你们与铁卫的战斗不可避免。",
+      "你与三月七、丹恒合力击败铁卫士兵。布洛妮娅见势不妙，决定亲自加入战斗。",
+      "你们与布洛妮娅紧张对峙，三月七呼请丹恒使出隐藏的力量。剑拔弩张之际，桑博突然出现。",
+      "神秘的炸弹在你们附近引爆，释放出令众人晕眩的浓烟。桑博自烟中现身，称绝不让帮助过他的朋友们吃亏。"
+    ]
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找裂界出口，逃脱追捕"
+    },
+    {
+      "type": "objective-description",
+      "text": "为了逃脱追捕，你们冲进了裂界。可你们怎会突然沦落至此？三月七也无法解释，因为她的人设只是一位单纯可爱的少女。\n\n不过，你们迅速达成共识：当务之急是找到裂界的出口，其他事项等离开这片险地再作商议。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "到底发生了什么事，为什么那个大守护者突然派人来抓我们啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "在人家睡得正香的时候搞突然袭击，也太卑鄙了吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "那个女人身上有种令人不安的气息…直觉果然不会撒谎。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（接近银鬃铁卫驻守的铁门）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "等一下！里面有银鬃铁卫，小心别惊动他们！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "八成是从其他方向前来围堵我们的士兵。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "不要正面跟他们冲突，找找别的路吧。"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "来到一扇铁门前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这道门，好像没法直接打开啊…欸，你们看这个机关的构造，是不是有点眼熟？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "的确，在希露瓦的机械屋那见过。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "得抓紧时间破解，追兵就在我们身后。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找裂界出口，逃脱追捕"
+    },
+    {
+      "type": "objective-description",
+      "text": "为了逃脱追捕，你们冲进了裂界。可你们怎会突然沦落至此？三月七也无法解释，因为她的人设只是一位单纯可爱的少女。\n\n不过，你们迅速达成共识：当务之急是找到裂界的出口，其他事项等离开这片险地再作商议。\n\n你们成功打开了铁门，接下来只需躲避铁卫耳目、谨慎寻找出路即可。",
+      "location": ""
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "解开机关…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "成功了，开了开了！快走吧，我好像都听见追兵的脚步声了！"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（接近银鬃铁卫）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "等一下！里面有银鬃铁卫，小心别惊动他们！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "不要正面跟他们冲突，找找别的路吧。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "来到第二扇铁门前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这道门没有开关耶。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "啊，好像在那儿！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "有个怪物在开关附近打转，得先解决它。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得固态净水 × 10、基本食材 × 10、果腹粮食 × 10、愤怒拳套 × 1"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "使用消耗品愤怒拳套强化全体角色"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "消灭怪物并启动开关"
+    },
+    {
+      "type": "objective-description",
+      "text": "为了逃脱追捕，你们冲进了裂界。可你们怎会突然沦落至此？三月七也无法解释，因为她的人设只是一位单纯可爱的少女。\n\n不过，你们迅速达成共识：当务之急是找到裂界的出口，其他事项等离开这片险地再作商议。\n\n在逃跑过程中被第二道铁门拦住去路简直是再正常不过的事情了…然而，这次有怪物在铁门开关附近游荡。\n\n打倒怪物，闯过这道关卡吧！",
+      "location": ""
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找裂界出口，逃脱追捕"
+    },
+    {
+      "type": "objective-description",
+      "text": "为了逃脱追捕，你们冲进了裂界。可你们怎会突然沦落至此？三月七也无法解释，因为她的人设只是一位单纯可爱的少女。\n\n不过，你们迅速达成共识：当务之急是找到裂界的出口，其他事项等离开这片险地再作商议。\n\n你是当之无愧的铁门克星…被你打开的两道铁门一定会为你作证的。\n\n裂界的出口已经近在眼前，你们就要安全了…暂时。",
+      "location": ""
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "你们奋力奔向裂界出口，但布洛妮娅带人出现在了前方…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "小心！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "还真的…追来了…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "连埋伏都设好了……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "布洛妮娅",
+          "text": "哼，被小看了啊。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "就算遭到了裂界的侵蚀，这里始终是贝洛伯格的一部分，是我们曾经的家园。铁卫对这里了若指掌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "逃亡游戏结束了，放下武器，跟我回去吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你真是死缠烂打啊…搞不懂我们到底犯了什么罪，让你一直追到这儿都不罢手！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "我接收的命令是捉拿你们，至于详细的罪责和判罚，裁判团会向你们解释。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你昨天见过我们，还记得吗？那时我们是作为可可利亚女士的贵客被招待的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "一夜之间这翻天覆地的变化，我们也很难接受。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "…守护者大人调查了你们的背景。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "她在昨晚召见我，说你们欺骗了她；你们的身份和目的皆是伪造的，意在破坏筑城者对贝洛伯格的掌控。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "啊，这老巫婆怎么人前一套人后一套！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "公开侮辱大守护者只会让你们罪加一等，放下武器投降吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "多言无益了，三月。至少有一件事很清楚：现在我们绝不能被逮捕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "既然没路可逃了，那就让他们见识下{{列车组|星穹列车}}的厉害！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败银鬃铁卫…"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "低头！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "啊！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "士兵",
+          "text": "布洛妮娅大人……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "布洛妮娅",
+          "text": "我来处理，这些"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "布洛妮娅",
+          "text": "邪徒恶党！"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败布洛妮娅…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这孩子…有点过于厉害了啊。喂，丹恒，快把你隐藏的力量用出来呀！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…你先吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "嘁，没意思。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "束手就擒吧，入侵者！我会确保你们得到公正的审判。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "呃，我不是故意要破坏这个紧张的气氛哈~"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "几枚烟雾弹被人扔了过来…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "布洛妮娅",
+          "text": "什么…人……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "…呛死了…咳……"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "桑博从烟雾中走出…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "桑博",
+          "text": "我只是想说"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "桑博",
+          "text": "桑博绝不让帮过咱的朋友吃亏。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "桑博",
+          "text": "瞧，我·桑·博·说·话·算·话。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你晕了过去…"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "…你似乎又看见了什么…"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-躲得过初一躲不过十五-CG.png",
+      "displayWidth": "600px",
+      "align": "center",
+      "asset": "assets/sr-images/开拓任务-躲得过初一躲不过十五-CG.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻的可可利亚",
+      "text": "…他们会痛苦，会牺牲，会因我的命令而死。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星核之声",
+      "text": "恭迎他们的并非死亡…他们会被裹入新世界的襁褓。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻的可可利亚",
+      "text": "那下层的人民呢？他们会失去筑城者的庇护。他们会视我为…暴君。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星核之声",
+      "text": "你见过了…我们承诺的世界。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星核之声",
+      "text": "短暂的误解…换来永恒的繁荣。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星核之声",
+      "text": "由你决定…我们尊重。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻的可可利亚",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "年轻的可可利亚",
+      "text": "我明白了。"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "「均衡」的试炼•贰",
+    "pageId": 3120,
+    "revisionId": 18664,
+    "parentRevisionId": 13944,
+    "revisionTimestamp": "2023-08-28T06:51:52Z",
+    "fetchedAt": "2026-09-28T00:16:02.517Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E3%80%8C%E5%9D%87%E8%A1%A1%E3%80%8D%E7%9A%84%E8%AF%95%E7%82%BC%E2%80%A2%E8%B4%B0",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E3%80%8C%E5%9D%87%E8%A1%A1%E3%80%8D%E7%9A%84%E8%AF%95%E7%82%BC%E2%80%A2%E8%B4%B0&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "「均衡」的试炼·贰",
+    "region": "雅利洛-Ⅵ",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "02",
+    "series": "宇宙均衡",
+    "description": "「仲裁官」的试炼再度到来。它的内容、形式、好处和损害你已经很清楚了，不是吗？去吧，为了「均衡」……",
+    "requirements": "开拓等级到达30级",
+    "requiredLevel": "30",
+    "characters": [],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "开拓进行时",
+        "amount": "1"
+      },
+      {
+        "item": "星轨通票",
+        "amount": "3"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "8"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "6"
+      },
+      {
+        "item": "愤怒拳套",
+        "amount": "3"
+      },
+      {
+        "item": "信用点",
+        "amount": "40000"
+      },
+      {
+        "item": "材料名",
+        "amount": "个数"
+      }
+    ],
+    "previousMissions": [
+      "「均衡」的试炼·壹",
+      "回归"
+    ],
+    "nextMissions": [
+      "「均衡」的试炼·叁"
+    ],
+    "objectives": [
+      "前往「残响回廊」挑战「均衡」的试炼。",
+      "通过「均衡」的试炼·贰。"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": "开拓等级到达30级后自动接取"
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往「残响回廊」挑战「均衡」的试炼。"
+    },
+    {
+      "type": "objective-description",
+      "text": "「仲裁官」的试炼再度到来。它的内容、形式、好处和损害你已经很清楚了，不是吗？去吧，为了「均衡」……",
+      "location": "雅利洛-Ⅵ-残响回廊"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "通过「均衡」的试炼·贰。"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,1693 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "小虎克的宝贝",
+    "pageId": 2932,
+    "revisionId": 34265,
+    "parentRevisionId": 11226,
+    "revisionTimestamp": "2024-03-17T10:42:08Z",
+    "fetchedAt": "2026-09-28T00:21:41.491Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%B0%8F%E8%99%8E%E5%85%8B%E7%9A%84%E5%AE%9D%E8%B4%9D",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%B0%8F%E8%99%8E%E5%85%8B%E7%9A%84%E5%AE%9D%E8%B4%9D&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "小虎克的宝贝",
+    "region": "雅利洛-Ⅵ-磐岩镇",
+    "type": "同行任务",
+    "version": "1.0",
+    "number": "02",
+    "series": "炉前百态",
+    "description": "鼹鼠党的虎克大人好像有什么事情在等着你，谁让你是鼹鼠党的荣誉队员呢，去问问看吧。\n虎克明明是一副小大人的得意模样，却总是让人忍不住想要去帮她一把，也许这就是惹人怜爱吧。",
+    "requirements": "完成开拓任务我们不擅长告别、\n同行任务老矿头的宝贝",
+    "requiredLevel": "18",
+    "characters": [
+      "虎克"
+    ],
+    "relatedItems": [
+      "一罐玻璃弹珠",
+      "锈损的钥匙",
+      "尤利安的时间胶囊",
+      "被叫作「菌菌」的大熊玩偶"
+    ],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "350"
+      },
+      {
+        "item": "星琼",
+        "amount": "60"
+      },
+      {
+        "item": "凝缩以太",
+        "amount": "4"
+      },
+      {
+        "item": "冬城盾",
+        "amount": "200"
+      },
+      {
+        "item": "信用点",
+        "amount": "20000"
+      }
+    ],
+    "previousMissions": [
+      "老矿头的宝贝"
+    ],
+    "nextMissions": [
+      "虎克的礼物"
+    ],
+    "objectives": [
+      "问问虎克想叫你做什么",
+      "到铆钉镇里与虎克会合",
+      "寻找尤利安需要的宝贝",
+      "帮虎克找到她的宝贝",
+      "在孤儿院寻找别的宝贝",
+      "保护虎克，击败孤儿院的怪物",
+      "与虎克对话",
+      "使用查宝，寻找隐藏的宝贝",
+      "回到诊所，找娜塔莎修补玩偶",
+      "在诊所门口附近寻找虎克"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "虎克",
+      "相关成就": "与你同行的回忆#只待明日"
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "任务接取短信"
+    },
+    {
+      "type": "fold",
+      "title": "短信：虎克\n鼹鼠党！搏击俱乐部集合！",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "虎克",
+          "contentType": "text",
+          "text": "123是鼹鼠党的荣誉队员吗我是漆黑的虎克大人我借了尤利安的东西给你发消息我还不太会用打字好难啊哦对了我有事需要你帮忙你赶紧过来找我还有别告诉老巫婆否则你就完蛋啦",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "问问虎克想叫你做什么"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "啊，鼹鼠党的荣誉队员！听我说！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "怎么了，漆黑的虎克大人？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "有什么事吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "没礼貌！你应该叫我漆黑的…算了算了，不说这个了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "上次找探测器的事，多谢你啦！现在虎克还有另外一件事想找你帮忙！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "包在我身上了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克还没说是什么事呢！不过你干劲很足嘛，不愧是我看中的荣誉队员！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你先说来听听。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "请允许我拒绝！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "你怎么比虎克还没有礼貌，至少听完之后再拒绝嘛！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "虎克和老爹的生日就快到了！每年这个时候，虎克和老爹会为对方准备好礼物，一起庆祝生日。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你们生日是同一天？这么巧？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "对啊，有什么问题吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "自从来到磐岩镇以后，老爹的工作就更辛苦了，每天都要很晚才回家。所以，虎克不想再用老爹给的零花钱买礼物了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "虎克懂事了呀。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "诶嘿嘿…"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "你这高高在上的语气是怎么回事呀！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "找娜塔莎要零花钱怎么样？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克打碎了很多诊所的东西，有点不好意思向老巫婆开口……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "其实，虎克还有一些值钱的宝贝落在铆钉镇里了。它们被丢弃在那里也很可惜，要是带回来再卖个好价钱，那么虎克给老爹买礼物就不用求任何人了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "铆钉镇可是在裂界里…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克知道，铆钉镇现在很危险！所以我想请你当虎克的保镖！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "这样就算事后被老巫婆发现，她也不会只批评虎克一个人了——嘿嘿！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你这不是在求我吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "什、什么话！这是来自鼹鼠党老大的命令，对，命令！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "而且虎克还是个小孩子！你不会想让我一个人进到裂界里去吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "那就这么约好了，我们在铆钉镇里见！虎克会到安全的地方等你的，可不许不来哦！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "到铆钉镇里与虎克会合"
+    },
+    {
+      "type": "objective-description",
+      "text": "虎克大人自说自话地出发了，说是在铆钉镇安全的地方等你。可是铆钉镇被裂界侵蚀，哪里都称不上是安全。\n保护好虎克大人是荣誉队员的职责，尽快去找到她，早点把她带回来吧。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "开拓者，你怎么才到？虎克都在这里等了好久了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "让你久等了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "…其实也没有等那么久啦，你人到了就行！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我可是一刻不停地赶过来的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "…你说是就是吧。不过没关系，人到了就行！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "虎克有一个好消息，还有一个坏消息——你想先听哪个？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "先说坏消息吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克把计划告诉了鼹鼠党的其他小伙伴，结果尤利安让我也帮他带个宝贝回去。要是不帮他的话，他就要把咱们的计划抖给老巫婆！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "好消息是，他愿意资助我们的冒险。你看，这把花园铲就是他给我的！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "先说好消息吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "尤利安打算资助我们的冒险，你看，这把花园铲就是他给我的！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "坏消息嘛，就是他要我们也帮他找一件宝贝…否则他就去找老巫婆告状！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "放肆，他敢威胁鼹鼠党的首领？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "算了算了，反正尤利安也帮过虎克不少忙！这次就当还他的人情吧。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你就这么怕娜塔莎？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "胡、胡说什么！漆黑的虎克大人谁都不怕！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "宝贝可不会长出腿自己来找我们！快点，咱们出发吧！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找尤利安需要的宝贝"
+    },
+    {
+      "type": "objective-description",
+      "text": "擅自把计划泄露给尤利安就算了，还要帮尤利安找东西来封住他的嘴。哎，虎克大人啊……\n从铆钉镇离开的时候，这里的居民有太多的东西没来得及带走了，你在力所能及的范围内，能帮一点是一点吧。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "尤利安的老爹老妈以前就是在这附近做生意的。我们离开镇子的时候，他家有很多东西都没来得及带走。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "他的宝贝应该不会太难找吧！那边，我们去翻翻看！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "啊，找到尤利安要的宝贝了！不是那串钥匙，是这些玻璃珠。你看，这有好多种颜色呀！想集齐这一整套可不容易嗷。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这些珠子有什么用？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "啊？你怎么连这都不知道，难道你没玩过打弹珠游戏嘛？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "话说回来，这把钥匙是拿来开什么的呀？说不定尤利安知道点啥……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我以为钥匙才是宝物…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "不是哦，这些弹珠才是他要找的东西。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "不过虎克也好好奇呀…这把钥匙是拿来开什么的呢？回去以后再问问尤利安吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "你那是什么表情呀！我知道了，你觉得这罐玻璃珠根本不值钱，对不对？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "感觉没什么特别的。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我可没这么想…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "哼，别装啦！你的表情已经把你出卖啦！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "告诉你吧，这罐玻璃珠对鼹鼠党来说，可是有非常重大的意义哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "就是靠着它，尤利安帮鼹鼠党解决了超超超大危机，坐到了二把手的位置！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "他用弹珠打败了裂界怪物？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "当然不是，但功绩也不次于那个哦！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你说的大危机…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "是威胁到鼹鼠党尊严的大危机哦！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "反正就是小孩子过家家呗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "大人高高在上的态度又来了，这次是真正的大危机！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "从前，孤儿院的小孩子跟镇上的小孩子可是死对头！那些家伙仗着有爸妈给的零花钱，经常来欺负我们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "有一次，他们给鼹鼠党发来了挑战书，说是要和我们进行打弹珠比赛！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "其实大家都知道，我们的实力相差有多大！孤儿院的大家都只有在路边捡到的玻璃珠，根本比不上那些有钱孩子的弹珠！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "不过就算这样，尤利安还是决定勇敢应战——而且还赢了一大堆五颜六色的玻璃珠回来，真是太神气啦！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那他还真是个小英雄。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "可不是嘛，这下你懂了吧，为什么他要拜托我们来找这件宝物。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "难怪这些弹珠对他那么重要。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "可不是嘛，这下你懂了吧，为什么他要拜托我们来找这件宝物。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "就只是这样？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克给你说了这么多，你就这么点儿感想吗？还不如说给盐烧洞螈听呢。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "好啦，闲话就聊到这里吧！接下来该去找虎克的宝贝了。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得一罐玻璃弹珠、锈损的钥匙"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "帮虎克找到她的宝贝"
+    },
+    {
+      "type": "objective-description",
+      "text": "该做正事啦！虎克大人要找的宝贝就在铆钉镇矿区入口附近，希望不要出什么岔子。\n铆钉镇的居民们为了抵御怪物入侵设置了很多路障，小心谨慎地继续前进吧，争取早点儿忙完早点儿回去。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "该做正事啦！虎克的宝贝就藏在孤儿院下边，矿区入口附近。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "总感觉…这里跟虎克印象中的铆钉镇很不一样。不会连孤儿院也变成这样了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "这片地方，跟虎克离开的时候完全不一样了！箱子和矿车都被摆在大街上，好乱呀。虎克的宝贝该不会也被人搬走了吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "据说堆在这里是为了挡住怪物。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "谁知道呢？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "虎克以前把它放在矿队的杂物堆那边。那个墙角后面，堆了好多地髓，还有好多好多的箱子。应该不会被挪走吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这就是所有线索了吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克就记得这么多。不过你放心，我也会跟你一起找的！说不定还能比你先找到呢。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "明白了，我去找找吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克也一起来找，肯定能找到的。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你自己找，找到了再叫我吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "唉，遇到你这么懒的人，虎克也是倒了霉了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "若比虎克先找到",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "虎克",
+          "text": "真没用呀，荣誉队员！到最后还是得靠漆黑的虎克大人亲自出手嘛。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "虎克",
+          "text": "快，快来帮帮我！东西太高了，我够不着！"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "你看，就在这个盒子里！这台小钻机是老爹矿队里的叔叔送给我的，也是虎克的生日礼物哦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "虎克现在就把它打开——嘿咻！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "咦……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "坏了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "呜……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "还好用吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "怎…怎么启动不了……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "先、先不要跟虎克说话…让虎克冷静一下！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "在这里干等着也不是办法。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "不是都说了嘛，先不要和我说话！虎克必须好好想想……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "（适当的沉默）",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "（沉默真的有用吗？）",
+                  "content": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "（适当的沉默）",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "（继续适当的沉默）",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "（沉默真的有用吗？）",
+                  "content": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "荣誉队员…我只是好奇，你觉得尤利安的玻璃珠能卖多少钱？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这就是你冷静的结果？！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "你还当真了吗？虎克其实根本没有这个打算，再说了，玻璃珠子根本值不了钱。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "那是尤利安的东西…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克其实根本没有这个打算…不过，尤利安拿到了宝贝，虎克却什么都没有…好亏！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "最多能卖半个冬城盾。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "这也太便宜了吧！虎克立刻放弃了邪恶的念头。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "去找人修修如何？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "那倒是可以…但是修理，也是要花不少钱的吧？还是好亏！"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "找那个叔叔帮你如何？",
+                  "content": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "小钻机很珍贵吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "跟洞洞机肯定没得比啦。但那位叔叔的手很巧，总能做出些很精妙的小玩意。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "让那个叔叔帮你修修吧。",
+                  "content": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "不行，老爹说那个叔叔走丢了，后来再也没见过他。听说，他好像是去了很遥远的地方……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "虎克也不知道他什么时候会回来，肯定不行啦！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "现在怎么办？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我们该回去了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "等一下！其实虎克还有另外一件宝贝——就在孤儿院那里！虽然虎克也不想卖掉它，但是为了老爹的礼物，这也是没办法的办法……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "求求你了，荣誉队员！再帮我找一次吧！就这一次！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "拿你没办法…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "好耶，我们走吧！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "谁知道还有没有下一次。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "没有了，这就是最后一次，我们走吧！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我现在就想回去了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "不准走不准走，要是我们现在就回去了，刚才做过的努力不就白费了吗？虎克保证这就是最后一次了，我们走吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在孤儿院寻找别的宝贝"
+    },
+    {
+      "type": "objective-description",
+      "text": "虎克大人的小钻机坏掉了，本来应该就这么回到磐岩镇的，但是她想起自己还有一个宝贝。\n说不定另一个宝贝她原本并不打算卖掉，只不过此时改变了心意而已，既然到这里了，继续前进吧。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "这里怎么全是怪物啊？得把他们赶走才行！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "保护虎克，击败孤儿院的怪物"
+    },
+    {
+      "type": "objective-description",
+      "text": "孤儿院与裂界侵蚀来袭的方向最为接近，这里怪物出没，务必得保证虎克大人的安全。\n虎克大人拿出了洞洞机随时准备对付怪物，真是个可靠的小姑娘。不过，击退怪物的事就交给大人来做吧。",
+      "location": ""
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与虎克对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "等等！让虎克看看笔记，我把藏宝贝的地方都标记在上面了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么东西这么神秘？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "是老巫婆给虎克的奖励！等我挖出来你就知道了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "「从左边楼梯下来之后，朝着前方走十步，往右转，再走十五步，原地转十圈再往前……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "完蛋了…完蛋了！笔记的后半部分全都糊了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "都怪你写得太多了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "要是一两句话就能说清楚，那还算什么藏宝图嘛！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这就叫多此一举…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "没有后半部分的笔记，虎克肯定找不到宝贝……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "呜……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "其实我也有一件宝贝…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "真、真的吗？快点，快拿出来看看呀！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（用家用寻物仪帮虎克找找吧。）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "使用查宝，寻找隐藏的宝贝"
+    },
+    {
+      "type": "objective-description",
+      "text": "虎克大人自己准备的藏宝图，自己却看不懂，意料之外，情理之中。\n幸好，你还有在矿区捡到的家用寻物仪——查宝。可以用它来找找看看。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "查宝",
+      "text": "哔嘟…「家用寻物仪」查宝为你服务。请使用语音输入目标物件关键词。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "哇！这个小东西…居然也会说话嘛？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "查宝",
+      "text": "你这个小东西不也在说话吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "脾气好差啊，这家伙！不过，如果能帮虎克找到宝贝的话，虎克就原谅你！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "使用查宝找到了什么东西…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "这是什么呀？上面好像还写了字…「给50年后的尤利安」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "不管啦，既然挖出来了，就打开看看吧！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这不太合适吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "好像也是哦…那就等50年以后再打开吧！我们先帮尤利安带回去，连着玻璃珠一起交给他。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "万一有毒呢？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "真、真的嘛！老巫婆好像确实说过，有些东西埋久了以后会产生「有毒气体」……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "算了算了，还是不打开了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得尤利安的时间胶囊"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "使用查宝找到了虎克的宝贝"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "就是它，就是它！这是老巫婆奖励虎克的大熊玩偶！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这就是你的宝贝？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "没错，它叫「菌菌」！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "还以为会是什么惊人的东西…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "喂！不许看不起「菌菌」！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "呜哇，「菌菌」——你怎么这么脏呀，而且还有好几处开线了…不好好清理一下的话，肯定没人会买你的。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这…能卖几个钱？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "老巫婆说过，「菌菌」可不是一般的玩偶！只要把它打理干净，肯定会很抢手的！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "没办法了…虎克还没学会缝纫活呢，只有去找老巫婆帮忙了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "真的有大人对玩偶熊感兴趣吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "那是当然！老巫婆说过，「菌菌」可不是一般的玩偶！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "唔…虎克还没学会缝纫活呢，看来只有去找老巫婆帮忙了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "要是被她知道虎克又闯进了不该来的地方…呜，又要挨骂了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "不过就算被老巫婆臭骂一顿，虎克也要把给老爹的礼物准备好！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我要对虎克刮目相看了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "娜塔莎生气了可别带上我。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "宝贝找到了，我们快离开这里吧！那些怪物让虎克心里有点发毛，怪可怕的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "事先说好，你可千万不要把虎克卖掉宝贝的计划告诉老巫婆哦！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得被叫作「菌菌」的大熊玩偶"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "回到诊所，找娜塔莎修补玩偶"
+    },
+    {
+      "type": "objective-description",
+      "text": "虎克大人的宝贝看起来好像全是破损，绝对卖不出去了…只好找玩偶的制作者——娜塔莎帮帮忙了。\n没想到在孤儿院照顾小孩还需要这样的本事。干脆找个机会让娜塔莎送你一个吧…要是她不忙的话。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "虎克？这是……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "提交被叫作「菌菌」的大熊玩偶"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "娜、娜塔莎姐姐！「菌菌」坏掉了，我想请你帮忙修好……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "我记得它，这好像是我以前给你的？你是从哪把它找回来的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "刮、刮大风，它被大风吹回来了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "说实话，虎克。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "…是开拓者帮我一起，从铆钉镇的孤儿院找出来的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "就为了这个玩偶，你就让大哥哥/大姐姐带着你到裂界里去冒险？虎克，我跟你说过多少次……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "——求求你了，娜塔莎姐姐！请你帮虎克修好「菌菌」吧，虎克愿意帮你打扫一个月的诊所！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "你每次都这么说，但是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "我、我先跑了！开拓者，「菌菌」就交给你了！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "虎克跑开了"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "这孩子…真拿她没办法。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "你也不要太溺爱她了，外来者。我知道想拒绝虎克是一件难事，但人还是得学会说「不」才行呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "「菌菌」…原来她还给这玩具熊起了名字吗？呵……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "虎克好像挺喜欢这个玩偶的？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "这不过是我做过的诸多玩偶之一。说实话，我也没想到她会这么喜欢它。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我感觉这玩偶好像平平无奇。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "没什么特别的，只是我做过的诸多玩偶之一。不过，虎克真的很喜欢它。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "还在铆钉镇的时候，这是我奖励给「好孩子」的奖品。孤儿院难管教的孩子实在太多，你能想象那场面有多混乱吗？我总得想点办法让那些熊孩子乖乖听话。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "为了得到「菌菌」，虎克努力装了一个月的「乖宝宝」——按时吃饭，按时睡觉，也没有跟别的小朋友打架……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "就算是演的，也很辛苦吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "确实，等她拿到奖品以后，那家伙立马就回归本性了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "说不定平时的样子才是装的…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "你怕是不知道她那个月过得有多痛苦。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "虎克那孩子，总能把人们团结到自己身边，不管对方是大人还是小孩。这是一种天分——强迫她当个「乖孩子」，就是在扼杀这种天分。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "…嗯，还真是一团糟呢。别着急，我会帮虎克修好「菌菌」的。也许我需要重新找些填充物……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "等等，这玩偶熊的眼睛……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是块很漂亮的石头。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "圆圆的，黑黑的。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "会动？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "那就有点儿吓人了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "这是…黑宝石？奇怪，当时我把它缝进玩具熊的时候，难道没发现吗……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "很值钱吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "我不是鉴定专家，但这两颗石头的成色…看上去相当不错呢。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "真是意外的黑宝石。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "请把这样的意外叫作「生活的惊喜」。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你也太不小心了吧！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "我当时是得有多不小心，才会把这么值钱的石头缝到玩具熊身上？真是……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "总之，这个玩偶一下就变成了昂贵的玩偶了，真是有些让人惊讶。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在诊所门口附近寻找虎克"
+    },
+    {
+      "type": "objective-description",
+      "text": "小屁孩儿就是小屁孩儿，被批评了两句就跑出了诊所。出于担心的考虑，你还是去找找她吧。\n没想到玩偶的眼睛用了宝石，不知道虎克大人听到了这个消息会不会感到犹豫呢？",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "…老巫婆有没有批评你？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "批评了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "唔，你明明是为了帮虎克…对不起，荣誉队员！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "没有批评。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "什么？凭什么只有虎克挨批评了呀！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "先不说这个了，你没有把虎克真正的目的说出去吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "绝对没说，虎克大人。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "很好，不愧是忠诚的鼹鼠党荣誉队员！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "娜塔莎的直觉可是很敏锐的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "…虎克知道！我只是…不想惹她生气！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "怎么了，你怎么还傻站在这儿，有什么要向鼹鼠党的老大报告吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "其实「菌菌」的眼睛是宝石。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "宝、宝石！是很值钱的意思吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "要把它卖掉吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "卖掉，当然要卖掉！如果宝石能卖个好价钱，那虎克就能给老爹准备更豪华的生日礼物啦！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "突然不想卖了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "你在说什么呢，当然要卖掉！如果宝石能卖个好价钱，那虎克就能给老爹准备更豪华的生日礼物啦！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克不想单独把「菌菌」的眼睛留下来。如果拿到「菌菌」的小朋友发现他没有眼睛，肯定会很伤心吧？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "总之这是非常有用的情报！要不是你加入的时间太短，我都想把你提拔成鼹鼠党的三把手啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "等娜塔莎姐姐把「菌菌」修好，我还会来找你帮忙的！你要随时响应漆黑的虎克大人的召唤哦！"
+    }
+  ],
+  "warnings": []
+}

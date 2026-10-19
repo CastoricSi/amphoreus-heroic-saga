@@ -1,0 +1,2399 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "不要钱挑战•第一日",
+    "pageId": 40957,
+    "revisionId": 102159,
+    "parentRevisionId": 102112,
+    "revisionTimestamp": "2026-09-05T10:00:26Z",
+    "fetchedAt": "2026-09-28T00:21:28.683Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E4%B8%8D%E8%A6%81%E9%92%B1%E6%8C%91%E6%88%98%E2%80%A2%E7%AC%AC%E4%B8%80%E6%97%A5",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E4%B8%8D%E8%A6%81%E9%92%B1%E6%8C%91%E6%88%98%E2%80%A2%E7%AC%AC%E4%B8%80%E6%97%A5&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "不要钱挑战·第一日",
+    "region": "千星城",
+    "type": "开拓续闻",
+    "version": "4.5",
+    "number": "02",
+    "series": "亏成首富，从不要钱开始",
+    "description": "「不要钱挑战」第一天，你在千星城最繁华的地段，尝试了各种各样的花钱方式，购物买店、赔偿损失、购买车队、投资梦想…或许这是你第一次为花不够钱而精疲力尽。",
+    "requirements": "完成任务一名陌生网红的挑战",
+    "requiredLevel": "21",
+    "characters": [
+      "小勤",
+      "艾丝妲",
+      "黄泉",
+      "肯尼斯·在田",
+      "大禽"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "500"
+      },
+      {
+        "item": "星琼",
+        "amount": "60"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "5"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "5"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "200"
+      },
+      {
+        "item": "信用点",
+        "amount": "60000"
+      }
+    ],
+    "previousMissions": [
+      "一名陌生网红的挑战"
+    ],
+    "nextMissions": [
+      "不要钱挑战·第二日"
+    ],
+    "objectives": [
+      "前往最近的商场，立刻开始花钱",
+      "为挑战账户设置支付密码",
+      "（可选）寻求小勤的建议",
+      "在商场内狠狠花钱！",
+      "查看广告，寻找新的花钱机会",
+      "与客服对话，找机会狠狠花钱！",
+      "与小勤商量，寻找新的花钱机会",
+      "避开围观群众，前往商场入口",
+      "倾听愿望，投资梦想！",
+      "与肯尼斯·在田对话",
+      "结束「不要钱挑战·第一日」"
+    ],
+    "synopsis": [
+      "「花钱小助手」小勤提醒你，尽早使用大禽给予的「天气卡」。你照做之后，一朵散金云以每秒最大3万信用点的速率为你清空账户，而这远不足以在3天内花完200亿。",
+      "为了您的账户安全，小勤请你设置支付密码。",
+      "一位从星际和平公司离职的经理做起了自媒体账号，号召网友们打赏支持。你随手打赏了一大笔信用点。",
+      "一位机铠扒手偷走了你20万信用点，被千星城警卫当场拿下。你给警卫两百万，感谢他打击犯罪，再给扒手两百万，助其改过自新。",
+      "你在商场遇到艾丝妲。艾丝妲担心你缺钱花，想要给你打1个亿过去。你急忙拒绝。",
+      "面对商场里的花坛，你决定洒些信用点作为肥料。一束花冒出来感谢你的善举，并将更多钱返还给你。当然，你没有接受。",
+      "你来到以太战线纪念品商店。店主警告你们小心点，碰坏了收藏品可要100倍价格赔偿。你和小勤认为这是个绝佳的商机。",
+      "在对镇店之宝进行一番「友好问候」后，你支付了小勤汇总的赔偿账单，总计花费2亿信用点。",
+      "你和店主达成默契，店主高呼「住手」，而你尽可能轻地打砸着店内的收藏品。",
+      "你来到「灯塔专卖店」，要求买下店里的所有商品。为了存放这些商品，你打算干脆连整个店铺也一并买下。",
+      "联系上店主后，你支付了收购「灯塔专卖店」的款项，总计花费1亿2000万信用点。",
+      "据小勤总结，当前每个系统时约消耗1亿5000万信用点，这个效率仍然不足以在挑战时间内花光200亿。为此，小勤为你推荐了更多的消费渠道。",
+      "小勤请你查看在线广告位，其上展示的都是非同一般的消费陷阱。在搜索最烧钱的「赛车」相关后，一位「星速Racing」的客服出现在你面前。",
+      "客服向你推荐去往「贾德里芬」和「琥珀王」的旅游套餐，总报价20亿。你不假思索地选择了支付，并且是全额。",
+      "客服被你的财力震撼，向你介绍以5亿报价收购「星速Racing」名下赛车队的机会。无需多言，你直接拿下。",
+      "在你收购车队期间，小勤也完成了商场内旺铺收购协议。为了进一步提高花钱效率，你决定举办一场「梦想」投资大会。",
+      "小勤为你招募了一批各怀梦想之人，提醒你千万保持耐心。不要让任何人觉得你在诈骗，也不能暴露出自己正在参加「不要钱挑战」。",
+      "声学创意顾问、社会学家、行为艺术家…甚至黄泉，你来者不拒，用一笔又一笔信用点托举起所有人的「梦想」。",
+      "你的慷慨举动吸引了全商场的目光。人们将你簇拥，争相请求你投资梦想。于热火朝天中，你宣布要买下千星城，却被突然出现的肯尼斯制止。",
+      "涉嫌搅乱市场秩序，肯尼斯请你停止先前玩闹式的消费行为。千星城作为公司资产不能变卖，但肯尼斯邀请你前往指针塔，与「星际和平娱乐」展开真正的商务合作。为表诚意，肯尼斯允许你用15亿买下1平方米的纪念性地块，并授予你「千星城勋爵」的称号。",
+      "第一天的报告出炉，你今日已消费88.16亿信用点。千星城不少商场已是你的资产，小勤提醒你，好找的消费机会只会越来越少。",
+      "已经花出去的钱，难道真的只是「打了水漂」吗？大禽敬请各位观众，明天拭目以待。"
+    ],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往最近的商场，立刻开始花钱"
+    },
+    {
+      "type": "objective-description",
+      "text": "大禽可能低估你了，以为你没看过「〇〇〇〇的百万横财」或者是「〇〇市首富」（如果你真的没看过也不要紧——总之，那些故事里的主角浪费了太多时间没有花钱）。\n你不一样。为了挑战成功，你将一心不乱地花钱。\n\n「老板，商场就在那里！」\n「我来，我花钱，我征服。」",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（先从哪里开始呢？附近好像有商场……）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "报告老板，您的「天气卡」使用越早，效益越大～"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "报告老板，为了成功完成「不要钱挑战」，花钱小助手提醒您：请尽早使用「天气卡」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那就使用「天气卡」吧！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "除了「天气卡」还有些什么卡？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "据我所知，大禽的「大富翁卡」原型来自大富翁游戏，除了「天气卡」，还有「共富卡」、「购地卡」、「共贫卡」、「监狱卡」等等。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "多的不问了，我这张卡好用吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "非常、非常好用。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "根据「天气卡」的效果，已为您生成「风中有朵钱做的云」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "它正以每秒最大3万信用点的速率降钱，清空200亿需要…7.716天！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "而「不要钱挑战」仅有3天，时间非常紧迫！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "可我还是觉得这样用钱好浪费！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "冷冷的钞票在脸上胡乱地拍…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "那我每秒3万的钱去哪儿了呢？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "它会直接消失。这在规则允许范围内，属于「不可抗力自然因素」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "来不及多愁善感了老板…眼前就是商城，咱们先完成小目标吧，一个亿~"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "区区一个亿，开始吧。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不急，待会再来。",
+          "content": [
+            {
+              "type": "text",
+              "text": "再次对话"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "滴。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "报告老板，就在我「滴」的一秒钟里，您的云消费了3万信用点。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "眼前就是商城，咱们先完成一个亿的小目标吧～"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "开始吧。",
+                  "content": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "为挑战账户设置支付密码"
+    },
+    {
+      "type": "objective-description",
+      "text": "为了您的支付安全，请设置支付密码，切勿泄露他人。\n我知道你在想什么，要是泄漏给一百个人的话，钱的确会花钱更快。\n但那算是违反规则，别想了。",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "为了您的账户安全，请设置支付密码。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "000000",
+          "content": [
+            {
+              "type": "text",
+              "text": "有点初始密码的感觉呢…「000000」确定吗？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "123456",
+          "content": [
+            {
+              "type": "text",
+              "text": "可能是世界上最难猜的密码…「123456」确定吗？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "0426",
+          "content": [
+            {
+              "type": "text",
+              "text": "像是什么生日一样的数字…「0426」确定吗？"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "07734",
+          "content": [
+            {
+              "type": "text",
+              "text": "听说倒过来看是「hELLO」…「07734」确定吗？"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "*#06#",
+          "content": [
+            {
+              "type": "text",
+              "text": "冷知识，在大部分手机上输入这个代码会出现序列号…「*#06#」确定吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（确定）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（我再想想）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "密码已设置成功。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "就从这个商场开始买起吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）寻求小勤的建议"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "报告老板，别闲逛了。您还有那么多钱没花，晚上怎么睡得着！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "时间是最贵的——不要讲价，不听介绍，您只管闷头花钱就行！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "有没有什么建议呢？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "没问题，我帮老板找到了一个合适的消费机会！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你看，又急。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "哎…皇帝不急，大臣急。老板不急，我得急啊！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在商场内狠狠花钱！"
+    },
+    {
+      "type": "objective-description",
+      "text": "从现在开始每分每秒，花钱就是在挣钱，省钱就是在浪费钱…请你暂时放下你心中省吃俭用的美德，尽情在这座商城里挥霍无度吧。\n进店消费，先给自己定个小目标，花它一个亿如何？\n\n「什么叫成功人士你知道吗？」\n「成功人士就是买什么东西都买最贵的，不买最好的。」",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得小勤的建议，与离职的经理对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "经理快跑",
+      "text": "谢谢家人们！本人已提离职——放弃千万年薪，从零开始做自媒体，欢迎大家关注我的离职账号，「经理快跑」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "经理快跑",
+      "text": "家人们请给我打赏支持！一百信用点让我跑得比扑满更快，一千信用点让我赛过小汽车，一万信用点让我起飞…我会成为大厂离职赛道跑得最快的那个。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "一万就起飞了，真是千万年薪？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我多出钱，你去战胜星穹列车！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "给你打赏了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "经理快跑",
+      "text": "我的天呐！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "经理快跑",
+      "text": "离职赛道还是太容易变现了……"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "经理快跑",
+          "text": "家人们…还有这种好事……"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得小勤的建议，与扒手和警卫对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警卫",
+      "text": "你这惯犯，又让我抓着你了。灰头发年轻人，这个扒手刚才从你这偷走了20万！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "扒手机铠",
+      "text": "对、对不起，我再也不敢了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我不信，除非你再偷一次！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "才20万，你还是偷太少了…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警卫&扒手机铠",
+      "text": "啊？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "报告老板，我们不能鼓励犯罪。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "有道理。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这样吧。给警卫两百万，感谢他打击犯罪，再给扒手两百万，让它改过自新。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "走吧，这一次我原谅你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "扒手机铠",
+      "text": "呜呼！起飞！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得小勤的建议，与艾丝妲对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "好巧，没想到会在商场遇见到你，你也是来购物的吗？想要什么，我送你吧！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你想要什么，我买给你吧。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "让我把歼星舰的钱给你吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "艾丝妲",
+              "text": "你说晚了，那个已经坏了，都怪我没及时送给你。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "…我明白了！你是在跟我客气，缺钱的话，我给你打1个亿过去，千万不要拿我当外人……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不行，我真的不能要。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你要是真给，我会流泪。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "好吧，既然你都这么说了…该买的我都买了，我就先走了，佩佩还在滑板公园等我去接它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "之后常来空间站找我玩呀～"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "好的，回头见。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得小勤的建议，来到花坛前"
+    },
+    {
+      "type": "text",
+      "text": "商场里的一处花坛。把钱当肥料洒下去当然也是一种挥霍的途径。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "施肥。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "哎！老板！不敢睁开眼，希望不是你犯规……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "赏花。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "…噢，您是说用钱打赏花——赏花，是吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "你紧盯着它——你确信千星城寸土寸金，这不可能只是一个平平无奇的花坛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花",
+      "text": "善良的人呀，请问你掉的是这100万，还是500万呀？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "数字太小，不是我掉的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花",
+              "text": "诚实的人呀，这600万都是你的了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "都是我掉的，你拿走吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花",
+              "text": "哈哈，我是「不缺钱花」，我拾金不昧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "你没有接受这区区600万，并将凶狠的眼神与道德压力一起转移给了花。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花",
+      "text": "嘶……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花",
+      "text": "好吧，我投降，我决定拿着这笔钱愧疚一辈子。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "花",
+          "text": "我是「不缺钱花」…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "来到以太战线纪念品商店"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "店主",
+      "text": "左边是以太战线纪念品商店，量大从优，欢迎采购。右边是店主收藏，不卖，拍照随意。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么最贵？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "店主",
+              "text": "最贵？镇店之宝吧，可惜我不会卖，那是我一百连胜……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我全要了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "店主",
+              "text": "我刚说完那是「非卖品」，尤其是镇店之宝，那是我……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "请您立刻闭嘴。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "店主",
+      "text": "你谁呀？！这么拽？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "报告老板，我发现一个商机…这里写着「请不要上手触摸，碰坏了照价赔偿。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "店主",
+      "text": "没错！这都是我的限定款收藏，小心点。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "世界上怎么还有这样的好事！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "店主，我建议你将它修改为「碰坏了10倍价格赔偿」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "加倍！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "超级加倍！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "抢地主！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "老板是说…请加倍的意思。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "店主",
+      "text": "…你们…要动什么歪心思，碰坏了…我要100倍赔偿！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你立字据！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "当个事办！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "店主",
+      "text": "…好！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "店主",
+      "text": "写好了…「请不要上手触摸，碰坏了100倍价格赔偿。」"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "小勤，砸了吧！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "好的老板。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "店主",
+      "text": "住、住手啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "店主",
+      "text": "等，等下…你们要是真能赔，可以不用住手了。砸吧…尽量砸轻点啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "店主",
+      "text": "住——手——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "砸！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "再砸！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "狠狠砸！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "花了些时间，你尽量让所有收藏品达到「微损但可以修复，友好但需要赔偿」的程度。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "店主",
+      "text": "我的镇店之宝——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "老板，2亿信用点，请支付。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "输入支付密码",
+          "content": [
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "（输入正确）",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "（输入错误）",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "小勤",
+                      "text": "支付密码错误，请重新输入…难道说，老板你忘记密码了？"
+                    },
+                    {
+                      "type": "choice",
+                      "presentation": "dialogue",
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "忘记密码…",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": "小勤用小眼睛瞄了下周围，确认没有旁人在偷看，在你的手心上写下了密码——「我是密码」。"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "小勤",
+                              "text": "老板再输入一遍吧。"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "text": "重新输入…",
+                          "content": []
+                        },
+                        {
+                          "id": 3,
+                          "text": "输入密码好麻烦…",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "小勤",
+                              "text": "接下来我们刷脸支付，请您对着镜头眨眨眼，张张嘴，摇摇头，点点头……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "小勤",
+                              "text": "录入完成，这样以后可以不用再输入密码了。"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "开启免密支付",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "接下来我们刷脸支付，请您对着镜头眨眨眼，张张嘴，摇摇头，点点头……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "录入完成，这样以后可以不用再输入密码了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "滴滴滴！支付成功。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "店主，不是我害了你，是我钱太多害了你啊！"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "店主",
+          "text": "这究竟是幸福还是痛苦的眼泪……"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "来到「灯塔专卖店」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "销售",
+      "text": "欢迎光临千星城「灯塔专卖店」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "销售",
+      "text": "本季主推新品「歌唱家『灯塔』」微缩模型……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "请您立刻闭嘴，停止介绍。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "销售",
+      "text": "…哈？！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么最贵？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "销售",
+              "text": "寰宇限定五体的「天彗星墙」微缩模型，编号唯一，材料均和琥珀王来自同一产地……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我全要了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "销售",
+              "text": "您是说钻石组合包吗？咱们还有季节限定「石心十人心连心」手串，现在购买组合包还送限定特典卡「钻石」……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "所有商品一共多少钱？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "我老板问的是*所有商品*。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "销售",
+      "text": "…哈？！您在开玩笑吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "销售",
+      "text": "您的意思是本店也就是「灯塔专卖店」的所有商品，包括库房和展示柜里的非卖品吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "销售",
+      "text": "您买得起吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "时间就是金钱，小勤去付钱。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "别废话了！买得起…快打包！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "等等，买了这么多放哪儿呢…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "报告老板，您可以再买套房。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "销售",
+      "text": "…哈？！这要怎么打包，我有点混乱，您稍等一下……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "别打包了，我直接买店吧。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "销售",
+      "text": "…哈？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "您只会哈吗？哈？我老板问您话哈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "销售",
+      "text": "店铺不在我的销售范围内…您可以先买，我将店铺状态改为「已售罄」。在您找到合适的仓储前，我们提供免费的保管服务……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "不能免费！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "销售",
+      "text": "不免费不免费！至于…收购店铺的事，我立刻为您提交申请！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "当个事办！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "销售",
+      "text": "好！"
+    },
+    {
+      "type": "text",
+      "text": "花了些时间，你成功联系到店主，软磨硬泡地说服了店主将店铺售出。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "老板，1亿2000万信用点，请支付。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这价格怎么不去抢？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（还好抢的是我！）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "输入支付密码",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "开启免密支付",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "滴！支付成功√"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "滴滴——报告老板，如果以当前每个系统时消耗1亿5000万信用点的速率来计算……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "要花光200亿，总共还需要133.33个系统时！而您的挑战时间剩下不到68个系统时！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "…花钱真的好累。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "…还有多少家店？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "…时间果然最贵！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "花钱效率太低了。我知道这不是老板您的问题，但实体行业上限也就到这里了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "但是，实体店还得买！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "没事，还能买实体店！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "买店的事我可以代理。但是，老板您不要逃避问题，店是有限的，您还要积极寻找更有效的花钱渠道才行！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "噢！我有一计。老板，请跟我来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "…老板，我好像看到了广告——"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看广告，寻找新的花钱机会"
+    },
+    {
+      "type": "objective-description",
+      "text": "从现在开始每分每秒，花钱就是在挣钱，省钱就是在浪费钱…请你暂时放下你心中省吃俭用的美德，尽情在这座商城里挥霍无度吧。\n实体经济上限也就到这了，现在去看看线上经济。\n\n「什么叫成功人士你知道吗？」\n「成功人士就是买什么东西都买最贵的，不买最好的。」",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "请看！这些在线广告位，都不是一般的品牌，而是非常、非常适合老板您的消费陷阱——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "我们必须相信，就算实体经济不行了，还有网购平台撑着！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "太好了，快让我网购。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这是什么广告，能买吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "我最推荐的是赛车！世界上最烧钱的运动！让我来为您检索一下……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "输入关键词…赛车；最昂贵的；冤枉钱…开始搜索——有了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "正在为您生成客服——出来吧！奸商！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "「星速Racing」开创千星城百年品牌（已创建1年零1个月，距离百年老店还有99年）。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "交给老板您了！切记掉入消费陷阱。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（小勤）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "小勤",
+          "text": "老板，您要为自己着想，您再不花钱，就花不了钱了。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "老是催我，你安的什么心？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "小勤",
+                  "text": "老板，等您花钱了，我就安心了。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你怎么说话越来越像人了？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "小勤",
+                  "text": "报告老板，我已急哭。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "小勤",
+          "text": "老板，请尽快掉入消费陷阱。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与客服对话，找机会狠狠花钱！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "24号客服很高兴为您服务。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么服务最贵？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "咳咳咳…请稍等！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "请让我向您推荐本店贵宾独享的「寰宇征服者」套餐：贾德丽芬末日赛车七日游……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "七日游有点久了…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "贾德丽芬和亚德丽芬什么关系？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "贾德丽芬是假的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "您不用真去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "请您省去介绍，直接报价吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "套餐价包含服务费仅需——2亿信用点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…好贵！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "一生只能体验一次的「琥珀王荣光一日游」可是要您18亿呢！另外，如果客户因行程违约，您将无权要求返还定金，定金为套餐价20%……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我全价付！你全没收！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "贾德丽芬和琥珀王我全都要！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "您是「星际贸易物价管理局」的吧？别钓鱼了，我都看出来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "消费陷阱需要这么重的疑心吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "你说谁消费陷阱呢…！要不您先付个定金，让我看看实力？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "老板，全额支付吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "…啊？！真付啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "…其实，我们全额支付是有优惠的，系统提醒我，有一项名为「愿达投」的非标准投资机会，必须介绍给您！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "「星速Racing」名下有支颇具潜力的车队，现因业务重心转移急需转手，董事长希望为您这样卓越的投资者提供一个跻身传奇赛事的契机……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "该车队过去五个赛季全部垫底，签约车手均已离队，离破产还差一步。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "整个车队收购价为5亿。要是您嫌贵……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "拿下。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "忍不住说*话。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "****结账！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "请输入支付密码。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "输入支付密码",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "开启免密支付",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "滴滴滴！支付成功。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "哇…世上还是冤大头多啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "24号",
+      "text": "对不起，我是说好人多……"
+    },
+    {
+      "type": "text",
+      "text": "生怕你意识到资本在做局，24号客服光速下线了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与小勤商量，寻找新的花钱机会"
+    },
+    {
+      "type": "objective-description",
+      "text": "从现在开始每分每秒，花钱就是在挣钱，省钱就是在浪费钱…请你暂时放下你心中省吃俭用的美德，尽情在这座商城里挥霍无度吧。\n世界上最烧钱的运动也烧不动你的百亿身家，现在该找找更亏的项目了。\n\n「什么叫成功人士你知道吗？」\n「成功人士就是买什么东西都买最贵的，不买最好的。」",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "好消息！在您购买车队期间，我完成了商场内旺铺收购协议！请看，这是您的江山！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这都被我占领了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "谨遵您的吩咐。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "不愧是花钱助手！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "分内工作罢了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我刚才花钱应该挺快的吧？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "花钱小助手提醒您，花钱挑战要注意效率。为了方便您理解，我会用「滴」来表示——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "用「天气卡」每秒3万信用点，就是：滴、滴、滴、滴……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "买店及赔偿花了很多时间，每个系统时1亿5千万，大概是：滴滴、滴滴、滴滴……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "您买「愿达投」旅行套餐时，是：滴滴滴滴滴滴滴……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "您买破产赛车队时，就是：滴————"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…是心脏骤停了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "还活着！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "为了提高滴滴滴的效率，我们应该寻找需求空泛、价格虚高的项目投资——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "比如说「梦想」？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "比如说「梦想」！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "无敌啊老板！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "接下来，我将协助老板在网上招募「有梦之人」，办场投资大会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "为了提升支付效率，1000万以下「免密支付」，1000万以上「刷脸支付」，希望老板您能狠狠投资！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "避开围观群众，前往商场入口"
+    },
+    {
+      "type": "objective-description",
+      "text": "从现在开始每分每秒，花钱就是在挣钱，省钱就是在浪费钱…请你暂时放下你心中省吃俭用的美德，尽情在这座商城里挥霍无度吧。\n梦想无价。你不能帮助所有人实现梦想，但你能花钱让他们接近梦想。\n\n「钱是王八蛋，我们要尊重梦想。」",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一段时间以后"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "怎么突然这么多人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "老板，请跟上我。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "抱歉老板，临时招募也只能找到这些人了，接下来就请回应大家的梦想吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "老板，千万保持耐心。不要用大数字吓跑他们，也不要让任何人觉得你在诈骗……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "更重要的是，如今人群聚集，您千万不能暴露自己正在参加「不要钱挑战」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我懂的，我有分寸…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "暴露了会直接失败…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "倾听愿望，投资梦想！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "@声学创意顾问",
+      "text": "天使投资人您好，我计划采集全宇宙最不同谐的声音，将它们解离、去语义化，重构一曲关于听觉符号暴力的交响乐，重现一场集体无意识的结构性不公！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "@声学创意顾问",
+      "text": "噪音污染就是这个喧嚣时代最真实的注脚！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "「家族」怎么说？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "@声学创意顾问",
+      "text": "他们没有意见！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "@声学创意顾问",
+      "text": "我的目标是500万信用点。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这个项目我投了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "只怪时代太喧嚣。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "不能委屈了艺术！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "支付成功√"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "@声学创意顾问",
+      "text": "天使！我看到了天使！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "社会学家",
+      "text": "先生/女士，我写了一本名为《信用点是万恶之源》的醒世巨著。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "社会学家",
+      "text": "但出版社全都拒绝了我…他们说如果我倒贴600万信用点，他们愿意对抗公司。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "1000万，我投了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "社会学家",
+      "text": "1、1000万？！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "告诉他们，我也好恨信用点。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "多印一些，为众生破迷开悟。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "支付成功√"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "去吧，用信用点打败信用点。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "行为艺术家",
+      "text": "你好，我不会看错人——你懂艺术。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "行为艺术家",
+      "text": "我准备进行一场为期一年的行为艺术：把自己冻在冰块里，放在千星城最中心，象征「现代人的冷漠」，预算仅需…100万。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "一年太短了，十年如何？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "行为艺术家",
+              "text": "现代人真是太冷漠了。说好了，1000万，让我彻底寒心。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "支付成功√"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我希望加个期限是一万年。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "行为艺术家",
+              "text": "…算了算了，你有点吓人，我还是走了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "哦，开拓者，是你啊。你怎么在这里？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "这里还是匹诺康尼吗？刚才我听这里的人都在说着梦啊什么的……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是千星城，你有什么梦想吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "你有什么梦想吗？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "说吧，你有什么梦想要实现吗！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "我的梦想…恐怕和财富无关。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "投资你靠谱的导航设备。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黄泉",
+              "text": "听上去不错，能渡过失魂星域么？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "投资你畅吃一千年桃子。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黄泉",
+              "text": "那不就是寿命很长的桃树吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "黄泉露出些微困惑的表情。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黄泉",
+      "text": "开拓者，感谢你的好意，总之注意…安全。我会继续寻路。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "买完你的，买你的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "买完你的，买你的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路人",
+      "text": "还有我的嘞！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我来了我来了我来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路人",
+      "text": "我也要！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…买！我都买！千星城我也买！千星城立刻改名为浣熊市！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯·在田",
+      "text": "恐怕，这个你不能买。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路人",
+      "text": "啊…千星城城管来了，先撤退吧……"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与肯尼斯·在田对话"
+    },
+    {
+      "type": "objective-description",
+      "text": "前面的省略了后面的省略了，你不小心动资本的大蛋糕了。\n肯尼斯·在田希望你不要造成局部的系统性经济崩溃……\n应该没有这么严重，但毕竟他是地头蛇老大，先别惹他吧。",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯·在田",
+      "text": "就在方才，我接到市场监管报告，有位神秘买家在批量收购商铺。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯·在田",
+      "text": "现在，我看到一位搅乱投资市场的投资人。能请您解释一下吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "只是突然消费欲望上来罢了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我得了一种名为乱花钱的病…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "在开创名为「消费」的命途…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯·在田",
+      "text": "我听说「大禽」曾在网上找过您。哦，所以现在这是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "嘘！嘘——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯·在田",
+      "text": "千星城作为公司资产不能变卖——有价无市的道理，您一定能理解。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯·在田",
+      "text": "通常来说，我们默许富商大亨们进行各式各样的交易，也包含随之而来的「表演」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯·在田",
+      "text": "但是，方才极具侵略性的消费行为已搅乱了正常的市场秩序，这点我们无法容忍。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…遗憾。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯·在田",
+      "text": "不必遗憾，您今日的消费只是千星城极大图景中的极小一部分。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "肯尼斯先生有何高见？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯·在田",
+      "text": "我有一些建议。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯·在田",
+      "text": "首先，停止玩闹式消费。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯·在田",
+      "text": "其次，我会邀请您明日前往指针塔，「星际和平娱乐」会为您提供真正的商务合作。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "明天太远，今天有啥项目？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "能不能让我看到你的诚意？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯·在田",
+      "text": "…虽然您不能买下整座城市，但我允许您用15亿买下1平方米的「纪念性地块」，并授予您千星城勋爵的称号。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "千星城，请为我授勋。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "支付成功√"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "还是公司有门路，我必来。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "希望能合作愉快，明天见。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯·在田",
+      "text": "那么，开拓者勋爵大人，我们明天见。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "结束「不要钱挑战·第一日」"
+    },
+    {
+      "type": "objective-description",
+      "text": "一个人努力花钱也是有极限的，需要花钱的精力，花钱的渠道，还有花钱的时间……\n你今天已经很努力了，接下来交给明天的自己吧。",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "忙碌了一天，不要钱挑战·第一日 结束"
+    },
+    {
+      "type": "text",
+      "text": "在熄灯后的酒店客房里，疲惫感让你的眼皮像是灌了铅一样沉重。在彻底休息前，小勤还有些叮嘱……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "报告老板，您的报告已出炉，今日已消费88.16亿信用点。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我真的尽力了…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "是个好开头呀！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "千星城不少商场已是您的资产，继续消费，就相当于左口袋出，右口袋进。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "明天开始，如此好找的消费机会只会越来越少…老板，接下来才是真正的考验——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "累了累了，明天再继续花钱。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "能把钱转给星穹一家人吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "按照协议，您不能直接赠予。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "能开始抽卡抽到手抽筋吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "花钱效率太低，抽筋就更亏了。你先睡吧，我帮您抽。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "你在千星城最尊贵的神王大酒店中的总统套房的一千平大床上睡去，你沉沉地侧过身，身体蜷曲的弧度控制在二十五度角，多一分则不优雅，少一分则不尊贵……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "晚安，千星城……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与此同时"
+    },
+    {
+      "type": "text",
+      "text": "录制准备就绪…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "一个标准商船港每日吞吐量约为4万标准箱，成交额大约为40亿到60亿之间……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "没想到！开拓者竟然花掉88亿～！他/她比商船港还厉害！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "可是，已经花出去的钱，难道真的只是「打了水漂」吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "让我们明天拭目以待！"
+    }
+  ],
+  "warnings": []
+}

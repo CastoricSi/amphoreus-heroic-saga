@@ -1,0 +1,2040 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "狩猎愉快",
+    "pageId": 41438,
+    "revisionId": 104168,
+    "parentRevisionId": 104162,
+    "revisionTimestamp": "2026-10-09T09:17:41Z",
+    "fetchedAt": "2026-10-18T21:41:52.832Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%8B%A9%E7%8C%8E%E6%84%89%E5%BF%AB",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%8B%A9%E7%8C%8E%E6%84%89%E5%BF%AB&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "狩猎愉快",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.6",
+    "number": "05",
+    "series": "月升之前，与兽共舞",
+    "description": "",
+    "requirements": "完成任务人造天堂，脑髓地狱",
+    "requiredLevel": "",
+    "characters": [
+      "真珠",
+      "虚照",
+      "不死途",
+      "朽叶",
+      "三月七",
+      "普狸策",
+      "幻太子",
+      "肯尼斯",
+      "翡翠",
+      "亚婆离",
+      "绯英",
+      "火花",
+      "星期日",
+      "银狼",
+      "刃",
+      "砂金",
+      "洁里珂",
+      "大卫·戴"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "星琼",
+        "amount": "110"
+      },
+      {
+        "item": "里程",
+        "amount": "700"
+      },
+      {
+        "item": "信用点",
+        "amount": "100000"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "8"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "8"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "560"
+      }
+    ],
+    "previousMissions": [
+      "人造天堂，脑髓地狱"
+    ],
+    "nextMissions": [
+      "变形记",
+      "真「芯」为你"
+    ],
+    "objectives": [
+      "查看真珠的留言",
+      "前往千星城，继续冒险",
+      "与虚照一同出发",
+      "（可选）看看同伴们的情况",
+      "尝试联系二相乐园",
+      "前往幻月秘庭，继续冒险",
+      "查看绯英的面具",
+      "唤醒绯英",
+      "前往指针塔，继续冒险",
+      "前往「世界尽头」酒馆，继续冒险"
+    ],
+    "synopsis": [],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看真珠的留言"
+    },
+    {
+      "type": "objective-description",
+      "text": "「古兽源质」没能成功回收，钓猎「贪饕」的计划遭遇挫折。\n事已至此，先与同伴们商讨后续的安排吧。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "好久不见，开拓者。很高兴看见你还健康。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "这是一段提前备好的录像，我相信星穹列车能在千星城找到左右战局的变量。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "还以为是你本人呢…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "没有辜负你的信任。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "「变量」就站在我身边。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我会尽我所能，压制兽蜕的活性，直到你们达成目标。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "届时，请激活发信器。我将根据它的坐标，带你们回到乐园。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "看来，另一头也做好准备了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "虽然还有几个疑问没解开…但先离开这儿吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "不然，麻烦又要自己找上门了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "…幸好，有人替我们解了围。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "不过，是谁让灯塔这么做的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "答案很明显……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "但还是等她自己开口吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "善恶终有报，故事的结局应当如此——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "这场横跨了十五年的悬案，终于迎来尾声了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "受亚婆离的意识影响，永不餍足的饥饿感作为指令被下发给摩多伽们，令机械躯体堕落为狂兽的胚芽。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往千星城，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "「古兽源质」没能成功回收，钓猎「贪饕」的计划遭遇挫折。\n事已至此，先与同伴们商讨后续的安排吧。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你是说，它们之所以能活下来，是因为灯塔牺牲了自己……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "还有，亚婆离变成了古兽，你们跟她打了一架？可是，如果古兽源质都被她吸收了，她现在又死了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那我们上哪儿再找钓贪饕的「饵」啊？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "啊，我把这茬忘了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "其实我一直想问来着…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "同为古兽，你们会反刍吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "放弃吧。从古兽源质被注入的那一刻起，这条路就走不通了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…似乎有什么劲爆消息飘过。算了，我还是不问了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，快想想办法！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "算了，等死吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "又来了，这种时候就别开玩笑了！"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "返回上方提问，可继续选择尚未选择的问题"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "得找到替代品。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "要不，你们把我丢下去？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "还是想想其他办法吧。"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "返回上方提问，可继续选择尚未选择的问题"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "虚照，快想想办法！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "…的确还有一个办法，虽然我想极力避免。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "骰子，别装哑巴了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "天哪，它怎么在这儿？！心脏都快给我吓出来了。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "老骰，何时来的？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虚照",
+                      "text": "它不是掉在水缸前面嘛，我怕再生事端，就一起带走了。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "你是我鞋底的牛皮癣吗？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "归寂的骰",
+                      "text": "你想要吗？我可以变。"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "有话快说，有屁快放。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "归寂的骰",
+                      "text": "别急嘛，给前领航员留点仪式感。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "归寂的骰",
+              "text": "各位一定还记得，不久前，我的身体被「贪饕」吞下。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "归寂的骰",
+              "text": "但此刻，这颗脑袋仍在和身体互相吸引——这意味着什么？一个绝佳的诱饵。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "老骰子，你又在动什么歪脑筋？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "归寂的骰",
+              "text": "我只是在协助一场盛大的表演。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "骰子嘴里吐不出象牙，但它说的没错。作为诱饵，它不比古兽源质差，甚至要更精准。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "事已至此，也没有第二个选项了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "我和在田打了声招呼，让他把空声院底层腾给我们，方便联络真珠。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "出发前，打点好剩下的事吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与虚照一同出发"
+    },
+    {
+      "type": "objective-description",
+      "text": "用归寂的骰作为钓饵，怎么不算是旧物回收、变废为宝呢？这下我们什么都不缺了。\n返回二相乐园，准备开启最后的幻月游戏吧。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "如果我没猜错，一切都在你意料中吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "现在，我们不得不把你带上决战舞台了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "彼此彼此，你的表演——进行到哪一步了？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么表演？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你俩像是串通好的…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "破骰子，该拿抹布包起来了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "既然年轻人也在场，不妨说得更明白些，开拓者，来做喜闻乐见的伏笔回收吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "有这么一个人，从一开始就躲在幕后，用漫画为你积攒了大量愿力。本届游戏的八名谒者，也是在她的推动下轮番登场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "哦，会是谁呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "而当你们来到千星城，想借公司的力量抑制兽蜕。好巧不巧，这里偏偏有能钓起贪饕的饵料，以及血涂游戏最后两位当事人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "然后，她轻轻推了一把，让一颗骰子落入了可怜又可笑的亚婆离手中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "她本可以活下来，我也给过她选择的机会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "你们看似在走远路，实际从未偏离正轨，集齐谒者也好，积攒愿力也罢，都是最后这场「幻月游戏」的铺垫。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "宇宙的目光将汇聚一处，共同见证哈托彼亚的弑神游戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "女士，这一切是否如你所愿？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "目前为止，马马虎虎吧。还得看结局——是不是我最爱的大团圆。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "那么，不该说的部分，我就不说了。留点悬念给屏幕前的观众。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "但我着实好奇，那个最大的伏笔，你准备如何回收——「不再是一分钟，而是真正的、永久的欢愉星神」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "你会看见的，我保证。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "而到那时，哪怕是听遍了亿兆笑话的未抵，想必也一定会笑出声来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "我拭目以待。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "既然演员们都做好了准备……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "那么，开拓者，我们出发？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）看看同伴们的情况"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（与普狸策、幻太子、三月七交谈）",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "普狸策",
+          "text": "那个叫灯塔的大块头，还没来得及对他说谢谢哩！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "灯塔的愿力是有限的，回去还得研究根治千星城的办法。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "普狸策",
+          "text": "社长…你们要走了吗？我、我也要一起回去，不能让乐园被吃掉哩！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "幻太子",
+          "text": "哔啵，现在是表忠心环节？那社长大人，我！——我果然还是害怕啵。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "普狸策，你的声音在发抖。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "普狸策",
+                  "text": "我没有，只是有点感冒哩！"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "幻太子，你这个月奖金没了。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "幻太子",
+                  "text": "哔啵，我们本来就没有奖金啵。"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "其他小狸猫都还好吧？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "普狸策",
+                  "text": "都在等社长您的好消息哩。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "你们留在这里好好工作，少摸点鱼。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "还有尤狸安它们，替我嘱托一句，以后少吃点垃圾食品，免得闹肚子。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "普狸策",
+          "text": "保证完成任务！在社长回来前，把报社做得蒸蒸日上哩！"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（与不死途、朽叶交谈）",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "黑工厂的烂摊子，老白处理完了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "朽叶",
+          "text": "不和他打声招呼就走？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "打声招呼，然后带着他一起去收拾你那老祖宗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "我找狸猫打点好了，它们会替我照顾老白的。冰箱下面的钱够他用好一阵子。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "等他发现的时候，也来不及骂我了。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "尝试联系二相乐园"
+    },
+    {
+      "type": "objective-description",
+      "text": "用归寂的骰作为钓饵，怎么不算是旧物回收、变废为宝呢？这下我们什么都不缺了。\n返回二相乐园，准备开启最后的幻月游戏吧。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "女士，信号增幅已就位，随时可以和二相乐园进行通讯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "星际和平娱乐的摄像头权限，也都如三月小姐交代的那样，安排妥当了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "父亲事务繁忙，无法亲临，只有一句话要我代为传达——「希望几位下次来做客时，动静能稍微小一些。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "看我下次的心情。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "感激不尽。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "空间状态无异常，通讯信号良好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "与画中世界的信号转接…完成。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "按照估测，我已经做好了将计划延长至以琥珀纪为单位的打算。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "你们的捷报，对所有人都是一个惊喜。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你们那边怎么样？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "真珠",
+              "text": "得益于谒者们的行动，以及乐园居民的自救，伤亡人数和预期的最小区间相差无几。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真珠",
+              "text": "但即便如此，兽蜕的侵蚀也在一步步压缩生存空间。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "「贪饕」状态如何？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "真珠",
+              "text": "自琥珀王封住哈托彼亚后，兽蜕进入了反常的停滞状态。但我推测，这并非沉睡，而是某种进食前的蛰伏。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "姬子他们还好吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "真珠",
+              "text": "几位无名客正在避难所中休整，他们也很关心开拓者和三月小姐的状况。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我唯独没有计算在内的，是方案的提出者：悲悼伶人的领袖、二相乐园人尽皆知的漫画家。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "你信了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "这不重要。在所有可实施的计划中，你给出的提案成功率最高。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "而不死途先生，你是一位优秀的侦探。我可以将报酬再提高50%。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "慢着，侦探的推理还没结束呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "你以回收源质为理由，把我们委派到千星城。你知道，一旦亚婆离的秘密败露，朽叶和我，至少有一个人会动手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "以你的性格，大概还有数不清的备选方案藏在后头。但我好奇的不是手段，而是动机。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "这场刺杀根本不是上级命令，是你的个人决断。为什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "二相乐园在这场博弈中付出了巨大的牺牲，你不觉得，除了归寂，另一位元凶也该为此偿还代价？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "即便代价是和其他部门反目，甚至失去职位？这值得吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我曾将解析艺术与管理乐园的职责合为一题，二者皆不得其意。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "直到昨天，避难所的孩子们送给我一幅画，它简陋又单调，但在我眼里，它比最伟大的作品要更高贵。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "不死途先生，这就是意义。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "而我能带给他们的，唯有公义。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "不，还有胜利。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "况且，杀死亚婆离的犯人不是归寂吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "不久以前，一位同事祝福我在二相乐园有所收获。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翡翠",
+      "text": "「石心十人」期待一场蜕变。祝你在光怪陆离的海洋里，收获自己的「真珠」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "直到现在，我的逻辑回路也无法判明：什么是完美的艺术。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "但我已无需补全那4%的误差，妙笔也好，错笔也罢，我增添的每一道色彩、落下的每一笔，都具备真实的意义。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "不是模仿，也并非独创。没有正确，也不存在错误。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "但它的价值就在这里。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "看来，一切已准备就绪？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "那么，我将以己身为画笔。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "完成真正的「创作」——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "我来鉴知"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "我来解析"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "我来落笔"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "我将天地列入织锦"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "画石点睛，日月星辰自然成。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "欢迎回来。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "如果开拓者在场，请切换至09号录像，我有话要对她/他说。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往幻月秘庭，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "用归寂的骰作为钓饵，怎么不算是旧物回收、变废为宝呢？这下我们什么都不缺了。\n返回二相乐园，准备开启最后的幻月游戏吧。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我代表二相乐园全体居民，感谢你们的贡献。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "谢谢。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "应该做的。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "你也是。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "每个人都为这个世界付出了许多。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "还有因共时错位消失的爻光将军。很遗憾，我们至今没能和她取得联系。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "她会回来的，相信「巡猎」的意志吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "三月，给大家报个平安。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "好不容易回来，给大伙儿报个平安吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "该怎么解释「钓贪饕」的事呢。算了，那么多烂摊子咱都解决了，这次也一定没问题。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "交给你了。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "说起来，朽叶小姐呢？",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "治安官似乎没一起回来？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真珠",
+              "text": "她没有理由拼死对抗兽蜕，也没有理由和我们为敌。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "所以，尘埃落定前，她选择远离这里。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "临走前，她托我向你们转达——"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "你这家伙，不告而别啊。打算怎么离开？舰船还是飞行器？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "哪有那么滋润…步行回家，侦探。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "「你似乎心情不错？」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "「当然。毕竟我饱餐了一顿，接下来几个月都不会饿肚子了。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "「说得轻巧，你可是差点就要吃公司牢饭了。为了救人主动跑进笼子里，你到底怎么想的？」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "「没别的。因为我喜欢人类。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "尽管作为食物，人类很难吃。但是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "难吃的人类，能创造美味的「欢愉」。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "对于拥有漫长寿命的古兽，「回味」远比一时满足更重要。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "所以，克制欲望，戴上面具——才称得上享受「贪饕」。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真珠",
+              "text": "「如果反过来，人也会变成野兽，就像亚婆离那样。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "竟然被你联系上了，是我走得还不够远？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真珠",
+              "text": "「逻辑：你仍在星际和平网络的覆盖范围内。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "真珠，其实你早就计划把我留作后手了吧？真是个无情的智械。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真珠",
+              "text": "「但你依然不会被捕。推测：有不小概率，不死途会召来巡海游侠……」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "「得了吧，只要{{那女人|眇目之鸮}}还盯着，我就不可能做到这事——看来，你也有算错的一天？」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真珠",
+              "text": "「我只是在学习，用人类的视角进行臆测。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "呵…你确实变了，真珠。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "有人和我说「一段故事落幕后，一切物质的得失相抵之后，仿佛凭空诞生的存在，便是至珍贵之物」。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "也许，你就快找到它了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "时候差不多了。你们多保重。不死途，祝你如愿老死床榻。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "「未免也太直白了点。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "真珠，祝你找到真正的艺术。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "真珠",
+              "text": "「当然。我的『真珠』就在这里，在这副躯壳的『心』中跳动。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "最后，也替我向剩下的谒者们提个醒吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "还记得在生研院底部时，亚婆离疯溃的呓语么？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "？？？·亚婆离",
+              "text": "你为什么在这里？你不该在这儿！你被吃掉了！你在肚子里！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "我总感觉，那是「祖先」亲自开了尊口。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "你是说，贪饕兽蜕早就醒了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "那究竟是死而不僵的呓语，还是活的意识…我不确定。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "十万年过去了，古兽并非你们臆想的那般一成不变。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "毕竟，像我这样的古兽后裔都学会了品味「欢愉」。如果老祖宗和我一样……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "…总之，讨伐恶兽的戏子们，祝你们好运。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看绯英的面具"
+    },
+    {
+      "type": "objective-description",
+      "text": "好戏开演前，还有一位特邀嘉宾正在候场，唯独你有唤醒她的资格。\n正如她曾经邀你加入整场幻月游戏。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "真珠他们去做剩下的准备了。演员入行前，我们也有一件事要做。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "这场游戏还缺了一个关键要素，猜猜是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "答案是：裁判。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "绯英……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "为了维系建木，她拼尽全力，陷入沉睡。狐狸面具也失去了参赛资格。她做得很好，无愧于「幻月游戏」的仲裁者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "不过嘛，连我都下场了，哪有她独自缺席的道理？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "开拓者，我们要叫绯绯狐起床了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "当然，迫不及待。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你连这事都能办到？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "苏醒的会是哪个她？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "当然是你认识的那个。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "还记得她给你开的「后门」吗，那张鬼画符一样的面具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "天真的小狐狸，在我眼皮子底下做这事，还以为不会被发现。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "善良的人理应被善良对待。那张面具给了你「参加游戏」的权利，你愿意将谒者的命运还给她，让你的小粉丝回来吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "当然。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "有借有还，再借不难。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "得加钱。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "好啊，等一切结束后，把她的珍藏全部卖掉吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "那倒也不必。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "那我怎么办？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "放心，我比她更擅长开后门。待会儿就给你弄张新面具。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "也行。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "开拓者",
+                      "text": "有借有还，再借不难。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "得加钱。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虚照",
+                      "text": "好啊，等一切结束后，把她的珍藏全部卖掉吧。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "开拓者",
+                      "text": "那倒也不必。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "走吧。醒来看见的人是我们，她得开心坏了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "唤醒绯英"
+    },
+    {
+      "type": "objective-description",
+      "text": "好戏开演前，还有一位特邀嘉宾正在候场，唯独你有唤醒她的资格。\n正如她曾经邀你加入整场幻月游戏。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "如是，契约已成。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "绯英，回应我吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "天上幻月，地上神木。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "天上幻月，地上神木，于此时见证此誓，如天之恒，如月之升，永无破弃。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "欢迎回来。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "我睡着的这段时间，小浣熊，你又经历了很多大冒险呢！"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "英子，我想死你了！",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "谒者的资格，这是面具的回礼。",
+                  "content": []
+                },
+                {
+                  "id": 3,
+                  "text": "这一次，和我们一起冒险吧。",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "…几千年了，第一次有人送我这样的礼物。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "嗯…回礼、回礼，完蛋，我的宝贝都落在妖都了——等等，我想到了！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "就用美少女的笑容作为回礼吧！"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "足够了。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "绯英",
+                      "text": "哼哼，这是最好的礼物。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "不够吧？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "绯英",
+                      "text": "这样吗？没办法，只能忍痛割爱…把我珍藏两千年的典藏版漫画给你了。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "开拓者",
+                      "text": "你还是自己留着吧。"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "可爱捏。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "绯英",
+                      "text": "是吧！这是最好的礼物。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "从绒绒号第一卷第一话第一页开始，我就知道，你会给乐园带来一个别样的故事。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "现在，终于轮到无敌的绯绯狐登场了。二相乐园篇，我会努力让它圆满结束的！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "别忘了，还有我呢。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "天呐，还有模糊二维马老师亲临——"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "——咦？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "谁？我？这、这怎么可能……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "——是「你」？！是那个、那个那个那个——"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "看来没睡糊涂。那，还记得自己是谁吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "当然，我是游戏的裁判，是「欢愉」的见证人。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "兽蜕复苏，英雄再临。值此存亡之际，人们将回到缘起之地，重新连接起因果——"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "然后——把闹剧变成庆典，一场迟到了太久的「星神游戏」！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "走吧，就当是给小狐狸的粉丝福利。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往幻月秘庭，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "舞台，剧本，演员，观众，狩猎星神所需的一切都已准备妥当，只待揭幕。\n敬请期待，最后的幻月游戏！",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "听见了吗？裁判已经就位，谒者们也该闪亮登场——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "一千个琥珀纪前，阿哈和众神乘着贡多拉，猎杀了古老的巨兽。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "后来，祂升起月亮，用一滴眼泪骗来八位伶人。他们齐聚在这棵树下，用最可笑的游戏，囚禁最恐怖的事物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "而今天，人们将再度起航，去欺骗！去玩弄！去猎杀苏醒的奥博洛斯！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "敬请期待：星神将亲自到场，与谒者们一同争夺胜者的宝冠，这会是乐园史上最盛大的幻月游戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "所以现在，你们尽可转身离开，或者——走上前来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "这十死无生的事，只有疯子才会同意。我火花花要是不到场，阿哈岂不是很没面子？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "为人们带去笑声吧，在清醒的现实中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "艾利欧说过，别输给阿哈。所以这一局，我必秒祂。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "我答应过银狼，要陪她玩一局。就这次吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "此刻，「存护」与「幻造」终于合为一题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "为了导正星神的游戏，谒者将献上一切。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "开拓者，你呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我会守护这个世界。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "一如既往，为了银河和二相乐园……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "狩猎的时刻到了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "狩猎星神的时刻到了……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "这将是个不眠之夜。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "所有人，睁大眼睛。这将是个不眠之夜……"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "与我一同，成为英雄吧！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "与我一同，成为英雄吧……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我们会战胜「贪饕」，赢下幻月游戏！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "至此，我作为裁判宣告，直到击溃兽蜕为止，这场游戏不会落幕！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "演员到场，镜头就位，万事俱备，观众朋友们——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "敬请欣赏，这出由神与人共演的{{世纪末|乐园历1999}}大魔术！"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "群星的目光将汇集一处。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "如同传说，八位伶人在月下相聚。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "我宣布……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "幻月游戏重新开幕！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "接下来，我要隆重介绍——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "阿哈代理人……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "登场！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "什么？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "而我，将作为魔术助手……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "字幕",
+          "text": "陪伴她/他完成这场盛大演出。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往指针塔，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "舞台，剧本，演员，观众，狩猎星神所需的一切都已准备妥当，只待揭幕。\n敬请期待，最后的幻月游戏！",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "「还记得吗？不再是一分钟，本次幻月游戏的胜者将成为真正的、永久的欢愉星神！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "「阿哈没有说谎，只是谜底——绝对超乎想象。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翡翠",
+      "text": "来得正是时候，情况如何？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "任何手段都无法联络上真珠，那艘船显然驶向了某个特殊的位面。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "与寰宇蝗灾的记载一致，人们称它为…{{「只有神在的时间」|众神博戏之地}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翡翠",
+      "text": "也就是说，不必再费心验证了。此时此刻，的确是阿哈驾驶着贡多拉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "蝗灾的传说，每个公司员工都熟稔于心，毕竟它终结于琥珀王的巨锤。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "在那段历史中，也有一艘贡多拉，满载愚者、伶人、银河势力，遨游群星，左右众神的战局……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "可奇怪的是，阿哈从未施展神力，庇佑这些登船远征的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翡翠",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "身为赌徒，我深知一个人押注多少，才能赢下多少。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "无论过去还是现在，贡多拉上的人们究竟是「追随者」，还是某种「代价」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翡翠",
+      "text": "你怀疑，阿哈未必会站在人类这边？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "这才符合星神给人的印象，不是么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "翡翠女士，来这儿的路上，我输掉了一场小小的赌局。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "抛硬币，用运气决定结果。换做平时，只要我想，就不可能失手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翡翠",
+      "text": "听起来，你要说「但是」了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "嗯，甚至更糟，那枚硬币毫无征兆地裂成了两半。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "所以现在，我非常好奇，究竟是我的好运被什么东西「吃掉」了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "还是我们所有人，都被卷入了一场「混沌」呢？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往「世界尽头」酒馆，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "舞台，剧本，演员，观众，狩猎星神所需的一切都已准备妥当，只待揭幕。\n敬请期待，最后的幻月游戏！",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "在「只有神在的时间」到来以前，让我再给各位讲一个笑话吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "有个蠢货，以为自己能改变「欢愉」，让祂和这条命途免于可悲的结局。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "可在奥博洛斯的残躯中，他却看见了「贪饕」的本相——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "一张…戴着阿哈面具的脸庞。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "洁里珂",
+      "text": "贡多拉已经启航，糖果、慕斯和巧克力棒也都在船上了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大卫·戴",
+      "text": "…有什么可做的？反正所有人都会死。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讥讽的愚者",
+      "text": "大卫·戴，你喝错了哪个过期的笑话，脑子又不清醒了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大卫·戴",
+      "text": "我很清醒，我是披着人皮的怪物，吃剩一半的饼干，腐朽残渣的菌丝——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大卫·戴",
+      "text": "我们都是祂——也都是祂的食物——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "哈哈哈哈哈哈哈哈哈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "太初笑声的回响",
+      "text": "哈哈哈哈哈哈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大卫·戴",
+      "text": "是神！神看向我们了——神要苏醒了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讥讽的愚者",
+      "text": "祂会吃掉每一颗星星！吃掉，吃掉——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亢奋的伶人",
+      "text": "吃掉阿哈和阿基维利的脑袋！存在也不存在的末王！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疯狂的伶人们",
+      "text": "起舞吧！礼赞欢愉的葬礼，气球崩解，笑话腐烂，欲望将吞没现实。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疯狂的愚者们",
+      "text": "狂欢吧！原欲的欢欣将成为第四种「终末」的回响！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "洁里珂",
+      "text": "这、怎么回事——「欢愉」究竟发生了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "答案是——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "阿哈早就「死」了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "奥博洛斯杀死了祂，又蛰伏万年将「欢愉」消化。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "或者，阿哈赢了，却受本能驱使和「贪饕」同化。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "无论哪种情况，都会导向同一个结果——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "一个{{婴儿|新的命途}}，正在古兽的腹中成形！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "还有那个女人——喂喂，阿哈已经死了，我亲眼目睹了案发现场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "所以…你又怎么可能以祂的名义，与人类一同，再度降伏贪饕？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "哈哈…也许，命中注定，我们都会见证笑声的终点……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "那将是悼念，而非狂欢。"
+    }
+  ],
+  "warnings": []
+}

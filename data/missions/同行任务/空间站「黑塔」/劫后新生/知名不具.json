@@ -1,0 +1,2052 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "知名不具",
+    "pageId": 2714,
+    "revisionId": 41760,
+    "parentRevisionId": 41114,
+    "revisionTimestamp": "2024-06-26T15:24:23Z",
+    "fetchedAt": "2026-09-28T00:21:37.720Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%9F%A5%E5%90%8D%E4%B8%8D%E5%85%B7",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%9F%A5%E5%90%8D%E4%B8%8D%E5%85%B7&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "知名不具",
+    "region": "星穹列车-观景车厢",
+    "type": "同行任务",
+    "version": "1.0",
+    "number": "02",
+    "series": "劫后新生",
+    "description": "一位神秘人将你拉进了空间站的匿名群聊，群聊中一则艾丝妲「中饱私囊」的流言正在发酵。\n正义的你想要挺身而出，但扑朔迷离的流言又该从何查起？\n为此苦恼的你忽然灵机一动——为什么不问问万能的姬子呢？",
+    "requirements": "开拓等级达到22级",
+    "requiredLevel": "22",
+    "characters": [
+      "艾丝妲",
+      "阿兰"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "350"
+      },
+      {
+        "item": "星琼",
+        "amount": "60"
+      },
+      {
+        "item": "冒险记录",
+        "amount": "6"
+      },
+      {
+        "item": "黑塔币",
+        "amount": "100"
+      },
+      {
+        "item": "《重力丧失》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "20000"
+      }
+    ],
+    "previousMissions": [],
+    "nextMissions": [
+      "裂界征兆"
+    ],
+    "objectives": [
+      "向姬子询问空间站流言一事",
+      "前往空间站，打探「瓜农」的下落",
+      "向其他科员打探「瓜农」的下落",
+      "和防卫科员对话，进入封锁区域",
+      "与姬子交谈，获得为她拍照的许可",
+      "给姬子拍照，并将照片发给帕梅拉",
+      "根据帕梅拉的情报，寻找符合对应特征的科员",
+      "与理查交谈，询问流言与密钥一事",
+      "向艾丝妲复命"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "阿兰、艾丝妲",
+      "相关成就": "与你同行的回忆#猜猜我是谁",
+      "领取地点": "开拓等级达到22级后收到黑塔女士单推协会短信接取"
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "任务接取短信"
+    },
+    {
+      "type": "fold",
+      "title": "短信：黑塔女士单推协会",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "text",
+          "text": "「知名不具」邀请「脸接大招」进入群聊，并附带了最近10条聊天记录"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "知名不具",
+          "text": "我早就觉得她有问题"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "展开讲讲"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "比尔盖瓦",
+          "text": "展开讲讲"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "这么大个空间站，里面得有多少油水？你想，你仔细想"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "饭可以乱吃话不能乱讲，她可是黑塔女士的学生"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "学生怎么啦？学生就不能说了？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "她啊"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "她黑料还挺多的"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "展开讲讲"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "不方便"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "比尔盖瓦",
+          "text": "不方便你说个锤子！！"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "你们这是什么群啊？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "比尔盖瓦",
+                  "text": "@脸接大招 自己看群名"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你们在说谁？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "瓜田里猹",
+                  "text": "新人懂不懂规矩啊"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "玛氏机器人",
+                  "text": "艾丝妲"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "无证开飞船",
+                  "text": "艾丝妲那个小丫头片子"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "来个前情提要？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "比尔盖瓦",
+                  "text": "自己爬楼去"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "别打岔，@瓜田里猹 快说"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "算了算了"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "知名不具",
+          "text": "都匿名了还话说一半，有没有素质啊"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "你们又不是不知道……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "比尔盖瓦",
+          "text": "别废话，说！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "公款私用那事呗"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "接待大厅那堆成山的包裹看见没？收件人都是咱们这位年轻站长"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "好家伙，我说怎么预算抠抠搜搜，钱都花那儿去了"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "比尔盖瓦",
+          "text": "这可不兴说啊"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "口说无凭，来点锤的"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "还用锤？接待大厅那堆成山的包裹看见没？收件人都是咱们这位年轻站长"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "什么包裹？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "瓜田里猹",
+                  "text": "我扫了一眼没敢多看，反正都是天价货"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "以私人名义买的？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "瓜田里猹",
+                  "text": "可不是私人名义吗？填太空站要报账的，你以为站长傻啊"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "没准就是自己买的呢"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "那些东西除了黑塔大人谁买得起啊"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "我就看防卫科那个阿兰在前台鬼鬼祟祟的，要不是他做贼心虚，我都发现不了"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "嘶，你这么一说…我好像也撞见阿兰紧张兮兮地收什么包裹"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "你看你看"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "对上了"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "比尔盖瓦",
+          "text": "对上了"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "艾丝妲中饱私囊？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "比尔盖瓦",
+                  "text": "我不知道哈。@瓜田里猹 说的，我没说"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "只是猜测，没实锤啊",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "瓜田里猹",
+                  "text": "你爱信不信呗"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "无证开飞船",
+                  "text": "笑死，还有洗的，谁不知道阿兰是那小丫头带来的亲信？"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "消息也太劲爆了",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "玛氏机器人",
+                  "text": "本人在此声明:我和以上内容无任何直接关系！"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "比尔盖瓦",
+                  "text": "本人在此声明:我和以上内容无任何直接关系！"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "玛氏机器人",
+                  "text": "我自愿服从黑塔女士的任何安排与指示！"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "知名不具",
+          "text": "…啊这，我蹲了半天还以为大的要来了。结果就这？就这就这？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "是啊，说来说去也没个实锤"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "@玛氏机器人 你不也说阿兰鬼鬼祟祟"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "我也就那么一说"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "其实我正在偷偷调查她的巨额资产来源，但还不到放料的时候"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "你们等着瞧，这几天空间站必有大新闻！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "知名不具",
+          "text": "最好是啦"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向姬子询问空间站流言一事"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（说出群聊爆料的事。）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "艾丝妲这个站长当得也真不容易。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "前脚「军团」刚走，后脚就有人造谣生事…那句话怎么说来着？「对外敌我唯唯诺诺，搞内耗我重拳出击」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "黑塔的企业文化嘛……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你看起来还挺开心的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "姬子",
+              "text": "那怎么能呢？毕竟是这么有…麻烦的状况。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "有其企业家必有其文化。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "姬子",
+              "text": "哈哈，黑塔才不管这个地方呢。不如说有人的地方，就会产生江湖吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "开拓者，你想插手这件事吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "其实我也只想看看乐子…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我还挺想帮帮艾丝妲的。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "嗯，其实这类谣言本与我们无关，但事关艾丝妲那姑娘的声誉，佯装不知也不是无名客的作风。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "处理这种事情并不困难。群众关心的是戏剧性而并非事实，不用揭开真相，只要阻止谣言发酵就好了。比起辛辛苦苦地辟谣，不如直接找出谣言的制造者。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "一切唯姬子马首是瞻。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "姬子",
+              "text": "你尽会说好听的，开拓者。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "解决出问题的人是吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "姬子",
+              "text": "不不，那可不是一回事……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我有个朋友，据说这空间站里就没有她不知道的八卦消息。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这个朋友是不是你自己？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "看不出来姬子你也爱好八卦…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "首先，我的朋友不是我；其次，我交朋友也不是为了听八卦呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "只是我这个朋友神通广大，我想你也许能从她那边套出什么情报。这个时间…我看看，她一定是在科室外面翘班摸鱼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我不知道她的本名，只知道她自称——「瓜农」。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往空间站，打探「瓜农」的下落"
+    },
+    {
+      "type": "objective-description",
+      "text": "姬子建议你直接找出谣言制造者，在她的帮助下，你得知有位外号为「瓜农」的科员或许会知道谣言制造者的真实身份。\n你决定前往「瓜农」常去的地方找她。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（好像没有人在偷懒…难道「瓜农」不在这里？）"
+    },
+    {
+      "type": "fold",
+      "title": "短信：黑塔女士单推协会",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "绿色胖大海",
+          "text": "睡个觉回来，一开群就是99+"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绿色胖大海",
+          "text": "还以为空间站又出事了"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "这个群就是这么自由的地方呀"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "红毛斑鸠",
+          "text": "这个群就是这么闲"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "科员的能力差距不会成为交流障碍，每个人只表现出如孩童般直白的好奇心"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "这是一种全新的思想碰撞，一种对现有工作与生活的勇敢探索！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "红毛斑鸠",
+          "text": "指讨论八卦是吧"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "比尔盖瓦",
+          "text": "艾丝妲站长的那个瓜，已经开始有人传了"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "群里出了内鬼呗"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绿色胖大海",
+          "text": "笑死，哪个群没有内鬼"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "紫色雪尔丽",
+          "text": "真见鬼，这个群天天都不用干活的吗？我们待的不是一个空间站？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "比尔盖瓦",
+          "text": "谁说我们不干活"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绿色胖大海",
+          "text": "聊几句天关你什么事"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "紫色雪尔丽",
+          "text": "我说几句关你什么事"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绿色胖大海",
+          "text": "你了不起，你清高。走了"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向其他科员打探「瓜农」的下落"
+    },
+    {
+      "type": "objective-description",
+      "text": "你赶往「瓜农」常去的地方等候许久，却从附近的科员处发现谣言已经传播开来了。\n尽管你没能等到「瓜农」现身，但你最终还是从其他科员处打探到了「瓜农」的下落。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（流言已经开始发酵了，先在周围收集一下情报吧。）"
+    },
+    {
+      "type": "fold",
+      "title": "旁听自言自语的科员",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "自言自语的科员",
+          "text": "「瓜农」只关心八卦，却不关心八卦背后的秘密。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "自言自语的科员",
+          "text": "黑粉群人这么少，但消息却传得这么快，这背后必有推手……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "自言自语的科员",
+          "text": "…嗯…群聊的人数和内容…小号的自导自演？可这么做的目的到底是什么呢……"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "旁听轮休科员和好奇科员的对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "轮休的科员",
+          "text": "怎么说，「瓜农」有什么劲爆内幕吗？站长真的有贪污？那个举报人是谁啊这么狂？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "好奇的科员",
+          "text": "咦，你今天不是轮休么？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "轮休的科员",
+          "text": "刷了下手机这不就赶过来了嘛，轮休哪有吃瓜重要！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "好奇的科员",
+          "text": "可惜我一早上也没碰上「瓜农」，不如你回去躺着等消息？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "轮休的科员",
+          "text": "说得也是……"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "旁听惊讶的科员和茫然的科员对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "惊讶的科员",
+          "text": "你怎么还在这儿？你们科室没喊你去准备急救手术吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "茫然的科员",
+          "text": "好像…没有？我才偷偷溜出来转了会儿，没这么巧吧……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "惊讶的科员",
+          "text": "2分钟前我收到群发消息，说特殊解析室那边出事了，有人被困住了，现在防卫科把入口的区域都封起来了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "茫然的科员",
+          "text": "特殊解析室？那「瓜农」帕梅拉岂不是也……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "惊讶的科员",
+          "text": "多半是了，难怪这个时候没见着她来摸鱼……"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "和防卫科员对话，进入封锁区域"
+    },
+    {
+      "type": "objective-description",
+      "text": "你连忙赶往特殊解析室，但防卫科已经将整片区域封锁了起来。你决定向防卫科的科员打探一下「瓜农」与这片区域的情况。\n尽管他们再三劝阻，但你执意要进入封锁区域救出「瓜农」帕梅拉。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "防卫科员",
+      "text": "特殊解析室附近通路已经封锁，请无关人员不要靠近。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "能不能通融下让我过去。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "防卫科员",
+              "text": "那里有一些突发情况，现在很危险。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "防卫科员",
+              "text": "但…我听阿兰大哥说过你的事。你执意要去的话…我只能说，注意安全。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "进入副本"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我只是路过的。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "完成任务裂界征兆"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "完成任务后收到短信"
+    },
+    {
+      "type": "fold",
+      "title": "短信：黑塔女士单推协会",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "红毛斑鸠",
+          "text": "出大事了，兄弟们"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "细说"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "红毛斑鸠",
+          "text": "防卫科把特殊解析室周边都封了，说是有「军团」的残党！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "比尔盖瓦",
+          "text": "不止，还有裂界"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "紫色雪尔丽",
+          "text": "裂界？在空间站？你确定？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "比尔盖瓦",
+          "text": "在看监控，好像只是轻微的裂界化。但出现了只有裂界里才会诞生的怪物"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "紫色雪尔丽",
+          "text": "好家伙，我只看过样本，还没见过活的裂界"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "紫色雪尔丽",
+          "text": "我去瞅瞅，一会儿见"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绿色胖大海",
+          "text": "好奇害死猫，你这种人搁电影里都活不过15分钟"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "紫色雪尔丽",
+          "text": "关你什么事！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "紫色雪尔丽",
+          "text": "（已屏蔽）"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绿色胖大海",
+          "text": "（已屏蔽）"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "红毛斑鸠",
+          "text": "你俩要不结婚得了"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与姬子交谈，获得为她拍照的许可"
+    },
+    {
+      "type": "objective-description",
+      "text": "帕梅拉对照片提出的要求听起来就令人头大。你决定直接直接求助于当事人，没想到姬子对此并不介意。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "找到「瓜农」了吗？她怎么说。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她说拿你的照片来换。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "她对你图谋不轨没安好心。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "哈，我就觉得她怪怪的……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你说你们是朋友。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不能答应她啊！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "美颜开几级？要滤镜吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "唉，朋友也分很多种…这种呢，就是不照面的时候才能当朋友……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "算啦，一张照片而已，我是不介意啦。开拓者，有需要的话你就拍呗。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "给姬子拍照，并将照片发给帕梅拉"
+    },
+    {
+      "type": "objective-description",
+      "text": "姬子大方地摆好姿势让你拍下照片，你连忙将照片发给帕梅拉，换取谣言制造者的情报。",
+      "location": ""
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "姬子拿过你刚拍完的照片…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "给我看看…咦，拍照有一手嘛，开拓者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "什么什么，在拍什么？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你、你怎么来了？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "一定是三月七传染的。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "看到我这么慌张干嘛？…好可疑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "没想到你会来吧，不是说你最近很忙吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "唉，是啊。「军团」刚刚退走，空间站又是这个百废待兴的状态。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "重建工作才小有进展，最近局部又出现了裂界化的迹象......"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "星核被激活了，该来的总是会来...裂界化的事，黑塔怎么说？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "老师的性子您知道的，就跟无事发生一样，又当甩手掌柜了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "后面有空，我还得再找您商量商量。毕竟事关裂界，你们才是专家。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "随时候教。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "唉，我先走了。家里给我支取零花钱的密钥被人给扣了，我得赶紧去处理下。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "被人扣住的密钥…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "谣言制造者说他掌握的证据也许就是这个，开拓者，看来你得抓紧时间了。"
+    },
+    {
+      "type": "fold",
+      "title": "短信：帕梅拉",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "帕梅拉",
+          "text": "拿到相片记得发我哦！"
+        },
+        {
+          "type": "text",
+          "text": "照片已发送"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "帕梅拉",
+          "text": "天哪，姬子姐姐真的好好看，呜呜呜我要把她印成墙纸贴在房间里天天看"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "帕梅拉",
+          "text": "喏，说好要给你「瓜田里猹」这个匿名账号的真实身份是吧？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "帕梅拉",
+          "text": "他是法政科的理查。情报绝对保真，毕竟是抢生意的同行"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "还真就叫理查啊？！",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "帕梅拉",
+                  "text": "就是那个高高瘦瘦、斜刘海，戴着一副黑框眼镜的家伙"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "同行果然是冤家！！",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "帕梅拉",
+                  "text": "那可不，我再免费送你个线索：就是那个高高瘦瘦、斜刘海，戴着一副黑框眼镜的家伙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "帕梅拉",
+          "text": "这家伙前不久被他科室的人赶出来了，通常都在接待大厅里待着"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "帕梅拉",
+          "text": "他手里那个所谓「猛料」嘛，我也知道。想要吗？老规矩，嘿嘿，姬子姐姐……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "自己动手丰衣足食"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "根据帕梅拉的情报，寻找符合对应特征的科员"
+    },
+    {
+      "type": "objective-description",
+      "text": "帕梅拉告诉你，谣言的制造者是位「戴黑框眼镜斜刘海的小伙」。\n遵从着上述信息，你开始努力寻找符合上述特征的男性科员。",
+      "location": ""
+    },
+    {
+      "type": "fold",
+      "title": "识别错误的科员",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（好像和「瓜农」说的样子对不上号啊……）"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（她说的…好像是个:戴黑框眼镜的斜刘海小伙吧。）"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与理查交谈，询问流言与密钥一事"
+    },
+    {
+      "type": "objective-description",
+      "text": "原来匿名群中制造谣言的「瓜田里猹」，真名就叫理查。一想到这个名字，你就忍不住笑出声来。\n在和理查的交涉中，他义正严词地向你讲述了自己的推论，并坚称自己要向黑塔女士举报艾丝妲。\n你认真看了他所谓的证据，意识到此事只是一场闹剧。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "你是？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你就是「瓜田里猹」？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "理查",
+              "text": "哟呵，行啊，这都被你发现了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "就是你小子造谣艾丝妲？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "理查",
+              "text": "哈哈，这叫「造谣」？这叫公开检举！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "你是为了站长中饱私囊的事来的？没想到你这么八卦…居然还追了过来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "我真搞不懂你们这些人，看点八卦而已，怎么就憋着这么一大股劲儿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "拿这股劲头去搞研究该多好，黑塔女士看到大家这么努力工作一定会很开心的。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我是来制裁你的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "理查",
+              "text": "哈哈，你谁啊，你以为你是下一任空间站站长啊？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "理查",
+              "text": "拜托，我这种公正不阿、聪明好学的正直之人当站长还差不多，你一个听乐子的，搞清楚自己的定位好吧。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "把艾丝妲的密钥交出来。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "理查",
+              "text": "什么密钥……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "理查",
+              "text": "你是不是看了什么老掉牙的小说啊。还以为空间站里有什么隐世家族霸道总裁，动不动就是金库密钥的…少幻想多学习，好不好？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "算了，你这么想要「猛料」…哼哼，反正我都备份了，给你看看，也知道我瓜田里猹不是造谣生事的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "就是这张单据，你看看那个采购合同上的抬头——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "这就是我说的，重量级的实质性证据！哼哼……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "文件来源可靠吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "那当然！我敢爆料，难道还造假不成？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "这玩意嘛…就是前几天我去取包裹的时候，看到前台有几张单子指名站长签收。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "防卫科的一把手阿兰看了眼单子就急匆匆地走了，谁不知道他是艾丝妲的亲信。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "我凑上去一看，哟呵，好家伙——用私人名义购买空间站用的仪器，可被我逮到了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这算哪门子证据啊……",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "啧，非得我把证据掰碎了喂你是吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "空间站有财务流程。咱们无论采购什么东西，只要是给空间站买的，都得走对公账户，用公司批的预算。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "她这个付款方写私人账号，显然就是公款私用啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "失望呐，痛心呐。看起来挺干净一小姑娘，得到黑塔大人的提拔不报恩就算了，还搞这些个腌臜事儿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "我当时真就被气到浑身发抖，手脚冰凉，大热天的全身冒冷汗。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "会不会是她自己买的？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "这么大的金额，她自己掏钱？什么家庭啊，弗莱明亲女儿啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "理查",
+      "text": "好了，猛料你也看了，别烦我了。我还要写举报信给黑塔女士呢，忙得很！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向艾丝妲复命"
+    },
+    {
+      "type": "objective-description",
+      "text": "在查清楚艾丝妲所谓的「中饱私囊」的谣言后，你决定找艾丝妲坦白此事。\n但出乎你意料的，不仅有艾丝妲惊人的财力，还有匿名群背后的真相……",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（看来只是虚惊一场……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（不过造谣一张嘴，辟谣跑断腿。还是去提醒艾丝妲一下吧。）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你正要向艾丝妲说明情况，群里又有新消息…"
+    },
+    {
+      "type": "fold",
+      "title": "短信：黑塔女士单推协会",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "笑死，刚刚有个愣头青来找我"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "哦哟，猹哥！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "猹哥你猛料呢，大新闻啥时候出啊"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "快了快了！不是说刚刚有个小年轻吗，也是来问这事的"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "我上去一亮实锤，对面瞬间给干沉默了哈哈哈"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "哈哈哈哈哈哈哈"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "比尔盖瓦",
+          "text": "刚刚找你那个，是击退了「军团」末日兽的狠人"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "我还说"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "…啊？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "比尔盖瓦",
+          "text": "我监控上都看得到。之前特殊解析室那边的裂界怪物，也是这人解决的"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓜田里猹",
+          "text": "……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "好家伙，猹哥，你这是碰上了个大人物啊"
+        },
+        {
+          "type": "text",
+          "text": "「瓜田里猹」退出了群聊"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "猹哥？猹哥你还好么猹哥？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "……"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "你这样乱花钱可不行……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "这叫什么乱花钱？公司的预算卡那么死，流程又那么长，等我申请完下来那要浪费多少时间？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "「军团」的袭击毁了多少硬件，现在站里瘫痪了多少管线你知道么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "我自掏腰包给大家解决问题还是我的错了？你赶紧把我的密钥还过来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "我不！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "你！谁给你的权利管起我的吃穿用度来了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "我…呃，好像确实有这么回事，可、可这不算乱花钱啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "这怎么不算？之前买的那个叫「查宝」的寻物仪，碰上军团入侵丢件了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "明明查一下库存就能补送的东西，你非要急着重新下单。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "还有上次那个歼星舰……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "歼、歼星舰？！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "咳，别误会。这个，虽然下了单，但买不到啊…我这不也是为了加强安防保证这次的袭击事件不再出现嘛……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "没、没乱花出去的就不算乱花！…开拓者，你有事找我？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我觉得没刚刚的事重要。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你这话题转得有点僵硬。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "你好烦啊，说正事儿。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（告知理查的所作所为）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "所以，你以为是理查偷走了我的密钥？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "不过原来是他在造谣…嗯，倒也符合他人设。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（感觉她好像…并不意外？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "这件事我马上就去处理。请不用担心，大小姐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "去吧去吧，哎等等，密钥给我留下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿兰",
+      "text": "一码归一码，密钥的事容后再议。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "艾丝妲",
+      "text": "欸，怎么能这样——"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "艾丝妲已成为列车的访客，回到列车将有机会遇到艾丝妲"
+    },
+    {
+      "type": "message-thread",
+      "title": "阿兰",
+      "subtitle": "佩佩紧急联系人",
+      "owner": "开拓者",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "阿兰",
+          "contentType": "text",
+          "text": "多亏你帮忙揪出了造谣者，我代我家小姐谢谢你。后面的事就交给我吧"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "黑塔没责罚艾丝妲吧？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "黑塔没责罚艾丝妲吧？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "阿兰",
+                  "contentType": "text",
+                  "text": "你是真不了解黑塔女士啊——这事儿她理都没理"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "真是艾丝妲自掏腰包的吗？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "真是艾丝妲自掏腰包的吗？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "阿兰",
+                  "contentType": "text",
+                  "text": "你是真不知道啊……"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "阿兰",
+          "contentType": "text",
+          "text": "这座空间站虽然是黑塔女士的私产，但整个建造过程，黑塔女士一分钱也没出"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "阿兰",
+          "contentType": "text",
+          "text": "小姐家跟「公司」有点关系，所以她…很有钱。现在空间站里的大部分设施，基本上都是小姐出资的……"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "阿兰",
+          "contentType": "text",
+          "text": "所以买那些东西的费用…对小姐来说根本不算什么"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "「星际和平公司」到底是啥？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "「星际和平公司」到底是啥？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "阿兰",
+                  "contentType": "text",
+                  "text": "这个…你就当作是这宇宙间最…富有的组织"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "现在抱小姐大腿还来得及吗？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "现在抱小姐大腿还来得及吗？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "阿兰",
+                  "contentType": "text",
+                  "text": "…请不要开这种玩笑，我会当真的"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "阿兰",
+                  "contentType": "text",
+                  "text": "…"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "理查你们打算怎么处理？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "理查你们打算怎么处理？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "阿兰",
+                  "contentType": "text",
+                  "text": "…我觉得，或许你不会想知道"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "阿兰",
+          "contentType": "text",
+          "text": "总之，小姐的事，谢谢你费心了"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "（黑粉群后续）短信：黑塔女士单推协会",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "「黑塔·全景系统」",
+          "text": "【关于某匿名群聊散播空间站管理人员谣言最新情况通报】#最新#相关内容为不实消息。仪器购买记录与申报信息已通报给公司有关部门，现将公司批复的情况调查书已公示在空间站员工内部数据中心。经热心人士协助，查实并不存在谣言内容所述情况。空间站安全中心已按照规定，对传谣者进行了相关处理。请大家不信谣不传谣，共建空间站良好氛围"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "「黑塔·全景系统」",
+          "text": "另：采购的小机器人已投放至公共区域，欢迎各位前往体验"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "我说什么来着，你们之前穷尽恶意揣测人家一个小姑娘，现在也不出来道个歉"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "世风日下，人心不古！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "比尔盖瓦",
+          "text": "讲个恐怖故事，空间站里已经看不到「瓜田里猹」这个人了"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "知名不具",
+          "text": "这位朋友莫非是防卫科监控室的人？看来你工作不饱和呀"
+        },
+        {
+          "type": "text",
+          "text": "「比尔盖瓦」退出了群聊"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "@玛氏机器人 笑死，你这种人也就敢匿名的时候出来假装正义"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "你有本事敲键盘，你有本事亮明牌啊？咱们线下练一练？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "玛氏机器人",
+          "text": "你…有辱斯文，有辱斯文啊！"
+        },
+        {
+          "type": "text",
+          "text": "「玛氏机器人」退出了群聊"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无证开飞船",
+          "text": "桀桀桀桀桀。你是个什么东西，我一眼把你望到底！"
+        },
+        {
+          "type": "text",
+          "text": "「无证开飞船」被移出群聊"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "紫色雪尔丽",
+          "text": "请大家在聊天时一定要注意分寸。不要开过分的玩笑，不要说伤人的话，不要揭人短处戳人伤疤！也不要问别人比较敏感的话题，更不要打破砂锅问到底"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绿色胖大海",
+          "text": "大家在聊天时一定要加大力度，多开扎心的玩笑，多说伤人的话，多揭别人的短狠戳别人伤疤，一定要打破砂锅问到底"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "紫色雪尔丽",
+          "text": "人和人相处，一定要懂得包容，不要太计较。如果有了意见，不要逞一时之快吵嘴，也千万不要意气用事，轻言退群"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绿色胖大海",
+          "text": "人和人相处，一定要锱铢必较，该出手时就出手，如果有了争吵不要忍气吞声，也千万不要服软示弱"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "紫色雪尔丽",
+          "text": "（已屏蔽）"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绿色胖大海",
+          "text": "（已屏蔽）"
+        },
+        {
+          "type": "text",
+          "text": "「绿色胖大海」退出了群聊"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "紫色雪尔丽",
+          "text": "……"
+        },
+        {
+          "type": "text",
+          "text": "「紫色雪尔丽」退出了群聊"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "毁人不倦",
+          "text": "额..没了解过这个群，随便翻了翻聊天记录，直接看的对线。讲真，实在一般，提不起兴趣"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "红毛斑鸠",
+          "text": "+1，我也退了"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "爆炸头才是艺术",
+          "text": "看了下，我也退了，真受不了"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "相亲交友私小窗",
+          "text": "哎，你们真的是。算了我也老了，受不了刺激"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "相亲交友私小窗",
+          "text": "我也退了"
+        },
+        {
+          "type": "text",
+          "text": "「毁人不倦」「红毛斑鸠」「相亲交友私小窗」「爆炸头才是艺术」等66人退出了群聊"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "知名不具",
+          "text": "咦，没想到这群居然有这么多活人"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "我记得你，是你拉我进的群",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "知名不具",
+          "text": "是呀。说起来，我还没有正式谢谢你这位「热心人士」"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "这一切都在你的计划之中？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "知名不具",
+          "text": "哪里，只是想请你这位空间站的大英雄解决点我不好出面的小问题而已"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "你到底是谁？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "知名不具",
+          "text": "你明明就知道"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "知名不具",
+          "text": "…一张艾丝妲捂嘴笑的表情包"
+        },
+        {
+          "type": "text",
+          "text": "「黑塔女士单推协会」已被群主「知名不具」解散"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（阿兰）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "密钥的事情有后续吗？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "阿兰",
+                  "text": "想不到你还记得啊。哎，小姐一直都有这个坏习惯，消费起来有点大手大脚，要是把密钥还给她，真不知道她会买些什么东西回来。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "阿兰",
+                  "text": "上次多亏了有你的帮助，不仅解决了匿名群聊的事情，还帮小姐守住了秘密，有机会我一定要重谢你才行。"
+                },
+                {
+                  "type": "choice",
+                  "presentation": "dialogue",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "让我摸摸佩佩吧！",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "阿兰",
+                          "text": "这倒是不难。佩佩和很多科员都相处得不错。"
+                        },
+                        {
+                          "type": "dialogue",
+                          "speaker": "阿兰",
+                          "text": "不过这件事还是需要佩佩自己同意才行，我也得尊重它的想法。"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "text": "密钥有消费限额吗？",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "阿兰",
+                          "text": "我不知道，但小姐那边还没有出现过密钥无法支付的情况。"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "text": "我再琢磨琢磨吧。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "阿兰",
+                          "text": "不着急，我也要好好想一想。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

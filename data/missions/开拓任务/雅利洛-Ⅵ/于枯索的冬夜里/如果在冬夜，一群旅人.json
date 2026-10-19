@@ -1,0 +1,676 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "如果在冬夜，一群旅人",
+    "pageId": 2367,
+    "revisionId": 77283,
+    "parentRevisionId": 34254,
+    "revisionTimestamp": "2026-01-18T19:08:39Z",
+    "fetchedAt": "2026-09-28T00:14:57.646Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%A6%82%E6%9E%9C%E5%9C%A8%E5%86%AC%E5%A4%9C%EF%BC%8C%E4%B8%80%E7%BE%A4%E6%97%85%E4%BA%BA",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%A6%82%E6%9E%9C%E5%9C%A8%E5%86%AC%E5%A4%9C%EF%BC%8C%E4%B8%80%E7%BE%A4%E6%97%85%E4%BA%BA&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "如果在冬夜，一群旅人",
+    "region": "雅利洛-Ⅵ",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "02",
+    "series": "于枯索的冬夜里",
+    "description": "你们平安着陆雅利洛-Ⅵ，却发现此处只有冷冽的霜风和无垠的雪原向各位表示欢迎。\n\n毫无头绪的你回想起姬子的话：成功的开拓需要「探索」、「了解」、「建立」和「连结」…现在大概是正处于「探索」的阶段吧——\n\n无论如何，现在恐怕只剩下在风雪中前进，或者等星核自己找上门这两种选择了。",
+    "requirements": "完成激「冻」人心的大冒险",
+    "requiredLevel": "0",
+    "characters": [
+      "丹恒",
+      "三月七",
+      "桑博",
+      "杰帕德"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "600"
+      },
+      {
+        "item": "星琼",
+        "amount": "80"
+      },
+      {
+        "item": "冒险记录",
+        "amount": "3"
+      },
+      {
+        "item": "凝缩以太",
+        "amount": "1"
+      }
+    ],
+    "previousMissions": [
+      "激「冻」人心的大冒险"
+    ],
+    "nextMissions": [
+      "永冬城之夜"
+    ],
+    "objectives": [
+      "在雪原中寻找文明的迹象",
+      "跟随桑博的指引，向贝洛伯格前进"
+    ],
+    "synopsis": [
+      "你与三月七、丹恒发现一处奇怪的雪堆，似乎有人藏身其中。对方久久不愿现身，丹恒决定采用武力手段。",
+      "鬼鬼祟祟的桑博自雪堆中现身，你们得知他正在躲避「银鬃铁卫」。在桑博的带领下，你们前往星球上最后的人类聚落——贝洛伯格。",
+      "银鬃铁卫突然出现，将你们团团围住。你与三月七、丹恒被当作是桑博的同伙，遭到铁卫们的进攻。",
+      "你们陷入与银鬃铁卫的苦战。三月七射出寒冰箭矢，其攻击却被一位戍卫官模样的成年男性尽数挡下。",
+      "桑博在战斗中悄悄逃走。你们向戍卫官杰帕德展示星球全景照片，证明自己来自天外。他决定带领你们谒见「大守护者」。",
+      "在风雪尽头，你们看到一座屹立于寒霜中的城市。杰帕德向你们问候：「欢迎来到『存护之城』——贝洛伯格。」",
+      "杰帕德称，天外怪物在七百年前降临雅利洛，而入侵的军团被寒潮掩埋。在「存护」克里珀的护佑下，「筑城者」们建立起贝洛伯格。"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#永冬城之夜"
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在雪原中寻找文明的迹象"
+    },
+    {
+      "type": "objective-description",
+      "text": "你们平安着陆雅利洛-Ⅵ，却发现此处只有冷冽的霜风和无垠的雪原向各位表示欢迎。\n\n毫无头绪的你回想起姬子的话：成功的开拓需要「探索」、「了解」、「建立」和「连结」…现在大概是正处于「探索」的阶段吧——\n\n无论如何，现在恐怕只剩下在风雪中前进，或者等星核自己找上门这两种选择了。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这里还没有被侵蚀，但裂界滋生的怪物已经跑出来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这世界里「星核」的影响恐怕非同寻常。"
+    },
+    {
+      "type": "fold",
+      "title": "调查建筑",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "建筑已经被积雪掩埋了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "呜哇，这、这是房顶？这得要下多久的雪，才能积到这个厚度啊？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "…很久很久。"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "三月七似乎看见了什么…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哎，你们看见了吗？好像有什么东西在动……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…只是个寻常的雪堆，确定不是你的幻觉吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "绝对不是，咱视力可好了！走，咱们靠近点儿看看。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查雪堆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…喂，别躲啦，你冻得都打颤了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你忍着不出声也没用啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "让一下，三月。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "对付掩耳盗铃的人，最好的办法——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "——就是把铃铛砸在他头上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "躲在雪里的男人",
+      "text": "哎哟！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "躲在雪里的男人",
+      "text": "我说哥们儿，不至于吧？钻雪里没啥大过错，不用拿枪尖子捅我吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "躲在雪里的男人",
+      "text": "呃，但是，这怪不得各位英雄！哈哈，是我出现得太突兀了，挨这一戳值得，应当，必须！要不怎么能认识各位好朋友呢？哈哈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "躲在雪里的男人",
+      "text": "…请问杰帕德长官来了嘛？我跟他挺熟的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "躲在雪里的男人",
+      "text": "噢，你们不是银鬃铁卫？早说呀，自家人打自家人，这不是多此一举嘛！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "躲在雪里的男人",
+      "text": "桑博·科斯基，幸会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我是开拓者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "行，行，我记住了。说实话，没想到在这冰天雪地里能遇见同行。最近买卖不好干，不过你们放心，我桑博从不吃独食，外边这宝藏大得很，有财大家一起赚嘛，哈哈哈。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "要不一起搭个伙呗？我有可靠消息：银鬃铁卫的主力都被调去前线了，这可是千载难逢的好机会……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么买卖？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "银鬃铁卫？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "调去前线了？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "…这就有点过了各位，不信任我没关系，但也不用装傻到这个地步嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "得，规矩我懂，大家都是干这行的，有点戒心，能理解！怪我桑博天性热情，太真诚……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "相逢一场总归是缘分，各位有什么想了解的尽管问我，知无不言言无不尽！不过长话短说，银鬃铁卫随时可能出现……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "聚居地在哪里？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "要这么文绉绉吗，不就是哪有活人呗？你往外走是肯定没戏了，整个世界上唯一还有人类定居的地方，就只有咱们的好贝洛伯格啰。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "「存护之城」，「永屹之城」，「人类抵御寒潮的唯一壁垒」…听上去唬人，却句句属实。人类只有在这个铁围墙里才能活命。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你为什么钻雪里？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "我？还不是被你们吓到了…我本来在这儿东找找西翻翻，想搞点古代的遗物回去小赚一笔…结果你们发出那么大动静，我以为银鬃铁卫来了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "算我拜托各位了，下次轻点，真的。铁卫碰见你们可不会躲雪里，你们呢？就得蹲牢里啦……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我真的不知道银鬃铁卫是什么…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "…你们是真不知道啊？银鬃铁卫就是贝洛伯格的军队，执法者，警察…那帮家伙完全不懂变通，就喜欢和干咱们这行的人打交道。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "三人小队面面相觑…"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "唉，诸位真的是新手啊…嫩成这样，我都有点看不下去了。这样吧，怎么说我也算是你们前辈，就免费给点指导好了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "干这行的有很多规矩，得好好教教你们：怎么潜行，怎么找货，怎么估价，怎么躲铁卫，那都是技术活……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "那倒不必了，你带我们进城吧？我们对路也不大熟。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "进城？这就回去了？今天还没开张呢妹妹，带个路是小意思，但——"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "丹恒瞪了桑博一眼…"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "——但我就是乐于助人。哈哈，心地善良就是我桑博的代名词！跟我来，朋友，轻点声，可别被铁卫发现了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随桑博的指引，向贝洛伯格前进"
+    },
+    {
+      "type": "objective-description",
+      "text": "你们发现一个瑟瑟发抖的男人把自己埋在雪堆里。如果他不是想在这冰天雪地里美美睡一觉，那他大概是在躲避着什么东西…但至少这个满脸堆笑的男人不是在躲着你们。\n\n在了解过各位的状况后，他主动提出要带领你们前往星球表面唯一的人类聚居地——「贝洛伯格」。想必你们会在那里找到星核的线索。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "所以，你为什么要躲着「银鬃铁卫」呀？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "呃，不过就是私藏了几件古代遗物而已，没什么大不了的。要怪就怪那帮执行公务的，脑子只有一根筋。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "说来，各位到底是什么来历啊？我可不是打听，就是关心关心朋友，不说也不要紧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "——第七条法则就是：不能留下脚印。我有条独门绝技，可以说踏雪无痕，专门用来摆脱追兵……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…这是？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "呃，还记得我说的银鬃铁卫吗？就是他们了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "帮个忙，哥们！我不想被抓啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "士兵",
+      "text": "发现嫌疑人和他的同伙，立即逮捕！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "此时不跑，更待何时！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "交给你们啦，朋友！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "喂！你这家伙——"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败第一波银鬃铁卫，一个长官打扮的人出现…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "我，杰帕德·朗道，银鬃铁卫戍卫官，命令尔等放弃无谓的抵抗。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "莫名其妙被那个桑博坑了一下，感觉很火大……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "士兵",
+      "text": "嫌犯！放弃抵抗，投降吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "被当成罪犯，感觉更火大了！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们与杰帕德激战一番后…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…蓝头发的主犯呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "士兵",
+      "text": "抱歉，长官！跟丢了，我们找不到他的足迹……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "不要紧，他的同伙在我们手里，主犯不会离得太远，一定会有所行动。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们不是他的同伙。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "呸，他也配！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "那怕是要等上一辈子了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "——都未必等得到。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我可不是狡辩，我们跟那个坏蛋真不是一伙的。你看他丢下我们时哪有半点犹豫啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "好心把他从雪里救出来，没想到他是利用我们来对付你。你可千万别受挑拨——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "我是戍卫官，并非仲裁团。作为贝洛伯格的市民，你拥有辩护的权利，但那应该在筑城者的注视下进行，不是现在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "带他们回去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "可我们不是贝洛伯格的市民呀！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们穿的就和你们不一样。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "士兵",
+              "text": "住口！你在说什么胡话——"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "不，也不能这么草率地下判断。你看他们的穿着，那确实不是贝洛伯格的风格。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "对了，我还有照片！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这些装备也不像你们的东西吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "不，也不能这么草率地下判断。你看他们身上佩戴的那些古代遗物…我们从没发掘出类似的东西，博物馆里也没有相似的物件。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "三月七，快给他看照片。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "照片？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "啊，开拓者你好聪明，这个点子棒耶！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你们还没见过自己的星球长什么样子吧？给你们看我拍的雅利洛-Ⅵ……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "三月七向杰帕德展示了这颗冰雪星球的照片……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "士兵",
+      "text": "你说这个白球是…这里？是我们住的地方？这也太……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "据说很久以前，常有{{天外异客|星际旅行者}}来到这里……但「寒潮」发生以后，就再没有人穿过雪幕，来到贝洛伯格……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "士兵",
+      "text": "但这几个人——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "这已经不是我们能裁定的事了，如果他们所言属实，那就只有「大守护者」才能决定该怎么做。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "我们该做的，是将他们带到大守护者的面前。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "外来者们，跟我来吧。贝洛伯格就在这片雪幕背后。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "杰帕德将你们带到贝洛伯格…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "欢迎来到「存护之城」——贝洛伯格。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们进入城内…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "好像不那么冷了耶。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…因为你们身处贝洛伯格，人类最后的堡垒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "最后的堡垒？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "七百年前，来自天外的{{怪物|反物质军团}}点燃了星球。彼时的大地成了焦土，到处是燃烧的熔火和沸腾的乌烟。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "生死存亡之际，寒潮忽然降临——席卷的狂风毫无预兆，入侵的军团被暴雪掩埋，留存的唯有贝洛伯格——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "坚定的「筑城者」们建立了这座城市。在「{{存护|星神}}」克里珀的护佑下，贝洛伯格虽受风雪侵凌，却永远温暖。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "（…他说话好奇怪噢。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "（那不是他之前的语调，他应该是在引用某段典籍。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "（噢，那他干嘛要跟我们说这些啊？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "因为你问了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "……"
+    }
+  ],
+  "warnings": []
+}

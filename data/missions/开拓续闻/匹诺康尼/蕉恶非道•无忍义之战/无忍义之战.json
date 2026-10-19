@@ -1,0 +1,1849 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "无忍义之战",
+    "pageId": 14375,
+    "revisionId": 49851,
+    "parentRevisionId": 48448,
+    "revisionTimestamp": "2025-01-15T02:27:33Z",
+    "fetchedAt": "2026-09-28T00:21:10.658Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%97%A0%E5%BF%8D%E4%B9%89%E4%B9%8B%E6%88%98",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%97%A0%E5%BF%8D%E4%B9%89%E4%B9%8B%E6%88%98&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "无忍义之战",
+    "region": "匹诺康尼",
+    "type": "开拓续闻",
+    "version": "2.6",
+    "number": "08",
+    "series": "蕉恶非道·无忍义之战",
+    "description": "你们带着乱破回忆制成的彩墨来到了蕉授创造的梦境「睡蕉的时刻」，使化作小猴的人们惊醒，最终与乱破一同击败了汲取小猴愿望的蕉授。虽然蕉授的真身逃出了阿斯德纳，但梦境也恢复了安宁，折纸大学的校庆得以重新举行。返祖实验的危机看似告一段落，但对巡海游侠来说，这只是下一场狩猎的开端……",
+    "requirements": "完成任务阿斯德纳狂想曲",
+    "requiredLevel": "21",
+    "characters": [
+      "丹恒",
+      "乱破",
+      "知更鸟",
+      "波提欧",
+      "三月七",
+      "芮克先生",
+      "姬子",
+      "瓦尔特"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "500"
+      },
+      {
+        "item": "星琼",
+        "amount": "60"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "8"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "6"
+      },
+      {
+        "item": "信用点",
+        "amount": "80000"
+      }
+    ],
+    "previousMissions": [
+      "阿斯德纳狂想曲"
+    ],
+    "nextMissions": [],
+    "objectives": [
+      "与摄影机交互，进入",
+      "（可选）唤醒睡蕉小猴",
+      "最终狩猎，追逐普利蒙蕉授！",
+      "开始巡猎，使用弹珠机追上普利蒙蕉授",
+      "（可选）继续唤醒睡蕉小猴",
+      "箭在弦上，继续追逐普利蒙教授",
+      "此乃忍·科学，使用「气泡弹珠」追逐普利蒙蕉授",
+      "（可选）继续唤醒睡蕉小猴",
+      "飞矢已出，继续追逐普利蒙蕉授",
+      "此乃忍·科学，使用「气泡弹珠」追逐普利蒙蕉授",
+      "（可选）继续唤醒睡蕉小猴",
+      "追上普利蒙蕉授，终结颠倒·梦想！",
+      "（可选）了解之前同学们的情况",
+      "前往广场观看校庆开幕式"
+    ],
+    "synopsis": [],
+    "extra": {
+      "相关成就": "通往群星的轨道#邪祟·惊觉/邪祟·破除/邪祟·无踪、通往群星的轨道#壮绝·狩猎·终了",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "乱破同学，你的「忍·科学」还没完成吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "稍等片刻，银河忍法帖有云：「快手织纱无好布，急火炖肉炖不熟」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "——完成了！银河忍法千变万化，此乃「超·忍·卷轴」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "在下已将方才的记忆·忍法注于其中。若虾蟇·忍者所言无误，这便是邪祟们的介错之刃。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "嗯，只要将这些含有「忍者」模因病毒的记忆投入联觉梦境，就可以覆盖睡蕉小猴在梦境中的存在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "飞龙·忍者，球棒·忍者。拜托两位同行，和在下一同终结邪祟·总长的颠倒·梦想吧！"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（乱破）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "乱破",
+          "text": "球棒·忍者，还有何事？此时此刻容不得耽搁。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "关于你的记忆蕉…",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "乱破",
+                  "text": "日后再谈吧，与梦土千百众生的安危相比，在下的往事不值一提。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "关于「超·忍·卷轴」蕉…",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "乱破",
+                  "text": "在下已将虾蟇·忍者提炼的往事灌注于缭乱·忍法的异彩之中，令此物在邪恶国度爆发四散，便可破除邪忍阵法——此乃在下曾经修习过的忍·科学。"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "没事了蕉。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "乱破",
+                  "text": "球棒·忍者，快些动身吧，只有我等忍者才能扑灭燃烧梦土的不知火。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（丹恒）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "开拓者，折纸大学与流梦礁的人们还在危险中，准备出发吧…蕉。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（试图离开教室）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "你隐约听到门外传来了小猴的*蕉声*，幸福、快乐、轻松的音调让你不禁心生羡意蕉。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "开拓者，你要去哪蕉？"
+        },
+        {
+          "type": "text",
+          "text": "对啊，你明明是来这里享受校园的，为什么又遇上了这种麻烦事？这些破事儿到底跟你有什么关系蕉？\n你的旅程总是这样，被迫冒险、被迫努力、被迫解决麻烦，毫无自由可言。难道就不能让你真的选择一次「放弃」吗蕉？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "芮克先生",
+          "text": "喂，你身上的模因病毒比匹诺康尼这个月的烂片还多，再去外面招惹小猴可真要杀青了——"
+        },
+        {
+          "type": "text",
+          "text": "别听他的，做出真正自由的选择，去拥抱自由的猴生吧蕉！"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "走吧蕉！",
+              "content": [
+                {
+                  "type": "narration",
+                  "tone": "灰",
+                  "text": "你的大脑被模因病毒占满"
+                },
+                {
+                  "type": "text",
+                  "text": "可叹，可叹。\n球棒·忍者未能抵御邪祟的妖术蛊惑，他/她的开拓·忍道——就此断绝！\n但步入邪祟的国度，他/她将不再有忧烦愁苦，终日与群猿相伴，尽享无为之乐，余生也算逍遥。\n在球棒·忍者如贼星坠落之后，其余诸忍亦会延续蕉蕉蕉蕉蕉蕉蕉蕉蕉——\n蕉？\n蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉蕉——"
+                },
+                {
+                  "type": "narration",
+                  "tone": "描述",
+                  "text": "银河忍法帖"
+                },
+                {
+                  "type": "narration",
+                  "tone": "描述",
+                  "text": "终"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "不对蕉！",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "好险！在千钧一发之际，你战胜了心中的*蕉声*。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与摄影机交互，进入"
+    },
+    {
+      "type": "objective-description",
+      "text": "此刻，最终的片场已经准备好了，最重要的演员们请尽快登场，摄像机随时可以开机——并且绝对不会停。\n蕉师的三场审判，忍侠的两番过往，牛仔的一场派对——一切都是为了最终的狩猎，做好准备了吗？",
+      "location": "匹诺康尼-匹诺康尼折纸大学学院"
+    },
+    {
+      "type": "text",
+      "text": "一台平凡的摄像机，若不是出自忆者之手，你很难想象这东西能将你们送往另一片梦境。\n你看着取景器中的画面，似乎有一只两栖动物的眼睛——它正在注视着你。你的耳边响起了熟悉的声音——\n……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "芮克先生",
+      "text": "演员们，准备好开始最后的演出了吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "ACTION，出发蕉！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "乱破",
+              "text": "众忍进击，狩猎开始！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "CUT，先等一下蕉。",
+          "content": [
+            {
+              "type": "text",
+              "text": "你中止了即将开始的拍摄——但为了不让你扮演的角色从忍者英雄变成猴子，得快点做好出镜的准备。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "《银河忍法帖》"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "最终章 忍众猎猿颠倒梦破之卷"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奇怪的声音",
+      "text": "蕉……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奇怪的声音",
+      "text": "一片——长满香蕉的小岛，睡蕉小猴的爱巢！"
+    },
+    {
+      "type": "text",
+      "text": "再熟悉不过的*蕉声*响起，你脑海中本就蠢蠢欲动的小猴们开始鸣叫……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奇怪的声音",
+      "text": "蕉蕉蕉蕉~蕉蕉蕉蕉~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "缭乱·忍法·正觉彩墨绽！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…刚刚的*蕉声*消失了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "诸位，在下用忍符破除了邪祟的幻术。现在可否清醒了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "看来芮克先生没有骗我们，你的记忆确实可以消解睡蕉小猴的影响…我们的话语也恢复正常了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这里就是「睡蕉的时刻」吗？到处都是睡蕉小猴的踪迹，它们应该都是折纸大学和流梦礁的*蕉粉*吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我来过这里！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这就是我说过的怪梦！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "没错，这里无疑是在下曾与球棒·忍者到访过的幻境，但当时还未有如此多的邪祟。看来受到邪术迫害的人越来越多了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "这些都是阁下做的好事吧——邪祟·总长。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "蕉蕉蕉，可惜，如果不是搅局的变量太多，这里还能变得更加热闹。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "接下来还有更可惜的事情——你的实验马上就要失败了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "我想，你们是计划用她大脑里的病毒摧毁这里吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "但看看这些小猴吧。你们当真觉得，一本早就过时的漫画能盖过梦境中最火热的风潮么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "这当然做不到。在下也无意逼迫忍徒们踏上缭乱·忍道。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "我等要做的，只是唤醒这些失意的百姓，令波涛汹涌的邪祟浪潮重归平息。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我们不需要让睡蕉小猴被忍者故事取代，只需喊醒茫然自失的人们，模因病毒的力量就会被大幅削弱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "而当他们都不再盲目追逐睡蕉小猴时，我们就能轻易摧毁这场梦境。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "看来那个忆者*蕉*给了你们一些不该学的东西。既然如此……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "我只能为各位递上「期末考试」了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "那就来吧，在下随时愿意接受阁下的挑战。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "为何宣战后立刻逃遁，甚是卑鄙！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "别跑！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "真怂啊！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "哼，想逃？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "虽然不知道他想做什么，但还是尽量解决掉周围的睡蕉小猴吧——毕竟最大的威胁还是模因病毒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "飞龙忍者所言极是，在下已将「超·忍·卷轴」交予诸位，就用空手道来令踏上邪祟之道的忍徒们醒悟吧！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）唤醒睡蕉小猴"
+    },
+    {
+      "type": "objective-description",
+      "text": "最终的壮绝·狩猎已经开始！踏入狩猎场的众忍，握紧手中的忍法帖，挥洒那些你们曾见过的血泪——那不只是缭乱·忍侠的血泪，而是成万上亿被御猿·邪忍迫害之人的血泪！此战并非为忍义，而是为往日那些遮蔽银河群星的仇恨，以及断绝未来的仇恨的种子而战！化作大岚神的箭矢，照亮黑夜，唤醒众生，刺穿邪祟吧！\n唤醒迷惘的小猴，追猎逃窜的蕉授，不死不休，不死不休！",
+      "location": "匹诺康尼-邪祟国度·睡蕉的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "小猴的数量实在太多了，最好尽量解决掉它们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "在下的忍法只会将邪祟送出此处，莫要担心，尽情施展忍·空手道吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "浮空的文字",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "text",
+          "text": "当人不好\n当小猴好\n不用上学\n不用上班\n不用思考\n没有烦恼"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "最终狩猎，追逐普利蒙蕉授！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "「潮流」即是公众的欲望所向，在「同谐」的美梦中，它等同于力量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "邪祟·总长乘坐这台忍·科学·弹丸离开了，我等也快追上去吧！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "开始巡猎，使用弹珠机追上普利蒙蕉授"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "休要继续逃窜，若阁下有战胜我等的信心，何不一决高下？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "蕉蕉蕉，还没到上课时间，别心急。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）继续唤醒睡蕉小猴"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "这些漂浮的密咒都是忍徒们的心音吗？看来他们之所以放弃忍道，不只因为邪祟·总长的蛊惑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "是的。匹诺康尼的生活并非表面那么理想。站在悬崖的边缘，轻风也能将人推入谷底。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "但我等必须令这阵风止息——哪怕忍徒渴望纵身一跃，也必须是自己的选择，而非妖风所致。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "浮空的文字",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "text",
+          "text": "小猴没有绩点\n不用担心毕业\n小猴没有绩效\n不用焦虑薪水\n小猴没有未来\n不用害怕明天"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（秘技点耗尽）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "乱破",
+          "text": "糟糕，在下的忍力不足了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "乱破",
+          "text": "此处姹紫色的忍·泡影秘药似乎能补充忍力，击破此物来补充忍力吧。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "箭在弦上，继续追逐普利蒙教授"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "现在的「核心」里有多少实验品的心愿呢，一千？一万？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "「物尽其用」，就拿这些成果来为今后的实验抹平障碍吧……"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "此乃忍·科学，使用「气泡弹珠」追逐普利蒙蕉授"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）继续唤醒睡蕉小猴"
+    },
+    {
+      "type": "fold",
+      "title": "浮空的文字",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "text",
+          "text": "放弃为人\n放弃智慧\n放弃文明\n放弃梦想\n放弃责任\n放弃明天"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "飞矢已出，继续追逐普利蒙蕉授"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "快点追吧，来吧，教室就在前面了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "唤醒40只睡蕉小猴"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "睡蕉小猴的数量越来越少了，病毒的强度一定也会有所削减。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "别再把时间浪费在没用的试题上了，马上就要交卷了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "等等，它好像在刻意把我们引向那里……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "飞龙忍者，无需犹豫。若有埋伏，便破埋伏；若有诡计，便破诡计。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "此乃忍·科学，使用「气泡弹珠」追逐普利蒙蕉授"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）继续唤醒睡蕉小猴"
+    },
+    {
+      "type": "fold",
+      "title": "浮空的文字",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "text",
+          "text": "蕉蕉蕉\n蕉蕉蕉\n蕉蕉蕉\n蕉蕉蕉"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "追上普利蒙蕉授，终结颠倒·梦想！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "睡蕉小猴",
+      "text": "蕉蕉蕉！蕉蕉蕉！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这群小猴好像正在阻拦我们……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "那就令它们全部醒悟吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "唤醒60只睡蕉小猴"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "邪祟已然所剩无几，战况值得欢喜！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "此处是在下与开拓者曾经相遇之地。看来壮绝狩猎的起点亦是终点，实属巧妙·因缘——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "——邪祟就在此地。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "终于追上普利蒙蕉授"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "唤醒不到40只睡蕉小猴",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「蕉授」",
+              "text": "蕉蕉蕉…如此完美的实验成果，用来清除害虫还真是可惜……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "唤醒至少40只睡蕉小猴",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「蕉授」",
+              "text": "蕉蕉蕉…实验的成果有所损坏，但用来清除害虫也足够了……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "唤醒至少60只睡蕉小猴",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「蕉授」",
+              "text": "蕉…实验成果居然受到了这么大的损伤，你们这群差生……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "邪祟·总长，阁下已无处可逃，面对缭乱·忍法的制裁吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "「AK-A-3」，承载着返祖实验从32个文明中筛选出的优质灵长类基因，却因一位见习研究猿的错误培养而误入歧途。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "而这位见习研究猿还不知悔改，私通巡海游侠，为实验室带来无比惨重的损失，最终只留下了一件极其糟糕的「失败品」——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "只懂得听命邪忍，为害四方的邪祟，有何资格评判在下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "当然是凭借…「梦想」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "让我们延续之前的课题吧：香蕉是无性繁殖的植物。一个块茎可以滋生无数香蕉树，从而诞生出一大片香蕉林，解决一整个星系乃至宇宙的饥荒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "而那些自私的植物，强调着「个性」与「自我」，却将种子肆意播撒，野蛮生长。只知道延续自己的基因，却不知为同类奉献。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "告诉我，从宇宙的尺度望去，应该被淘汰的是谁，应该被留下的又是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "——够了，阁下快住嘴吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "开学时，你让大家追随自由，如今却讥讽着自由的意义。先前判定香蕉是失败的植物，现在又开始赞颂它的无私。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "呃…这…这是不同的语境，你不能一概而论……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "恶人做恶事永远都有无数的借口，总想要将自己摆在正义的位置上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "自相矛盾，强词夺理，只为自己的欲望。这种课根本没有听的必要——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "邪祟·总长，比起编造狂言，不如好好构想阁下的辞世句吧！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "下课了！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "放学了！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "毕业了！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "失败品…你们都是不可*蕉化*的失败品。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "对于失败品而言，天才的「智识」遥不可及。但我可以用更「原始」的方式*蕉*会你们这个道理……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "看到这颗美丽的梦泡了吗，家族用万千家徒「同谐」的心愿与星核的力量筑造了匹诺康尼，而我则将万千小猴「放弃」的心愿汇聚为这个梦泡，筑造了「睡蕉的时刻」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "现在，我会将它所有的力量交予诸位「蕉师」与「助蕉」——"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "「蕉授」",
+          "text": "蕉蕉蕉…同学们，最后的蕉学时间到了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "「蕉授」",
+          "text": "这堂课的名字是——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "「蕉授」",
+          "text": "梦想！"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "唤醒过不到40只睡蕉小猴",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "乱破",
+              "text": "邪祟退却——正觉彩墨绽！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「筑梦蕉师」",
+              "text": "蕉蕉！睡蕉小猴的力量保护了我们！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "唤醒过至少40只睡蕉小猴",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "乱破",
+              "text": "邪祟退却——超·正觉彩墨绽！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「筑梦蕉师」",
+              "text": "蕉…睡蕉小猴的力量被削弱了……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "唤醒过至少60只睡蕉小猴",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "乱破",
+              "text": "邪祟退却——极·正觉彩墨绽！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「筑梦蕉师」",
+              "text": "蕉！蕉糕…睡蕉小猴的力量都不见了……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「财富蕉师」",
+      "text": "差生们，你们已经严重违反了蕉学规范。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「财富蕉师」",
+      "text": "蕉蕉蕉，准备好接受处分吧！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "敌方释放大招"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉师」们",
+      "text": "暴力即是原初的「智识」——这就是*蕉育*的力量！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "敌方血量不足5%"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉师」们",
+      "text": "*蕉学*失败……"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得胜利"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "「蕉授」",
+          "text": "蕉蕉蕉，一场失败的蕉学……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "「蕉授」",
+          "text": "无法实现的梦想，就像挂在树顶的——香蕉"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "乱破一脚踹开「蕉授」…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…并将忍·科学射向猴子梦泡…"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "与此同时，另外一边…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "流梦礁的DJ狂欢还未结束…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…知更鸟还在打碟，三月七还在嗨，波提欧还在跳踢踏舞…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…突然忆质黑洞发生爆炸…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "一只只猴子从中掉出，然后变回人形…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "你、丹恒和乱破也一同从天而降…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "乱破",
+          "text": "大·功·告·成——"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "乱破试图再次摆出很酷的pose，但又被染料瓶砸中脑袋…"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "困惑的同学",
+      "text": "这里是哪…我刚刚不是在上课吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "迷茫的居民",
+      "text": "香蕉、丛林…都去哪了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，丹恒！还有…乱破小姐？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "哟，琉璃·忍者！哟，银枪·修罗殿下！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "波提欧",
+      "text": "他宝贝的，阵仗搞得比我们还大。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "怎么会…如此伟大的愿景，怎会败给一群不及格的薪柴……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "邪祟·总长。别再用污言秽语羞辱人们了，忍道绝无高低贵贱之分——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "寻觅「忍道」者，即为忍徒。秉持「忍道」者，即为「忍者」。贯彻「忍道」者…即为忍侠！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "…听不懂蕉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "波提欧",
+      "text": "我也听不懂…不是，别跟他废话了，原始博士养的猴子，你说再多也没用。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你们打算怎么处理这个家伙？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "波提欧",
+      "text": "当然是先折磨一顿。哈，拿皮带蘸盐水抽他个半天，把公司给我用过的狠货全上一遍。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "邪祟·总长罪孽深重，必当以严刑相待，但并非是要其忏悔，而是为了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破＆波提欧",
+      "text": "让他交代御猿·邪忍的去向。/让他交代原始博士的去向。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "波提欧",
+      "text": "哟，喜欢装死？看看待会儿在长满铁刺儿的香蕉前你还能不能装死啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "芮克先生",
+      "text": "好了，牛仔演员，不必再跟玩偶对戏了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "波提欧",
+      "text": "玩偶？你是小可爱吧，你那蛤蟆都比他更像玩偶。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「副导演」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "芮克先生",
+      "text": "唉，你把副导演弄伤心了。这粗鄙的台词风格真得改改才行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "芮克先生",
+      "text": "你要想拷打一个道具，我没意见。但某只在阿斯德纳边境刚醒过来的猩猩，应该已经准备启航了吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「蕉授」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "银枪·修罗殿下，在下的超·听力无法捕捉到邪祟的声响了，虾蟇·忍者所言非虚。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "让他给跑了？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "邪祟，实在卑鄙！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "波提欧",
+      "text": "他宝贝的，费了这么大功夫，最后扑了个空？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "…也罢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "波提欧",
+      "text": "姐们儿，这么淡定？你天天把那什么屑人挂在嘴边，恨得死去活来，现在又无所谓了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "长夜漫漫，忍侠的仇恨，应由忍侠封藏。毗乃昆尼已迎来太平盛世，眼下，就让梦土的芸芸众生拥抱阳光吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "仇恨总有一天会消解，但人们心中的忍道…不会。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "苦茶大师",
+      "text": "乱破，你知晓自己的*忍道*了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "在下的忍道，当然就是成为缭乱·忍侠啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "苦茶大师",
+      "text": "不，这可算不上忍道，忍道是忍者愿为之贯彻一生的事物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "那…打倒邪忍？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "苦茶大师",
+      "text": "你早晚会击败御猿·邪忍的，那之后呢？成为缭乱·忍侠只是为了打败仇敌吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "但这世间的邪忍绝不止他，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "苦茶大师",
+      "text": "当然，在银河忍界中，恶徒如绮罗星般纷繁。神明无暇顾及众生，拥有超凡忍·力的忍者·大师亦在互相争斗，这便是末法之世。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "那么，在下的忍道便是——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "祓除万恶，不死不休，纵使箭在弦上，永不复还，也当一心不乱，破邪显正！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "——直至，末法世终。"
+    },
+    {
+      "type": "fold",
+      "title": "报幕",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "text",
+          "text": "《银河忍法帖》\n全剧终\n\n导演\n「芮克先生」\n\n副导演\n「副导演」\n\n领衔主演\n\n「AK-A-3」乱破 饰 缭乱·忍侠\n\n开拓者 饰 球棒·忍者\n波提欧 饰 银枪·修罗\n知更鸟 饰 歌舞·忍者\n研究猿M3 饰 普利蒙教授\n惊梦剧团 饰 蕉师们\n\n演员\n\n丹恒 饰 飞龙·忍者\n三月七 饰 琉璃·忍者\n†能人75† 饰 苦茶大师\n\n特别鸣谢\n\n折纸大学的师生\n原始博士和他的猴子们"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "芮克先生",
+      "text": "CUT！完美！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "思丁格："
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "风波平息后，折纸大学开始重新筹办校庆……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "原来你们遇到了这么刺激的事情…真是的，下次这种冒险一定要带上我啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "明明是你自己走掉的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "算了，反正我也在你们看不到的地方大展身手了。你们能这么顺利地解决问题，可少不了本姑娘的功劳！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "真的假的？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "当、当然是真的！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "那你牛大了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "怎么感觉你阴阳怪气的……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "不愧是琉璃·忍者！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "过奖了，球棒·忍者。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "学术研讨会已经结束了，真正的代理校长与老师们也回来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "校方并没有把事态扩大化…或许是芮克先生取走了部分当事人的记忆。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "真是可怕，咱不会也被他拿走了什么记忆吧？我可不想再失忆了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "不过多亏了他，彩梦校庆也能继续重新举办了——这次总能玩个痛快了吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "嗯，听说知更鸟小姐要在广场主持新的开幕式，我们去看看吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）了解之前同学们的情况"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那不是蒙塔娜和其他同学们吗？他们也回来了！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与蒙塔娜对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "嗨，蒙塔娜，你还好吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "蒙塔娜",
+      "text": "哟，三月·忍者阁下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "欸？什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "蒙塔娜",
+      "text": "嗯？你不知道吗，这是现在最流行的{{模因|梗}}。源自芮克先生的新作《银河忍法帖》！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这家伙，是不是还没付片酬啊…对了，蒙塔娜，你现在还喜欢睡蕉小猴吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "蒙塔娜",
+      "text": "睡蕉小猴？哈哈，你怎么提这么过气的东西啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "过气？你昨天还在流梦礁……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "蒙塔娜",
+      "text": "流梦礁，那是哪？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "蒙塔娜",
+      "text": "好了，三月七同学，现在流行的是《银河忍法帖》！你要赶得上潮流才行！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "蒙塔娜",
+      "text": "我要去参加「观忍社」的活动了，待会一起来吗！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "不、不了！我要去看看彩梦校庆的新开幕式！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "蒙塔娜",
+      "text": "了解——那么告辞，三月·忍者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "是琉璃·忍者才对，告辞！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这就是匹诺康尼的潮流更替吗……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "旁听富贵与他的父亲荣华的对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "富贵的父亲",
+      "text": "儿子，我想通了。如果你太累了，我们就回老家……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "富贵",
+      "text": "不，老爹，我不回去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "富贵",
+      "text": "我这次在校庆上赚了一大笔——虽然我的理论课不行，但以后可以当个销售嘛，在匹诺康尼也能养活自己！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "富贵",
+      "text": "你瞧着吧，老爹，我今后一定能在匹诺康尼闯出个名堂来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "富贵的父亲",
+      "text": "儿子…呵呵，或许我这个当爹的也该更努力一点吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（富贵和他的父亲好像已经想通了……）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "旁听恰丽卡与其他同学的对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满足的同学",
+      "text": "恰丽卡，你做的点心太好吃了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "贪吃的同学",
+      "text": "再给我一份，再给我一份！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恰丽卡",
+      "text": "各、各位同学…排好队，人人都有份！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "嘴甜的同学",
+      "text": "恰丽卡，你简直就是个做甜点的天才！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "恰丽卡",
+      "text": "谢、谢谢！或许毕业后…去当个甜品师也不错……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（看来恰丽卡学姐好像找到自己的「忍符」了……）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "旁听芭蕉花酱与同学的对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "八卦的同学",
+      "text": "芭蕉花酱，听说你要出演芮克先生的新片了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "芭蕉花酱",
+      "text": "啊哈哈，只是个无关紧要的小角色而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "八卦的同学",
+      "text": "今后你一定会成为大明星的，先给我签个名吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "芭蕉花酱",
+      "text": "当然没问题…喏，拿去吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "八卦的同学",
+      "text": "谢谢，但嘉宝娜…是谁啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "嘉宝娜",
+      "text": "是我的名字——以后我不用艺名了，既然要当我的粉丝，就要记住我的名字哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（芭蕉花酱…不，嘉宝娜也得到了大家的认可……）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往广场观看校庆开幕式"
+    },
+    {
+      "type": "objective-description",
+      "text": "忍者与猴子的故事暂且告一段落。众所周知，不管出了多大事，学还是得继续上，但先前被打断的校庆也得继续办下去才行。\n去体会真正快乐的校庆——虽然无人知晓你们为这份快乐付出的一切，但忍者就是在阴影中行事的侠盗，不问功名，但求太平。",
+      "location": "匹诺康尼-匹诺康尼折纸大学学院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "快看，是姬子姐姐和杨叔！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "姬子姐姐，杨叔，你们也来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "是啊，听说校庆突然延期，我们就尽早结束了研讨会，也想来凑个热闹。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "怎么样，这段时间的校园生活还愉快吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "太愉快了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "那就好，人们常说学校里的日子是人生中最快乐的时光，你今后一定不会忘记的。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "一点也不！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "呵呵，看来开拓者不怎么喜欢上学呢。没关系，人生本就是一场求学的旅程，宇宙本身就是一个巨大的学校。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "遇到了一些意外…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "是吗？看来你们的学习生涯没那么悠闲啊。没关系，比起平凡的生活，意外才是青春中最难忘的事情。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "快看，知更鸟小姐来了——"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "各位同学们，你们好。很高兴能为大家主持这次的「彩梦校庆」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "兴奋的学生",
+      "text": "天呐，是真的知更鸟小姐！这次开幕式可比上次强多了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疑惑的学生",
+      "text": "等等，上次演讲的是谁来着？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "兴奋的学生",
+      "text": "呃…想不起来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "很久以前，我也曾在折纸大学修习过一段时光，所以也算是大家的同学。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "那时的折纸大学和现在一样，算不上多么自由自在，也有让人头疼的考试，各种各样的作业，要求严苛的答辩…没办法，谁叫这里承担着培养未来的重任呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "只有在每年的彩梦校庆期间，同学们才能暂时抛去那些烦恼。但校庆终有一天会结束，就像梦…总有一天也会醒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "但有一种梦不会醒来，也不应该醒来——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "这个梦，就是我们的梦想。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "有的同学想要创造美好的事物、有的同学想要拥有美好的生活、有的同学想要让自己成为美好的人——这些梦想都很棒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "梦想是生命的航标。只要点亮了这个航标，我们随时都可以休息。但这并不意味着放弃，因为只要看到航标的光，我们就有勇气重新启程。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "希望大家能在折纸大学找到自己的梦想，然后用一生来贯彻它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "因为你们有美梦，才能创造多彩。你们有理想，才能拥抱自由。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "欢迎来到彩梦校庆！美梦多彩，理想自由——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "同学们",
+      "text": "美梦多彩，理想自由！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "美梦多彩，理想自由！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "此处虽与邪恶国度相似，但也并无任何线索…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "…哟，虾蟇·忍者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "芮克先生",
+      "text": "真希望下一场戏，你能给我换个称呼，我的好演员。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "芮克先生",
+      "text": "只有你一个人吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "每位忍侠都有自己的「猎物」，银枪·修罗殿下此次只是人情相助，当下已去继续他的狩猎了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "阁下有什么事吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "芮克先生",
+      "text": "呵呵，你帮我拍摄了这么精彩的影片，我是来奉上片酬的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "乱破",
+      "text": "酬谢就不必了，在下行侠只为心中忍道，从不贪慕财物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "芮克先生",
+      "text": "别这么说，你一定会对这份片酬感兴趣的，因为这份片酬的内容是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "芮克先生",
+      "text": "——关于原始博士的去向。"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,1587 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "血清素恐惧症",
+    "pageId": 38545,
+    "revisionId": 97055,
+    "parentRevisionId": 96921,
+    "revisionTimestamp": "2026-05-21T08:36:30Z",
+    "fetchedAt": "2026-09-28T00:19:37.341Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E8%A1%80%E6%B8%85%E7%B4%A0%E6%81%90%E6%83%A7%E7%97%87",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E8%A1%80%E6%B8%85%E7%B4%A0%E6%81%90%E6%83%A7%E7%97%87&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "血清素恐惧症",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.2",
+    "number": "09",
+    "series": "如是，众生欢笑不已",
+    "description": "珠星大厦，这里的员工似乎已经被转化成了类似「丰饶」子民的存在。\n「幸福手术」，是因为那个吗？\n得找到传染的源头才能确定。",
+    "requirements": "",
+    "requiredLevel": "21",
+    "characters": [
+      "真珠",
+      "卡芙卡",
+      "银狼"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "提纯以太",
+        "amount": "4"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "4"
+      },
+      {
+        "item": "信用点",
+        "amount": "60000"
+      },
+      {
+        "item": "材料名",
+        "amount": "个数"
+      }
+    ],
+    "previousMissions": [
+      "我们赖以生存的隐喻"
+    ],
+    "nextMissions": [
+      "液态现代性的生成语法"
+    ],
+    "objectives": [
+      "",
+      "调查房间内的员工"
+    ],
+    "synopsis": [
+      "在加入星核猎手时，银狼交出了自己的「卡带」。正是出于对LV.999结局中的自己感到无聊，银狼才决定加入星核猎手。",
+      "银狼骇入珠星大厦，见到已被「丰饶」转变的员工。真珠监视着银狼的举动，表示会及时阻止银狼的不当行为。",
+      "银狼调查「谄笑的人」。「谄笑的人」承受不住工作压力，转而向幸福手术寻求解脱。",
+      "银狼调查「苦笑的人」。在周围人的怂恿与逼迫下，「苦笑的人」被迫接受了幸福手术。",
+      "银狼调查「喜笑的人」。「喜笑的人」主动接受了幸福手术，并且似乎受到某种模因污染。",
+      "银狼来到二维市，发现信号线交汇于海原电视塔。银狼请求更高权限，她计划让海原市宕机来摧毁信号源，并传送去离目标更近的地方。",
+      "罕见的传送失误将银狼卡在了「二次元JUMP！」的入口中，需要一点时间来脱离卡死状态。",
+      "银狼来到海原市，但其预定的传送目标是珠星大厦。她由此确定骇入行动开始后通讯中的「真珠」为冒名者，并向对方发出面对面的挑战邀请。",
+      "银狼遭遇「混球先生」，并在游戏交锋中落入下风。「混球先生」坦承自己是满愿背后的支持者，并宣称要将银狼囚入没有出回的黑域里。",
+      "银狼对此早有准备，她使用「以太拷贝」的能力脱困。之前通话中卡芙卡所展现的23秒误差，表明银狼将面对某个能干扰「剧本」的对手，而她此行的任务正是揪出这个家伙。"
+    ],
+    "extra": {
+      "角色": "银狼",
+      "命路群像": "全息狼尊碎片",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "接入网络时，数据会涌入你的脑海。做好应对。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "提示程序块权限开放，数据闸解——"
+    },
+    {
+      "type": "text",
+      "text": "……\n…………"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "{{？？？|卡芙卡}}",
+      "text": "……所以，这种「游戏」好玩吗？"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-血清素恐惧症-CG1.png",
+      "displayWidth": "810px",
+      "fullWidth": "1440px",
+      "asset": "assets/sr-images/开拓任务-血清素恐惧症-CG1.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "这是你的第一个任务。可惜，你作弊了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我没有。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你又不懂游戏，凭什么说我作弊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "你是自愿交出那张「卡带」的，干嘛又把它偷回去？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "拿回来玩玩罢了，说「偷」…多伤人啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "再说，你们就是把它*随便*搁在了金库里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "好啊，你觉得随便，那下一回我们就不随便了。我把它放进庇尔波因特的收容室，你借去吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "想法不错，但实操不行。你们几位，没我都进不去那地儿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "顺便说一句，这间牢房的密码我也改过了。「1337」，爷想走就走。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "这就是顶尖骇客的实力？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "那张卡带明明是「你拒绝的结局」，可你还是使用了。能跟我说说原因吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "反正都是Game Over，我想怎么玩就怎么玩。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "结局都一样，所以过程无所谓？更像是给自己开脱呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "不一样。你们信命运，我不信，所以我不介意看看「剧透」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "那看见结局里的{{自己|LV.999}}时，你是感到害怕，还是激动？"
+    },
+    {
+      "type": "list-item",
+      "ordered": false,
+      "depth": 1,
+      "text": "银狼……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "是无聊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "因为觉得无聊，证明我还没有变成她。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "所以我才会加入你们，星核猎手，为改变结局而游戏的人们——"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "啧，怎么会想起这个……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "这里还是珠星大厦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "这什么变人是她的员工？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "没错。厘清真相，也是为了拯救这些无辜的人。期待你的表现。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "不是说睁只眼闭只眼，还以为你不会监视我呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "前路凶险，我谨代表公司看护你的后背。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "万一发生最坏的可能，你必须与整个世界为敌，我也能及时站在世界这边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "看不出来，你这么幽默。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查房间内的员工"
+    },
+    {
+      "type": "objective-description",
+      "text": "珠星大厦，这里的员工似乎已经被转化成了类似「丰饶」子民的存在。\n「幸福手术」，是因为那个吗？\n得找到传染的源头才能确定。",
+      "location": "二相乐园-网络空间（珠星大厦）"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与谄笑的人对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "谄笑的人",
+      "text": "「你问我，天天准点下班，是有什么心事？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "谄笑的人",
+      "text": "「哈哈哈，难道要学你们，累死累活还提心吊胆？我不一样！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "谄笑的人",
+      "text": "「做完手术，我每天鼻孔朝天看领导，她简直油光水滑，可爱得像我家的小狗！」"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "数据流模型分析",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "谄笑的人",
+      "text": "「……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "谄笑的人",
+      "text": "「你们要干什么？终于要开掉我了吗？！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "█笑█人",
+      "text": "██ █ ██████ ██ ██████"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "这家伙也是，扛不住压力，选了条最坏的路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "替公司打工，果然没有好下场。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与苦笑的人对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "咦？这是个正常人，没做过手术。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "数据流模型分析",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "喜笑的人",
+      "text": "「笑吧！为了明天还能活着！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "谄笑的人",
+      "text": "「笑吧！为了战胜虚伪和丑恶！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "苦笑的人",
+      "text": "「我…我不明白，到底有什么可笑的？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "{{？？？|满愿}}",
+      "text": "「你身边的人都希望你幸福，这难道不值得欢欣吗？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "{{？？？|满愿}}",
+      "text": "「所以，笑吧——别做不幸福的罪人。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "█笑█人",
+      "text": "「笑吧！笑吧！笑吧！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "█笑█人",
+      "text": "「笑吧！笑吧！笑吧！笑吧！笑吧！笑吧！笑吧！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "苦笑的人",
+      "text": "「……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "█笑█人",
+      "text": "「我，我笑还不行吗……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "█笑█人",
+      "text": "██ █ ██████ ██ ██████"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "…真可怕。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与喜笑的人对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "喜笑的人",
+      "text": "「保持微笑！亮出标准、美丽，令人幸福的笑容——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "喜笑的人",
+      "text": "「多亏手术，最佳员工永远是我——只能是我！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "喂，这是作弊吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "幸福手术是否属于不正当竞争，始终存在争议。因为没有明令禁止。类似案例不在少数。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "数据流模型分析",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "喜笑的人",
+      "text": "「你们是谁？拘禁我？因为手术？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "喜笑的人",
+      "text": "「啊——太棒了。多么宝贵的跨部门交流!」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "喜笑的人",
+      "text": "「让我看看，这次有哪些人和我竞争…哈哈哈哈!」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "噫！什么鬼？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "█笑█人",
+      "text": "██ █ ██████ ██ ██████"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "有脏东西……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我也看见了。一闪而过，似乎是模因污染。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "但藏得更深，杀伤力也更大。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "█笑█人",
+      "text": "██ █ ██████ ██ ██████"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "真疹人。这人身上没线索了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "有什么发现？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "不先问问我的感想？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "没有的话，就继续吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "没必要，已经有答案了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "变异瞬间，三名受害者的联觉信标收到了同一个信号——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "笑吧，幸福不是罪。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "真珠",
+              "text": "看起来，只是一句寻常的鼓励。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "笑是罪，不是幸福。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "真珠",
+              "text": "不对，这与幸研会的理念背道而驰。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "不幸福是一种罪。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "「不幸福是一种罪（笑）」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "猜猜这是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "满愿的幸福语法？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "…反应真快。乐变化天人不仅可以算作丰饶之民，还是愿力催生的幻造种。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "倏忽细胞是诱因——沉睡的不死生命经历无数痛苦，对喜乐的感知尤其敏感。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "所以，满愿将幸福语法转化为编码，通过联觉信标传播。接收人一旦受其影响，丰饶血肉就会活化。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "不仅如此，人们转化时又会产生新的愿力，不断滚雪球，最后连没做过手术的火也会被同化,"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "BINGO。这就是两波灾情的全貌。满愿的计划得逞了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "打断一下，你收到了一条消息。"
+    },
+    {
+      "type": "message-thread",
+      "title": "？？？",
+      "subtitle": "",
+      "owner": "银狼",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "？？？",
+          "contentType": "text",
+          "text": "银狼"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "谁？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "银狼",
+                  "contentType": "text",
+                  "text": "谁啊？"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "？？？",
+          "contentType": "text",
+          "text": "听我说"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "卡芙卡？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "银狼",
+                  "contentType": "text",
+                  "text": "卡芙卡吗？"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "？？？",
+          "contentType": "text",
+          "text": "你就是个笑话"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "什么东西",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "银狼",
+                  "contentType": "text",
+                  "text": "蠢货"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "银狼",
+                  "contentType": "text",
+                  "text": "别来沾边"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "退订",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "银狼",
+                  "contentType": "text",
+                  "text": "TD"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "银狼",
+                  "contentType": "text",
+                  "text": "垃圾短信，别来沾边"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "好好笑哦",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "银狼",
+                  "contentType": "text",
+                  "text": "哈哈哈哈哈，好好笑哦"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "银狼",
+                  "contentType": "text",
+                  "text": "满意了吗？蠢货"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message-system",
+          "text": "消息发送失败"
+        },
+        {
+          "type": "message-system",
+          "text": "用户不在通信服务区内，请稍后再试"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "…不明所以。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "估计是哪个骇客同行，没事找死。回头再去收拾他。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "剩下的问题是，满愿是如何发送信号的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "答案显而易见，只需确认一件事。等着，我去去就来。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "骇入二相乐园数据网",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "银狼进入了二维市网络空间"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "二维市，二相乐园第一城，可惜，现在是丰饶民的天下了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "面对变异的无辜市民，异常防御部也无能为力。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "跟得真紧，还以为能甩开你呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "所以，你的答案是？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "猜猜看，将珠星大厦和二维市的信号线向外作延长线，会在哪一点交汇？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "海原市。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "再精确一点，海原电视塔。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "几乎所有谒者都在那里，满愿不怕功亏一篑？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "战况有多焦灼，愿力就有多狂热。没准在她眼里，这叫「一网打尽」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "当然，咱俩没必要凑热闹。对付满愿的事，交给星穹列车就行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "既然锁定了信号源，剩下的事就简单了。给我开个后门，我来让整座海原市宕机300秒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "120秒，足够了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "知道你会这么说——成交。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "银狼尝试操作了一下，但是没有反应"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "怎么回事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "正在添加白名单。怎么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "没事，估计只是网卡了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你先操作着，我传送去离目标更近的地方。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "五秒后"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "完蛋。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "为什么一片漆黑？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你把视角拉远点就知道了。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "视角拉远，银狼被卡在了「二次元JUMP！」的入口中"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "出了点小意外，卡地图里了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "不可思议。我没想过，你会在这种环节出错。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "别落井下石了。传送的失败概率低于0.02%，运气不好而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "给我点时间，我得脱离卡死状态。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入「二次元JUMP！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "看出来了，打捞画中世界确实有骇客出过力…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "嘻嘻，改一下参数~造个帮手，顺便给自己换身衣服。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "等等，这…什么打扮啊？算了，下次再调试吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "银狼离开了通道"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "总算出来了。我这会儿人在哪？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "居民区，离电视台有一段距离。白名单已添加，开始行动？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "…不对劲，十分有九分不对劲。先停一停，有人在背后捣鬼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我的目的地，明明是珠星大厦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "为什么？时间宝贵，没必要走回头路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "不，这很有必要——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "因为正版真珠还在办公室等我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠（？）",
+      "text": "什么时候发现的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "在你说出「幸福语法」四个字的时候。习惯又笃定的语气，好像早就一清二楚了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "那「真珠」到底要我探查什么呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠（？）",
+      "text": "祸从口出，我始终改不掉这毛病。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "别用这张脸感慨了，满愿身后的人。不如摘下面具，让我看看是哪个小丑？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠（？）",
+      "text": "正合我意。就这么开场，实在是称不上有仪式感——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "不妨换种方式，重新做个自我介绍？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "眨眼间，银狼被带到了一个奇异的空间"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "小东西，长得还挺别致……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我看你混沌未开，一副球样，就叫你「混球先生」了，没意见吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "何必这么严肃呢，我看起来很无趣？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "我只想和你玩个「游戏」而已，骇客。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "想都别想。管你是粉丝还是疯子，滚一边去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "我不是粉丝，也不算疯子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "或者，因为我是粉丝，所以成了疯子。不经意间，你指出了命途的本质，说话真有哲理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你说话真有毛病。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "多谢夸奖。我听说过你的故事，还有那七十六个账号。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "银河间大小人物，都爱把这事挂在嘴边？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "无意冒犯，我只是觉得它和你一样，是个不算蹩脚的&"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "笑话。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "懂了，给我发短信的人也是你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我说到做到，你死定了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球小子」",
+      "text": "没必要心急！我们有很多时间！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球小子」",
+      "text": "只要你愿意！游戏时间是…「无限」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球小子」",
+      "text": "不愿意也没用！我的游戏，没人能进来！没人能出去！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球小子」",
+      "text": "透露一下：通关奖励是——告诉你我的全盘计划！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球小子」",
+      "text": "但等你玩完时，你也「玩完」啦！哈哈哈！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "植入以太木马",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "说完了！滚蛋吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "银狼使用骇客技术，把身边的混球小子全部消灭了"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "大号都不上，还想跟我玩？看不起谁呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "我犯了个错误，你比想象中更没耐心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "陷身囹圄，是什么给了你勇气？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "因为我爱玩以太战线。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "可惜，我更喜欢银河战力党。小小的牌桌，却是整片银河的缩影。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "恰如「剧本」所述：「最后，满愿得偿所愿，乐园化作『丰饶』地狱。倏忽复苏，并点化这颗腐坏的星球。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "…什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "很耳熟，对吗？还有下一行：「审判接踵而至，『巡猎』神臂引弓，送来一份贺礼——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "「一支贯穿哈托彼亚的光矢。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你到底…什么来头？以为自己能写「剧本」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "艾利欧徒劳无功的模样，想必和你如出一辙吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "我不仅知道，还能够执笔。被你们抛弃的未来，经我之手，将作为辛辣的喜剧回归。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "喔！我想到了，开场白不如就用这一句——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "「今晚，一名星核猎手死在乐园。」"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "银狼身边弹出了众多警告窗口"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "施放数据雪崩",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "红",
+      "text": "▆█▆ERROR▆███"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "破解程序枷锁",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "红",
+      "text": "█ERROR███████ERROR▆███ERR▆█OR▆▆▆▆ERROR▆▆▆▆▆"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "ERROR",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "身体…不听使唤？！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "ERROR",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "ERROR",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "ERROR",
+          "content": []
+        },
+        {
+          "id": 4,
+          "text": "ERROR",
+          "content": []
+        },
+        {
+          "id": 5,
+          "text": "ERROR",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球小子」",
+      "text": "传奇骇客？害呀就这！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "是…谒者面具……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球小子」",
+      "text": "面具这东西，戴上了！就由不得你啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "「终末，对「欢愉」，命途碰撞的瞬间总令人着迷。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "你会壮烈地死去，或滑稽地死去，我不在乎，二者一样可笑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我倒是不知道，你的自信从何而来？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "二相乐园遍地令使，你拿什么跟我们斗？凭一个{{假面愚者|满愿}}，和一堆丰饶小怪？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "你知道长寿的秘诀吗？那就是「别死」——实话说，我的回答差不多。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "你口中的令使,无非十分之一块{{石头|真珠}}，一截{{木头|绯英}}，还有…嗯……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "噢，一个{{军头|爻光}}！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "呵呵，能指望谁？你甚至排除了自己。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "满愿只是个幌子。一系列怪事背后的元凶…是你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "满愿是个好学生。她不像我这样拖延，敢于行动，直接将笑容镶嵌在每一个人脸上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "对于她的课题，我愿意全力支持。譬如说，将一位擅长扫兴的骇客，囚禁在没有出口的黑域里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "或许对你来说，反倒是一种享受？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我只听出一个意思：能让你的计划泡汤的人不多，我是其中之一。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你的布局就像摇摇欲坠的积木，最怕我这种人，轻轻一捏就会全面崩溃。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "抽离积木，坐看倾颓，也是我的游戏美学。如果你没有加入星核猎手，也许我们能成为一对好搭子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "就你？凭什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "就凭，你已经输了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "最后一个笑话：炎炎夏日，一根冰棍走在乐园街头，化了。猜猜看，它的遗言是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "它说：「啊，我凉了」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "可惜，和这根冰棍比起来。你甚至算不上一个笑话。"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "释放自我备份",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我再问一次……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "就你？凭什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "创造新Avatar",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "解释下，以太拷贝——这批谒者里，算是最平平无奇的面具能力。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "刷新存在坐标",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "胜在简单，管用，适合老玩家。只能说，「欢愉」星神多少懂点游戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你就差远了。跟我玩？被我玩还差不多。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "准备如此充分，一定不是临时起意。打从一开始，你就不信任真珠？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "说什么呢，我不信任何人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "从某一刻开始，我就在怀疑发生的「一切」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "是那「23秒」误差？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "算你聪明。能影响「剧本」的因素,艾利欧都慎之又慎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "看不清这儿，不代表看不清别处。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "他给卡芙卡的那一份，和二相乐园无关，但事无巨细，每分钟会发生什么都写得清清楚楚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "但凡有半点对不上，就代表我被什么人缠上了——某个神神秘秘，能干扰「剧本」的家伙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "算上今天这一出，要再加一条；精神失常。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "伏笔回收得很精彩。这恰恰证明，你对我的能力束手无策。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "不妨再看看眼下，杀你一次，和杀你十亿次并无区别。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "不巧的是，我有充足的耐心，而你没有时间。乐园危在旦夕，你却无能为力。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "不巧的是，二相乐园关我屁事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我没耐心，也不关心时间。我来这里是为了任务，而艾利欧的目标——从一开始就是揪出你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "猜猜看，谁才是猎人，谁又是猎物？当我拔出你的脑袋，把它一脚踢进黑域的时候，你的能力还会不会奏效？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "这么说来，我是见过一份「剧本」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "我有一位朋友，擅长激励人心，我们合作总是亲密无间。而在某一种可能性里——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「混球先生」",
+      "text": "你也会跪在我们面前，亲手将阿哈的头颅奉上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "那就拭目以待——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你死定了。再讲一遍，我说到做到。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "注：「混球先生」的cv与绝灭大君归寂为同一人"
+    }
+  ],
+  "warnings": []
+}

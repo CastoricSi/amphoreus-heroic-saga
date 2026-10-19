@@ -1,0 +1,1244 @@
+{
+  "schemaVersion": 2,
+  "id": "001",
+  "title": "",
+  "chapter": "",
+  "characters": {
+    "visible": [
+      "帕姆",
+      "丹恒",
+      "姬子",
+      "瓦尔特",
+      "三月七",
+      "黑天鹅",
+      "开拓者",
+      "星期日"
+    ],
+    "hidden": []
+  },
+  "createdAt": "2026-10-18T21:54:55.988Z",
+  "updatedAt": "2026-10-19T06:13:28.656Z",
+  "blocks": [
+    {
+      "id": "d3dfbc60-67f3-452b-a64e-3c6322cf8b9d",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 5
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "各位乘客请稍候，航线会议马上开始。"
+      }
+    },
+    {
+      "id": "813f8f18-a743-42d8-baf4-832f0cbfc6f4",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 8
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "{{~~既然大家都准备好了，~~}}我先列下几个选项：首先是「海洋星球」露莎卡。"
+      }
+    },
+    {
+      "id": "990429e2-e6e3-4df0-aae6-1d398addaceb",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 9
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "那里是米哈伊尔先生的故乡。露莎卡曾受星核影响，全球海平面上升，不知现在变成什么样了。"
+      }
+    },
+    {
+      "id": "78241665-24a4-4946-a4e3-0227df2bfa19",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 10
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "然后是「玛瑙世界」梅露丝坦因。"
+      }
+    },
+    {
+      "id": "1d264f2d-eb8b-434a-b5a2-23df7df051df",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 11
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "「纯美」伊德莉拉的飞升之地，永存不灭之美的世界。据说那里是星核之灾的原爆点之一，多半不怎么安全。"
+      }
+    },
+    {
+      "id": "de6ccd46-a022-4379-ae94-0fffbe56bdae",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 12
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "考虑到{{列车燃料|开拓力}}问题，这趟出行最好计划得周密些。"
+      }
+    },
+    {
+      "id": "2342422a-aee4-4b6c-8d41-1577f5f00f5e",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 13
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "最后，也是最大胆的选项——「永恒之地，翁法罗斯」。"
+      }
+    },
+    {
+      "id": "edaa9582-8a71-4817-9ae4-7dbd25e68592",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 14
+      },
+      "node": {
+        "type": "narration",
+        "text": "阿基维利也没去过的世界，智库里一点资料都没有…但如果这趟「开拓」成功，燃料问题就解决了！"
+      }
+    },
+    {
+      "id": "8ed71d0e-f29d-41d2-8377-db6e21282436",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 17
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "而且，那是一个完全未知的世界哎，还有什么比它更适合「开拓」？"
+      }
+    },
+    {
+      "id": "6787e94a-1b23-41b0-b5c0-4dcd6ea33c83",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 18
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "我的看法也一样。虽说前路未卜，但另外两个站点也谈不上多么安全。既然都要冒险，不如大胆一点。"
+      }
+    },
+    {
+      "id": "9ea7dcfa-3709-4757-a4da-3cb30663ac39",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 19
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "同意。"
+      }
+    },
+    {
+      "id": "8cdf7db4-d169-4484-9724-4e2845e5e310",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 20
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "果然大家都倾向星图中不曾描绘的世界啊，列车真是吸引了一群意气相投的伙伴。"
+      }
+    },
+    {
+      "id": "1c49edbe-771b-4436-a299-421cb5af9b98",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 21
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "——当然，我的答案也是翁法罗斯。"
+      }
+    },
+    {
+      "id": "397387ee-750f-4831-b4f9-6a057889ed5f",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 22
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "看来列车长预先准备的投票方案，已经不需要了帕。"
+      }
+    },
+    {
+      "id": "cdb9d05e-b309-4e1f-af67-f20623f943b8",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 23
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "那我正式宣布：下一站——翁法罗斯！"
+      }
+    },
+    {
+      "id": "f9d728cc-d469-4b2a-9fe8-6afa1c88daa1",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 24
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "好诶！那就等列车长的跃迁通知啦。"
+      }
+    },
+    {
+      "id": "347b52ea-d9a3-44e9-a1a7-cf7e5af04607",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 25
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "本姑娘先回房间一趟，给相机清点储存空间！这回要美美拍照。"
+      }
+    },
+    {
+      "id": "c9008f3b-8879-4e62-9209-d53107249f45",
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "078510d9-2a45-4c14-aaf9-8b50249fc8ae",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 60
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "你是否听过这么一种说法：「忆者穿行诸界，只为搜集一切珍贵的记忆」。"
+      }
+    },
+    {
+      "id": "e11643bd-177a-4845-a622-de8e6a063633",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 61
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "打捞湮没无闻的「记忆」是我的职责，而忆庭之镜映照出的翁法罗斯…就像橱窗中的珍宝，闪闪发光，也难以触及。"
+      }
+    },
+    {
+      "id": "60c6e7fc-95f3-4927-8223-fbd7599e0132",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 62
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "我需要一枚能钉破玻璃的尖钉，也就是各位。只有「开拓」能深入翁法罗斯，穿过层层迷雾，令世界的「记忆」重现天日。"
+      }
+    },
+    {
+      "id": "b2dc5448-2104-4373-9db2-57c4faa7ec4f",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 63
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "你不会让我失望的，对吗？"
+      }
+    },
+    {
+      "id": "a207dd80-e052-444f-995d-4e72e6ec5939",
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "da2e528e-a546-4e01-982f-33656df9e88e",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 79
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "各位乘客请注意——列车即将跃迁——请坐稳扶好帕——！"
+      }
+    },
+    {
+      "id": "0034336a-d624-4aa4-91d0-1d2be1800554",
+      "node": {
+        "type": "fold",
+        "title": "播放《星间旅行》",
+        "content": [
+          {
+            "type": "narration",
+            "text": "介绍三月七、丹恒、瓦尔特、姬子、帕姆、黑天鹅、星期日、黑塔"
+          },
+          {
+            "type": "text",
+            "text": "列车即将启动，但画面闪动，列车周围忽然有粉色的花瓣飘落……"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0cec9579-1458-479a-a721-83fdf844b602",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 80
+      },
+      "node": {
+        "type": "fold",
+        "title": "过场动画",
+        "collapsed": false,
+        "content": [
+          {
+            "type": "narration",
+            "tone": "灰",
+            "text": "列车开始跃迁…"
+          },
+          {
+            "type": "narration",
+            "tone": "灰",
+            "text": "…但在窗外似乎只是一片空旷的宇宙…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "黑天鹅",
+            "text": "什么都没有…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "黑天鹅",
+            "text": "令人疑惑？"
+          },
+          {
+            "type": "narration",
+            "tone": "灰",
+            "text": "黑天鹅拨开空间，显露出藏在星空中下一站…"
+          },
+          {
+            "type": "dialogue",
+            "speaker": "黑天鹅",
+            "text": "答案就藏在星空中。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d6c33552-ebcd-42e0-8e17-1ea952c9af57",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 82
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "「永恒之地，翁法罗斯」。"
+      }
+    },
+    {
+      "id": "4b0b201c-1c10-4b93-893c-fcca0937495b",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 84
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "正如各位所见，翁法罗斯被一团混沌的物质包裹着，难以被外部观测。普通的星际旅行无法意识到它的存在，更遑论经过和到达。"
+      }
+    },
+    {
+      "id": "4247e878-1b42-4b25-b78c-19e8a5d5d91b",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 85
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "但忆庭窥见了这里，一并发现的，还有其中变幻莫测的命途行迹。"
+      }
+    },
+    {
+      "id": "42369e09-48a7-457a-bd23-c5b50225961f",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 86
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "「三重命途交织缠绕着翁法罗斯，共同谱写世界的命运」——按照你的说法，普通的命途行者不会在镜中留下痕迹，所以……"
+      }
+    },
+    {
+      "id": "de3e68ff-2da2-4e96-9fd9-33c270860880",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 87
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "在这遗世独立的星系，诞生过至少三位堪比「令使」的存在。"
+      }
+    },
+    {
+      "id": "e90e7616-7840-4444-98e1-36fb1b6dee01",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 88
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "甚至，可能是星神本人垂迹。"
+      }
+    },
+    {
+      "id": "954ef548-cf93-4c4f-92e3-388733119a27",
+      "node": {
+        "type": "fold",
+        "title": "折叠内容",
+        "content": [
+          {
+            "type": "narration",
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "69c4b35d-ce28-4db8-9d00-c524b6e37faa",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 89
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "如此人杰地灵的世界，在寰宇间却寂寂无名。确实有些奇怪。"
+      }
+    },
+    {
+      "id": "e7a9b22d-1450-44f1-9f61-27e7944f6b33",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 90
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "先前，我们已经知道了这三重命途的其中一重是「智识」……"
+      }
+    },
+    {
+      "id": "9786a2d0-09fd-40b5-a012-7dad7485c38f",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 91
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "而第二重——不必向各位隐瞒，就在刚才，你们已亲眼见证了它，是「记忆」。"
+      }
+    },
+    {
+      "id": "b963fb8d-a8c4-45d7-b45f-4633f2ed0c32",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 92
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "难怪忆庭的使者能揭开它的面纱啊。那，最后一重呢？"
+      }
+    },
+    {
+      "id": "a3513cf2-9e53-436f-aaa1-abbc1416a0b8",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 93
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "很遗憾，命运吝啬于展现它的底色，我也不知道第三重命途是什么。"
+      }
+    },
+    {
+      "id": "0d32db25-29bc-4e57-b7da-110cf3935f32",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 94
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "它潜藏在「智识」和「记忆」的光芒下，与二者分庭抗礼。是「均衡」？「神秘」？还是「不朽」？我没有头绪。"
+      }
+    },
+    {
+      "id": "a4c9c1bf-ead9-47fb-997d-b6d674c7aec8",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 95
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "这条缠绕翁法罗斯的白色光带，也许就是三重命途彼此交织的结果。也只有各位「开拓」的行者能深入漩涡中心，看清它的容貌。"
+      }
+    },
+    {
+      "id": "43160458-d28b-4c89-997b-7395f6bd45af",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 96
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "话虽如此，情报还是太少了。"
+      }
+    },
+    {
+      "id": "a04f810e-3a6f-46cf-a097-cc271640852a",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 97
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "更实际的问题是，现在没法进行降落选址。等待我们的可能是大海、没有氧气的真空带、甚至火山岩浆……"
+      }
+    },
+    {
+      "id": "124e8bfb-c142-40d5-918c-339270389471",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 100
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "…等会儿，是不是少了个人？"
+      }
+    },
+    {
+      "id": "3adfa2fe-fac8-4239-a16c-198d34da1f7a",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 101,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "咦，三月七呢？"
+      }
+    },
+    {
+      "id": "2186b700-f3ae-4c55-84f0-9c9813b69390",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 102
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "丹恒",
+        "text": "记得出发前，她说要鼓捣相机就回了房间。之后一直没见她出来。"
+      }
+    },
+    {
+      "id": "522d9f2b-5717-4cdf-ac96-2a1b751dcb44",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 103
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "奇怪。按理说，小三月应该是最兴奋的那个，怎么今天一反常态？去她房间看看吧。"
+      }
+    },
+    {
+      "id": "dd23c863-8463-4aa4-8645-005bda11ee59",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 109
+      },
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "d4591424-42df-4dbc-afb2-be346442b1f7",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 110
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "小三月，你在房间里吗？"
+      }
+    },
+    {
+      "id": "8a5e30c6-9416-45e2-9bbd-01f0c58927a1",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 111
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "我…在……"
+      }
+    },
+    {
+      "id": "87ef0f6d-ba7d-4fb9-8785-70e80c552321",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 112
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "抱歉，不知怎的…跃迁结束后，就使不上力了……"
+      }
+    },
+    {
+      "id": "d211b94c-157b-4a44-9994-11bcc9b66287",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 114
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "黑天鹅小姐，能麻烦你探查一下房间里的「记忆」吗？"
+      }
+    },
+    {
+      "id": "00fd220a-e5b7-4604-8017-c72abb2d7ad9",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 115
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "交给我吧。"
+      }
+    },
+    {
+      "id": "495ce309-a988-440b-b1fb-677665f2b71d",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 116
+      },
+      "node": {
+        "type": "narration",
+        "tone": "描述",
+        "text": "黑天鹅将额头抵在三月七的脑袋上，像是在感受她的体温……"
+      }
+    },
+    {
+      "id": "860264e5-3343-4438-b1b5-c5170a801d69",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 117
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "…从三月七的记忆来看，她突然变得十分虚弱，像是被什么东西压住了身体，变化发生在一瞬间，应该不是病理因素。"
+      }
+    },
+    {
+      "id": "0f89d2d9-7af7-44ef-bb30-068f94642de8",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 118
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星期日",
+        "text": "或许是外部环境的影响？"
+      }
+    },
+    {
+      "id": "d6d24b9d-7732-4dd1-8cf7-882b5dd418c3",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 119
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "哎哟！怎么人全来了，早知道先把房间收拾一遍了……"
+      }
+    },
+    {
+      "id": "883fd68b-7ba8-4bf5-92af-26ab5329b269",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 120
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "星期日自幼在忆质充盈的星系长大，擅长精神治疗，我请他也来做些诊断。"
+      }
+    },
+    {
+      "id": "c99b6857-8069-49ad-bc9b-7632d651d95e",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 121
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星期日",
+        "text": "列位去过匹诺康尼，应当知晓在跃迁至阿斯德纳时，一些人会陷入联觉梦境。"
+      }
+    },
+    {
+      "id": "6777e81e-9682-451b-bfd2-7d02b2327b2e",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 122
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星期日",
+        "text": "我想此刻也是同理。三月小姐受到了某种来自外部的影响，可能是来自命途、星神…或是翁法罗斯本身。"
+      }
+    },
+    {
+      "id": "793372db-4f31-4ae1-b6ff-786e35c698a3",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 123
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "我也这么认为。"
+      }
+    },
+    {
+      "id": "6167597b-8bea-469b-b702-85af418a30d2",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 124
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "为什么只有她受到了影响？"
+      }
+    },
+    {
+      "id": "ca5222d0-d852-451b-ba0c-f0f4851b53f7",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 125
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星期日",
+        "text": "具体不得而知，可能只是时间早晚。"
+      }
+    },
+    {
+      "id": "e026d29c-ca88-43cc-b2dd-79edea4bb3ba",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 126
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星期日",
+        "text": "不过，在查明原因前，我建议三月七小姐不要贸然接近翁法罗斯。"
+      }
+    },
+    {
+      "id": "4e3bb3cb-3a72-4bca-8b65-5b5958bc4587",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 127
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "……"
+      }
+    },
+    {
+      "id": "70772161-6521-40be-96b0-773e2b5bda00",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 128
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "没事的，姬子，我很乖的。大家先出发吧，等我恢复了，立刻就追上你们……"
+      }
+    },
+    {
+      "id": "41935bcb-197b-4170-a9ba-ac72452f0e8f",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 129
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "开拓者，这个给你，把我的相机带上！说好落地要拍照的，这下只能拜托你啦……"
+      }
+    },
+    {
+      "id": "de90700e-053c-48ca-bb07-18ef02ccbaca",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 130,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "放心交给我吧。"
+      }
+    },
+    {
+      "id": "ed29ac9b-77b1-4923-a1a6-701a44ccfa37",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 130,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "嘿嘿，知道你靠得住。"
+      }
+    },
+    {
+      "id": "810ebb3a-8fff-485c-851c-e2868c14df0d",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 131
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "各位，让三月七好好休息吧。我们去外面说话。"
+      }
+    },
+    {
+      "id": "8ec4b8c8-c9f2-4283-84e5-9baad0c361f5",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 132
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "三月七",
+        "text": "去吧去吧。别担心，下次见面，咱就变回那个活蹦乱跳的美少女了。记得多拍些照片啊，我会检查作业的！"
+      }
+    },
+    {
+      "id": "0a4b1832-1e7c-45d7-af3e-491199496678",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 134
+      },
+      "node": {
+        "type": "section",
+        "level": 3,
+        "title": "听听伙伴们的看法"
+      }
+    },
+    {
+      "id": "9ee75d86-b66a-4adc-9cba-b8ce447187da",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 135
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "你觉得翁法罗斯会和三月七的过去有关吗？"
+      }
+    },
+    {
+      "id": "3f6da646-3b4e-4402-a634-bcddf6be67d9",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 136
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "不至于这么巧，我没见到任何和「六相冰」有关的线索。更有可能是翁法罗斯的某种力量率先在她身上显现了。"
+      }
+    },
+    {
+      "id": "04725593-c77f-431a-8aa8-d0b72fe0c3bf",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 137
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "开拓者，这趟「开拓」之旅，我想交给你和丹恒打头阵，可以吗？"
+      }
+    },
+    {
+      "id": "f0b2e86b-0d17-4807-88af-96ab1fbb6c98",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 138,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "没问题，我俩配合默契。"
+      }
+    },
+    {
+      "id": "6ea6e9cd-d88a-498e-b15c-de10953eaad1",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 139
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "翁法罗斯这一站意义特殊，车上的每位乘客都不可或缺。开荒世界的工作交给年轻人正合适，相信你和丹恒能成为彼此的照应。"
+      }
+    },
+    {
+      "id": "a1477a3a-259a-421c-99c8-1c9dc4cfeea7",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 140
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "瓦尔特",
+        "text": "看来我们得留下来处理些大人的事务了。"
+      }
+    },
+    {
+      "id": "e4768d2f-ea24-4b8a-b9f3-3c0c614d733e",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 141
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "别心急，瓦尔特，会有你活跃的机会的。"
+      }
+    },
+    {
+      "id": "a83222a4-94c5-46b4-ac5c-b7c69af9ed14",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 142
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "黑天鹅",
+        "text": "三月七也需要有人照顾，我来搭把手吧。"
+      }
+    },
+    {
+      "id": "81b2f34d-fb68-49f9-98ed-b73cb0994e25",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 143
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "星期日",
+        "text": "我也没有异议，悉听各位的安排。"
+      }
+    },
+    {
+      "id": "ceb2af4f-0dee-468c-b784-7df698ef514c",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 144
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "看来是达成共识了，那你们两人跟我来观景车厢吧。"
+      }
+    },
+    {
+      "id": "dd225fd9-b6d2-4334-922f-ec4490746ef0",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 145
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "以防万一，我在出发前准备了一个「后备方案」，没想到这么快就到了揭秘的时候。"
+      }
+    },
+    {
+      "id": "2196bbb3-8f03-4214-8377-07f5b4ab0c2b",
+      "node": {
+        "type": "divider"
+      }
+    },
+    {
+      "id": "dfbbec94-0e90-42ad-a8cf-2f6c430af51f",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 151
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "地面小分队的成员到齐了，让列车长宣布「后备方案」吧。"
+      }
+    },
+    {
+      "id": "43d2063b-724d-4b2f-b5c6-4ccfce5edd26",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 152
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "嗯，此行凶险，列车长和领航员为你们准备了一份特别的「开拓」礼物——"
+      }
+    },
+    {
+      "id": "fa772421-5824-4545-ace2-b8598bf86126",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 153
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "一、节、车、厢帕！"
+      }
+    },
+    {
+      "id": "4353441a-af11-42e8-a952-badd2f3d7f22",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 154,
+        "contentPath": [
+          "options",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "开拓者",
+        "text": "什么玩意？"
+      }
+    },
+    {
+      "id": "26eae69e-41f8-4a1e-ab06-d5e2379e3f08",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 155
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "翁法罗斯不在星际和平通信的服务范围内，缺乏远程联络的手段。"
+      }
+    },
+    {
+      "id": "fb0fe45f-382c-4afe-9ea1-50f0fcfdd491",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 156
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "为了给你们最大限度的支援，我们计划将星穹列车的一节车厢分离出去，当作降落舱使用，落地后也能充当安全屋。"
+      }
+    },
+    {
+      "id": "8bd3cbb4-2f48-4577-8715-432d01d99ce8",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 157
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "帕姆",
+        "text": "放心，车厢上有独立的推进器，一定能把你们送进翁法罗斯，找个安全的地点着陆。"
+      }
+    },
+    {
+      "id": "6bb513b9-1f74-40c4-95f5-0766bcdda35c",
+      "source": {
+        "mission": "银辇啊，迅赴那黑色大地",
+        "dataFile": "missions/开拓任务/翁法罗斯/落木逐火英雄纪/银辇啊，迅赴那黑色大地.json",
+        "contentIndex": 160,
+        "contentPath": [
+          "options",
+          0,
+          "content",
+          0
+        ]
+      },
+      "node": {
+        "type": "dialogue",
+        "speaker": "姬子",
+        "text": "向着「永恒之地」——出发吧！"
+      }
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "嚎叫、白噪音，或个人的体验",
+    "pageId": 38261,
+    "revisionId": 96779,
+    "parentRevisionId": 95982,
+    "revisionTimestamp": "2026-05-07T05:51:55Z",
+    "fetchedAt": "2026-09-28T00:19:32.383Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%9A%8E%E5%8F%AB%E3%80%81%E7%99%BD%E5%99%AA%E9%9F%B3%EF%BC%8C%E6%88%96%E4%B8%AA%E4%BA%BA%E7%9A%84%E4%BD%93%E9%AA%8C",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%9A%8E%E5%8F%AB%E3%80%81%E7%99%BD%E5%99%AA%E9%9F%B3%EF%BC%8C%E6%88%96%E4%B8%AA%E4%BA%BA%E7%9A%84%E4%BD%93%E9%AA%8C&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "嚎叫、白噪音，或个人的体验",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.2",
+    "number": "05",
+    "series": "如是，众生欢笑不已",
+    "description": "假设一种「幸福」，\n因为「幸福」遥不可及，\n祂是种幻觉，是种幻象，是种幻影。\n所以，我们必须想象，\n「我」是「幸福的」。",
+    "requirements": "",
+    "requiredLevel": "21",
+    "characters": [
+      "火花",
+      "满愿",
+      "花火"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "漫游指南",
+        "amount": "5"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "2"
+      },
+      {
+        "item": "信用点",
+        "amount": "30000"
+      },
+      {
+        "item": "材料名",
+        "amount": "个数"
+      }
+    ],
+    "previousMissions": [
+      "如果我们的语言是笑声"
+    ],
+    "nextMissions": [
+      "鸣的锣，响的钹"
+    ],
+    "objectives": [
+      "",
+      "是谁在哭泣？",
+      "试探满愿（？）的底细"
+    ],
+    "synopsis": [
+      "高中生满愿为遇害的父母恸哭。房间外传来敲门声，快递员为满愿送来包裹。",
+      "满愿打开包裹，里面是一副面具，并且附有备注:「欢迎来到『世界尽头』。对了,你在电视上哭泣的样子，真可笑。，满愿情绪崩溃。",
+      "满愿察觉进入房间的火花，声称能听懂火花内心深处的渴望，尝试以「幸福语法」控制火花。火花大笑着摆脱控制，并与满愿战斗。",
+      "战斗过后，一个古怪的伊磨吉出现在火花身后，称火花拆碎了它的玩具。火花诘问幕后主使的身份，并与花火一同逃离此地。"
+    ],
+    "extra": {
+      "角色": "火花",
+      "命路群像": "愚者千虑",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "通往群星的轨道#乐园精神病人",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "是谁在哭泣？"
+    },
+    {
+      "type": "objective-description",
+      "text": "悲伤的眼泪是彗星。",
+      "location": "二相乐园-幸福的秘密"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "呜…爸爸妈妈…大家都不在了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "为什么…为什么我还活着？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "你是，满愿……？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "门外传来了敲门声"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "谁？外面是谁啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "快递员",
+      "text": "满愿，有你的快递！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "这是…谁送的？我没有买过东西啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "这是…面具吗？里面还有张纸…这上面写什么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "「送给活下来的你，欢迎来到『世界尽头』。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "「对了，你在电视上哭泣的样子…真可笑。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "你…是谁啊！你…为什么要这样对我？！我做错了什么？！回答我…回答我啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "我不懂。这一切…这一切到底有什么好笑的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "…什么鬼？这是她受到「酒馆」邀请的那一天。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "真不知道是酒馆里哪个活畜生寄了这么个玩笑给她，连铁石心肠的火花花都快看不下去了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "等等，这些幻觉…到底哪里快乐了？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "试探满愿（？）的底细"
+    },
+    {
+      "type": "objective-description",
+      "text": "假设一种「幸福」，\n因为「幸福」遥不可及，\n祂是种幻觉，是种幻象，是种幻影。\n所以，我们必须想象，\n「我」是「幸福的」。",
+      "location": "二相乐园-幸福的秘密"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "你是…怎么进来的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "算了，这不重要。欢迎你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "别害怕，放轻松。你就是那个大闹绘世学院的网络主播，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "哟吼，媒体大亨也认得我吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "谒者第一战，让你的名字无人不知无人不晓。我能听懂你内心的「渴望」，火花小姐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "你说你能听懂…我的渴望？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "你闯进这里，不就是为了寻求某个答案吗：想毫不留情地掀开另一位假面愚者的面具，看看她的底牌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "你会得偿所愿的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "和你们一样，我因为命运的转折，收获了自己的面具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "但和你们大多数人不同，我连碰都不想碰它。所以，我不像你们，人人都有神通广大的本事。我只有一个微不足道的小小长处：我能听懂，你们内心深处最渴望的幸福。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "幸福？我天天都很快乐啊。倒是你，还好吧？我看到了你的经历…值得同情。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "同情，是的。钟珊医生称之为「幸福语法」，她错把它理解成了某种…疾病。但我要说，不，这是「欢愉」的赐福。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "正因为我的过去如此痛苦…为了告慰，神才让我听见了你们每个人心底的幸福。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "我可以嗅到你心中跳动的渴望，像蜂房渗下了甘美的蜜，一路沿着你的神经游走，化开甜腻的糖渍。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "啧啧！这也不奇怪，毕竟，火花花本就是这样含糖量超标的甜美少女！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "不过，品鉴师小姐，只闻其香可不够哦。你打算…亲自尝尝看吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "就如你所愿，让我们从第一口开始品尝……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "「认可」，你内心深处，渴望所有人的目光都充满崇拜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "你用来诱惑所有观众的秘诀，也是你自己渴求的东西，对么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "…没错。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "接着，是「胜利」。第一场谒者之战不过是个小小的失利。毫无疑问，面具一旦回到你手中，你就能轻松征服整个幻月游戏！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "呵…哈哈。事情就是这样！事情就该这样！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "乐子神会亲自现身，为你加冕…永久加冕。他哭着、求着你成为全新的「欢愉」星神。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "而这一切的终点，是永恒的——「满足」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "真…安静啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "所有的狂欢，不过是为了填补通往这片终极「满足」之前的空洞噪音。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "来这边，新生之神，看看这片属于你的世界，它就在你的脚下，匍匐、谦卑，垂手可得。跳下去……"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "火花被蛊惑着走到了窗边"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "扑向它，将它拥入怀抱，这片乐土将与你融为一体，再无彼此之分。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "戴上面具前，火花清醒了过来"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "…呵呵…哈哈…哈哈哈哈！原来，这就是幸福…语法啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "有意思！你是个不错的幻术师，能把白日梦做得这么逼真！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿（？）",
+      "text": "居然能抗拒这份完美的渴望…矛盾的女孩，让我惋惜又好奇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "哈哈，完美？你搞错了，你的幻觉再美，也改变不了它的本质——幸福一旦垂手可得，就会乏味得像杯白开水！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "干我们{{这行的|假面愚者}}，有几个不是在漫长折磨后才品到了生活的真趣？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "满足？你这个连自己的{{面具|痛苦}}都无法面对的冒牌愚者，给我听好了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "我们假面愚者最擅长的…就是把痛苦酿成最烈的美酒，把绝望编成最疯的笑话！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "谢谢你的「糖水」，味道不咋的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "既然你拒绝我奉上的这杯甜美的幸福，那我只好…劝你饮下一杯惩罚的苦酒了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "不如这样，品鉴师小姐，现在换你来尝尝我这杯烈酒如何？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "欢迎来到我的直播现场！二相乐园《幸福语法》崩坏篇，现在开始！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "可惜啊，零人观看。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗并胜利"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "不算难搞，但胜在量大…真是累死个愚者了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "哼，为了张面具受这份罪，,可真是不划算的买卖。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "古怪的伊磨吉",
+      "text": "小小▄▉▅的愚者▆█▄你■▇为何▄█▆▆拆碎我的▆▉▇玩具？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "哟吼，演都不演了是吧？我早该想到的，满愿不过是个被推到前台的提线木偶。那么，幕后提线的你，又是个什么玩意儿？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "古怪的伊磨吉",
+      "text": "闭█▄▆█嘴！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "这题我会……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "「闭嘴」是…列车上的机器人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "算我求你了，放着另一个自己受苦受难，躲边上偷着乐，不像话啊——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "你看看你，干的好事，这下子咱们俩算是捅了个超大号的马蜂窝了——一块儿杀出去吧！"
+    }
+  ],
+  "warnings": []
+}

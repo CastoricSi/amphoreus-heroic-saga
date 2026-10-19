@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "旧影婆娑，追思错落",
+    "pageId": 3043,
+    "revisionId": 77406,
+    "parentRevisionId": 34292,
+    "revisionTimestamp": "2026-02-01T16:24:09Z",
+    "fetchedAt": "2026-09-28T00:15:33.857Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%97%A7%E5%BD%B1%E5%A9%86%E5%A8%91%EF%BC%8C%E8%BF%BD%E6%80%9D%E9%94%99%E8%90%BD",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%97%A7%E5%BD%B1%E5%A9%86%E5%A8%91%EF%BC%8C%E8%BF%BD%E6%80%9D%E9%94%99%E8%90%BD&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "旧影婆娑，追思错落",
+    "region": "仙舟「罗浮」",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "04",
+    "series": "乘槎驭风仙窟游",
+    "description": "列车之上，遥望不容踏足的故土，你曾以为此生再也不会见到罗浮「玉界门」的景色。\n然而翻看卡芙卡所留下的通讯影像，你意识到她的邀请中潜藏着致命的危险——她的同伴，名为「刃」的男子，与你之间曾有刻骨宿怨。\n你决心违犯禁令，再踏罗浮。",
+    "requirements": "紫府通谒，将军定策任务中开启",
+    "requiredLevel": "29",
+    "characters": [
+      "丹恒",
+      "姬子",
+      "帕姆",
+      "罗刹",
+      "素裳"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "材料名",
+        "amount": "个数"
+      }
+    ],
+    "previousMissions": [
+      "紫府通谒，将军定策"
+    ],
+    "nextMissions": [
+      "犬迹追从，谛听狐踪"
+    ],
+    "objectives": [
+      "登陆仙舟「罗浮」",
+      "穿过流云渡，追上开拓者小队"
+    ],
+    "synopsis": [
+      "丹恒请求姬子重放卡芙卡的通讯，并指认刃为极度危险之人。姬子猜到刃与丹恒的过去有关，丹恒主动离开列车前往仙舟「罗浮」。",
+      "为保护一位行商，一名云骑军士兵正与魔阴身怪物交战。丹恒伸出援手，加入战斗。",
+      "丹恒与素裳苦战负伤。罗刹出手相助，将二人的伤势尽数治愈。",
+      "云骑素裳称自己由仙舟「曜青」借调至此，所保护的行商自称为罗刹。素裳邀请丹恒同行，带领他去安全区寻找同伴。"
+    ],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "不久之前，星穹列车上…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "在这儿呆呆站了半个小时了，很少见你这么忧虑呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "记挂那两个孩子的安全吗？有瓦尔特在呢，你可以放松一点啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "姬子，星核猎手的远程通讯，你应该存下来了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "能让我看看吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "…好啊。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "——而且，在四十五系统时前，一颗星核在罗浮上…爆发了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "无妄之灾啊…是不是？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "星核猎手，你们在打什么主意…仙舟联盟可不像我们这么好说话。被「{{巡猎|岚}}」盯上，你们就不再是猎手，而是猎物了，联盟会追逐你们到宇宙尽头——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "有话直说吧。别打机锋了，卡芙卡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "…很简单，这颗星核与我们无关，但仙舟已经把罪责按在了星核猎手头上；"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "停！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "…你认识他？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "仙舟很危险！…这个人，这个人——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "如果他在仙舟上，那么所有人——瓦尔特先生，三月七和开拓者——都有危险！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "可是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "他和你…要逃离的东西有关，是吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "但我…不能放着他们不管。我只怕…是我的负累终于追了上来，把大家都牵扯其中……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "谁能没有负累呢？哪怕小三月那样什么都不记得，肩上也有沉甸甸的东西呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我们行走在看不见的命途之上。所见所闻，所开拓的一切都是我们的行李，既是背负的重担，也是走下去的力量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "不要想太多啦，丹恒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "按照规矩，列车停靠的时间是七个标准日。在此期间，乘客可以自由支配自己的时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "列车上有我和帕姆值守，也够了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "想做什么就做吧，总比以后后悔要好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "对了，事情结束后，你会回列车和大家一起旅行的，对吧？"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（姬子）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "姬子",
+          "text": "想做什么就做吧，总比以后后悔要好。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（帕姆）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "帕姆",
+          "text": "丹恒乘客，改变主意打算下车了吗？"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "是的。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "帕姆",
+                  "text": "那么，帕姆祝你一路顺风。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "……",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "帕姆",
+                  "text": "嗯…帕姆明白，许多话不能通过说出口的方式来表达。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "帕姆",
+                  "text": "祝你一路顺风。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "帕姆",
+          "text": "乘客下车后，请注意在发车时间之前回到列车。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "帕姆",
+          "text": "要是能顺便带一点儿当地特产就更好了帕。"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "再次对话"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "帕姆",
+          "text": "还有什么要跟帕姆说的吗？"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "登陆仙舟「罗浮」"
+    },
+    {
+      "type": "objective-description",
+      "text": "列车之上，遥望不容踏足的故土，你曾以为此生再也不会见到罗浮「玉界门」的景色。\n然而翻看卡芙卡所留下的通讯影像，你意识到她的邀请中潜藏着致命的危险——她的同伴，名为「刃」的男子，与你之间曾有刻骨宿怨。\n你决心违犯禁令，再踏罗浮。",
+      "location": "仙舟「罗浮」-观景车厢"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "丹恒离开星穹列车…"
+    },
+    {
+      "type": "message-thread",
+      "title": "星穹列车一家人",
+      "subtitle": "",
+      "owner": "丹恒",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "开拓者、三月，你们在哪儿？",
+          "acknowledged": true
+        },
+        {
+          "type": "text",
+          "text": "信息发送失败"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "我来同你们汇合",
+          "acknowledged": true
+        },
+        {
+          "type": "text",
+          "text": "信息发送失败"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "穿过流云渡，追上开拓者小队"
+    },
+    {
+      "type": "objective-description",
+      "text": "翻看卡芙卡所留下的通讯影像，你意识到她的邀请中潜藏着致命的危险——她的同伴，名为「刃」的男子，与你之间曾有刻骨宿怨。\n你决心违犯禁令，再踏罗浮。然而当你登陆流云渡，却察觉着卡芙卡所言非虚，受星核作祟，罗浮已然陷入灾变。",
+      "location": "仙舟「罗浮」-流云渡"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "发不出去……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "网络受限，有些功能却是正常的？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "和离开时一样，几无变化……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…我记忆中的罗浮，除去黑暗，就只有这里了。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查铠甲碎片）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "云骑铠甲的碎片……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "和云骑军起了冲突？有瓦尔特先生在，应该不至于……"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一名少女和一名金色长发的男性正被怪物所困…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "你在一旁好好呆着啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "救人所急的事情，交给专业的人来办——"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "丹恒见状也加入了战斗…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "……你受伤了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "不妨事！这家伙，好大的怪力！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们被怪物打败…"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "金发男性施放了治疗技能…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "双马尾少女",
+          "text": "这是……？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "金发男性",
+          "text": "两位为救我而战"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "金发男性",
+          "text": "罗刹又岂能事不关己"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "金发男性",
+          "text": "「好好呆着」呢？"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "罗刹加入了战斗"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败「药王秘传」炼形者…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "二位没事吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "没事就好。我是云骑素裳，刚从「曜青」仙舟调来这儿的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "都跟你说别插手了，刀剑无眼，伤着你怎么办？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "我不出手，你就要受伤了呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "哈，我们云骑军就是要保护你们的嘛。这一片都戒严了，我正在疏散群众呢，你跟着我走，我带你去安全的地方。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "你的云骑枪法不赖啊，哪个伍的？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（摇头。）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我不是云骑军。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "噢，好吧。那你也是平民，也跟我走。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "素裳姑娘，仙舟出什么事了？我往来行商多次，从未见星槎海如此模样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "这个，呃，我不方便透露，我只是接到命令过来救援平民的…说实话，我也不知道。总之你俩跟我走就是啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "喂，那个…「闷葫芦」？你叫什么名字？我要登记的，总不能给你填空吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我叫丹恒，旅行到此，正要和朋友会合。不劳姑娘费心，我自己出港就好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "不行。这什么时候啦，星槎海根本没人。你的朋友如果没出事的话，肯定也在安全区呢。别担心，你跟我走，到地方就能见到他们啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗刹",
+      "text": "姑娘不问问我的名字吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "刚才打架时你不是自己报了吗？叫罗——罗什么…罗刹！对吧？本姑娘记着呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "出发！二位跟紧我，云骑军素裳一定保护好你们的安全！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "二人随素裳前往安全区…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "哦对了，一会儿你们帮我签下名字…我认的字不是太多，怕写错……"
+    }
+  ],
+  "warnings": []
+}

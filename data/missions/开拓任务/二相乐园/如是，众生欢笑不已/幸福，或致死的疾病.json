@@ -1,0 +1,1464 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "幸福，或致死的疾病",
+    "pageId": 38546,
+    "revisionId": 99763,
+    "parentRevisionId": 99227,
+    "revisionTimestamp": "2026-07-19T15:02:20Z",
+    "fetchedAt": "2026-09-28T00:19:40.297Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%B9%B8%E7%A6%8F%EF%BC%8C%E6%88%96%E8%87%B4%E6%AD%BB%E7%9A%84%E7%96%BE%E7%97%85",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%B9%B8%E7%A6%8F%EF%BC%8C%E6%88%96%E8%87%B4%E6%AD%BB%E7%9A%84%E7%96%BE%E7%97%85&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "幸福，或致死的疾病",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.2",
+    "number": "11",
+    "series": "如是，众生欢笑不已",
+    "description": "枝头绽放的花蕊，并非总是新生的祝福，也可能是伪装的毒刺。\n在谎言与欺骗中振作起来的她，发现一切不过是献给愚者的一出拙劣玩笑。\n于是，在灰烬与绝望中，绽放出一朵恶之花。",
+    "requirements": "",
+    "requiredLevel": "21",
+    "characters": [
+      "满愿",
+      "丹恒",
+      "刃",
+      "星期日",
+      "不死途",
+      "银狼",
+      "绯英",
+      "火花",
+      "虚照",
+      "真弘"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "提纯以太",
+        "amount": "4"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "4"
+      },
+      {
+        "item": "信用点",
+        "amount": "60000"
+      },
+      {
+        "item": "材料名",
+        "amount": "个数"
+      }
+    ],
+    "previousMissions": [
+      "液态现代性的生成语法"
+    ],
+    "nextMissions": [
+      "乐园风雨后"
+    ],
+    "objectives": [
+      "",
+      "调查巨大的花"
+    ],
+    "synopsis": [
+      "满愿自述，在告死魔事件后，她得到了周围许多人的关怀与帮助。在众人的鼓励下，满愿重拾生活希望，认为自己是乐园的骄傲。",
+      "然而这一切不过是海原电视台为满愿精心筹划的一场欢愉秀。作为蒙在鼓里的主演，满愿创造了《请变幸福吧》节目的收视率新高。",
+      "得知真相的满愿情绪崩溃，并且收到属于她的愚者假面。为摧毁幻月游戏，满愿对自己使用幸福语法，以此激活她体内的倏忽细胞。",
+      "满愿佩戴上谒者面具，同时自身转变为「颠倒极乐·邪愿莲花主」。[神明啊，让所有人永远发笑吧！这样是否如你所愿？」",
+      "满愿的攻击将你自塔顶击落。狞笑的幻月张开大嘴,把你一口吞下。",
+      "你发现你正身处幻月秘庭，绯英在此审视着你。绯英表示，千年间仅有的三次复醒，两次起于你们无名客带来的「例外」。",
+      "眼前的绯英并非你所熟悉的她，是为裁决满愿的僭越而来。经她之手，所有乐变化天人将融为一体，回归药师。但为拯救无辜的人，你尝试说服绯英，让你在幻月游戏中借助民众的愿力正面战胜满愿，即使承载人们的愿望会改变自身。但无所谓，旅途本就会改变一个人。重要的是，当人们看向我的时候，我想让他们看见什么。",
+      "绯英认为你过于狂妄，但这也为你赢得了阿哈的青睐。排英同意再给你三分钟时间，请你以谒者的方式战胜满愿。",
+      "民众的愿力向你涌来，先前的浣熊面具逐渐破碎。你以体内的星核为载体，将愿力全部吸收，由此重铸面具。「英雄，闪亮登场！」",
+      "满愿挥舞枝条发动突袭，不死途趁势反击。在与同伴的合力下，你腾空跃起，完成对满愿的致命一击。",
+      "满愿不再行动，但二相乐园的「丰饶」转变并未停止，局势正趋近失控。众人一筹莫展之际，虚照的声音自广播中传来。",
+      "在火花的直播间中，灰烬鼓励民众积极行动，参与救援；虚照请大家在灾情面前振作起来，否则她会把胆小者的样子画进漫画里。二相乐园的人们并未放弃自救。",
+      "作为结束灾变的办法，刃提议将倏忽血肉聚集到他身上。为了增加计划的胜算，星期日提出可以进行调律让刃和所有受害者维持理智。以「共愿帮」的名义：星期日以调律向乐园民众",
+      "发出请求，呼吁大家献出「恐惧」。",
+      "通过星期日的调律，二相乐园所有倏忽细胞同时涌向刃。在与体内倏忽的对抗中，刃几近失控，丹恒及时伸出援手。最终，刃完成了全部吸收。倏忽的巨树身躯显现，银狼修改现实参数，将其压缩到刃的体内。"
+    ],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查巨大的花"
+    },
+    {
+      "type": "objective-description",
+      "text": "枝头绽放的花蕊，并非总是新生的祝福，也可能是伪装的毒刺。\n在谎言与欺骗中振作起来的她，发现一切不过是献给愚者的一出拙劣玩笑。\n于是，在灰烬与绝望中，绽放出一朵恶之花。",
+      "location": "二相乐园-海原电视塔"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "那朵巨大的花……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "就是面具真正的主人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "哈哈…哈哈哈……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你在笑什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "哈哈…哈哈哈……",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "生命苦短，为什么不多笑笑？我们可都是受阿哈赐福的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "看各位脸色铁青，最后，让我再讲一个笑话吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "十五年前那个血腥的黄昏，有个学生捂住嘴躲在扫帚柜里，目睹她的朋友被当作颜料涂抹在黑板报上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "被救下后，她没能回家。大人们送来一对小匣，她的双亲就在里头。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "此后，她一直在衣柜里生活，直到互助会的婆婆敲开家门——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "「孩子，你得走出来。有那么多和你一样的人…」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "「我们可以帮助彼此，一点点把碎片捡起来。那孩子走出去了吗？是的，可喜可贺。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "她每天都会收到鼓励信，画满了笑脸；她重新走进学堂，与新的朋友朝夕相处。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "人们握住她的手,说：加油！你是乐园的骄傲。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "而我说：没错，我是乐园的骄傲。"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-在千禧年的阴影下-CG2.png",
+      "displayWidth": "810px",
+      "fullWidth": "1440px",
+      "asset": "assets/sr-images/开拓任务-在千禧年的阴影下-CG2.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "制片人",
+      "text": "咔！就是那个！完美的「含泪的微笑」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "制片人",
+      "text": "摄像机呢，还躲在后面干嘛？都凑上来，必须要录下所有细节！"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-在千禧年的阴影下-CG1.png",
+      "displayWidth": "810px",
+      "fullWidth": "1440px",
+      "asset": "assets/sr-images/开拓任务-在千禧年的阴影下-CG1.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "{{少女|满愿}}",
+      "text": "我有点…不太明白。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "{{少女|满愿}}",
+      "text": "我理解大家想为我记录下幸福的时刻，可是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "{{少女|满愿}}",
+      "text": "为什么有这么多摄像机？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摄像师",
+      "text": "…科里尔先生，您太激动，说漏嘴了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "制片人",
+      "text": "…没关系，后期都能剪辑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "{{少女|满愿}}",
+      "text": "后期？剪辑？你们在说什么…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摄像师",
+      "text": "…满愿，恭喜你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摄像师",
+      "text": "就在刚才，你征服了所有观众，欢愉秀《请变幸福吧》的收视率创下历史新高。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "制片人",
+      "text": "资方迅速拍板，追加了后续三季的预算！各位演员，尤其是你——满愿，辛苦了！你是乐园的骄傲！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "{{少女|满愿}}",
+      "text": "您说…什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "{{少女|满愿}}",
+      "text": "所以…帮助我的那些人，奥古斯特大叔、白小姐，全都是演员？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "{{少女|满愿}}",
+      "text": "可我…我的眼泪，根本不是演的啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "制片人",
+      "text": "「走出告死魔惨案的励志少女」，百分百真实的故事，要的就是这种效果。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摄像师",
+      "text": "记得看镜头，大明星。再笑一个吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "那天晚上，她又把自己锁在房间里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "拒绝所有镜头，只盼着哪怕一个人，送来真诚的道歉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "但最后，她只等到一个轻飘飘的包裹。猜猜里面有什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "一张愚者面具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "答对了，但不完全对。面具背后还有一张纸条，上面写着——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "「你哭泣的样子,真像个笑话。」"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这不是你伤害无辜的理由。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "你想向十五年前的世界索要一个道歉？这不是你伤害无辜的理由。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "满愿",
+              "text": "不。我是在努力成为大家期待的笑料。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "所以，你把自己变成了加害者？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "你想向十五年前的世界索要一个道歉？但你已经变成了加害者。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "满愿",
+              "text": "怎么会？我只是把人们变成了镜头前的演员——而已啊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "神明愚钝，将恶意称作笑意；凡人虚伪，以笑意粉饰恶意。所以，各位谒者，动手吧——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "「我知道，你们也想把我变成行尸走肉的怪物，对吧？！」"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "…什么？等等！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "别回应她！镜头在对着我们——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "她给自己植入了…倏忽细胞？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "观众们…果然,他们的目的是陷害我！很快，我就会失去理智。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "但我绝不会屈服！生平第一次，我要{{对自己说出幸福的话语|使用「幸福语法」}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "乐子神啊，我会朝着你的笑脸——狠狠啐一口！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "我要看看，当供你取乐的{{欢愉秀|幻月游戏}}被一个凡人摧毁时……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "你是否还能…笑得出来？"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "满愿",
+          "text": "借由欢愉的馈赠……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "满愿",
+          "text": "我将创造一场永无休止的幻月游戏——"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "满愿佩戴上了谒者面具，转变为了「颠倒极乐·邪愿莲花主」"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "满愿",
+          "text": "神明啊，让所有人——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "满愿",
+          "text": "永远发笑吧！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "满愿",
+          "text": "这样，是否如你所愿？"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "天外的谒者们！游戏再也不会落幕——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "你们会快乐吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "她想让游戏永远持续下去，在不死的死局里循环…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "保持清醒，别被倏忽同化了。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "「颠倒极乐·邪愿莲花主」施放「极乐之拥」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "让我们的笑声…化作永恒！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "即便如此，还是有人在支持我们……"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "「颠倒极乐·邪愿莲花主」血量降低至1%"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "喜剧高潮…怎能少了你这个「主角」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "来，接下这份赐福！"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "满愿一击将你从塔顶击落"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "观众",
+          "text": "就这？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "观众",
+          "text": "好弱啊…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "观众",
+          "text": "继续啊。我还没看过瘾呢。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "观众",
+          "text": "杀了她！杀了她！杀了她！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "你落入了幻月的口中。狞笑的幻月将你一口吞下"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "……"
+    },
+    {
+      "type": "spoiler",
+      "text": "群众的声音：不要输啊！满愿女士！/我早知道，他们就是一群混蛋！/我相信星穹列车！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "又一个无名客。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "千年间仅有的三次复醒，两次起于你们带来的「例外」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你是…绯英？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "是来帮我的吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "不，我为裁决而来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "满愿的僭越，已由幻月裁定。接下来，我会让一切重回正轨。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "重回正轨…什么意思？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你的语气很冰冷，要做什么…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "很简单。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "经我之手，乐变化天人将{{回归长生主的怀抱|融为一体}}。即便倏忽复生，结果亦然。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "尽数死去？这绝对不行。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "胜负未分，轮不到裁判下场。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我和满愿胜负未分，还轮不到裁判下场。而且……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你不是绯英，你是谁？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "让二十万无辜的人陪葬，我不能接受。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "无辜？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "你口中「无辜的人」，正在心甘情愿地为敌人献上愿力，将你逼入绝境。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "我看得很清楚：他们对满愿的支持，对你的敌意，全都发自真心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "是真的又怎样？只要还有人在期待，我就不会放弃。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "是，在阿哈的游戏中，对错不值一提。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "所以你一定明白：你今天救下的每一个人，都可能转过身唾弃另一个人，甚至明天的你自己。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "在「欢愉」的命途上，诙谐和刻薄具有等同的力量。满愿胜过你，因为她赐予了众生「嘲笑」的权利。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "嘲笑你、她、甚至自己，嘲笑乐园令人失望的一切。如你所见，人们选择了她递出的「面具」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "想凭借一场游戏，改变整个世界——无异于天方夜谭。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我没有这种傲慢的想法。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "人们会自己摘下面具。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "什么弯弯绕绕的，我不听。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我只相信一件事：人们对世界失望，是希望它变得更好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "而我能让他们看见：总会有人挺身而出。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "你甚至没有一张像样的面具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "但你身上，似乎藏着有趣的底牌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "如果任凭愿力涌向你，你也会和满愿一样，受其侵染，失去自我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "你又怎能笃定：自己不会被「欢愉」改变？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "无所谓，旅途本就会改变一个人。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我见过不负众望的将军",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者与景元",
+              "text": "哪有那么多为什么……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "既然「来都来了」，就要全力以赴。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "还有引领群星的天才",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者与黑塔",
+              "text": "我不用给出回答，只需继续向前。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "望见我背影的人们，自会找到答案。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "怀抱世界的水晶花",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者与昔涟",
+              "text": "就算世界并不温柔，那也没有关系。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "只要我不曾忘记，就永远有人记得「笑容」的意义。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "守望忘川的旅人",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者与黄泉",
+              "text": "就算没有意义，也要尽力而为……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "因为要作出决定的人不是我，而是看着我的人们。"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "和终将升起的烈阳",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者与白厄",
+              "text": "…不必考量本心，不必渴求胜利。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我只知道，满愿的行径——让我感到愤怒！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我原本是什么样子不重要。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "重要的是，当人们看向我的时候，我想让他们看见什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "知道么？你远比自己想的更狂妄。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "但如果不够疯狂，又怎能获得{{祂|「欢愉」阿哈}}的青睐？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "看来——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "黑暗中，依然亮着为你闪烁的光。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……星铁FES赠送的应援棒？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "再给我三分钟时间。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "过三分钟，你再看看。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "为什么是三分钟？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "因为三分钟，是相信光的时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "幼稚。用应援棒做武器，也算史无前例了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "那么，契约成立。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英（？）",
+      "text": "天上幻月，地上神木，于此时见证此誓，如我之恒，如你之升，永无破弃——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "看你的了，{{「主角」|「浣熊」}}。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "spoiler",
+          "text": "群众的声音：加油啊，球棒浣熊！/你一定能赢！/去吧，我相信你！"
+        },
+        {
+          "type": "spoiler",
+          "text": "群众的声音：骗子！小丑！/打起来打起来！/你倒是继续啊！/不会就这吧？/杀杀杀杀！杀了满愿！"
+        },
+        {
+          "type": "text",
+          "text": "民众的愿力逐渐向你涌来……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "群众",
+          "text": "加油哦"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "无论怎样的愿望……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "我都会接过它，改变它……"
+        },
+        {
+          "type": "text",
+          "text": "先前的浣熊面具逐渐破碎。你以体内的星核为载体，将愿力全部吸收，由此重铸面具。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "用这面具下的『自我』，让人们看见——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "英雄，闪亮登场！"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "重返舞台？好快啊——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "到底谁才是不死的怪物！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "小姑娘/小子，你是从哪儿蹿上来的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你的伤口…没事吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我很好，应该说，从来没这么好过！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得观众的支持与应援"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你听到了吗，满愿！那些要我打败你的声音——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这一击，是为斯科特！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这一击，是为灰烬和破晓战队！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "还有！这一击！是为所有被你荼毒的人们！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "用星核抽取了人们的愿力吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "不愧是万界之癌！用一场天灾扑灭另一场！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "敌方血量降至1%"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "笑吧，笑吧，笑吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "堕入极乐地狱吧！"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "text",
+          "text": "满愿挥舞枝条发动突袭，不死途趁势反击。\n在与同伴的合力下，你腾空跃起，完成对满愿的致命一击。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "抱歉，观众朋友们…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "到头来，我还是没能守住乐园……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "人们做出了选择，是你输了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你不知道他们的「愿望」是什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "我不知道。也不在乎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "真慢啊…告死魔杀我，只需要一瞬间……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满愿",
+      "text": "二相乐园杀死我，却用了整整十五年……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "…她死了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "罪魁祸首，却能轻飘飘地死去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "还给我们留下了天大的麻烦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "没忘了吧，真正的危机才刚开始。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "如果「丰饶」转变持续下去，整个世界都将沦为妖星——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "不光是这样，满愿一死，互联网彻底炸锅了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "她从一开始就打算破罐子破摔，没给咱们留退路。"
+    },
+    {
+      "type": "text",
+      "text": "……群众的声音：星穹列车，快救救我们！/所有人都会死！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "局面已经无法控制。这样下去，第三、第四波灾情只是时间问题……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "就这样吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "{{？？？|虚照}}",
+      "text": "「那个，虽然很突然——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "{{？？？|虚照}}",
+      "text": "「但全体目光，请向这边看齐！」"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "「我是…破晓战队的灰烬战士。正在借用火花小姐的直播间。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "「各位，请听我说！还没到绝望的时候！」"
+    },
+    {
+      "type": "text",
+      "text": "……群众的声音：是灰烬战士！还有希望！/这不是满愿面前的走狗吗？/别废话了快来救我！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "「一直以来，满愿欺骗世人，操纵游戏。是无名客阻止了她，而现在，他们还在阻止灾难扩散……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "「但我们绝不应该坐等救援！不止有谒者能创造奇迹，要实现愿望，也能靠自己！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "「我正在海原市参与救援！请所有听见我声音的人，立即行动起来——」"
+    },
+    {
+      "type": "text",
+      "text": "……群众的声音：这家伙在热血什么？/恐怕不能解决问题。(这句话听不清不确定是否正确)/是的，还是你会蹭流量！/一切还有希望！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "「保持手机畅通，理性使用电量！告诉你的亲朋好友，身边的人，一切还有希望！」"
+    },
+    {
+      "type": "text",
+      "text": "……群众的声音：一切还有希望……/星穹列车滚！星穹列车滚！星穹列车滚！/一切还有希望…一切还有希望一切还有希望！/让二相乐园充满笑声！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "「破晓战士与你们同在！所有救援力量，正在赶往海原市！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "「以及——模糊老师，您也要说两句吗？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虛照",
+      "text": "「嗨！大家好，我是《苍天航路绒绒号》的作者，模糊二维马。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "「所以，请振作起来！否则，你胆小的样子会被我画进漫画里喔！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "「说到漫画—一绒绒号最新作『谒神！二相乐园之卷』已经完成！发售日定于——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "「——呃，你是谁啊？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "钟珊",
+      "text": "「我是你的主治医师，你出院时是怎么向我保证的？！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "「真是一场酣畅淋漓的闹剧啊！那么家人们，今晚就到此为止咯！掰掰——」"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "看来，这个世界离「无可救药」还差一步。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "莫非，你有什么办法？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "…将分散的倏忽血肉聚集到我身上，由我像满愿那样号令。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "也许，一切还有挽回的机会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你疯了！让那东西汇聚一处，死灰复燃？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我们绝不能重蹈前世覆辙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "锒狼",
+      "text": "我就知道，你会忍不住玩大活儿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刃",
+      "text": "我是唯一一个能维持理智的宿主。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "锒狼",
+      "text": "没有「言灵」，我也没十成十把握能束缚住你——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "如果，有人能进行思维调律，控制住你，计划是否会更有胜算？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "天环小子，别做傻事，你知道感染者有多少人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "你能控制几十万人的思想？你只是让牺牲者又多了一个。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "不死途先生，永远会有做傻事的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "这段时间，我一直在想：二相乐园何以得名？和匹诺康尼一样，它外表光鲜亮丽，内部却暗流涌动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "但现在我知道了。静止不可能带来幸福，这里认可所有答案，允许任何可能。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "人们的愿望彼此碰撞，与乐园一同破碎。但和所有破碎的世界一样，这里也有不会熄灭的光。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我曾想为苦痛划定终点，正因如此…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "今天，我希望能有机会，为他们「开拓」前路。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "星期日以同谐之力向二相乐园的人们喊话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "乐园的人们，我，流放者「星期日」，向诸位表明身份。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "谨代表「共愿帮」三十三位死难者，我向各位发出请求："
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "请为这位{{勇士|刃}}，献出你们的恐惧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "不必压抑，也无需愧疚，请正视你们的恐惧。能拯救乐园的，只有最真实的感情。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我来将你们的渴望织作缆绳，这是一场艰难的「共愿」——跨越「丰饶」血肉，奏响乐园的凯歌。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "请将愿力，交给我们！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "请将愿力，交给我们！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "锒狼",
+      "text": "终结这出闹剧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "天弓啊…请不要垂眸。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "让曾经的悲剧，不必再重演。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一切还有希望！"
+    },
+    {
+      "type": "fold",
+      "title": "过程动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "星期日",
+          "text": "美梦总会醒来。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "星期日",
+          "text": "这一次——我会捍卫所有人感受痛苦的权利！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "通过星期日的调律，二相乐园所有倏忽细胞同时涌向刃。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "刃",
+          "text": "时候到了，倏忽——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "刃",
+          "text": "就以我死，为你送葬！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "刃几近失控，丹恒及时伸出了援手。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "因我们而起的……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "我与你，在此，一同了结！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "另一边，倏忽的巨树身躯显现……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "银狼",
+          "text": "漂亮，在它彻底醒过来之前……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "银狼",
+          "text": "只用一个参数，结束这场游戏！"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

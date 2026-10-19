@@ -1,0 +1,718 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "潜迹狼烽，兽骇鸟惊",
+    "pageId": 13223,
+    "revisionId": 42545,
+    "parentRevisionId": 0,
+    "revisionTimestamp": "2024-08-01T01:39:16Z",
+    "fetchedAt": "2026-09-28T00:20:31.329Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%BD%9C%E8%BF%B9%E7%8B%BC%E7%83%BD%EF%BC%8C%E5%85%BD%E9%AA%87%E9%B8%9F%E6%83%8A",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%BD%9C%E8%BF%B9%E7%8B%BC%E7%83%BD%EF%BC%8C%E5%85%BD%E9%AA%87%E9%B8%9F%E6%83%8A&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "潜迹狼烽，兽骇鸟惊",
+    "region": "仙舟「罗浮」",
+    "type": "开拓续闻",
+    "version": "2.4",
+    "number": "07",
+    "series": "明霄竞武试锋芒·上",
+    "description": "时光流逝，转眼演武仪典即将召开在即。在即将登上擂台的时刻到来前，年轻的剑士们眺望空中的斗舰，与远来之客抒发己见。但关注此刻的并不只有他们，迴星港中，另有不速之客图谋不轨……",
+    "requirements": "完成任务授剑传行，腾然流星",
+    "requiredLevel": "21",
+    "characters": [
+      "三月七",
+      "彦卿",
+      "云璃"
+    ],
+    "relatedItems": [],
+    "rewards": [],
+    "previousMissions": [
+      "授剑传行，腾然流星"
+    ],
+    "nextMissions": [
+      "诘辩无愧，折狱论非"
+    ],
+    "objectives": [
+      "离开迴星港，返回练剑处",
+      "窥视可疑人员",
+      "找到合适的箱子躲藏",
+      "追踪可疑人员"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "三月七",
+      "命路群像": "屯蒙御寇",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "离开迴星港，返回练剑处"
+    },
+    {
+      "type": "objective-description",
+      "text": "时光流逝，转眼演武仪典即将召开在即。在即将登上擂台的时刻到来前，年轻的剑士们眺望空中的斗舰，与远来之客抒发己见。但关注此刻的并不只有他们，迴星港中，另有不速之客图谋不轨……",
+      "location": "仙舟「罗浮」-迴星港"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "正当你们准备返回星槎海时…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "匠人",
+      "text": "…闭嘴吧赤牙，这里的船毕竟不是兽舰，我需要点时间搞定它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "你自愿披上了贱畜的皮，加入这次行动，为光荣的大业献身。现在你告诉我，你搞不定？你知道我们需要多少条船吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "匠人",
+      "text": "我在尽力，我在研究，这些都需要时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "天舶司成员",
+      "text": "明天礼炮一响，所有人的注意都会被吸引，不会有第二次机会——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "Harr zaa xi？谁，谁在那儿？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "你们是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "匠人",
+      "text": "临时检查。为什么有无关的人在迴星港出没？还是几个小不点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "天舶司成员",
+      "text": "小朋友，你们的父母难道没告诉过你，迴星港虽然是自动运转的设施，但这并不意味着你们几个能随随便便闯进来。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我这就带弟弟妹妹们走。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "啊，对不住，我这就把小不点们带走。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "叫谁小朋友呐。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "首先，本小姐是成年人了。其次，我可不算随随便便闯进来的——"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "是啦，叔叔，咱们是坐星槎呼一下飞过来的喔！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "天舶司成员",
+              "text": "叔叔们没有责问你们的意思。但是，这儿不对一般居民们开放。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "姐姐，姐姐，咱们快走吧，接下来我要、我要去永狩原玩！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "唉？永狩原？呃…好，好的。姐姐带你去永狩原。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你们三人离开了可疑人员的视线…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "Xuu haa…你应该让我——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "天舶司成员",
+      "text": "嘘，检修结束了，一切正常，我们该走了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "事情…似乎有点蹊跷。换个地方说话。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "彦卿小弟，能不能把刚才的话再学一遍？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "什么话？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "姐姐，姐姐，咱们快走吧~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "救命，你是永远读不懂气氛吗？刚才那三个人，很有问题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "傻瓜都看明白啦，我只是想再听你说一遍那个。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "那只粉毛狐狸刚刚欲言又止，怕是早已瞧出了什么端倪。只是他人生地不熟，所以临走前了留了个话茬暗示咱们，没想到你却不搭理他。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "我早就听明白了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那个云骑…不认识彦卿师父？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "刚才那个云骑，完全认不出彦卿师父…这确实很蹊跷。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "怎么，他在罗浮很有名吗？朱明云骑军千千万万，就算听过我的大名，也不见得认得出我的脸。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "您说的是呐。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "他们似乎在捣鼓星槎制造线？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "说是检修，但看起来他们似乎并不知道怎么摆弄那条星槎制造的流水线？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "这几个人一见到咱们就立刻「检修完毕」，转身就走，实在是可疑。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "云骑，天舶司的人，还有匠人…种类倒是齐全，检修的理由也说得过去，只是刚才那人嘴里迸出了一句奇怪的语言。你们听见了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "我有种奇怪的直觉，如果咱们现在悄悄跟上去，一定能掀开这几个家伙的马脚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "跟上我，小心别让他们发现了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "窥视可疑人员"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "不管他们是谁，把他们的行动都拍下来作为证据。"
+    },
+    {
+      "type": "fold",
+      "title": "试图靠近可疑人员",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "三月小姐，别靠太近了，会被发现的！"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "拍摄可疑人士密谋现场"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "应该宰了刚才那三只贱畜的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "小崽子占不了多大地方。这儿到处都是箱子，随便往哪个里头一扔，不会有人发现的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "天舶司成员",
+      "text": "少给我节外生枝，伽虏。任何一点意外都会干扰末度大人的计划。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "接下来去哪？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "天舶司成员",
+      "text": "去查验货船，需要做的准备还有很多。还有，记得带走那几只箱子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "天舶司成员",
+      "text": "武器、补给…我们必须做好充足的准备。不然咱们的头颅就只能交代在这儿了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "这些人…是走私者吗？他们要做什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "我不知道。但他们似乎准备带走那堆货箱。我有个主意，我们可以躲进那些箱子里，跟着他们。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "找到合适的箱子躲藏"
+    },
+    {
+      "type": "fold",
+      "title": "以各种手段绕到可疑人士正面并尝试离开",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "三月小姐，你要往哪儿去啊？跟着他们！"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "尝试进入一个不合适的箱子",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "趁着这几名可疑的「官方人员」暂时离去，你如履薄冰地来到一个箱子旁，试图钻进去。\n很遗憾，箱子里塞满了各色小巧的机关装置。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "不行，进不去…得换个箱子。"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "躲入合适的货箱"
+    },
+    {
+      "type": "text",
+      "text": "趁着几人暂时离去，你如履薄冰地来到一个箱子旁，钻了进去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "好窄…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "要窒息了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "坚持住…"
+    },
+    {
+      "type": "text",
+      "text": "你们听到箱子旁有脚步声不断来回。如果在此时有人打开货箱，一定能瞧见你们可笑的躲藏姿态。万幸，事情没有发生。\n箱底的悬浮机关被启动。你们感到它开始向着前方缓缓飘行。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "长如一个琥珀纪的闭气和沉默后，你们听到箱子落地声。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "匠人",
+      "text": "货先放在这儿吧？接下来检查船只的问题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "匠人",
+      "text": "末度大人说，一旦接应完成，弟兄们搭上货船离开这儿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "天舶司成员",
+      "text": "放心吧，我改写了舵航计划表。你们俩，跟我来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "我总觉得奇怪，贱畜的味道怎么哪儿都有。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "天舶司成员",
+      "text": "别疑神疑鬼。"
+    },
+    {
+      "type": "text",
+      "text": "离去的脚步声仿佛一个信号，让你们松了口气。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "看来他们打算利用迴星港的船只，带他们离开仙舟。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "口口声声计划计划，这些人到底是从哪儿来的？他们想在仙舟上干什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "八成不是什么好事。他们不见了？咱们跟上去！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "追踪可疑人员"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "脚步要轻，呼吸要浅…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "还要随时留意对方的行动。一有动静就躲起来。"
+    },
+    {
+      "type": "fold",
+      "title": "距离过近",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "那家伙发现我们了吗？快躲起来。"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "小心，他们警觉起来了！"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "天舶司成员",
+          "text": "不对味，有奇怪的味道…"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "天舶司成员",
+          "text": "出来！是谁，快出来啊！"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "被发现",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "天舶司成员",
+          "text": "我就觉得古怪，空气里总有贱畜的味道…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "天舶司成员",
+          "text": "果然，这三个小东西一直咬着我们不放。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "这些家伙怎么又折回来了？快退后！"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "别疑神疑鬼了！时间紧迫，快过来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "天舶司成员",
+      "text": "Xuu harr，我来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "他们要离开了，快些跟上他们！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "他们到底要干什么？这些人身着的全都是官方制服，但我敢打赌，这些家伙绝对不是天舶司、工造司或是云骑军的人…太可疑了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "不管他们是谁，把他们的行动都拍下来作为证据。要是有什么罪证，那可就抵赖不了了。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "拍摄可疑人士密谋现场"
+    },
+    {
+      "type": "fold",
+      "title": "拍摄彦卿",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "拍我干什么？拍他们啊？"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "天舶司成员",
+      "text": "瞧瞧，一艘货运星槎。至少够送走二十名弟兄。我还会联络其他成员，让他们准备更多。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "天舶司成员",
+      "text": "等脱离关口后，会有接应的兽舰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "天舶司成员",
+      "text": "末度大人已经准备妥当，我们的古老血脉能否重振，将在此一举……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "他说什么？…兽舰？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "天舶司成员",
+      "text": "谁？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "是那三个小崽子！我说过了，让你及时善后，你就是不听，白痴！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "不能留活口，动手！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "步离人？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "步离人",
+      "text": "Adugusu！受死吧，贱畜！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得胜利"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "怎么可能！这些狐人…这些狐人为什么会变了模样？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "这些家伙根本不是狐人。他们只是露出了原形。这些家伙是货真价实的步离人，和我在公司那艘舰船上击败的劫匪是同一群害虫。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "那岂不是意味着……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "有步离人潜入仙舟…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "这些步离人是怎么渗透进仙舟的？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "步离人怎么变成狐人的模样？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "这些家伙到底施了什么障眼法？咱们刚才追踪他们时，他们看起来和一般的仙舟狐人毫无区别……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "这不是简单换上仙舟的服装，剃去须发的伪装。这几个步离人不知用了什么手法，将自己的模样变得与狐人毫无二致。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "他们还有着官方身份。天舶司、工造司、还有…云骑军？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "让我看看这个冒牌云骑的腰牌，或许能有些眉目。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "路君？巡防卫队的值守武官？……等等！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "怎么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "我曾经见过另一个名叫路君的值守武官，那是在几周之前，押送步离人犯的时候。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "拥有伪造的官方身份，能堂而皇之地出入仙舟…糟糕，真是太糟糕了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "更糟糕的是，如果我在列车上发现了一只蟑螂，那就意味着……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "还有更多步离人潜伏在仙舟内。他们的阴谋恐怕不是窃取情报这般小打小闹的事情。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "必须尽快将这件事报告给神策府！"
+    }
+  ],
+  "warnings": []
+}

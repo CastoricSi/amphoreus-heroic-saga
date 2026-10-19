@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "「均衡」的试炼•肆",
+    "pageId": 4167,
+    "revisionId": 21354,
+    "parentRevisionId": 13946,
+    "revisionTimestamp": "2023-09-22T05:25:03Z",
+    "fetchedAt": "2026-09-28T00:16:04.682Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E3%80%8C%E5%9D%87%E8%A1%A1%E3%80%8D%E7%9A%84%E8%AF%95%E7%82%BC%E2%80%A2%E8%82%86",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E3%80%8C%E5%9D%87%E8%A1%A1%E3%80%8D%E7%9A%84%E8%AF%95%E7%82%BC%E2%80%A2%E8%82%86&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "「均衡」的试炼·肆",
+    "region": "仙舟「罗浮」",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "04",
+    "series": "宇宙均衡",
+    "description": "「仲裁官」的试炼再度到来。它的内容、形式、好处和损害你已经很清楚了，不是吗？去吧，为了「均衡」……",
+    "requirements": "开拓等级到达50级",
+    "requiredLevel": "50",
+    "characters": [],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "星轨通票",
+        "amount": "3"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "16"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "14"
+      },
+      {
+        "item": "信用点",
+        "amount": "60000"
+      },
+      {
+        "item": "材料名",
+        "amount": "个数"
+      }
+    ],
+    "previousMissions": [
+      "「均衡」的试炼·叁"
+    ],
+    "nextMissions": [
+      "「均衡」的试炼·伍"
+    ],
+    "objectives": [
+      "前往「流云渡」挑战「均衡」的试炼。",
+      "通过「均衡」的试炼·肆。"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": "完成开拓任务旅进青霄，不速之邀且开拓等级到达50级后自动接取"
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往「流云渡」挑战「均衡」的试炼。"
+    },
+    {
+      "type": "objective-description",
+      "text": "「仲裁官」的试炼再度到来。它的内容、形式、好处和损害你已经很清楚了，不是吗？去吧，为了「均衡」……",
+      "location": "雅利洛-Ⅵ-流云渡"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "通过「均衡」的试炼·肆。"
+    }
+  ],
+  "warnings": []
+}

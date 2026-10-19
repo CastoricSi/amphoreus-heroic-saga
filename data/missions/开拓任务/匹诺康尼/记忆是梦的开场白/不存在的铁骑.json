@@ -1,0 +1,902 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "不存在的铁骑",
+    "pageId": 28084,
+    "revisionId": 77822,
+    "parentRevisionId": 76655,
+    "revisionTimestamp": "2026-02-12T19:31:56Z",
+    "fetchedAt": "2026-09-28T00:17:18.587Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E9%93%81%E9%AA%91",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E9%93%81%E9%AA%91&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "不存在的铁骑",
+    "region": "匹诺康尼",
+    "type": "终末任务",
+    "version": "3.8",
+    "number": "02",
+    "series": "记忆是梦的开场白",
+    "description": "・在银狼的帮助下，流萤从原始忆域潜入了匹诺康尼的梦境。\n・据银狼所说，家族拥有一个在匹诺康尼近乎全知全能的存在，但正体不明。\n・在混乱的忆域中，流萤发现了另一位格拉默铁骑留下的忆质——名为AR-214，对方是流萤一同留下过美好记忆的同伴。",
+    "requirements": "完成任务另一个，同一个",
+    "requiredLevel": "21",
+    "characters": [
+      "流萤",
+      "银狼"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "300"
+      },
+      {
+        "item": "星琼",
+        "amount": "40"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "3"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "3"
+      },
+      {
+        "item": "金表钞",
+        "amount": "150"
+      },
+      {
+        "item": "信用点",
+        "amount": "40000"
+      }
+    ],
+    "previousMissions": [
+      "另一个，同一个"
+    ],
+    "nextMissions": [
+      "命运交叉的盛会"
+    ],
+    "objectives": [
+      "前往银狼所说的房间",
+      "和银狼聊聊",
+      "寻找适合「偷渡」的入口",
+      "调查虫群逃亡的原因"
+    ],
+    "synopsis": [
+      "流萤没法恢复「做梦」的机能，只能藉由银狼的手术来获取一次入梦机会。就算你早已忘记，流萤也会尽力去赴重逢的约定。",
+      "流萤到达匹诺康尼，感觉这里和现实世界没什么不同，这让银狼感到困惑。银狼帮流萤搞定了身份，但遇到了新的麻烦事。",
+      "银狼解释，家族在美梦中近乎全知全能，流萤的潜入一定会被发现，进而遭到追捕。虽然很冒险，但流萤想到了一个计划。",
+      "流萤想要启动「萨姆」机甲制造骚乱，再趁机以「流萤」身份入梦。银狼认为风险太高，并且发现流萤看到的画面和「监控」不一致。",
+      "流萤重新睁开双眼，发现自己身处梦境酒店。突袭计划行不通，银狼尝试再次联系临时帮手，流萤则寻找适合「偷渡」的入口。",
+      "流萤遭遇真蛰虫群，银狼认为它们可能是往昔虫灾的幻影，或根植人心的恐惧迷因。流萤准备战斗。",
+      "被击败的真蛰虫遗骸消失，它们果然只是忆质形成的幻影。银狼劝流萤绕开虫子，但流萤没法说服自己视而不见。",
+      "银狼的假面愚者帮手回话了，称会派人来大厅接应流萤。通讯突然中断，虫群自大厅向外逃散。流萤发现机甲无法启动，谨慎向前探索。",
+      "流萤发现遍地真蛰虫残骸，以及，一位她再熟悉不过的「格拉默铁骑」——AR-214。"
+    ],
+    "extra": {
+      "角色": "流萤",
+      "命路群像": "万火归一",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "【流萤】的记忆正在逐渐浮现……\n在银狼的协助下，流萤正准备潜入匹诺康尼……"
+    },
+    {
+      "type": "text",
+      "text": "「这…就是梦？」\n「什么也看不见。什么也听不见。除了黑暗，一无所有。」\n「我不理解……」\n「为何，人们会留恋这片黑暗？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "先别乱动，会疼得厉害。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "手术…结束了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "是啊，和预期一样，你没法恢复「做梦」的机能。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "就算付出了这么多代价，机会也只有一次。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "没关系。一次…就足够了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "还需要我做什么吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "别死就行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "喘口气。等调试结束，我就让你正式「入梦」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "然后，我就能进入那片{{「梦想之地」|匹诺康尼}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "别抱太大希望，那只是个外号。你的梦想不一定能实现。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…我一直在等今天。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "人们总是这样形容它：一旦醒来，就消失得无影无踪，所以美梦才那么珍贵。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "听起来只是自我安慰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "或许吧。但是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "「当再次邂逅的那天到来，我想…我会假装我们素未谋面，再重新认识你一次，让一切都从头开始。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我和他/她有约定。重逢就在眼前。我没有理由不尽力而为。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "就算他/她早已忘记？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "但我不会忘记。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "无论这个故事会如何结束，我都要让它…笑着开始。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "在艾利欧预见的「未来」里，我们不曾拥有「结局」。但我还有机会，从命运手中……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "夺回「开启」的权利。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "在想什么呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "只是发了会儿呆。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "第一次「做梦」，还有些不习惯。感觉这里和现实没什么不同。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "想到自己还躺在维生舱里，就觉得…很神奇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "…你确定？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "算了，抓紧时间，星穹列车已经到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "情况如何，能绕开家族的监视吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "身份早就搞定了，但有件麻烦事。边走边讲吧，去准备好的房间。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往银狼所说的房间"
+    },
+    {
+      "type": "objective-description",
+      "text": "通过原始忆域非常顺利地潜入了匹诺康尼，尽管代价非小。接下来，要想办法进入「十二时刻」了。",
+      "location": "匹诺康尼-「白日梦」酒店-现实"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（黄泉）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "迷路的住客",
+          "text": "这次…应该不会走错了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "流萤",
+          "text": "…？"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "和银狼聊聊"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "所以，出了什么问题？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我雇了个帮手，提前混入匹诺康尼打探消息。刚才，她传回了情报——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "坏事，在美梦中，家族近乎全知全能。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这里有「同谐」令使？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "未必是个人，也可能是某种现象，说不清楚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "反正，跟「剧本」说的一样，不管用什么办法潜入，你一定会被发现。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "没有空隙吗？几秒就行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "不是不能创造，但问题在于，你太强了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "可不是什么小鱼小虾——在匹诺康尼，你算得上天大的威胁，即便只是尝试入梦，也会立刻被察觉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "那意味着，就算潜入成功，我也不可能摆脱家族的追捕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "没错。大打出手也没用，这可是人家的地盘，跟送命没区别。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "虽然很冒险，但我有一个计划。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "家族还没摸清「星核猎手萨姆」的身份，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "至少分家没可能。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "不如就利用这一点吧。我会启动「火萤IV型」，突袭「白日梦」酒店。来的路上，我仔细观察过了，常规安保无法拖住我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "制造一场骚乱，让「萨姆」站到台前。然后，我再以最快的速度回到这里，趁着骚动尚未平息，以「流萤」的身份入梦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "风险太高。为了一个不确定的机会，把「萨姆」这张底牌掀开。不划算。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "可我们已经在这里了，总要试试看。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我先推演路线，计算下安保的响应时间……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "等等。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "怎么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "奇怪。我这里显示，安保几乎不存在。跟你说的对不上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "以防万一，描述一下你看到的情景。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "描述？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "只是常规的酒店布置。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "沙发…入梦池…还有……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "什么人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "别慌，根本没有「人」。果然，你眼里的画面，和我看到的「监控」不太一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "怪了，怎么会有这种事，我来修复。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…？！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找适合「偷渡」的入口"
+    },
+    {
+      "type": "objective-description",
+      "text": "奇怪的视觉偏差…出现问题的，会是流萤还是梦境本身呢？\n无论如何，原始忆域危险重重，先进入「十二时刻」再说吧。",
+      "location": "匹诺康尼-「白日梦」酒店-梦境"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我就说…你怎么会觉得梦里很普通。现在呢？怎么样了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这里是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "没换地方，刚才你一直都待在这儿，嘴里说着怪话。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "第一次「做梦」，还有些不习惯。感觉这里和现实没什么不同。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我还以为你只是嘴硬。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "抱歉，再提醒我一下吧，记忆有些模糊了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "按照「剧本」指示，我们搞来了一台废弃的入梦池。费了点功夫，有个公司人非要跟咱们抢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "公司？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "别在意。反正没抢过咱们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "我把它改造成了维生舱。这会儿，你我都在阿斯德纳星系边缘飘着呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "原来如此，利用联觉梦境。但看起来，我没能进入真正的匹诺康尼？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "反正这风景怎么也和「美梦」搭不上边，可能是某种…「缓冲区」吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你刚才看见的景象，多半是一种海市蜃楼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这样啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "那突袭酒店的计划也行不通了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "没错。你现在顶多能突袭我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "但这也说明，我还没有暴露，并且距离「十二时刻」只有一步之遥了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你总能在坏事堆里找出点好消息。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "至少，现状变得清晰许多了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我先去别处看看，也许能找到适合「偷渡」的入口。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "嗯，你先找路。我再去联系下那临时帮手。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "银狼，你听到什么声音了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "没注意，忆域里有些怪动静很正常，听说，很多回忆会一直重演。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查大厅中的坑）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "银狼",
+          "text": "你入梦时总归会有点影响，只是掉下来个灯，已经不错了——忆质就这么不稳定，没事，等下我来搞定，不会被发现。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "不对…这声音，我绝对不会认错……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "果然。但为什么……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "不先避避？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "没必要，我太了解它们了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "未必是真正的「繁育」。还记得么？这片星系很久以前，也遇上过虫灾，规模还不小。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "你是说，这只是过去的幻影吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "最好是。也可能类似迷因，是根植在阿斯德纳人心底的恐惧，跟噩梦似的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "所以，这片梦境果然不在家族掌控中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "没准你是对的。沿着这条路继续找下去吧。至于它们究竟是什么……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "让我试一试就知道了。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "太过弱小了，和现实中完全不同。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得胜利"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "遗骸消失了。果然只是忆质形成的幻影吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "没跑了，难怪报废的入梦池不值钱。没有家族保护，普通人贸然来到这里，可有够受的了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "等下还是当心点吧，未必所有幻影都是善茬。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "我会的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "还有，其实绕开它们也可以的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "没必要非得搭理虫子，这是你的坏习惯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "抱歉，我没办法说服自己视而不见。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "算了，大家都一样。明知不会有用，却总想为过去做点什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "只要能好受些，都由你——动作利落点就行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "谢谢。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "objective-description",
+      "text": "匹诺康尼存在虫群的忆质投影…但愿那种灾难如今也只存在于记忆当中。\n无论如何，原始忆域危险重重，先进入「十二时刻」再说吧。",
+      "location": "匹诺康尼-「白日梦」酒店-梦境"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "不过，能经历过去的记忆，有时也不算坏事吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "看得出来，这趟出差——你心情不错。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "按照银狼所说来到了房间附近……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "喔，帮手回话了。你先去大厅，她会派人接应你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "但多留几个心眼。那家伙是个假面愚者，指不定……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "怎么了？"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "信号中断了…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "又来了吗……嗯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…嗯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "机甲无法启动？为什么……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "没有袭击我。它们…是在「逃亡」吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这条走廊尽头，究竟是……"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查虫群逃亡的原因"
+    },
+    {
+      "type": "objective-description",
+      "text": "和银狼的通讯突然中断了，虫群在逃离时，又依从本能表现出了莫大的恐惧…前方的道路上，莫非存在着更加可怕的事物？",
+      "location": "匹诺康尼-「白日梦」酒店-梦境"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "（遍地都是残骸，可它们不是幻影吗？难道……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "（除我以外，还有人在这里。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "（真蛰虫死于高热反应，而且这道伤痕……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "（怎么会……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "（我…再熟悉不过。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "（虫群也就算了，可就算是忆质。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "（匹诺康尼，为何会出现「格拉默铁骑」？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "「下一片战场，希望能看见星星。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "「我们还会再见面吗？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "AR-214",
+      "text": "「那我们……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "AR-214",
+      "text": "「应该能认出对方吧。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "AR…214……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这…就是梦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "流萤",
+      "text": "这片噩梦…是「你」的记忆？"
+    }
+  ],
+  "warnings": []
+}

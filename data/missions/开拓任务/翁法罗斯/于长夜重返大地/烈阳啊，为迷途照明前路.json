@@ -1,0 +1,988 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "烈阳啊，为迷途照明前路",
+    "pageId": 24075,
+    "revisionId": 77809,
+    "parentRevisionId": 69718,
+    "revisionTimestamp": "2026-02-12T19:22:10Z",
+    "fetchedAt": "2026-09-28T00:18:45.108Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%83%88%E9%98%B3%E5%95%8A%EF%BC%8C%E4%B8%BA%E8%BF%B7%E9%80%94%E7%85%A7%E6%98%8E%E5%89%8D%E8%B7%AF",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%83%88%E9%98%B3%E5%95%8A%EF%BC%8C%E4%B8%BA%E8%BF%B7%E9%80%94%E7%85%A7%E6%98%8E%E5%89%8D%E8%B7%AF&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "烈阳啊，为迷途照明前路",
+    "region": "翁法罗斯",
+    "type": "开拓任务",
+    "version": "3.6",
+    "number": "05",
+    "series": "于长夜重返大地",
+    "description": "重新回到翁法罗斯的丹恒需要锁定「长夜月」的藏身处，在昔日敌人「赞达尔」的帮助下，丹恒登上了黎明云崖用净世金血召唤来了白厄。借助白厄「毁灭天地」的金光，「大地」的封印被彻底洞穿。丹恒跟随指引，启程前往神悟树庭。",
+    "requirements": "完成任务忆者啊，命途长河上溯洄",
+    "requiredLevel": "21",
+    "characters": [
+      "丹恒",
+      "来古士",
+      "螺丝咕姆",
+      "白厄",
+      "那刻夏"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "星琼",
+        "amount": "50"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "4"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "4"
+      },
+      {
+        "item": "无序秘酿",
+        "amount": "160"
+      },
+      {
+        "item": "信用点",
+        "amount": "50000"
+      }
+    ],
+    "previousMissions": [
+      "忆者啊，命途长河上溯洄"
+    ],
+    "nextMissions": [
+      "大地啊，承载万物的苦难"
+    ],
+    "objectives": [
+      "前往黎明云崖",
+      "击败金血忆灵",
+      "前往黎明云崖",
+      "触碰净世金血，呼唤友人"
+    ],
+    "synopsis": [
+      "在螺丝咕姆的帮助下，丹恒回到翁法罗斯。面对「记忆」的威胁，天才们与来古士达成合作，让其担任丹恒的向导。",
+      "来古士称，长夜月入侵并感染了「岁月」泰坦，她能够轻易掐灭事物的记忆。丹恒确认，长夜月与三月七的过去有关。",
+      "金血忆灵向丹恒逼近。来古士介绍，这是由被长夜月抽离心识的窃忆者们扭化而成。来古士不打算出手，丹恒独自面对战斗。",
+      "窃忆者们企图渗透黑潮的温床，以窃取铁墓的记忆。而在此世，白厄将自身化作遏制黑潮的封印，他的金血为世界刻下「毁灭」的伤痕。",
+      "白厄曾为纳努克带去毁伤，一滴神血熔进白厄的身躯，成为「毁灭」最后的赐福。来古士请丹恒找到长夜月的所在，并唤醒白厄的怒火。",
+      "自金色的神血中，卡厄斯兰那回应丹恒的到来。卡厄斯兰那仍记得你和丹恒的名字，以及，吞噬一切的「毁灭」。",
+      "白厄的记忆苏醒，认为无名客们将为翁法罗斯带来真正的明天。白厄愿以「毁灭」向罪恶怒吼，为后世「开拓」黎明。",
+      "一束「毁灭」的金光将巨树击穿，洞开通往地下的神秘入口。",
+      "来古士提醒丹恒，「大地」半神荒笛在这一世偏离了逐火命运，并将丹恒送离。与此同时，那刻夏质问来古士——德谬歌，是为何物？"
+    ],
+    "extra": {
+      "角色": "丹恒",
+      "命路群像": "拏云青龙，或跃在渊",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "正在切换至【丹恒】视角…\n丹恒重新回到了翁法罗斯，他下定决心要找出开拓者与三月七再次团聚……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "天空在燃烧，城中空无一人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "和当初一模一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "螺丝咕姆先生，你为我编写的密钥能坚持多久？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "「难以测算。逻辑：未知变数『三月小姐』的干涉方式尚不明朗。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "「请放心，在密钥失效前，我会及时将你抽离。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "但那也意味着，我无法再以相同的方式骇入了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "机会只有一次。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "「『记忆』的迷宫开始变化了。往后的路，我无法再担任你的向导。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "「这也是为何，我们不得不与过去的敌人——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "「达成暂时的协议。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "对您以身涉险的勇气，我表示由衷的敬意。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "来古士……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "阁下的敌意，在我计算之中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "「容我再次强调，阿那克萨戈拉斯阁下已经掌握了你的要害。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "「若你仍在密谋加害几位无名客，俱乐部此前的警告绝非虚言。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "…自然，我会把握好应有的分寸。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "螺丝咕姆离开了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "难以置信，我竟要与投身「毁灭」的天才同行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "我的立场从未改变：「智识」的溃败无可避免。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "但在那之前，我很乐意见证几位无名客重逢，并护送你们踏上归途。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "显然，她的出现打乱了你的部署，甚至让你不得不寻求「合作」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这一点，我记下了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "您言语间的锋芒依旧。但切记，「偶然」才是万物运转的常态。那位「天渊万龙之祖」的消逝，便是前车之鉴。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "随我来吧。我很荣幸，能为一位「不朽」的龙裔提供指引。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往黎明云崖"
+    },
+    {
+      "type": "objective-description",
+      "text": "如今翁法罗斯被三重命途之一的「记忆」所裹挟，三月、开拓者…他们/她们俩去向不明，能将他们带回的就只有我了。\n如今翁法罗斯迷雾重重，还有一位友人能为我拨云见日。",
+      "location": "翁法罗斯-「无晖祈堂」黎明云崖"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "眼前这片荒芜，是你一手造就。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "此般景象，已无法在我心中激起波澜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你想说，你也曾为他们的抗争而动容？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "很遗憾，从未有过。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这些忆灵…是她？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "「记忆」的迷因无处不在。那位女士，在我视野的盲区编织出一张巨大的网络。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "她入侵并感染了「岁月」泰坦，将翁法罗斯沉积的数据转化为忆域的傀儡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "听起来，你们发生过不少过节。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "任何意图染指实验的变量都值得我关注。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "可你从未提起过她。难道「智识」的天才也会被人入侵大脑么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "…丹恒阁下，我只是陈述事实：那位女士，对你而言亦是不可忽视的威胁。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "「记忆」在她手中被轻易掐灭，不留痕迹。其手段决绝，仿佛与这条命途有着不解之仇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "矛盾往往是真相的钥匙，「三月七」阁下的过去…是一片深不见底的黑暗呐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "然后呢，指望我会因此与你联手？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我只需知道一件事：「她」和三月七的过去有关。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "也罢。我只是提供一个思考的方向。选择权仍在您手中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "沉重的过往正如漫漫长夜，其中蛰伏着何种罪恶——曾经身为持明龙尊的您，理应比我更清楚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我确实比你更懂得「面对过去」，第一位天才。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "我无意否认。继续前进吧，丹恒阁下。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "击败金血忆灵"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "…嗯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "没想到，仍有漏网之鱼啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "解释一下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "忆庭的窃贼。漫长的时间里，他们觊觎这个世界，却始终被阻挡在外。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "多亏诸位的「努力」，这群人等到了机会。但他们不幸遇上了「三月小姐」，被逐一抽离心识，沦为空壳。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "而侥幸逃脱的人，也沦陷在黑潮中，化作这般扭曲的模样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "可它们的样子，与黑潮造物大相径庭。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "其中缘由，正与我们的目的地有关。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "先解决眼前的威胁，我再为您揭晓答案吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你果然不打算出手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "呵呵，我没有协助您的立场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "何况，鄙人仍在天才们的监视之下，可不希望此刻的举动，被误解为对您的挑衅。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…算了，那就让我来扫清前路。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗并获胜"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "出神入化的枪术，十分精彩。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "继续刚才的话题吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "这些窃忆者企图渗透黑潮的温床，以窃取「铁墓」的记忆。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "听起来，这只是自取灭亡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "关于这点，我们略有分歧：正因他们无惧生死，才有机会触碰真理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "这一世，那位徒劳的负世者将自身化作封印，意图压制黑潮的蔓延。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "他的金血渗入海潮、遍及大地，为世界刻下了「毁灭」的伤痕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "而这道创伤，将为您指明前行的方向。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往黎明云崖"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "「智识」、「毁灭」、「记忆」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "当三重命途再度交汇，翁法罗斯将迎来壮烈的终局。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "黎明云崖……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "在这座悬崖上，我见证了三千万次「徒劳」的终点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "阁下或许难以认同，但我向来认为，这一数字让我成为了最理解卡厄斯兰那的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "那一日，也是在这里，他斩下我的头颅，剑锋直指「毁灭」的星神。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "他迎来了一场惨败，也成就了一件壮举……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "…一滴燃烧的净世金血，自神的伤口流下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "纳努克…？白厄伤到了祂？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "没错。它熔进卡厄斯兰那的身躯，成为「毁灭」最后的赐福。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "若你要驱散迷雾，找到那位「三月七」的所在，就上前去，唤醒他的怒火吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "她藏匿于「岁月」的夹缝，翁法罗斯最隐秘的角落。也只有最为暴烈的意志，才能冲破忆域，照亮她的去向……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "正如烈日只在长夜的尽头升起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "要如何证明，这不是你的又一场阴谋？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "促成你们携手，于我百害而无一利。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "但这一世，面对我的呼唤，卡厄斯兰那从未回应。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "或许他的心智早已消陨；或许他依然清醒，仍在和黑潮的低语抗争。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "内心深处，我唯独希望：你和开拓者阁下，能为我带来答案。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "触碰净世金血，呼唤友人"
+    },
+    {
+      "type": "objective-description",
+      "text": "歌唱吧，星神！歌唱翁法罗斯之子卡厄斯兰那的愤怒——\n一滴燃烧的净世金血，熔进你那如同烈日般燃烧的身躯。\n\n在那滴金血流下前，你已经被仇恨淹没许久。那漫长的旅程，让我们曾经的同行短如瞬息。\n在那滴金血留下后，你已经沉默了太久，你的心智是否依然坚韧？你的抗争是否仍在继续？\n回应我吧，我需要一位友人为我拨云见日——\n\n如果你的「指引」注定让愤怒毁天灭地，那也无妨，我需要前进的方向。\n回应我吧，只有黎明的盛怒能照破长夜。",
+      "location": "翁法罗斯-「无晖祈堂」黎明云崖"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "触碰金血"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "别无他法么……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "对你而言，已经过去多久了呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "卡厄斯兰那……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…白厄，我回来了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风堇",
+      "text": "「当你毫无怨言，背负起世界的时候…属于你的自我，就无法诞生了啊……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "「驱使你挥剑的并非职责，而是仇恨。在那仇恨背后，你仿佛…在期盼毁灭自身。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "「逐火是不断失却的旅途。但你会失去的，远比生命更为沉重。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "「可正因你在痛苦，你才远比常人强大。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "{{开拓者|搭档}}，还有…丹恒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你…还记得我们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "这两个名字，如同烙印。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "那…我会告诉你。对于你漫长的旅途，这两个名字只出现弹指一挥间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "但我们曾为保护脚下这座圣城并肩而战，也曾在这座悬崖…见证过彼此的决心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "除去启程的信念，我已忘记一切。就连这副身躯，也和你的话语一样陌生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "我只知道，必须囚禁…那吞噬一切的「毁灭」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "如果，我们也是为此而来呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "看看这世界如今的模样，你知道它在等待什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "即便遗忘了一切，我仍相信你能和过去一样，做出正确的抉择。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "我们何曾有过抉择，何曾能左右世界的存亡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "纵使背负万众的理想，也只能…铸就「毁灭」的恶念。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…不。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "我认识的每一个人都已死去，我妄图拯救的世界也支离破碎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "所以，退下吧。此身从不为「救世」而伫立。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "…哈，何必这么严肃？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "抱歉，睡了长长的一觉，先醒来的，都是些不愉快的回忆啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "好久不见，伙伴。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "对我来说，只是短暂的分别。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "我们曾并肩同行，将后背交给彼此。唯独这份记忆，绝对不会磨灭。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "正因它如此珍贵，深埋心底，才需要更多时间……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "再度苏醒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "「开拓」…有意思。在你们的世界，那也是一尊受万人景仰的泰坦吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "无需再确认两位的决心了。而今，将由我等接过神明的职责，庇佑翁法罗斯众生——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "与我一同，成为英雄吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "听到了吗？「英雄」啊，我何时忘记过这个词的重量？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "即便我已不再是英雄，所留下的，也只有无尽的怒火。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "可点燃一团火，也可以是为了照亮前路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "我认识的每一个人都已死去，我妄图拯救的世界也支离破碎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "但我认识的人里，仍有一群{{「英雄」|无名客}}存在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "而他们将为翁法罗斯，带来真正的明天。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡厄斯兰那",
+      "text": "此身从不为「救世」而伫立。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "它只为{{「负世」|「开拓」}}而燃烧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "所以，我要先一步去往明天了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "别让我等太久啊。丹恒…{{开拓者|搭档}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "当然。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "生于「毁灭」，又有何妨？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "不必考量本心，不必渴求胜利。若我生来就是罪恶的容器……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "那就向着罪恶怒吼，为后世「开拓」黎明！"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "白厄",
+          "text": "走吧……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "白厄",
+          "text": "向着黑夜的远方。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "白厄",
+          "text": "你知道黎明就在那里……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "白厄",
+          "text": "还有终将升起的烈阳。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "不会花上太久，我们的道路一定会再交汇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "躁动从神悟树庭传来，阁下该启程了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "另有一则提醒：这一世，一位特立独行的半神偏离了逐火的命运。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "「大地」荒笛，它在无人知晓的历史中陨落。此事疑点重重，与三千万世的演算相悖……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "有理由怀疑，这也和「三月七」阁下有关。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "事到如今，无法得出结论的线索不重要。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "白厄已经为我指明了方向。开启通道吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "「赞达尔」将丹恒送入了「神话之外」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "丹恒阁下已经离开，你可以畅所欲言了——阿那克萨戈拉斯阁下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "感谢赏脸，我还以为，您不打算搭理我这位老熟人了呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "灵感回路记录着，你无数次带领我登上这黎明云崖。最近一次就在上一世，嚯，由刻法勒垂手迎接……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "阁下住进我的脑袋，应该不是为了翻阅这些无关紧要的内容吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "但若果真如此，我也不介意回忆些大地兽的趣闻供你消遣。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "看起来，你现在很轻松嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "当然。实验的变量会由我的敌手铲除，这难道不是一桩两全其美的妙事么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "阁下应当最为清楚，关于那位「记忆」行者，我袒露的情报句句属实。无论是对她身份的猜测，还是提供给丹恒阁下的建议……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "这话不假。到目前为止，你确实没有说谎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "只不过我注意到，每当提及她时，你的思想总会泛起一阵涟漪。就好像……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "在刻意将什么东西藏进大脑深处。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "阁下如此挑明，想必是没找到什么证据吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "不错。借由这具机械躯体，你能够控制思维的边界，只将部分真相拱手示人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "但很可惜。我还是抓住了你没能抑制的一缕恐惧，顺藤摸瓜，翻出了三个字。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "哈哈哈，吕枯耳戈斯，告诉我——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "德谬歌，是为何物？"
+    }
+  ],
+  "warnings": []
+}

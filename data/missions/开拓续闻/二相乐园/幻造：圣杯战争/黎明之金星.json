@@ -1,0 +1,812 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "黎明之金星",
+    "pageId": 39877,
+    "revisionId": 100419,
+    "parentRevisionId": 100044,
+    "revisionTimestamp": "2026-08-02T11:58:14Z",
+    "fetchedAt": "2026-09-28T00:21:24.763Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E9%BB%8E%E6%98%8E%E4%B9%8B%E9%87%91%E6%98%9F",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E9%BB%8E%E6%98%8E%E4%B9%8B%E9%87%91%E6%98%9F&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "黎明之金星",
+    "region": "二相乐园",
+    "type": "开拓续闻",
+    "version": "4.4",
+    "number": "06",
+    "series": "幻造：圣杯战争",
+    "description": "凛即将踏上前往下一个位面的旅途。告别之际，她将大部分魔力用于重新召唤七对主从，让大家实现各自的心愿。",
+    "requirements": "完成任务无限之剑制",
+    "requiredLevel": "21",
+    "characters": [
+      "不死途",
+      "Lancer",
+      "白厄",
+      "Saber",
+      "吉尔伽美什",
+      "远坂凛",
+      "波提欧",
+      "Archer"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "100"
+      },
+      {
+        "item": "星琼",
+        "amount": "10"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "2"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "2"
+      },
+      {
+        "item": "绝对和圣杯战争无关的游戏光碟",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "20000"
+      }
+    ],
+    "previousMissions": [
+      "无限之剑制"
+    ],
+    "nextMissions": [
+      "破晓以后"
+    ],
+    "objectives": [
+      "和众人道别（可选）",
+      "查看案情板",
+      "看看凛的情况"
+    ],
+    "synopsis": [
+      "幻造圣杯战争已至尾声，你前往不死神探事务所，想知道远坂凛有没有找到回家的办法。",
+      "从者们的力量正在消失。Lancer曾与波提欧约好一起喝两杯，现在可能来不及了。不死途表示好办，并邀请你也一起在「世界尽头」酒馆再会。",
+      "以圣剑之名，白厄与Saber返回篮球场继续未竟的决斗，并邀请你作为裁判。如果结束得早，白厄没准还来得及和你过两招。",
+      "吉尔伽美什埋怨翠绿奇美拉，觉得它跑得太慢。就算圣杯战争结束，吉尔伽美什还能维持现界一段时间。",
+      "Lancer偷偷藏下了吉尔伽美什的一瓶佳酿，带来与不死途、波提欧共饮。你与Archer一行人抵达小酌现场，加入其中。",
+      "你调查案情板，发现远坂凛留下了一张便条，指引你去天台找她。",
+      "远坂凛表示多亏有你和大家，她获得了足以继续旅行的魔力。一段故事落幕后，一切物质的得失相抵之后，仿佛凭空诞生的存在，便是至珍贵之物。于这趟旅行的远坂凛而言，便是「生命的跃动」。你与远坂凛互换饯别礼物，郑重道别，愿彼此的旅行终抵群星。"
+    ],
+    "extra": {
+      "相关活动": "「幻造：圣杯战争」",
+      "相关成就": "通往群星的轨道#幻造圣杯战争，结案…？",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "两天后……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "幻造圣杯战争 尾声"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（七天之期已到……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（不知道凛找到回家的办法了吗？没有的话，帕姆应该还有职缺……）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "和众人道别（可选）"
+    },
+    {
+      "type": "objective-description",
+      "text": "那场大战终于落下了帷幕，我此行也终于将要迎来终点。\n一段故事最扣人心弦的往往不是高潮，而是在那之后，更平凡，却也回味悠长的余韵。\n「一段故事落幕后，一切物质的得失相抵之后，仿佛凭空诞生的存在」——对我而言，这个问题的答案究竟是什么呢？——\n哼哼，就请您亲自评判啦，师父。",
+      "location": "二相乐园-鸽川区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（大家都还在……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（…凛呢？）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与不死途和Lancer对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "从者的力量正在消失…算算时间，差不多该回归常人的生活了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "上班摸鱼，下班钓鱼，想想还挺惬意。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "没那么简单。我倒宁愿这场圣杯战争能久一点……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "你呢？好容易又现界一次，还有什么心愿没完成么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "我上次就和波提欧约好了，要去银河里最好的酒吧来两杯…可惜，一直没有抽出时间来探探他的消息。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "身为英灵，果然必须得留点悬而未决的遗憾才行。不然，圣杯可就再也不会找上我了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "早说啊，我现在就给他打电话。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "就把遗憾留到重逢再圆满吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "也不一定。你确定那小子叫波提欧，是吧？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "早说啊！交给我吧，难得一起喝一顿，那小子不会拒绝的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Lancer",
+      "text": "还有这种好事？可以啊侦探大哥，你也不是完全没用嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "见者有份。开拓者，如果来得及，我们「世界尽头」见。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与白厄和Saber对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "我们或许就要在此别过了。只可惜，到头来没能试试你那把圣剑啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "你想上手试试吗，御主？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "…可、可以吗？现在？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "当然可以，但不是现在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "让我们回到篮球场，继续未竟的决斗吧——倘若你能得胜，必胜黄金之剑绝不会辜负你的期待。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我同意，别让等待成为遗憾！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "我也同意。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "不过，开拓者，我们还缺个裁判——等我们的问题解决，没准还来得及跟你过两招。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "要打架了？算我一个！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "Saber",
+              "text": "抱歉，御…不，这次应该称作战友吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Saber",
+              "text": "我们已立下骑士之誓，绝不借助他人力量，堂堂正正取胜。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "白厄",
+              "text": "不过，我们还缺个裁判——等我们的问题解决，没准还来得及跟你过两招。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "白厄",
+      "text": "捉对厮杀直到生命尽头…作为战士，还有比这更让人心潮澎湃的结局吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Saber",
+      "text": "既然如此，开拔吧——以不列颠之名，愿荣誉与你我同在。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与尔伽美什对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "太慢了，我的财宝！本王的财宝马上就要被满城贼人夺去了啊！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "醒醒，圣杯战争已经结束了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这座城市治安有那么差吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "吉尔伽美什",
+              "text": "那是自然，毕竟没有得到本王亲自治理。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "别怕，人家不会被夺走的啦～",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "吉尔伽美什",
+              "text": "愚蠢！本王说的不是你。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "就算圣杯战争结束，本王也还能维持现界一段时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉尔伽美什",
+      "text": "你就做好当牛做马的准备，继续侍奉本王吧，哈哈哈哈哈！"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（酒馆角落）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "Lancer",
+          "text": "喏，金闪闪的宝贝。极品中的极品，终于轮到咱们几个了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "这…你从哪儿搞来的？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Lancer",
+          "text": "他买下了一整条街，现在叫「吉尔家美食街」……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Lancer",
+          "text": "不过嘛，手里这瓶是我冒着生命危险偷藏起来的。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Lancer",
+          "text": "味道怎么样？是不是无敌了？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "我这人嘴笨。非要说，一个字，「神」。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "术业有专攻。发酵果蔬杂粮汁品鉴这块，还得看咱们小牛仔。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Lancer",
+          "text": "来吧，波子哥，如何评价？开始你的表演。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "波提欧",
+          "text": "……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "波提欧",
+          "text": "…………"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "波提欧",
+          "text": "狸猫。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "我来翻译翻译：他的意思是……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Lancer",
+          "text": "哈哈哈哈哈！没事，我懂——一切尽在不言中！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Lancer",
+          "text": "来来来，继续继续！现在就是英雄王本尊来了，咱也得当着他的面全喝完——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "哼，还真是大言不惭啊，那边的枪兵……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Archer",
+          "text": "哟，各位——介意我们分杯羹吗？"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看案情板"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（嗯？这是……）"
+    },
+    {
+      "type": "fold",
+      "title": "凛的便条",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "晨安，我的Trailblazer\n\n这是一条留言：如果你能看到，请再次前来绘世学院天台，我们最初相遇的地方会合\n\n正式出发以前，我都在这里等你"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（…去看看吧。）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "看看凛的情况"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "…我就知道你会来的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "和大家好好道过别了吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "大家都没有留下遗憾，你呢？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "远坂凛",
+              "text": "当然…说不定，我永远都忘不掉这场圣杯战争了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "准备和你道别之后再找大家。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "远坂凛",
+              "text": "我的荣幸。说不定，我永远都忘不掉这场圣杯战争了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "时光飞逝呀…转眼间，居然要出发前往下一站了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你的魔力不是用完了吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "圣杯里的魔力嘛，确实一滴都不剩了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "但，多亏了你，还有大家，我才能找到这份珍贵的宝藏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "以自己的幻造身躯为代价，遐蝶和玻吕茜亚小姐将自己所承载的「缘」化作至纯粹的魔力，原原本本地交到了我的手中……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "重新点亮了这枚承载着「转换」之力的红宝石吊坠。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "这就是独属于我的，一段故事落幕后，一切物质的得失相抵之后，仿佛凭空诞生的存在——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "这，就是我继续旅行的力量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "它比世上全部财富加起来都要珍贵千千万万倍。哭泣、欢笑、愤怒、憎恶……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "一切有情众生都患有名为「存在」的苦疾，而拥抱这种苦疾的一切症状，并乐在其中——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "「生命的跃动」——这就是这片银河赠给我的、最后的答案。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "既然承诺了常回来看看，还有，以防时间过太久，你把我这个御主忘了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "给，饯别礼物——收下吧，我的从者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "这可是我好不容易淘来的游戏光碟，似乎是圈子里相当知名的奇幻动作视觉小说……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "我特别感兴趣——你要好好保管，等我回来再一起玩哦？不准偷跑！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "没问题，我会好好保管的。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "走着瞧吧，看我怎么剧透你。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "远坂凛",
+              "text": "哼哼，这我当然也有对策，走着瞧吧。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你还会玩游戏？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "远坂凛",
+              "text": "…我也没那么电器白痴啦，这种点点点就能通关的游戏还是会的！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "最后，以防万一……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "此为最后的令咒，宣告：遵从圣杯之戒律，将此人，我的从者，加以戒律之法——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "这盘光碟并非赠予，而是债务：原价为3克拉绿宝石，归还时应支付利息以补偿御主放弃资金使用权之成本及风险，年利率3%，附加福利支持分期付款……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "…就这样，补充条款以后再说。契约成立，终于可以了无牵挂地出发啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "那，再见了，我的{{Trailblazer|开拓者}}——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "等一下——！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "嗯？还有什么话想对我说吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "递交你的饯别礼物。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "其实，我也准备了礼物……"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "递出绒绒号漫画"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "愿此行，终抵群星。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "愿此行，终抵群星。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "规则，就是用来打破的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "规则，就是用来打破的！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "愿阿基维利老祖保佑你。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "愿阿基维利老祖保佑你。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "好狡猾，是想拿这个抵债吗——？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "——开个玩笑啦。这么珍贵的礼物，谢谢你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "只是，如此一来，我也欠下了几乎无法偿还的债务呀……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "…肯定没问题的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "以远坂家的荣誉，向你起誓：今后，我会为此一直努力——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "当然——你也不可以松懈哦？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "一定会的，远坂。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "一定会的，御主。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "一定会的，凛。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "既然是我的从者，那就一定是最强的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "愿你我——愿此行，终抵群星！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "当然啦，我不会这么一走了之。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "如果大家都能寻得属于自己的至珍贵之物，那就太好了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "恰好，大家交给我的魔力接下来一段时间完全绰绰有余……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "所以，我就稍微任性了一把——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "挥霍的感觉真是太——爽——啦——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "远坂凛",
+      "text": "至于到了下个世界怎么办…呃，到时候再看吧……"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "霜刃飞光，天狐迷狂",
+    "pageId": 13865,
+    "revisionId": 96701,
+    "parentRevisionId": 72892,
+    "revisionTimestamp": "2026-05-08T06:14:10Z",
+    "fetchedAt": "2026-09-28T00:20:51.692Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E9%9C%9C%E5%88%83%E9%A3%9E%E5%85%89%EF%BC%8C%E5%A4%A9%E7%8B%90%E8%BF%B7%E7%8B%82",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E9%9C%9C%E5%88%83%E9%A3%9E%E5%85%89%EF%BC%8C%E5%A4%A9%E7%8B%90%E8%BF%B7%E7%8B%82&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "霜刃飞光，天狐迷狂",
+    "region": "仙舟「罗浮」",
+    "type": "开拓续闻",
+    "version": "2.5",
+    "number": "11",
+    "series": "明霄竞武试锋芒·下",
+    "description": "对猎人来说，要时刻警醒自己成为猎物——陷落死地的天击将军，积恨七百年的步离狼首，将在一处意想不到的战场上展开最后的决战，不死不休！",
+    "requirements": "完成任务岂曰无持，同气连枝",
+    "requiredLevel": "21",
+    "characters": [
+      "三月七",
+      "云璃",
+      "彦卿",
+      "飞霄"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "500"
+      },
+      {
+        "item": "星琼",
+        "amount": "60"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "6"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "6"
+      },
+      {
+        "item": "碟片",
+        "amount": "1"
+      },
+      {
+        "item": "碟片",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "60000"
+      }
+    ],
+    "previousMissions": [
+      "岂曰无持，同气连枝"
+    ],
+    "nextMissions": [
+      "欃枪烈烈，心兽灭却",
+      "射浪偃潮，旧恨云消"
+    ],
+    "objectives": [
+      "（可选）与同伴们谈谈眼下的状况",
+      "处置呼雷"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "三月七",
+      "命路群像": "猎野围城",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "正在切换至【三月七】视角…\n三月七察觉到了危机来临的征兆，试剑之刻终于到来…"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）与同伴们谈谈眼下的状况"
+    },
+    {
+      "type": "objective-description",
+      "text": "在剑锋及体的瞬间，凭着往日淬炼与历次惨败所得之剑艺，年轻的剑士终于胜出。该是将狼重新囚禁起来的时候了。",
+      "location": "仙舟「罗浮」-竞锋舰"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "以下为彦卿视角"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与三月七和云璃对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "吓、吓死我了，我还以为你差点就要栽在呼雷手里。幸亏那位将军赶到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "彦卿小弟，你做得好啊！刚才击倒呼雷的最后一剑，我怎么从来没见你使过？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这可是绝招。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "你想学吗？我可以教你啊。不过得等我养好这一身伤才行……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "虽然有些不甘心，但如果你能教我，我可以勉为其难地承认你的水平比我高那么一丁点儿……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "呼雷真的是被我们打败的吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "呼雷…真的是被咱们打败的吗？我怎么觉得，在战斗中他不知为何突然落了下风……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "一定是咱们三个的一腔凛然正气让他感到了畏惧！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "你这个人心思还真多啊，这么瞻前顾后干什么啊？管他为什么落了下风，只要最终结果是咱们几个赢了就好！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与飞霄对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "亏你们几个能撑到现在。这场狩猎总算是圆满收场了，云骑军正在善后撤离中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "彦卿骁卫，你身体还撑得住吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我还能再打十个！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "我好得很…一点事都没有！就算再来十个呼雷……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "飞霄",
+              "text": "别太勉强了，年轻人，你看起来伤得不轻啊。等丹鼎司的医士到场，让他们好好给你治治。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "将军，地面上的情况还好吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "将军…地面上一切还好吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "飞霄",
+              "text": "嗯，我尽力镇压了步离人的袭扰。当我察觉到呼雷不在地面上时，我就争分夺秒地赶来这儿了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "幸亏将军赶到救了一命。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "我…我以为我要死了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "飞霄",
+              "text": "我可不想让景元将军失去他的得意弟子。当我察觉到呼雷不在地面上时，我就争分夺秒地赶来这儿了。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "你竟然没把计划告诉我…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "…将军，你竟然没把竞锋舰上的计划告诉我！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "飞霄",
+              "text": "别怨我啊，这可是你家将军的主意。他得知你放弃守擂，加入我的猎狼队伍，便要我对你保密。也许是怕你急性子坏事吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "飞霄",
+              "text": "你看，兜兜转转，不还是回到了这里吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "没想到，生平第一次，我在战场上迟到了。不，也许该说是你们几个年轻人的剑太快了些。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "我本以为最好的战况不过是你们几个能联手拖住这头凶兽，自保不失。但…你们合力击败了呼雷，真是后生可畏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "来吧，为免夜长梦多，该是将呼雷重新囚禁起来的时候了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "处置呼雷"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "真是令人印象深刻的一剑啊…和当年被{{那个女人|镜流}}击败时如此相似。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "七百余年过去，我本以为自己能有破解之法。但我终究还是…爪牙迟钝了。你们赢了，小子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "不必挣扎了，呼雷。回到幽囚狱，你有足够的时间被懊悔折磨。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "我确实败了，但这并不出乎我的意料。但你还是露面了，飞霄。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（处置呼雷）",
+          "content": [
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "进入拓境探游心兽的战场"
+            },
+            {
+              "type": "note",
+              "tone": "蓝色",
+              "text": "吞饮赤月，受其所赐？或受其所蚀？此刻，飞霄挣扎于无边的迷狂中……",
+              "context": "介绍"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "（暂时等候）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "呼雷",
+      "text": "我期待了如此之久，这场狩猎游戏终于走到了尽头…我说过，我为你准备了一条道路……"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "呼雷重新站了起来…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "呼雷",
+          "text": "一条死路……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "呼雷",
+          "text": "我会死去，和我一同死去的还有整个罗浮仙舟！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "呼雷掏出了自己的心脏…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "呼雷",
+          "text": "我胸中的「赤月」，会将血光洒遍这里！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "呼雷",
+          "text": "我会让所有狐人在恐惧中疯狂…渴求杀戮…无休无止！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "呼雷",
+          "text": "你又该怎么做呢…飞霄……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "云璃",
+          "text": "…这是什么东西啊？！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "飞霄",
+          "text": "那是步离战首的「心脏」，「寿瘟祸迹」的产物。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "飞霄",
+          "text": "接下来的事情，要拜托你们了。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "飞霄唤出自己的心兽飞黄…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "将军，我不明白……？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "飞霄",
+          "text": "不能让这东西的影响扩散开。我会尽我所能，吞下这「赤月」。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "飞霄",
+          "text": "一旦情况有变…彦卿骁卫，你来执行云骑的军规。明白吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "将军？"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "飞黄一口吞下「赤月」…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…飞霄从空中落回竞锋舰…"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "步离人…受死！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "什…什么？！我们脑袋上可没有耳朵！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "绝不会让你们…离开竞锋舰！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "她把我们都当成敌人了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "呼雷这家伙，豁出命来也要把将军拖下水！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "快醒醒啊，将军！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "可恶，我还以为能停下来喘口气的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "怎么办？咱们几个是打还是逃？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "事到如今，哪还有逃的选择？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "将飞霄击败至1%血量"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "别再顽抗了！"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "云璃",
+          "text": "不能让她离开！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "…但咱们这不是完全打不过吗？"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "云璃上前拦住飞霄，而三月七释放冰箭减缓飞霄…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "她说过，「接下来的事情，拜托我们了」。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "她相信我们能做到！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "彦卿一刀刺向飞霄…"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

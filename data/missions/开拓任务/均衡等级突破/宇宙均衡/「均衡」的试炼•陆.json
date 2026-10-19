@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "「均衡」的试炼•陆",
+    "pageId": 4169,
+    "revisionId": 37883,
+    "parentRevisionId": 13949,
+    "revisionTimestamp": "2024-05-02T14:00:40Z",
+    "fetchedAt": "2026-09-28T00:16:07.400Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E3%80%8C%E5%9D%87%E8%A1%A1%E3%80%8D%E7%9A%84%E8%AF%95%E7%82%BC%E2%80%A2%E9%99%86",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E3%80%8C%E5%9D%87%E8%A1%A1%E3%80%8D%E7%9A%84%E8%AF%95%E7%82%BC%E2%80%A2%E9%99%86&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "「均衡」的试炼·陆",
+    "region": "仙舟「罗浮」",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "06",
+    "series": "宇宙均衡",
+    "description": "「仲裁官」的试炼再度到来。它的内容、形式、好处和损害你已经很清楚了，不是吗？去吧，为了「均衡」……",
+    "requirements": "开拓等级到达65级",
+    "requiredLevel": "65",
+    "characters": [],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "星轨通票",
+        "amount": "3"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "24"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "22"
+      },
+      {
+        "item": "信用点",
+        "amount": "80000"
+      },
+      {
+        "item": "材料名",
+        "amount": "个数"
+      }
+    ],
+    "previousMissions": [
+      "「均衡」的试炼·伍"
+    ],
+    "nextMissions": [],
+    "objectives": [
+      "前往「流云渡」挑战「均衡」的试炼。",
+      "通过「均衡」的试炼·陆。"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": "开拓等级到达65级后自动接取"
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往「流云渡」挑战「均衡」的试炼。"
+    },
+    {
+      "type": "objective-description",
+      "text": "「仲裁官」的试炼再度到来。它的内容、形式、好处和损害你已经很清楚了，不是吗？去吧，为了「均衡」……",
+      "location": "仙舟「罗浮」-流云渡"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "通过「均衡」的试炼·陆。"
+    }
+  ],
+  "warnings": []
+}

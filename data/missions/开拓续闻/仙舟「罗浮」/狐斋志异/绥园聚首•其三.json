@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "绥园聚首•其三",
+    "pageId": 8433,
+    "revisionId": 34349,
+    "parentRevisionId": 28026,
+    "revisionTimestamp": "2024-03-17T10:53:07Z",
+    "fetchedAt": "2026-09-28T00:20:17.555Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%BB%A5%E5%9B%AD%E8%81%9A%E9%A6%96%E2%80%A2%E5%85%B6%E4%B8%89",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%BB%A5%E5%9B%AD%E8%81%9A%E9%A6%96%E2%80%A2%E5%85%B6%E4%B8%89&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "绥园聚首·其三",
+    "region": "仙舟「罗浮」",
+    "type": "开拓续闻",
+    "version": "1.5",
+    "number": "06",
+    "series": "狐斋志异",
+    "description": "你与捉鬼小队的成员再度在绥园聚首。如同上班打卡一般，翻翻「罗浮杂俎」瞧瞧有什么足够怪异的事情，再去探查一番，一天便这么过去了。",
+    "requirements": "「罗浮杂俎」的订阅量达到100000",
+    "requiredLevel": "34",
+    "characters": [
+      "藿藿",
+      "素裳",
+      "桂乃芬"
+    ],
+    "relatedItems": [],
+    "rewards": [],
+    "previousMissions": [
+      "犀照"
+    ],
+    "nextMissions": [
+      "剑精"
+    ],
+    "objectives": [
+      "在绥园与小队成员们汇合",
+      "与藿藿交谈，查看求助帖"
+    ],
+    "synopsis": [],
+    "extra": {
+      "时间": "",
+      "相关活动": "「狐斋志异」",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在绥园与小队成员们汇合"
+    },
+    {
+      "type": "objective-description",
+      "text": "你与捉鬼小队的成员再度在绥园聚首。如同上班打卡一般，翻翻「罗浮杂俎」瞧瞧有什么足够怪异的事情，再去探查一番，一天便这么过去了。",
+      "location": "仙舟「罗浮」-绥园"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "我觉得这么找没什么效率……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "「食客恶鬼缠身闯进餐厅暴饮暴食吃下体重一倍的食物！」…有没有可能是尾巴干的？像它的作风……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "这应该单纯是吃霸王餐被抓以后在给自己找借口。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "那这个呢…「限制级恐怖幻戏发生灵异事件！七天内多位租借人厄运缠身！」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "这让我想起以前看恐怖幻戏练胆时，尾巴总喜欢在最紧要的地方突然冒出来吓唬我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "家人啊，我觉着这应该只是某种恶作剧…也不排除是有人想拿这个当噱头，提升幻戏的销量。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这是在干什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "在挑选今天的行动吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "藿藿刷了几个时辰的「罗浮杂俎」，每逮着一个可疑事件就问咱们「你说这是不是尾巴干的？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "尾巴真是日理万机，啥坏事都跟它搭上边了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "我有种直觉，尾巴还在。可它要是真的还在，为什么不回来见见我呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "它会回来的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "素裳",
+              "text": "我也觉得，毕竟被绑在一起这么多年，多多少少得念个旧。就算离开也要回来告别一下嘛。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "它毕竟是岁阳…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "是啊，妖怪的心思你别猜。尾巴被封印了这许多年，大概就像我一样，突然得到了自由，铁定会有一段时间到处乱跑的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "当大哥大姐的，还得多多包容，耐心等待呀。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "不过，就算失去了尾巴，藿藿一样是个厉害的判官呀，咱们这么多次行动的成功不就证明了这一点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "唔，谢谢你，桂小姐。你这样夸我，我、我真的很不好意思。如果没有你们的帮助鼓励……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "虽然这些日子和你们一起行动，让我渐渐变得更有自信了一些。但也总是不自觉地想起尾巴还在的日子……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "那时候我只是个没用的胆小鬼，一有风吹草动就要躲起来。尾巴总是一边嘴臭我，一边帮我解决麻烦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "有点我哥那意思了，唉呀，真是孽缘呐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "啊！你们快来看！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "找到尾巴了？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与藿藿交谈，查看求助帖"
+    },
+    {
+      "type": "objective-description",
+      "text": "完成了一日冒险，你与捉鬼小队的成员再度在绥园聚首。如同上班打卡一般，翻翻「罗浮杂俎」瞧瞧有什么足够怪异的事情，再去探查一番，一天便这么过去了。",
+      "location": "仙舟「罗浮」-绥园"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "啊！你们快来看！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "查看完丹鼎司的情况"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "这…会是尾巴闹出来的事吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "尾巴的话题先放在一边…这这这肯定是岁阳作乱啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "咱们抓紧出发吧，晚了可就麻烦了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "出发吧。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不先去问问浮烟？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "没这个时间了家人。浮烟也许知道些什么，但等咱们问完话过去，黄花菜都凉了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（浮烟）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "浮烟",
+          "text": "小鬼，又来嘲笑我了么？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "浮烟",
+          "text": "不过我现在没心情听你说话，一边儿呆着去。"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,1662 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "一名陌生网红的挑战",
+    "pageId": 40894,
+    "revisionId": 102144,
+    "parentRevisionId": 102113,
+    "revisionTimestamp": "2026-09-02T12:32:18Z",
+    "fetchedAt": "2026-09-28T00:21:26.728Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E4%B8%80%E5%90%8D%E9%99%8C%E7%94%9F%E7%BD%91%E7%BA%A2%E7%9A%84%E6%8C%91%E6%88%98",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E4%B8%80%E5%90%8D%E9%99%8C%E7%94%9F%E7%BD%91%E7%BA%A2%E7%9A%84%E6%8C%91%E6%88%98&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "一名陌生网红的挑战",
+    "region": "千星城",
+    "type": "开拓续闻",
+    "version": "4.5",
+    "number": "01",
+    "series": "亏成首富，从不要钱开始",
+    "description": "一名擅长使用金钱试探人性的网络博主大禽找上了你，希望你能够参加一场「不要钱挑战」——你赚得天价奖金，他赚得泼天流量。",
+    "requirements": "完成任务神话哲学与公正游戏",
+    "requiredLevel": "21",
+    "characters": [
+      "知更鸟",
+      "舒翁",
+      "砂金",
+      "大禽",
+      "小勤"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "星琼",
+        "amount": "50"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "160"
+      },
+      {
+        "item": "信用点",
+        "amount": "200000"
+      }
+    ],
+    "previousMissions": [],
+    "nextMissions": [
+      "不要钱挑战·第一日"
+    ],
+    "objectives": [
+      "查看短信",
+      "前往接驳码头，与知更鸟碰头",
+      "与知更鸟对话",
+      "完成代言拍摄，与大禽对话",
+      "前往大禽发帖的地方，找到大禽"
+    ],
+    "synopsis": [
+      "忙于赶通告的知更鸟刚一下车，就被热情的粉丝们团团围住。安抚粉丝之后，知更鸟与你在千星城重逢。",
+      "受邀为「星速引力」开幕式献唱的知更鸟刚刚结束彩排，并为你预留了几张观赛门票。而知更鸟此行的另一个目的是收回「歌斐木的遗音」，它出现在千星城网红大禽的私人拍卖会清单上。与此同时，大禽向你发来见面邀请。",
+      "知更鸟原想与你一起去会会大禽，但与「家族」晚宴的行程冲突。你表示自己一个人没问题的，让知更鸟先去忙，随时联系就好。",
+      "「反毁灭同盟」会谈前夕，「家族」代表「心宿二」提议由知更鸟前往千星城「献唱」，以此扩张「同谐」的影响。知更鸟察觉到自己被施加了调律，但表面应允下来。",
+      "砂金完成广告的拍摄工作，并把其所代言的公司新产品送给片场探班的粉丝们。大禽找到砂金，请砂金借一步说话。",
+      "大禽觉得砂金太有钱了，这导致「挑战」缺少节目效果。大禽询问砂金最想买的是什么，砂金表示，那是一个被精心隐藏的「秘密」。",
+      "基石损毁后，钻石下达的处罚是「一命抵一石」，要求砂金找出十人中的叛徒。为获取线索，砂金请求举办一场剥夺他「石心十人」资格的处罚决议。",
+      "似乎砂金正是为了这个「秘密」而参与了大禽的购物挑战。大禽提醒，砂金手中的「大富翁卡」能创造一个「购买项」。只要砂金出得起价，大禽就会尽力达成。",
+      "按照大禽留下的地址，你来到预定地点等待与大禽见面。",
+      "大禽携摄影师出场，向你介绍「不要钱挑战」——三天内在千星城花光200亿信用点，即可获得千亿财富。你接受挑战，账户上立即多出200亿启动资金。"
+    ],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看短信"
+    },
+    {
+      "type": "objective-description",
+      "text": "到达银河千星汇聚之城——千星城，太美丽了千星城…会不会遇到什么大明星呢？\n「叮咚～」还是先看看近处的手机短信吧。",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "message-thread",
+      "title": "知更鸟",
+      "subtitle": "让我们把翅膀借给彼此",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "知更鸟",
+          "contentType": "sticker",
+          "sticker": "15-02",
+          "file": "聊天表情-15-02.png",
+          "asset": "assets/sr-images/聊天表情-15-02.png"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "知更鸟",
+          "contentType": "text",
+          "text": "开拓者，听说你最近也去了千星城？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "知更鸟",
+          "contentType": "text",
+          "text": "要不要见个面？"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "见！",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "见！"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你也在吗？！",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "「也」的意思是你也在？"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "知更鸟",
+          "contentType": "text",
+          "text": "嗯嗯，我刚参加完开幕式彩排"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "知更鸟",
+          "contentType": "text",
+          "text": "离下个通告前还有点时间，在接驳码头快速碰个头？"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "好的，不见不散"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "谁鸽就是周天鸽"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "知更鸟",
+          "contentType": "text",
+          "text": "我哥就是周天鸽"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "知更鸟",
+          "contentType": "text",
+          "text": "哈哈开个玩笑，绒绒号太萌了，我也买周边买得停不下来"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "知更鸟",
+          "contentType": "text",
+          "text": "不见不散"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "知更鸟",
+          "contentType": "sticker",
+          "sticker": "12-16",
+          "file": "聊天表情-12-16.png",
+          "asset": "assets/sr-images/聊天表情-12-16.png"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往接驳码头，与知更鸟碰头"
+    },
+    {
+      "type": "objective-description",
+      "text": "千星城是星际和平娱乐的总部所在地，知更鸟小姐会在这里刷新，也是一点都不奇怪呢……\n总之先去短信提到的接驳码头碰头吧。\n\n「有个非常要好的朋友是银河大明星，是一种怎样的体验？」\n「谢邀。想见面的时候，就只能赶大明星的下一个通告。」",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "舒翁？那么巧，她也在千星城。"
+    },
+    {
+      "type": "message-thread",
+      "title": "舒翁",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "舒翁",
+          "contentType": "text",
+          "text": "开拓者，我看到你了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "舒翁",
+          "contentType": "text",
+          "text": "小鸟应该也快到了"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "你怎么知道我在找她？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你怎么知道我在找她？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "舒翁",
+                  "contentType": "text",
+                  "text": "没想到吧？我现在是她的临时「助理」，就在这儿等你呢"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "其实我在找的人是你…",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "其实我在找的人是你…"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "舒翁",
+                  "contentType": "text",
+                  "text": "不用解释啦。我现在是她的临时「助理」，是她告诉我你会来这里的"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "这儿人好多……",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "还能在这里见面吗？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "人怎么会这么多…我们还方便在这里见面吗？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "舒翁",
+          "contentType": "text",
+          "text": "虽然她来参加开幕式是公开的通告，但今天的行程不知道怎么泄露了出去"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "舒翁",
+          "contentType": "text",
+          "text": "我给你发个地址，你等会在那等等我们？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "舒翁",
+          "contentType": "text",
+          "text": "我先接到她"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "舒翁",
+          "contentType": "text",
+          "text": "来了"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟的粉丝",
+      "text": "啊！快看，是知更鸟——！！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟的粉丝",
+      "text": "小鸟宝宝——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟的粉丝",
+      "text": "居然是新衣服！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟的粉丝",
+      "text": "鸟是要直接赶下一个通告吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟的粉丝",
+      "text": "我晕了这太美了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "麻烦让一让，不要拥挤，小心脚下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟的粉丝",
+      "text": "小鸟…可以合个影签个名吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "抱歉，我们今天有些赶时间……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "大家的心意我收到了，但人流密集，出于安全考虑，还是不要在这儿长时间聚集啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "除了演出之外，之后还有签售会和见面会，马上就会官宣，大家可以关注一下～"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟的粉丝",
+      "text": "好——！小鸟好好休息～"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "谢谢大家的关心，到时候见～"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "怎么样？还好吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "还好…来的路上眯了一小会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "开幕彩排、新代言的广告拍摄、反毁灭同盟的会议…这段时间你就没停下来过。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "本来也是担心你忙不过来，才没安排见面会，没想到…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "没事，回应大家的期待才是最重要的…放心吧，我自己的状态自己最清楚，不会勉强。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "哈哈，开拓者他/她已经到啦，在那边呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "现在人少了，我们走吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "与老友重逢，才算得上是你难得的「假期」，对吧？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与知更鸟对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "不好意思呀，本来想约在更正式的地方，但通告密集，只能临时在这里见面了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "没什么不舒服吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "知更鸟",
+              "text": "还好，就是困得不行，回头补个觉就好啦。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "要不要换个时间…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "知更鸟",
+              "text": "没关系，就怕后面的时间更难凑。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那我要夸夸小鸟新造型！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "泳装好好看！很夏日！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "谢谢你，我也很喜欢这身，还尝试加了一些自己的设计——是不是有点像晴空下的蓝海？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "最近有关星穹列车的新闻不少，你…还好吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "谢谢关心。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "知更鸟",
+              "text": "如果有我可以帮得上忙的，随时和我说。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "放心，主打一个活着。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "知更鸟",
+              "text": "是吗…如果有我可以帮上星穹列车的，请随时和我说。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "至少顺利见到你了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "知更鸟",
+              "text": "只有这么点要求吗？如果有我可以帮上星穹列车的，随时和我说。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "噢…差点忘了原本约你见面的事，你对赛车感兴趣吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "刚刚正好在为「星速引力」的开幕进行彩排，听说你最近也在这儿，我让主办方预留了几张观赛门票。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我更喜欢飙车。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "知更鸟",
+              "text": "要是有空间，我一定帮你沟通下参赛资格…这几张票，你也先收着吧。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "感谢！喜欢速度与激情！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "知更鸟",
+              "text": "太好了，希望千星城的度假氛围能让你多放松放松。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "不感兴趣，但想听你唱歌。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "知更鸟",
+              "text": "开幕舞台应该会全城转播，这几张票，你也先收着吧~"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "好了，我的一桩心愿已了，最近发生的事实在太多了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "如果你指的还有「那件东西」，我打听到它确实在千星城，不过……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是私人话题？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我回避一下…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "没关系。这是一件此行我必须收回的物品——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "「歌斐木的{{遗音|遗产}}」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "只是我们都没想到，它会出现在一场私人收藏拍卖会的拍品清单上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "你们听说过「大禽」吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "是那位策划了很多爆火视频的网络红人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "「最后离开红巨星逃生舱的人，赢2亿信用点」，「与108只真蛰虫同居365天，9千万信用点的真人鱿鱼游戏」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "用金钱考验人性加上极致的规模与成本，观众的心理都被拿捏透了，不火也难。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "突然有点想看了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "让我来挑战试试！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "…还挺没人性的。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "我还以为开拓者你已经认识他了，毕竟…他在网上指名道姓地找你。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "…诶？！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我看看。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "20万信用点悬赏开拓者",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "我，20亿粉丝顶流网红Mr大禽，今天起也入驻狸狸八卦了\n\n理由很简单，我听说大名鼎鼎的开拓者也来千星城了，我必须来狠狠吃这波流量啊！\n\n我想让他/她来拍一个视频，可能是我们频道最疯狂、成本最高的视频。在此之前我最高播放量的视频是20亿次观看，这次我已经有一个剧本了，目标是40亿次观看。\n\n所以开拓者本人能看到吗？你要是愿意来见我一面，我直接给你20万信用点，然后再谈视频创意，你不同意也没关系。\n\n我就在图片的位置，到了给我发私信吧\n\n如果本人没有看到，你们谁认识他/她或者他的线索能让我找到他/她，我也给你20万信用点。\n\n在这个帖子下面回复「线索+你掌握的内容」\n\n（如果不方便透露，就留言「我去，开拓者！」，我会私信你）\n\n转发这条帖子的人，我随机抽3个人各送1万信用点。\n\nP.S. 打个广告。\n\n我在千星城办了一个私募拍卖会，拍品甚至包括前匹诺康尼梦主的遗产。\n\n不过，拍卖会是邀约制，已经收到邀请的各位老板，可千万别忘记哟～"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "objective-description",
+      "text": "大禽？谁？这是网名吗？是有名的视频博主，还做过很多爆火视频的大红人？找你干什么？\n和知更鸟、舒翁再商量一下吧。\n\n「完全没有意识到自己可能是银河大明星，是一种怎样的体验？」\n「谢邀。刚上网发现有人用20万信用点悬赏自己，说是只为见上一面。」",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "遗音的线索比想象中来得更直接——大禽有意拍卖，我拍下便好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "但总感觉大禽的目的没有看上去那么简单……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "开拓者…你打算怎么回应？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "他没找上我，我也会找上他…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "确实可疑，感觉要谨慎接触…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "大禽在网上引起了过多关注。无论他是慷慨的朋友，还是另有所图——只有当面会会他，才能弄清楚他的目的…顺便，也可以给你作为参考。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "我和你一起去吧。舒翁，今晚原定的事项可以帮我拒绝吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "虽说「家族」格外重视这次晚宴，但主要还是看你意愿……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "放心，我可以自己去。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "没事的，你先去忙吧！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "别担心。况且我要是出事了，还指望你来救我……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "你太体贴了。那…如果有任何需要我帮忙的，随时联系。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "既然决定去了，那就顺其自然吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "舒翁",
+      "text": "还是因为反毁灭同盟么？「家族」给了你很大压力？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "不，那只是个幌子……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「心宿二」",
+      "text": "「同谐」的舞步，何时需要「存护」指引？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "「家族」不希望加入「反毁灭同盟」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「心宿二」",
+      "text": "恰恰相反，这是个千载难逢的机会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「心宿二」",
+      "text": "开拓、存护、巡猎、欢愉…甚至是毁灭，不过是各自孤立的器乐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「心宿二」",
+      "text": "「家族」比伪善的公司更擅长引导，比闷头前进的无名客更擅长指挥。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「心宿二」",
+      "text": "让{{它们|命途}}成为交响中的一枚音符，由同谐将它们调和，融入更宏大的编排，如此那永恒乐章才能显现——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "您知道，银河的命运从不听从一方的指挥，而是追随那些{{更加明亮的音色|开拓}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「心宿二」",
+      "text": "我们承认在匹诺康尼，开拓有着令人印象深刻的回响，不过那也只是{{「家族」|「希佩」}}应允下才存在的颤音。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「心宿二」",
+      "text": "我们不希望任何意外发生，只要接下来的乐章足够圆满，祂的意志会再次降临。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "可是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「心宿二」",
+      "text": "我们听到了你心中的杂音，孩子。说出你的困扰，我们来为你解答。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "我想知道…为何您不出面，而是让我去千星城？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「心宿二」",
+      "text": "因为那里并非匹诺康尼的「美梦」，因此你的歌声会比任何言语，更值得被众人倾听……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「心宿二」",
+      "text": "此次「献唱」，是「家族」对你寄予的厚望。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "（同谐的调律？我居然一直没有发现……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "（是想消除杂音么？还是……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "我明白了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「心宿二」",
+      "text": "好孩子，去拨开众人眼前的阴翳吧。使他们再度直视那予取予求的伟力，敬拜三重面相降下的仁慈——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「心宿二」",
+      "text": "「家族」，会以你为荣。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "完成代言拍摄，与大禽对话"
+    },
+    {
+      "type": "objective-description",
+      "text": "砂金也来到了千星城，似乎他已经接受了大禽的视频挑战。\n砂金自然另有目的，而这个挑战只是接近目的的手段。",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与此同时，另一边砂金正在拍摄广告"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摄影师",
+      "text": "诶！这个表情很好，氛围感绝了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摄影师",
+      "text": "对对，不要看我，可以看那边，看人群！太会了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摄影师",
+      "text": "换个角度再来一张！这表现力——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摄影师",
+      "text": "您简直就是夏天的神！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "摄影师",
+      "text": "最后一张——完美！收工！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "辛苦大家。今天拍摄的所有公司新产品，全部由我买单，就送给辛苦跑来探班的朋友们吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "大禽先生，素材还没拍够，来这里找我了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "看您说的，砂金总监难得亲自下场带货造势，就算是凑个热闹我也得来看一看。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "不过，找您是有别的事…借一步说话？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "大禽和砂金走到了人少的角落"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "您的挑战已经开始，原则上我应该非必要不出现。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "但截止目前为止…您的挑战缺少了些*节目效果*——咱们的剪辑老师翻遍了素材，就是找不到亮点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "噢，听上去是个问题…不过这是你们的问题，不是我的，对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "嗐，别这么说。我的节目建立在「对金钱的欲望」之上——只有挑战者*想要*「奖励」，才会克服万难完成挑战…可是您，太——有钱了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "不仅有钱，还高调…当然，我邀请您就是因为您本身足够有话题度。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "谢谢夸奖。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "但光有这些还不够。您的问题在于，缺少反差。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "如果我在节目里说，我挣多少花多少，没有存款——这算反差吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "…倒也不必告诉我这些。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "总之，为了让节目如期上线，我心里多少得有个底，我必须问问您——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "您最最最想「买」的到底是什么呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "放心，这段不会被剪进去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "噢！我没和你说过吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "是一件不知价码，根本买不到的东西。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "太坏了！还有这种东西？在谁手上？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "尽管告诉我，大禽有的是渠道。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "秘密。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "都这时候了，还要藏着掖着…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "你没理解——我想买的是，一个被精心隐藏起来的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "「秘密」。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "砂金的基石损毁后，宣布对砂金处理结果前夕"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？",
+      "text": "「一枚基石已致损毁，你清楚代价是什么。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "「珍惜基石要如珍惜生命」，所以是一石抵一命，对吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "「钻石」老板？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "但如果真是这样，您直接动手便可，更不用掩人耳目向我下达密令。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "所以我想，我还有机会？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "石头老板？",
+      "text": "「是一命抵一石。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "石头老板？",
+      "text": "「我需要你，帮我找出十人中的叛徒。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "这是个得罪人的差事，也有一种可能：我就是那个叛徒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "开玩笑的。那…有线索吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "石头老板？",
+      "text": "「没有。你不会得到任何支持，线索，方法，代价，全看你自己。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "石头老板？",
+      "text": "「无论你遭遇什么，即便被捕或被杀，部门对此都不知情。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "…我想也是。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "话虽如此，想要调查总需要些提示……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "这样如何？按照老规矩，您来召集{{我们|「石心十人」}}——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "举办一场剥夺我「石心十人」位列资格的处罚决议。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "让我听听他们各自说了什么…这应该可以吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "石头老板？",
+      "text": "「可以。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "通信器将在5秒后销毁。5、4、3、2……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "石头老板？",
+      "text": "「他们已经到了。」"
+    },
+    {
+      "type": "text",
+      "text": "*石头老板被烧毁的声音*"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "秘密…？有看头起来了！不知道您的「购物挑战」里是否包含了您想要的「秘密」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "亮出所有底牌的人总是输得最快。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "您说得对，只是请容许我再提醒一次……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "您手里那张「大富翁卡」能创造一个「购买项」——就算是路易斯·弗莱明的黑料，我也会尽力而为。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "但，只怕您出不起那个价码…嘿嘿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "大禽先生是希望我挑战成功呢，还是失败呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "对于所有的挑战者，我的回答都是——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "只要有一个足够有噱头的「大场面」，仅此而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "就让我们彼此都拭目以待吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往大禽发帖的地方，找到大禽"
+    },
+    {
+      "type": "objective-description",
+      "text": "大禽？谁？这是网名吗？是有名的视频博主，还做过很多爆火视频的大红人？找你干什么？\n他究竟是什么来头，只能当面问清楚了。\n\n「完全没有意识到自己可能是银河大明星，是一种怎样的体验？」\n「谢邀。刚上网发现有人用20万信用点悬赏自己，说是只为见上一面。」",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一段时间后，开拓者找到了大禽在狸狸八卦上留下的地址"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（应该就在这附近了……）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "星穹列车的无名客，幻月游戏的谒者，《苍天航路绒绒号》的球棒浣熊——就算是在群星汇聚的千星城，开拓者也是这里最耀眼的明星啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "幸会幸会，我叫大禽，是您的粉丝。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "幸会幸会，原来你真是鸟。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "大禽",
+              "text": "如假包换的——真扎兹卡人！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "哎哟客气了，我是你粉丝。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "大禽",
+              "text": "看来咱们是一拍即合啊！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "别废话了，直接谈项目吧！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "大禽",
+              "text": "就喜欢这份直率！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "呵呵…在谈正事之前，来玩一个快问快答的小游戏吧——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "假设您现在、立刻、马上要将手里的20万信用点花光！只买一样！您会买什么？3、2、1——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "买一辆车。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "金块坨子。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "爱人的心。",
+          "content": []
+        },
+        {
+          "id": 4,
+          "text": "仇人的泪。",
+          "content": []
+        },
+        {
+          "id": 5,
+          "text": "我的笑容。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "哈哈，我喜欢您的选择！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "就在刚刚，我给您账户转了20万。小小见面礼，不成敬意！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "接下来想和您谈的「项目」，要比这小游戏刺激万倍，回报也要丰厚……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "亿倍！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "感兴趣吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我很感兴趣！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "就给这么点…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "感觉有陷阱？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "我就直说了：我想要您——开拓者成为游戏挑战者，下个爆款视频的主角！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "挑战？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "人生真是处处充满挑战。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "游戏？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "到了千星城还要继续玩游戏？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "主角？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我一直都是主角……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "这个游戏，就是为您量身定制的——「不要钱挑战」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "三天内，在千星城，花光我给你的200亿信用点——即可获得永久保值的千亿财富。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "看看这里吧——精英、富豪、显贵…比比皆是。消费，是这里永恒的主题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "猜猜我这顶帽子花了多少钱？在匹诺康尼，它能值一辆豪车。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "只要能找到门道，您在千星城花钱可以比流水…噢不，比泄洪更快……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "听着就不是好事…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "想忽悠我，没门！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "你想想，你自从登上列车后，吃列车的，拿列车的…你有交过任何房租、水电、还有物业管理费吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "就算列车长和领航员从来没有抱怨过什么，在你的内心里，就不想为列车的小金库里添上一笔贡献吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "千亿信用点…错过这次机会，恐怕没有下次了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "玩，还是不玩？我需要您的答复——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那你有什么好处？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "大禽",
+              "text": "超级爆款的节目效果，是再多的钱也得不到的——观众就爱看这个。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "玩！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "玩！！",
+          "content": []
+        },
+        {
+          "id": 4,
+          "text": "玩！！！",
+          "content": []
+        },
+        {
+          "id": 5,
+          "text": "这是陷阱，我不玩！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "大禽",
+              "text": "和我听说得不一样呐，怎么一点欢愉精神都没有，这也能成为幻月游戏的胜者吗……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "大禽",
+              "text": "我再问最后一遍：玩，还是不玩？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "玩，现在就玩！",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "你也没给我拒绝的选项啊！",
+                  "content": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "「不要钱挑战」的{{商业合作协议|规则}}现在就发送给您，请务必仔细阅读。"
+    },
+    {
+      "type": "fold",
+      "title": "「不要钱挑战」商业合作协议",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "甲方（挑战参与者）： 开拓者\n\n乙方（节目制作与发起方）： 大禽\n\n鉴于乙方策划并制作名为「不要钱挑战」（下称「本挑战」）的网络视频节目，并邀请甲方作为该期节目核心嘉宾参与，甲乙双方经平等协商，就合作事宜达成如下协议：\n\n第一条 挑战核心条款\n\n1.1 挑战目标\n\n甲方需自本协议生效之日起的连续72小时（3个自然日）内，在千星城行政区域内，合法地完成总额为贰佰亿信用点的消费任务。\n\n1.2 成功与失败\n\n(a) 成功\n\n指在约定时限内，完全符合本协议所有限制性条款地完成第1.1条所述消费。成功则甲方获得由乙方支付的奖励壹仟亿信用点，该奖励为税后金额，且性质为永久性、不可撤销的赠予。\n\n(b) 失败\n\n指超时或违反任何限制性条款。失败则甲方须在24小时内，向乙方 全额偿还 其在挑战期间本次挑战的全部款项贰佰亿信用点。\n\n第二条 限制性条款（消费规则）\n\n甲方在挑战期间的消费行为须严格遵守以下规则：\n\n2.1 禁止资产留存\n\n消费不得用于购置任何具有长期存续价值或可被视为资产的物品，包括但不限于不动产、交通工具、贵金属、珠宝、知识产权、公司股权等。\n\n2.2 禁止破坏与赠予\n\n不得故意毁坏所购物品；不得将款项用于慈善捐赠、公益事业或任何形式的无偿赠予（雇佣关系下的薪酬支付除外）。\n\n2.3 消费主体限制\n\n所有消费必须用于甲方自身，或为完成消费而 合法雇佣 的人员所提供的劳务报酬（不能远超市场价格）、差旅及必要开支。\n\n2.4 行为合法性\n\n所有消费及行为必须严格遵守星际和平公司一切法律法规，严禁涉及色情、赌博、毒品及任何非法交易。\n\n第三条 节目制作与收益\n\n3.1 甲方知悉并同意，其参与本挑战的全过程将被乙方录制并制作成视频节目《不要钱挑战》发布。\n\n3.2 基于本次合作产生的节目，其产生的 全部收益（包括但不限于平台广告分成、赞助费、转授权收益等）由甲乙双方平均分配，各占50%。\n\n3.3 乙方承诺，本期节目不晚于挑战周期结束后第七日在乙方主要视频平台频道首发上线。节目的具体剪辑、宣传由乙方全权负责。\n\n第四条 保密义务\n\n4.1 在本协议第三条约定的节目公开发布前，甲方不得以任何形式向任何第三方透露本挑战的存在、规则、进程及结果。\n\n4.2 此保密义务自协议签订日起生效，至节目全网公开播出时终止。\n\n第五条 其他\n\n5.1 本协议履行期间，因挑战本身所产生的任何额外收入或收益（包括但不限于第三条所述的节目收益、意外获得的奖品、退款等），均需计入甲方贰佰亿信用点的消费总额中进行冲抵。\n\n5.2 本协议一式两份，甲乙双方各执一份，自双方签字之日起生效。未尽事宜，双方可另行签订补充协议。\n\n甲方（签字）： ____\n乙方（签字）：大禽"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "现在签名，200亿就交给您了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（签名）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "很好。就像过往所有的挑战一样，您可以选一张「大富翁卡」高效完成挑战。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "鉴于您初次参加挑战——我推荐这张「花钱如雨下」的天气卡，您一定会感谢我的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "另外，本次挑战将由「花钱小助手」小勤来管理和记录200亿全部消费过程。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "它会帮您处理各种繁琐的手续——您只管想着怎么花钱，剩下的都交给小勤吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "您有一笔信用点到账，200亿。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这简直是早有预谋！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "别急、别急、别急…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "不要怪我争分夺秒。接下来您就会明白，在「不要钱挑战」里最贵的是「时间」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "大禽",
+      "text": "——观众朋友们，我宣布「不要钱挑战」现在开始！"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,1781 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "茸客鸣呦，玉角盘虬",
+    "pageId": 3207,
+    "revisionId": 78784,
+    "parentRevisionId": 77414,
+    "revisionTimestamp": "2026-02-15T15:58:09Z",
+    "fetchedAt": "2026-09-28T00:15:45.982Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E8%8C%B8%E5%AE%A2%E9%B8%A3%E5%91%A6%EF%BC%8C%E7%8E%89%E8%A7%92%E7%9B%98%E8%99%AC",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E8%8C%B8%E5%AE%A2%E9%B8%A3%E5%91%A6%EF%BC%8C%E7%8E%89%E8%A7%92%E7%9B%98%E8%99%AC&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "茸客鸣呦，玉角盘虬",
+    "region": "仙舟「罗浮」",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "12",
+    "series": "乘槎驭风仙窟游",
+    "description": "工造司，司掌仙舟发明与制造的部门。抵达工造司时，入口处人头攒动。这倒是不出意料：覆巢之灾，难有完卵。只是若不打开大门瞧瞧，也不知里面到底发生了什么麻烦事。",
+    "requirements": "完成神木重萌，掣转天衡",
+    "requiredLevel": "34",
+    "characters": [
+      "三月七",
+      "瓦尔特",
+      "停云",
+      "公输师傅",
+      "云澈",
+      "子铭",
+      "铖杰",
+      "阿伟"
+    ],
+    "relatedItems": [
+      "工造司玉符"
+    ],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "1000"
+      },
+      {
+        "item": "星琼",
+        "amount": "80"
+      },
+      {
+        "item": "「存护」之影",
+        "amount": "1"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "4"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "4"
+      },
+      {
+        "item": "《逐鹿》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "30000"
+      },
+      {
+        "item": "材料名",
+        "amount": "个数"
+      }
+    ],
+    "previousMissions": [
+      "神木重萌，掣转天衡"
+    ],
+    "nextMissions": [
+      "金鼎灵树，穷途梼杌",
+      "十王敕命，劫余同行"
+    ],
+    "objectives": [
+      "进入工造司一探究竟",
+      "探查建木根须侵蚀工造司的情况",
+      "跟随公输师傅前进",
+      "前往造化洪炉所在处",
+      "调查工造司内，破解玄鹿重生力量的来源",
+      "破坏建木缠结",
+      "找到第三处建木缠结",
+      "重返造化洪炉所在处，击败丰饶玄鹿"
+    ],
+    "synopsis": [
+      "你们来到工造司，却被紧缩的大门阻隔。停云称工造司是仙舟机要重地，贸然进入不妥，她提议向匠人们询问内部情况。",
+      "你们进入工造司，发现疯长的建木根系缠住了造化洪炉。星核造成的侵蚀愈发严重，你们必须对此有所应对。",
+      "你们被几只机械怪物包围。机械怪物的控制者称「机要重地贼人免进」，别怪他不客气！",
+      "你们击败机械怪物，得知阻挠者是工造司匠人「公输师傅」。瓦尔特向其解释你们受景元所托途径此地，公输师傅请你们帮忙解救危局。",
+      "公输师傅向你们介绍「换境画屏」，可以在两个空间坐标间传送物体。除此之外，工造司还有一项神秘武器。",
+      "公输师傅向你们介绍「匣里流光」，这原本是为云骑军研制的武器，威力无比，而今正好可以用来消灭增生的「建木缠结」。",
+      "你成功使用机关装置击破建木枝条，洞天内传来一阵震动。公输师傅提议乘胜追击，以免枝条复生。",
+      "你们看到被建木根系完全缠绕住的「造化洪炉」，那是工造司的至宝。公输师傅称必须尽快将其解放出来。",
+      "从缠绕「造化洪炉」的建木根系中，丰饶玄鹿诞生于此，以对抗你们破坏建木缠结的举动。",
+      "丰饶玄鹿以建木根系汲取洪炉中的能量，顷刻间治愈自身。你们力战不敌，暂时撤退。",
+      "你们撤退至安全地带，寻求击败玄鹿的方法。瓦尔特认为玄鹿可能是从某处汲取了生命能量，提议四下调查一番。",
+      "你们看到一整排金人陈列架。公输师傅称这是这是工造司造来镇守各处的帮手，但这一批还没上色完毕，不能出战。",
+      "公输师傅认为，玄鹿的生命力由建木提供。你们尝试摧毁更多建木缠结，以削弱其恢复能力。",
+      "第三处建木缠结被破坏。公输师傅认为工造司中的建木根系已经清剿得差不多了，是时候回去再与玄鹿较量一番。",
+      "丰饶玄鹿与「造化洪炉」的联系被切断。受创倒地的丰饶玄鹿无法恢复生命力，最终化作枯叶飘散。",
+      "你们击败丰饶玄鹿。保护了造化洪炉的完整。公输师傅感谢你们出手相助，称与建木毗邻的丹鼎司内部会更为凶险，祝你们一路顺利。"
+    ],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "通往群星的轨道#共逐失鹿、通往群星的轨道#鹿死谁手",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们搭乘星槎来到了工造司…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "咦？这地儿聚了好些人呀。看来今天罗浮宜歇业，忌开工。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "这「工造司」的洞天早在星核侵蚀后就停摆啦。这些人怎么不搭乘星槎去安全区呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "可能工造司比较爱岗敬业吧。想想太卜司的卜者，什么叫没有对比就没有差距啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "毕竟是工作嘛，要靠它生活的。成年人的世界…呵呵，没有轻松二字。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "杨叔你这过来人的语气……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "有感而发，有感而发。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "开拓之路也没有轻松二字。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "杨叔那是有感而发，你说这个就叫矫情啦。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "停云",
+              "text": "当今这世道，又有哪条命途是轻松的呢~"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "没准他们是夹道欢迎咱们。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "停云",
+              "text": "是啦是啦~恩公是将军请来的援手，放在故事里便是从天而降、救急救难的御史大人了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "停云",
+              "text": "只可惜这些人见了咱们，却没献花问好——恩公的猜测未免过于自信啦~"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "各位瞧，这「工造司」里尽是研造奇械机关的工坊，与挖空心思发明创新的匠人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "他们的传统便是隔三差五捅几个篓子——要么将洞天楼阁凭空变走，要么是机巧人偶暴动什么的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "恩公们可得小心了。依我看，里头怕是出了什么天大的麻烦，叫这伙匠人去不敢去，逃又无路可逃。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "但我们总是得往里走的，先找个人打听打听吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "进入工造司一探究竟"
+    },
+    {
+      "type": "objective-description",
+      "text": "工造司，司掌仙舟发明与制造的部门。抵达工造司时，入口处人头攒动。这倒是不出意料：覆巢之灾，难有完卵。只是若不打开大门瞧瞧，也不知里面到底发生了什么麻烦事。",
+      "location": "仙舟「罗浮」-工造司"
+    },
+    {
+      "type": "fold",
+      "title": "待机语音",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "男性",
+          "text": "我还从未见过那样的建木。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "男性",
+          "text": "很久以前就是这样的吗？"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（云澈&子铭）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "待机文本\n\n子铭：刚刚那四个人什么来头\n\n云澈：谁知道呢？\n\n子铭：也许是逃难的游客吧？"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "子铭",
+          "text": "这玩意不像草木之属，倒有股子金铁的坚韧感……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "子铭",
+          "text": "师姐，你有见过性质如此罕见的材料吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "云澈",
+          "text": "见过怎样，没见过又怎样？难不成你还准备从那巨木上刨一块下来不成？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "子铭",
+          "text": "您别说，我还真存着这心思。那就是棵盆栽嘛。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "云澈",
+          "text": "你长这么大见过盆栽走路？见过盆栽把地板凿个对穿？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "子铭",
+          "text": "就算它会动也不足为惧。咱飞快地跑上去，剌它一刀就走。实验材料就这么到手啦，它长得还能比咱跑得快？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "云澈",
+          "text": "来，师姐疼你，撬棍和切割锯都给你准备上了，去吧！事后云骑军把你从墙上铲下来的时候，别怪师姐没警告你。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "子铭",
+          "text": "小弟最近…偶感风寒…大师姐，材料组就属您手脚麻利，这动手实操的环节……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "云澈",
+          "text": "风寒来得挺及时哈？麻利个屁，我还想活久一些呢！"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（铖杰）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "待机文本\n\n铖杰：卜卦的结果是凶\n\n铖杰：还好我支起了换境画屏"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "铖杰",
+          "text": "果然，占卜结果没错。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "铖杰",
+          "text": "要不是我今天把那「换境画屏」翻出来捣鼓，大家都得困死在里面，堆成肥料了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "铖杰",
+          "text": "但这传送距离还是不太够啊……"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "待机文本（阿伟）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "阿伟：惨了，师傅他…\n\n阿伟：这下毕不了业了…"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "公输师傅……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "——是云骑军派来的救援吗？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "噢，瞧这身打扮…白高兴一场，原来是旅客啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "在罗浮碰上这种意外，真替你们伤心。唉，我也伤心……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不必伤心，救星这就来了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "老乡，我是将军请来的救兵。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "要知道伤心总是难免的…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "对，有什么困难就跟咱说~嘻嘻，你们的景元将军可是三请四邀，才说动我们来帮忙的哦，你就放一百个心吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "…将军三请四邀？你们？别逗了，有罗浮的云骑军在，将军怎么可能派外人来啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "工造司这儿出了大事，严肃着呢，可不兴开玩笑啊姑娘。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "别在意，朋友，我们是真心想帮助大家，能跟我们说说这儿的情况吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你们在这里做什么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "阿伟",
+              "text": "还能做什么，等着呗。里面危险，我们就逃出来了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿伟",
+              "text": "我劝你们啊，要是还想活命，就别进去。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "里面怎么了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "阿伟",
+              "text": "工造司里闹了树灾。不知谁种的盆栽突然猛长起来，枝条有两人合围这么粗！在司里到处窜高走低，几乎要把这地方捣烂了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "阿伟",
+              "text": "我也纳闷，工造司只研究机巧匠艺，和无土栽培、快壮高之类的种植技术不搭边啊。这玩意是哪来的？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "快点离开这儿吧。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "不行啊，我师傅还在里面呢！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "公输先生是工造司「镕金坊」里资格最老的匠人，也是带咱们这个课题组的师傅。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "出事的时候，他拉着我、子铭、云澈几个往外头逃。结果到了半路，他自己又转身往里面冲去了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "我得在这儿等云骑军过来，赶紧通知他们救人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…他干嘛要跑回去啊？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "为了抢救成果吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "阿伟",
+              "text": "啥成果能比自己的命还重要啊？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "是工期死线要到了吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "阿伟",
+              "text": "咱们是正儿八经搞研究的，没有这种东西。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你们几个就没架住他？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "阿伟",
+              "text": "来不及啊。那紧要关头，恨不能把手当脚用，再凭空多生出几条腿来。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "我当时只听他嘴里喊着「完啦！炉子完啦！」。等咱们几个缓过气来，人早没影了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "那个…刚刚几位说你们是来帮忙的，真的吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "千真万确，受将军委托而来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "不信也没关系~星穹列车做好事向来不留名！我们会留意你师傅的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "那，请拿上这张玉符。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "要是你们找见了师傅，请一定平安把他带出来！他要有个三长两短——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "放心，小伙子，你师傅的安全……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿伟",
+      "text": "——咱们这组人今年都毕不了业，出不了师了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…走吧，不大想接着聊了。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得道具工造司玉符"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "树灾？应该是「建木」吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "但他师傅念叨的「炉子」又是……？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "提交道具工造司玉符打开工造司大门…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "星核促成了「建木」的重生……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "随着它的生长，侵蚀现象也变得更严重了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "仔细一看，根须都从地底下钻出来了呀。恩公，咱们少不得要当一回免费的园丁啦。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "探查建木根须侵蚀工造司的情况"
+    },
+    {
+      "type": "objective-description",
+      "text": "随着「建木」苏生，巨大的根须如虬龙般穿彻各处，向外蔓生。靠的越近的洞天，越容易遭殃及。\n工造司中，一座巨大的炉鼎被「建木」根系紧紧缠住，托举而起，通往彼处的桥梁已在巨变中被毁。",
+      "location": "仙舟「罗浮」-工造司"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "工造司乃机要重地，贼人退去，速～速～退去～呀呀呀呀！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "别过来！再往前走，别怪老夫不客气了！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "喂喂，你倒是听我们解释啊！我们不是坏——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "有什么好解释的！无非是「路过」「不小心」「门开着」这种糊弄人的借口。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "今天司内突然遭灾，老夫料定是有人捣鬼！果然不出所~料啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "安保指望不上，就让你们尝尝这机巧的厉害！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败入魔机巧·灯昼龙鱼、入魔机巧·浓云金蟾…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "「浓云金蟾」！「灯昼龙鱼」！…你们怎么了！快快站起来啊！老夫像对待亲生骨肉一样教你养你……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "动手便动手，为何将这些陪伴老夫的小物捶得稀烂啊——赔给我！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你自己非要不听解释的嘛！我们是来救人的，你二话不说就打……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你是公输师傅吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "公输师傅",
+              "text": "小娃儿居然知道老夫名字？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "公输师傅",
+              "text": "老夫「镕金铄铁第一巧手」公输梁的名气这么响亮了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "这位师傅的性格好单纯……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你是阿伟他们的老师吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "公输师傅",
+              "text": "哼，是那几个不成器的弟子托你来的？没用没用，弃司内宝贵财产不顾，临阵脱逃。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "公输师傅",
+              "text": "就算对我有救命之恩也没用，实习统统不及格！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "…不是，救人这么单纯的事儿哪那么多心眼……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "其实，我们是受景元将军和符太卜所托前往「丹鼎司」，故而路过此地。想请公输师傅为我们指路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "噢？你是将军派来的人？一场误会，一场误会！罢了，那些小玩意儿，坏了就坏了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "但老夫实在爱莫能助啊，这工造司被一只不知何来的木精邪祟占据！连司里的至宝，「造化洪炉」也被那木妖窃夺了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "那妖物可不得了！还能让司里机巧之物突然都像有了意志似地围着它转。谁上去怕是都得白白送命！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "可老夫思来想去，也不能就这么走嘞。毕竟那「洪炉」里封着……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "省点时间吧，去哪，打谁？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "老规矩是吧，互帮互助。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "开拓任务也该有点新意了…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "哈哈，老夫心里有数，景将军既请各位来这儿，那是必有深意，十成十是来解这工造司之危局的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "我有个办法帮你们，但相对的，你们也得帮帮我。来，这边厢有请~"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随公输师傅前进"
+    },
+    {
+      "type": "objective-description",
+      "text": "没想到这空无一人的洞天里竟然还有一位老师傅坚守不去，当真是可歌可泣。\n不打不相识，你们得知这位名唤公输师傅的工匠忧心洪炉的安危，可惜势单力孤，面对疯长的根须束手无策。这岂能难倒急公好义的开拓者们？",
+      "location": "仙舟「罗浮」-工造司"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "你们瞧，这是工造司一直未完成的机关：「换境画屏」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "得亏我让弟子把这玩意儿搬出来调试。木精入侵工造司时，学徒们才能逃得出去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "你们来时都见过玉界门吧？这「换境画屏」与玉界门同等效用，能将两个空间坐标以某种，咳咳，外人听不懂的方式连接在一起。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那岂不是能瞬移？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "那还坐什么星槎？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "确实。除了传送距离太短，消耗能量太大之外，这宝贝完全可以取星槎而代~之！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那不就是「完全不可以」吗？还不如「开拓」的界域定锚呢……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "谢谢工造司的师傅们高抬贵手嗷~得亏有这些缺点，给天舶司留点颜面。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "本来，借着这玩意我能将各位送到对面去。谁知一个不注意，画屏竟被那木精的枝条给缠住了~啊！"
+    },
+    {
+      "type": "text",
+      "text": "公输梁摆了个身段，眉毛一挑，似在暗示你们问下去。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那么公输师傅一定有办法吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "公输师傅",
+              "text": "嗯，你问得好啊，孺子可教！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "多谢老师傅告知实情，告辞！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "公输师傅",
+              "text": "等、等等！你们要对老夫有信心！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "这就回禀将军，此路不通！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "公输师傅",
+              "text": "等、等等！年轻人，你可是小瞧了工造司啊。将军远在天边，帮不了你们，但老夫可以！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "咱们工造司有和造化同功之力。哼哼，区区木精，不在话下！来，给你们瞧个大宝贝。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "公输师傅手忙脚乱地架好了仪器设备"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "木精入侵的时候，老夫第一时间就想到了这东西。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "这是代号「匣里流光」的机关装置。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "这本是受云骑军所托研制的武器，威力无比，除了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "「距离太短，消耗能量太大」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "物性守恒，有所长者必有所短嘛。嗐，但拿来治治这不开眼钻进工造司的木精，绝对是够了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "然后，点火。以火克木，必然无往不利！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "利用匣里流光同时击破所有建木缠结…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "不错不错，师傅领进门，修行在个人。你可比老夫那几个没用的弟子厉害多了。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "地面突然开始震动…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "怎、怎么回事？洞天要塌了吗！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "呼，没事啦。看来，这件宝贝还真是用对地方了，一定是那木精吃痛，浑身不爽了吧，哈哈哈。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "行了，事不宜迟，趁现在穿过「换境画屏」到对面去！我怕时间一长，枝条又长出来了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往造化洪炉所在处"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你们看，「建木」的根系……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "它缠绕的是工造司至宝：「造化洪炉」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "小娃儿，快来帮帮老夫！咱们齐心协力把它斫断，别让它穿透了洪炉！"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "小心！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "那东西正在变化……"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "根系处的花苞绽开，从中走出了一只鹿…"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "这到底……是什么怪物啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "不愧是神迹，信手造化生命。这股力量，真了不得……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "丰饶玄鹿召唤建木枝梢…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "这东西在守卫「建木」根须和洪炉……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "丰饶玄鹿再次召唤建木枝梢…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "鹿的脚下有更多根须钻出来了？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "丰饶玄鹿回生两次之后…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "伤到哪里都能复原…这也太离谱了吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "只能暂时撤退了。跟我走！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "妈呀，怪不得仙舟这么恐惧「丰饶孽物」，这恢复能力根本不讲道理！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "停云小姐，仙舟的长生种…不会都这样吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "这头玄鹿恐怕是「建木」诞下用来拱卫它的灵物，与根系联结紧密。仙舟众生大多没这般离谱的本事……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "唉，看来只要它还在，咱们几个就寸步难行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "未必。玄鹿看似能在转眼间愈合伤口，真相未必如此，也许它是从某个地方汲取补给……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那就打到它灰飞烟灭！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "开拓者，杨叔说的不是这个意思啦！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "顺着根系，找到它的补给？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "对对，然后斩草除根，让它吸个寂寞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "那怪物只在「建木」附近活动。我们四下看看，也许能有什么发现。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查工造司内，破解玄鹿重生力量的来源"
+    },
+    {
+      "type": "objective-description",
+      "text": "「建木」的根系缠紧洪炉，自工造司各处汲取力量，生成名为「丰饶玄鹿」的灵兽拱卫自身。\n一番奋战，你们却发现玄鹿生机不绝，倒地亦能复生。唯有切断其供输来源，方有胜机。",
+      "location": "仙舟「罗浮」-工造司"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（返回丰饶玄鹿处）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "以这头灵鹿的再生能力，我们恐怕暂时拿它毫无办法……"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "你们是受将军请托，要去往「丹鼎司」么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "可惜呀，这木精一作乱，连工造司都不得不暂时封闭了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "…老夫有个想法，小娃儿要不去那里看看？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "公输先生有什么想法吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "唔，那头鹿起死回生的时候，周遭的建木根须在闪闪发光……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "因为公输先生躲在一旁，所以看得很清楚吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "嘿嘿，老夫毕竟是一介工匠，疆场厮杀~非我所长！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "方才杨先生也说了，鹿精能断续愈合，恐怕是仗着从某处汲取的能量。那建木闪闪烁烁，正像是在给它续命一般。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "或许这些根系就是要害。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "姑且一试吧，也没损失。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "是嘞！还记得那时为解开「换境画屏」上的根须，我们用机关烧穿了上面的缠结么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "对哦，那些根须再也没有出现。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "不仅如此，它的反应就像受伤一样…或许正可以从这一点入手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "各位，抄家伙！咱们一起把这劳什子的根须给它铲平喽！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "破坏建木缠结"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "利用匣里流光同时击破所有建木缠结…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "瞧见了没有？！老夫猜得没错！就按这个法子来！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "找到第三处建木缠结"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "快看，这儿还有一堆「建木」的根须！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "等老夫片刻，让我把装置架上！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "利用匣里流光同时击破所有建木缠结…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这样……应该可以了吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "依老夫的猜想，「建木」的根系应该深植地底，各处都是。只能说工造司的地界里，应该清剿得差不多了"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "事不宜迟，乘着这些根须还没来得及长回来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "接下来要做的便是……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "看鹿死谁手！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "成语用的不错，下次别用啦。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "听呦呦鹿鸣！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "成语用的不错，下次别用啦。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "猎鹿去！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "出发！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "重返造化洪炉所在处，击败丰饶玄鹿"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "各位，瞧见那缠着「造化洪炉」的根系了吗？它们都枯萎啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "这下好极了，没什么能够阻挡各位了！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "丰饶玄鹿进入二阶段并召唤建木枝梢…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "结果了？好大的桃子啊…有点想摘一个尝尝。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "三月。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "没别的意思啊，挂在那儿打烂了也挺可惜的。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "丰饶玄鹿剩余极少生命值并被击破弱点后…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那头鹿不行了，就趁现在，一鼓作气！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败丰饶玄鹿…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "景元将军说，「建木」是不可思议的仙道神通……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "那头鹿看似与寻常生命无异，但即便受了致命伤也能瞬间愈合。我算是明白仙舟人为何要追随「巡猎」，铲除「丰饶」了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "不死不灭的造物，一旦放任它开枝散叶，会让整个世界的生态系统彻底崩溃——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "怪不得仙舟人随星舰流浪宇宙，从不在某个星球定居……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "杨先生很有见地。可惜八千年前，身为「求药使」的先人们不能洞见这背后的隐忧——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "也许他们中有人想到了，拒绝了{{寿瘟祸祖|药师}}的「馈赠」。然而作为一整个文明，真的能抗拒长生不死的诱惑吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "真是讽刺，智者埋泉下，愚者长不灭啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "仙舟悔愧于曾受「丰饶」蛊惑，才最终决定踏上「巡猎」征途。也许这一切还有挽回的余地。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "多谢各位的援手。我知道你们接下来要去「丹鼎司」。那里与「建木」毗邻，瞧眼前这番景象，那里一定更为凶险。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公输师傅",
+      "text": "去吧，各位，一路小心。老夫在此祝你们顺利。"
+    },
+    {
+      "type": "message-thread",
+      "title": "停云",
+      "subtitle": "有话好好说，不要吵架~",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "停云",
+          "contentType": "text",
+          "text": "说起来，恩公刚才瞧见了吧",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "停云",
+          "contentType": "text",
+          "text": "那头玄鹿以足顿地时，从地下凭空生长出了枝蔓",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "瞧见了",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "那东西，想必就是…建木的根须吧？",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "枝梢？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "那东西，想必就是…建木的根须吧？",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "停云",
+          "contentType": "text",
+          "text": "「丰饶」的仙迹果然不同凡响",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "停云",
+          "contentType": "text",
+          "text": "小女子游历星海，还是第一次见识到如此神异的东西",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "停云",
+          "contentType": "text",
+          "text": "我瞧见这枝梢之上结成的果实金灿灿的，就像是仙舟神话中所提及的那般",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "停云",
+          "contentType": "text",
+          "text": "据说在上古时代，仙舟的先民们正是得到了建木所赐的不死神实而转化成了长生种",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "停云",
+          "contentType": "text",
+          "text": "小女子若是吃下这果实，不知能不能像仙舟人那般拥有无限的生命…",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "停云",
+          "contentType": "text",
+          "text": "恩公，你对这样的机会难道不动心么？",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "想法很危险…",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "停云小姐，这样做岂不是违犯了仙舟禁令",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "停云",
+                  "contentType": "text",
+                  "text": "哎呀",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "停云",
+                  "contentType": "text",
+                  "text": "请恕停云方才无礼，小小试探了您一下",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "停云",
+                  "contentType": "text",
+                  "text": "如停云所想，恩公真是个心诚意正的好孩子",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "吃下后就走不了了…",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "这果实一旦吃下，恐怕不是长命千岁，而是…不久就要被云骑正法了",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "停云",
+                  "contentType": "text",
+                  "text": "恩公说得没错",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "停云",
+                  "contentType": "text",
+                  "text": "不过，若是想办法瞒过云骑军的搜查",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "停云",
+                  "contentType": "text",
+                  "text": "这样的机会似乎不容错过吧？",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "我当然很心动…",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "那…停云小姐有没有…留一颗？",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "停云",
+                  "contentType": "text",
+                  "text": "我要说有，恩公会想和我分食吗？",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "停云",
+          "contentType": "text",
+          "text": "不过恩公的心意，小女子已经明白了",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "停云",
+          "contentType": "text",
+          "text": "可惜玄鹿都化作飞灰了，建木的果实当然也没留下半点儿",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "停云",
+          "contentType": "text",
+          "text": "这样的机会千载难逢，却转眼即逝",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "停云",
+          "contentType": "text",
+          "text": "就像生命本身一样…",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（公输师傅）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "公输师傅",
+          "text": "一路承你们恩惠了。剩下的麻烦，就让我和那些不成器的弟子们慢慢解决吧…实在不行，还有云骑军嘛。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "为何如此在意这具「洪炉」？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "公输师傅",
+                  "text": "都是传说了。但今日「建木」复生，显得传说也不那么荒诞…你们就当个乐子听了吧。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "公输师傅",
+                  "text": "很久以前，仙舟联盟迷航天外时，曾遭遇过许多无可想象的生命。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "公输师傅",
+                  "text": "其中有名为「岁阳」的精怪孽物，以纯粹能量的形态存世，又极其渴望体察血肉凡胎的七情六欲，故而时时穿过仙舟的洞天穹顶，蛊惑人类，寄生在身体中。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "公输师傅",
+                  "text": "据说被岁阳寄体的凡人，在无形中便被它们夺走了自由意志，变得越发狂乱。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "公输师傅",
+                  "text": "仙舟人与岁阳经历好一番角逐，最终困住了它们，将之封禁在一处容器中。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "公输师傅",
+                  "text": "那便是这「造化洪炉」。先贤希望能点燃洪炉，日复一日消磨岁阳的能量，让它们化为乌有。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "公输师傅",
+                  "text": "我不知道如今这炉中是否还有妖物存在。也许是我多心了吧。不过自从我随师傅学艺起，我便每日前来打点照看洪炉的运转。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "公输师傅",
+                  "text": "其中的烈焰确实从未熄灭过……"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你有「丹鼎司」洞天的消息吗？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "公输师傅",
+                  "text": "事情发生得太突然了，我和弟子们毫无准备。"
+                },
+                {
+                  "type": "choice",
+                  "presentation": "dialogue",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "听将军说，丹鼎司中有叛徒。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "公输师傅",
+                          "text": "我对此倒是不意外。毕竟「丹鼎司」的丹士们曾是罗浮仙舟上，离仙迹最近的人啊。"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "text": "听说，药王秘传封闭了丹鼎司。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "公输师傅",
+                          "text": "药王秘传？这个名字倒是有些年头。"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "公输师傅",
+                  "text": "听说在罗浮仙舟受赐建木之初，「丹鼎司」丹士们的势力一时无二。他们能借着建木的力量，以种种奇术幻化肉身，呼风唤雨，乃至点化闻所未闻的奇禽灵兽。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "公输师傅",
+                  "text": "他们称自己「登仙」。可惜，仙舟上到底没有什么仙人。建木一枯萎，丹士们也没了倚仗，沦落成了只能研究岐黄之术的医师。"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "那么，告辞了。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "公输师傅",
+                  "text": "我不能和你们同行啦。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "公输师傅",
+                  "text": "哦对了，老夫生平不喜欢欠人恩惠，这些小玩意儿你们拿着，就当是你们为我干了这么多活儿应得的报酬。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

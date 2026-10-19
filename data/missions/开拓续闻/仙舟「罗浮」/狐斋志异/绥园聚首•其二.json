@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "绥园聚首•其二",
+    "pageId": 8311,
+    "revisionId": 34350,
+    "parentRevisionId": 26080,
+    "revisionTimestamp": "2024-03-17T10:53:19Z",
+    "fetchedAt": "2026-09-28T00:20:14.963Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%BB%A5%E5%9B%AD%E8%81%9A%E9%A6%96%E2%80%A2%E5%85%B6%E4%BA%8C",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%BB%A5%E5%9B%AD%E8%81%9A%E9%A6%96%E2%80%A2%E5%85%B6%E4%BA%8C&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "绥园聚首·其二",
+    "region": "仙舟「罗浮」",
+    "type": "开拓续闻",
+    "version": "1.5",
+    "number": "04",
+    "series": "狐斋志异",
+    "description": "你与捉鬼小队的成员再度在绥园聚首。如同上班打卡一般，翻翻「罗浮杂俎」瞧瞧有什么足够怪异的事情，再去探查一番，一天便这么过去了。",
+    "requirements": "「罗浮杂俎」的订阅量达到20000",
+    "requiredLevel": "34",
+    "characters": [
+      "藿藿",
+      "素裳",
+      "桂乃芬"
+    ],
+    "relatedItems": [],
+    "rewards": [],
+    "previousMissions": [
+      "双生"
+    ],
+    "nextMissions": [
+      "犀照"
+    ],
+    "objectives": [
+      "在绥园与小队成员们汇合",
+      "与桂乃芬交谈，查看求助帖"
+    ],
+    "synopsis": [],
+    "extra": {
+      "时间": "",
+      "相关活动": "「狐斋志异」",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在绥园与小队成员们汇合"
+    },
+    {
+      "type": "objective-description",
+      "text": "你与捉鬼小队的成员再度在绥园聚首。如同上班打卡一般，翻翻「罗浮杂俎」瞧瞧有什么足够怪异的事情，再去探查一番，一天便这么过去了。",
+      "location": "仙舟「罗浮」-绥园"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "你好啊，{{开拓者|无名客先生/小姐}}，咱们开始今天的行动吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "十王司下辖岁阳逃逸事件特别处理行动小组，简称捉鬼小队，又要振作精神开始干活了！耶！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "耶……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "……？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "耶！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "看来只有咱俩还算精神…"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "滴，打卡。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "为什么你的眼神和地衡司那些执事一样疲惫？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "居然不是弹性工作时间？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "招工启事上从来没有说过这一点吧？不对，咱们哪儿有招工启事啊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "困死了，小桂子你是吃了什么灵丹妙药，这么精力充沛？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "每次看到粉丝数蹭蹭往上跳，我就兴奋得睡不着，比喝下什么浓茶咖啡都管用。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "你是干这个的，我可不行。只要我一闭上眼，就梦见自己和白露小姐不断周旋周旋周旋…比亲自上阵还累人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "裳裳，你都睡了一整个白天了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "抓鬼是个晚上出洞的活计，睡过一整个白天岂不是很合理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "不如这样，你们就当我是睡魔缠身，把我镇压在床上，让我再睡上三五十个时辰，就当是向十王司交差了，如何？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这摆烂发言让我想起某人…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "嗯，很像是被太卜司那位著名的牌手上了身。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "素裳",
+              "text": "太卜司的牌手？太卜司不都是算卦的么。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "素裳，你认识青雀吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "啊，就是那位长乐天著名的牌手！我每次执行任务经过那儿，总能见到她雷打不动地和牌友们围城大战。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "连判官大人也知道她！她还真是闲名远播啊。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "素裳",
+              "text": "到底是谁啊！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与桂乃芬交谈，查看求助帖"
+    },
+    {
+      "type": "objective-description",
+      "text": "完成了一日冒险，你与捉鬼小队的成员再度在绥园聚首。如同上班打卡一般，翻翻「罗浮杂俎」瞧瞧有什么足够怪异的事情，再去探查一番，一天便这么过去了。",
+      "location": "仙舟「罗浮」-绥园"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "就是这个人啊。你们看这个帖子。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "查看完帖子，帖子中提到太卜司似乎不对劲…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "…我工作还是很认真的好吧！至少不会理直气壮写什么「照例迟到」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "素裳小姐的关注点好奇怪啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "这条消息里的描述好离奇啊，似乎很符合岁阳寄生作祟的情况。如果连太卜司这样的机要部门也被岁阳占据，那可就麻烦了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "确实…感觉应该先联系一下青雀小姐，提醒她不要上班。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她还用提醒？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "为了避免有人因为好奇心靠近危险区域，咱们还是得履行告知义务。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我来吧。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "message-thread",
+      "title": "青雀",
+      "subtitle": "工作可以，别耽误我打牌",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "你那边情况还好吗？"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "先不要进太卜司，那儿可能有危险"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "青雀",
+          "contentType": "text",
+          "text": "？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "青雀",
+          "contentType": "text",
+          "text": "你多心了，我当时看见这么个情况，就左转出门发帖了",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "青雀",
+          "contentType": "text",
+          "text": "所以是出什么事了，为什么大家看着都有点消极怠工的意思？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "青雀，你一定要看住门，别让任何人进入太卜司，也别让任何人出去"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "注意安全，我们马上赶到"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "青雀",
+          "contentType": "text",
+          "text": "明白，这下我真成掌门人了",
+          "acknowledged": true
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

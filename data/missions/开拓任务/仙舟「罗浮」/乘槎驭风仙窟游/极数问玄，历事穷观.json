@@ -1,0 +1,1372 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "极数问玄，历事穷观",
+    "pageId": 3190,
+    "revisionId": 77411,
+    "parentRevisionId": 75953,
+    "revisionTimestamp": "2026-02-01T16:37:48Z",
+    "fetchedAt": "2026-09-28T00:15:39.637Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%9E%81%E6%95%B0%E9%97%AE%E7%8E%84%EF%BC%8C%E5%8E%86%E4%BA%8B%E7%A9%B7%E8%A7%82",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%9E%81%E6%95%B0%E9%97%AE%E7%8E%84%EF%BC%8C%E5%8E%86%E4%BA%8B%E7%A9%B7%E8%A7%82&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "极数问玄，历事穷观",
+    "region": "仙舟「罗浮」",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "09",
+    "series": "乘槎驭风仙窟游",
+    "description": "在引路人青雀的带领下，你们抵达了仙舟负责演算与信息的太卜司。此间飞阁连云，悬圃冲霄，颇有神秘气氛。\n更神秘的是，太卜司门关紧锁，毫无待客迎门的意思，连自己人青雀也被拒之门外。",
+    "requirements": "完成长乐新朋，青鸟候风",
+    "requiredLevel": "34",
+    "characters": [
+      "三月七",
+      "瓦尔特",
+      "青雀",
+      "符玄",
+      "景元",
+      "卡芙卡",
+      "明阅",
+      "静斋"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "600"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "4"
+      },
+      {
+        "item": "《玲珑工巧》",
+        "amount": "1"
+      },
+      {
+        "item": "《邀挽明月成宵宴》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "25000"
+      },
+      {
+        "item": "材料名",
+        "amount": "个数"
+      }
+    ],
+    "previousMissions": [
+      "长乐新朋，青鸟候风"
+    ],
+    "nextMissions": [
+      "神木重萌，掣转天衡"
+    ],
+    "objectives": [
+      "进入太卜司",
+      "跟随青雀前往太卜司侧门",
+      "按照青雀的提示，破解侧门门锁",
+      "随青雀一同，面见符玄",
+      "与符玄交谈",
+      "帮助太卜司，重启穷观阵的三座基座",
+      "重启宙合阵",
+      "重启界寰阵",
+      "重启业成阵",
+      "返回阵心，向符玄复命"
+    ],
+    "synopsis": [
+      "你们来到太卜司，却被紧缩的大门阻拦。青雀称这扇门先前从未上锁，好在她还知道其他的紧急出入口。",
+      "青雀调查大门，发现仍有一处需要解开的机关，瓦尔特提议由他来检查一番，或许能找到开启方法。",
+      "进门之后，你们再次遭遇拦路的怪物，并与之战斗。",
+      "青雀向你们介绍太卜司的大型玉兆算端「穷观阵」，其中原理与「智识」星神相关。只要信息充足，「穷观阵」能推演并解答任何问题。",
+      "符玄向景元汇报太卜司情况，称星核邪祟未除，「穷观阵」暂时停转。你们来到「穷观阵」阵心，景元称你们就是他派给符玄的援兵。",
+      "符玄请求你们帮忙重启「穷观阵」的阵基，顺道翦除太卜司中的星核邪祟。青雀会作为使者与你们同行。",
+      "经历一番「大道至简」的操作后，你们完成「宙合阵」的重启。接下来可以去重启其余阵基了。",
+      "你们看到一尊把守阵法的金人。三月七担心金人失控暴起，果然不幸言中。",
+      "卡芙卡被云骑军押送到阵心中央，即将接受审讯。符玄将以「穷观阵」对卡芙卡进行卜测，从中发掘真相。",
+      "符玄启动「穷观阵」，以额间法眼审讯卡芙卡。仪式结束，符玄露出难以置信的神情。卡芙卡则微笑询问符玄，是否喜欢这个真相。",
+      "符玄对卜测的结果感到难以置信，称卡芙卡与星核无关。符玄即刻动身向景元禀报讯问结果，而你的疑惑可以直接向卡芙卡寻求解答。"
+    ],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "通往群星的轨道#善易不卜",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "进入太卜司"
+    },
+    {
+      "type": "objective-description",
+      "text": "在引路人青雀的带领下，你们抵达了仙舟负责演算与信息的太卜司。此间飞阁连云，悬圃冲霄，颇有神秘气氛。\n更神秘的是，太卜司门关紧锁，毫无待客迎门的意思，连自己人青雀也被拒之门外。",
+      "location": "仙舟「罗浮」-太卜司"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "先给各位打个招呼，待会儿进了里边可别乱跑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "虽说你们是太卜的客人，但她本人最讨厌不守规制，问东问西的人…可千万别触她的霉头。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我们只是旁听一场审问，结束就离开。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们来到太卜司门前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "…奇了怪了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我猜猜，是不是门突然坏了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "搞不懂，大门被锁住了，以前没锁过啊…也没人提醒我带上钥匙……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "喂喂，食堂再难吃，也不能请客人吃闭门羹吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你真是太卜司的人吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "有没有一种可能，你被开除了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "青雀",
+              "text": "没道理啊。我都被贬去管理书库了，她老人家还想怎样？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "有没有一种可能，里面出事了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "青雀",
+              "text": "你可别吓我，有太卜坐镇，能出什么事啊？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "不必惊慌！太卜司可不止这一扇门。我知道有个地方可供紧急时出入。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随青雀前往太卜司侧门"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "就是这儿了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我看你熟门熟路的，平时偷闲，没少从这扇边门走吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "姑娘你目光如炬，在太卜司当差的都管这扇门叫「逍遥门」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "平时若是闲得没事，咱们常常从这边逃出来在外面逍遥自在几个时辰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "几个…时辰？这种没用的信息我一点都不想知道啊。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "这劳什子星核侵蚀，搞得都是什么事嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "惨了，这门也打不开，让太卜等得久了，一定觉得「不靠谱的青雀」又把差事办砸了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "太卜派这么一位来接我们，还说没生咱的气？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "青雀小姐不介意的话，由我来检查一番？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "哎？这…不好吧？我就是客气客气，其实也没什么不好的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "杨先生，我来教你。这东西可好玩了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "按照青雀的提示，破解侧门门锁"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "完成兆算玉璃解开门锁…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "嗨呀，杨先生真厉害！一个外人轻而易举地拿下了这扇门。我正式将太卜司「逍遥门掌门」的头衔移交给你啦！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "随青雀一同，面见符玄"
+    },
+    {
+      "type": "objective-description",
+      "text": "明明是外宾身份，却要如梁上君子般做抉门斩关的活计。但麻烦到来时，也顾不上体面了。\n太卜司中，留守卜者们人人自危。星核带来的变数已超越了太卜司所能计算的极限。现在，该是问问太卜如何处置的时候了。",
+      "location": "仙舟「罗浮」-太卜司"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们进入了太卜司，遇到了丰饶孽物…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…你们惊讶吗？我是一点都不惊讶。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "准备战斗吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "下次能不能想点有创意的遭遇战呀！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败敌人…"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（试图离开任务范围）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "值守的云骑军",
+          "text": "抱歉，云骑军正奉太卜之命整顿司部安全。前方区域暂不开放。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（明阅）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "明阅",
+          "text": "唷，稀客啊。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "…我？咱们有见过面吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "明阅",
+          "text": "不，我说这位青雀。现在可是上班时间啊，居然能见到你。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "青雀",
+          "text": "别冤枉我啊，我在认真上班的。瞧，这几位是太卜要见的客人。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "明阅",
+          "text": "唷，稀客啊。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "这回总该是在说我们了吧？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "明阅",
+          "text": "是啊。好清静如那位大人，竟然也会准许外人登堂入室。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "明阅",
+          "text": "要见太卜，径直去「穷观阵」那边就是。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "明阅",
+          "text": "「穷观阵」欠缺人手，太卜正烦着呢。司内驻扎的云骑军忙着驱赶邪祟，不知几时能有下文喔。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "前面便是我太卜司引以为傲的大型玉兆算端——「穷观阵」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "这一路走来，不时听人提起「玉兆」这个词。青雀小姐，玉兆是什么东西？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "玉兆嘛…就是玉兆啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "杨先生问的好问题，我一时半会儿也答不上来。容我想想……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "《易镜窥奥》一书上是这么说的，「篆纹活玉，卜籀知玄」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "就像刻印章一般，仙舟工造司的匠人们会在玉石晶格内篆刻肉眼难见的兆亿符箓，而后按照需要将它嵌入各式机关中，让它们根据设计好的意图运行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "有些玉兆小到可以收在手镯珠宝里。大的嘛，就被装进阵法里，用于推演变数，鉴往知来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "就像这座穷观大阵，无论天理衍变，还是人世代谢。只要信息充足，任何问题它都能回答。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "据说，其中的符箓和原理问道于「遍智天君」博识尊。其深奥程度，整个太卜司里也只得太卜一人谈得上了如指掌吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这不就是计算机？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "好像是哦，但「玉兆」这个名字好听多了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "而且，普通计算机哪有这么玄乎的来历？博识尊亲自指点的技术……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "黑塔女士的空间站里，我都没见过跟博识尊有关的东西。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这不就是芯片？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "听起来确有相似之处，要是能有机会亲眼见识它的制造机理就更好了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "青雀",
+              "text": "那可不成，工造司「解玉厅」把籀刻玉兆的技术看得可严了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "青雀",
+              "text": "不过杨先生要是感兴趣，星槎海有家买卖玉兆首饰的店铺，得空了我可以带您逛逛。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "开拓者你听见了吗，她说带杨叔逛首饰店。嘻嘻，这光景我想想都觉得好玩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "反正，不要纠结于名目之辩，只要机枢能有效运转，「玉兆」还是「计算机」又有什么分别呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "就像今天，只要有人接引你们来此就行了，是青雀也好，白雀也罢，一点也不重要嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "快到穷观阵的阵心了，太卜应该就在那边等着我们。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与符玄交谈"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（静斋）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "静斋",
+          "text": "元会算法读取完成，输入玉兆运行。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "静斋",
+          "text": "卜算推演，卦象已成。涨落幅度在泽兑之间，误差正负千分之二。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "静斋",
+          "text": "算法本该无误，究竟是什么在干扰仪器呢……"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "符卿，进展如何？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "涨落在乾、震之间。行有眚，无攸利。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "符卿，说人话，请。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "{{大祸临头|大凶}}——这就是太卜司今日的运势。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "「穷观阵」停转，符箓黯淡，司部内有星核邪祟未除。云骑忙于保护百姓，我欲恢复阵法，却无可用之兵。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "如此境地，还要处理将军交来的星核猎手，可不是大祸临头？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "哈哈，在我眼前的可是人称「未卜先知，法眼无遗」的符卿啊，趋吉避凶不是你的看家本领么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "这盅鸡汤就不必灌了吧，将军。运势涨落是天理之常，不要想着耍小聪明逃避唷。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "太卜司不过是将吉凶摆在眼前，尽力做出对的选择罢了，并无扭转乾坤的神通手段。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "正因如此，才须得符卿出马。要克制能观测未来的星核猎手，非得未卜先知的符卿不可。至于人手助力——我岂会没有准备？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "你瞧，援手到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "太卜大人，虽然没收到您下令，我还是把客人给您带来啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "…将军在用人方面，着实是见缝插针，毫不手软啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "来都来了，总得人尽其用嘛。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "未经本座允可，踏入穷观大阵，不合规制——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "若这么说，倒显得本座不通人情了。见到各位，真是意外之喜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "青雀这孩子虽然平时看着不靠谱，关键时刻倒也尽力。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "能尽情差遣的人来了，高兴吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "符玄",
+              "text": "是可以用心托付的人。哼，本座可不像那位将军。各位并非太卜司门人，岂可随意使唤？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我还以为你要把咱们拒之门外。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "符玄",
+              "text": "本待「穷观阵」运转，再教各位见识我太卜司奇技…唉，让客人久等，是我失礼。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "别客套啦，那位将军的话我们也不是没听见…有事你就交给我们好啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "唔，那本座也不啰嗦：太卜司人手不足，我需要各位帮忙重启穷观大阵阵基——再顺道翦除星核邪祟。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们来办，不算窥探机密吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "符玄",
+              "text": "本座说不算，自然就不算了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这阵法我不识得啊？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "我让青雀随行，负责重启阵基的事宜。至于翦除邪祟……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，我给自己算了一卦，发现咱们仨都是劳碌命啊。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "说出那个有魔力的字眼！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "…什、什么？什么有魔力的字眼？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "噢，只是简简单单，放之四海皆灵的一个字：「请」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "请、请了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "收到。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "帮助太卜司，重启穷观阵的三座基座"
+    },
+    {
+      "type": "objective-description",
+      "text": "按照景元所想，欲得知星核猎手的真正意图，普通的审问手法毫无作用。唯有借太卜司中名为「穷观」的法阵，鉴往知来，演算真相。\n但此刻阵基停转，符箓熄灭。景元再度使出兵法中「来都来了」之计，请你们出手相助。",
+      "location": "仙舟「罗浮」-太卜司"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（符玄）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "符玄",
+          "text": "青雀，重启阵基的事情就拜托你了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "符玄",
+          "text": "还有，忘掉刚才你看到听到的一切。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（青雀）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "青雀",
+          "text": "这是什么恩将仇报…不赏我也就罢了，还要给我加活……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "青雀",
+          "text": "太卜大人要我带上你们几个一同去重启穷观阵的阵基。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "是你露脸的好机会！",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "争取让领导满意！",
+              "content": []
+            },
+            {
+              "id": 3,
+              "text": "升职加薪，尽在眼前！",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "青雀",
+          "text": "我可是费尽心机，才调到书库这样不显山露水，可以上班摸鱼的好地方。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "青雀",
+          "text": "这下好了，我的太卜司轻轻松松职业生涯彻底泡汤了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "青雀",
+          "text": "这办不好怕是有被逐出太卜司的危险。办得好，那以后上面交代的任务还不是滚滚而来？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "青雀",
+          "text": "早知道，我就该留在那儿继续打牌……"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "再次对话"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "青雀",
+          "text": "早知道，我就该留在那儿继续打牌……"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（景元）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "列车团的各位，久见了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "多得你们，罗浮才能顺利将卡芙卡归案，容我道声感谢。公司为「星核猎手」设下悬赏以来，还从未有过抓捕纪录，呵呵，今日便由仙舟先得一筹。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "你们和公司是竞争对手吗？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "彼此行于不同命途，何来竞争？联盟矢志巡猎一切不死孽物，公司一门心思实现它的「存护」。联盟和公司偶有合作，但毕竟不是同道中人。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "只不过，由仙舟拿下公司的通缉犯，于我个人私心而言大为快慰，哈哈。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "虽然……"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "天价悬赏金我们五五分账。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "待此间事了，星核之患拔除，卡芙卡便于仙舟无用。你若有心悬赏，自行带她去见公司便是。联盟对公司的赏金毫无兴趣。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "不过，那位「刃」也是我仙舟的要犯，这人便不能给你。"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "你安排后手，却不告诉我们。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "符卿的阵法可以压制卡芙卡。为了出奇制胜，只能秘而不宣。希望不至于让各位怀疑我的诚意。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "三月七",
+                  "text": "下次可别准备这样的「惊喜」了。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "我保证，下次若有计划，一定开诚布公。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "现下卡芙卡无意开口，星核猎手的意图不明，仍需要倚仗太卜司的力量廓清真相。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "将军所指的「廓清真相」，就是以阵法审问卡芙卡么？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "没错。「穷观阵」是太卜司重器，原是用来占算航路，问卜未来。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "但「星核猎手」的秘密非得撬出不可，我也不得不跳脱常理一次——用「卜算」来推知她的意图。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "「穷观阵」能否运行，事关重大。我在此拜请各位，帮助符太卜完成阵仪。景元感激不尽。"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "景元影像消失…"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入换境画屏…"
+    },
+    {
+      "type": "section",
+      "level": 4,
+      "title": "重启宙合阵"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "让我瞧瞧，这儿是宙合阵。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "所谓「察宙合之势」，听说这座阵基是专用来调取「时间」相关的信息。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "启动阵基，完成大衍万象"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "这样应该就行了吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "什么呀？你只是把那些符文拼了个七七八八，这就算完啦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "越是复杂的东西，操使起来越要追求简单——所谓「大道至简」，懂不懂？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这么简单，你家太卜怎么不亲自前来？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "嘿嘿，也许她骨子里和我一样，就想偷个懒呢？"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（返回穷观阵与符玄对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "符玄",
+          "text": "本座镇守在这「穷观阵」的中心，一旦三座阵基重启，卡芙卡的审问就可以开始。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "符玄",
+          "text": "事毕之后，我会给你们足够的时间和她谈谈。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "启动「穷观阵」会发生什么？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "符玄",
+                  "text": "一经启动，「穷观阵」会演算属于「卡芙卡」这一目标所蕴藏的信息，将其中与仙舟相关的部分送入卜算者的识海。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "符玄",
+                  "text": "盖因人无时无刻不行于命途之上，在时间与空间中移动，成就种种因果。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "符玄",
+                  "text": "事情办得怎样了？本座仍未感应到三座阵基的联结。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "为何不拿它来推算星核的所在？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "符玄",
+                  "text": "卜算不是谈空说玄。条件不足，所占对象不明，答案就像星海捞针，你懂我的意思吧？"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "符玄",
+                  "text": "何况自打星核邪祟入侵太卜司开始，它所造成的干扰已经大大降低了卜算的准确度——或然误差有千分之二那么多！我不能容许测算结果有此舛错。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "符玄",
+                  "text": "对了，阵基重新启动了吗？为何「穷观阵」仍然没有反应？"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "万一它算错了呢？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "符玄",
+                  "text": "没有万一！…因为意外是不存在的。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "符玄",
+                  "text": "「穷观阵」的算法「大衍万化之道」会对事物命途中所有捉摸不定之处，以无可计数的枚举法加以占算。一旦将尺度放眼万古与星海，世间便不存变数了。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "符玄",
+                  "text": "…多余的问话到此为止！三座阵基启动了吗！"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "text": "这就去。真是比闹钟还催命。",
+              "content": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 4,
+      "title": "重启界寰阵"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们遇到了一个从未见过的人型机巧…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这又是什么怪东西？看起来像是个门楼子成精。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "不要紧张。仙舟上哪有什么鬼魂精怪，不过是个把守阵法的金人罢了。这样的东西在仙舟重地里到处都是。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "它蹲在那里，就像把「生人勿近」四个字贴在了脸上。你说…咱们就这么当着它的面走过去，它会不会突然暴起伤人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "我们奉太卜之命前来启动阵法，是熟客不是生人啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "失控的金人",
+      "text": "「令行…禁止…！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "三月，你还真是言出法随啊！快，快做点什么帮帮我！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败金人司阍…"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "先重启界寰阵后前往业成阵",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "青雀",
+              "text": "这里该是「界寰阵」了。听说这座阵基是专用来调取「空间」相关的信息。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "先重启业成阵后前往界寰阵",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "让我猜猜，「时间」、「因果」…接下来这个阵八成应该是和「能量」有关了吧！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "青雀",
+              "text": "很遗憾，这处阵基唤作「界寰阵」，据说是专司读取与「空间」有关的信息。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "启动阵基，完成大衍万象"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "完事收工，下一个。"
+    },
+    {
+      "type": "section",
+      "level": 4,
+      "title": "重启业成阵"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "先重启界寰阵后前往业成阵",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "让我猜猜，「时间」、「空间」…接下来这个阵八成应该是和「能量」有关了吧！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "青雀",
+              "text": "很遗憾，这处阵基唤作「业成阵」。据说是专司梳理因果联系的。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "先重启业成阵后前往界寰阵",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "青雀",
+              "text": "这里该是「业成阵」了。听说这座阵基专用来梳理事物的因果联系。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "启动阵基，完成大衍万象"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "呼，有惊无险。这下三个阵基都启动了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "青雀",
+      "text": "咱们回阵心，向太卜复命吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "返回阵心，向符玄复命"
+    },
+    {
+      "type": "objective-description",
+      "text": "按照景元所想，欲得知星核猎手的真正意图，普通的审问手法毫无作用。唯有借太卜司中名为「穷观」的法阵，鉴往知来，演算真相。\n如今，穷观阵的三大阵基再度周转如恒。万事俱备，只欠「审问」。",
+      "location": "仙舟「罗浮」-太卜司"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "你们做得很好，我已感应到「穷观阵」的符箓重新被点亮了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "接下来，我会审问卡芙卡。位于阵心的人，或许会感受到一些…冲击。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "你们准备好了吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "准备好了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不，再等等。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡（素颜）",
+      "text": "需要这么大阵仗吗？我说过会配合你们的呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "你是擅长以「言灵」术搅乱人心的通缉犯，本座对你的话毫无兴趣。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "想说什么都可以，不过，本座只会相信「穷观阵」的卜测。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "太卜司自有办法从你身上挖出真相，远比话语所说的更多。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "卡芙卡",
+      "text": "那就请太卜见证我的命运。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "卡芙卡被押到穷观阵的中心，符玄开始演算…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "符玄",
+          "text": "你…就为了这个？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "卡芙卡",
+          "text": "如何，喜欢这个真相吗？"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "难以置信……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "…可是，「穷观阵」是不会错的。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你看见了什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "卡芙卡干了什么？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "不会又要坑我们吧？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "卡芙卡与星核无关，倒是你们…居然是你们……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "哈！荒谬！竟然会有这种事……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "到底发生了什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "把话说清楚啊！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "你不会是谜语人吧…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "你们自己去问她吧——想问多久都行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "符玄",
+      "text": "本座必须立刻向将军禀报，恕不奉陪！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "…开拓者，你去问吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我知道你还有很多疑惑想找卡芙卡问个明白。"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,1357 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "未来市场•序",
+    "pageId": 7136,
+    "revisionId": 52324,
+    "parentRevisionId": 45273,
+    "revisionTimestamp": "2025-01-19T14:29:48Z",
+    "fetchedAt": "2026-09-28T00:20:05.989Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%9C%AA%E6%9D%A5%E5%B8%82%E5%9C%BA%E2%80%A2%E5%BA%8F",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%9C%AA%E6%9D%A5%E5%B8%82%E5%9C%BA%E2%80%A2%E5%BA%8F&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "未来市场·序",
+    "region": "雅利洛-Ⅵ",
+    "type": "开拓续闻",
+    "version": "1.4",
+    "number": "01",
+    "series": "冬梦激醒",
+    "description": "开拓者的开拓日报：\n离发车还有段时间。去找三月聊天吧。打发打发时间。",
+    "requirements": "完成开拓任务「安灵布奠，天清路远」",
+    "requiredLevel": "34",
+    "characters": [
+      "三月七",
+      "丹恒",
+      "姬子",
+      "托帕&账账",
+      "希露瓦",
+      "杰帕德",
+      "佩拉"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "5"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "4"
+      },
+      {
+        "item": "信用点",
+        "amount": "50000"
+      }
+    ],
+    "previousMissions": [],
+    "nextMissions": [
+      "未来市场·其一"
+    ],
+    "objectives": [
+      "和三月七谈谈",
+      "询问丹恒的意向",
+      "询问姬子的意向",
+      "和三月七一起，重返贝洛伯格！",
+      "在城里转转，感受节日氛围"
+    ],
+    "synopsis": [],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "和三月七谈谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n离发车还有段时间。去找三月聊天吧。打发打发时间。",
+      "location": "星穹列车-观景车厢"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "{{开拓者|欸}}，你听说了吧？咱们的下一站是「匹诺康尼」，听说那是个像梦一样漂亮的世界…真期待呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "不过帕姆说离邀请函上的赴会时间还差挺久的，该做点什么消磨时间呢……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…欸，手机响了？是群聊吗？"
+    },
+    {
+      "type": "message-thread",
+      "title": "布洛妮娅、开拓者、三月七、丹恒的群聊",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "sticker",
+          "sticker": "00-01",
+          "file": "聊天表情-00-01.png",
+          "acknowledged": true,
+          "asset": "assets/sr-images/聊天表情-00-01.png"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "列车组的各位，能看到我的消息吗？",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "你好呀，布洛妮娅",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "好久不见！",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "收到了"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "好久不见，布洛妮娅"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "布洛妮娅！我们可想死你啦",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "太好了，我还怕你们收不到消息呢",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "我知道你们很忙，所以尽量长话短说",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "我最近正在推动煦日节的筹备工作。煦日节是贝洛伯格的传统节日，之前受裂界和封锁令影响，常规的庆典活动已经停摆多年，贝洛伯格人已经很久没有感受过热烈的节日氛围了",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "如果星穹列车的诸位有时间的话，我想邀请你们前来参加「煦日节」的庆典，见证一下贝洛伯格复兴计划的阶段性成果",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "一定来！",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "我一定来！"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "三月七",
+                  "contentType": "text",
+                  "text": "还有我！节日，庆典，这听着就像咱的主场！",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "抱歉，下次一定",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "不好意思，这次可能没空……"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "三月七",
+                  "contentType": "text",
+                  "text": "@开拓者喂，别装啦，你不会是想窝在房间里搓你的手机屏幕吧！",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "三月七",
+                  "contentType": "text",
+                  "text": "放心，我们一定会来参加的！节日，庆典，这听着就像咱的主场！",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "你们能来就太好了，这里的大家都惦记着各位呢",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "@丹恒 在忙吗？我看他一直没在群里说话",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "他最近在闭关呢，估计早就把所有电子设备都关机了",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "我们去帮你问问",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "谢谢你，三月",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "text",
+          "text": "那我期待着能在煦日节庆典上看到各位的身影",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "布洛妮娅",
+          "contentType": "sticker",
+          "sticker": "00-02",
+          "file": "聊天表情-00-02.png",
+          "acknowledged": true,
+          "asset": "assets/sr-images/聊天表情-00-02.png"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "丹恒这家伙，好歹也搭理布洛妮娅一下嘛……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "走吧，我们去他房间看看。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "询问丹恒的意向"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n三月开心，想去。再去问丹恒。",
+      "location": "星穹列车-观景车厢"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "丹恒！布洛妮娅刚才给我们发消息啦，你看到了没？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "嗯，我看到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那你怎么不回话？布洛妮娅可是咱的老朋友欸！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…抱歉，我只是没有闲谈的兴致。「罗浮」之后，我一直在反省和思考…这过程十分伤神。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "丹恒……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "不好意思，我刚才说话太冲了！的确，在仙舟经历了那么多以后，你肯定需要些时间好好调整……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "丹恒就留在列车休整吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "感谢理解，开拓者。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "不如一起下去换个心情？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "还是不了，我就留在列车上吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "贝洛伯格能够迎来节庆可谓一大喜事，祝你们不虚此行。记得替我向各位老友问好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "好！那你也要好好休息，可不要再错过下次「开拓」啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "嗯，一定。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们离开丹恒的房间后…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "说不动他呀…那就只有咱们两个人去咯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "真可惜！好不容易能来一次不带包袱的旅行……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "他在仙舟经历了太多。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我当然理解他啦…这也不妨碍我觉得可惜嘛。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你别乌鸦嘴啊…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "雅利洛-Ⅵ可是连星核都挺过去了，这回还能出什么大事？你就别操不必要的心啦。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "唔，要是姬子能跟咱们一块去就好了……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不问问瓦尔特吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "杨叔？杨叔跟咱们在仙舟大闹了一番，最近说话还连咳带喘的，你没注意到吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "而且他都这把年纪了，肯定不爱凑这个热闹啦……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "帕姆呢？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "帕姆不能随便离开列车，它早就跟每个乘客都说过了吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "好啊，又抓住一个没听讲的！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，要不我们去问问姬子吧？没准她愿意跟咱们一起去呢！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "话说回来，你上车这么久了，还一次都没跟姬子搭档旅行过吧？这可不行——走，咱们去找她聊聊！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "询问姬子的意向"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n丹恒不去，太犟。去问问姬子。估计没戏。",
+      "location": "星穹列车-观景车厢"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "怎么了，小三月？看你一脸笑容，是有什么值得开心的事吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "姬子！听我说听我说，雅利洛-Ⅵ的大守护者正在筹备一场节日庆典，她还邀请我们一起去感受下庆典的氛围。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "丹恒还在闭关休养，哪儿也不去…所以，你要不要和我俩一起赴约？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "毕竟之前对付可可利亚的时候，你可是帮了大忙呀——布洛妮娅肯定也很想跟你这位大救星见上一面~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "怪不得三月的精神这么好，果然是在盼着好玩的事呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "谢谢你们的邀请，不过我手头还有些事务，一时半会儿脱不开身。你们可以替我向那位「大守护者」姑娘问好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "雅利洛-Ⅵ的开拓印迹是由你们两个——啊，当然还有丹恒——亲自走出来的，你们也理应好好享受当地人的这份谢意。下次，下次我一定会腾出时间和你们同去的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "领航员的日程还真是饱和…看来这次真的只有咱们俩了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "既然这么定了，那我就先去房间收拾收拾行李。{{开拓者|欸}}，等你准备好了就来找我吧。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（姬子）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "姬子",
+          "text": "我手头还有些事务，这次就不跟你们同去了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "姬子",
+          "text": "希望你们两个玩得开心，顺带替我跟那位「大守护者」姑娘问好。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "和三月七一起，重返贝洛伯格！"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n看来就我们俩了，有点扫兴。不能让三月感觉出来。准备好了就出发。",
+      "location": "星穹列车-观景车厢"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "来到三月七的房间，发现她已经换上了一套新衣服…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "怎么样，开拓者？我的新礼服，感觉如何？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么时候买的？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "一直都在我的衣柜里啦，只是之前没机会穿出来。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "盛装出席啊~",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "哼哼…这件一直躺在我的衣柜里，这下总算有机会穿出来了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "好不容易碰上一次这种场合，不好好打扮一番怎么行？倒是你，不会真的只有这一套衣服吧……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你挠了挠头，表示妈妈就给了这一件…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "算了算了，当我没说！咱们中间只要有一个注重仪表就够啦。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我看看…睡衣、保暖袋、还有帕姆的玩偶…齐活啦，准备出发！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "话说回来，你怎么收拾得这么快？没有什么要带的行李吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "没什么要带的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "对哦，感觉你每次都是轻装上阵…等等，你不会连睡觉都穿着这身衣服吧？！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你带帕姆玩偶干嘛？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "因为帕姆不能离开列车啊…所以只能用这种方法假装带它一起「开拓」过了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我的遗器带的都是速度词条。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我才不信呢，别想唬住我！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "雅利洛-Ⅵ…我刚才瞄了一眼杨叔发布的观测记录，相比我们第一次开拓之行的时候，那颗星球的平均地表温度已经回暖了不少。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "虽然还谈不上宜居吧…但至少已经开始显出好转的迹象了，真替布洛妮娅跟希儿她们高兴。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，怎么样？你准备好出发了嘛？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "出发吧，过节去！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "好耶！贝洛伯格，准备好再迎接本姑娘一次吧！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "其实我还忘了点东西…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "…什么呀，你这不是还没准备好吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "快去快去，我就在这儿等你。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n看来就我们俩了，有点扫兴。不能让三月感觉出来。准备好了就出发。",
+      "location": "雅利洛-Ⅵ-城郊雪原"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "雅利洛-Ⅵ……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "贝洛伯格……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "欠债还钱——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "——七百年不晚"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "活在风雪中的人们是怎么过节的呢……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "{{开拓者|欸}}，不管哪个世界的节日庆典，肯定都少不了各种美食吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "求求了，贝洛伯格…可别让我失望啊。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们在半路遇到了陌生的人影…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "停，开拓者！你看那边站着的人，穿的好像不是银鬃铁卫的军服？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那套黑色的制服，难道是…「公司」的人？在这个星球？不会是我眼花了吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "「公司」？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "还能是谁，当然是「星际和平公司」啦，就是到处都能看到它标志的那个「公司」——"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "…还没想起来？「查宝」你总记得吧？它就是公司的产品呀。还有…哦对了，「星际和平播报」！这个你总有印象吧，就是列车上总在放的那个！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "…算了算了，不重要。关键是，公司的人突然跑来雅利洛-Ⅵ干嘛？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "他们来这里干嘛？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我也在好奇…不会是来找「查宝」的吧？那他们可真是晚了好几步。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "好丑的制服。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "欸，是吗？我怎么觉得还挺酷的……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "…这不是重点啦！关键是，公司的人突然跑来雅利洛-Ⅵ干嘛？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "没办法，咱们主动上去问问吧？我印象里的公司员工态度都还挺好的。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "嗨，你好！请问你是星际和平公司的员工吗？还是说，你只是在玩换装模仿？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司员工",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司员工",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "……？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司员工",
+      "text": "老板，我这儿发现两个陌生人，要灭口吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "灭、灭口？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "…灭你个头啊，你别乱动！我这就过来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "二位好，初次见面！我叫托帕，是星际和平公司的投资专家，这次是来雅利洛-Ⅵ谈特别业务的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "我这位同事…不太擅长沟通，两位别放在心上哈。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "呼…真是吓了一跳，我们可是抱着参加庆典的轻松心情来的，才不想又被卷入什么奇怪的冲突里啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哎呀，对了，自我介绍——我是三月七，是星穹列车的乘客…星穹列车你们应该听说过吧？旁边这位是咱的同伴开拓者，也是列车组的成员。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "原来如此！我一眼就看出你们不是本地人，但想不到居然正巧碰上两位「无名客」！真是妙不可言的缘分~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "我听说，雅利洛-Ⅵ之所以能摆脱星核的影响，跟「开拓」势力的援助脱不开关系，难道你们两位就是……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "都是我们的功劳。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "哎呀，在外人面前，你倒是谦虚点嘛！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "只是贡献了一份小小的力量。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "哎呀，居然谦虚起来了？这可不像你呀。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "喔，没想到能在这里认识两位传奇人物，真走运！是吧，账账？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "话说回来，托帕小姐看上去这么年轻，居然已经当上了公司的高管，真让人羡慕……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "嗐，没什么好羡慕的，乘上了一波运势罢了~再说这也算不上什么美差，还不是得在各个星系之间跑来跑去，被业务推着走嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "去掉「业务」的部分，感觉你的工作内容跟列车组也差不多嘛！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "雅利洛-Ⅵ居然这么快就能跟公司建立起联系，甚至都开始谈合作了——动作真快，不愧是布洛妮娅！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "这「合作」的内容可能跟你们想的不太一样…不过后半句我同意，那位「大守护者」治理城市确实很有一套。我这次来的主要目的就是和她见上一面。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "啊，三月小姐刚才说，你们正赶着去参加贝洛伯格的节庆，对吧？实在不好意思，我和同事耽误你们赶路了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "没事没事，我们也不赶急。话说，你不跟着我们进城吗？这雪原多冷呀，还容易迷路……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "多谢你的关心，我们没问题的！我跟同事都是第一次来这颗星球，想先多看两眼这里「标志性」的雪景。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "要是咱们之间的缘分够深，说不定在节庆现场还能遇见。喏，这是我的联系方式——工作的时候我一般不回消息，等下班了咱们可以多多交流~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哇，居然不费吹灰之力就拿到了公司高管的号码……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "请教教我该怎么赚大钱！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "也、也请务必教教我！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我有个八十亿信用点的项目。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "你这么说鬼才信咧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "托帕",
+      "text": "哈哈哈，真不错，好羡慕你们轻松融洽的氛围啊~那我们先走一步咯，回见！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "横跨整个银河的两拨人，居然就这么偶遇在一起了…命运可真神奇呀，开拓者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "走吧，该进城了！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在城里转转，感受节日氛围"
+    },
+    {
+      "type": "objective-description",
+      "text": "开拓者的开拓日报：\n贝洛伯格，还挺热闹。四处转转，说不定能撞上熟人。",
+      "location": "雅利洛-Ⅵ-行政区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哇…人声鼎沸呀！这还是我记忆里的贝洛伯格吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "快，开拓者！快去看看广场上有什么好玩的、好吃的！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "旁听华劳斯对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "等等，前面那不是…是华劳斯！他终于交到朋友啦？过去听听他们在说什么吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "华劳斯",
+      "text": "…诺尔伯特，倒是跟大家说说，你怎么这么快就被放出来了啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "华劳斯",
+      "text": "倒卖文物、假扮铁卫——这一条条的，听着都是大罪啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "诺尔伯特",
+      "text": "呃…这不是多亏了我小叔嘛，你懂的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗希",
+      "text": "噢！想起来了，你小叔是那位诺伊尔大臣吧？交通部的领导？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "诺尔伯特",
+      "text": "呃…是，这你居然都知道？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "罗希",
+      "text": "我去，兄弟，不是我说，你这回脸皮可够厚的！换成是我犯了事被扔进班房，肯定没脸叫我老爸过来捞人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "诺尔伯特",
+      "text": "…不是，你以为我想啊？华劳斯，你是知道我的，我像那种仗势压人的主吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "华劳斯",
+      "text": "唔，这个…呃，我不好说……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "诺尔伯特",
+      "text": "…什么玩意，我在里面遭了这么多罪，现在出来了还要遭你们挤兑？你、你们算什么朋友！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "呃…他们好像快吵起来了，咱们还是先走为上吧……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "旁听佩拉姐姐的介绍"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那是佩拉吧？她又在带小孩子啦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "接下来，佩拉姐姐要开始介绍博物馆的历史背景了，大家要认真听哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "贝洛伯格历史文化博物馆建立于600年前，起初是为了纪念初代大守护者阿丽萨……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小朋友",
+      "text": "好饿哦…好想吃夕红鱼刺身……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…咳，是为了纪念初代大守护者阿丽萨·兰德，还有……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小朋友",
+      "text": "你们知道嘛？上层区以后好像要开铁卫生活体验营，听说会很有趣哦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…还有在七百年前对抗侵略者的战争中牺牲的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小朋友",
+      "text": "佩拉姐姐，我要告状！彼得他，要睡着啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "够了，你们！从现在开始，禁止交头接耳——不想罚抄作业的话，就都给我好好听着！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小朋友们",
+      "text": "知、知道了，佩拉姐姐……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佩拉",
+      "text": "…这才像话嘛。咳，刚才说到哪里了？我们继续……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "原来佩拉也有那么凶的一面啊……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "旁听希露瓦街头演唱"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，快来快来！希露瓦好像要开嗓啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "嘘——大家安静一下！别着急，表演马上开始！"
+    },
+    {
+      "type": "text",
+      "text": "（周围的观众欢呼中）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦&观众",
+      "text": "（合唱）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与歌蒂对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "歌蒂大婶——好久不见！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "歌蒂",
+      "text": "哎哟，这不是小三月吗——你们怎么来啦？我听人说，你们早就坐上大飞船，开到外太空去了呀？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "歌蒂",
+      "text": "哦，我知道了！你们肯定是听说了煦日节的事，特地回来体验节日气氛的，是吧？来来来，快来，我给你们烙一张热腾腾的太阳薄饼……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "排队的男子",
+      "text": "喂喂，前面那两个怎么插队啊？懂不懂先来后到啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "歌蒂",
+      "text": "别嚷嚷了！怎么，不认得这两位？要是没有他/她们，你怕是还蹲在矿坑里吃泥巴呢！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "等待歌蒂烙饼中……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "歌蒂",
+      "text": "看看，看看！这是我今天烙得最满意的两张饼了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哇，好香啊！又焦又脆的感觉，太棒了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "歌蒂",
+      "text": "记得一定要趁热吃啊，凉了就没那个风味了——不好意思啊，后面的客人还在等着呢，下次有机会我再好好招待你俩……"
+    },
+    {
+      "type": "text",
+      "text": "获得奖励太阳薄饼 × 2暂时为绝版食物"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与杰帕德对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…锵锵！戍卫官大人，瞧瞧谁回来了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "三月，还有开拓者？欢迎回到贝洛伯格。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "大守护者说过，会有神秘来宾前来参加煦日节的节庆活动——没想到她指的就是列车组的各位。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "希望你们这一路上还算顺利，没有派出铁卫迎接各位是我的失职……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "不不不，你别道歉啦！我们也就是路过看看，不用搞得那么隆重。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "明白，希望你们能享受节日的氛围。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…不过也要多加小心，城里的扒手就喜欢挑这种场合下手。请务必保管好私人财物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "嗯！明白啦！那就不打扰你们工作了，回头见！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "回见。"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,4924 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "假面双人舞",
+    "pageId": 9947,
+    "revisionId": 37458,
+    "parentRevisionId": 32261,
+    "revisionTimestamp": "2024-04-24T11:26:29Z",
+    "fetchedAt": "2026-09-28T00:22:17.981Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%81%87%E9%9D%A2%E5%8F%8C%E4%BA%BA%E8%88%9E",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%81%87%E9%9D%A2%E5%8F%8C%E4%BA%BA%E8%88%9E&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "假面双人舞",
+    "region": "匹诺康尼",
+    "type": "同行任务",
+    "version": "2.0",
+    "number": "01",
+    "series": "梦的解析",
+    "description": "花火给黑天鹅留下了一封诡异的挑战状，后者不得不迎接挑战…",
+    "requirements": "完成任务是谁杀死了…",
+    "requiredLevel": "34",
+    "characters": [
+      "花火",
+      "黑天鹅",
+      "桑博"
+    ],
+    "relatedItems": [
+      "案情简述·其一",
+      "证物：巨型木锤",
+      "证物：沙马里的证件",
+      "证物：「相互保证毁灭」按钮",
+      "证物：金槌府邸安全规范",
+      "证物：帕姆玩偶",
+      "案情简述·其二",
+      "证物：钱可通的账簿",
+      "证物：佐罗的领带",
+      "证物：阿佑的板凳",
+      "证物：烟熏红鲱鱼",
+      "证物：钟珊的戒指"
+    ],
+    "rewards": [
+      {
+        "item": "星琼",
+        "amount": "100"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "6"
+      },
+      {
+        "item": "星火之精",
+        "amount": "3"
+      },
+      {
+        "item": "空际小节",
+        "amount": "3"
+      },
+      {
+        "item": "《挑战读者》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "66000"
+      }
+    ],
+    "previousMissions": [
+      ""
+    ],
+    "nextMissions": [
+      ""
+    ],
+    "objectives": [
+      "任务接取短信",
+      "与爱德华医生对话",
+      "向猎犬家系成员询问案情",
+      "与捕头和捕快对话",
+      "向捕快询问嫌疑人信息",
+      "调查案发现场的证物",
+      "整理已收集到的线索",
+      "进入花火藏匿谜题线索的房间",
+      "调查花火留下的「证物」",
+      "推理出谜题的解答",
+      "向捕头指认「凶手」",
+      "赶往花火即将行凶的地点",
+      "与警长和副警长对话",
+      "向副警长询问嫌疑人信息",
+      "调查案发现场的证物",
+      "整理已收集到的线索",
+      "进入花火藏匿谜题线索的房间",
+      "调查花火留下的「证物」",
+      "推理出谜题的解答",
+      "赶往花火即将行凶的地点",
+      "赶往花火的藏身之处",
+      "调查奇怪的垃圾桶",
+      "与爱德华医生对话"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "花火、黑天鹅",
+      "相关成就": "与你同行的回忆#舞会进行时",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "任务接取短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "爱德华医生",
+      "subtitle": "无意识就是大他者的话语。",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "爱德华医生",
+          "contentType": "text",
+          "text": "您好，开拓者先生/女士。方才有人向鄙店捐赠了一枚梦泡，经过精神波谱分析，猜测您会对这枚梦泡的内容感兴趣。"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "听起来有点可疑…",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "听起来有点可疑…"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "爱德华医生",
+                  "contentType": "text",
+                  "text": "请勿担心，鄙店的梦境全部经过严格检定，绝无暗藏危害的可能。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "是谁捐赠给你的？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "是谁捐赠给你的？"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "你怎么知道我会感兴趣？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你怎么知道我会感兴趣？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "爱德华医生",
+                  "contentType": "text",
+                  "text": "这就是精神分析，先生/女士！"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "爱德华医生",
+          "contentType": "text",
+          "text": "捐赠者是一位优雅的女士，署名是「黑天鹅」。若您时间允许，本店随时恭候莅临。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与爱德华医生对话"
+    },
+    {
+      "type": "objective-description",
+      "text": "你收到了一条来自爱德华医生的短信。爱德华医生邀请你前往梦境贩售店，体验一位署名「黑天鹅」的女士为你留下的梦境。你当然认识黑天鹅，但想不通她为何要为你留下一段梦境。去梦境贩售店看看吧，也许只有亲自体验，才能得到答案。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爱德华医生",
+      "text": "欢迎光临「梦境贩售店」，星穹列车的开拓客！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你就这一句开场白吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "爱德华医生",
+              "text": "请见谅，对于您这样身份尊贵的客人，我难以找到更妥帖的称呼。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "好久不见，大眼仔。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "爱德华医生",
+              "text": "好久不见，历劫佳人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爱德华医生",
+      "text": "您一定是来体验那枚梦泡的，我已做好准备。请注意，虽然鄙店的商品均已通过「027号-欠损费勒斯」和「076号-实在界荒原」两项安全协议检验……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爱德华医生",
+      "text": "但这场梦…它是一段尚未经过修饰和打磨的新鲜记忆，生猛又刺激。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爱德华医生",
+      "text": "资深玩家将这种梦称为「刺身」，我不确定这点是否合您胃口。如有任何不适，请立即离开梦境，并寻求专业的医疗帮助。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爱德华医生",
+      "text": "——很幸运，我正是一位优秀的医生，虽然是精神科的，哈哈！让我们开始吧。请您闭上眼睛，将额头抵在梦泡上。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（触碰梦泡）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "还是有点不放心…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "爱德华医生",
+              "text": "如果您需要时间准备，鄙店愿意无限期等待。"
+            },
+            {
+              "type": "text",
+              "text": "再次对话"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "爱德华医生",
+              "text": "准备好体验黑天鹅女士的美梦了吗？——请您闭上眼睛，将额头抵在梦泡上。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "（触碰梦泡）",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "再等一下…",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "爱德华医生",
+                      "text": "如果您需要时间准备，鄙店愿意无限期等待。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爱德华医生",
+      "text": "对了，那位优雅的女士临行前还有一句赠言——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "「这段记忆的性质有些特殊，为了其他顾客的梦境体验，还请不要向任何人透露它的结局。」"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入拓境探游黑天鹅的梦泡"
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "关于这段梦境，黑天鹅特意叮嘱了一句：「这段记忆的性质有些特殊，为了其他顾客的梦境体验，还请不要向任何人透露它的结局。」",
+      "context": "介绍"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你进入了黑天鹅的梦泡…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "…在我看来，这毫无疑问是一场「谋杀」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "谋杀…这个词对我们太陌生了。在家族的保护下，匹诺康尼不可能出现任何伤亡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "在梦中，就算一个人被铁锤殴打千百下，充其量也只是在现实酒店中醒来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "话不能这么说啊，就算结果构不成伤亡，这犯罪意图…也够明显了吧？你们特地过来封锁现场，不就是因为这案子性质恶劣？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "你说的也对。即便不会真的受伤，但好端端走在大马路上，就被人用锤子一顿乱砸…这绝不是该发生在匹诺康尼的事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "二位既然是橡木家系派来的，现场就任由你们调查了。我会在一旁待命。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "好姐姐，你究竟使的什么法子，让她转眼就相信咱们是什么「侦查人员」……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "黑天鹅：（如实相告）",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "只是一些「记忆」层面的暗示。如果一件事出现在所有人的记忆中…那么它就是「事实」。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "若时间再充裕些，让她相信我是「同谐」本人垂迹也不是不可能。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "黑天鹅：（不做解释）",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "只是一些「记忆」层面的暗示。如果一件事出现在所有人的记忆中…那么它就是「事实」。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "比起说明——你要亲自体验一下么？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "那么接下来…我们来聊聊你这位「同伴」吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "面具",
+      "text": "「忆庭的忆者，我注意你很久了。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "面具",
+      "text": "「入住酒店时，你就在偷看我。来到梦境后，我去哪，你就跟到哪：商业街的橱窗里，艾迪恩公园的水面下，甚至酒杯的倒影里，无处不在！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "面具",
+      "text": "「——亲爱的，你是不是暗恋我呀？好呀，既然你对我这么感兴趣，咱们就玩个游戏吧。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "面具",
+      "text": "「我在奥帝购物中心附近给你留了道谜题，解开它，证明你有能力取悦我。如果你能做到…我们也不是不能谈谈。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "面具",
+      "text": "「别让我等太久，亲爱的。在匹诺康尼被搅得天翻地覆前，试着找到我~抓住我~阻止我吧~」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "事实上，来到匹诺康尼的忆者不止一人，她把我和其他人弄混了。不过也无妨……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "面具中提到的地址就是这里，只是没想到…花火小姐口中的游戏竟是在匹诺康尼街头「大开杀戒」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "收到如此直接的挑衅，我也多少被激起了些好胜心呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "姐，您饶了我吧，她说的这些我真不知道——都给你查过脑子了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "我只是朋友一场，帮她送个信而已——谁知这不是送信，是下战书来了啊！都说两军交战不斩来使，您放我走吧，你们玩得太大了，我实在陪不起……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "很害怕的表情呢。放心，既然此事与你无关，我不会为难你的。就当陪我走走吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "哎哟，看来这「侦探助手」我是逃不掉了…行吧行吧，唉，都什么事儿啊！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向猎犬家系成员询问案情"
+    },
+    {
+      "type": "objective-description",
+      "text": "这里似乎刚发生了一起「谋杀案」（幸好在匹诺康尼，人很难真的被「谋杀」），而「凶手」毫无疑问就是那位让人捉摸不透的花火。黑天鹅似乎并不打算将「凶手」的身份告知猎犬家系，而准备陪花火玩玩。你摸不透花火到底在想什么，也摸不透黑天鹅到底在想什么。",
+      "location": "匹诺康尼-黑天鹅的忆泡"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（猎犬家系的保镖）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "两名猎犬家系的保镖保护着犯罪现场，确保不会有任何无关人员靠近。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "桑博",
+          "text": "他们不会突然意识到，咱们根本不是什么「侦查人员」吧……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "黑天鹅",
+          "text": "当然不会。请多信任我一点。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "二位想知道什么尽管开口。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "关于受害者…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "受害者的身份是？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "猎犬家系成员",
+              "text": "是位星际和平公司的职员，叫沙马里。听目击者说，有个人高马大的壮汉，穿得宽袍大袖，和沙马里擦肩而过时，突然一锤子砸了下去…"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "猎犬家系成员",
+              "text": "沙马里当场就不行了，一下从梦里惊醒了过来。那凶手也转眼消失不见。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "唉，一听就是花火干的。她最擅长的就是变化成其他人的样子。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "关于现场的美梦剧团…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "那两个小家伙是…？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "猎犬家系成员",
+              "text": "似乎是袭击者从别处偷来的美梦剧团，故意放在这儿的…真气人，简直就是不把公共秩序放在眼里。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "猎犬家系成员",
+              "text": "那俩东西一直不肯说话，不知道二位能否撬开它们的嘴。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "看来那就是花火留给你的谜题了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "关于现场的证物…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "有发现什么线索吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "猎犬家系成员",
+              "text": "因为是突发事件，没什么有用的线索，只有袭击者使用的凶器，和受害者的证件……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "猎犬家系成员",
+              "text": "那人没带走凶器，大概是在向我们挑衅吧…太可恨了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "能传唤受害者吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "谢谢，我没有其他问题了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "不用谢，二位想知道什么尽管开口。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "那位沙马里先生现在在哪里？我想和他见一面。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "恐怕不行。橡木家系出面安抚了他的情绪，沙马里先生对梦中的不可思议表示理解，前往其他梦境继续度假了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "还是不要打扰他了。客人们的体验永远排在第一优先。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "等找到他，怕不是半个匹诺康尼都要被花火送回现实了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "看来我们不得不陪花火小姐玩这场游戏了呢。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（猎犬家系成员）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "猎犬家系成员",
+          "text": "二位还有什么事吗？"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "想再确认下案情。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "黑天鹅",
+                  "text": "请你再为我们说明下案发经过吧。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "没问题。你想问哪件事？"
+                },
+                {
+                  "type": "choice",
+                  "presentation": "dialogue",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "关于受害者…",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "猎犬家系成员",
+                          "text": "是位星际和平公司的职员，叫沙马里。听目击者说，有个人高马大的壮汉，穿得宽袍大袖，和沙马里擦肩而过时突然一锤子砸了下去…"
+                        },
+                        {
+                          "type": "dialogue",
+                          "speaker": "猎犬家系成员",
+                          "text": "沙马里当场就不行了，一下从梦里惊醒了过来。那凶手也转眼消失不见。"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "text": "关于现场的美梦剧团…",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "猎犬家系成员",
+                          "text": "似乎是袭击者从别处偷来的美梦剧团，故意放在这儿的…真气人，简直就是不把公共秩序放在眼里。"
+                        },
+                        {
+                          "type": "dialogue",
+                          "speaker": "猎犬家系成员",
+                          "text": "那俩东西一直不肯说话，不知道二位能否撬开它们的嘴。"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "text": "关于现场的证物…",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "猎犬家系成员",
+                          "text": "因为是突发事件，没什么有用的线索，只有袭击者使用的凶器，和受害者的证件……"
+                        },
+                        {
+                          "type": "dialogue",
+                          "speaker": "猎犬家系成员",
+                          "text": "那人没带走凶器，大概是在向我们挑衅吧…太可恨了。"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "text": "没有其他问题了。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "黑天鹅",
+                          "text": "谢谢，我没有其他问题了。"
+                        },
+                        {
+                          "type": "dialogue",
+                          "speaker": "猎犬家系成员",
+                          "text": "不用谢，二位想知道什么尽管开口。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "没有其他问题了。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "黑天鹅",
+                  "text": "谢谢，我没有其他问题了。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "猎犬家系成员",
+                  "text": "不用谢，二位想知道什么尽管开口。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "黑天鹅",
+                  "text": "接下来…来会会这两个小家伙吧。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "桑博",
+                  "text": "那姑娘说它们一直保持沉默，但如果对你有反应，就代表它们真是花火布置的谜题了。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与捕头和捕快对话"
+    },
+    {
+      "type": "objective-description",
+      "text": "花火在现场留下了很多东西，并用它们构建出了一场诡异的舞台剧。看起来，「谋杀」只不过是用于招徕观众的诱饵，「谜题」才是她留给黑天鹅的挑战。",
+      "location": "匹诺康尼-黑天鹅的忆泡"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "黑天鹅大人，我们总算等到您了！我是此地的捕头，旁边那位则是协助我一起办案的捕快。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕快",
+      "text": "哟，寒腿叔叔，你怎么叛变了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "还真开口说话了！黑天鹅小姐，它们果真是冲着你来的——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "少插嘴，有你说话的份吗？咳咳…听闻黑天鹅大人智计超凡，想来定能解开这起「花火大人遇害案」的真相！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "「花火大人遇害案」？受害者不是星际和平公司的沙马里吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕快",
+      "text": "您弄错了，黑天鹅大人。遇害的分明是金槌家的家主，金槌花火大人啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "…哦，看来这是花火小姐自导自演的小剧场，和实际案件并无关联。「金槌」是她的姓氏吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "没听说过啊，随口编的吧。我看「花火」也不像什么真名。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "今天本应是花火大人在金槌府邸接见手下三位勇士的日子，可当勇士们走进府邸后，看见的却是「花火大人的尸体」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "花火大人的脑袋被锤子砸开了花，当场毙命…多么残忍的暴行啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕快",
+      "text": "据我调查，案发前日，三位勇士本应押送一批货物回到领地内，谁料在路上遭遇了山贼泯灭帮的袭击。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕快",
+      "text": "三人九死一生，好不容易捡回一条命，但货物却被劫得不剩多少了。所以他们每个人都有为了逃避责任而杀害花火大人的动机！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "如此看来，是三位勇士联手行凶？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕快",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "…这是结案了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "不对，凶手只能有一个人！三个人都是凶手还算什么疑案…稍等…稍等……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "实在圆不上就算了吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "有了！他们三人为争夺二把手的位置，关系极其紧张，根本不可能合作！所以必然是其中一人单独作案！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "其实不太讲得通，就算这三个人关系不好，可是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "请黑天鹅大人开始调查吧！案发现场留下了许多线索，一定能帮助您锁定真凶。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕快",
+      "text": "我已备好案件卷宗，您可以向我了解更多有关嫌疑人的信息。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向捕快询问嫌疑人信息"
+    },
+    {
+      "type": "objective-description",
+      "text": "黑天鹅开始收集线索，尝试解开花火留下的谜题。你不禁想，花火如此大费周章，究竟是为了什么？但对于花火这样的人来说，考虑「为什么」大概就落了下乘。不如先和黑天鹅一起，玩玩花火留下的推理游戏吧…也许这其中就隐藏着花火的真实目的。",
+      "location": "匹诺康尼-黑天鹅的忆泡"
+    },
+    {
+      "type": "fold",
+      "title": "试图离开",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "面具",
+          "text": "喂！亲爱的忆者？你要去哪儿？不会想逃吧？不会是怕了吧？流光忆庭就这？就这？就这？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "桑博",
+          "text": "哎！这都是花火的个人发言，可不代表假面愚者啊！"
+        },
+        {
+          "type": "text",
+          "text": "再次尝试离开"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "面具",
+          "text": "喂！亲爱的忆者？你要去哪儿？不会是想逃吧？不会是怕了吧？流光忆庭就这？就这？就这？"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕快",
+      "text": "黑天鹅大人，请容我向您介绍本案的三名嫌疑人——佐罗、钟珊和阿佑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕快",
+      "text": "佐罗是花火大人部下悍将，在对抗山贼时，奋勇抗敌，右手不幸被斩断了。现在正在练习用左手写字和拿筷子，真是可怜啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕快",
+      "text": "钟珊这人胆子比较小，遇见山贼转身就跑，结果撞到了山岩上，整张脸都破相了。可惜可惜，以前他可是城中难得一见的美男子啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕快",
+      "text": "最后是阿佑，这家伙贪得无厌，好不容易逃出生天，竟打算私吞剩下的货物，谎称是被山贼全部抢走了…佐罗和钟珊气不过，就把他的腿打断了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "等等，我给绕晕了…这左中右都是啥来着？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕快",
+      "text": "怎么样，您记住了吗？需不需要我再讲一遍？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "黑天鹅：不必了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "不必了，我都记住了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "捕快",
+              "text": "真不愧是忆者。花火本音"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "黑天鹅：再讲一遍。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "我倒是都记住了。不过…看来「侦探助手」先生还有疑虑啊…那，麻烦你再复述一遍？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "捕快",
+              "text": "佐罗是花火大人部下悍将，在对抗山贼时，奋勇抗敌，右手不幸被斩断了。现在正在练习用左手写字和拿筷子，真是可怜啊。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "捕快",
+              "text": "钟珊这人胆子比较小，遇见山贼转身就跑，结果撞到了山岩上，整张脸都破相了。可惜可惜，以前他可是城中难得一见的美男子啊。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "捕快",
+              "text": "最后是阿佑，这家伙贪得无厌，好不容易逃出生天，竟打算私吞剩下的货物，谎称是被山贼全部抢走了…佐罗和钟珊气不过，就把他的腿打断了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "捕快",
+              "text": "以上就是三位嫌疑人全部的信息了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品案情简述·其一"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（捕头）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "捕头",
+          "text": "请黑天鹅大人开始调查吧！案发现场留下了许多线索，一定能帮助您锁定真凶。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（捕快）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "捕快",
+          "text": "请问您还有什么问题吗？"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "想再听听嫌疑人信息。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "捕快",
+                  "text": "佐罗是花火大人部下悍将，在对抗山贼时，奋勇抗敌，右手不幸被斩断了。现在正在练习用左手写字和拿筷子，真是可怜啊。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "捕快",
+                  "text": "钟珊这人胆子比较小，遇见山贼转身就跑，结果撞到了山岩上，整张脸都破相了。可惜可惜，以前他可是城中难得一见的美男子啊。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "捕快",
+                  "text": "最后是阿佑，这家伙贪得无厌，好不容易逃出生天，竟打算私吞剩下的货物，谎称是被山贼全部抢走了…佐罗和钟珊气不过，就把他的腿打断了。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "捕快",
+                  "text": "以上就是三位嫌疑人全部的信息了。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "没什么问题。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "黑天鹅",
+                  "text": "对于案件我没有疑问，只是有些好奇…花火是怎么操纵你的？"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "捕快",
+                  "text": "我只是一介捕快，不清楚和本案无关的事情！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查案发现场的证物"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查现场的凶器"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "我的个乖乖，这锤子分量可不轻啊…应该就是「花火大人遇害案」的凶器了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "花火小姐也是用它袭击了沙马里先生吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "这东西我两只手拎着都费劲，真不知道花火是怎么用它来打人的……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品证物：巨型木锤"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查地上的证件"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "看，这有张证件——「人才激励部，沙马里」…是受害者的东西？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "随着沙马里先生的惊醒，他的随身物品本应一并从梦境中消失才对。这张证件应该是花火小姐放置的，为了证明她确实袭击过某个人。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品证物：沙马里的证件"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "整理已收集到的线索"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "就这点「证物」？这叫人怎么答题嘛……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "面具",
+      "text": "咳咳！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "吓我一跳！你什么时候跑出来的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "面具",
+      "text": "你们发现的两件证物，是和沙马里遇袭相关的东西。花火大人物尽其用，将它们也当做了谜题的线索。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "面具",
+      "text": "但还有一些别的线索，被放在了更不碍事的地方……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "这是否有些多此一举了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "面具",
+      "text": "不不，如果在犯罪现场放一堆无关紧要的东西，不就成扰乱搜查了嘛！花火大人可是守法公民，绝不给家族添麻烦！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "面具消失了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "她人还怪好的哦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "看来花火小姐是想为调查再多添几分乐趣，我们就收下她的好意吧。请来这边，「侦探助手」先生。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "进入花火藏匿谜题线索的房间"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "哈努变身！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入房间"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查花火留下的「证物」"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查地上的小巧按钮"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "嗯…这个小巧的装置是做什么用的，可以为我解释一下吗？看上去像是个按钮。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "别按！黑天鹅大人，千万别按！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "这是花火大人留下的「相互保证毁灭」按钮，一旦按下，花火大人会立刻和整个匹诺康尼一起灰飞烟灭！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "与此同时，花火大人也持有一个相同的按钮。一旦她按下，您就会立刻和整个匹诺康尼一起灰飞烟灭！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "这听起来…似乎没什么区别？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "的确没什么区别。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "哦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "您不问问这是为什么吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "那…这是为什么呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "因为她公平。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "有毛病啊！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品证物：「相互保证毁灭」按钮"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查地上的告示"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "这张告示…似乎是花火留给我们的提示。"
+    },
+    {
+      "type": "fold",
+      "title": "金槌府邸安全规范",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "为避免歹人伤害伟大又可爱的花火大人，金槌府邸从即日起施行如下安全规范：\n\n1、所有家臣及访客需通过人脸识别系统出入金槌府邸。\n\n2、无法通过人脸识别系统者，将被当场击毙。\n\n3、本规范永久有效。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "刚听着还像个古代背景的故事，怎么突然冒出个人脸识别系统？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "很有她的风格，不是么？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品证物：金槌府邸安全规范"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查帕姆玩偶"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "这又是什么东西…毛绒玩具？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "且不论形象为何是星穹列车的列车长，这个玩偶也和案件有关吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "您有所不知，这在推理故事中叫「红鲱鱼」，意思是「误导思路的假线索」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "原来如此。但你这么直截了当地说出来，它不就没有用了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "这、这不是怕二位没能察觉花火小姐的巧思，误以为她随便扔了个没用的线索……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "多谢你的良苦用心，那我们就假装被「红鲱鱼」误导了吧。嗯…这个玩偶也和案件有关吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "也不必这么给她面子吧……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品证物：帕姆玩偶"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "看来没有别的线索了，我们回案发现场吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "离开藏匿线索的房间"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "接下来，就该锁定凶手的身份了吧？可这些证物…我看了半天，也没觉得哪个可以指认真凶啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "「佐罗」，这家伙的手好像断了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "记得「钟珊」是把脸摔破相了，没错吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "这人我印象很深，「阿佑」的腿断了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "不如将思路反转过来，思考「谁不可能是凶手」呢？毕竟嫌疑人只有三位，一一排除也不失为一种方法。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "听这话，你是已经有头绪了？快说来听听。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "推理出谜题的解答"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "尝试排除「阿佑」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "所以，凶手究竟是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "这人我印象很深，「阿佑」的腿断了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "提交物品证物：沙马里的证件",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "提交物品证物：巨型木锤",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "提交物品证物：金槌府邸安全规范",
+          "content": []
+        },
+        {
+          "id": 4,
+          "text": "提交物品证物：「相互保证毁灭」按钮",
+          "content": []
+        },
+        {
+          "id": 5,
+          "text": "提交物品证物：帕姆玩偶",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "呃…是这样吗，感觉证据有点对不上号啊？要不，再想想？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "尝试排除「钟珊」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "所以，凶手究竟是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "记得「钟珊」是把脸摔破相了，没错吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "提交物品证物：沙马里的证件",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "呃…是这样吗，感觉证据有点对不上号啊？要不，再想想？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "提交物品证物：巨型木锤",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "呃…是这样吗，感觉证据有点对不上号啊？要不，再想想？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "提交物品证物：金槌府邸安全规范",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "可怜的人，脸上受了重伤，就算能保住美貌，最近也不得不缠着纱布出行吧。如此一来，他是无法通过金槌府邸的人脸识别系统的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "如此看来，钟珊不会是凶手。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "提交物品证物：「相互保证毁灭」按钮",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "呃…是这样吗，感觉证据有点对不上号啊？要不，再想想？"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "提交物品证物：帕姆玩偶",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "呃…是这样吗，感觉证据有点对不上号啊？要不，再想想？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "尝试排除「佐罗」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "所以，凶手究竟是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "「佐罗」，这家伙的手好像断了……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "提交物品证物：沙马里的证件",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "呃…是这样吗，感觉证据有点对不上号啊？要不，再想想？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "提交物品证物：巨型木锤",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "根据捕快的供词，佐罗的惯用手受了重伤，甚至必须学习用左手生活。挥舞那柄巨型铁锤行凶…对他应该相对困难，甚至是不可能的事吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "佐罗的嫌疑可以下降了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "提交物品证物：金槌府邸安全规范",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "呃…是这样吗，感觉证据有点对不上号啊？要不，再想想？"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "提交物品证物：「相互保证毁灭」按钮",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "呃…是这样吗，感觉证据有点对不上号啊？要不，再想想？"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "提交物品证物：帕姆玩偶",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "呃…是这样吗，感觉证据有点对不上号啊？要不，再想想？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "整理完线索"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "这么看来，凶手也只能是阿佑了——有点简单啊。咱们把答案告诉捕头，看看它是什么反应吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向捕头指认「凶手」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "请黑天鹅大人开始调查吧！案发现场留下了许多线索，一定能帮助您锁定真凶。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "真凶是「阿佑」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "捕头",
+      "text": "嘟嘟嘟嘟嘟——！回答正确，真不愧是黑天鹅大人！按照游戏规则，我将告诉您下一道谜题的地点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "啊？下一个谜题，这跟说好的不一样啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "看来，胜负的关键不在谜题本身，如果我们不能看穿花火小姐古怪行径下的真实意图…恐怕这场追赶永远不会结束。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "我得提醒你一句，那花火可是个假面愚者，你打算在一个假面愚者的脑袋里找逻辑？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "我的确是这么考虑的。即便主观不存在规律，行为也一定会留下某种共性——记忆是不会说谎的，它或许比那女孩本人更了解她的本质。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "眼下，我们就先顺从她的心思，前往下一题的所在吧。希望这次能赶在猎犬家系之前，如果可以，我并不想使用忆者的能力。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（捕头&捕快）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "捕头和捕快成了两具颓然的死物。看来，它们已经完成任务了。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "赶往花火即将行凶的地点"
+    },
+    {
+      "type": "objective-description",
+      "text": "谜题解开了，游戏却并未结束。「捕头」告诉黑天鹅，花火即将再次行凶，而黑天鹅一定赶不及去阻止她。你感受到这段梦境中闪过了一段短暂但剧烈的情绪波动，大概因为黑天鹅并不享受这种被人牵着鼻子走的感觉吧。",
+      "location": "匹诺康尼-黑天鹅的忆泡"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "所以，你究竟为什么对花火的挑战这么上心？还是说…你关心的是她这个人？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "我说过，这只是出于一些…小小的好胜心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "以及，身为忆者，我也要履行自己的职责，去收获一些「足够有趣」的记忆。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与警长和副警长对话"
+    },
+    {
+      "type": "objective-description",
+      "text": "又一场谋杀、又一出戏剧、又一个谜题。桑博看起来苦恼极了，恨不得马上逃回那与世隔绝的静谧雪国。黑天鹅倒是悠然自得，醉心于花火安排的侦探游戏之中。但他们都不是那种会把真实想法写在脸上的人，所以你也分不清他们是不是真的苦恼、真的悠然。\n不过梦境贩售店好歹也算是个娱乐场所，与其猜测「剧中人」的真实想法，还不如专心研究花火留下的谜题，享受推理的乐趣呢。",
+      "location": "匹诺康尼-黑天鹅的忆泡"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "哇…看这一地狼藉，还有那两个奇形怪状的家伙，多半就是这儿了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "现场没有其他人，看来花火小姐用了相同的手段，把梦中的人「送回」现实了…我们先和那两位谈谈吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "哦，{{黑天鹅|Black Swan}}警探，{{桑博|Sampo}}警探，你们可终于来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "副警长",
+      "text": "要是没有你们的帮助，我们可真不知道该怎么办才好！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "呃，你们为什么要这样说话？是什么我老桑博不懂的艺术形式吗……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "说话？我们说话的方式有什么问题吗？副警长阁下，我说话的方式很奇怪吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "副警长",
+      "text": "当然不，警长阁下，您说话的方式比我外婆家后院苹果树上趴着的猫还要稀松平常。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "这次的小剧场是现代风格呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "还是谈谈这起难解的疑案吧！这桩案件的受害者，是一位名叫「花火」的银河富商……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "又是花火？她就这么热衷于把自己写死？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "哦，乐子神在上，你要是再拆我的台花火本音，我发誓一定会狠狠地踢你的屁股！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "咳咳…花火大人来到这家服装店，想为自己购买一条崭新的领带。可她进入试衣间后，久久都没有出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "店员进入试衣间查看情况，却发现了「花火大人的尸体」！她在试衣时被人勒死了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "而现场共有三位嫌疑人，分别是皮皮西店员阿佑、狐人赌徒钟珊、和智械富商{{佐罗|Zorro}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "这三位也是老朋友呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "还不是为了方便你们记忆！这次还给他们补上了种族细节，方便区分。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "副警长",
+      "text": "花火大人真是宅心仁厚！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "最后，根据监控录像，目击者证词，还有各种乱七八糟的证据，凶手一定在这三个人里——而且他们绝对不是共犯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "你彻底懒得圆了是吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "哦，乐子神在上，多和你说一句话，都玷污了我高贵圣洁的魂灵！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "副警长",
+      "text": "{{黑天鹅|Black Swan}}警探，档案室在这边。您可以向我了解更多有关嫌疑人的信息。相信您一定可以拨开迷雾，找到杀害花火大人的凶手。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向副警长询问嫌疑人信息"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "副警长",
+      "text": "我来为您介绍下，本案的几名嫌疑人，身份都不复杂——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "副警长",
+      "text": "首先是店员阿佑，他是个皮皮西人，身高还不到花火大人的腰，这一点常被人取笑，令他变得有些阴暗。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "副警长",
+      "text": "然后是富商{{佐罗|Zorro}}。他想加入匹诺康尼的商事集团，同花火大人是竞争关系。也许这就是他的杀人动机。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "副警长",
+      "text": "最后是赌徒钟珊。他曾在一场赌局中输给花火大人，不得不交出自己的传家之宝，可能正因如此，他对花火大人怀恨在心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "副警长",
+      "text": "这就是全部的信息了。需要我再复述一遍吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "黑天鹅：想再听听嫌疑人信息。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "爱德华医生",
+              "text": "（抱歉打断您的梦境体验，开拓者先生/女士。这枚梦泡中似乎没有这样的片段。）"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "爱德华医生",
+              "text": "（但请放心，我来为您重播一遍方才的记录。）"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "副警长",
+              "text": "首先是店员阿佑，他是个皮皮西人，身高还不到花火大人的腰，这一点常被人取笑，令他变得有些阴暗。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "副警长",
+              "text": "然后是富商{{佐罗|Zorro}}。他想加入匹诺康尼的商事集团，同花火大人是竞争关系。也许这就是他的杀人动机。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "副警长",
+              "text": "最后是赌徒钟珊。他曾在一场赌局中输给花火大人，不得不交出自己的传家之宝，可能正因如此，他对花火大人怀恨在心。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "黑天鹅：不必了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "不必了，我记得住。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品案情简述·其二"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（警长）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "警长",
+          "text": "如何，{{黑天鹅|Black Swan}}警探，你找出凶手是谁了吗？"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（副警长）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "副警长",
+          "text": "还有什么事吗，{{黑天鹅|Black Swan}}警探？"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "想再听听嫌疑人信息。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "副警长",
+                  "text": "首先是店员阿佑，他是个皮皮西人，身高还不到花火大人的腰，这一点常被人取笑，令他变得有些阴暗。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "副警长",
+                  "text": "然后是富商佐罗。他想加入匹诺康尼的商事集团，同花火大人是竞争关系。也许这就是他的杀人动机。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "副警长",
+                  "text": "最后是赌徒钟珊。他曾在一场赌局中输给花火大人，不得不交出自己的传家之宝，可能正因如此，他对花火大人怀恨在心。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "没什么事。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "黑天鹅",
+                  "text": "只是有些好奇，花火小姐一人分饰多角，不会感到累吗？"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "副警长",
+                  "text": "你要真心疼花火大人，就好好表现，让她玩得开心点！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查案发现场的证物"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查地上的账本"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "地上躺着一本账本，想必是花火特地留下的吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "扉页上写着「钱可通」…是个人名？代号？看着像是这账本的主人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "这位钱可通应该就是这次被花火盯上的受害者了。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品证物：钱可通的账簿"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查箱子中的领带"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "这有一根领带。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "那小剧场里说，死者是被「勒杀」的，莫非这领带就是这次的双关凶器？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "领带标签上写着「佐罗大人御用」…似乎是花火小姐的个人物品呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "「御用」这词不是这么用的吧？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品证物：佐罗的领带"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "整理已收集到的线索"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "看来和第一案一样，现场只有这两件证物。剩下的…又给她藏里面了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "面具",
+      "text": "花火大人不想扰乱侦查嘛！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "好一个「不想扰乱侦查」，这花火真是个遵纪守法的好公民——那她怎么不去自首呢？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "进入花火藏匿谜题线索的房间"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "哈努变身！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入房间"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查花火留下的「证物」"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查倒地的板凳"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "一个小板凳，倒还算得上正常。上面画了两个小脚印——还是用蜡笔画的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "比常人小一半的脚印，应该是皮皮西人留下的吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "也可能只是这人的画技非同凡响。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品证物：阿佑的板凳"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查一条鱼"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "…什么味道啊这是——地上怎么有条烟熏鱼？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "桑博先生，仔细看看…这是一条上好的「烟熏红鲱鱼」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "救命啊，这笑话真的太冷了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "即便在我认识的愚者中，花火小姐的幽默感也别具一格呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "你见过很多假面愚者吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "不多，也就四五位吧，毕竟我更喜欢沐浴在阳光下的，令人温暖幸福的「记忆」，它们通常属于更善良的人。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品证物：烟熏红鲱鱼"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查坏掉的梦境迷钟"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "这钟是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "打开看看吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "修复坏掉的梦境迷钟"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "原来里面存了个戒指，这也是证物吧。为什么要多此一举放在机关里呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "因为这戒指是在受害者口中发现的，要还原现场啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "在受害者口中…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "哎，这戒指侧面还刻了一行字：「钟珊家传」……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品证物：钟珊的戒指"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "完成调查"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "应该没别的了，咱们出去吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "我得向你表示感谢，「侦探助手」先生。不过…这次的谜题似乎有些奇怪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "你已经看出凶手是谁了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "只是一些浅浅的直觉…总之，我们先去向那位警长汇报吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "推理出谜题的解答"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "哦！乐子神在上！没想到{{黑天鹅|Black Swan}}警探这么快就回来了！怎么样？你找到凶手了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "姑且算是吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "真不愧是黑天鹅警探，你就像我{{弗兰克|Frank}}姨夫家车库顶棚上的那窝喜鹊一样机敏！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "好家伙，直接给您换了种鸟类。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "那么请问——凶手是谁，又有什么证据能证明他是凶手呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "黑天鹅：指认凶手。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "警长",
+              "text": "好啊！那就让我们鉴赏一下您的推理吧。"
+            },
+            {
+              "type": "section",
+              "level": 3,
+              "title": "向警长指认「凶手」"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "尝试指认「佐罗」",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "哦…您已经找到答案了吗？"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "「佐罗」是个富商，和花火大人龙争虎斗数十载，可真是势同水火啊！"
+                    },
+                    {
+                      "type": "choice",
+                      "presentation": "dialogue",
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "提交物品证物：钱可通的账簿",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "嗯？这证据好像没法证明他是凶手吧……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "text": "提交物品证物：佐罗的领带",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "证据就是这条领带，对么？"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "…没错，正是如此！"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "这条领带是佐罗的东西，而它正是本案的凶器，还有比这更坚实的铁证吗？"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "佐罗潜入试衣间，等待可怜的花火大人进入后，就用领带残忍地杀害了她！而后，他将钟珊的戒指塞入受害者口中，以此嫁祸他人。"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "真是一场惨剧啊，若不是有您这样明察秋毫的神探，凶手一定会逍遥法外！"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "text": "提交物品证物：阿佑的板凳",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "嗯？这证据好像没法证明他是凶手吧……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "text": "提交物品证物：钟珊的戒指",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "嗯？这证据好像没法证明他是凶手吧……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "text": "提交物品证物：烟熏红鲱鱼",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "嗯？这证据好像没法证明他是凶手吧……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "尝试指认「钟珊」",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "哦…您已经找到答案了吗？"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "这「钟珊」是个赌棍，之前和花火大人玩捞金鱼，连传家宝都被赢走了。"
+                    },
+                    {
+                      "type": "choice",
+                      "presentation": "dialogue",
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "提交物品证物：钱可通的账簿",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "嗯？这证据好像没法证明他是凶手吧……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "text": "提交物品证物：佐罗的领带",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "嗯？这证据好像没法证明他是凶手吧……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "text": "提交物品证物：阿佑的板凳",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "嗯？这证据好像没法证明他是凶手吧……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "text": "提交物品证物：钟珊的戒指",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "证据就是这枚戒指，对么？"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "…没错，正是如此！"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "赌徒钟珊穷困潦倒，怎会来到这样高档的服装店？因为他是来盗窃的啊！"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "他刚偷了佐罗的领带，正欲逃走，却看见赢走自己传家宝的花火大人。于是他闯入试衣间中，试图讨回戒指……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "谁曾想，花火大人竟将戒指吞了下去！钟珊不得不用手中的领带勒住对方的脖子，阻止她将戒指吞下肚，没想到竟失手勒死了花火大人。"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "真是一场惨剧啊，若不是有您这样明察秋毫的神探，凶手一定会逍遥法外！"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "text": "提交物品证物：烟熏红鲱鱼",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "嗯？这证据好像没法证明他是凶手吧……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "尝试指认「阿佑」",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "哦…您已经找到答案了吗？"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "「阿佑」是个皮皮西人，花火大人素质很差，总是笑话人家长得矮。"
+                    },
+                    {
+                      "type": "choice",
+                      "presentation": "dialogue",
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "提交物品证物：钱可通的账簿",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "嗯？这证据好像没法证明他是凶手吧……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "text": "提交物品证物：佐罗的领带",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "嗯？这证据好像没法证明他是凶手吧……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "text": "提交物品证物：阿佑的板凳",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "证据就是这张板凳，对么？"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "…没错，正是如此！"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "花火大人一直戏弄可怜的阿佑，最终他忍无可忍，萌生杀意！"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "他利用职务之便，偷来佐罗的领带，对花火大人说：「大人，请移步试衣间，我要为您展示一条与您相称的领带。」"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "花火大人没想过阿佑会反抗自己，便随他来到试衣间。阿佑踩在板凳上，如平常那样为花火大人试戴领带……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "然后他突然用力勒紧了领带！就这样杀害了花火大人！"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "真是一场惨剧啊，若不是有你这样明察秋毫的神探，凶手一定会逍遥法外！"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "text": "提交物品证物：钟珊的戒指",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "嗯？这证据好像没法证明他是凶手吧……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "text": "提交物品证物：烟熏红鲱鱼",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "警长",
+                              "text": "嗯？这证据好像没法证明他是凶手吧……"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "黑天鹅",
+                              "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "黑天鹅：不指认凶手。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "在我看来，这起案件应该不存在凶手。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "警长",
+              "text": "…您这是什么意思？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "提交物品证物：钱可通的账簿",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "嗯？这证据好像没法证明他是凶手吧……"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "黑天鹅",
+                      "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "提交物品证物：佐罗的领带",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "黑天鹅",
+                      "text": "证据就是这条领带，对么？"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "…没错，正是如此！"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "花火大人偷走了佐罗的领带，想试试看是否适合自己…谁曾想，佐罗在领带中藏了防盗装置！"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "花火大人刚把领带套在脖子上，它就开始急速收缩，勒死了可怜的大人！她还想将戒指吞下去，保持呼吸通畅，可惜还是…回天乏术！"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "真是一场惨剧啊，若不是有您这样明察秋毫的神探，三位嫌疑人一定会蒙受不白之冤！"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "提交物品证物：阿佑的板凳",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "黑天鹅",
+                      "text": "证据就是这张板凳，对么？"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "…没错，正是如此！"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "花火大人经商失利，濒临破产。她路过常去的服装店，却偶遇宿敌、一直欺凌的店员、和被自己毁了人生的赌徒……"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "而那三个人看起来竟比自己还要快乐！花火大人的自尊不允许这样的事发生！"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "于是她偷走佐罗的领带，将钟珊的戒指含入口中，踩在小板凳上，在阿佑的店里悬梁自尽！唯一的目的就是嫁祸三人。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "真是一场惨剧啊，若不是有您这样明察秋毫的神探，三位嫌疑人一定会蒙受不白之冤！"
+                    }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "text": "提交物品证物：钟珊的戒指",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "黑天鹅",
+                      "text": "证据就是这枚戒指，对么？"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "…没错，正是如此！"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "钟珊闯入试衣间，希望讨回自己的戒指，不想花火大人把心一横，直接吞下了它！谁曾想，这一下戒指卡在了喉咙里！"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "钟珊以德报怨，想用借来的领带帮花火大人把戒指挤出来，可惜还是…回天乏术！"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "真是一场惨剧啊，若不是有您这样明察秋毫的神探，三位嫌疑人一定会蒙受不白之冤！"
+                    }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "text": "提交物品证物：烟熏红鲱鱼",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "警长",
+                      "text": "嗯？这证据好像没法证明他是凶手吧……"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "黑天鹅",
+                      "text": "竟然不行吗？看来花火小姐比我想象中还要「严谨」一些。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "黑天鹅：再想一想。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "别心急，让我再想一想吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "警长",
+              "text": "那请您尽快，时间可不等人啊！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "呃…是不是不太对？这也太简单了吧。虽然第一案也不难，但这个……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "如你所想，这些证物指向的结论之间也不存在互斥性，这应当是…花火小姐的又一个恶作剧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "「侦探助手」先生，请你随意指认一位嫌疑人为凶手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "…哦，原来是这样。警长阁下，凶手是佐罗，证据是领带，对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "太对了，{{桑博|Sampo}}警探！没想到您也有推理出真相的时候啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "警长阁下，凶手是阿佑，证据是板凳，这个对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "对啊！乐子神在上，我怎么从没发现您拥有如此智慧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "那…压根就没有凶手？证据就是那个戒指…算了，这我随便乱说的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "天啊！副警长阁下，难道他真是天才？如此难以想象的谜底，竟能被他轻易揭开！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "看，花火小姐给我们出了一道「所有选项都是正确答案」的谜题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "何必那么认真呢？花火大人是假面愚者，不是假面天才，想要有挑战性的谜题，请出门右转博识学会，我们只负责娱乐性拉满的推理体验！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "总之！鉴于神探黑天鹅成功破解了这起案件，我会将花火大人的下一道谜题分享给二位。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "果然…这样下去根本没完没了，不是办法啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "警长",
+      "text": "那就祝二位一切顺利！哦对了，如果你们不急着走，我可以给二位讲讲那几个你们没选择的谜底。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（警长）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "警长",
+          "text": "{{黑天鹅|Black Swan}}警探，您是想听听那些你们没猜到的解答吗？"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "听听看吧。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "黑天鹅",
+                  "text": "毕竟是你费心准备的谜底，我不想错过。"
+                },
+                {
+                  "type": "choice",
+                  "presentation": "dialogue",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "凶手是「佐罗」。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "警长",
+                          "text": "「佐罗」是个富商，和花火大人龙争虎斗数十载，可真是势同水火啊！"
+                        },
+                        {
+                          "type": "choice",
+                          "presentation": "dialogue",
+                          "options": [
+                            {
+                              "id": 1,
+                              "text": "提交物品证物：佐罗的领带",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "黑天鹅",
+                                  "text": "证据就是这条领带，对么？"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "…没错，正是如此！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "这条领带是佐罗的东西，而它正是本案的凶器，还有比这更坚实的铁证吗？"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "佐罗潜入试衣间，等待可怜的花火大人进入后，就用领带残忍地杀害了她！而后，他将钟珊的戒指塞入受害者口中，以此嫁祸他人。"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "真是一场惨剧啊，若不是有您这样明察秋毫的神探，凶手一定会逍遥法外！"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "text": "提交其他物品",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "嗯？这证据好像没法证明他是凶手吧……"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "黑天鹅",
+                                  "text": "竟然不行吗？我还以为每种组合都有一种解答呢。"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "不要太过分哦，花火大人也是会累的。花火本音"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "text": "凶手是「钟珊」。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "警长",
+                          "text": "这「钟珊」是个赌棍，之前和花火大人玩捞金鱼，连传家宝都被赢走了。"
+                        },
+                        {
+                          "type": "choice",
+                          "presentation": "dialogue",
+                          "options": [
+                            {
+                              "id": 1,
+                              "text": "提交物品证物：钟珊的戒指",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "黑天鹅",
+                                  "text": "证据就是这枚戒指，对么？"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "…没错，正是如此！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "赌徒钟珊穷困潦倒，怎会来到这样高档的服装店？因为他是来盗窃的啊！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "他刚偷了佐罗的领带，正欲逃走，却看见赢走自己传家宝的花火大人。于是他闯入试衣间中，试图讨回戒指……"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "谁曾想，花火大人竟将戒指吞了下去！钟珊不得不用手中的领带勒住对方的脖子，阻止她将戒指吞下肚，没想到竟失手勒死了花火大人。"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "真是一场惨剧啊，若不是有您这样明察秋毫的神探，凶手一定会逍遥法外！"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "text": "提交其他物品",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "嗯？这证据好像没法证明他是凶手吧……"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "黑天鹅",
+                                  "text": "竟然不行吗？我还以为每种组合都有一种解答呢。"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "不要太过分哦，花火大人也是会累的。花火本音"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "text": "凶手是「阿佑」。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "警长",
+                          "text": "「阿佑」是个皮皮西人，花火大人素质很差，总是笑话人家长得矮。"
+                        },
+                        {
+                          "type": "choice",
+                          "presentation": "dialogue",
+                          "options": [
+                            {
+                              "id": 1,
+                              "text": "提交物品证物：阿佑的板凳",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "黑天鹅",
+                                  "text": "证据就是这张板凳，对么？"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "…没错，正是如此！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "花火大人一直戏弄可怜的阿佑，最终他忍无可忍，萌生杀意！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "他利用职务之便，偷来佐罗的领带，对花火大人说：「大人，请移步试衣间，我要为您展示一条与您相称的领带。」"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "花火大人没想过阿佑会反抗自己，便随他来到试衣间。阿佑踩在板凳上，如平常那样为花火大人试戴领带……"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "然后他突然用力勒紧了领带！就这样杀害了花火大人！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "真是一场惨剧啊，若不是有你这样明察秋毫的神探，凶手一定会逍遥法外！"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "text": "提交其他物品",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "嗯？这证据好像没法证明他是凶手吧……"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "黑天鹅",
+                                  "text": "竟然不行吗？我还以为每种组合都有一种解答呢。"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "不要太过分哦，花火大人也是会累的。花火本音"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 4,
+                      "text": "根本没有凶手。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "警长",
+                          "text": "…您这是什么意思？"
+                        },
+                        {
+                          "type": "choice",
+                          "presentation": "dialogue",
+                          "options": [
+                            {
+                              "id": 1,
+                              "text": "提交物品证物：钱可通的账簿",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "嗯？这证据好像没法证明他是凶手吧……"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "黑天鹅",
+                                  "text": "竟然不行吗？我还以为每种组合都有一种解答呢。"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "不要太过分哦，花火大人也是会累的。花火本音"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "text": "提交物品证物：佐罗的领带",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "黑天鹅",
+                                  "text": "证据就是这条领带，对么？"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "…没错，正是如此！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "花火大人偷走了佐罗的领带，想试试看是否适合自己…谁曾想，佐罗在领带中藏了防盗装置！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "花火大人刚把领带套在脖子上，它就开始急速收缩，勒死了可怜的大人！她还想将戒指吞下去，保持呼吸通畅，可惜还是…回天乏术！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "真是一场惨剧啊，若不是有您这样明察秋毫的神探，三位嫌疑人一定会蒙受不白之冤！"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "text": "提交物品证物：阿佑的板凳",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "黑天鹅",
+                                  "text": "证据就是这张板凳，对么？"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "…没错，正是如此！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "花火大人经商失利，濒临破产。她路过常去的服装店，却偶遇宿敌、一直欺凌的店员、和被自己毁了人生的赌徒……"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "而那三个人看起来竟比自己还要快乐！花火大人的自尊不允许这样的事发生！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "于是她偷走佐罗的领带，将钟珊的戒指含入口中，踩在小板凳上，在阿佑的店里悬梁自尽！唯一的目的就是嫁祸三人。"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "真是一场惨剧啊，若不是有您这样明察秋毫的神探，三位嫌疑人一定会蒙受不白之冤！"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 4,
+                              "text": "提交物品证物：钟珊的戒指",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "黑天鹅",
+                                  "text": "证据就是这枚戒指，对么？"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "…没错，正是如此！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "钟珊闯入试衣间，希望讨回自己的戒指，不想花火大人把心一横，直接吞下了它！谁曾想，这一下戒指卡在了喉咙里！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "钟珊以德报怨，想用借来的领带帮花火大人把戒指挤出来，可惜还是…回天乏术！"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "真是一场惨剧啊，若不是有您这样明察秋毫的神探，三位嫌疑人一定会蒙受不白之冤！"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 5,
+                              "text": "提交物品证物：烟熏红鲱鱼",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "嗯？这证据好像没法证明他是凶手吧……"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "黑天鹅",
+                                  "text": "竟然不行吗？我还以为每种组合都有一种解答呢。"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "警长",
+                                  "text": "不要太过分哦，花火大人也是会累的。花火本音"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 5,
+                      "text": "先不玩了。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "黑天鹅",
+                          "text": "还是不玩了吧，我们的时间也没那么充裕。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "没什么事。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "黑天鹅",
+                  "text": "还是不玩了吧，我们的时间也没那么充裕。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（副警长）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "黑天鹅",
+          "text": "请问副警长小姐还在吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "警长",
+          "text": "它的工作已经完成，现在在休长假。有什么事就和我说吧！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "黑天鹅",
+          "text": "但我比较喜欢副警长小姐的性格设计呢，能不能让它回来呢？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "警长",
+          "text": "不能！演这么多角色很累的。花火本音"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "赶往花火即将行凶的地点"
+    },
+    {
+      "type": "objective-description",
+      "text": "黑天鹅解开了这个不算谜题的谜题…而游戏，却显然还未结束。黑天鹅再次依照花火的指引，赶往下一个案发现场。你似乎察觉到了又一股短暂的情绪波动——黑天鹅有些玩腻了。",
+      "location": "匹诺康尼-黑天鹅的忆泡"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "果真和你说的一样，解谜就是个幌子，那姑娘纯拿咱们寻开心呢。现在怎么办，就一直被她牵着鼻子走？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "花火小姐着实是位有趣的人。她的内心看似混乱，却又很容易理解，像一位舞台上的伶人，又像个渴望被注视的孩子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "游戏马上要结束了…这一次，我们会追上她。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "名侦探",
+      "text": "黑天鹅小姐，桑博先生，你们终于来了！我是匹诺康尼的「名侦探」，旁边这位是我的「侦探助手」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "侦探助手",
+      "text": "这里竟发生了令我们都感到棘手的密室杀人事件！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "不出所料，又换设定了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "名侦探",
+      "text": "昨日，我和助手前来拜访大艺术家花火大人，并在她家中借宿一晚。可第二天早上，花火大人却迟迟没有从卧室中出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "名侦探",
+      "text": "管家钟珊说，房门从里面反锁了，他本不该打搅…可花火大人从不会这么晚起床，而且无论他怎么敲门，里面也没有任何回应。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "侦探助手",
+      "text": "我一听就知道，这肯定是出事了！于是当机立断，撞破大门冲进了房间……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "名侦探",
+      "text": "房间里到处都是血啊！「花火大人的尸体」就躺在正中央，面色白得像雪，一看就知道死去多时了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "侦探助手",
+      "text": "我赶忙抓起一旁的画布为花火大人止血，可…哎，可怜的花火大人，还是永远离开了我们！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "名侦探",
+      "text": "当时在现场的，除了我俩和管家钟珊，还有厨师佐罗和司机阿佑…哎，黑天鹅小姐，你要做什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "想必现在…花火小姐正在精心布置下一个「案发现场」吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "不如略过那些复杂的过程，和我来一场敞开心扉的交流呢？可能会有点痒哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "名侦探",
+      "text": "哎…等等…等等！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "黑天鹅似乎使用了自己的能力…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "嗯…诚实的孩子。我知道你在哪儿了，花火小姐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "名侦探&桑博",
+      "text": "你怎么作弊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "怎么了，「侦探助手」先生？你好像很心急的样子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "啊，不…我，这…哈哈，这密室杀人事件有点意思，我还想猜猜看呢……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "走吧——不能让女孩子久等呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "名侦探&侦探助手",
+      "text": "喂！黑天鹅小姐，等一等，等一等！花火大人还有最后一件事要宣布——"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "花火",
+          "text": "锵锵——现在就是一出戏剧最令人激动也最浪漫的时刻：挑战观众环节！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "花火",
+          "text": "众所周知，可怕的假面愚者花火可以变化为其他人的样貌。而在这出剧目中，大反派花火已将自己伪装成了另一名角色。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "花火",
+          "text": "那么请问——这名角色究竟是谁呢！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "花火",
+          "text": "另外，那位忆者不想挑战的密室杀人事件，若诸位有兴趣也可试着推理一番。花火好不容易想出来的谜题，可别浪费了！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "花火",
+          "text": "以上，便是「假面天才」花火大人的挑战书！所有线索已经备齐——祝君狩猎愉快！"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（名侦探&侦探助手）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "侦探和侦探助手成了两具颓然的死物。看来，它们再也无法完成任务了。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "赶往花火的藏身之处"
+    },
+    {
+      "type": "objective-description",
+      "text": "「挑战观众」…你也看过一些三月七硬塞给你的推理小说，对这样的桥段并不陌生。但一般在作品中负责挑战读者（或者观众）的，不都是作者或是侦探角色吗？怎么到了花火这里，就变成凶手本人跳出来下战书了？比起「挑战观众」，这大概更接近于「挑衅观众」吧…真不愧是花火。\n无论如何，祝君狩猎愉快。",
+      "location": "匹诺康尼-黑天鹅的忆泡"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "姐，你有这手段，怎么不早用？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "如此粗暴的方式有违我的记忆美学，但有时为了结果…我也必须放下一些过程的矜持。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查奇怪的垃圾桶"
+    },
+    {
+      "type": "objective-description",
+      "text": "此刻陈放在黑天鹅面前的，毫无疑问，是一个垃圾桶。一个贝洛伯格款式的垃圾桶。你本该对这一幕感到惊讶，但你没有。你早就见怪不怪了。这份见怪不怪的淡定，使你感到自己有些沧桑。",
+      "location": "匹诺康尼-黑天鹅的忆泡"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查垃圾桶，一个唱着rap的垃圾桶…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "没有奇怪的美梦剧团，也没有满地的证据…咱们终于追上她了。呃，可那是什么东西…一个贝洛伯格的垃圾桶？在匹诺康尼？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶",
+      "text": "嘿！亲爱的忆者，还有寒腿叔叔——你们可算来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶",
+      "text": "没想到你们竟敢跳过上一道谜题，那可是我的自信之作！算了算了，花火大人不记小人过，来吧，这就是最后一问——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶",
+      "text": "请听题！什么生物早上四条腿、中午两条腿、晚上三条腿？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "这次怎么不是命案了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶",
+      "text": "偶尔也要来点轻松的嘛！来吧，亲爱的，快给出你的回答吧~花火本音"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "人。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "既然是经典的谜题…答案是「人类」，对吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "垃圾桶",
+              "text": "卟卟——回答错误！怎么可能是这种无聊的答案！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "虫子。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "嗯，是什么呢…答案是「虫子」，对吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "垃圾桶",
+              "text": "卟卟——回答错误！你不会以为标新立异就能蒙对吧？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "美梦剧团。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "既然是在匹诺康尼…答案是「美梦剧团」，对吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "垃圾桶",
+              "text": "卟卟——回答错误！你不会以为标新立异就能蒙对吧？"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "垃圾桶。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "黑天鹅",
+              "text": "既然你以这幅姿态站在我的面前，那我猜…答案是「垃圾桶」，对吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "垃圾桶",
+              "text": "卟卟——回答错误！你不会以为标新立异就能蒙对吧？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶",
+      "text": "正确答案是——「花火」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶",
+      "text": "早上困困的爬不起床，中午东奔西跑到处忙，晚上累到趴趴，可还要抬起手刷牙——好可怜的花火呀！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶",
+      "text": "所以当然是「早上四条腿，中午两条腿，晚上三条腿」咯～"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "这都什么乱七八糟的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "真是可爱的答案呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶",
+      "text": "谢谢你的夸奖，亲爱的。不过鉴于你刚才的作弊行为，这次可没那么好糊弄了哦！答错了…就接受惩罚吧！花火本音"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗并获胜"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "吓、吓死我了！这家伙怎么回事，怎么还突然动手了呢！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "垃圾桶",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "喔，没声音了？这家伙可算安静了。姐，咱们赶紧打开盖子，把那姑娘揪出来吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "——等等，先别动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "…不对劲。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "黑天鹅和桑博找到了花火的尸体"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "啊…啊啊啊啊！姐，你…你把花火给打死了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "这、这怎么可能？！匹诺康尼的梦里怎么会死人！流光忆庭的…你做了什么？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "是你干的，对不对？在梦里杀人…只有「记忆」的力量能做到这事！你从一开始就计划好了，就因为她捉弄你，跟你开玩笑…你就要杀她灭口！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "哦…我懂了，你坚持不肯放我走，就是为了拖我下水啊！如果我不答应，下场…下场就会和她一样……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "匹诺康尼的美梦中不存在死亡，这是家族的允诺，也是「同谐」的庇佑。就算是忆者也无法打破这道屏障。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "不必如此大费周章，如果你只是想确认这件事…我已经把答案告诉你了，花火小姐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "花…花火小姐？你在和谁说话呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "你呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "「花火伪装成的另一名角色」…不就是你吗，「桑博」先生？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "这…这你可不能乱说啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "…您要想指认我是花火，可得提出相应的证据才行。哦，证据怕是有点难了，所以…「推理」也可以。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "最后那一题的提示，稍稍有些明显了哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "喔，是「密室杀人事件」？我还以为您不打算理会它了呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "那可是花火小姐的心血，我怎么舍得真的跳过呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "解谜的关键在于侦探提出的两个信息：第一，现场有很多血迹。第二，受害者明显已死去多时。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "以我尚浅的认知，只能得出两个结论：其一是，凶手似乎没有制造「密室杀人」的必要，因为密室总需要一个存在的理由……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "可按侦探的描述，这间密室并没能延缓目击者发现尸体，现场也没有可供嫁祸的第三者，而满地鲜血也不像是要伪装成自杀……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "如此一来，凶手似乎没有制造密室的理由。也有理由推测，如果现场真的是密室——那制造出密室的人，未必是凶手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "至于第二个结论就更显而易见了。众人闯入现场时，助手为什么要冲上去止血？这样的专业人士，怎会不惜破坏现场也要抢救一个明显死去多时的人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "答案很简单——因为「侦探助手」就是凶手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "当时走得匆忙，没有听完整个谜面，我姑且做出如下推测：凶手在前夜杀害了死者，但并没有反锁房门。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "因此当他得知这一信息时，就意识到是一息尚存的死者自己制造了密室。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "为此，他必须第一时间赶到现场，确认死者是否留下了对自己不利的证据。而从他的行为来看，应该和那块画布有关吧，也许死亡讯息就在其上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "当然，这只是一个简单的思维游戏。谜底是什么并不重要，花火小姐只是为了暗示我一件事——凶手是「侦探助手」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "…也就是你，「桑博」先生。尽管我一直在使用这个称呼——但它最早是你提出的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "有没有人说过，比起忆者，你更像是一位侦探。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "在我看来，这二者并无本质区别。循着水面上的细微波纹，使用一些能力和技巧，不断深潜，触及人心中最深的秘密，将其打捞，悉心保护……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "真相不会说谎，「记忆」也不会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "非常精彩的推理，已经无限接近真相了…只不过，我这还有另一个谜底，您想听听看吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "另一个谜底？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "大艺术家花火反锁上卧室的房门，用红色颜料制造出了「到处都是血」的假象。而那位第一个冲进室内，并证明她已死亡的侦探助手……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "…并不是凶手，而是协助她诈死的「共犯」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "遗憾，遗憾。亲爱的，你真的只差一点点点点就答对了。可惜，正确答案是——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "——「花火大人的尸体」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "「花火」，伪装成了「花火的尸体」。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "苦寻之人花火终于走了出来…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "锵锵——是我赢咯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "…「花火大人的尸体」也能算是一个角色么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "怎么不能呀？那三个小剧场，可是每个都出现了「花火大人的尸体」哦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "虽说是有些刻意的强调，但也并无不可吧。那…这位桑博先生又是？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "美丽的女士，我一早就向您坦白了——我真的什么都不知道，只是帮朋友送封信而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "原来，是我从最初就落入了愚者们的陷阱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "亲爱的，何必这么认真呢？你不是玩得很开心吗——至少我很开心呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "你拿走「记忆」，我收获「欢愉」，我们能从彼此身上各取所需。既然这么投缘，你我又都是孤身一人…何不与我同行，一起跳支双人舞呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "哦…我是否可以理解为，一位假面愚者向我发出了合作的邀请？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "一场空前绝后的好戏就要在匹诺康尼上演了，来不及登台的人，就只能退居幕后。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "要欣赏这出戏剧，你只能凑上台前，站到聚光灯下，看一切围着你手舞足蹈——跟我走吧，这里才是最好的观众席！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "…虽然不明白，你为何如此执着于破坏家族的藩篱。但我已说过，忆者帮不了你，另请高明吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "另外，我也不觉得你孤单。哦，我不是指他，而是说你背后……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "雇佣你来匹诺康尼的那位，应该不希望你和其他势力暗中来往吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "…你怎么知道的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "虽说记忆就像深海，但想一鱼两吃…海里的鱼可未必合你胃口哦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "那你的意思，是要拒绝咯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "忆者…你觉得你能安然离开？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "周围突然围满了人…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "为什么不能呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "亲爱的，不吓你了。你会知道答案的，迟早的事！今天就当浅浅认识下，什么时候改变心意了，就来「酒馆」找我吧——前提是要找得到，哈哈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "我们走，桑…桑…博？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "…桑博…是谁…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "咦，我这是…这里不是贝洛伯格？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "我说了…为什么不能呢？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "黑天鹅似乎稍稍修改了众人的记忆，围观的人离开了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "别担心，太过粗暴的方式有违我的记忆美学，所以等我离开所有人的视线，你们就能重新想起一切了。以及……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑天鹅",
+      "text": "对不起哦，亲爱的。心仪的舞伴…我已经有人选了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与爱德华医生对话"
+    },
+    {
+      "type": "objective-description",
+      "text": "这场奇妙的梦境终于结束了。爱德华医生似乎想听听你的感受，和他聊聊吧。哦对了，别忘了黑天鹅最开始的叮嘱：「这段记忆的性质有些特殊，为了其他顾客的梦境体验，还请不要向任何人透露它的结局。」",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "从黑天鹅的忆泡中回到梦境贩售店"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爱德华医生",
+      "text": "这可真是一场特别的美梦。您注意到它嵌套式的结构了吗？在梦境中参与出演一场舞台剧，就像梦中梦一样诡异又迷人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爱德华医生",
+      "text": "黑天鹅女士的梦泡到此为止了。请问您对这次体验还满意吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好有意思。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "爱德华医生",
+              "text": "我也认为这段美梦相当有趣。您在其中收获了快乐，黑天鹅女士也一定会感到欣慰吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "爱德华医生",
+              "text": "如果下次有缘再见，我会向她转达您的好评。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "好没意思。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "爱德华医生",
+              "text": "我理解。梦境本就是十人十色，注定不会适合所有人。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "爱德华医生",
+              "text": "但我想，黑天鹅女士留下这枚梦泡定有她的用意。不过，这就不是我一介局外人能妄断的了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "有点好猜。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "爱德华医生",
+              "text": "的确，那些谜题对于您这样经验丰富的开拓者而言，是有些简单了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "爱德华医生",
+              "text": "不过恐怕那位花火小姐又会辩称：「我们是『假面愚者』，又不是『假面天才』！」…哈哈。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "桑博竟然是…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爱德华医生",
+      "text": "我注意到，这段梦里似乎出现了您熟悉的人。需要再次提醒，梦只是梦，在匹诺康尼，梦可以被加工，也可以被篡改。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爱德华医生",
+      "text": "梦中之事不可尽信，更何况是他人的梦境。如有任何想要确认的信息…还是在清醒的现实中完成吧。祝您做个好梦。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与此同时，另外一边（现实）…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "…真是的，我又不会真的对她做什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "别管那忆者了，来聊聊我的事吧。该帮的忙我都帮了，按照约定——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "该把我的「面具」还给我了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "从什么时候开始，假面愚者也要遵守约定了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "——哈哈，开玩笑的！我就爱看你这表情，拿去吧，酒馆地窖的钥匙，在左手边第三个桶里。别说是我给的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "不过啊，桑博…时隔这么久，你怎么突然想起拿回面具了？这不像我认识的你呀……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "让我猜猜——雅利洛-VI大灾将至了，对么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "这个嘛，无可奉告。不过我很喜欢你说过的一句话——「好戏就要上演了，来不及登台的人，就只能退居幕后」——很有道理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "偶尔，我老桑博也想上台献丑一番。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "要是你万策尽了，记得联系我哦。我这个人很重视情谊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "免了吧，你离贝洛伯格远一点，就是帮了我大忙啦。毕竟花火小姐寻求的「欢愉」…桑博可不敢恭维啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "走了，替我向乔瓦尼问个好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "知道啦，我就是随口说说，别当真嘛。一个两个都这样……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "——何必那么认真呢？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你收到了短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "？？？",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message-system",
+          "text": "黑天鹅向你发起临时会话。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "开拓者，我想那枚梦泡你已经看过了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "放心，我只是想了解是否已经有其他人来找过你"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "黑天鹅？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你是黑天鹅？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "text",
+                  "text": "嗯，是你熟悉的那位忆者。"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "sticker",
+                  "sticker": "05-08",
+                  "file": "聊天表情-05-08.png",
+                  "asset": "assets/sr-images/聊天表情-05-08.png"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "怎么了？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "怎么了？"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "长话短说，那位名叫「花火」的愚者正在四处寻找那枚梦泡"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "我不清楚她的意图，但令她得手只会让局势更加混乱"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "开拓者，能帮我一个忙，去把梦泡取回来吗？"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "当然！",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "当然可以！"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "text",
+                  "text": "知道你的态度我便放心了，我也会与你同去"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你怎么不自己去？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你怎么不自己去？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "text",
+                  "text": "没想到你居然会拒绝我…我自己去也不是不行"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "但我忘记那枚梦泡被放在哪了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "能再提醒我一下吗？"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "在梦境贩售店",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "在梦境贩售店，爱德华医生手上"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你不记得了？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "text",
+                  "text": "嘿嘿"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "text",
+                  "text": "毕竟人家的记性比不上真正的「忆者」大人嘛"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "sticker",
+                  "sticker": "05-14",
+                  "file": "聊天表情-05-14.png",
+                  "asset": "assets/sr-images/聊天表情-05-14.png"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "text",
+                  "text": "哎呀，这么容易就拿到信息了，我还担心会露馅呢"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "已经被我偷了",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "被我偷了塞在苏乐达瓶子里扔了"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "可能还漂在哪个垃圾桶的梦里吧"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "text",
+                  "text": "你这么喜欢垃圾桶吗？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "text",
+                  "text": "我就说嘛，垃圾桶王国多有趣啊，大家都不信"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "text",
+                  "text": "借用一下桑博的脸，还挺值"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "sticker",
+                  "sticker": "05-14",
+                  "file": "聊天表情-05-14.png",
+                  "asset": "assets/sr-images/聊天表情-05-14.png"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "忆者怎会遗忘记忆",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你很奇怪…忆者怎么会遗忘记忆？"
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你真的是黑天鹅吗？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "text",
+                  "text": "嗯？被你发现啦？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "text",
+                  "text": "毕竟人家不是真正的「忆者」大人嘛"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "sticker",
+                  "sticker": "05-14",
+                  "file": "聊天表情-05-14.png",
+                  "asset": "assets/sr-images/聊天表情-05-14.png"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "黑天鹅",
+                  "contentType": "text",
+                  "text": "没想到这么快就被发现了，真没意思"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "恶作剧可是讲究有来有回的，瞧我跟那位忆者玩得多开心~"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "多学着点咯，小无名客"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "这只是个开始，下次再来找你玩"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "sticker",
+          "sticker": "05-08",
+          "file": "聊天表情-05-08.png",
+          "asset": "assets/sr-images/聊天表情-05-08.png"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "你放心大胆地来",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你放心大胆地来，下次还不知道是谁骗谁"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "求求你别再来了",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "求求你别再来了！跟愚者扯上关系准没好事……"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message-system",
+          "text": "消息发送失败。"
+        },
+        {
+          "type": "message-system",
+          "text": "该用户不存在。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你再一次收到短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "黑天鹅",
+      "subtitle": "记忆是柔软的琥珀",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "开拓者，我想那枚梦泡你已见过了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "放心，我只是想了解是否已经有其他人来找过你"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "发生什么了？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "发生什么了？"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "这一幕似曾相识…",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "这一幕似曾相识…"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "你也许认识那位有趣的愚者小姐，花火。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "她最近热衷于假扮他人，开拓者有被她捉弄过吗？"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "照这么说，你也可能是花火假扮的。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "很警惕的样子呀，你觉得我该展露什么，才能证明我是「我」？"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "独特的表达？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "一些独特的语言习惯，比如发短信加不加句号"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "独特的动作？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "一些独特的动作习惯，比如喜欢照镜子之类的"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "但如果那位愚者小姐擅长观察，她也许能够完美模仿一个人的一切。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "我认为能将一个人与另一人区分开来的，只有「记忆」。其中点滴，是旁人无论如何也无法窃取和模仿的。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "就像我们在匹诺康尼的相遇，不是么？一片奇怪的梦境、几桩离奇的命案、同栈异梦的人们、隐于水面下的真相……"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "sticker",
+          "sticker": "07-01",
+          "file": "聊天表情-07-01.png",
+          "asset": "assets/sr-images/聊天表情-07-01.png"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "还需要继续吗？"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "足够了",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "应该足够了"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "感觉还不够",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "感觉还不太够"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "不能光是我说哦，按照你的逻辑，开拓者你也需要证明自己不是花火。"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "啊？"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "sticker",
+          "sticker": "07-06",
+          "file": "聊天表情-07-06.png",
+          "asset": "assets/sr-images/聊天表情-07-06.png"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "开个玩笑。身为忆者，我自然知道屏幕对面的是谁。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "花火小姐的恶作剧并非全无好处，她能让我们重新审视此前所见，思考梦境的表象与真实。这也是我将这枚梦泡与你分享的原因。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "黑天鹅",
+          "contentType": "text",
+          "text": "好啦，看来她没有搞出什么大乱子，我就安心了。下次再聊吧~"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

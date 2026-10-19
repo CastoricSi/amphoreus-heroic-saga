@@ -1,0 +1,2878 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "错误的喜剧",
+    "pageId": 39320,
+    "revisionId": 99724,
+    "parentRevisionId": 99691,
+    "revisionTimestamp": "2026-07-19T08:48:11Z",
+    "fetchedAt": "2026-09-28T00:19:55.198Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E9%94%99%E8%AF%AF%E7%9A%84%E5%96%9C%E5%89%A7",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E9%94%99%E8%AF%AF%E7%9A%84%E5%96%9C%E5%89%A7&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "错误的喜剧",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.4",
+    "number": "03",
+    "series": "鸣笛于归寂之时",
+    "description": "在画作中，归寂追问姬子过去的秘密。罹患风化诅咒的姬子找到搁浅的列车，尝试将其修复。在疗养院里，姬子幻造出她理想中长大后的自己「素子」作为帮手。在血涂游戏之后，素子消散，姬子则驾驶列车航向星空。",
+    "requirements": "完成任务你逃我也逃",
+    "requiredLevel": "21",
+    "characters": [
+      "姬子",
+      "归寂",
+      "隆介"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "1100"
+      },
+      {
+        "item": "星琼",
+        "amount": "140"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "10"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "10"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "440"
+      },
+      {
+        "item": "《未有之蓝图》",
+        "amount": "1"
+      },
+      {
+        "item": "《风化旧梦》",
+        "amount": "1"
+      },
+      {
+        "item": "《远眺深蓝》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "180000"
+      }
+    ],
+    "previousMissions": [
+      "你逃我也逃"
+    ],
+    "nextMissions": [
+      "瞬息全乐园"
+    ],
+    "objectives": [
+      "首先，与「隆介」对话",
+      "去找窗边的「隆介」吧",
+      "打开这扇门，别让爸爸等太久",
+      "让我看看…吧台上有什么？",
+      "让我看看…绘图桌上呢？",
+      "让我看看…「拓星者」吗？",
+      "步入「姬子」的下一段人生",
+      "探望疗养院里的「姬子」",
+      "「姬子」去哪儿了？找到她",
+      "告诉「姬子」，还有一个办法",
+      "那就带「姬子」逃出去吧！",
+      "步入星穹列车再度启程之地",
+      "快回来，继续完成这幅画",
+      "揭开归寂的底牌"
+    ],
+    "synopsis": [
+      "以一对父女的过去为基底，归寂准备了一幅「画作」，以此追问姬子前半生中的三个秘密。",
+      "在姬子儿时的生日，隆介曾送她彗星船模型，鼓励女儿飞向星空。隆介称宇宙的尽头叫裴伽纳，虽然他没有亲自去过，但他认识一个从那里来的人。",
+      "隆介向儿时的姬子讲述星穹列车的故事：曾有虚构史学家篡改列车航行日志，但日志又被领航员改了回去。因为那位领航员记得每位乘客的名字，以及每颗星星的坐标。",
+      "姬子猜出归寂曾经是领航员「我见」。归寂坦然承认，并请姬子打开通往真相的门。",
+      "工作室中尘封着第一个秘密——姬子如何找到并修复搁浅的列车？是否继续前进，归寂请姬子做出选择。",
+      "姬子将母亲去世后空置的工作室利用起来，作为自己研究、修复星穹列车的秘密基地。",
+      "又一个生日，姬子的风化诅咒已经蔓延至全身。孑然一身的她离开家，来到画中世界的海岸，看见了搁浅于此的星穹列车。",
+      "裴伽纳的人型兵器曾与列车同行，其资料亦随阿基维利的陨落而消失。姬子于列车中发现其历史，并将其命名为拓星者。",
+      "姬子想成为拓星者那样自由、强大的人，由此画出了它的蓝图。往后的事情归寂一无所知，姬子要求归寂把幻造的主导权交给她。",
+      "发现星穹列车后不久，姬子的病情急剧恶化，不得不一次次住进疗养院。一同沉睡在疗养院中的，是姬子与「姬子」的渊源。",
+      "重病的少女姬子多次逃院未遂，护士劝其好好休息。一旁的画板上陈列着姬子的自画像，那是她无法成为的自己。",
+      "参考日志里的领航员，少女姬子画出梦想中的自己，并注入愿力幻造成形，将其命名为素子。在素子的协助下，列车的修复工作顺利进行。",
+      "素子从工作室带来许多工具，让姬子安心在疗养院研究列车，修订图纸。她来当姬子的手脚，帮姬子一点一点修好列车。",
+      "归寂认为，当下成为领航员的正是曾经姬子所幻造出的另一个自己，即素子。而对方对此不置可否。",
+      "列车的修复工作接近尾声，但引擎点火的成功率却一再下降，几至于零。姬子给自己打气，一定有办法搞定引擎。",
+      "素子离开后，姬子独自感伤。姬子有启程所需要的一切，可唯独没有时间。穿过大气层的时候，风化诅咒就会把她撕裂。",
+      "素子提议和姬子一起参加幻月游戏，用拓星者蓝图造个大机器人作为「奇迹」。向阿哈祈祷，也许能点燃列车引擎。",
+      "归寂嘲笑这荒诞的提议，认为姬子为参加幻月游戏放弃了触摸星空的梦想与活下去的可能，并展示血涂游戏的结局。",
+      "在归寂的推测中：拓星者在姬子的愿力中成形，击败了告死魔。作为赢家，姬子许愿把她的一切送给素子，并在素子与星穹列车飞向天空时永远留在了二相乐园。",
+      "离开疗养院前，姬子有些害怕，担心自己会拖累素子。素子鼓励姬子相信她，相信未来理想中的自己，并随姬子前往鸽川区阻止告死魔的暴行。",
+      "在疗养院的星空下，姬子与素子于画中重逢。素子认为在漫长旅途中，姬子已经长大成为她理想中的自己，并鼓励姬子继续走下去。",
+      "十五年前，从血涂游戏中活下来的不是素子，而是姬子。归寂恍然大悟，并表示列车的坠落与否只在于他一念之间。姬子认为搁浅的列车总会重新启程，即便没有她，也一定会有人找到并修复星穹列车。",
+      "第三个秘密，归寂追问姬子如何治愈风化诅咒。姬子指出归寂的真实目的，是弄清阿哈在幻月游戏遭到破坏时会作何反应。但谒见阿哈的人不是姬子，归寂想要的答案并不存在。",
+      "在消散之前，素子请姬子鼓起勇气，一起驾驶列车飞向天空，去探索她们曾仰望的星星。",
+      "姬子看穿归寂「幻造可能性」的能力，并使用拓星者的撞击所产生的引力波发出求救信号。归寂表示，他此行的目标其实既不是姬子，也不是阿哈，而是终结你的旅途。"
+    ],
+    "extra": {
+      "角色": "姬子",
+      "命路群像": "画室里的画家",
+      "相关成就": "通往群星的轨道#名为「姬子」的起点、通往群星的轨道#名为「开拓」的自画像、众秘探奇#最初的绘本、众秘探奇#闪光的生命",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "正在切换至【姬子】视角…\n一段时间前，姬子被归寂带入了某个画中世界……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我还以为，你多少会有些新花样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "到头来，就只有把人「关进画里」一招么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我知道你在盘算什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我们都不了解彼此，也都渴望真相。你或许认为，自己能把秘密藏得很好。"
+    },
+    {
+      "type": "text",
+      "text": "但在我幻造的世界中，并不成立。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "这个房间……"
+    },
+    {
+      "type": "text",
+      "text": "既然是挑战，就得有主题。我已经替你想好了。\n我为你准备了一幅「画作」，以一对父女的过去作为基底。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "…你是用同样的方法，把城市变成废墟的？"
+    },
+    {
+      "type": "text",
+      "text": "没错。但和你召唤出的钢铁巨人一样，它还远远称不上完整。\n因此，我邀请你——来完成这幅名为「姬子」的画作。\n身为父亲，我知晓她的前半生。但有三处空白，对应三个秘密，藏在你的记忆里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "听起来，只是给「问答」换了种形式。"
+    },
+    {
+      "type": "text",
+      "text": "这样才公平。当画作完成时，你或我，总有一个人的秘密会浮出水面。\n谁先揭开对手的底牌，谁就宣告胜利。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我接受。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我拒绝。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "姬子",
+              "text": "期待我遵守你的规则？未免有些乐观。"
+            },
+            {
+              "type": "text",
+              "text": "孩子，向我发起挑战的那一刻起，你就没有拒绝的权力了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "让我们开始吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "姬子，爸爸回来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "爸爸给你带了礼物，你一定会喜欢！"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查桌上的显示器）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "老旧的显示器。很久以前，是姬子的图书馆。\n至于领航员？她多半还在苦思冥想，要如何度过眼前的危机。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "姬子",
+          "text": "知道我在想什么吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "姬子",
+          "text": "相比铁墓，这根本算不上「危机」。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查画板）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "第一步，和「隆介」对话。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查桌上的绘具）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "堆满绘具的角落。很久以前，是姬子的游乐场。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "姬子",
+          "text": "（分身、幻造…归寂的能力看似花哨，本质一定相通。）"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "姬子",
+          "text": "（他只是擅长弄虚作假，这幅「画作」也一样。）"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（离开房间）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "只是善意提醒：现在，你只能和「隆介」对话。\n哎，好歹搭理一下爸爸嘛！"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "首先，与「隆介」对话"
+    },
+    {
+      "type": "objective-description",
+      "text": "我必须承认，关于我的女儿，你了解得比我稍微多一些。\n在回忆里忠实扮演她吧，就像你一直以来所做的那样。\n也唯有如此，作为父亲的我才不会对你说谎。\n以及，生日快乐，姬子。",
+      "location": "二相乐园-坠星的摇篮"
+    },
+    {
+      "type": "text",
+      "text": "还记得这一天么？你的生日。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "你之前问爸爸，宇宙的中心在哪里。我苦思冥想，终于找到了答案。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "这艘彗星船模型，陶瓷做的，送给你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "宇宙的中心在哪里，爸爸不知道。但长大后，你可以坐着这艘小船，自己去寻找。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "因为宇宙是有尽头的。那个尽头是一个小小的光点，人们看见它，奔向它，然后高高飞起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "姬子，总有一天，你也能像他们一样，飞向星空！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（不要被引导进他的节奏。）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "为什么要假扮隆介？",
+          "content": [
+            {
+              "type": "text",
+              "text": "比起上班似的毁灭文明，在那里生活上一段时间，再看着自己无比了解的世界化作废墟，不是更有代入感吗？\n刨根问底环节到此结束，该回到温馨的回忆时刻了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你在搞什么名堂？",
+          "content": [
+            {
+              "type": "text",
+              "text": "不对，当时姬子不是这么说的。\n多少配合一下，我一个人可没法把这出戏演下去。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "你试图什么都不想——但没有用。愿力远比忆质更敏感，在你思考前，它就会先一步显现。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "记忆中的声音",
+      "text": "「所以，爸爸去过宇宙的尽头？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "要让你失望了，爸爸只去过世界尽头。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "可是我知道，宇宙的尽头叫裴伽纳，虽然没有亲自去过……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "但爸爸认识一个人，从那里来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "来自裴伽纳的人…是阿基维利？"
+    },
+    {
+      "type": "text",
+      "text": "…那是很久前的往事了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "回过头看，小的时候，你一直会有意露出「破绽」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "这也是阴谋的一环？"
+    },
+    {
+      "type": "text",
+      "text": "我说过，除去隆介的身份，我不会对姬子说谎。\n不经意间，难免说出些和身份不相衬的话。\n比如这时，我刚刚毁灭了德尔科星环。看着废墟中的彗星船，多少有些触动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你真是个混蛋。"
+    },
+    {
+      "type": "text",
+      "text": "显然，那时的姬子不这么认为。我们继续欣赏吧。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（与房间内的隆介对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "隆介",
+          "text": "但爸爸认识一个人，从那里来。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "姬子",
+          "text": "我很在意这句话。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "你认识「开拓」星神？",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "裴伽纳是个什么样的世界？",
+              "content": []
+            },
+            {
+              "id": 3,
+              "text": "星穹列车有什么内幕？",
+              "content": []
+            },
+            {
+              "id": 4,
+              "text": "阿基维利真的死了吗？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "好问题，你一定想知道答案。\n我当然不会告诉你。"
+        },
+        {
+          "type": "section",
+          "level": 3,
+          "title": "窗边！是窗边的那个啊"
+        },
+        {
+          "type": "objective-description",
+          "text": "唉，让我把话说得更清楚些：\n走出房间，沿着走廊前进，另一个「隆介」在你左手边的窗前等你。",
+          "location": "二相乐园-坠星的摇篮"
+        },
+        {
+          "type": "fold",
+          "title": "额外对话（再次与房间内的隆介对话）",
+          "collapsed": true,
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "隆介",
+              "text": "但爸爸认识一个人，从那里来。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "隆介",
+              "text": "从那里来！从那里来！从那里来！"
+            },
+            {
+              "type": "text",
+              "text": "这里不会有更多线索了。\n你笑了吗？"
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "离开房间"
+        },
+        {
+          "type": "section",
+          "level": 3,
+          "title": "找对了，就是这个「隆介」"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "和窗边的「隆介」对话"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "去找窗边的「隆介」吧"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "爸爸给你带了礼物，你一定会喜欢！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "姬子，你在画什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "不，这不是疾锋龙。这是一辆列车，在天上飞的列车！你看了我的手稿？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "…怎么会，爸爸才不生气。我是在高兴，你真是个小探险家！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "怎么不告诉我呢，来，想知道星穹列车的故事？爸爸讲给你听。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "说说列车的故事。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "说说绝灭大君的故事。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "隆介",
+              "text": "可以啊！但要选第一个，你才能得到答案。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "说说隆介的故事。",
+          "content": [
+            {
+              "type": "text",
+              "text": "停一停。这时，隆介正准备出发，毁灭歌利亚牧者星。\n他总不能对姬子说：「乖，爸爸要去把另一颗星球上的人杀光光」吧？"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "角色扮演好玩吗？",
+          "content": [
+            {
+              "type": "text",
+              "text": "当然。为什么不呢？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "那，就和你讲「某位领航员」的传说吧，我最喜欢的故事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "据说「开拓」星神陨落后，追随祂的人相继离去。曾经庞大的车队，也只剩下一个领航员，和一个无名客。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "这天，一位虚构史学家混上列车，偷改了航行日志，可第二天，他却发现日志又被改回去了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "身穿斗篷的领航员坐在那儿，百无聊赖地翻着记录。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "「怎么做到的？」虚构史学家问。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隆介",
+      "text": "「因为我记得他们每个人的名字。」领航员说，「还有每一颗星星的坐标，和每一颗流星的轨迹。」"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你从不避讳提起星穹列车，反而一直把它挂在嘴边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "扮演一位父亲，需要做到这种地步？"
+    },
+    {
+      "type": "text",
+      "text": "一个坏习惯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "不会是领航员「我见」的习惯吧？"
+    },
+    {
+      "type": "text",
+      "text": "哎呀，这就被猜到了？没劲。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你对{{那架机铠|裴伽纳的遗产}}的反应足以说明一切。故事里的{{领航员|我见}}…就是你的另一张面具。"
+    },
+    {
+      "type": "text",
+      "text": "确实，毕竟你派人到酒馆里敲敲打打——猜到真相不算太难。\n但我发誓，我一开始不过是想尽一尽慈父的爱女之心。\n这一年，姬子的风化诅咒变重了。我不自觉地给她描摹了一场美梦，结果…哈哈，造化弄人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "造化弄人啊…假面愚者「未抵」，领航员「我见」…最后，成了我们的敌人「归寂」。"
+    },
+    {
+      "type": "text",
+      "text": "恭喜你，答题卡全对。那么，作为奖励…收下通往真相的门票吧。\n打开那扇门吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "打开这扇门，别让爸爸等太久"
+    },
+    {
+      "type": "objective-description",
+      "text": "回忆环节到此结束。该是推进剧情的时候了。\n我就在这里，不偏、不倚、不急、不躁地等你做出选择。\n称之为「陪伴」，或许更加妥当贴切。",
+      "location": "二相乐园-坠星的摇篮"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（与窗边的隆介对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "隆介",
+          "text": "因为我记得他们每个人的名字。还有每一颗星星的坐标，和每一颗流星的轨迹。"
+        },
+        {
+          "type": "text",
+          "text": "其实还有下半句。\n它们全都归于死寂，无一例外。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查墙上的标本）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "一座标本，和调查它的领航员一样，是被凝固在这片时空中的观察对象。\n所以，你的命运也将和它一样，被陈列在此，供我观察，直到永远。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查错误的门）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "一扇紧锁的门，和你前进的方向无关。\n命途也是这样，看似选择很多，实际无路可走。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我记得，这扇门后……"
+    },
+    {
+      "type": "text",
+      "text": "就是尘封的第一个秘密。\n姬子是如何找到，又修复了搁浅的列车，除了她的「自画像」，无人知晓这段往事。\n该你做出选择了，前进，还是停下？对于领航员，有第二个选项吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "开启尘封的过去。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "别理他。",
+          "content": [
+            {
+              "type": "text",
+              "text": "想留在原地？可以。我有很多时间可以挥霍，但你有么？"
+            },
+            {
+              "type": "section",
+              "level": 3,
+              "title": "为什么不开门呢？"
+            },
+            {
+              "type": "objective-description",
+              "text": "毕竟，你也别无选择。",
+              "location": "二相乐园-坠星的摇篮"
+            },
+            {
+              "type": "text",
+              "text": "如果你打算一直耗着，我也不介意。我准备了42种不同的反应，供你消磨时间。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "打开工作室的门"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "这里…哈，作为爸爸，我可从没来过这里！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "你看，我们不是可以合作得很愉快吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "所以，在「隆介」离开的那段时间，她改造了一间秘密基地？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "母亲去世后，她的工作室一直空着，我利用了起来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "真是有模有样。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "让我看看…吧台上有什么？"
+    },
+    {
+      "type": "objective-description",
+      "text": "要来杯「万籁归寂的箴言」吗？\n我还在「酒馆」时经常喝这个，用于在品尝笑话前润润舌头。",
+      "location": "二相乐园-坠星的摇篮"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "还有吧台。未成年人在这喝什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "她已经上大学了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "喝一杯？我跟布拉琪学过，幻胧也对我的手艺赞不绝口。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "…不必了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "找到列车的时候，风化诅咒已经蔓延至全身了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "姬子她，一定很不容易吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "看来你不知道。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "那一天，是你「女儿」的生日。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "呵。造化弄人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "那是她最孤独的生日。亲人不在身边，比死更令她害怕的是悄无声息地瓦解，什么痕迹都留不下，仿佛从没存在过。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "她从家里逃出来，想追赶星星，却迷失了方向，只能在黑夜里匍匐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "水漫过脚踝，杂草割开皮肤，然后……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "在「画中世界」的海岸，她看见了它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "想飞上天空，有无数种办法。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "她却选择了最不切实际的一种，白白浪费了余生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你错了。那一晚，星星给了她最棒的礼物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "偌大的宇宙中，不会有比「未抵之地」更美的事物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "只有星穹列车，能去往那里。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "让我看看…绘图桌上呢？"
+    },
+    {
+      "type": "objective-description",
+      "text": "有趣的想法，大胆的想法。\n我也见过它们，我也会幻造，为什么我当初就画不出这些东西？",
+      "location": "二相乐园-坠星的摇篮"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "这些蓝图告诉我：她不止在研究列车。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "裴伽纳的遗产。我一直以为，它的资料随阿基维利一起消失了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "看来，有手脚不干净的家伙做了多余的事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你在忌惮拓星者吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "拓星者，这是姬子起的名字？她的幽默感比{{朵莉可|曾经的领航员}}还要糟糕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "古老的年代，这些人型兵器帮裴伽纳征服了无数星球，它们侵略、破坏，然后美其名曰：「开拓」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "但在列车为我展示的风景中，这些「巨人」与车队携手并进。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "工具的意义在于使用者，就像权杖能发动惨烈的战争，也能催生新世界的萌芽。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "在头还没有变成骰子的时候，我也是这样想的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "但后来，阿基维利死了。厄兆先锋开始散布末王的呢喃，博识尊也没能阻止「毁灭」诞生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "祂们都是失败者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "也许你们不一样？我拭目以待。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "让我看看…「拓星者」吗？"
+    },
+    {
+      "type": "objective-description",
+      "text": "设计蓝图看起来像模像样，但创造它绝非易事。\n作为对「开拓」的「毁灭」性注解，倒是合格。",
+      "location": "二相乐园-坠星的摇篮"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "逐星的巨人，裴伽纳的神话……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "在这个失去想象力的世界，她却复现了奇迹。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "阿基维利那老伙计，对创造它的方法一直守口如瓶。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "难道我的女儿真是个天才？光靠蒙的，就复现了蓝图？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你想知道其中的秘密？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "不感兴趣，我的骰子脑袋理解不了这些技术细节。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "一个向往天空，却无能为力的女孩，看见能在星间阔步的巨人时，会想到什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "她只是把自己的梦想画了出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "「我想成为那样自由、强大的人。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "所以，那不是被重铸的兵器，而是姬子自我的展现？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "难怪它不完整。因为姬子已经死了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "别白费力气了。这一路上，你的那些小动作我都看在眼里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "但残缺的幻造种，打不破这个「世界」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "说得对，打不破——对你来说，也一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "因为往后的一切，你一无所知，因此也无从幻造。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我是如何重启列车的？在幻月游戏的尾声，又见证了怎样的奇迹？想继续前进，你必须把主导权交给我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我们都清楚，你别无选择。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "…当然，只要你愿意，这幅画将为你改变。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "毕竟，那是「你」诞生的始末，不是吗？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "步入「姬子」的下一段人生"
+    },
+    {
+      "type": "objective-description",
+      "text": "为了铭记姬子完整的一生，我愿意把幻造的主导权交给你。\n尽管画吧，接下来是你的创作时间。",
+      "location": "二相乐园-坠星的摇篮"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "请，让我们步入「姬子」的下一段人生。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "为画布添补色彩吧，画出你记忆的开端。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "星穹列车…真是毫不意外。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "姬子是幸运的，她找到了搁浅的列车，开始着手将它修复。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "但她也何其不幸，之后不久，病情便急剧恶化。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "她一次次住进疗养院，又一次次离开，每一次，倒计时都在向前。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "体能日渐衰退，就连回到列车边都变得困难，去往星空也成了更遥不可及的梦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "走投无路的她，只剩下一个选择。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "接下来，是你的创作时间了。打开那扇窗户，补上第二处空白……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "「你」和姬子的渊源也将在画中重现。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "探望疗养院里的「姬子」"
+    },
+    {
+      "type": "objective-description",
+      "text": "风化诅咒，绘世家族的血脉顽疾，没有治愈之法。\n当姬子的病情因年龄增长而急剧恶化时，无人看护的她只得一次次住进疗养院里，以此延缓发作。\n所以，究竟是什么支持她完成了修复星穹列车的奇迹？",
+      "location": "二相乐园-坠星的摇篮"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我很好奇，那会是怎样的画面？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "护士",
+      "text": "知道这是你第几次逃院未遂吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "你会记得自己在课堂上画过多少幅画吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "护士",
+      "text": "你的身体状况自己清楚，按时吃药，避免剧烈运动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "护士",
+      "text": "还有，得多躺着。我也是绘世学院毕业的，知道画画有多辛苦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "不让我走就算了，怎么连创作都要管啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "护士",
+      "text": "你再折腾，下回被医生逮到，我可不帮你说话了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "护士",
+      "text": "这幅画…好漂亮啊，是你姐姐？但我记得……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "不，是我的自画像。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "…一个我无法成为的自己。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "护士",
+      "text": "…只要你还愿意画，愿意去想象一个更好的自己…那就还有希望。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "护士",
+      "text": "我先走了，下次逃跑记得选周三，那天我不值班。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？&素子",
+      "text": "…我回来了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？",
+      "text": "又给护士小姐添麻烦了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "你也要数落我一顿？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？",
+      "text": "当然不会。看你的表情，是有什么开心的事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "没什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "只是看着这幅画，又想起我们相遇的那天……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满怀期待的少女",
+      "text": "一点智慧，一点乐观，再稍微漂亮一点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满怀期待的少女",
+      "text": "这里再添点颜色。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满怀期待的少女",
+      "text": "还有，嗯…让我看看日志里的领航员都是什么样的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满怀期待的少女",
+      "text": "即使身处进退存亡，仍应与不义相抗的勇气。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满怀期待的少女",
+      "text": "即使局面纷乱无章，仍应看向前方的应变能力。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满怀期待的少女",
+      "text": "然后…最好能再成熟稳重些，像朵莉可或者我见那样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满怀期待的少女",
+      "text": "描摹形体，用自己的记忆和无名客的故事作为骨骼，咳咳……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满怀期待的少女",
+      "text": "最后，注入愿力，幻造成形！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "自画像",
+      "text": "真是副稚嫩的面孔啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "自画像",
+      "text": "你好，我的创造者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满怀期待的少女",
+      "text": "成功了，真的活过来了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "自画像",
+      "text": "别急，我不会跑掉的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满怀期待的少女",
+      "text": "那个…你好啊？对了，名字！我还没给你起名字呢，对不起！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "自画像",
+      "text": "不先自我介绍一下吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "满怀期待的少女",
+      "text": "姬子，无量塔姬子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "自画像",
+      "text": "很高兴见到你，姬子…至于我，就叫我——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "素子，多亏有你帮忙，列车的修复工作才这么顺利。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "对了，排热管道的故障解决了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "和你说的一样，换套导体就好。另外，猜猜我给你带了什么？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "这是，列车的图纸……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "还有作图工具、成像仪…能想到的我都带来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "你的病越来越重，能回家的时间也越来越少。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "我知道，以你的性子，肯定放心不下列车。哪怕身在疗养院，心也在工作室。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "所以，我想了个主意，不如把「工作室」搬到这里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "晚上，你就在这张桌子上修订图纸，告诉我该怎么做。白天，我来当你的手脚，帮你一点一点修好它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "就和平时一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "抱歉，让你担心了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "别有压力，失败了也无所谓。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "要这么想：总有人会修好星穹列车，不是非得是我们。但我们的努力，一定能帮到那个人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "可我答应了列车，要带它回家，我不想逃避。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "我知道。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "所以，撑不住的时候，你更应该想起我。你不是一个人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "我会记住的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "差点忘了！等你过来的这段时间，我想到了一种史无前例的咖啡配方，要不要试试？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "希望这次不会是异星鮟鱇鱼罐头。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "「姬子」去哪儿了？找到她"
+    },
+    {
+      "type": "objective-description",
+      "text": "原来如此，这样一切都说得通了。\n…我不打扰，请你继续。",
+      "location": "二相乐园-坠星的摇篮"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "我先去接壶水。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "体征监测仪（归寂饰）",
+          "text": "对风化诅咒而言，任何治疗都只是心理安慰。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "体征监测仪（归寂饰）",
+          "text": "嘀…嘀…嘀…呜——生命就是这样，前一秒还在平稳地撒谎，下一秒就漏了馅，连个招呼都不打。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "体征监测仪（归寂饰）",
+          "text": "我得感谢你，陪伴她走过了最后一程。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "镜子（归寂饰）",
+          "text": "酒馆有幅名为「欢愉」的画像，只画着一面镜子。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "镜子（归寂饰）",
+          "text": "它喻示着：镜中自己的脸庞，就是全宇宙最好笑的笑话。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素子（？）",
+          "text": "那个时候，素子每天都会在镜子前练习微笑。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素子（？）",
+          "text": "她怕自己的笑容不够灿烂，不够鼓舞躺在病床上的女孩。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "医生",
+      "text": "这位女士，疗养院关门了。请你明天再来吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "我记得，这里的医生周三才值夜班吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "不是说，现在是我的创作时间吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "医生（归寂饰）",
+      "text": "我只是在以自己的方式，参与到创作中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "医生（归寂饰）",
+      "text": "面对着越来越糟糕的身体，姬子只能想到一种办法：幻造出另一个自己。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "医生（归寂饰）",
+      "text": "一个更健康，更成熟，她想象中「成为领航员」的自己。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "医生（归寂饰）",
+      "text": "也就是你。素子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "说完了吗？我要去找她了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "医生（归寂饰）",
+      "text": "当然。我还等着你告诉我更多呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "医生（归寂饰）",
+      "text": "我只是个路过的医生，什么也没看见，什么也没听见。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（与男厕所的门对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "门（归寂饰）",
+          "text": "小姐，你是不是敲反了？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "门（归寂饰）",
+          "text": "女厕所在对面呢。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（与女厕所的门对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "门（归寂饰）",
+          "text": "别敲了，这里不是黄金告解室。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "门（归寂饰）",
+          "text": "你们有再多烦恼和痛苦，也无处倾吐、冲刷。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素子（？）",
+          "text": "我还以为，你会扮演那个黄金马桶呢。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "门（归寂饰）",
+          "text": "对于角色的挑选，我也是有底线的。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（与门对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "紧闭的门（归寂饰）",
+          "text": "你好，做个自我介绍，我是一扇门。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "紧闭的门（归寂饰）",
+          "text": "一扇打不开的门，就像你的过去中所有模糊不清的角落。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素子（？）",
+          "text": "我的过去，不包括会说话的门。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "紧闭的门（归寂饰）",
+          "text": "我只是赋予了它一些童话色彩，如果你不喜欢，我可以闭嘴——当然，是骗你的。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "找到姬子"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "姬子，在看星星吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "我在想，列车重启后，我们能去到多远的地方。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "我能看见最远的，是一颗一万光年开外的三等星，但再往后……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "再往后的星空，就得用双脚亲自丈量了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "留给我们的时间不多了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "素子，引擎点火的成功率是多少？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "「…0.21%。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "甚至下降了1%啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "明明找到列车的时候，它还带我在天上跑过一程。可现在，却一动不动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "排除了几百个故障，换掉了上千个零件，最后拦住我们的…却是一台毫无动力学特征的引擎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "你还好吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "我…没关系。不就是引擎么？总能搞定的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "我负责想，你负责做，就和平时一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "时候不早了，你先回去休息吧。哪怕是幻造种，也不能没日没夜地干活啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "姬子，我们一定能飞上天空的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "当然。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "引擎……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "我真的能修好列车吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "一个连路都走不利索的人，哪怕离开了哈托彼亚，又能走多远？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "穿过大气层的时候，风化诅咒就会把我撕裂。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "我有星穹列车，有星际航行动力学的知识，有领航员的日志，还有素子。我有启程需要的一切……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "可唯独没有时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "对不起，素子。一万光年，实在太远了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "……"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "告诉「姬子」，还有一个办法"
+    },
+    {
+      "type": "objective-description",
+      "text": "可还有一件事我不明白，姬子，我的女儿，为什么要参加幻月游戏？\n她明明应该知道的，她从那副可笑的面具里什么都得不到——\n除了遗憾。",
+      "location": "二相乐园-坠星的摇篮"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "病人（归寂饰）",
+      "text": "好感人啊！我都快哭了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "病人（归寂饰）",
+      "text": "可惜，我没有眼睛，流不出眼泪。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "病人（归寂饰）",
+      "text": "啊，我明白了，为了「重启列车引擎」，为了「拥有生命」，她提议加入幻月游戏，寻求欢愉的恩赐？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "病人（归寂饰）",
+      "text": "花季少女的凋零，她与幻造朋友的惺惺相惜——我一点也不关心，然后呢？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "病人（归寂饰）",
+      "text": "所有的药都试遍了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "医生（归寂饰）",
+      "text": "去参加幻月游戏吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绝望的病人（归寂饰）",
+      "text": "他们说…风化诅咒一旦扩散，就只剩几个月了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "医生（归寂饰）",
+      "text": "既然如此，只有一个办法。去试试幻月游戏吧？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "咳嗽的病人（归寂饰）",
+      "text": "咳咳…医院的天花板，我看了二十年了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "兴奋的病人（归寂饰）",
+      "text": "听说只要赢了游戏，可以向星神许愿…哪怕是看一眼真正的星空也好啊。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "房间里的医生（归寂饰）",
+          "text": "绘世家的那姑娘，真可怜啊。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "房间里的医生（归寂饰）",
+          "text": "她应该知道，药物帮不了她的。现在唯一能做的，只有向神明祈祷——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素子（？）",
+          "text": "你是医生，不是神棍。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "房间里的医生（归寂饰）",
+          "text": "抱歉，但你们最终还是选择了幻月游戏，不是吗？"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "病人家属（归寂饰）",
+          "text": "孩子，爸爸好害怕…害怕看不到你长大。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "护士（归寂饰）",
+          "text": "先生…隔壁303号床的病人，上个月参加了幻月游戏。昨天我看到他活蹦乱跳地在花园里散步了。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "姬子，我有个主意。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "月亮满盈了，我们一起去参加幻月游戏吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "向无所不能的乐子神祈祷，让祂赐予你健康的生命——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "没用的，素子。祖辈们早就尝试过了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "他们有些人死在了游戏前夕，有些人在竞赛中落败，只有一位取得过胜利：无量塔弘。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "但很遗憾，他失踪了。留下的笔记只写着：「欢愉」无法治愈诅咒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "谢谢你，素子。但…我的愿望没人能实现，就算是星神也不行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "那…就换个愿望，不为生命。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "那要为什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "为了大闹一场！让列车再度飞起来，冲向离星星更近的地方。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "我们向乐子神祈祷，让祂点燃引擎！让所有人能看到星穹列车再度启行！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "哪怕这家伙一高兴，把列车当烟花点了都行！至少它亮过，响过，飞上天过了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "那么…我们要创造什么样的「奇迹」呢？我的身体状况，又能做什么呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "就用你复原的「拓星者」蓝图，造个大机器人怎么样？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "让他们等着瞧吧。我来当你的手和脚，在所有人面前，把钢铁巨人变出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "我撬开了你家的保险箱，面具我都带来了。你…不会让我白忙活这一趟吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "…你说得对，素子。既然风化诅咒无法治愈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "至少，让我用最后的时间，和你一起，把那个「梦」造出来吧。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查遗弃的轮椅）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "被姬子舍弃的，痛苦和不堪的过去，之后的路，你们要用自己的腿走下去了。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "那就带「姬子」逃出去吧！"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "服务台（归寂饰）",
+          "text": "这是一座无人服务台，稀稀疏疏地摆放着一些饮料，等待病人自取。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "服务台（归寂饰）",
+          "text": "女士，你想要什么？女士，你听说过马库斯这个名字吗？有种常见的基酒就叫马库斯，当然，那个{{改变你一生的人|告死魔}}…他也叫这个名字。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素子（？）",
+          "text": "我想要你的骰子头。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "服务台（归寂饰）",
+          "text": "可以，但你支付不起它的代价。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "书架（归寂饰）",
+          "text": "这是一座书架。根据病人的爱好，摆放着种种用于消磨时间的书籍。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "书架（归寂饰）",
+          "text": "这本书您一定感兴趣的——《绘世学院杰出校友纪念册》。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "书架（归寂饰）",
+          "text": "让我来念一下上面的名字吧：美玲、满愿、利安、千世…他们要是活着该有多好啊——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素子（？）",
+          "text": "…闭嘴。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "放映员（归寂饰）",
+      "text": "哈哈哈…有趣。你比我想得更有意思——他们总想从神手里窃取什么，而你只想献上一场灿烂的烟花。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "放映员（归寂饰）",
+      "text": "而我那可爱的女儿，竟然接受了这么荒诞不经的提议。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "放映员（归寂饰）",
+      "text": "多感人啊！为了踏入十五年前那场幻月游戏，她都放弃了什么呀？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "放映员（归寂饰）",
+      "text": "放弃了活下去的可能，放弃了触摸星空的梦，拖着那副快要散架的身体，就为了陪你一起…疯上这么一回。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "放映员（归寂饰）",
+      "text": "我们都知道结局了。那么，请欣赏纪录片《血战告死魔》——"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "放映员（归寂饰）",
+      "text": "当走火入魔的疯狂谒者马库斯·安塔利在鸽川鲜血横流的街道上疯狂作画时，一位垂死的少女，和她的幻造朋友倾注自己的全力和心血，创造了奇迹！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "放映员（归寂饰）",
+      "text": "拓星者——它在你们的愿力中成形，击碎了{{那棵发狂的盆栽|告死魔}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "放映员（归寂饰）",
+      "text": "作为赢家，她向阿哈许愿：把真实的生命、她的名字、她的记忆…还有那个「开拓银河」的梦，全都送给了你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "放映员（归寂饰）",
+      "text": "而她自己，在看着你与星穹列车飞向天空时，永远留在了这颗星球的大地上，和所有的遗憾一起，化成了灰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "放映员（归寂饰）",
+      "text": "来，赝品，打开这扇门，为画作的第二幕添上最后一笔。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "门外…一点动静也没有。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "打开这扇门，离开疗养院，就没有回头路了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "我们本来也没打算回头，不是吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "可是…真的能赢吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "要是我拖了你的后腿，该怎么办？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "那我会拖着你走。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "…你在说什么呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "要记住，让我诞生的愿望并非你想要一个人来替代你，从拥有生命的那一刻起，我听到了你的愿望——「想要成为理想中的自己」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "而你所缺的这一点小小的「相信」，就让我来为你补上吧——相信姬子会走得比任何人都远。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "如果你不能相信现在的自己……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "就相信未来的「我」吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "…谢谢。我不会再害怕了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "这场战斗无关胜利与否…此时此刻，告死魔正在鸽川肆意妄为，必须有人站出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "「下一次幻月满盈，我一定会赴约的。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "「带着满满当当的故事，回来讲给你听。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子（？）",
+      "text": "那么，走吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "有件事，我还是没想明白。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "以前，我画了那么久拓星者，它一直都不完整。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "我想，是因为你心里还有迷茫。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "成为领航员的自己，驾驶列车穿越星海…你没见过这幅景象，也没法幻造出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "那为什么，我们在告死魔面前却成功了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "因为我们在一起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "而我闭上眼睛，就能看见你成为领航员的样子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "星穹列车要启航了，车灯照亮了黑夜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "你脚下是数不清的轨道，四周是没有名字的星星。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "你看见了一条路，谁都没走过的路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "然后，你开始向前。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "只要走下去，你会发现那原本不可逾越的阻碍，成了身后的风景。而在走下去的路上，你会遇到许多和你一样的同伴。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "这幅景象，我每天都能看见，从来没有模糊过。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "我也想看见。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子&姬子",
+      "text": "你会的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我现在的样子，和你想象中一致吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "分毫不差。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "十五年了，素子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我从没想过，会以这种形式和你重逢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "都十五年了啊。你一定走过了很长的路？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "是啊。长到我学会了一个人修理机器，冲泡咖啡，照顾后辈，尽力战斗……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "长到我变成了你的样子，甚至骗过了一位擅长伪装的绝灭大君。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "现在不是停下的时候，你还要继续走下去吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "嗯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "那就去吧，姬子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "让我也成为你的力量。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "有什么话想说么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "所以，这是怎么回事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "呃，是我弄错了？十五年前，活下来的不是「素子」，而是「姬子」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "希望你喜欢这个答案，尽管它会让你显得滑稽可笑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "不，不——怎么会！你还活着，好女儿！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "这让我对你更感兴趣了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "千年以前，我在同一片星空下将列车击落。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "十五年前，我匆匆赶回二相乐园，只看见一个光点从地平线上升起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我抬起手，对准它。只要「梆梆」两声，它就会再度坠落，再也无法翱翔。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "但你没有这么做。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "是啊，我就看着它穿过大气层，在夜空中划过长长的弧线。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "为什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我只是觉得，这样很有趣。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "你明白吗？我曾信手摧毁列车，也曾因一时兴起放任它离去，生存或毁灭，都在我的一念之间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "不，你错了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我也曾想过，为什么找到列车的人会是我？其中是否蕴含着某种特殊的意义。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "但答案很简单：找到它的人，恰好是我而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "从坠落的那一刻起，流星便指引着列车的方向，它等待了千年，等待有人沿着轨迹抵达它的身边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "即便没有我，两千年，三千年，一万年后，也一定会有人找到搁浅的列车，重新启程。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你不是什么决定命运的神明，你只是个偏执的自大狂。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "说对了，所有神明都是偏执的自大狂！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "虽然我的猜想阴差阳错，但游戏还没结束。不妨让我们再往前一步，为这幅画填上最后的空白？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "第三回合，我的第三个问题，你做好准备了吗？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "步入星穹列车再度启程之地"
+    },
+    {
+      "type": "objective-description",
+      "text": "这场幻造进入了尾声，看起来我们都从中收获颇丰，不是吗？至少对我来说是这样。\n最后一回合，就让我们打开天窗说亮话吧。",
+      "location": "二相乐园-坠星的摇篮"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "你以为列车会带来拯救。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "但它只会再度迎来埃灭。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "快回来，继续完成这幅画"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "「无量塔」沉睡的海岸，列车再度启程之地……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我更习惯称之为：重蹈覆辙的起点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "故地重游，感觉如何？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "只可惜，同行的人是你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "和我同行，总好过孤身一人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "血涂游戏没有胜者。幻造出机铠后，你拥有的愿力甚至不足以完成觐见，更别说启程远行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "既然如此，第三个问题：你到底是如何治愈风化诅咒的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "事到如今，你还在绕弯子吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我什么时候偏离过正题？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "三处空白，对应三个秘密，看似指向我，实则掩盖了你的真实目的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "是谁将拓星者的图纸留在列车？是谁在这里遇见了姬子和素子？祂又做了什么，治愈了不可逆的风化诅咒？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "一个女孩的生死，你根本不在乎，即便她是你的「女儿」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你的目标，只有阿哈。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "借助十五年前的真相，你就能弄清：当幻月游戏遭人破坏，祂会以何种面目降临，又会以怎样的态度干涉局势。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "所以，我猜对了？是祂亲自示现，点燃了星穹列车？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "停一停吧，游戏结束了。是你定的规则：秘密才能交换秘密。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "你可没有抽走我的底牌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "对，但我抽走了自己的那张——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "很可惜，谒见阿哈的人不是我。你想要的答案，从一开始就不存在。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "把礼物交给我的时候，{{祂|阿哈}}是这么说的。"
+    },
+    {
+      "type": "text",
+      "text": "「就当是…迟来的补偿吧。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "又开始心不在焉了呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "战胜了告死魔，但你并不高兴。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "我只是…不知道怎么开口。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "因为我快要{{走|消失}}了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "一旦列车重启飞向天空，真空中没有愿力，幻造种也将不复存在，这是最好的{{结果|礼物}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "可是…可是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "就这样启程，我以后一定会从梦中惊醒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "回忆起今天，我的梦想…建立在另一个人的牺牲上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "如果感到害怕，就抬头看看吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "那里有无数个夜晚，我们一起仰望的星星。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "你会替我见证那些风景，经历那些…像幻造一样奇异的故事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "你早就明白的，对吧？那就鼓起勇气，别再说什么牺牲了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "我是用自己的生命，征服了困住我们的大地。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "笨蛋，你必须一个人上路了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "在创造我的那一天，是你亲口对我说的吧——「就算死，我也要死在离星空更近的地方」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "下一次幻月满盈，我一定会赴约的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "少女姬子",
+      "text": "带着满满当当的故事，回来讲给你听。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "那就约好了？如果找不着我，也可以像悲悼伶人一样，告诉天上的月亮。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "把礼物交给我的时候，月亮的影子是这么说的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "「就当是迟来的补偿吧。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素子",
+      "text": "「再度启程的时间到了，阿基维利。」"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "揭开归寂的底牌"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "所以，见到阿哈的人是那幅「自画像」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "你把一枚假筹码当作赌注，放上了牌桌？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "美其名曰「挑战」，但你只是在浪费时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我得承认，就算只有一点点，我确实受到了打击。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "可既然答案不在你身上，我也可以毫无负担地…实施「毁灭」了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你又错了…这场试探，是你迷途知返的最后机会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "有意思，你…给我机会？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "即便堕落成绝灭大君，我依旧想给*前领航员*一个回头的可能。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "但这一路上，我确信了：你不是什么误入歧途的无名客，你只是一个…让列车蒙羞的敌人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "对于敌人，我只有一种回应。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "「毁灭」我？你做得到吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我看穿了你的戏法，绝灭大君。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你召来末日，化身万千，又造出过去的景象迷惑我。但说到底——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你只是以现实为画布，将那些不确定的可能性幻造成真。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你用人们的愿力，幻造出了他们恐惧中，那个即将诞生的{{未来|末日妖都}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "用同样的手法，你幻造出了「可能存在于其他位置」的自己。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "但是，当{{另一种可能性被人们观测|你被击败}}，压倒幻造的谎言，你的能力也将瞬间失效。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "那么，被困在画中世界的你，打算怎么做呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "就算召来残缺的拓星者，拼命撞击空间，你也绝无可能逃出这里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "逃？谁告诉你我想逃离？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "引力不仅能将人们困在地面，也能让星星们奔向彼此。一位前领航员，连无名客的求救手段都忘记了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拓星者的撞击",
+      "text": "砰，砰砰，砰，砰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "用大质量的撞击模拟列车跃迁时的引力波频率，即使是幻造的空间，也没法阻拦这种特殊信号。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你的秘密，早已暴露在我的同伴面前，也许就在一分钟后，你的野心会付诸东流。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "又或者是…下一秒？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "哈哈哈，干得不错。但你的习惯，实在太糟糕了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "身为领航员，总想着独自面对最凶险的情境？既然你我的游戏已经到了尾声……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "那么猜猜看，我给几个人准备了相同的游戏？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "接下来，你有一次机会猜中答案。而阻止我的概率是——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "「零」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你到底…要做什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "是谁告诉你，毁灭「欢愉」的大君来到二相乐园，是为了杀死阿哈呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "我的目标不是你，也不是祂。现在，公布答案——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂",
+      "text": "以「末王」之名，{{开拓者|主角}}的旅途将止步于此。"
+    }
+  ],
+  "warnings": []
+}

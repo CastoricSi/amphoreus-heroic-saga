@@ -1,0 +1,1038 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "来自昏暗国度的回音",
+    "pageId": 37731,
+    "revisionId": 99761,
+    "parentRevisionId": 96933,
+    "revisionTimestamp": "2026-07-19T14:58:30Z",
+    "fetchedAt": "2026-09-28T00:19:23.731Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%9D%A5%E8%87%AA%E6%98%8F%E6%9A%97%E5%9B%BD%E5%BA%A6%E7%9A%84%E5%9B%9E%E9%9F%B3",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%9D%A5%E8%87%AA%E6%98%8F%E6%9A%97%E5%9B%BD%E5%BA%A6%E7%9A%84%E5%9B%9E%E9%9F%B3&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "来自昏暗国度的回音",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.1",
+    "number": "06",
+    "series": "献给破晓的失控",
+    "description": "除灰烬以外的破晓战士都已接受「幸福手术」。不死途将自诩英雄、讨伐共愿帮的三名破晓战士处决，以告慰鸽川血案中的遇害者们。你感觉到黑暗中有某物在呼唤你，在你陷入疯狂前，真珠将你们拉回现实。",
+    "requirements": "完成拟像与仿真，或向正义追索",
+    "requiredLevel": "21",
+    "characters": [
+      "赤焰",
+      "苍翼",
+      "曙光",
+      "不死途",
+      "三月七",
+      "姬子",
+      "朽叶",
+      "真弘",
+      "真珠"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "500"
+      },
+      {
+        "item": "星琼",
+        "amount": "60"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "5"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "5"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "200"
+      },
+      {
+        "item": "《遗忘之地》",
+        "amount": null
+      },
+      {
+        "item": "信用点",
+        "amount": "60000"
+      }
+    ],
+    "previousMissions": [
+      "拟像与仿真，或向正义追索"
+    ],
+    "nextMissions": [
+      "多么神圣的笑声！"
+    ],
+    "objectives": [
+      "与四散的众人会合",
+      "不死途…哎，陪他聊两句吧",
+      "(可选）回到她她他她他的身边",
+      "跟随内心的声音，来到你我他她祂它的面前"
+    ],
+    "synopsis": [
+      "不死途解放真名「拉曼查」，以断臂中的黑影摧毁帕姆王机铠。列车撞开地面，将众人拖向黑暗深处。「众神嗤笑之地，即将到站。」",
+      "你与姬子、三月七在地底废弃车站醒来。姬子推测你们因未知原因掉进了「画中世界」的某处，必须尽快找齐所有人，离开这里。",
+      "赤焰三人欣喜于自愈的身体。灰烬尝试为同伴求情，不死途则认为没有必要，「手术转变」后的他们只是会对快乐做出反应的生物而已。",
+      "不死途以黑影吞没三位破晓战士，为共愿帮复仇。不死途请灰烬记住今天发生的一切，若灰烬想要向他复仇，不死途绝不阻拦。",
+      "不死途真实身份是隐退的巡海游侠之首，拉曼查。他请你拿出真珠赠予的筹码，那是一枚定位器。与此同时，你听到有某个声音呼唤你。",
+      "你询问在场众人有没有听到什么声音，不仅并未得到回应，就连同伴的身影也消失不见。那声音依旧呼唤着你，就在道路的尽头。",
+      "在神秘声音的诱惑下，你想要继续往前。不死途喝止了你，表示沉睡在这深处的东西异常凶险，也异常眼熟。",
+      "废站中的场景开始收缩，真珠发动「基石」能力解析空间构成，将你们拉回她现实中的办公室。"
+    ],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "通往群星的轨道#开往地狱的列车、通往群星的轨道#幸运筹码",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "合金机铠·帕姆王",
+      "text": "清理掉…垃圾，大家都…快乐！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "合金机铠·帕姆王",
+      "text": "不干净的…不快乐的…统统…扫除！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赤焰",
+      "text": "它真的动起来了！是阿哈赐予我们的力量！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我一定会阻止你们！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我绝不容许你们用列车长的形象肆意破坏！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "第一阶段敌方血量降至半血"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赤焰",
+      "text": "你们听见了吗？阿哈在呼唤我们！哈哈！我们不必再恐惧了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "苍翼",
+      "text": "让笑容传染！让笑声永恒！哈哈哈哈哈哈哈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "你们真的疯了……"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入第二阶段"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赤焰",
+      "text": "星穹列车，只是公司的一条狗！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赤焰",
+      "text": "没关系，我们已经处理过一条公司狗了！不介意再多来几条！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "你说什么……？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "第二阶段敌方血量降至半血"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "合金机铠·帕姆王",
+      "text": "约好了…要保护…乐园…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "合金机铠·帕姆王",
+      "text": "污垢…痛苦…好多…清除痛苦！大家都！笑起来！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "合金机铠·帕姆王施放饱和式大扫除！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "第二阶段敌方血量降至1%"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这次…应该打趴下了吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "合金机铠·帕姆王",
+      "text": "重启…自我修复…要——带来幸福！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "结束战斗"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "合金机铠·帕姆王再一次站了起来"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "合金机铠·帕姆王",
+          "text": "和大家，一起…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "合金机铠·帕姆王",
+          "text": "幸福！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "合金机铠·帕姆王",
+          "text": "幸福！幸福！幸福！幸福！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "合金机铠·帕姆王发射了无数炮弹向你们攻来"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "献出我血吞没宿仇，献出我心射杀不义。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "领猎人，拉曼查，以星狩誓言呼唤你！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "天弓啊，为折足之狼垂眸！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "引我——猎获而归！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "不死途解放了断臂中的黑影摧毁帕姆王机铠。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "合金机铠·帕姆王",
+          "text": "幸福，哈哈哈哈，幸福！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "合金机铠·帕姆王",
+          "text": "终点站：众神嗤笑之地，即将到站。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "合金机铠·帕姆王",
+          "text": "欢迎回归，神的怀抱！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "嘘，安静…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "不死途",
+          "text": "睡觉时间到了。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "列车被炸成了两段，众人坠入了黑暗深处。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我们…还活着吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这里…是什么地方？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "…这是到地府了吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "啊呸呸呸！你可别胡说。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我记得失控的列车带我们向下坠落，穿过了一座废弃的隧道。按理说，这里应该是地底深处的某个车站了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "但这些破碎的建筑，远处古怪的空间，我们真是在地底车站吗？二相乐园的地底，有这么大的空间？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "也许，这儿已不在现实中了。我们可能因为某些不知名的原因掉进了「画中世界」的某处。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那，咱们还回得去吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我们得尽快找齐所有人，离开这儿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "不死途先生他们人呢？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与四散的众人会合"
+    },
+    {
+      "type": "text",
+      "text": "地图信息-？？？站：列车的地下站点，充斥着狞笑、狂笑和嗤笑的呼唤，被刻意遗忘的古老世界。"
+    },
+    {
+      "type": "objective-description",
+      "text": "聚集，聚集，然后抵达…我……",
+      "location": "二相乐园-? ? ?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赤焰",
+      "text": "…看，我们重生了？我们…果然和共愿帮那样的垃圾不同。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "苍翼",
+      "text": "是啊，大哥，我们是英雄！我们是正义！我们是不死的幸福！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "如果你们是正义，那就让我来扮演必要的恶人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "各位，不要再执迷不悟了！再这样下去，你们真的会……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "曙光",
+      "text": "笑一笑吧！来到永恒的极乐，真正的幸福。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "拜托了，你们听我一句话吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "只要跟朽叶小姐回去，去「异常防御部」，向他们解释发生了什么，一切都还来得及。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "放弃吧，现在的他们只是会对快乐做出反应的生物而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赤焰",
+      "text": "所有人都会幸福，所有人都不会死去，笑吧，笑吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赤焰",
+      "text": "笑声会传染到整个二相乐园。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "开拓者前辈，还有不死途大哥，我求求你们，劝劝他们几个……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "抱歉…太迟了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我无能为力。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "我也没法原谅他们。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "真弘，让开。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "大哥，再给我一点时间，你也知道的，他们都是好人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "你最好让开！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "真正的英雄，绝不会放弃自己的同伴！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "如果我现在要杀死他们，你会来阻止我吗？还是视而不见？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "阻止不死途。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "我能理解你的好意，但他们有他们的选择，我也有我的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "说到底，这样对他们真的好吗？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "见证到最后。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "死以生祭，债以血偿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "共愿帮…作为盘踞鸽川的帮派曾引发大规模械斗，导致多人重伤，并犯有抢劫、敲诈等多项罪行。"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-来自昏暗国度的回音-CG1.png",
+      "displayWidth": "810px",
+      "fullWidth": "1440px",
+      "asset": "assets/sr-images/开拓任务-来自昏暗国度的回音-CG1.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "池波与恶水，他们并非什么善类…这辈子干的好事就像污水潭上偶然泛起几个漂亮的肥皂泡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赤焰",
+      "text": "所以他们被英雄讨伐了，他们和这个世界，都变得幸福了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "没错，他们也许有罪要赎，但这不是你们像砸碎玩具般虐杀了他们的理由。"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-一个正义罪人的忏悔-CG2.png",
+      "displayWidth": "810px",
+      "fullWidth": "1440px",
+      "asset": "assets/sr-images/开拓任务-一个正义罪人的忏悔-CG2.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "过往的回声",
+      "text": "多谢这位英雄出手相救，我是赤焰战士，是破晓战队的队长。请问——喂，大叔你怎么就走了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "曙光",
+      "text": "我们没有过家家呀，大家都笑得很高兴嘛，哈哈哈哈。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "过往的回声",
+      "text": "侦探大叔，你知道巡海游侠吗？据说是一群在宇宙里行侠仗义的英雄，照这样说，我们是不是也算城市里的游侠？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "过往的回声",
+      "text": "啊，不死途先生，我想请你帮我们一个忙——"
+    },
+    {
+      "type": "image",
+      "file": "开拓任务-来自昏暗国度的回音-CG2.png",
+      "displayWidth": "810px",
+      "fullWidth": "1440px",
+      "asset": "assets/sr-images/开拓任务-来自昏暗国度的回音-CG2.png"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赤焰",
+      "text": "哈哈哈哈哈哈哈——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "一股熟悉的味道…呵，原来如此。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灰烬",
+      "text": "你做了什么……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "记住今天发生的一切，真弘。你随时都可以向我复仇，我绝不阻拦。"
+    },
+    {
+      "type": "text",
+      "text": "黑影如退潮般缩回不死途脚下，地面上只留下灰烬一人孤独的身影——他的三位同伴，连同他们被黑影连接过的影子，已在黑影散去时被彻底吞没，再无踪影。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "不死途…哎，陪他聊两句吧"
+    },
+    {
+      "type": "objective-description",
+      "text": "是你吗？我那曾失去的……",
+      "location": "二相乐园-? ? ?"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（朽叶）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "朽叶",
+          "text": "如此一来，「新告死魔」算是结案了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "朽叶",
+          "text": "没有证据，也没有口供…这份案卷该怎么写结案陈词呢？"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "所以破晓战队真是凶手？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "朽叶",
+          "text": "关于这点，除了不死途本人外，谁也无法回答你。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "朽叶",
+          "text": "但我选择相信他。这个男人的「影子」…只对罪孽深重的目标亮出獠牙。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "朽叶",
+          "text": "虽然不知他这份力量的来由，但他确实好几次帮「异常防御部」解决了麻烦的案件。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（灰烬）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "灰烬",
+          "text": "……"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "小灰，你还好吧？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "灰烬",
+          "text": "我、我们都做了些什么啊……"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "很好，我正发愁没能照顾好几位的人身安全呢，你们命挺硬啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "巡海游侠之首，拉曼查。我听过这个名字，但这应该是许久之前的传奇了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "见多识广啊，无名客。很多年过去了，我还以为这个名字已经被外界忘得差不多了，正打算开始全新的人生呢……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你刚刚使用的是什么力量？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "少儿不宜的力量。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "如果不是像我一样被迫，你最好不要问，不要主动探寻，也不要沾上它。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你认识波提欧和乱破吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "你说的难道是…银枪·修罗和缭乱·忍侠殿下？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "当然不认识。我已经隐退很久了。我认得的还活着的游侠，一个把我当叛徒，一个把我当猎物。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "有言在先，我希望各位忘掉自己刚才听到的名字。此时此刻，在这个名为二相乐园的世界里，我是侦探「不死途」，仅此而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "与其对我的身份究根探底，或者怜悯刚刚死去的那三个罪犯…不如先想想怎么离开这里——早听说乐园的地下深处有不干净的东西，真奇怪，这里的人居然能睡得安稳。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "列车广播把这里唤作「众神嗤笑之地」…我不记得地图上有过这样的站点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "是不是…咱们有可能被困在这儿一辈子？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "不死途先生，你似乎从一开始就胸有成竹，即使置身于如此怪异的场所，也毫不担心自己的安危。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "你真的对这个地方一无所知？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "呵，这就是商业机密了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "再者说，我只是贯彻了一位私家侦探的职业素养而已——相信自己的雇主。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "{{开拓者|小姑娘/小子}}，把真珠送你的东西拿出来吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你是说…那个？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "真珠不是送了你们一枚筹码吗？只要她能靠着那东西定位到你们，我们的安全就有保障。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（果然又是追踪器……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "{{开拓者|阿基维利}}！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "{{开拓者|阿基维利}}！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "来，看向这边，慢慢地走过来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "是的，就在这道路的尽头，来吧，我呼唤你。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "(可选）回到她她他她他的身边"
+    },
+    {
+      "type": "objective-description",
+      "text": "一丝香甜，一丝美妙，古老本能的狂欢在你心中咆哮。\n它邀你起舞，邀你歌唱，邀你抵达空洞的尽头，邀你来到来到来到来到来到这里这里。\n不要犹豫，不要苦恼。\n来到来到来到来到我的面前，将这美妙的一刻榨取作琼浆，与我共同饮下。",
+      "location": "二相乐园-? ? ?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "更深的地方，有谁在叫我……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你来到伙伴们身边"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你们有没有听到什么声音啊？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "无人回应你，眼前的伙伴也在眨眼间消失了"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "来吧，来到我的身边。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随内心的声音，来到你我他她祂它的面前"
+    },
+    {
+      "type": "objective-description",
+      "text": "一丝香甜，一丝美妙，古老本能的狂欢在你心中咆哮。\n它邀你起舞，邀你歌唱，邀你抵达空洞的尽头，邀你来到来到来到来到来到这里这里。\n不要犹豫，不要苦恼。\n来到来到来到来到我的面前，将这美妙的一刻榨取作琼浆，与我共同饮下。",
+      "location": "二相乐园-? ? ?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "大家都去哪儿了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "更深的地方，有谁在叫我……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "哈哈哈，哈哈哈哈。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "这儿呢，往前走。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "来吧，来吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "{{开拓者|阿基维利}}，往这边来。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "自我（？）",
+      "text": "来吧，拥抱这曼妙的世界，来吧，抵达我的身边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "自我（？）",
+      "text": "你想要去往更深处，与我融为一体。喜悦，正反馈，大脑皮层闪烁的香甜体验，温柔，曼妙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "自我（？）",
+      "text": "听，它在呼吸，在沉睡，在呜咽，也在狞笑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "自我（？）",
+      "text": "温暖，温柔，温暖，温柔，温暖，温柔。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "自我（？）",
+      "text": "我就是你，你就是我，来吧，拥抱这原初的喜悦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "自我（？）",
+      "text": "用生命换取一张车票，登上前往终点的列车。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "自我（？）",
+      "text": "与我合为一体，成为我的一部分，成为我的——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "去到更深处！我想过去！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "自我（？）",
+      "text": "来吧，来吧，来吧，来吧，就是这样，踏出脚步！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "踏出脚步。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "踏出脚步。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "踏出脚步。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你正要向深处走去，不死途出手拦住了你"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "{{开拓者|小姑娘/小子}}，别再往前了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "在这个世界办案，我的一大原则就是一一抑制自己的好奇心，不要涉足与案件无关的事物，尤其是那些看上去就异常凶险的东西。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "不过…沉睡在这深处的东西，却异常眼熟啊。"
+    },
+    {
+      "type": "fold",
+      "title": "过程动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "废站中的场景开始收缩，与此同时二相乐园的城市中也出现了异象"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "二相乐园的居民们开始纷纷逃难，而这一切被真珠尽收眼底"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "真珠",
+          "text": "我来鉴知、我来解析、我来落笔。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "真珠",
+          "text": "我将天地列入织锦，画石点睛，日月星辰自然成。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "真珠",
+          "text": "一切献给——琥珀王。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "真珠发动「基石」能力解析空间构成，将你们拉回她现实中的办公室。"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

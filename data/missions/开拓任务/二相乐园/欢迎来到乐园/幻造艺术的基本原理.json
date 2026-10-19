@@ -1,0 +1,4494 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "幻造艺术的基本原理",
+    "pageId": 28546,
+    "revisionId": 96777,
+    "parentRevisionId": 96400,
+    "revisionTimestamp": "2026-05-05T13:10:51Z",
+    "fetchedAt": "2026-09-28T00:19:06.710Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%B9%BB%E9%80%A0%E8%89%BA%E6%9C%AF%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%B9%BB%E9%80%A0%E8%89%BA%E6%9C%AF%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "幻造艺术的基本原理",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.0",
+    "number": "04",
+    "series": "欢迎来到乐园",
+    "description": "在绘世学院，你陷入火花的「认知修正」，被迫体验虚假的校园生活。察觉异常后，你与三月七联手寻找啵啵娃老师，却发现火花已伪装成你骗走绘世家族的面具。危急时刻，你被绯英拉入幻月秘庭，并与她达成借予力量的约定，由此得到一张浣熊面具。",
+    "requirements": "完成任务一座幻造城市的拓扑学结构",
+    "requiredLevel": "21",
+    "characters": [
+      "三月七",
+      "朽叶",
+      "斯科特",
+      "瓦尔特",
+      "火花",
+      "啵啵娃",
+      "绯英",
+      "花火",
+      "姬子",
+      "真珠",
+      "爻光",
+      "忘归人"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "1000"
+      },
+      {
+        "item": "星琼",
+        "amount": "130"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "10"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "10"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "400"
+      },
+      {
+        "item": "信用点",
+        "amount": "110000"
+      }
+    ],
+    "previousMissions": [
+      "机械复制时代的艺术作品"
+    ],
+    "nextMissions": [
+      "杀手们没有假期"
+    ],
+    "objectives": [
+      "前往绘世学院",
+      "找到啵啵娃老师，取回面具",
+      "前往校长室",
+      "进入校长室",
+      "与三月七交谈",
+      "（可选）查看课程表",
+      "（可选）找到？？？，取回…什么来着？",
+      "前往天台，接收斯科特的挑战",
+      "狠狠地揍斯科特一顿",
+      "调查斯科特掉落的物品",
+      "前往档案室，寻找啵啵娃老师",
+      "跟随记忆的水母，揭开啵啵娃的被褥",
+      "想办法进入被封锁的教室",
+      "寻找奇怪声音的来源",
+      "与绯英交谈"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "",
+      "时间": "",
+      "相关活动": "",
+      "相关成就": "通往群星的轨道#对不起青春",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往绘世学院"
+    },
+    {
+      "type": "objective-description",
+      "text": "姬子拜托我前往「绘世学校」，从啵啵娃老师那里取回绘世家族的面具。度假暂停，该是办正事的时候了。",
+      "location": "二相乐园-二维市"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你和三月七正在查看刚才的短信…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "「绘世学院」…是什么地方？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "那是个培养绘师的学校，在这个世界还挺有名的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我们得去那儿等人。朽叶小姐知道该怎么走吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "我来为两位带路吧，也好顺路确保你们的安全。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哇，这落英缤纷的上学路…充满了青春的气氛啊！值得拍一张照。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "确实有不少电视剧在这儿取过景。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "想来应该是那种适合情侣分手、爱人错过的经典电视剧吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "没错。从这条路笔直往前走一阵，就到绘世学院了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "这里就是绘世学院了。两位就在这儿等候伙伴吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "对了，为免再有意外，我也把你们的消息告知了那位导游先生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "这是我的联系方式，在「幻月游戏」开启期间，两位若是遇到什么问题也可以随时找我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "多谢朽叶小姐！给您添麻烦了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "到地方了，咱们先和杨叔打个招呼吧，看看他到了哪儿？"
+    },
+    {
+      "type": "message-thread",
+      "title": "瓦尔特",
+      "subtitle": "列车组各位，随时保持联系",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "杨叔，我和三月到学校门口了。"
+        },
+        {
+          "type": "message-system",
+          "text": "【消息发送失败】"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "杨叔还没答复吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这地方信号不太好。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "收不到消息呢…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "要不要找个信号接收好的地方？咱们进学校里看看？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你只是想逛逛吧？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "没有的事。我心说这不是姬子姐的母校吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我看这学校大厅…和动画里看到的简直一模一样！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "可惜了，咱们俩都没正经上过学。要是能在这地方体验一下校园青春生活……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "喂，开拓者，要不要一起装作学生进去瞧瞧啊？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我是折大博士毕业。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "拉倒吧你！咱在折纸大学才上几天学？你哪儿买的文凭？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "会被人赶出来吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "没事的。咱们俩这一身，走在学校堆里多合适啊。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "看来这街你是没逛够。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哎呀，反正眼下杨叔一时半会联系不上，要不咱们一边逛着一边到处看看有没有他的影子，也许他早到了呢。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "找到啵啵娃老师，取回面具"
+    },
+    {
+      "type": "objective-description",
+      "text": "不知道为什么，联系不上杨叔。先和三月在学校里逛逛吧，也许杨叔已经在某个地方等着我们了。",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（尝试使用主楼玄关的二次元jump传送装置）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "list-item",
+          "ordered": false,
+          "depth": 1,
+          "text": "还有事情没做完……"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（首次尝试进入主楼玄关左边的门）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "咱们溜达的地方还是别离开校门口太远吧？万一杨叔到了呢？"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，快过来快过来！快看这朵海浪！好壮观啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "它不会突然落下来，浇我们一个透心凉吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "等等，这也是画出来的吗？一旁还标注了作者？绘世…是谁？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "幻造景上，一行小字标注了作画的来由：引鸽子川之水抹消错笔，不意呈浪花之形，遂挥毫作此景画，以诠物形之妙"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "广播",
+      "text": "三月七和开拓者同学，转学手续已经办理完成，请在听到广播后立刻前往校长室。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "转、转学手续？这又是怎么回事啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "咱们找找吧，去看一眼？"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（激动的学生&兴奋的学生）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "兴奋的学生",
+          "text": "听说火花花晚些时候打算官宣一个重磅新闻！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "激动的学生",
+          "text": "真的吗？是和「幻月游戏」有关的事情嘛？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "兴奋的学生",
+          "text": "这我就不知道了。但毫无疑问，如果她打算加入游戏，一定会赢喔！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "激动的学生",
+          "text": "火花大人天下第一可爱，谁还能竞争得过这样的美少女啊！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "兴奋的学生",
+          "text": "说的是呐！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "呃啊，看起来这位火花小姐实在很有知名度。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（八卦的学生&冷静的学生）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "八卦的学生",
+          "text": "听说斯科特同学又和老师起冲突咯……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "冷静的学生",
+          "text": "那个三年级的黄毛混混吗？哈，倒也不意外。所以，这次他又顶撞了哪个老师？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "八卦的学生",
+          "text": "不清楚，看结果应该会被退学吧？他早该退学了，仗着自己的爸爸是公司的人，成天耀武扬威。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "冷静的学生",
+          "text": "快点开除这样的人渣吧！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "好奇的学生",
+          "text": "快了快了，听说眼下正在校长室门口罚站呢。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（好奇的学生&无所事事的学生）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "好奇的学生",
+          "text": "喂喂，瞧见了吗？刚刚有个高大的褐发眼镜男走过。那谁啊？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无所事事的学生",
+          "text": "听说是新来的老师。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "好奇的学生",
+          "text": "好帅气喔。虽然看起来有点年纪了，但正是那种成熟的感觉才令人怦然心动啊。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无所事事的学生",
+          "text": "哈哈别傻了，你该不会想要向老师递情书吧？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "褐色头发、戴眼镜、高个…怎么听起来像杨叔啊？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "哎？不可能的吧？杨叔有这么惹人怜爱吗…哈哈？"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往校长室"
+    },
+    {
+      "type": "objective-description",
+      "text": "学校广播叫我和三月前往校长室，说已经办理好了转学手续。这又是怎么回事？\n发学位可以，要考试的话就算了。",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，见、见鬼了！斯科特为什么在这儿？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "被罚站的斯科特",
+      "text": "你们是几年级的学生？看到学长不鞠躬，真是没大没小！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "被罚站的斯科特",
+      "text": "等等，你们俩…为什么看起来这么眼熟啊？总觉得好像有人让我来这儿找你们……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这一开口，绝对是真的斯科特。开拓者，咱们这是穿越到哪儿去了？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "校园青春剧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我不想跟这样的家伙上同一所学校！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "校园机器人动画？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "是那种培养十四岁少男少女驾驶大机器人迎击巨大不明外星生物的动画吗？咱们应该早就过了那个年纪了吧！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "是噩梦，快快醒来！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "好痛！掐你自己脸蛋就好，不要掐我的啊！这是真的，这不是梦！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "是谁在门口吵闹啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "杨叔！你来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "两位同学，你们在门口做什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "是斯科特那家伙…！斯科特人呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "等等，你刚才为什么叫咱俩「同学」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我刚办完你们的转学手续，正在等校长确认，有什么事先进屋来说吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "进入校长室"
+    },
+    {
+      "type": "objective-description",
+      "text": "这是某种角色扮演，还是我在做梦？总感觉，杨叔和斯科特都有点怪怪的。",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这转学手续到底是怎么回事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "当然是从今天开始，两位同学将正式转入这座学校，开始新的校园生活呀。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "火花？！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者&三月七",
+      "text": "火花？？！！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "哟吼~两位同学，我们又见面了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你怎么在这儿？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "对于无所不知的电子妖精火花花，还有什么网络消息是捕捉不到的呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "校长，你来了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你？是校长？！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "当然了，从刚才开始，我已经正式接管这座学校，成为它的代理校长了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "毕竟这座学校里满是看过我直播的粉丝，一点小小的「认知修正」就足以让很多人按我的要求行动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "咦，你们怎么还是一副剑拔弩张的样子，该不会想殴打「校长」吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "好了好了，放松心情！暂时忘掉「幻月游戏」如何？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "尽情享受这轻松、惬意、浪漫又热血的青春校园生活!"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者 & 三月七",
+      "text": "完啦！！！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "两年后…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…醒醒！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "醒醒啊！老师来啦！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "少女如春风般的吹息，挠得你耳尖与心尖一样痒痒。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "怎么一闭眼就是两年后了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "别睡啦！你所剩的青春也要溜走咯？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "三月，小心，是火花！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "笨蛋，校长已经盯着你很久啦！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "眼看绘师资格考试就要开始了，我真不知道有些同学怎么还有心思趴在桌子上睡觉？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "火花，你在搞什么鬼！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "给我住口！校长也是你能直呼其名的？你心里面还有没有一点对她的尊重？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "站在你眼前的这位，是网络主播、创作歌手、潮流的引领者、教育界的新星，假面愚者中的假面愚者——请你尊称她一声校长，谢谢！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "安啦安啦，斯科特同学~♥谢谢你能为老师出头~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "开拓者同学，意志力很顽强嘛。难怪那个{{旧型号|花火}}想让你加入幻月游戏。只可惜，你遇到了我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "很快，你会和这些学生一样，统统变成我的小玩具~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "同学们！今天是「校园卫生日」，请帮助火花校长找到「那件东西」~♥像是档案室之类的地方，都给我翻上一翻哟。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "对了，老师们也全部要上阵劳动喔，如果有人看到了那位缺勤的老师，请一定告诉我，我会好好奖励乖孩子的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "学生们",
+      "text": "好——！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "哼，开拓者，要不是看在火花老师的份上，我这次一定要狠狠揍你一顿。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我又怎么你了？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "斯科特同学，棒球社事件都过去两年了，你还在记恨他/她吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "说的轻巧！如果不是开拓者，老子现在已经在校运会上展露头角了！都是这个家伙，断送了我的棒球梦！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "就这？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "斯科特",
+              "text": "…什么叫就这？你还想对我做什么过分的事情？！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "对不起，我的宿敌。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "斯科特",
+              "text": "道歉有用的话，要警察干嘛？我知道，你内心潜藏着反社会人格的恶魔。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "就在上周，我打算告白的时候，你把我的情书折成纸飞机，飞进了厕所！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "害得想把信捞出来的我…我，被女同学误会了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "听好了，开拓者，本少爷现在正式向你发起决斗挑战！今天放学后，我会在学校天台等你，你敢不敢来？！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "一言为定，你可别逃跑。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "你俩，现在给我滚开！老子要下课了！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与三月七交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "最讨厌「校园卫生日」了！不仅要打扫卫生，还要帮火花校长找东西，一点儿也不好玩。\n说起来，要找什么东西来着？",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "学校…学生？这一切到底怎么回事？"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（悲伤的学生&无聊的学生）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "悲伤的学生",
+          "text": "啊，好可惜，丹恒同学还是走了……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无聊的学生",
+          "text": "话说利索了，是转学走了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "悲伤的学生",
+          "text": "我还没来得及向他告白呢……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "无聊的学生",
+          "text": "听说他就是收了太多告白信不胜其扰转学走的。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（好奇的学生&八卦的学生）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "好奇的学生",
+          "text": "看到了吗，开拓者和他的宿敌又吵起来了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "八卦的学生",
+          "text": "估计是为了棒球社的事情吧？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "好奇的学生",
+          "text": "谁知道呢，也许是情感上的宿敌也说不定…听说斯科特这小子最近心有所属了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "八卦的学生",
+          "text": "我知道！你说的是隔壁班的拉克什米！"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者同学，你今天怎么怪怪的？是临近毕业，压力太大了吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "火花怎么成校长了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "她一直是我们的校长啊？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "我们…真的是这里的学生吗？",
+                  "content": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我们…真的是这里的学生吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你这问题可把我问住了…我这个年龄，你这个岁数，不是这里的学生还能是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，你该不会是学业压力太大…失忆了吧？你可不能垮掉啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "也好，咱们班的合影刚洗出来，就用它来帮你回忆回忆。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你看，这就是咱们班的合照，有没有想起些什么？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "照片上这个粉毛又是谁啊？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那不是我吗！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我是说另一个！那个粉毛、长耳朵的女孩！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那是…谁来着？是我们班的同学吗？不会是偷偷混进来的校外闲散人员吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "先不管了，还是先介绍一下大家都认识的…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "喏，这是刚才和你起冲突的斯科特同学，是个仗着家里有钱肆意妄为的家伙。两年前你们在棒球社，同为社团的王牌。不过……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "他因为和你打赌失败而学狗叫，引来路边野狗追赶，最终逃跑时崴了脚没能参加校运会的事情…不知道你还有印象吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "狗叫？有些印象…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "是这么个故事走向吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "喏，校长也在照片上，旁边是班主任瓦尔特老师，也是我们的历史老师。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "杨叔…他好像说他当过老师？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "有这么回事吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "好像…是这么回事？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "随着三月七的介绍，两年来的学生生活，正愈发清晰地浮现在你的脑海中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "咱们一起夜闯档案室，取回落在里面的照相机的晚上，还有…对了，还有你阻止了斯科特欺负低年级同学的英勇事迹——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我俩在这座学校里有那么多美好的回忆，你该不会都忘光光了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "好像…是这么回事。怪不得斯科特这么讨厌我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "对吧对吧！你终于想起来了！还是斯科特同学的狗叫声最能唤起咱们俩的回忆呀。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "毕业在即，这应该是咱们在绘世学院最后的上学时光了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者同学，不知道在这座校园里，你还有什么想做却没有完成的心愿？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "想再认真听一堂课。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "这多简单，看看课程表，等下一节课开始，你可一定要认真听讲喔。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "想痛快揍斯科特一顿。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "不要了吧！快毕业前被学校开除可不是闹着玩的。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "想谈一段浪漫的校园恋爱。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "…怎么突然说起这个？"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "可惜，要是丹恒在就好了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "丹恒……"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "在你们俩共有的朦胧记忆里，曾有一位清冷、英俊、广受欢迎的仙舟转校生和你们共处过一个美好的学年。那一年，你们形影不离。"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "哟吼，可惜他现在已经回仙舟「罗浮」上学啦。"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "…必须找到啵啵娃老师？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "这位老师今天好像请假了哎？校长也一直在找她。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "哎呀，我是问，对于仅剩不多的校园青春生活，你还有什么想做的？你该不会想对老师表白吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "（对啊，找到啵啵娃老师…我是要干嘛来着？）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "总之，虽然在学校的时间有限，但眼下还有机会去做不是吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "许多成年人在踏上社会后才开始追悔莫及，想回到无忧无虑的学生时代。但，时间无法倒回，人生也没有重来的选择。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那句话怎么说的来着？春宵苦短、良辰易逝嘛！所以，把握住瞬息的欢愉，不要让它们溜走！咱们一起度过这最后的青春时刻吧！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "一阵风适时吹过，撩动女孩粉色的发梢，还有你跃跃欲试的心。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "即将逝去的青春，最后的校园生活，近在眼前，所以你决定——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我要找…谁来着？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我到底…要找谁来着？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "青春！校园！我来了！",
+                  "content": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "青春！校园！我来了！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "嗯！和我一起浪费青春吧！再不浪费就来不及啦！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）查看课程表"
+    },
+    {
+      "type": "objective-description",
+      "text": "先看一下课程表吧，虽然未必会去上课。",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "想办的事还挺多，该从哪件做起呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "是去上课？还是去应付斯科特？还是…到处逛逛？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你看了看桌上的课程表。"
+    },
+    {
+      "type": "fold",
+      "title": "课程表",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "周一\n上午\n文学、幻造、数学、历史\n\n下午\n体育、数学\n\n周二\n上午\n数学、绘艺史、物理、幻造伦理学\n\n下午\n历史、绘画与创新\n\n周三\n上午\n数学、幻造、化学、音乐\n\n下午\n地理、安全教育\n\n周四\n上午\n幻造、物理、数学、天文\n\n下午\n绘艺实践、文学\n\n周五\n上午\n幻造、化学、文学\n\n下午\n体育、异常灾害及假面愚者防治"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "下一节课是…历史课？要去上吗？还是去别的教室看看？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）找到？？？，取回…什么来着？"
+    },
+    {
+      "type": "objective-description",
+      "text": "三月说得对，青春时刻再不浪费就来不及了。让绘师资格考试什么的都去死吧，我要享受最后的校园生活！\n想办的事还挺多，该从哪件做起呢？",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往天台，接收斯科特的挑战"
+    },
+    {
+      "type": "objective-description",
+      "text": "斯科特说，要在天台和我决斗。不如先抄小道上去，看看有没有埋伏？",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（储物柜上的眼睛）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "认真的眼睛",
+          "text": "请不要和我搭话，开拓者同学。我的工作是替火花监视你们，不是和你们做朋友。"
+        },
+        {
+          "type": "text",
+          "text": "（这双眼睛冷漠地看着你。看起来，它确实是一双尽忠职守的眼睛。还是离它远点吧。）"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（正在和海龙交谈的瓦尔特·杨）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "海龙",
+          "text": "唉，最近到了毕业季，工作又开始繁忙起来了。你入职年份尚浅，恐怕还不知道吧？每次一到毕业季，就会有很多学生面临毕业。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "…教导主任，您能稍微说点有用的吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "海龙",
+          "text": "哼，你还年轻，才觉得我说这些话没用。等你到了我这个年纪，工作又忙，就能理解我的苦恼了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "海龙",
+          "text": "在做教导主任之前，我也是一条浪漫的海龙啊！我也曾渴望一段甜美的恋爱啊！可做了教导主任以后，整整32年，算不清自己已经独自度过了多少个情人节。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "32个情人节。这不至于算不清。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "海龙",
+          "text": "年轻人不要总是顶嘴！我跟你说的都是人生道理。瓦尔特老师，你要记住，我所相信的你，就是你所相信的你自己再加上我们所有人相信的你。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "…教导主任，我实在有点头疼，能先走了吗？"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（正在和泰科交谈的瓦尔特·杨）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "……"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "瓦尔特老师？",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "你怎么站着不说话？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "泰科老师",
+          "text": "嘘…瓦尔特老师睡着了。他这段时间太累了，还是让他再睡一会儿吧。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "他怎么站着睡着了？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "泰科老师",
+          "text": "所谓「为人师表」，就是要在学生面前确保老师良好的精神面貌。瓦尔特老师恐怕是因为不希望学生看到自己颓唐地打盹，才坚持站着睡觉的吧。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "泰科老师",
+          "text": "唉，我每次给别人解释自己正在研究的「宇宙际几何学」，都会导致对方进入深度睡眠……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "泰科老师",
+          "text": "虽然稍微有点伤心，但既然能让瓦尔特老师这样辛苦的人稍事休息，那就也不算是件坏事了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "…没错，确实是我…乔伊斯，我回家了…你们还好吗……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "泰科老师",
+          "text": "咦？瓦尔特老师好像开始说梦话了。看起来睡得确实很香。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "…使我的视线凝定…于云层漫布的天穹…并投向地球的绿色丘陵……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "泰科老师",
+          "text": "说梦话的时候竟然会背诗…瓦尔特老师真是个浪漫的人啊。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "（瓦尔特老师，可能是有点想家了吧…还是不要打扰他休息了。）"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（正在和乔尔乔交谈的瓦尔特·杨）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "乔尔乔老师",
+          "text": "所以，你是想了解二相乐园的历史？但咱们两个不都是历史老师吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "没错…但我总觉得，自己对二相乐园的历史知之甚少，很担心误人子弟。这才来请教你的。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "乔尔乔老师",
+          "text": "哦哦，那简单，我稍微给你讲一下，你就全都明白了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "乔尔乔老师",
+          "text": "从历史时期划分上来讲，二相乐园主要分为火花时代、火花时代、火花时代和火花时代这四个时代。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "乔尔乔老师",
+          "text": "这段时间我们三年级的教学重点，应该是火花时代的转折点「火花之乱」。也就是火花因为幻造种权利，与火花兵戎相见的事件。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "哦，我明白了。所以当时才会出现「火花骚动」…火花一直采取那种姿态，幻造种们肯定会忍无可忍的。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "乔尔乔老师",
+          "text": "没错。但其实也有些历史学家认为，火花这件事背后有火花煽动，导致火花被火花蛊惑，形成了火花与火花分庭抗礼的局面，最终才彻底变成流血冲突。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "原来如此。火花时代的历史，还真是复杂啊。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "他们这是…在叽里咕噜地说什么呢……"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（火花&瓦尔特）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "火花",
+          "text": "瓦尔特老师，你还好吗？你可是我重点要关心的对象啊。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "我只是回忆起自己曾在{{另一所学校|圣芙蕾雅}}里担任过老师…那段时光简直像梦一样。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "火花",
+          "text": "那就是梦，你现在是这座学院的老师，要牢牢记住唷。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "火花",
+          "text": "对了，我想和你聊聊姬子同学的事……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "火花",
+          "text": "等等，有学生过来了，我们去办公室聊。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（诗兴大发的眼睛）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "诗兴大发的眼睛",
+          "text": "我本来是火花派来监视学生们的，但今天的天气很好，我实在是无心工作。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "诗兴大发的眼睛",
+          "text": "你看，这里的景色多好啊，天高云淡，还有绘世的画作…此情此景，真令我忍不住想要填一首词。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "诗兴大发的眼睛",
+          "text": "举头仰望鸽川涌，涛似层峦浪如峰…唔…唔…最后一句想不出来了，开拓者同学，来帮帮忙！"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "身在此画中。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "诗兴大发的眼睛",
+                  "text": "「举头仰望鸽川涌，涛似层峦浪如峰，身在此画中。」"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "诗兴大发的眼睛",
+                  "text": "妙笔啊！前两句是「观赏者」的视角，最后一句，却将视角转化成了「画中人」…妙啊！也许我们每个人，都曾是别人眼中的风景。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "清风拂惊鸿。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "诗兴大发的眼睛",
+                  "text": "「举头仰望鸽川涌，涛似层峦浪如峰，清风拂惊鸿。」"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "诗兴大发的眼睛",
+                  "text": "嗯，真是不错…词的角度随着诗人抬头「仰望」，先是层峦般的涛，再是山峰般的浪，最后则是高远的天空，清风吹拂着飞鸟…意境真是辽阔啊！"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "仰望鸽川涌。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "诗兴大发的眼睛",
+                  "text": "「举头仰望鸽川涌，涛似层峦浪如峰，仰望鸽川涌。」"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "诗兴大发的眼睛",
+                  "text": "好！好！好！所谓「看山是山，看山不是山，看山还是山」，这首诗词就体现了此种妙趣！"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "诗兴大发飞眼睛",
+                  "text": "第一句和最后一句，都是「举头仰望鸽川涌」。但见证这幅作品的胸围之后，「仰望」的心境也变得截然不同…一切尽在不言中！"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "text": "想与你相拥。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "诗兴大发的眼睛",
+                  "text": "「举头仰望鸽川涌，涛似层峦浪如峰，想与你相拥。」"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "诗兴大发的眼睛",
+                  "text": "诗人的天赋，不在于能否用些生僻的词语典故，而在于能否活用俚俗之语。这首词便是如此。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "诗兴大发的眼睛",
+                  "text": "在仰望一副伟大的作品之后，诗人并未沉湎于宏大叙事，而是退回私人的场域，呼唤一个温暖的拥抱…妙啊！"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "text": "我是大姐头（女开拓者）/（男开拓者文本待补充）。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "诗兴大发的眼睛",
+                  "text": "「举头仰望鸽川涌，涛似层峦浪如峰，我是大姐头（女开拓者）/（男开拓者文本待补充）。」"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "诗兴大发的眼睛",
+                  "text": "呃……"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "诗兴大发的眼睛",
+                  "text": "…这前两句，看起来确实是诗兴大发，但加上最后一句，怎么感觉就有点像野心大发了？"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "诗兴大发的眼睛",
+          "text": "不管怎么说，感谢你帮我完成了这首诗。今天就让我假装没看到你吧！"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（斯科特&小斯科特）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "小斯科特",
+          "text": "你是，长大后的我？这里是哪里，我又为什么会出现在这里？难道我这是…穿越时空了？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "笨蛋，哪有时间穿越这种事？你是我的「绘艺」作业。我用自己童年的记忆创造出了一个幼年版的我自己。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "小斯科特",
+          "text": "哇！好厉害！我长大以后能做到这么厉害的事情呀？唔…但是，这样一来，世界上不就有两个「斯科特」了吗？这不太符合我们的家训吧？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "别担心，你只能存在一小会儿。你很快就会消失的。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "小斯科特",
+          "text": "哦哦，那就好，这样我就放心了。我可不想成为自己的绊脚石呀~"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "小斯科特",
+          "text": "机会难得，我能问你几个问题吗？长大后的林登·斯科特。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "…你随便问吧。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "小斯科特",
+          "text": "我成为了不起的大人物了吗？手下管着多少人？那些可悲的家伙是不是又憎恨我们，又拿我们没办法？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "…可能要让你失望了，小蠢货。我现在还是个小人物；姑且有几个手下但都不算特别衷心；有很多讨厌我的人，其中好几个都能让我狠狠吃些苦头。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "小斯科特",
+          "text": "唉…这也是没办法的事嘛，竞争是很残酷的。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "但是，小蠢货，只有一件事我很骄傲。从那时到现在，这么多年过去了，我始终践行着斯科特家的特训，从未改变、从未动摇——"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特们",
+          "text": "「我是一匹孤狼，没有朋友、没有敌人、只有猎物！」"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "小斯科特",
+          "text": "哈哈哈，那就好，那我就放心了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "小斯科特",
+          "text": "只要林登·斯科特仍然是一条孤狼，那么总有一天，整个世界都将被他收入囊中。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "哇哈哈哈，那是当然了，还用你说吗？"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（躺在地上的斯科特）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "别打了、别打了，你们再打真要给我打死了！算我输了还不行吗！"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "住手！不许欺负斯科特！",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "在玩啥好玩的？让我也踢一脚~",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "开拓者！你不要趁人之危啊！"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "唐尼",
+          "text": "同学，你误会了，我们并不是在欺负斯科特同学，是他一定要来和我两个打架…这是一场公平的战斗、一次正义的二打一。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹娜",
+          "text": "呃，开拓者同学，这人是你的朋友吗？他一直都这么勇敢吗？要同时和学校最强的两个不良少年开战？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "呜呜呜，我分别用对方的名义，给你们寄了一份约架信，希望你们能在这里自相残杀，我再收取渔翁之利。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "谁曾想…你们两个来了以后就一起殴打我…我平时怎么没看出来你们关系那么好啊？配合还挺默契，还有空中丝滑小连招…你们不是死对头吗！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹娜",
+          "text": "呵，「死对头」的意思是，「最强的不良少年」只能是我们两人中的某一人。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "唐尼",
+          "text": "如果有第三任想要篡位，我们当然会通力合作了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "丹娜",
+          "text": "哼哼，毕竟打败唐尼的人，只能是我。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "可恶啊…可恶啊！我最讨厌这种充满青春酸臭味的友情了！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "看起来斯科特同学不是很需要帮助。还是不要管他了。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（正在向考神祈祷的斯科特）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "尊敬的「考神」，请赐予我智慧，让我通过绘师资格考试。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "考神",
+          "text": "根据历年绘师资格考试的数据，选择题中正确答案是「C」的比例约为25.67%，略高于其他三个答案。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "考神",
+          "text": "如果遇到答不上的选择题，就勇敢地选「C」吧！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "25.67%…那不就刚好四分之一吗！并没有比别的选项好到哪里去吧？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "考神",
+          "text": "斯科特同学，人生就是一场赌局。将人生未来押注在0.67%的胜机之上，那种向死而生的恐惧，才最让人有活着的实感。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "这都什么歪理？我才不要将未来押注在这种的概率上啊！而且你这个数学计算也有问题吧？怎么就变成0.67%的胜机了？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "考神",
+          "text": "不要在意这些细节。重点是，这样的人生赌局，不会让你血脉贲张吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "不会啊！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "考神",
+          "text": "真的不会吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "当然不会了！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "考神",
+          "text": "那你还不赶紧滚回教室去刷题！跑到我这里祈祷有个屁用？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "等我成了大人物，就把这破学校买下来，然后把你搬到我家厕所门口当门神！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "考神",
+          "text": "好小子，有志气！既然志向如此高远，那就赶紧滚回教室刷题吧。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "考神",
+          "text": "不要随随便便把人生大事交给玄学啊！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "斯科特",
+          "text": "哼，你就等着瞧吧！等我成了大人物，有你后悔的时候。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "这雕像大概也真是老江湖了。竟然这么擅长…因材施教。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（疑惑的学生）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "疑惑的学生",
+          "text": "火花？我怎么记得校长不叫这个名字啊？"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（进入档案室所在的走廊）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "是我眼花了吗？怎么还有一个我？"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "斯科特说，要在天台和我决斗。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "不如先抄小道上去，看看有没有埋伏？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "游玩「二次元JUMP」难度Ⅲ"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "可以跳得更高啦！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "狠狠地揍斯科特一顿"
+    },
+    {
+      "type": "objective-description",
+      "text": "斯科特果然在这儿。既然是他先发起决斗挑战的，那么——\n有什么话，跟我的球棒说去吧。",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "我已经解释很多遍了！是有人嫉妒我，嫉妒我对你太阳一般炽热的感情！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "所以他/她故意设计陷害，让我变成了你们女生口中说的那个…「愤海狂徒」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "你一定要相信我，拉克什米！我是无辜的！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（努力与环境融为一体）",
+          "content": [
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "你从未如此感谢自己的头发是灰色的。在钢筋混凝土的森林里，你拥有浑然天成的保护色。你，开拓者，生来便是潜水术的大师。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "（哟哟，斯科特你很行吗？）",
+          "content": [
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "你狂喜，你屏住呼吸，你的八卦之魂在胸中闷烧。你快活得像是一只发现垃圾桶近在咫尺的浣熊。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "（这根本不是拉克什米吧？）若未完成活动任务初花剑客行·祓除则仅有前两个选项",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "这和尾巴大爷描述的那个暗恋斯科特的拉克什米根本不是一个人吧？还是她吃胖了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "等等，尾巴大爷…又是谁？"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "在你朦胧的记忆里，曾有一团清冷、英俊、广受欢迎的仙舟岁阳和你们共处过一个美好的学年。那一年，你们形影不离。"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "哟吼，可惜它现在已经回到仙舟「罗浮」上学啦。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（可算给我赶上好时候了。告白，快点告白啊！）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "喔，拉克什米，别再折磨我了，你倒是说句话呀——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拉克什米（？）",
+      "text": "哼，斯科特同学。有没有一种可能，你口中那个对你「充满嫉妒」的灰毛人类，其实一直想要…占有你呢？毕竟，这种小心思，我们女孩子最懂了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是可忍，孰不可忍。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "必须把谣言掐死在萌芽中。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "现在我要决斗的人有两个。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你一脚踢翻身旁的桶子，从角落里走了出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拉克什米（？）",
+      "text": "吓！又一个躲起来的家伙！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "拉克什米，为什么要说又？…还有你，{{开拓者|死灰毛}}！为什么！每一次！你都能精准无误地毁掉我人生的重要时刻？！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "…是你邀请我来的啊？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "斯科特同学，不是你邀请我来天台…决斗的吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拉克什米（？）",
+      "text": "哈？！斯科特同学，你是故意把这个灰毛人类叫来气我的吗！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "意识到拉克什米出手时，一切都已晚了。斯科特结结实实挨了一耳光，铁的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "开拓者，我要…和你…决斗——！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "究竟是「银河球棒侠」开拓者技高一筹，还是「愤海狂徒」斯科特难逢敌手？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "热血男儿悲愤的咆哮响彻绘世学院的天台，而制霸校园顶点之人，只能有一位！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "不教训你这个白痴，实在难消我心头之恨！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "兄弟姐妹们给我上啊！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入第二波次战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "等等，你怎么不亲自上场啊斯科特？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "这是正义的围殴！你到底懂不懂决斗的法则！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "结束战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "好了，别打了！大哥/大姐，算我求你了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "毁了…我的校园恋情…还有我一手组建的帮派，全都被你毁了！这下子你开心了吧？！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "对不起，我真不知道…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不都是你自找的吗？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "斯科特，期待下一次与你战斗。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯科特",
+      "text": "闭嘴！我要去冷静冷静！你，不许再靠近我！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "又一位宿敌被你击败，学园中再无敌手。登临天台，你只觉人生寂寞如雪，不胜寒意。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "斯科特好像掉落了什么？是装备吗？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "调查斯科特掉落的物品"
+    },
+    {
+      "type": "objective-description",
+      "text": "不是，斯科特怎么还爆装备了？真是狼狈啊。\n看看他掉了什么东西，找机会还给他吧。",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "卡片上的男人神似斯科特…不对，这玩意就是斯科特。毕竟世上没有人的神情能像他这样欠揍。但卡片上的男人，穿的并不是绘世学院的校服。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "在你脑海里，有什么东西悄然碎裂。你想起来了，他穿着一身星际和平公司的制服。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "本不该存在的记忆涌上了脑海。这个名叫斯科特的男人，并不是这里的学生…和你一样。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "必须快点联系三月七。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你叫来了三月七，向她展示了卡片。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这个斯科特…不对！开拓者，我想起来了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你想起什么来了？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我们去校长室找到了杨叔，可是火花突然出现了！我们原本是来找一个叫啵啵娃的老师的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "可是，我们来见啵啵娃老师，是要做什么的呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "是啊…我们到底来这儿做什么的呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "还记得吗？火花一直让学生们在学校里翻箱倒柜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "同学们！今天是「校园卫生日」，请帮助火花校长找到「那件东西」~♥像是档案室之类的地方，都给我翻上一翻哟。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "也许咱们可以去她说的「档案室」看看！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往档案室，寻找啵啵娃老师"
+    },
+    {
+      "type": "objective-description",
+      "text": "我想起来了！我不是这里的学生，我来绘世学院找啵啵娃老师的。\n火花曾提到「档案室」，也许可以在那找到线索。",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "档案室里，学生们正热火朝天地翻箱倒柜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翻箱倒柜的学生",
+      "text": "啊，是校长派你们来这儿的吗？真是的，只让我们在这儿辛苦，太不像话了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "老师让你们找什么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "翻箱倒柜的学生",
+              "text": "怎么回事，上课不认真就算了，连老师的吩咐都不好好听？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "翻箱倒柜的学生",
+              "text": "有没有见过一张带着微笑的面具？老师要我们找到它。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "面…面具？我好像记起来了，我们就是为了找到面具来到这儿。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "翻箱倒柜的学生",
+              "text": "巧了不是？我也为这个来的，还不快去干活？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我们被派去找啵啵娃老师了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你知道啵啵娃老师是哪一位吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翻箱倒柜的学生",
+      "text": "该怎么形容呢…她是那种，非常特别的女性！你要是见过她，绝对忘不了她的样子！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你说的这啵啵娃老师到底有多美啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翻箱倒柜的学生",
+      "text": "哈？啵啵娃老师和美完全搭不上边吧？要是你们手头有什么合影啊，教职工活动照片之类的，我倒是可以给你们指指看她在哪。我说你们，到底来不来帮我干活啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "三月，你之前是不是给我看过一张合影来着？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我这儿有一张我们班的合影。可这上面只有两位老师啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翻箱倒柜的学生",
+      "text": "什么嘛，这上面不是有三个老师吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翻箱倒柜的学生",
+      "text": "啵啵娃老师，不就在这吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "等等，这是啵啵娃老师？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翻箱倒柜的学生",
+      "text": "她是个魔偶，应该是整座学校教职年龄最大的老师了。什么呀，到头来你们从没上过她负责的幻造艺术课，对吧？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我、我终于想起来了…姬子姐嘱托我们必须找到啵啵娃老师，从她手中拿回面具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "可恶，完全被火花这个坏东西骗的团团转呀！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "浪费了两年时间！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "两年…？等等，这两年的时光也是假货！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "可这念书时的辛苦感觉，也太逼真了吧！这么一想，火花更可恶了啊！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "记忆之力一点没帮上忙啊！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "三月，你的「记忆」力量呢，怎么那么容易就被牵着鼻子走了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "一定…一定是本姑娘太上进好学的缘故，才会这么容易堕入幻觉。等等，开拓者，你不也没察觉吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "「上了两年学」只是个错觉，咱们最多应该只是被困住了两小时。现在行动起来还不算太迟。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "既然知道了啵啵娃老师的模样，那么，也该是本姑娘发挥大作用的时候了——"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "三月的认真形态！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你打算怎么做？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "啵啵娃老师消失不见，不是被抓起来了，就是她自己主动躲着火花。接下来，我们把她找出来就好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "让火花瞧瞧，「记忆」真正用法——就是有些费相机和胶卷。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随记忆的水母，揭开啵啵娃的被褥"
+    },
+    {
+      "type": "objective-description",
+      "text": "「记忆」的大手发力了，三月七可以用相机拍摄到啵啵娃老师的记忆。藉此找到啵啵娃老师吧！",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "虽然啵啵娃老师躲了起来，但我们可以拍下她残留的记忆。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "跟着这些忆灵的踪迹…"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "很近了…这儿有啵啵娃老师的记忆碎片。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "拍到她了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师的声音",
+      "text": "那个火花…根本不是校长吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师的声音",
+      "text": "她有什么目的？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师的声音",
+      "text": "她在搜索我的下落，我必须躲起来…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师的声音",
+      "text": "封锁幻造教室…不能让她找到！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "找到啦！快走，必须赶在火花之前从她手里得到面具。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "想办法进入被封锁的教室"
+    },
+    {
+      "type": "objective-description",
+      "text": "为了躲避火花，啵啵娃老师将她藏身的教室封锁。\n找找其他入口吧，必须赶在火花之前拿到面具。",
+      "location": "二相乐园-绘世学院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "教室的门…果然锁起来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "找找其他入口吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "游玩「二次元JUMP」难度Ⅰ"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "你…你是绘世学院的学生吗？我明明已经封锁了这间教室…你是怎么找到我的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "啵啵娃老师？别害怕。我受姬子委托前来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "你死心吧。她托付给我的东西，我绝不会交给外人的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "外面那个冒牌校长也在翻箱倒柜找它，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "没错，那个叫火花的假面愚者设局劫持了这座学校…我真是花了好大的力气才找到了你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我是星穹列车的无名客，眼下只有我才能保护你，请你一定要相信我！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "星穹列车…确实，最近在报纸和电视上看到了列车来二相乐园的消息。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "既然你宣称自己是姬子的朋友。那就回答几个关于她的问题——如果答案正确，我就将面具交给你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我早有准备了，你问吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "姬子最擅长泡的咖啡种类…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "等、等等！你怎么会问出这种奇怪的问题？你难道不知道她泡的咖啡根本不能入口吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "啊哈哈哈，看得出来你深受其害了！那么第二个问题，姬子最讨厌什么样的人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "喋喋不休、满嘴花言巧语的人。听说列车上有个无名客就是这么被她赶下车的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "哈哈，虽然她登场列车后的事情我不太清楚…不过这事确实有她上大学时那副大姐大的派头。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "好吧，我基本可以信任你了。那么，最后一个问题：姬子同学在这座学校里经历了她人生中最后悔的事，是哪件事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这谁知道哇？该不会是为了追求时髦，给自己换了个帅气短发的…那件事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "她、她竟然连这段往事也告诉你了吗，看来你们确实是朋友！但，不是这个答案。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…唉？我竟然被那家伙骗了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "倒也不是你答错了。也许姬子同学从没向你谈起过，仔细想想，她确实无法向别人提起这样的事情…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "唉，姬子同学最后悔的，应该是十五年前…不，还是不提及那场旧事了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "我相信你，你确实是姬子的朋友。那么……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "啵啵娃老师",
+          "text": "既然你证明了自己是姬子的朋友，那就交给你吧。"
+        },
+        {
+          "type": "text",
+          "text": ":啵啵娃老师将藏在脸后的面具交了出去……\n忽然，一旁传来了三月七的声音。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "等等！你在我身边…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "那这又是谁啊？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者（？）",
+          "text": "谢谢你啦，啵啵娃老师~"
+        },
+        {
+          "type": "text",
+          "text": ":从啵啵娃老师那儿接来面具的开拓者摇身一变，变回了火花，并带上了面具。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "火花",
+          "text": "面具，归我咯。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "什么！我竟然被这么可笑的小花招骗了啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "我说你们俩，来的实在是太迟啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "对、对不起，啵啵娃老师！可恶，还是被火花抢先一步了！但她是怎么知道那么多关于姬子的事情——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "那个{{眼镜男|瓦尔特}}，对于「自己成为了老师」这件事似乎并没有什么抵触心啊！我只要变成你们的样子和他聊聊，许多事情就了如指掌了，不是吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "哈哈哈，同伴间的彼此信任有时候可是有害的啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "可恶，竟然敢骗杨叔！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你竟敢变成我的样子！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "火花",
+              "text": "作为网络主播，换个皮套，就像换个外套那样简单。反正大部分人也只在意外表，说的对吧，无名客？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "火花，把面具交出来！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你可惹毛我小三月了！开拓者，反正她逃不掉，干脆一不做二不休，夺下她手里的面具！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "哟吼~恭喜你，发现了盲点~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "不过，在「幻月游戏」进行期间，被佩戴的欢愉假面就像被剪过的电影票根，只属于最先使用它的人…看来，这点小小常识，你们是完全不懂喔？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "什么？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "星穹列车，出局！有资格加入「游戏」的，只有最可爱的火花花！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "接下来，该犒劳犒劳我的粉丝们了…你们两位，会留下来观赏我精心为大家准备的「火花大会」的，对吧~♥"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "火花大会？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "火花",
+              "text": "这将会是一场震撼整个二相乐园的、史无前例的大表演，由火花花为大家献上，全网直播！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "火花",
+              "text": "你们不用知道节目单啦。因为我会洗掉你们心底最后一点反抗和敌意，让你们变成我的死忠粉~"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "别做梦了！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "火花",
+              "text": "呀，好顽强喔！不愧是{{旧型号|花火}}所中意的玩具。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "火花",
+              "text": "没关系，我会洗掉你们心底最后一点反抗和敌意，变成我的死忠粉~"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "粉丝们~该准备起来啦，先把这两位闹事的黑粉给抬走吧！我有更重要的工作要做。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "粉丝们~为我怦然心动，为我争斗吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "把你们的欢喜、忧愁、痴迷，统统献给我…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花",
+      "text": "…把「愿力」给我！！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入第二波次战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这些粉丝…不是一般的厉害！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "啵啵娃老师",
+      "text": "糟了，这样下去——哎，你是哪位老师？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "不必担心，我来帮他/她一把。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "黑暗仿佛一幅画布盖住了你，再揭开时，你已不在原地……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这里是…档案室吗？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "传送带来的晕眩和列车跃迁的失重感如此相似，更让你天旋地转的是，你发现三月七并不在身边。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "看来无论出手相助的人是谁，他只能勉强把你一个人送到安全地带。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "广播",
+      "text": "喂喂，我最可爱的粉丝们，找到面具和啵啵娃老师的目标已经圆满达成。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "广播",
+      "text": "可就在刚刚，刚有一位头发灰灰，心眼黑黑的黑粉潜入了学校，想要对火花花做出可怕的事情~！我好怕！大家…不会坐视可爱的火花花被坏人伤害吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "广播",
+      "text": "他/她会躲在学校哪里呢？拜托啦，让我们一起把这个坏家伙揪出来好不好呀？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "门外的声音",
+      "text": "各位，让我们一起把那家伙揪出来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "门外的声音",
+      "text": "——好！！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "门外的声音",
+      "text": "那家伙躲不了多久的。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "用膝盖想也知道，眼下凭你一个人看来是无法打倒火花和她的狂热粉丝了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（向姬子报告）",
+          "content": [
+            {
+              "type": "message-thread",
+              "title": "姬子",
+              "subtitle": "可以不喝水，但不能没有咖啡",
+              "owner": "开拓者",
+              "collapsed": false,
+              "content": [
+                {
+                  "type": "choice",
+                  "presentation": "message",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "救命，姬子！",
+                      "content": []
+                    },
+                    {
+                      "id": 2,
+                      "text": "学校里造反了。",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "姬子姐！有麻烦了！"
+                },
+                {
+                  "type": "message-system",
+                  "text": "【信息发送失败】"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "火花",
+                  "contentType": "text",
+                  "text": "哟吼~我定位到你啦！"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "火花",
+                  "contentType": "text",
+                  "text": "乖乖待着不要动，我这就派我的粉丝们来接你！"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "（四下搜索出口）",
+          "content": [
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "门外，急促、嘈杂的脚步声渐渐涌来。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "门外的声音",
+              "text": "开门啊！你躲起来也没用！我们待会就会把你抓出来！"
+            },
+            {
+              "type": "message-thread",
+              "title": "姬子",
+              "subtitle": "可以不喝水，但不能没有咖啡",
+              "owner": "开拓者",
+              "collapsed": false,
+              "content": [
+                {
+                  "type": "choice",
+                  "presentation": "message",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "救命，姬子！",
+                      "content": []
+                    },
+                    {
+                      "id": 2,
+                      "text": "学校里造反了。",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "姬子姐！有麻烦了！"
+                },
+                {
+                  "type": "message-system",
+                  "text": "【信息发送失败】"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "火花",
+                  "contentType": "text",
+                  "text": "哟吼~我定位到你啦！"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "火花",
+                  "contentType": "text",
+                  "text": "乖乖待着不要动，我这就派我的粉丝们来接你！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "想也知道，蓄谋已久的火花绝对不会留下任何一丝让你逃走的机会。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "门外，急促、嘈杂的脚步声渐渐涌来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "火花的粉丝",
+      "text": "你躲在里面也没用！待会儿就会把你抓出来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "穷途末路了吗？"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（尝试离开）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "外面都是火花的狂热粉丝…眼下还是不要出去为好。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找奇怪声音的来源"
+    },
+    {
+      "type": "objective-description",
+      "text": "档案室墙上的招贴画发出奇怪的声响。这会成为我逃出绘世学院的契机吗？\n不管是谁在那儿，请帮帮我！",
+      "location": "二相乐园-绘世学院、幻月秘庭"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "一幅招贴画，突兀地出现在档案室的黑板上。你发誓自己上一次来这儿的时候，没见过这东西。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（细看招贴画）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "飘飘双耳如扶风弱柳，半阖双眸似秋波欲眠的…"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "…一只粉毛狐狸？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这个粉毛…我曾在哪里见过的？）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "椒丘…？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "对吗？不对不对！…对吗？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "班级合照里那个…？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "想起来了！是班级的合照里那个狐狸女孩？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "你居然还能记得。看来，这确实就像是漫画里常说的那什么…「命运般的邂逅」。你遇到了一点点麻烦，而我将将好出现在这儿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "喂，靠近点好嘛？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "靠近点…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "再靠近一点。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "不要疑神疑鬼…"
+        },
+        {
+          "type": "text",
+          "text": ":有什么东西从画布中爬了出来……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "不会吃了你哒。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "糟糕……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "…我好像卡在里面了。"
+        },
+        {
+          "type": "text",
+          "text": ":原本只在画中的狐狸女孩向开拓者伸出了手。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "拉我一把。"
+        },
+        {
+          "type": "text",
+          "text": ":抓住手的一瞬间，狐狸女孩将开拓者拉入了画中……"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你被传送到了一个奇怪的地方…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这又是什么地方……？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "几小时前，有两位无名客也踏进了这里，问出了同样的问题。我就用那些人的答案来回应你的提问好了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "「这儿是画中世界的某处，被称之为幻月秘庭的地点。按照古籍记载，此地是『幻月游戏』的仪式中枢。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "对了，其中一位无名客正在学校里「假扮」老师呢…哦，我是不是剧透了？这样不好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "你好啊，主角。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "原来我是主角！",
+          "content": [
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "主角？难怪！你总觉得人生充满了不可思议的奇遇。人人对你另眼相看，回回总能死里逃生。你有种说不清道不明的朦胧感受，你对这个宇宙很重要。"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "而这个女孩仅用两个字就精准概括了你，「主角」。毫无疑问，她是个天才！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "你好啊，狐狸小姐。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "主角？这个称呼有点自恋吧？",
+          "content": [
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "你第一次听到有人用这么夸张的说法称呼你。她有什么目的？你不禁怀疑。"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "你年轻、英俊/美丽、才华横溢，但最重要的是，你还拥有为人谦逊低调的高贵品质。你打算大声告诉这个女孩，你不是什么主角，你是——"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "就叫我无名客吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "虽然严格来说，每个人都是自己人生的主角。但你不一样…你是《苍天航路绒绒号》的主角，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "银河…球棒浣熊？唔？你长得也不像浣熊啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "忘了自我介绍，我叫绯英。请多关照。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与绯英交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "自称「绯英」的少女将我拉入此地，并且还称呼我为「主角」。不得不说，看人真准。\n事到如今，我也只能先信任她了。",
+      "location": "二相乐园-幻月秘庭"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（探索周围）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "这不是…火花的面具吗？"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "这棵神木…好美啊。"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "水中有月亮的倒影…可是这儿也照不见月亮啊？"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "第一位佩戴面具的谒者出现了，很快，「幻月游戏」就要开始了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你到底是谁？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "别害怕，把我当成观众就好，就像是读者看漫画那样的关系。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你怎么知道的？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "一点小小的经验。就像一个人看了许多漫画后，自然而然就会对超能力战斗和校园恋爱无师自通。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你刚才说那个…苍什么号？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "你不会没看过吧？最近在这个世界大火的漫画？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "以星穹列车的冒险故事为原型，讲述可爱的小动物们搭乘火车在银河里旅行的…《苍天航路绒绒号》？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "有人画了星穹列车的漫画？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "是啊，这里可是「二相乐园」，什么故事都可能被改编成漫画的。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "怎么没人通知我们？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我也没提供授权啊？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "可恶，得狠狠敲作者一笔。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "…你这个人好怪啊。明明上一刻还被人追得四处逃窜，一眨眼又能若无其事地谈起这种不着四六的事情。这是眼下该关心的事吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "不过，这份松弛感，很好玩。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "看在你能取悦我片刻的份上，我来给你一点小小的帮助。说罢，想要什么样的？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "帮我做掉火花！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "你这是买凶杀人？不好吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "这个故事可是很健康的。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "帮我离开这座学校。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "你想离开这儿？比赛还没开始，你已经失了先手哦。近在咫尺的参赛资格，还有朋友统统落入了敌人手里。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "就这么狼狈地离开，好吗？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你能帮上什么忙啊？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "绯英",
+              "text": "我不习惯别人用问题来回答我的问题。想想清楚再开口呀。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "看眼神，你似乎很不甘心呢，浣熊先生/小姐。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我有朋友被困在这儿！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我要打败火花！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "我必须加入幻月游戏！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "这份斗志，很有趣。在古老时代的「幻月游戏」里，总会有不知死活的谒者戴上面具，向幻月展现他们的疯狂、奇想与幽默感——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "用计斩杀天外降到地表的魔物，偷取神明的笑声铸成足以拦腰斩断大山的名刀，或者去到画中世界的深处骗回逝者之魂灵……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "像这样有趣的人，已经很久很久没有出现了。也许你有机会成为其中之一？毕竟，你是「主角」嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "我可以借你一点点力量。不过，需要对等的代价——这样才不算违背规则。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "你必须在一个昼夜间击败追逼你至此的敌人。如若不然，你的灵魂将属于她，作她永世的奴仆。这个条件，你接受吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我接受！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不接受也不行吧！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "那么，约定成立。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "天上幻月，地上神木，于此时见证此誓，如天之恒，如月之升，永无破弃。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绯英",
+      "text": "来吧，让我把你变得…更像{{「主角」|「浣熊」}}一点。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "绯英",
+          "text": "…唔。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绯英",
+          "text": "嗯，就这样。"
+        },
+        {
+          "type": "text",
+          "text": ":绯英开始照着开拓者的样子在画板上创作起来……\n只见她在纸上画了一个非常抽象的“浣熊”。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绯英",
+          "text": "变！"
+        },
+        {
+          "type": "text",
+          "text": ":绯英将画板拍在了开拓者脸上，画作瞬间变成了一副浣熊面具。\n开拓者对这突然盖在脸上的面具感到不知所措，\n绯英趁机绕道开拓者身边，一把将开拓者的脸摁到了一旁的水池中"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "呜哇呜哇哇——"
+        },
+        {
+          "type": "text",
+          "text": ":开拓者使劲挣扎几番，终于抬起头时，却发现自己不知何时回到了二维市人来人往的街道上"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "这里是…？"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "小灰毛，你还好吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "火花劫持了一座学校！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "我怎么一点也不意外呢？听起来就像是我做梦时会做，她醒来就会做的事情。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "不过，比起以前「幻月游戏」里发生的某些事情，情况还不算太糟。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "至少你还有几个朋友帮得上忙，对吧？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "火花到底和你什么关系？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "呃…我在这儿偶尔也会给自己找点活儿，网络主播是其中之一。「火花」就是我在网络上直播时所用的ID，我一笔一笔画出了她。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "为了让自己不在的时候，直播工作也能照常进行，我给了这个虚拟形象一丁点力量。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "但谁能想到，从幻月满月后，一切就都变得不对劲了。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "她活过来了？",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "她不再只是个虚拟形象？",
+                  "content": []
+                },
+                {
+                  "id": 3,
+                  "text": "你和火花是一个人吧！",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "花火",
+                      "text": "这家伙不过是个渴望从网络上吸引所有人关注的庸俗画皮罢了。你可别拿她和我相提并论。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "人们向她倾诉心愿和渴望，到头来，这家伙也被这些心思给裹挟了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "唉，创作出的形象一旦被大家的关注赋予了自己的想法，就连我这个作者也奈何不了她了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你怎么会在这儿？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "我一直在关注你们，本想着什么时候能出手帮帮你。不过很可惜，你们不是和公司的人混一块，就是和「异常防御部」的人走一起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "结果，你和三月宝宝一路走进了那所冒着不祥气息的学校，那一刻，我就知道事情不在我的掌控中了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "所以，说说呗，那所学校里发生了什么？"
+    },
+    {
+      "type": "text",
+      "text": "你简单讲了讲绘世学院里的情况。\n你想告诉她，这短短几小时就像一个荒诞的梦，但手边那张奇怪的纸糊面具却证明一切真实不虚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这是能够加入幻月游戏的欢愉假面吗？）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "接下来该怎么办？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "还能怎么办？快联系你那些列车上的伙伴吧。当然咯，文明社会，你也可以试着把电话打给治安局嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "不过，这些事情显然已经超出了他们能力的范围啦。听说在过去，谒者们的行动根本无人能管。哎呀，那可真是个自由自在的好时代啊。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "连治安官也不管？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "哈哈哈，小灰毛，你未免也太天真了吧。你去过那么多的世界，面对天崩地裂、末日降临的危机时，官方又能怎么办啊？不要为难人家啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "「幻月游戏」可是欢愉之主定下的仪式，每一场游戏结束，这世界总会诞生翻天覆地的奇迹：新生的幻造种，不可思议的异象，充满希望的未来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "你听过这样的问题吧：「如果有机会让世界科技进步一百年，却要牺牲一只小猫咪，你愿意吗？」"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我愿意。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "哇哦，很冷酷嘛。恭喜你，你和这个世界选择了一样的回答。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我不愿意。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "哼哼…二相乐园显然选择了「愿意」。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "但现在它威胁到的是人啊？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "自然灾害、交通事故、突发恶疾…这个世界每天光是这些死亡原因的人数就够凑出一座小城的人口了。「幻月游戏」不过是在地图上抹去一座学校，听起来是不是好多了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "我想你一定会问，在兑换未来的仪式上，生命的价值真的可以如此计算吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "花火",
+              "text": "没人知道答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "花火",
+      "text": "好啦，现在不是讨论伦理问题的时候吧？小灰毛，你到底打不打算救你的三月宝宝和杨叔啊？"
+    },
+    {
+      "type": "message-thread",
+      "title": "姬子",
+      "subtitle": "可以不喝水，但不能没咖啡",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "姬子，出事了！",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "学校这边情况不妙！",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "姬子，学校这边出事了！"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "别着急，慢慢说"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "伙伴被困住了",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "面具被夺走了",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "「火花」…是花火失控的虚拟外形"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "不知怎么，这东西有了自我意识，还能跑进现实里"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "这家伙控制了绘世学院，把学生老师们都变成了她的粉丝，还抢走了你让我们带回的面具"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "眼下连三月和杨叔都落在她手里了！"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "幻月游戏…这么疯狂的吗？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "「取悦众生的游戏」和「牵扯甚广的灾害」，就像一枚硬币的两面"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "每一次幻月游戏就是在抛掷「欢愉」留给我们的这枚硬币，没人知道结果如何"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "你先找个地方待着，不要走动，我这就来和你会合"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "时候不早了，真珠小姐，列车这边另有事需要处理……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "无论是同盟，还是「幻月游戏」，如果您有更进一步合作的意愿，我随时敞开大门。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "那么，告辞了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "人类的社交模型，真是复杂。我的推演依旧未能覆盖星穹列车全部的策略树。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "美亚",
+      "text": "大人，玉阙仙舟的爻光将军前来拜访。需要让她等候吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "不，仙舟也将成为重要盟友。必须有足够的接触与模仿，才能理解他们的行动策略。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "结论：今天剩下的时间，应该无法临摹作画了。请爻光将军进来吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "鄙人是遍智格物院荣誉院长、十方光映法界之主、仙舟非物质文化遗产雀形拳传人、戎韬将军——爻光。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "感谢您的拨冗接见，真珠女士。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "差一点误判为语言处理进程出错：以为您将整个使团的人带进了房间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "银河中有幽默感的智械可不多。我听说您和{{那位天才|螺丝咕姆}}一样，是由螺丝星的星体差分机所造就的诸多奇迹之一。果然闻名不如见面。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "我观真珠女士「机」人天相，内涵冰清，外彰玉润，忍不住给您算了一卦。卦象涨落于离、乾之间，是大有之相，爻动于六五。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我未曾学习占卦，还请将军为我解读一二。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "啊，换成智械也能听懂的语言，我以仙舟的预测算法推演您的运势，得卦为101111，是个大吉大利的征兆——若以诚信待人，将大有收获。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "帝弓天将的传奇，我闻名已久：景元将军的智谋、飞霄将军的骁勇、怀炎将军的工巧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我偶尔猜想：那些不常现身人前的仙舟将军会是怎样的人物？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "今日与爻光将军相逢，不免觉得：以您的美丽，应该时常抛头露面。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "看来您学习了不少仙舟的语料——甚至晓得如何「激将」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "前面几位被您夸赞各擅胜场，到了我这儿，怎么偏偏只剩下一句「美丽」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "将军万勿多心。在我看来：美丽之物最为珍贵，维持其存在也最为不易。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "何况，关于您的情报实在太少，如何恭维是一道难解之题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "不过，我知道：「玉阙」是众仙舟之智囊，玉阙的将军是卜者之尊。仅以决断局势而论——「是否加入反毁灭同盟」一事，没人比您更适合投出仙舟联盟的一票。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "那么，对于这一议题，您意下如何？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "这议题如此宏大，我又怎能轻言决断？不过，我想先送一条重要的情报给你，以作互通有无的见面礼……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "也借此有请公司，亮明口头空谈以外的诚意。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我不太明白您的逻辑：「毁灭」的威胁临近，合作似乎无需更多的理由。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "树立一位大敌为目标，说服过去的对手成为盟友，再借机蚕食——公司的丰功伟绩里，这类例子不算少。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我理解：仙舟质疑公司的诚意。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "不如说我们想请公司展示诚意——礼尚往来，我先送上的这条情报非同小可，耽误不得。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "提问：眼下还有什么事情比结成「反毁灭同盟」更重要？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "纳努克不会在这几天里毁掉整个宇宙，但有个家伙倒有可能在这几天里毁掉这「二相乐园」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "您听说过「星核猎手」的成员，刃，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "公司一直重金悬赏，但我未曾见过。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "就在最近，玉阙截获了一条情报。这个男人以所谓「仙舟第一杀手」的名义接下了当地帮派「共愿帮」的雇佣。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "他来这儿要做什么，我不得而知。但此人是仙舟重犯，十恶大逆，本领高强，等闲难有敌手。我作为玉阙将军，会一手担负起将之捉拿归案的义务，以免他在此生出事端。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "哈托彼亚这颗星球也是泛银河贸易体系的一员，刃是公司通缉的重犯。既然他踏入这里，就在当地的法治管辖中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "爻光将军，您想要的诚意，是希望由我们捉拿此人，移交仙舟？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "我听闻「幻月游戏」开启在即，举世翘首期盼，您恐怕也难以从中抽身。如果这个灾星能悄无声息地「自行离去」，岂不是皆大欢喜？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我的理解：您想要在「二相乐园」之上行事自由的权利。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "在一同对抗「毁灭」之前，还有什么比这次合作更能展示我们彼此诚意的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "成交。我不怀疑：帝弓天将的实力。但，我怀疑：「仙舟第一杀手」真的会悄无声息地「离去」吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "按照我的推演，即便不考虑「命运的奴隶」对他们的指引，单论逮捕星核猎手个体，其成功率也不足9.8%。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "连一成都不到吗？身为卜者的我，却不是这么看待概率的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "哪怕成事机会仅有「半成」，在我以身入局时，我总会把它看作「十成十」。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "正在切换至【忘归人】视角…\n在开拓者一行人与火花周旋时，停云正不得不去鸽川区执行一件危险的任务……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "这还用问？当然是「十成十」啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "换言之，能活下来的人…一个也没有。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "凡是认得我这张脸的，哪怕是躲到天涯海角，小女子也绝不放过。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "受贵帮{{龙头|老大}}所雇，本想破例——但我看，各位是不想领情呐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "凶恶的西装噗噜",
+      "text": "不是信不过，但道上的规矩你懂。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "凶恶的西装噗噜",
+      "text": "雇人办事，总得先验验成色。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "都说十王易见，小鬼难缠。但若是小鬼不识抬举，主子怕也自身难保。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "堂堂「共愿帮」，既有胆量请动「仙舟第一杀手」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "想来，也做好了「毁灭」的准备吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "（多年奔走空皮骨，方知人间行路难……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "（「冒充仙舟第一杀手」…爻老板，你倒是给小女子挑了件「好差事」啊。）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "不久前……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "此番行动，停云姑娘还请务必注意安全。要是有个三长两短，我实在不好向你家驭空司舵交代。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "爻老板多虑了。在向驭空大人言明心志、动身启行「玉阙」时，停云便已做好了最坏的准备。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "只是…容小女子多问一句：这趟「三长两短」的行动，非得是我么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "我今日算过一卦，这活儿命里缺火，少了鸣火商团接渡使的八面玲珑，可没法成事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "你要去的地方盘踞着不少帮派分子，若是路遇挑衅，不妨抬出「仙舟第一杀手」的名头，也许能让他们自动退避。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "将军不必担心，多年来我随商团走南闯北，也没少踏进过危险的地方。区区帮派，倒也不算难打交道。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "既然不怕危险，怎么迟迟不动身？要不要我为你占上一卦，喂你吃颗定心丸？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "小女子怕的正是您「占上一卦」。不，应该说，小女子怕的是爻老板您啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "怕我？我在罗浮仙舟就这么声名狼藉吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "我听过不少您的逸话——打从方壶一战后您自愿交出了符节，甘当无兵无卒的「文职将军」。他们还说……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "戎韬将军为了谋得半成胜机，坐视{{自己的恩师|玉阙太卜}}赴死成仁，将青丘军万千军士的性命当作卜算中无谓消耗的数字，甚至还「算死」了一位{{帝弓天将|月御}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "你是担心我这个「冷血卜者」，将你「算死」在这二相乐园？你可真敢说啊，小狐狸！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "不过是对将军的一点小小好奇心，还请将军解我心中疑惑一二。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "哈哈哈，我确实没看错人。面对仙舟将军，少有人能做到这般不卑不亢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "也难怪你能说出这番豪言——「天上煌煌众神以人为弈，博戏群星，留下一地冤魂孤冢、白骨累累…您可曾想过，要让祂们付出代价？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "他们都说你从绝灭大君魔爪下死里逃生，是靠福缘深厚；要我说，靠的是你这份难以摧折的韧性才对。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "爻老板谬赞了。总得收获些道理，才对得起自己经历的这番生死劫数呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "倘若只在冷血无情上胜过众神，在小女子看来，反倒是一败涂地呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "…不错，甚合我心！停云姑娘——你通过面试了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "打从死里逃生后，我便下定决心，不为无情无心的棋手所驱遣。爻老板，您也通过了小女子的面试。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "我知道你对虚的不感兴趣，那就来谈些实际的吧。停云姑娘，我们玉阙的使团因公出行时，待遇可比罗浮好多了！一日五餐——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "将军，小女子实在没那么大的胃口。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "随使团行动期间津贴六倍，花费一律报销。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "报酬这么优厚？实不相瞒，这倒更让我惶恐了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "前往鸽川区，找到名为「共愿帮」的帮派接头人，用您提供给我的暗号接头，不得暴露真名。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "若是没有其他隐情，这事值得六倍厚报？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "你是值得这个报酬的人才。说起来，我们卜者和你们行商这行并无差别。纵然遇上山穷水尽的局面，也要勉力讨价还价，凿开一线机会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "行商争的是得利的机会，而卜者争的是一线天机。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "停云",
+      "text": "看来，我这趟行动在爻老板占卜的命数中颇为重要。那么，我就出发了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "遇事不决时，你可以打开我交给你的三枚锦囊，其中书写着我占卜得来的应对方略，一定能解开困局，对你的行动大有裨益。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "爻光",
+      "text": "去吧，「仙舟第一杀手」。"
+    }
+  ],
+  "warnings": []
+}

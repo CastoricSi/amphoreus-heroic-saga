@@ -1,0 +1,1005 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "金缕荡污浊",
+    "pageId": 15828,
+    "revisionId": 77759,
+    "parentRevisionId": 72093,
+    "revisionTimestamp": "2026-02-12T18:39:21Z",
+    "fetchedAt": "2026-09-28T00:17:38.167Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E9%87%91%E7%BC%95%E8%8D%A1%E6%B1%A1%E6%B5%8A",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E9%87%91%E7%BC%95%E8%8D%A1%E6%B1%A1%E6%B5%8A&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "金缕荡污浊",
+    "region": "翁法罗斯",
+    "type": "开拓任务",
+    "version": "3.0",
+    "number": "07",
+    "series": "落木逐火英雄纪",
+    "description": "得知奥赫玛可能遭到尼卡多利渗透，阿格莱雅亲自巡查，金线交织之下污浊无处遁形。只是元老院对她的态度并不友好，恐怕奥赫玛和平的表象下亦有暗潮涌动。",
+    "requirements": "完成任务悬锋啊，请涤去你的血锈·上",
+    "requiredLevel": "21",
+    "characters": [
+      "阿格莱雅",
+      "缇宝"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "星琼",
+        "amount": "50"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "5"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "5"
+      },
+      {
+        "item": "仙馔秘酿",
+        "amount": "80"
+      },
+      {
+        "item": "《游叙草木》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "50000"
+      }
+    ],
+    "previousMissions": [
+      "悬锋啊，请涤去你的血锈·上"
+    ],
+    "nextMissions": [
+      "悬锋啊，请涤去你的血锈·下"
+    ],
+    "objectives": [
+      "从衣匠处获取收集到的情报",
+      "前往云石市集，寻找并清除三处异常",
+      "返回生命花园，将情况告诉缇宝她们"
+    ],
+    "synopsis": [
+      "阿格莱雅与元老凯妮斯交谈，后者威胁阿格莱雅不要做出僭越之举，否则将受到元老会议的审判。在缺乏元老院支持的情况下，阿格莱雅自行探查圣城中的「渗透」，并让缇宝为抵御来袭的「天谴之锋」做好准备，以期挫败尼卡多利的阴谋。",
+      "阿格莱雅与她布设的衣匠交流，衣匠将若虫收集到的情报交给阿格莱雅。阿格莱雅前往调查圣城中的异常现象。",
+      "阿格莱雅在异象处遇到一名卫士，命令其保持缄默，以避免引起公民恐慌。阿格莱雅用金线将「纷争」眷属从异象中揪出，予以清理。",
+      "阿格莱雅在异象处遇到一个无法聆听的女孩，得知女孩的髀石护身符被异象所吞没。阿格莱雅将「纷争」眷属从异象中揪出，予以清理。",
+      "阿格莱雅以金线与女孩交谈，将夺回的护符还给女孩，叮嘱其保护好自己的「弱点」。为表感激，女孩选择将髀石护身符送给阿格莱雅。",
+      "阿格莱雅用金线探测第三处异象，揪出消灭了异象中所藏怪物的「贼灵」巴特鲁斯。阿格莱雅让贼灵转告赛飞儿，劝其履行半神的职责。",
+      "阿格莱雅将意欲逃跑的贼灵捉回，没收了贼灵在奥赫玛窃取的赃物。阿格莱雅在释放贼灵时再次强调，别忘了给赛飞儿递话。",
+      "阿格莱雅察觉到跟踪自己的元老凯妮斯。凯妮斯扬言，阿格莱雅对圣城亲力亲为的管理已难以为继，元老院终会从黄金裔手中收回权力。",
+      "凯妮斯曾是专职刺杀黄金裔的刺客。阿格莱雅与缇宁会面，得知缇安剩余的力量只能再开启两次「百界门」，缇宝在那之后会接过职责。",
+      "阿格莱雅向缇宁询问神谕的启示。缇宁称神谕一如既往地清晰，但对于白厄一行是否胜利却缄口不言。"
+    ],
+    "extra": {
+      "角色": "阿格莱雅",
+      "命路群像": "明媚的昏盲",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "正在切换至【阿格莱雅】视角…\n得知奥赫玛可能遭到「渗透」，阿格莱雅亲自出手，将暗藏城内各处的污秽一一揪出……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与此同时……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "记住，阿格莱雅，无论黄金裔还是元老院，我们的地位都是由奥赫玛的公民赋予的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "在你妄图僭越，做出超越本分的判断前，仔细回想下黄金战争吧，想想那些「英雄」最后的下场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "要是你对那段历史不甚熟悉，就让她再给你上上课吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "请放心，凯妮斯阁下，在神谕的指引下，我们会推翻诸神；而在预言承诺的新世界，将不再有神明凌驾于凡人之上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "呵…我就姑且收下你的承诺吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "当年娇生惯养的女孩，如今也长成了精明的政治动物。该说是可贺？还是可悲？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "时代在剧变，人亦需要适应，我不是唯一一个下定决心改变的人，元老阁下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "我和吾师还有必须处理的要事，恕不远送。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "呵…我衷心希望，下次召开元老议会时，在圆环中央接受审判的不会是你。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "凯妮斯冷笑着离开了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "阿雅…没事吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "不过又是空洞的威慑，和以往并无不同…都是他们内心恐惧的显化。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "真对不起，阿雅…如果*我们*能再成熟些，就不用让你一个人承担所有了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "为何要道歉？你我只是在各司其职。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "但是，看见你一直被他们刁难…*我们*还是会难过，也会气愤……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "你希望我用金线割开他们的喉咙吗？这易如反掌。只需要你的认同，我便能让元老院成为历史。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "你、你在说什么可怕的话啊！别、别这样吓*我们*，阿雅！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "哈哈，开玩笑的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "就知道你在开玩笑…你安慰人的办法也太不同寻常了吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "不过…你说完这句话后，*我们*居然感觉…有些畅快。谢谢你，阿雅。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "因为我们人性尚存，才会想苦中作乐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "那…小白他们提到的「渗透」，你有头绪了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "放心，即便没有他们的情报，我也已探查到城底的暗流。不过是些小小的麻烦，我能亲自解决。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "不用通知圣城守卫吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "那会惊动奥赫玛的公民。假使他们知晓敌人有绕过黄金裔、渗透奥赫玛的手段，局面可能失控。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "那，你需要*我们*帮什么忙吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "不必了，吾师。依照此前的分工来吧，你要为「天谴之锋」做好准备。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宝",
+      "text": "*我们*明白啦…阿雅，你要量力而为呀。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（缇宝）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "缇宝",
+          "text": "阿雅，你要量力而为呀。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "从衣匠处获取收集到的情报"
+    },
+    {
+      "type": "objective-description",
+      "text": "与此同时，奥赫玛城中，阿格莱雅也开始着手处理尼卡多利渗透一事。但奥赫玛的政局似乎并没有我们所预想的那么稳定。",
+      "location": "翁法罗斯-「永恒圣城」奥赫玛"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（若虫已经定位到扰动的源头了…去找衣匠收集情报吧。）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（渗透…这绝非{{尼卡多利|纷争之泰坦}}清醒时会做出的行为。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（究竟是什么让它丢弃了原本的神性？答案藏在迷雾后…希望遐蝶和那位异邦客能找到根源。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "衣匠，将若虫收集到的情报交给我吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（下城…渗透还未殃及浴场，很幸运。风险尚在可控范围之内。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（在悲剧酿成前，要用金线缝补裂口。）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往云石市集，寻找并清除三处异常"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "第一处异常"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "遇见麻烦了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "审慎的卫士",
+      "text": "…是谁？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "审慎的卫士",
+      "text": "阿、阿格莱雅大人！您、您怎么会……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "这些「异常」背后藏着腐败和疯狂。我必须亲手清理它们，以绝后患。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "但我不想因此招致公民的恐慌——我能信任你吗，光荣的卫士？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "审慎的卫士",
+      "text": "我明白了，大人！请您放心，我绝不会透露任何风声。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "谢谢你。不介意的话，就把这里交给我吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "审慎的卫士",
+      "text": "{{刻法勒|负世之泰坦}}祝福您，大人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（那个年轻的卫士能读懂我的言中之意…若非末日临近，他必然前途无量。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（聚焦于眼下的麻烦吧……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "污秽之物，显形吧——"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "千百根坚韧的金线探入污染的空洞，揪出了潜藏其中的恶意之物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "被剥离了荣耀的兵卒，只能如蛆虫般寄生于秽物中——可悲。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "回归泥土吧，眷属。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗并获胜"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（不能留下痕迹，避免他人起疑。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（去找下一只若虫吧。）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "第二处异常"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（假若敌人从这里渗透，可能造成的损害无法估量。尽快处理吧……）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "千百根坚韧的金线探入污染的空洞，揪出了潜藏其中的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "哎、哎哟！谁啊，哪个不长眼睛的——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…巴特鲁斯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "啊…啊！桀桀桀，原来是阿格莱雅大人！赞美「法刻勒」，您的每一寸肌肤都同那天上黎明机器一样光芒万丈啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "你还记不住天父之名吗？是刻法——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…罢了，我想你是故意为之。告诉我，贼灵，你为何要藏身于污秽中？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "呃，当然是…当然是因为我们想为奥赫玛的公民除害啦，桀桀桀！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "您看，原本藏在里面的疯子石头怪，咱可是已经靠着灵巧的手艺给它大卸八块了…桀桀桀！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "嗯…污染的痕迹确实消失了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "我们可不敢骗您啊，阿格莱雅大人~您可是整个奥赫玛最受尊敬的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "省下那些油嘴滑舌吧，贼灵…你知道我能读出你的不安。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "转念一想，既然你已经在我面前现身…那就再回答我一个问题：赛飞儿身在何处？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "呃…您可能对我们这行有点误解？我和那位大人的确是同行，但这也不代表咱们是一伙的呀！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "我俩之间的关系，应该算作「竞争对手」才对——冤家之间可不想狭路相逢呀，桀桀桀！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…罢了。若你下次遇见赛飞儿，替我转告她：身为半神，我们永远不可能逃避职责。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "好的，好的，我们记下了，阿格莱雅大人！那、那么，要是没什么别的事，我就先走一……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "等等…依我的推测，你藏身于污秽中莫不是为了藏匿赃物？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "留下你的非法所得，然后我会放你离开。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "…嘁，这趟可真倒霉！怎么偏偏就遇上了这么麻烦的人物……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "{{扎格列斯|诡计之泰坦}}老祖，请让我抱紧您老的飞毛腿……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "我奉劝你……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "…开溜！！！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "毫无新意的把戏…你真以为能逃出我的罗网吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "桀桀桀！不试试又怎么知道？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "抓回巴特鲁斯"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "还有什么解数？尽管使出来吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "可恶…可恶啊！明明就差一点点！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "拿走吧！把我辛辛苦苦得来的收获全都拿走吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "这次算是栽在你手上了，女人！反正我就算是饿死了，这城里也不会有人愿意给我一个怜悯的眼神！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "真是可怜…但你压根就不需要进食，不是吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「贼灵」巴特鲁斯",
+      "text": "你…你这给一颗黑心镀了金的女人！我不想再看见你了，再见！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "再见，巴特鲁斯——别忘了替我给赛飞儿递话。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（若虫标记出的威胁还剩一处。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（天父{{刻法勒|负世之泰坦}}，指引我…一切都还在掌控之中。）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "第三处异常"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "你好，孩子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的女孩",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…孩子？"
+    },
+    {
+      "type": "text",
+      "text": "身边的女孩依旧无动于衷。\n（啊…原来是个听不见声音的孩子。）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（轻轻触碰女孩的肩膀。）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（用指尖扫过女孩的长发。）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的女孩",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（伸出手臂。）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "阿格莱雅伸出手臂，示意女孩也做出相同的动作。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "金色的丝线轻轻地裹住女孩的手掌…现在她们心灵相通了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（都告诉我吧，孩子。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的女孩",
+      "text": "（我的…我的髀石护身符，掉进可怕的东西里面了……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的女孩",
+      "text": "（很黑，很吓人…我不敢伸手去拿……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（啊…我明白了。别着急，我来帮你。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（你只需要帮我一个小忙…转过身去，在心里默念到三十，好吗？）"
+    },
+    {
+      "type": "text",
+      "text": "你收回了金线，该处理眼前的污秽了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "污秽之物，显形吧——"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "千百根坚韧的金线探入污染的空洞，揪出了潜藏其中的恶意之物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "连孩童的玩物也不放过…贪婪也是你原罪的一部分吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "回归泥土吧，秽物。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗并获胜"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（你丢的是这个吗？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的女孩",
+      "text": "（对，就是它！谢谢你，姐姐……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（…姐姐……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的女孩",
+      "text": "（…你还好吗，姐姐？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（不…没什么。你要记得，以后不可以独自在街上玩耍…即便是在奥赫玛。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（你的…「弱点」，会成为他人恶意的靶标。对芸芸广众而言，作恶总比行善代价更小…这是经验之谈。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的女孩",
+      "text": "（姐姐，你说的话好深奥…我听不太懂。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（…抱歉，看来我已经忘记了该如何与孩童沟通。你们身上的童真，离我有些远了。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的女孩",
+      "text": "（……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的女孩",
+      "text": "（没关系，虽然我听不太懂，但还是谢谢姐姐的提醒！我以后会注意的。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的女孩",
+      "text": "（还有，姐姐你…真的好漂亮！简直就像石版上记录的{{墨涅塔|浪漫之泰坦}}女神一样，金闪闪的！你的眼睛…也像两颗宝石一样，真让人羡慕！）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "沉默的女孩",
+      "text": "（这块髀石护身符，就送给姐姐吧。希望你每天都能有好运气，将来也不要被任何人欺负！）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（…谢谢你，孩子。）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（若虫找到的污秽都已经清理完了。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "（回去见吾师吧。）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "谁在那？赶在金线还未沾染你的血滴之前，现身吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "啧啧，不愧是半神。连我这干了大半辈子「清洗」的刺客也逃不过你的感官啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "凯妮斯阁下，你这是何意？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "呵…不必假装，你早就发现我的眼线了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "你刻意没有戳穿，为的就是让我们放松警惕，认定你的一举一动皆在元老院的规矩之内——对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…要论阴谋心计，{{扎格列斯|诡计之泰坦}}与元老院相比亦捉襟见肘。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "呵呵…承蒙夸赞，黄金裔。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "我们没有别的意思，只是想再提醒你一次——黄金裔对圣城的管理是临时的，这只是非常时期的权力托管。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "神有神的耳目，人也有人的应对。待到所谓的「神谕」破灭之时…奥赫玛的命运会重新被公民握在手中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "回到公民手中…还是回到你的手中，凯妮斯阁下？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "不必如此咄咄逼人。当年的决议投票，可是有接近半数的元老拒绝将圣城交到你们手中，我不过是反对派里不起眼的一员。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "接着走你自己的路吧，半神，用尽你的浑身解数来证明我们是错的…但一刻也别忘记，在翁法罗斯，即便是「神」也不能为所欲为。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "元老凯妮斯",
+      "text": "我也想看看，你这事事皆要亲力亲为的行事风格能坚持多久…呵呵。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "我会尽己所能拯救翁法罗斯，凯妮斯阁下。不论是从诸神手中……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "还是从你们手中。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "返回生命花园，将情况告诉缇宝她们"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…缇宁？看来她已经在为保卫奥赫玛做准备了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "城中的威胁已经排除了，我已将污秽逐一清理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "感谢你，阿雅。那位元老…她又给你添麻烦了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "并无大碍。不必为我担心，吾师。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "你应该知道的，凯妮斯，她在黄金战争时……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…她是专职「清洗」黄金裔的刺客。我明白。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "如我所言，元老院并非我们的敌人…至少现在不是。还是回归迫在眉睫的议题吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "…嗯。我们已经做好了应对{{尼卡多利|纷争之泰坦}}的准备。这并不容易…缇安已经接近极限了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "她还剩下多少力量？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "算上这一次的话…也许还能开启三…不，还能开启两次「百界门」吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…那之后呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "依照先前的约定，缇宝会接过「门匠」的职责。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "看来，我们现在能做的就只有等待了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "嗯。就在这花园静候片刻吧，阿雅。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "请告诉我，吾师……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "在你眼中的世界，预言仍如第一日那般清晰吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "金色的符文在碧空中闪烁，数不清的只言片语在{{刻法勒|负世之泰坦}}身边起舞。神谕一如既往地清晰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "它诉说了白厄一行的胜利吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "它…缄口不言。它仿佛知道答案…却不想在这一时刻同我们分享。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "看来这一次，我们无法从神谕口中得到慰藉了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "如此也好。若他果真是被命运选中的孩子……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "…那预言也不过是他故事的旁白。"
+    }
+  ],
+  "warnings": []
+}

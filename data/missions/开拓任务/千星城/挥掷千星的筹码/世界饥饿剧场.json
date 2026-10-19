@@ -1,0 +1,1332 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "世界饥饿剧场",
+    "pageId": 40900,
+    "revisionId": 102128,
+    "parentRevisionId": 102010,
+    "revisionTimestamp": "2026-09-01T12:20:55Z",
+    "fetchedAt": "2026-09-28T00:20:00.867Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E4%B8%96%E7%95%8C%E9%A5%A5%E9%A5%BF%E5%89%A7%E5%9C%BA",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E4%B8%96%E7%95%8C%E9%A5%A5%E9%A5%BF%E5%89%A7%E5%9C%BA&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "世界饥饿剧场",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.5",
+    "number": "02",
+    "series": "挥掷千星的筹码",
+    "description": "前路未卜，兽口逃生的乘客们仍被困在对远方的迷茫与恐惧中。\n领航员的使命正在于此——当人们呼唤你，你要将众人凝聚于「开拓」的风帆之下。",
+    "requirements": "完成任务为何一切尚未消失？",
+    "requiredLevel": "21",
+    "characters": [
+      "姬子",
+      "丹恒",
+      "三月七",
+      "瓦尔特",
+      "星期日",
+      "虚照",
+      "朽叶",
+      "不死途",
+      "帕姆",
+      "翡翠"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "漫游指南",
+        "amount": "4"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "4"
+      },
+      {
+        "item": "信用点",
+        "amount": "60000"
+      }
+    ],
+    "previousMissions": [
+      "为何一切尚未消失？"
+    ],
+    "nextMissions": [
+      "关于他人的痛苦"
+    ],
+    "objectives": [
+      "与同伴们商讨计划",
+      "（可选）和同伴聊聊",
+      "前往派对车厢，安抚民众",
+      "尝试安抚民众",
+      "坐稳扶好，准备跃迁"
+    ],
+    "synopsis": [
+      "狰狞的兽蜕对星穹列车紧追不舍，巨口几乎要将列车吞没。一只巨大的手将幻月弹入「贪饕」口中，帮助星穹列车脱险。",
+      "列车脱离险境后，归寂的骰提议抛掷它，为旅途带来一些偶然。帕姆不欢迎它，请你把归寂的骰收起来。校准前往千星城的跃迁需要时间，帕姆提议由作为领航员的你前往派对车厢，安抚惊魂未定的乘客们。",
+      "帕姆介绍，我见曾是优秀的领航员，在阿基维利陨落后坚守列车，还带出了法尔肯·阿蒙森这样可靠的后辈。那枚骰子是我见带在身边的奇物，我见喜欢在决定航路时抛个骰子，并由此带来意想不到的好运与霉运。",
+      "通讯受阻，姬子等人一直没有回复消息。你鼓励三月七保持信心，尽快完成任务。三月七与星期日陪同你前去安抚民众。",
+      "前路未卜，派对车厢内气氛沉重。你向乘客们介绍千星城的概况，并表示二相乐园不会被放弃，星穹列车此行会争取对抗「贪饕」的援手。最终你与三月七、星期日平息了恐慌，而列车的跃迁校准也已完成。",
+      "列车跃迁过后，一座巨大的星间巨构出现在舷窗之外。",
+      "列车抵达千星城外围空间。翡翠向星穹列车发来通讯，表示会派出专人迎接诸位，并且请异常防御部的代表与公司接洽安置避难者事宜。"
+    ],
+    "extra": {
+      "相关书籍": ""
+    }
+  },
+  "content": [
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "（星穹列车正在尝试全力冲出贪饕兽蜕的深渊巨口中）"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "（开拓者与三月七扒在车窗前向外望去，两只贪饕兽蜕的触手向星穹列车冲来）"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "（此时，姬子驾驶拓星者赶到太空中，尝试用拓星者打断贪饕兽蜕的触手，却被其绕过，继续冲向列车。丹恒接力，也尝试阻止贪饕兽蜕的触手接近列车）"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "（贪饕兽蜕的触手抓住了星穹列车的末节车厢，丹恒在末节车厢的连接处抗下了贪饕兽蜕触手的攻击，姬子则驾驶拓星者助推列车）"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "（霎时间，列车内部顶灯短路，动荡不安，开拓者突然注意到列车连接处传来嘶嘶声）"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "（丹恒化身荒龙与冒出的更多贪饕触手交战，但仍有贪饕兽蜕的触手冲向了列车车头，截停了列车，试图将列车拉回贪饕兽蜕嘴中）"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "喂喂，怎么能在这儿停下？"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "（一只比幻月还大数倍的黑色大手指尖相扣，瞄准幻月做出弹击的手势）"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "还是让我来帮你们一把吧！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "（黑色大手瞄准幻月，轻轻弹击）"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "（幻月被弹飞向星穹列车的方向）"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "（拓星者使出全力，将星穹列车在被幻月撞击之前推了出去）"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "（幻月撞向了贪饕兽蜕的大嘴，顷刻间爆发出巨大的能量，将哈托比亚的一面撞的满目疮痍）"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与同伴们商讨计划"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "列车广播",
+      "text": "「列车系统自检中，请各位乘客保持冷静，在原地等候帕——」"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "（开拓者扶着头缓缓睁开眼，看到了帕姆）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "你们没事吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我没事。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "列车长！看到你真好！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我还以为自己要交代在这儿了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我…有些晕车。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "能感到晕车就已经很幸运了帕！咱们刚刚只差一点就出不去了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "你们…有没有看到从窗外掠过去一只从天而降的大手？一只巨大的手出现在天空中，把幻月弹了开去？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我没留意，我只看到了丹恒和姬子女士在为我们开路奋战。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "列车长，二相乐园那边…没事吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "放心吧，只要不急着向兽口冲锋——你的朋友们还有时间与兽蜕周旋。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆&三月七",
+      "text": "怎么回事？谁…谁在说话！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "归寂？！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "归寂的…骰？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "（开拓者指着棋盘上归寂的骰）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "开拓者乘客，为什么要把这种东西捡回来？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "归寂说，这算「奖品」。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我也听到了，但我是没想到你真有胆子拿啊。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我也不知道它会说话啊…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那可是绝灭大君的脑袋啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "归寂的脑袋到底是那只手还是这颗骰…难说。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "麻烦已经够多了帕，星穹列车不欢迎它帕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "尊敬的列车长，这话是不是有点无情了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "拜你所赐，列车多少次跟死神擦肩而过帕！信不信我这就找个破壁机把你给粉碎了帕！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "…已经结束了，列车长。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "我只是{{归寂|我见}}留下的骰子：一个无害的玩具，甚至没法自己走路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "我见啊…事情为什么会变成这样？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "世事难料啊，给你们添麻烦了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "为了弥补我给列车造成的麻烦…不如让我，继续履行我见时期的「老本行」如何？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "把我当成一件教具吧。当年轻的开拓者需要磨炼，或是在枯燥的旅途中寻求偶然——就把我高高抛起好了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "我会像过去一样，为你们带来独一无二的「概率试炼」。毕竟，如何在混乱与意外中坚守道路正是无名客最重要的课程之一，不是吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "掷出1，我会生成一条通向反物质军团战争熔炉的星图航路！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "掷出2，在接下来的一小时中，列车内的所有饮品将被替换成高能燃料或翁瓦克食铁兽的胃酸……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "够了，别念了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我先把它收起来。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "找块抹布，把它打包盖住吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "看得出来，「观星者」我见在的时候，无名客们绝不会缺少冒险的机会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "时代变了。开拓者乘客，姬子不在，你可要扛起代行领航员的职责。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我该做什么？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我一定不辱使命。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帕姆",
+              "text": "很好帕！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "校准前往「千星城」的跃迁，还需要一些时间。现在，去派对车厢看看大家吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "那些刚刚逃离的乘客们，心一定还悬在嗓子眼呢。去给他们递杯热饮，说些宽心的话——让他们知道，上了这趟车，一切就安全了帕！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这活就放心交给我们吧，列车长。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "level": 2,
+      "title": "我一定会回来的——"
+    },
+    {
+      "type": "objective-description",
+      "text": "一场前所未有的满员航行，载着二相乐园的避难者和全部求援的希望，加速驶离失魂星域，去往千星城吧!",
+      "location": "星穹列车-观景车厢"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）和同伴聊聊"
+    },
+    {
+      "type": "objective-description",
+      "text": "前路未卜，兽口逃生的乘客们仍被困在对远方的迷茫与恐惧中。领航员的使命正在于此——当人们呼唤你，你要将众人凝聚于「开拓」的风帆之下。",
+      "location": "星穹列车-观景车厢"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与帕姆对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "{{开拓者|代理领航员}}，有什么事吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "所以，我见是个怎样的人？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帕姆",
+              "text": "唉，过去的我见啊…是个会耐心聆听所有人意见，相信旅途本身比终点更重要的领航员。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕姆",
+              "text": "他总能为列车找到通往各个奇怪世界的道路，也总能带咱们惹上最可怕的麻烦帕。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕姆",
+              "text": "阿基维利陨落的时候——那是列车最艰难的日子，星轨黯淡、补给断绝，很多人都离开了。是他留了下来，还带出了法尔肯·阿蒙森那样可靠的后辈。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕姆",
+              "text": "那时候的他，为什么会变成如今这个样子呢……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这颗骰子到底是什么来头？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帕姆",
+              "text": "那是他作为「领航员」之前的时代就带在身边的奇物。他说这枚骰子来自于阿哈的恩赐，能轻松摆弄可能性。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕姆",
+              "text": "我见在决定航路时总喜欢先抛个骰子。而落地的骰子总会给我们带来意想不到的好运和霉运帕！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕姆",
+              "text": "我还记得有一回，它让列车误入帝皇战争时期遗留的反有机尖兵坟场，差点就让全车人一块儿完蛋。还好法尔肯投出了个大数字，那些到处徘徊的幽灵尖兵就全熄火了帕。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕姆",
+              "text": "虽然我见总是说「厄运能磨炼无名客」，大家的血压也总是跟着骰子上上下下的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕姆",
+              "text": "那东西可危险了，开拓者，你一定要谨慎使用啊！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "没事了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "帕姆",
+              "text": "不知不觉，回忆了许多过去的事，帕姆必须去干活了帕！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕姆",
+              "text": "快去派对车厢吧，大家需要你。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与三月七&星期日对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "姬子姐…丹恒…杨叔……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "收到请回复，收到请回复啊…信号怎么还是这么差……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "还没回信吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "没有……群里安安静静的，像坏掉了一样。你说，他们会不会……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我们应该对他们有信心。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "头一回离开姬子姐的看护独自出任务，总觉得心里有些不安。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "三月小姐，有时候，没有消息，便是仍在战斗的消息。他们一定没事的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "知道…可就是忍不住会想嘛。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "得尽快抵达千星城才行。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "唯一该做的，就是完成嘱托。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "现在我们唯一能做的，就是去千星城，越快越好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "只有完成了真珠的嘱托，我们才能尽快赶回来驰援。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "嗯！你们说得对！光在这儿瞎担心可不行！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "走吧！去车厢看看大家，然后，全速前进，冲向千星城！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我和你们一起。在匹诺康尼时，宽解烦恼、安抚人心可是我的本职工作。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往派对车厢，安抚民众"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "三月，星期日，该去派对车厢看看避难者们的情况了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "尝试安抚民众"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "困惑的避难者",
+      "text": "去千星城，我们靠什么生活呀？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "困惑的避难者",
+      "text": "他们会收留我们吗？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "焦虑的避难者",
+      "text": "我们的家…完了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "安慰的避难者",
+      "text": "千星城更安全。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "悲伤的避难者",
+      "text": "我和孩子走散了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "同病相怜的避难者",
+      "text": "我父亲也是，他一把年纪了…"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "茫然的孩子",
+      "text": "爸爸，我们这是去哪？我不想出门玩了，我想回家找妈妈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "强颜欢笑的父亲",
+      "text": "我们很快就能回家的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "小家伙，我们恐怕得去一个更安全的地方，暂时当一回勇敢的探险家。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "茫然的孩子",
+      "text": "探险…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "故事里的英雄，有时候也要先撤退，才能找来打败大怪兽的武器。咱们得坚强一点，对不对？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "茫然的孩子",
+      "text": "…嗯！去探险去！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "有些人闷闷不乐，有些人在掉眼泪。车厢里的气氛好沉重啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "家乡即将被不知名的灾难吞噬，自己要背井离乡前往远在星空另一侧的陌生世界。所有人都惴惴不安，也不知道下一秒会怎么样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我们该怎么办呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "恐惧会互相传染。一人哭泣，十人躁动。让我试试看用调律来抚平这些人内心的情绪吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "（星期日使用了调律）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "…奇怪，我感受不到这些人的情绪了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "欢愉假面赋予我的力量…消失了？是因为我们现在身处于二相乐园之外吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "加油啊，「主角」！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这回，得看我们自己了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "调律也许能替他们挡下一时的恐慌，但没法帮助他们认清现状。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这些人不需要什么遥不可及的承诺，我们只需要给他们一个清晰、安全的「下一步」。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "消除对未来的恐惧",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "犹豫的年轻人",
+      "text": "所以，咱们要去的地方…安全吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我知道，仓促中远离故乡，前往一个陌生世界，这样的行程会让许多人感到害怕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我们要去的并非什么危险的蛮荒之地，「千星城」是星际和平公司的核心世界之一，拥有完善的避难设施和法律保障。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "在那里大家不仅是安全的，同时也会获得临时居所和生活补给。一旦二相乐园的危机消除，公司也会将各位送返家乡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "抗拒的妇人",
+      "text": "真的吗？高高在上的公司老爷们不会把我们当成是外来的老鼠给拒之门外吧！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "真珠女士已经安排好了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "真珠女士已经为各位安排好了一切。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "作为泛银河贸易体的成员，二相乐园遭遇危难时，公司对它的安全责无旁贷。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我会联系战略投资部的人。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "各位，我们面前这位开拓者和战投部的大人物关系可不一般！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "大家应该听过他/她为雅利洛-VI争取权益的故事吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "到时候就靠你去向翡翠刷脸了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "消除对家乡的担忧",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我知道，各位中有些亲人还留在故乡，有些人在为遭难的家园感到悲伤。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "但二相乐园并没有消失！在列车的星图中，它依然还亮着。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "因为在那片土地上，还有许多勇敢的人在战斗：无名客、星核猎手、假面愚者…还有真珠女士。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "悲伤的年轻人",
+      "text": "可是，那些从地底下钻出来的东西，真的…真的有办法对付吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "会赢的！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "各位，星穹列车刚刚击败了一位绝灭大君！此刻留在二相乐园的，也正是开拓者最可靠的同伴。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我相信那些人，就像相信此刻车厢里的各位一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "他们没有放弃这个世界，我们也不能被恐慌和绝望打倒！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "诸位，一旦我们安全抵达千星城，就能让银河间更多强大势力关注到二相乐园的危机事态。这样一来，在这颗星球上所发生的一切也会迎来更多的援手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这就是我们这趟旅程的意义，为那些还在奋战的人把希望的火种带出去！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "低声讨论的人们",
+      "text": "千星城…那地方我听说过…应该安全……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "低声讨论的人们",
+      "text": "开拓者的实力…他/她不会骗我们吧…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "低声讨论的人们",
+      "text": "得把孩子带出去…星穹列车…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，做得好啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "现在，恐慌的潮水已经退去，大家脚下…算是有了块能站稳的礁石。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是咱们三个配合默契。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "你的演说水平，还真让人意外。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我还是蛮能说会道的嘛…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "是哦，那你平时不说话是装酷吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "总之，未来的麻烦，就等到了千星城再应付吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "列车广播",
+      "text": "各位，校准已经完成。列车即将跃迁前往千星城。请就近寻找座位，注意安全。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "啊，列车长那边搞定了。咱们就坐吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "坐稳扶好，准备跃迁"
+    },
+    {
+      "type": "message-thread",
+      "title": "星穹列车一家人",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "@姬子 @丹恒 @瓦尔特 大家还好吗？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "收到请回复，收到请回复！"
+        },
+        {
+          "type": "message-system",
+          "text": "【提示：当前通讯信号微弱，请检查连接状态】"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "@三月七 @开拓者 @星期日 收到，我们都好"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "瓦尔特",
+          "contentType": "text",
+          "text": "我们没事，@丹恒 报个平安。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "别担心我们，刚击退了一波从地底钻出来的触手怪。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "呼"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "说起来，咱一定得赶去千星城吗？没别的意思，就是…对公司有点不放心"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "可不可以去向仙舟或者黑塔女士的空间站求助看看？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "这个问题，我也不是没考虑过。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "从距离上看，仙舟、黑塔空间站都太遥远。事急从权，眼下最有希望的解救方案，依然是去千星城的提案。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "瓦尔特",
+          "contentType": "text",
+          "text": "比起距离，更棘手的是，二相乐园是公司贸易体的一部分。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "瓦尔特",
+          "contentType": "text",
+          "text": "按照星际贸易协定，公司拥有对它的优先处置权，外部势力贸然介入可能会引发更复杂的法律和外交纠纷。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "那还真是…没招了！"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "@开拓者 领航的任务，就要拜托你了。"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "放心吧，我会担起责任的。",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "放心吧，我会担起责任的。"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "姬子",
+                  "contentType": "text",
+                  "text": "我知道，我相信你。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "我…我不知道该做些什么…",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "我…我不知道该做些什么…"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "姬子",
+                  "contentType": "text",
+                  "text": "别担心，我相信你，身为代理领航员，你会有自己的主意的。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "事情危急，我们会支持一切你做出的决定。"
+        },
+        {
+          "type": "message-system",
+          "text": "【提示：当前通讯信号微弱，请检查连接状态】"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "引擎已经预热完毕，随时都能发车帕！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（姬子、丹恒、杨叔…你们一定要坚持住、好好的，你们一定要等我回来啊！）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "无论如何，出发吧！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "（星穹列车跃迁至千星城）"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "所以那个巨大的立方体是……？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "列车广播",
+      "text": "各位乘客请注意，跃迁进程结束，我们已顺利抵达千星城。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "终于，我们到站了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "接下来，应该干嘛来着？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "呜，姬子姐和杨叔平时那套开拓流程明明看起来一二三简单得很。怎么他们一不在，我就手忙脚乱了起来。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "先开作战会议。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "先商定具体的计划。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "按规矩，每一次列车停靠，无名客们应该先聚在一起决定下一步行动的计划。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "通信",
+      "text": "有一条来自千星城的加密通信请求——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "看来，讨论的事得暂时搁置了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翡翠",
+      "text": "星穹列车的朋友们，你们终于来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翡翠",
+      "text": "我断断续续收到了真珠送来的超空间通信，关于二相乐园兽蜕即将脱出的紧急情况，我已知悉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "姬子…还有真珠女士，她们的情况还好吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翡翠",
+      "text": "从时间印戳看，截至你们抵达此处前，她们依然在奋战。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翡翠",
+      "text": "我会立即授予各位登陆许可。欢迎来到千星城，我会派出专人前来迎接诸位。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翡翠",
+      "text": "至于安置避难者的事我有所准备，辛苦异常防御部的代表与之接洽。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "难得一见，翡翠女士脸上没有笑容。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这就是所谓的话越少，事越大吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "唉，我去通知列车长，准备接驳车厢登陆。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我去通知虚照女士、不死途先生和朽叶小姐。安置人群的事，还要拜托他们费心了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "朋友们，接驳车厢随时待命。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "准备好了，咱们就出发吧。"
+    }
+  ],
+  "warnings": []
+}

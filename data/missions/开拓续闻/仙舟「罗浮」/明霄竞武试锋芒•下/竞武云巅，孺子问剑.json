@@ -1,0 +1,1541 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "竞武云巅，孺子问剑",
+    "pageId": 13858,
+    "revisionId": 48451,
+    "parentRevisionId": 44326,
+    "revisionTimestamp": "2024-12-16T12:03:42Z",
+    "fetchedAt": "2026-09-28T00:20:42.845Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%AB%9E%E6%AD%A6%E4%BA%91%E5%B7%85%EF%BC%8C%E5%AD%BA%E5%AD%90%E9%97%AE%E5%89%91",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%AB%9E%E6%AD%A6%E4%BA%91%E5%B7%85%EF%BC%8C%E5%AD%BA%E5%AD%90%E9%97%AE%E5%89%91&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "竞武云巅，孺子问剑",
+    "region": "仙舟「罗浮」",
+    "type": "开拓续闻",
+    "version": "2.5",
+    "number": "05",
+    "series": "明霄竞武试锋芒·下",
+    "description": "「演武仪典」如常召开，作为确保其安全举行的保障，三月七和云璃登上竞锋舰，开始了巡视。",
+    "requirements": "完成任务围三阙一，赤血传檄",
+    "requiredLevel": "21",
+    "characters": [
+      "三月七",
+      "云璃"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "200"
+      },
+      {
+        "item": "星琼",
+        "amount": "30"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "2"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "2"
+      },
+      {
+        "item": "《云间游》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "20000"
+      }
+    ],
+    "previousMissions": [
+      "围三阙一，赤血传檄"
+    ],
+    "nextMissions": [
+      "敛魂血轮，率兽食人"
+    ],
+    "objectives": [
+      "抵达竞锋舰的安检处",
+      "前往选手大厅",
+      "打探选手们的实力",
+      "（可选）继续打探其他选手的实力",
+      "前往竞锋舰上层"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "三月七",
+      "命路群像": "猎野围城",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "正在切换至【三月七】视角…\n受怀炎之命，三月七与云璃登上竞锋舰，如期参与演武仪典…"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "「演武仪典」即将召开，竞锋舰"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "呜哇，竞锋舰上的礼炮声好响啊！这就是「演武仪典」的气氛吗，感觉耳朵都要震聋了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "场面不大，又怎么能吸引别人前来观看呢。三月，你没忘记自己是来做什么的吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我…是来做什么的呢？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我是谁？我在哪？我在这儿做什么？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "看看周围，想起什么来了吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "啊，从天而降砸在泰科铵大球馆的回忆又涌了上来，我们…是来比赛的吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "太好了太好了，你的脑袋终于恢复记忆了，我也放下了高高举起的「老铁」。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我代彦卿师父守擂！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我代表罗浮仙舟，前来打败挑战者！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "就是这股气势…很有精神嘛！三月，你要是能双腿打直了别发抖，那就看起来更有说服力了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我是来确保演武仪典安全的！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "那是爷爷交托给我的任务，至于你，安心守住擂台就好。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "俗话说得好，「有事弟子服其劳」。记住喽，你是以罗浮剑士的身份，代替你那个不肖的彦卿师父前来守擂的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "说起来，要是这一回台上的对手超级厉害，三两下就把我打趴了，那可怎么办呀…毕竟我只算得上剑术初学者。也不知当时哪来的信心，就这么答应了怀炎将军。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "嗨呀，不用担心。你要是趴下了，就让为师来会会你的对手咯。只是这么一来，罗浮仙舟的光彩可就全都归朱明啦，哈哈哈哈哈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "拜托了，云璃师父，我都快要上场了，你就给我点信心吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "三月，想一想你们列车无名客一路旅行经历的大风大浪！你一定见识过比演武对手可怕的多的敌人吧？这么一想是不是轻松多了？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "云璃师父，我还是退赛吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "压力好大，我感觉自己肚子隐隐作痛，要不…我还是退赛吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "你答应了爷爷还想跑？快走！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "要不，还是把彦卿叫回来吧！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "要不要把彦卿师父给叫回来？这当师父的急流勇退…让弟子垫上刀头，这叫哪门子事啊。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "三月，师父退赛，这可是你出人头地的好机会啊。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我看是师父给我一个人头落地的好机会吧！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "哪儿来得这么多抱怨，你答应了爷爷还想跑？快走！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "咱们走吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "这些日子我苦练剑术，也该上场证明一下自己了。咱们走。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "抵达竞锋舰的安检处"
+    },
+    {
+      "type": "objective-description",
+      "text": "受怀炎将军所遣，三月七与云璃登上竞锋舰参与演武仪典。除了要在擂台上争逐胜利，她们还要承担起抵御危机，戍守擂台的职责。只是，初登场的少女剑士难免心怀忐忑……",
+      "location": "仙舟「罗浮」-竞锋舰"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "云璃师父，我感觉我还没有准备充分……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "三月，准备永远是不充分的。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（迷茫的观众&好奇的观众）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "迷茫的观众",
+          "text": "这就是竞锋舰吗？虽然执勤的时候在地面上看还是挺气派的……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "迷茫的观众",
+          "text": "但今天真的登舰了，感觉没有我想象中的…那么大？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "好奇的观众",
+          "text": "哦豁，你想象中的「气派的竞锋舰」是什么样子的呢？那么大？还是那么大？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "迷茫的观众",
+          "text": "我想想…嗯，要是从这里去往观众席，得搭星槎换乘，坐上两个时辰吧！不然不够气派啊！"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "那不就是单纯很大而已吗？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "迷茫的观众",
+                  "text": "大就是好，多就是美！我看这竞锋舰还是不够大，炮台也不够多！"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "好奇的观众",
+                  "text": "以前这艘舰船上的炮台还是蛮多的。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你在想一些不切实际的东西。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "迷茫的观众",
+                  "text": "怎么了嘛，人还得是要有梦想的嘛！要我说啊，竞锋舰就是太小了！"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "其实我也觉得这里有点小。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "三月七",
+                  "text": "远看这竞锋舰很小，登上一看，比想象的还要小。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "迷茫的观众",
+                  "text": "你听听，这是我的同道中人。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "迷茫的观众",
+          "text": "主要是我想象中的竞锋舰是很大的，但是它和我想象的不太一样。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "好奇的观众",
+          "text": "我说你到底走不走啊？"
+        },
+        {
+          "type": "text",
+          "text": "再次对话"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "迷茫的观众",
+          "text": "真的，这竞锋舰不够气派！"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（天舶司职员）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "天舶司职员",
+          "text": "您好，请问有什么我可以帮到您吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "你好，我有些问题需要咨询！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "云璃",
+          "text": "…你还有问题要问吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "天舶司职员",
+          "text": "请问您是受邀参加比赛的选手，还是观赛的观众呢？"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "我是参赛选手！",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "天舶司职员",
+                  "text": "那在此先预祝您宝剑常锋，登擂夺胜。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "我其实是看比赛的观众…",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "云璃",
+                  "text": "喂喂，还没上场就打退堂鼓了吗？你好，我们俩都是演武仪典的参赛选手。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "天舶司职员",
+          "text": "那就请沿着通道继续前进，会到达安检处，那里的工作人员会指引你们前往选手大厅的。"
+        },
+        {
+          "type": "text",
+          "text": "再次对话"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "天舶司职员",
+          "text": "请沿着通道继续前进，会到达安检处，那里的工作人员会指引你们前往选手大厅的。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（战力评级爱好者）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "战力评级爱好者",
+          "text": "看到我鼻子上架着的眼镜了吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "战力评级爱好者",
+          "text": "这是我从湛蓝星那边买来的特产「定分镜」，只要盯着选手瞧，就能给对方的战斗力定个评级。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "朝我这儿看看？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "三月七",
+                  "text": "那你看看我，我的战斗力是多少？"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "战力评级爱好者",
+                  "text": "…5。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "三月七",
+                  "text": "怎么可能，你再给我好好看看嘛！是不是满分也是5？"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "云璃",
+                  "text": "可怜的小三月，被机器的评分玩弄于股掌之间。别看了，快走吧！"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "（快速走开）",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "三月七",
+                  "text": "别别别，别往我这儿看。万一看到个打击人的数字也别说出来哈。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "夕葵",
+      "text": "云璃小姐，三月小姐！两位这边走！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "夕葵",
+      "text": "我已收到驭空大人的知会，特来接应二位。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "夕葵",
+      "text": "说起来，三月小姐要代彦卿骁卫守擂的事已经公示了。我刚才从选手大厅经过的时候，听见选手们正在议论纷纷，其中最多的问题就是——「三月七是谁？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "夕葵",
+      "text": "他们要是问起，三月小姐该如何自我介绍，您准备好了吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "三月七，星穹列车的美少女。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "三月七，一位来自星穹列车的美少女。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "好啊，在别人问你的时候你不妨就这么大声说出来。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "三月七，彦卿的弟子。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我是彦卿骁卫座下弟子…这么一想也算是景元将军的徒孙。如此说来，我来头还挺不小的！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "可恶，竟然把为师的名头抛到了一边…气死我了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "三月七，无敌的三月七！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "三月七，无敌的三月七！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "至少下一次虚张声势的时候，底气一定要足。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "失败者不配问我的名字。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "哼，失败者不配知道本姑娘的名字。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "这是什么反派登场台词吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "夕葵",
+      "text": "哈哈哈哈，看来二位还是挺轻松的，临危受命能有这样的状态可不容易。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "夕葵",
+      "text": "演武仪典这边早就登记过云璃小姐的选手信息了。三月七小姐则是临时入选这场比赛，天舶司已经为你准备好相关的手续了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "夕葵",
+      "text": "两位请先沿着这条路上去，选手大厅就在前方。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "谢谢你，夕葵姐姐。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往选手大厅"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "走，让我们去选手大厅转转。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "看来这就是选手大厅了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "好多人啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "三月，在「演武仪典」开始前，让为师再给你上一课。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "你知道吗，爷爷常对我说，物肖主人形。一个人的武器会反映出他的习惯和性格。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "你见过我挥动我那把{{「老铁」|大剑}}的样子吧？说说看，你观察到什么了？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "云璃师父，力气很大。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "云璃师父的「老铁」看着比人都高，能挥动这样的武器，显然应该有一身怪力吧？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "云璃师父，性格很暴力。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "挥舞这么巨大的武器…云璃师傅比起策略更喜欢压倒性的暴力呢。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "你说的不错。我的战术向来追求「简单有效」，砍就完事了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "云璃师父，审美水平有待提高。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "云璃师傅的剑看起来又粗又重，审美水平有待提高啊。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "我让你猜对手的战术风格，谁让你评价我的「老铁」了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "观察对手使用的武器，判断他们擅长使用什么样的战术，又有哪些短板，这就是争取胜利的捷径。比如重量惊人的巨剑，显然不利久战，所以要选择拖延时间的战术。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你怎么把自己的弱点告诉我了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "这样才算是相对的公平较量嘛，毕竟为师也不想看你输在别人手里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "眼下是个好机会，就趁现在试着学学如何评估你的对手吧，就用这个大厅里的人练练手。知己知彼，才能百战不殆。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "知己知彼…让我看看，现在问问谁好呢？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "打探选手们的实力"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（试图前往擂场）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "云璃",
+          "text": "先别着急去擂场，在这里了解一下你的对手吧。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（兴奋讨论的观众&滔滔不绝的观众）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "兴奋讨论的观众",
+          "text": "听说这次演武仪典有一位从朱明仙舟来的剑士将要挑战彦卿骁卫，你觉得这两边打起来谁能赢？能不能理性分析一下？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "滔滔不绝的观众",
+          "text": "那肯定是彦卿骁卫赢啊！他的剑术已臻化境，我有幸见过他在星槎海飞剑擒凶的英姿，三招两式就能……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "云璃",
+          "text": "咳，咳！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "我的天，这不是来自朱明仙舟的选手云璃小姐吗！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "滔滔不绝的观众",
+          "text": "…三招两式就能被朱明的剑士打趴下！"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与曜青选手对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "曜青选手",
+      "text": "可恶，久闻彦卿骁卫的大名，来这儿也就是想见见他，和他切磋一下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "曜青选手",
+      "text": "谁能想到他竟然收了徒弟，还让自己的徒弟代替他守擂。这在我们曜青可是不战而逃的奇耻大辱啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "曜青选手",
+      "text": "这个临时顶替他的三月七究竟是谁啊？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（仔细观察对方的武器）",
+          "content": [
+            {
+              "type": "text",
+              "text": "这位来自曜青的选手除去背后的长剑外，竟还随身携带了一柄电磁手弩。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "（早、早知道能同时使用多种武器，我就带上自己的弓了。）"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "曜青选手",
+              "text": "小姑娘，你好啊。你也是来参加守擂竞锋的吗？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你好，我就是三月七。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "没错，我就是那个三月七。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "曜青选手",
+      "text": "什么？！你就是三月七！！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "放心吧，我只是个练习剑术时长半个月的剑士。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "曜青选手",
+      "text": "三月七，站在你面前的是…习练剑法超过两百年的云骑老战士！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "（扮猪吃老虎，让对方轻敌也算是一种战术吧？）"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（曜青选手）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "曜青选手",
+          "text": "只是个练剑不久的小丫头…为何她也会被选上？"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与记者对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "记者",
+      "text": "…今天穿的这身衣服还真是有些不习惯啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "记者",
+      "text": "对了，你就是代替彦卿骁卫登场的三月七选手！没错吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "没错。您是…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "记者",
+      "text": "如您所见，我是负责现场赛事采访的记者，没错。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "天舶司作为主办方准备的还挺周全，有点意思。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "记者",
+      "text": "是啊，像这样的大场合里，一般少不了咱们这样的人。对了，趁着比赛开始，我能问些自己感兴趣的问题吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "当然可以。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "记者",
+              "text": "太、太好了！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "其实我是来知己知彼的……",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "记者",
+              "text": "知己知彼，其中就包括了解自己对吧？接受采访就能很好了解自己。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "记者",
+      "text": "首先是大家最关心的问题！彦卿骁卫没有出现在今天的「演武仪典」上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "记者",
+      "text": "根据一些不可靠的小道消息，我听说彦卿骁卫现在身负重伤，请问这是真的吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是真的！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "记者",
+              "text": "竟然是这样，请问他是为什么身负重伤呢？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "交通事故。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "记者",
+                      "text": "难道是…星槎的交通事故？真是危险！"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "练习受伤。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "记者",
+                      "text": "剑术练习还真是不容易呢。"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "遭人暗算。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "记者",
+                      "text": "竟、竟然有这种事！这可是大新闻！噗，对不起，虽然不太礼貌，但…该不会是三月小姐干的吧。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "三月七",
+                      "text": "讨厌，真是敏锐的直觉啊。要不然我怎么会站在这儿呢。"
+                    }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "text": "让徒弟出人头地。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "记者",
+                      "text": "等等，师父为了让徒弟出人头地而身受重伤退赛？哦哦，如此爱惜弟子的师父可不多见啊。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "是假的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "记者",
+              "text": "那真实的原因是？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "消极比赛。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "记者",
+                      "text": "没想到备受关注的天才少年也会有消极比赛的情况。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "无可奉告。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "记者",
+                      "text": "怎么会这样？好吧，我也是能理解的。"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "感情问题。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "记者",
+                      "text": "竟、竟然有这种事！这可是大新闻！"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你自己都说是小道消息了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "记者",
+              "text": "噗，对不起，我实在表现得不太专业。看来彦卿骁卫也有自己的任务在身啊。那就让我们期待三月小姐在赛场上一展英姿吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "记者",
+      "text": "演武仪典开始后，三月七小姐将会接受来自不同世界的剑术高手挑战，这其中是否有你比较期待的对手呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "有的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "记者",
+              "text": "请问是哪位选手呢？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "彦卿师父。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "记者",
+                      "text": "哦哦哦！果然还得是万众瞩目的彦卿骁卫！"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "云璃师父。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "记者",
+                      "text": "来自朱明仙舟的天才剑术少女云璃。很期待两位交手的盛况！"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "飞霄将军。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "记者",
+                      "text": "三月七选手无视了在场所有人，扬言要挑战曜青仙舟的「天击将军」。"
+                    }
+                  ]
+                },
+                {
+                  "id": 4,
+                  "text": "素裳。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "记者",
+                      "text": "素、素裳…那是谁？最近好像经常在网上看到过这个名字。"
+                    }
+                  ]
+                },
+                {
+                  "id": 5,
+                  "text": "开拓者。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "记者",
+                      "text": "呃，谁？请问…您说的这位是参赛选手吗？"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "没有。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "记者",
+              "text": "三月七选手真是太狂…呃不，太自信了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "记者",
+      "text": "很感谢你接受采访，谢谢！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与执勤的士兵对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "执勤的士兵",
+      "text": "找我？嗯，你有什么想问的吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（仔细观察对方的…佩剑）",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "执勤的士兵",
+              "text": "嗯…这只是普通的云骑阵刀。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你有什么弱点吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "执勤的士兵",
+              "text": "非要问我的弱点的话…我一开口就会导致冷场，这算是弱点吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "执勤的士兵",
+      "text": "我明白了，三月七小姐、云璃小姐，我不是参赛选手，我是负责赛事安保的卫兵。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那…刚才是有些尴尬哈。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "执勤的士兵",
+              "text": "没事，我也经常不忍心看别人冷场而接话，结果导致尴尬的人变成自己。我已经习惯尴尬了，请不必在意。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "有发现什么状况吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "执勤的士兵",
+              "text": "没什么状况，可以说是风平「狼」静。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "执勤的士兵",
+              "text": "果然又冷场了…你们理解笑点了吗？「浪」和「狼」同音，令人忍俊不禁。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "这个人竟然解释笑话！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "执勤的士兵",
+              "text": "唉，开口就冷场，果然是我的弱点啊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "来客还在陆续增加，请千万小心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "执勤的士兵",
+      "text": "明白！"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（执勤的士兵）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "执勤的士兵",
+          "text": "我不是参赛选手，三月小姐请找别人聊天吧。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "「演武仪典」的第一场赛事，就快开始了。三月你还好吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我？我还好。一看到这么多人聚在一块，不知怎么突然安心了起来。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "选手们全都很可靠。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "看着这些选手，我不知为何突然心不慌了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "好像…没有什么特别的感受？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "你登台交手的时候，维持这样的平常心就好。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我明白云璃师父让我「知己知彼」的用意了，没有刚才那么紧张了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "…怎么说，要去看看擂场了吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我打算继续知己知彼！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "…也行，你去问吧。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "想去看看赛场的样子！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "云璃",
+              "text": "我就知道，走吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）继续打探其他选手的实力"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与谛听对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "谛听",
+      "text": "汪汪，汪汪汪汪？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "欸…连谛听也要问？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（尝试翻译一下谛听说了什么）",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "谛听",
+              "text": "汪汪汪汪汪汪汪。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "嗯嗯，「我不是参赛选手哦」，我明白啦。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "汪汪，汪汪汪汪汪？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "谛听",
+              "text": "汪汪。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "看起来是问完了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "你就别再继续知己知彼了，走吧，我想去看看擂场。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与选手大厅的长椅对话"
+    },
+    {
+      "type": "text",
+      "text": "或许是长时间和开拓者相处，让三月七产生了「可以问问长椅」的冲动。\n但是三月七并不是开拓者，三月七的精神状况也没有…那么糟糕。\n嗯…有什么想问的，可以抓紧问，不然「三月七的理智」就要回来了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "现场有厉害的选手来过吗？",
+          "content": [
+            {
+              "type": "text",
+              "text": "长椅沉默不语，长椅见过太多厉害的人，其中就包括曾经的罗浮剑首。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "（云璃师父正在看着，冷静！）",
+          "content": [
+            {
+              "type": "text",
+              "text": "三月七努力收起和长椅聊天的冲动，冲云璃点了点头。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "长椅看着三月七的背影，流下了一滴汗。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "你就别再继续知己知彼了，走吧，我想去看看擂场。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往竞锋舰上层"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "从这边走能够看到演武仪典的正式会场。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哇哦——！这就是从观众席望过去的感觉……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "你看那边，那边就是我们要登上的擂台。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "云璃师父，我、我怎么好像又紧张起来了！我真的能做到吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "已经来不及让你紧张了，时间就要到了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "什么时间就要到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "一想到怀炎将军交代的使命，我的心就一直扑扑直跳，云璃师父，怎么办啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "你的心要是不跳了那才麻烦。好好感受一下气氛，做好准备吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "我得暂时离开，去舰上各处好好检查检查，这也是爷爷交代的使命呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "唉，也不知道彦卿师父那边怎么样了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云璃",
+      "text": "你给我专心一点。"
+    }
+  ],
+  "warnings": []
+}

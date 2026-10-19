@@ -1,0 +1,1309 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "绥园聚首•其一",
+    "pageId": 8289,
+    "revisionId": 34348,
+    "parentRevisionId": 25977,
+    "revisionTimestamp": "2024-03-17T10:53:03Z",
+    "fetchedAt": "2026-09-28T00:20:11.650Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%BB%A5%E5%9B%AD%E8%81%9A%E9%A6%96%E2%80%A2%E5%85%B6%E4%B8%80",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%BB%A5%E5%9B%AD%E8%81%9A%E9%A6%96%E2%80%A2%E5%85%B6%E4%B8%80&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "绥园聚首·其一",
+    "region": "仙舟「罗浮」",
+    "type": "开拓续闻",
+    "version": "1.5",
+    "number": "02",
+    "series": "狐斋志异",
+    "description": "自绥园一夜惊魂冒险后，你都不想再提起那地方。但该来的总会来，上一次的冒险始于你误信小桂子一通短信，而这一次也一样。",
+    "requirements": "完成开拓续闻「游园惊梦」",
+    "requiredLevel": "34",
+    "characters": [
+      "寒鸦",
+      "藿藿",
+      "素裳",
+      "桂乃芬"
+    ],
+    "relatedItems": [],
+    "rewards": [],
+    "previousMissions": [
+      "游园惊梦"
+    ],
+    "nextMissions": [
+      "双生"
+    ],
+    "objectives": [
+      "在绥园与桂乃芬见面",
+      "与藿藿交谈，了解十王司委托的任务"
+    ],
+    "synopsis": [],
+    "extra": {
+      "时间": "",
+      "相关活动": "「狐斋志异」",
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "任务接取短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "桂乃芬",
+      "subtitle": "不惹事不怕事、不咬打火机",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "家人，有空吗？跑绥园一趟可以不？",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "你身体还好吗？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "又跑去绥园干什么？对了，你身体没问题吗？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "桂乃芬",
+                  "contentType": "text",
+                  "text": "谢谢家人担心啦！像我这样风里来雨里去讨生活的人，身子骨壮得很…",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "桂乃芬",
+                  "contentType": "text",
+                  "text": "丹鼎司的医士给我做了检查，除去受了些惊吓和擦伤，一点事也没有！",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你是本人吗？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "桂乃芬现在不是应该在医馆吗？小小岁阳，休想再让我上当！"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "桂乃芬",
+                  "contentType": "text",
+                  "text": "人与人之间还能不能有点基本的信任啦",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "桂乃芬",
+                  "contentType": "text",
+                  "text": "丹鼎司的医士给我做了检查，除去受了些惊吓和擦伤，一点事也没有！",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "又去绥园？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "上回去绥园惹出来的麻烦还不嫌大吗？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "桂乃芬",
+                  "contentType": "text",
+                  "text": "对不住，对不住，上一回是我惹出来的麻烦",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "桂乃芬",
+                  "contentType": "text",
+                  "text": "不过这一回的事，确实少了家人不行啊",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "这回是来自寒鸦小姐发出邀请，召集咱们几个有关人士碰碰头",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "桂乃芬",
+          "contentType": "text",
+          "text": "好啦，快点来绥园吧，打字太麻烦了，咱们当面再细聊",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在绥园与桂乃芬见面"
+    },
+    {
+      "type": "objective-description",
+      "text": "自绥园一夜惊魂冒险后，你都不想再提起那地方。但该来的总会来，上一次的冒险始于你误信小桂子一通短信，而这一次也一样。",
+      "location": "仙舟「罗浮」-绥园"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "家人，你终于来了！要是缺了你，咱们这支「捉鬼小队」可就缺了一个强大战力！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "论战斗，我也是很靠谱的啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "嘿嘿，是啊，裳裳你醒着的时候最靠谱了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "小桂子，你要是再讽刺我…我、我就再也不配合你表演胸口碎大石了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这捉鬼小队是怎么回事？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "记录在案正确的名称应当是「十王司下辖岁阳逃逸事件特别处理行动小组」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "这是由十王颁旨所成立的队伍名目。想邀请前不久绥园灾异事件后安然无恙的几位，以各位最擅长的方式寻找并镇伏岁阳。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "十王颁旨？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "寒鸦",
+              "text": "嗯，此事是由十王亲自下诏促成。虽然我并没有得到更多理由，但多半也能猜到其中的原因。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "以我们最擅长的方式？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "素裳",
+              "text": "藿藿是判官，我是云骑，十王司有调遣责无旁贷。开拓者嘛，也是为罗浮出过力流过汗的天外友人……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "素裳",
+              "text": "但怎么把小桂子这样的群众也给拉下水了？这多危险！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "…我明白了，你是嫌我帮不上忙，只会给你们添乱是吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "寒鸦",
+              "text": "仙舟上一花一草皆有意义，桂小姐自然有她的过人之处：身为抛头露面的街头艺人，网络上的主播，她非常清楚如何扩展咱们需要的消息来源。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我没问题了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "我已劳烦桂小姐在某个网站上设立了账号，以解决诡事奇闻为由头，为各位行动提供信源。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "裳裳，听见了吗！这回的我岂止是有用，简直是有用。能有机会作为十王司的鹰犬帮上大家的忙，真是太好了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "呃，虽然我没什么文化，但「鹰犬」不是什么好词儿吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "寒鸦",
+      "text": "判官藿藿受命调遣各位，在岁阳相关的专业问题上，请你们务必配合她的指挥。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "我…我明白了，藿藿一定会不辱使命的。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "寒鸦交待完捉鬼小队的事，便离开继续处理绥园事务了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与藿藿交谈，了解十王司委托的任务"
+    },
+    {
+      "type": "objective-description",
+      "text": "来到绥园，一支「捉鬼小队」已然成立，竟是出自十王司的授意。桂乃芬打算借用罗浮仙舟上最大的灵异网站搜集情报，找到逃逸岁阳的踪迹。这会不会是另一场混乱冒险的开始呢？",
+      "location": "仙舟「罗浮」-绥园"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "藿藿大人，咱们开始行动吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "大、大人？你还是叫我藿藿吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好的藿藿大人。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "寒鸦小姐让我来带领大家，我也很意外。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "尾巴消失以后，我本以为自己会被辞退的。但不知为何……总之，我一定尽力而为，不给大家拖后腿！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "全看你的啦，判官。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "其实，我也不知道现在的我能不能帮上各位的忙……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "尾巴消失以后，我本以为自己会被辞退的。但不知为何…寒鸦小姐让我来带领大家，我也很意外。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "藿藿",
+              "text": "总之，我一定尽力而为，不给大家拖后腿！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "言归正传…除了被镇伏在绥园里的浮烟，洪炉破碎后，还有不少岁阳逃逸在外。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "按照十王司对岁阳习性的理解，它们多半会往人居稠密的地带寻找宿主。所到之处一定会有许多不能解释的「灵异事件」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "桂小姐，能否展示一下那个网站？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "桂乃芬打开了网站"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "锵锵！这就是灵异爱好者网站「罗浮杂俎」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "我已经建好一个新账号，用来收集网站上的灵异经历。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "这个账号就是你的个人账号吧…这样真的可以吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "十王司要保持隐秘，但我不用，我受命要狠狠地涨粉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "没错，粉丝数上涨后，我们可以接到更多怪谈调查委托。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "因为我刚注册，粉丝还很少。根据我在其他平台的经验，等到粉丝多起来，就会有很多人来贡献各种灵异事件的消息。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "万一只是谣言怎么办？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "装神弄鬼多半都是人为的。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "其实还挺难的。有的信息一眼假，但有的信息嘛…仅凭网上的只言片语恐怕很难分辨。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "毕竟有些人为了吸引流量，真是什么瞎话都能编得出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "所以还是得亲自上前线确认咯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "嗯，不止咱们几个，十王司的冥差们也会暗行调查。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "吸引关注…小桂子倒是很擅长，她平日里经常用我来表演杂技什么的…但在这灵异爱好者网站上，该怎么涨粉呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "简单，咱们把捉鬼……呃我是说「镇伏岁阳」的过程实录发出去就好了！我们现在可是给十王司当差，谁手上还能有比我们更劲爆的料啊？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这十王司能答应吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "那位寒鸦小姐同意了呀。我和她说，我打算利用捉岁阳涨粉，再利用粉丝捉岁阳，形成一个正向生态循环…她说没问题。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这么做确实高效。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "等等，这样一来岂不是违背了隐秘行事的原则？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "而且岁阳以情绪为食，往往会操纵受害者暴露内心隐藏的一面…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "把受害者的信息发到网上，会不会…造成一些二次伤害？我我我绝对没有批评你的意思…只是提出一些担忧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "我的看法是，「隐秘行事」与「曝光灵异」可不冲突，倒不如说，这是同一件事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "隐去受害人姓名，只留下咱们几个镇伏鬼怪的英姿，拍些激烈战斗的留影，再配个带点刺激性的标题……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "比如什么《阿芬探灵：云骑美少女夜路遇鬼，只用三秒钟她让妖魔后悔》。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "抓捕岁阳的行动被咱们渲染成一个个抓人眼球的娱乐视频。人们也会对类似的事件半信半疑，恐慌情绪一下子就消失了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "没完了是吧，怎么又拐到我这来了！不过，我承认你说的很有道理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "多谢损友支持哈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "当然啦，我知道大家对这个新型捉鬼方式不是很信任…那你们稍等一下啊，我来翻翻情报，咱们几人挑一个试试。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "你们直接过来看吧，这帖子已经有不少回复了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "你们看，没过一会就出现了求助帖！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "求助帖中通常会有岁阳的线索，现在点开看看吧…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "喔喔，原来是这样子，嗯，我现在完全搞懂了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "你们看，完成调查委托后，可以获得粉丝和打赏！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "事不宜迟，现在就接取调查委托吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "让我们开始调查吧！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "「白露大人出逃」？这有什么好奇怪的，龙女大人不是三天两头出逃吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "所以关键问题不是「出逃」啊，你看下文——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "「那位丹鼎司医士正要过去抓住白露大人，白露大人竟然凭空消失，让她扑了个空……」"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "会不会是看错了？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "会不会是造谣？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桂乃芬",
+      "text": "从跟帖上来看，目击者不在少数。也没人听说过龙女大人会什么逃脱魔术吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "确实像是岁阳所为…岁阳本就擅长操弄感官，文献中也常有它们幻化身影，装神弄鬼的记载。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "素裳",
+      "text": "那还等什么呢，咱们赶紧行动起来，找到目击者打听打听？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "在出发之前，确实应该先做好情报上的准备。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "如果能知晓岁阳想做什么，能做什么，对解救被附身的宿主应该会有很大的帮助。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "向当事的目击者打听是个办法，但那些人对岁阳本身一无所知。我、我有个不成熟的想法…咱们手上还扣着另一个情报来源。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你是说…浮烟？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "对喔！那些岁阳在同一个单间里被关了那么久，肯定很了解这些狱友的脾气。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "浮烟怎么会听我们的？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桂乃芬",
+              "text": "我听寒鸦小姐说，这坏东西被阵法困在这儿，正和判官僵着呢。它会配合咱们吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "虽然一想到要去见浮烟…我、我就怕得要死…不过，我猜它一定很想见到我，吃了我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "藿藿",
+      "text": "它被尾巴摆了一道，心里一直耿耿于怀，只要咱们能激起它的好胜心，就能让它按我们的想法来行事。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（素裳）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "素裳",
+          "text": "小桂子这个人很跳脱，但这只是因为她思维活跃…办起正经事来，她还是相当可靠的。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "怎么突然冒出这么一句？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素裳",
+          "text": "哈哈，有点怕你信不过她。总而言之不会有问题的，小桂子在她擅长的领域可是无敌的。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "你们关系真好。",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "你们不是总斗嘴吗？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "素裳",
+                  "text": "那都是我们友谊的增稠剂！"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "桂乃芬",
+                  "text": "是粘合剂好吧！"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素裳",
+          "text": "唉，那天小桂子拉我来绥园，是希望我保护她的，结果我就…被吓晕过去了……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素裳",
+          "text": "因为我不在，之后这家伙又惹出了那么多乱七八糟的事…我没有扛起阻止她乱来的责任。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素裳",
+          "text": "我一定要一雪前耻！这次一定要保护好…嗯，还有看管好小桂子！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素裳",
+          "text": "话说回来，你为什么还要回来淌这趟浑水啊？岁阳可不好对付啊……"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "似乎也没人征求过我的同意…",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "素裳",
+                  "text": "哈哈哈哈，对哦！好像确实没人问过你肯不肯加入这个捉鬼小队，就默认你是小队的一员了。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "素裳",
+                  "text": "要不你再考虑一下？现在后悔还来得及！"
+                },
+                {
+                  "type": "choice",
+                  "presentation": "dialogue",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "来都来了…",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "素裳",
+                  "text": "说得好！来都来了！"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "之前和浮烟有点过节…",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "素裳",
+                  "text": "哦对，你好像也被岁阳附身过来着？那滋味应该不太好受吧？"
+                },
+                {
+                  "type": "choice",
+                  "presentation": "dialogue",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "附身时间太短，不过瘾。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "素裳",
+                          "text": "得了吧你，别嘴硬了。"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "text": "是不太好受。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "素裳",
+                          "text": "哎呀，真是辛苦你了。没事，咱这次一起去给你报仇！让岁阳见识见识得罪错人的下场！"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "text": "我不干净了！！！",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "素裳",
+                          "text": "吓我一跳…没事，咱这次一起去给你报仇！让岁阳见识见识得罪仙舟人民好朋友的下场！"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "这不过是一份工作罢了。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "素裳",
+                  "text": "这台词像是戏里酷劲十足的保镖会说的话。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "素裳",
+                  "text": "我就不能像你说的这么轻松了…毕竟我见到这些家伙腿肚子都会打颤，上一次还晕了过去，哈哈。你…不会笑话我吧。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素裳",
+          "text": "总之，一想到这些妖怪到处乱跑，我还是没法置身事外。尤其是它们之前还把我和小桂子吓得半死，这事可不能就这么算了。"
+        },
+        {
+          "type": "text",
+          "text": "再次对话"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素裳",
+          "text": "我一定要一雪前耻！这次一定要保护好小桂子！"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（藿藿）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "藿藿",
+          "text": "{{开拓者|无名客先生/小姐}}，你觉得这样搜索岁阳可行吗？"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "网络是很强大的。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "藿藿",
+                  "text": "但愿如此吧……"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "感觉不是很靠谱。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "藿藿",
+                  "text": "是啊，感觉不是很靠谱……"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "走一步看一步吧。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "藿藿",
+                  "text": "嗯…眼下也没有更好的方法……"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "藿藿",
+          "text": "不过，我觉得，如果是尾巴，凭它张扬的个性…还真有可能在网上留下些踪迹。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "你想找回尾巴吗？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "藿藿",
+          "text": "嗯…开拓者会不会觉得我在自找苦吃呢？明明过去也不待见那家伙。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "藿藿",
+          "text": "可是它消失以后，我的尾巴…我是指自己真正的尾巴也不见了。镜子里的自己怎么看都变得不习惯了，连干活都没什么力气……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "藿藿",
+          "text": "……说了许多借口，其实我只是很想念它。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "我们会找到它的。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "藿藿",
+                  "text": "谢谢你…如果想要找到它，那现在可能是个好机会了。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "它可能已经不在了。",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "藿藿",
+                  "text": "嗯…可能是跑了，也可能是四分五裂，彻底不再是「尾巴」了…但无论如何，我想知道它的下落。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "藿藿",
+          "text": "不过，眼下咱们的任务可不是找它。当务之急是尽快镇伏那些外逃的岁阳。"
+        },
+        {
+          "type": "text",
+          "text": "再次对话"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "藿藿",
+          "text": "尾巴…唉，当务之急是尽快镇压那些还在作乱的岁阳。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（桂乃芬&藿藿&素裳）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "素裳",
+          "text": "「罗浮杂…」小桂子，这「罗浮杂蛆」是个什么网站啊？怎么叫这么个名字？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "桂乃芬",
+          "text": "…那叫「罗浮杂俎」！行不行啊你。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "藿藿",
+          "text": "「罗浮杂俎」是罗浮仙舟上规模最大的灵异爱好者网站，所有喜欢怪力乱神的罗浮人都知道它。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "藿藿",
+          "text": "网站上一直有人在分享自己的灵异经历，我之前也常去那上面看「见鬼实录」来锻炼胆量……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "藿藿",
+          "text": "我们想借这个网站获取信息，再打着解决灵异事件的幌子暗中调查。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "藿藿",
+          "text": "毕竟冥差大张旗鼓挨家挨户的搜索，不但效率低下，还会引起人们惊慌，激化岁阳对宿主的控制。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "桂乃芬",
+          "text": "因为我刚注册，粉丝还很少。根据我在其他平台的经验，等到粉丝多起来，就会有很多人来贡献各种灵异事件的消息。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "万一只是谣言怎么办？",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "装神弄鬼多半都是人为的。",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "桂乃芬",
+          "text": "其实还挺难的。有的信息一眼假，但有的信息嘛…仅凭网上的只言片语恐怕很难分辨。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "桂乃芬",
+          "text": "毕竟有些人为了吸引流量，真是什么瞎话都能编得出来。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "素裳",
+          "text": "所以还是得亲自上前线确认咯？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "藿藿",
+          "text": "嗯，不止咱们几个，十王司的冥差们也会暗行调查。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（寒鸦）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "寒鸦",
+          "text": "开拓者先生/小姐，见到您一切安好，甚是可喜。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "寒鸦",
+          "text": "绥园灾异一事，我受姐姐命令前去请回援助。在此期间，多亏了您在园中撑持，才令妖祸不致泛滥，小女子须向您致谢。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "寒鸦",
+          "text": "而今这支小队伍，也需要您的帮助。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "雪衣怎么不在？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "姐姐在之前的战斗中，损伤甚重。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "所幸姐姐是以机巧之身还阳行事。若回到棺中，由冥差们维护更新，不至于有损性命。但我依然很担心她。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "血肉之躯会畏惧死伤，想要保全自己，但姐姐不会。她正渐渐脱离自己为人时的常识，将自己视为「工具」，毫不体恤地消耗自己的身体。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "每当看到她战斗，我都深感不忍。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "我们真的能比十王司更专业？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "在其他事情上也许未必，但在岁阳一事上，答案已经很明了了。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "罗浮十王司长久以来专攻镇伏孽物，却对洪炉的危险疏于防范。此次变生腋肘，冥差与金人对岁阳无力拮抗，证明过去的伏魔手段已经不奏效了。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "反倒是许多年前我们无意间救下的女孩，成了击败浮烟的关键。世事真是奇妙。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "此事之后，我们打算与朱明仙舟通信。那座仙舟受帝弓神话的影响，人们与岁阳共生，又能不受其左右。吾等当能从那儿求得抵御岁阳之术。"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "十王司真的在…阴间？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "您真把我们当成与阳世不通音信的幽冥来客么？这份天真可爱得紧。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "就当是吧。与小女子靠得太近，会有损阳气喔。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "十王司所在之地，是绝对的秘密。您为仙舟贡献良多，离这个秘密已然很近了。若想进一步知道，「捉鬼小队」的事情，要劳您多多费心了。"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "text": "藿藿和尾巴…",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "十王司判官的过去原是一律被抹去的，一入幽府，便不牵外缘了。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "不过，你眼下已是这支小队的一员了，若要彼此合作，那么了解自然是少不得的一环。我就和你谈谈自己所知的一些秘辛旧事好了。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "自从「燎原」与将军大战落败后，十王司受命封印分灵碎片。大部分岁阳都被收入造化洪炉，为其贻害而赎罪。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "数十年前，十王司收到请求，有个狐人小姑娘的尾巴被一团无源怪火给吞噬了，于是我等奉命出巡，镇伏妖物。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "待我们赶到，才察觉这团火正是逃逸在外的岁阳。不知为何，「燎原」的分灵碎片中仍有漏网之鱼。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "它的力量本已衰弱之极，却因小姑娘的一念之善而被留存了下来。它渐渐恢复了心智，重又燃起了试图操控人类的念头。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "我本该将岁阳连根祓除，送入洪炉。可惜那时藿藿的身子骨太过衰弱，为了能保住她的生命，我只能书写符敕，将那东西暂时镇伏在她体内。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "寒鸦",
+                  "text": "之后十王司将藿藿招募为冥差学徒，学习驱魔捉鬼的本事，这不仅是为了看护藿藿，也是为了时刻观察她是否有被夺舍的情况。"
+                },
+                {
+                  "type": "choice",
+                  "presentation": "dialogue",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "但是尾巴不太像敌人。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "寒鸦",
+                          "text": "也许这些年与藿藿漫长的相处，让它学会了人类怜惜的情感。虽然尾巴一直没有放弃过挣脱束缚或篡噬寄主，但至少它为了藿藿对抗了同族。"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "text": "尾巴却背叛了同族。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "寒鸦",
+                          "text": "是啊，谁能想到尾巴牺牲自己战胜了浮烟呢？虽说岁阳之间没有同心同德的必然，但他愿意站在藿藿这边，已经说明了很多事情。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "明白，我就是仙舟奇兵队长。",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "寒鸦",
+          "text": "您说笑了。所谓能者多劳，多劳多得，此番盟助，十王司也会重重酬谢。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "寒鸦",
+          "text": "小女子时常也在想，罗浮欠下无名客如许恩情，该拿什么来回报？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "寒鸦",
+          "text": "思来想去，实在没有答案。毕竟这可是十王与将军才能操心的事情。"
+        },
+        {
+          "type": "text",
+          "text": "再次对话"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "寒鸦",
+          "text": "「捉鬼小队」的事情，要劳您多多费心了。若有什么疑问，藿藿可代小女子解答。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "寒鸦",
+          "text": "小女子身为文职，要操劳案牍之事去了。唉唉，做不完，真的做不完啊……"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

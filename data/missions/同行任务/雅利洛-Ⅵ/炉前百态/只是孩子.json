@@ -1,0 +1,1690 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "只是孩子",
+    "pageId": 3271,
+    "revisionId": 34227,
+    "parentRevisionId": 17015,
+    "revisionTimestamp": "2024-03-17T10:40:58Z",
+    "fetchedAt": "2026-09-28T00:21:48.359Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%8F%AA%E6%98%AF%E5%AD%A9%E5%AD%90",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%8F%AA%E6%98%AF%E5%AD%A9%E5%AD%90&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "只是孩子",
+    "region": "雅利洛-Ⅵ",
+    "type": "同行任务",
+    "version": "1.0",
+    "number": "07",
+    "series": "炉前百态",
+    "description": "似乎已经到了与朗道姐弟约定好的时间。根据杰帕德的说法，铁卫这趟下层区之旅没你不行——你觉得这话着实受用。\n既然话都说到这份上了，那就如约前往上层区缆车道与朗道姐弟会合吧。",
+    "requirements": "完成同行任务「时光列车」",
+    "requiredLevel": "26",
+    "characters": [
+      "希露瓦",
+      "杰帕德",
+      "娜塔莎",
+      "奥列格"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "350"
+      },
+      {
+        "item": "星琼",
+        "amount": "60"
+      },
+      {
+        "item": "配方：一次性动力炮",
+        "amount": "1"
+      },
+      {
+        "item": "凝缩以太",
+        "amount": "5"
+      },
+      {
+        "item": "冬城盾",
+        "amount": "200"
+      },
+      {
+        "item": "《严寒行军》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "25000"
+      }
+    ],
+    "previousMissions": [
+      "时光列车"
+    ],
+    "nextMissions": [],
+    "objectives": [
+      "在上层区缆车道与朗道姐弟会和",
+      "前往磐岩镇诊所",
+      "旁听银鬃铁卫与「地火」的会谈",
+      "离开诊所查看状况",
+      "与希露瓦交谈，同她赶往大矿区",
+      "返回磐岩镇诊所，向娜塔莎复命",
+      "与获救的矿民姐弟交谈",
+      "离开诊所，听听希露瓦想说什么",
+      "在永冬岭等待朗道姐弟"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "希露瓦、杰帕德",
+      "相关成就": "与你同行的回忆#泪水流逝"
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "任务接取短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "杰帕德",
+      "subtitle": "值勤回复较慢，请见谅",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "杰帕德",
+          "contentType": "text",
+          "text": "开拓者，我们准备出发"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "杰帕德",
+          "contentType": "text",
+          "text": "稍后在上层区缆车道会合吧"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "好的，我马上到",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "好的，马上到"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "这么突然？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "这么突然？"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "杰帕德",
+          "contentType": "text",
+          "text": "不急，我还得先回军区整队"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "杰帕德",
+          "contentType": "text",
+          "text": "我猜希露瓦大概刚从家里出门。如果你比我们先到，就得麻烦你稍等一会儿了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "杰帕德",
+          "contentType": "text",
+          "text": "总之，晚点见"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在上层区缆车道与朗道姐弟会和"
+    },
+    {
+      "type": "objective-description",
+      "text": "似乎已经到了与朗道姐弟约定好的时间。根据杰帕德的说法，铁卫这趟下层区之旅没你不行——你觉得这话着实受用。\n既然话都说到这份上了，那就如约前往上层区缆车道与朗道姐弟会合吧。",
+      "location": "雅利洛-Ⅵ-行政区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "你来了，开拓者。辛苦你跑这一趟。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不好意思，让你们久等了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "没什么，其实我们也才到不久。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我猜你们也刚到不久…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "你猜得对，我们确实刚到。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我还以为你会带大部队过来呢。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "大部队在后面。如果交涉顺利的话，邓恩会负责带队开进下层区的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "邓恩是个能力很强的士官。他为人刚正不阿，是铁卫的模范。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "——你应该没忘记他吧？他之前在铁卫禁区被你和希露瓦围…制服，昏迷了许久才醒。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "我不是故意的…",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "杰帕德",
+                      "text": "那时你们同他爆发冲突是形势所迫，我能理解。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "杰帕德",
+                      "text": "况且…他没有落下大碍，能看出你们有刻意留手。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "不打不相识嘛！",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "杰帕德",
+                      "text": "那时你们同他爆发冲突是形势所迫，我能理解。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "杰帕德",
+                      "text": "况且…他没有落下大碍，能看出你们有刻意留手。"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "往事不必再提…",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "杰帕德",
+                      "text": "只能说，多亏你们刻意留手，没有让他落下大碍。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "这已经是最好的结果了，你们不必挂心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "我稍后要和「地火」的首领进行交涉，这是今天行程的重中之重。虽然希露瓦那边稍微耽误了一阵，但不影响后续安排。我们出发吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "出发吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "慢着慢着，我可不想被你当成不靠谱的人啊……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "希露瓦？我就知道…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "哎？慢着，我可不想被你当成不靠谱的人啊……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "虽然姐姐平时就没什么时间观念…但今天的情况确实特殊，就不怪她了。那么久没回家看爸妈…能多聊聊也好。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "其实也没聊那么多…你懂的，跟老爸聊天总会让我一肚子火。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "我大概明白。暂时放下你心里的不愉快吧…我们该出发了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "会谈的地点是磐岩镇的「诊所」。我和希露瓦都是初来乍到，得麻烦开拓者你带路了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往磐岩镇诊所"
+    },
+    {
+      "type": "objective-description",
+      "text": "这大约是数年来铁卫首次重返下层区，而下层区已在被封锁的数年中物是人非，对铁卫与大守护者的非议也在街头巷尾中悄然流行。不过，朗道姐弟与你正是为解决这一问题而来。\n你将陪同朗道姐弟与众铁卫前往会谈地点——娜塔莎的诊所。在那里，来自上层区的铁卫与下层区的「地火」将进行首次正式会面。",
+      "location": "雅利洛-Ⅵ-磐岩镇"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们乘坐缆车来到了磐岩镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "下层区的样子…和我记忆中的有所不同。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "感觉…周围人看我们的眼神，不是很友善啊。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们来到诊所前，见到了奥列格…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "唷，瞧这阵仗！这小诊所哪儿见过这大场面啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "又见面了，奥列格先生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "哈哈哈，这么客气干嘛？哦，开拓者还不知道吧？之前守护者继任典礼的时候，我跟这位戍卫官老弟聊了两句，也算互相认识了——但旁边这位姑娘是？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "我是…呃，前技术部的工程师希露瓦，也是杰帕德的亲姐姐。请多关照啦，首领！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "这下可热闹了，不错不错！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "正好开拓者也在，咱等会儿把该聊的聊完，你们几个一起留下来吃顿饭吧——先前一直没能好好招待，我和娜塔莎可惦记着呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "不胜荣幸。但正如您所说，我们还是先将要事谈妥为好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "这外面人来人往的，不大方便。咱们进诊所聊，娜塔莎也在等着呢！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "旁听银鬃铁卫与「地火」的会谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "会谈各方已经就位——虽然这诊所里可供落座的地方少得可怜，但你不妨也找个位子旁听这场「官方」会谈吧。",
+      "location": "雅利洛-Ⅵ-磐岩镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "原来二位是姐弟关系…真是年轻有为。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "不愧是贝洛伯格的戍卫官哪…想必是考虑到下层居民对铁卫会有所非议，这才想凭借开拓者的人望减轻阻力吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "您没说错，布洛妮娅大人始终在担心这件事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "在隔绝年代里，下层区的居民对银鬃铁卫想必是颇有微词。假使我们突然打着大守护者的名义接管下层…过程中一定会遇到不少阻力。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "哈哈哈，分析得真是透彻！我算明白你为什么年纪轻轻就能当上戍卫官了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "所以，容我总结一下：戍卫官先生的意思是，铁卫想要借此机会拉拢「地火」，重新在下层区树立铁卫的正面形象…对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…嗯。倘若不加任何修饰，这正是我们此行的目的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "那么…也请容我提问——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "假如「地火」不愿与抛弃下层十余载的贵军合作…你们又会作如何反应？是要动用武力让我们屈服吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "喂…这火药味儿好像有点浓啊……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "娜塔莎的气场完全不输杰帕德…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "这个女人，是什么来头…？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "开始替你弟弟担心了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "唔…老弟，你可别说错话啊……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "打起来！打起来！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "…你不会就是来看戏的吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "前代大守护者的武断策略导致上下层区产生了隔阂，本该一心同体的贝洛伯格人陷入了相互的猜疑和记恨……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "布洛妮娅大人致力于弥合裂口，重新树立铁卫的威信。但这并不意味着我们要用蛮横的方式「夺回」下层区。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "在我看来，「地火」作为民间组织，能够自发维持下层区十余年的秩序实属不易。诸位为了下层区的安定而倾注的决心，常人恐怕难以想象。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "我向二位保证，铁卫此行绝非为抢功夺权而来。如若无法第一时间取得下层居民的信任，我们愿意从点滴做起，成为「地火」身边的助力，协助维持下层安定。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "我们所做的一切皆是为了重建信任——重建团结、稳定的贝洛伯格城邦。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不愧是戍卫官，滴水不漏。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "难以置信，老弟居然能说出情商这么高的话……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "小杰杰，你成长了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "老弟原来还有这一面…果然我还是不够了解他啊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "…不错的回答。奥列格，你怎么看？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "哈哈哈，我看试探就到此为止吧。答案很明显了，我们的目标是一致的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "重建团结、稳定的贝洛伯格…有这对姐弟帮忙，再加上布洛妮娅姑娘，听上去也不像天方夜谭嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "我明白了。请转告布洛妮娅，「地火」会尽一切努力协调治安工作的交接。但考虑到下层区的复杂状况，还请做好应对各种意外的准——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "诊所外的声音",
+      "text": "…怪、怪物…！裂界、裂界的怪物…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "诊所外的声音",
+      "text": "裂界里的怪物…朝镇子上涌过来了…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "糟了，好像出事了…你留在这儿安心照看病人吧，娜塔莎。外面的乱子就交给我们当兵的处理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "…好，下层区的安全就托付给各位了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "离开诊所查看状况"
+    },
+    {
+      "type": "objective-description",
+      "text": "会谈进展基本顺利，直到诊所外突如其来的躁动打破屋内融洽的氛围。你的数位同伴立即夺门而出了解状况。「真不愧是上下层区的领袖人物，」你心想，「就我一人是来凑热闹的。」\n但牢骚归牢骚，直觉告诉你接下来要处理的问题很可能属于你的专业领域——战斗，然后顺便拯救世界——总之，还是出门查看一下状况吧。",
+      "location": "雅利洛-Ⅵ-磐岩镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（大家全都冲出去了…也去查看一下状况吧。）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "离开诊所后了解现在的情况"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "惊恐的难民",
+      "text": "各、各位…求你们了，救救我的同伴！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "发生什么事了？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "就不能进屋一口气说完？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "惊恐的难民",
+              "text": "对、对不起！我不知道各位在屋里……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "杰帕德",
+              "text": "发生什么事了？别慌张，慢慢说。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "惊恐的难民",
+      "text": "怪物…怪物入侵了矿区！求、求求你们——救救我的同伴！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "惊恐的难民",
+      "text": "要、要不然…他们、他们会被那些畸形的怪胎大卸八块的…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "别惊慌，银鬃铁卫一定会保障下层区居民的安全。你们从哪个方向来？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "惊恐的难民",
+      "text": "大、大矿区！有特、特别大的一片矿脉的那个…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "明白了——毋须担心，我马上安排铁卫前往设防、搜救难民。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "奥列格先生——前往矿区前线搜救的任务就交给银鬃铁卫吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "磐岩镇的防御工事还有劳「地火」进行组织。请保证后方安全，同时接收从前线返回的伤员。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "哈！你这小伙还真有些顶头司令官的派头——收到指示，一定完成任务。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "对了，你手下那些新兵蛋子，对下层区的地形应该完全不熟悉吧？「地火」会抽派弟兄们陪你们上前线的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…感激不尽。奥列格先生，我以「存护」之名向你保证，绝对会尽力挽救每一条生命。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "开拓者，希露瓦——我将带队先行赶往大矿区，你们尽快跟上。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与希露瓦交谈，同她赶往大矿区"
+    },
+    {
+      "type": "objective-description",
+      "text": "听闻大矿区遭到裂界怪物入侵，铁卫与「地火」当即携手结成战线，而杰帕德已率领先锋部队赶往事发地点。\n救人于水火当然是开拓者们的天职——如果你已经准备好了，那么就与希露瓦一道出发吧。",
+      "location": "雅利洛-Ⅵ-磐岩镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "…在那几个人面前，感觉我完全插不上话呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "恪尽职守的军人，还有奋力抗争的民间战士…跟他们比起来，我还真是一点儿也不摇滚啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "突然感觉…我这所谓的内心斗争有些儿戏，哈哈。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "每个人选择的道路都不同。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "…说的也是。我会有这种想法，多半也是因为赋闲太久了吧？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "摇滚就是活出自己。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "「自己」…嗐，我都快忘了自己到底在追求什么样的生活了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "心理健康问题值得关注……",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "…不至于啦。习惯了站在台上的人可没那么容易消沉下去。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "只是…看着其他人在为了生存拼命，而我却在盘算着该怎么逃离这里…多少有些负罪感。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "…啊，不会吧——老弟他不会就是想靠愧疚感劝服我留下吧？！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我觉得杰帕德没那么心机…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "他也预料不到会有入侵事件吧…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "唔，说的也是。不管怎样，既然老弟坚持要带我一起下来，那我总得帮上点忙才行——得好好电电那帮怪物！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "你认识去大矿区的路，对吧？准备好了就去追上杰帕德吧！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们走。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "就等你这句话了——我们走！"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "进入拓境探游寒潮余波"
+            },
+            {
+              "type": "note",
+              "tone": "蓝色",
+              "text": "此役战果将决定铁卫能否在下层区重新求取信任——愿众战士在大守护者的注视下旗开得胜。",
+              "context": "介绍"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "完成任务寒潮余波"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "稍等一下。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "你还需要准备一下吗？那等你准备好了就告诉我，我们一起出发。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "返回磐岩镇诊所，向娜塔莎复命"
+    },
+    {
+      "type": "objective-description",
+      "text": "原来引发此次裂界怪物入侵的罪魁祸首正是可可利亚的旧日幻象——将其击倒后，盘踞在矿山峭壁间的众多怪物一哄而散，正式宣告了此地危机正式解除。\n杰帕德称自己仍需留在矿区善后。那么，向驻守后方的娜塔莎与奥列格报告好消息的任务就交给你与希露瓦了。",
+      "location": "雅利洛-Ⅵ-磐岩镇"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "娜塔莎大夫，我们回来啦…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "原来是这样…前线的战况我了解了。当然，我们这边也没歇着，一直忙着照顾矿区那边送来的伤员呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "总之，这次真的是辛苦你们了。只凭「地火」的力量，想平息这场骚动肯定会十分艰难。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "多亏了杰帕德戍卫官，损失被限制到了最小程度。经此一役，下层区对银鬃铁卫的风评想必会改善不少。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那我呢？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "希露瓦也贡献很大。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "当然，也要谢谢你们的帮助——开拓者，还有希露瓦小姐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "嗐，别这么客气！他们两个才是大功臣。要不是他俩，我恐怕都要交代在矿区里了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "听上去情况很糟啊…你没受伤吧，希露瓦小姐？要不要帮你诊断一下？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "没有没有，别担心！事情已经顺利解决啦。接下来，我们只要等他们回来……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "娜塔莎小姐，我回来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "嗯？是老弟的声音？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "归来的杰帕德向娜塔莎汇报了矿区前线的种种状况……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…总之，奥列格先生已经确认了矿区的灾情。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "他现在正在镇上调度人员和物资，准备进一步的善后工作，所以暂时没办法回到诊所。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "看来骚乱已经圆满解决了…谢谢你们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "我还想和你们再多聊聊，但还有部分伤员没有得到妥善处置，我得继续照顾他们才行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "对了，诊所里有一对姐弟，听说是被你们亲手搭救下来的。你们有空的话，不如去确认下他们的情况吧？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与获救的矿民姐弟交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "胜利的消息在磐岩镇的大街小巷中传扬。现在总算可以松一口气了——不妨同你与朗道姐弟救下的难民们聊聊天吧。",
+      "location": "雅利洛-Ⅵ-磐岩镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "娜塔莎小姐的提议不错。我们去慰问一下那对姐弟吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "获救的姐姐",
+      "text": "乖，喝了药就不疼啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "获救的弟弟",
+      "text": "可、可是…它好像在冒黑烟……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你们两人状况还好吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "获救的姐姐",
+      "text": "…啊，是你们！是在大矿区救了我们俩的——你、你们是上层区的「银鬃铁卫」大人，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "获救的姐姐",
+      "text": "要不是各位出手相助，我们姐弟俩恐怕已经……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "获救的姐姐",
+      "text": "之后我会想办法回报各位的…！我很快就能找到合适的工作，然后就能……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "救人性命不需要回报。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "获救的姐姐",
+              "text": "那、那怎么好意思呢！要是爸妈还在，他们肯定也会想办法报答各位的……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "在生活上需要帮助也可以说。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "获救的姐姐",
+              "text": "没关系！吃穿用度还是没问题的……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "…你们的父母呢？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "获救的弟弟",
+      "text": "爸爸妈妈，很久以前就离开了。他们去了很远的地方，还没回来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "获救的姐姐",
+      "text": "…嗯，他们迟早会回来的，齐诺。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "…所以，你其实一直在独自照看弟弟？真是太辛苦了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "获救的姐姐",
+      "text": "不辛苦，这是身为姐姐的责任。只是现在的日子不太平，我总怕有一天……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "获救的姐姐",
+      "text": "弟弟年纪还小，要他一个人在下层区生活下去…唉，我想都不敢想。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…前任大守护者的决断导致了长达十余年的封锁，也酿成了诸多悲剧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "但在布洛妮娅大人的引领下，银鬃铁卫会重新肩负起未尽的责任，重整秩序。到时候，你就不必再为自己和家人的安全担忧了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "获救的姐姐",
+      "text": "杰帕德大人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "生命的分量太过沉重，况且你还需要肩负起弟弟的那一份…我知道这肯定十分不易。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…齐诺，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "获救的弟弟",
+      "text": "对，铁卫哥哥！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "你现在还小，所以需要姐姐的保护，这很正常。但等你长大以后，一定不要忘记姐姐为你付出的一切…你也要学会用自己的力量保护家人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "你要努力成为姐姐的依靠。感觉无助的时候，你们至少还能对彼此敞开心扉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "获救的弟弟",
+      "text": "我…我明白了！齐诺以后一定会保护好姐姐的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "获救的姐姐",
+      "text": "谢谢你的这些话，杰帕德大人。我和齐诺都会记在心里的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "真是…气氛怎么又变得沉重了啊？要不今天就聊到这里？让姐弟俩好好疗养吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "老弟，还有精神吗？我想跟你聊两句。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "离开诊所，听听希露瓦想说什么"
+    },
+    {
+      "type": "objective-description",
+      "text": "矿民姐弟的际遇似乎使朗道姐弟的内心产生了共鸣。希露瓦似乎有话想说——在诊所门口听听她的想法吧。",
+      "location": "雅利洛-Ⅵ-磐岩镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "杰帕德…刚才的那番话，是你真实的想法吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "当然。而且这绝对不是一时的感悟，而是我一直以来的想法。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "——人不能总是单独面对问题，把挣扎永远藏在心里…要学会依靠他人，至少是亲近的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "真不愧是你啊，老弟……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…嗯？什么意思？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "明明是想直接对我说的话，却还要借着别人拐弯抹角地说出来……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "还好意思说我藏着掖着，明明你自己也一点都不坦率嘛！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "谁叫我们是一家人呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "开拓者，老弟——我改变主意了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "改变什么主意？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "难道说…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "计划有变——我要留在贝洛伯格，不上「星穹列车」啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "姐姐，你…我只是想让你放下心里的负担，没有逼你留下来的意思。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "放心吧，老弟。这是我经过深思熟虑以后才得出的结论。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "应该说，你让我彻底想明白了——我之所以会有离开的想法，更多是出于逃避的心理…那才是不成熟的体现。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "我总是处理不好那些复杂的人际关系…不论是可可利亚，还是家族里的各种事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "遇到类似的问题，我第一时间想到的总是逃避。但这一点，从今天开始就要有所改进了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "毕竟…我不用再一个人应对这些问题了——对吧，老弟？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "没错。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "多亏了你，我也看到了下层区人们的境况。我突然发觉，也许自己还能帮得上忙…也许我还能为这座城市做出些贡献。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "杰帕德，开拓者——我还有最后一件事想拜托你俩。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "尽管说吧，我一定帮忙。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "希望别再折腾我了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "…抱歉抱歉！我保证，这绝对是最后一次！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "我…想去看看星核。我想去看看可可利亚牺牲的地方。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…明白了，就陪你一起去吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "啊，在那之前，我还得先回一趟机械屋拿一件东西。开拓者，要不你就先去北边等我们吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "别怕——有老弟在身边，我们一路绝对安全。回见！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在永冬岭等待朗道姐弟"
+    },
+    {
+      "type": "objective-description",
+      "text": "希露瓦向二位郑重宣布——她决定暂时不登上列车了。\n老实说，你几乎已经猜到她肯定会说这么一句话…但她似乎还在永冬岭留了些悬念——前往星核拘束装置前，看看她到底在卖什么关子吧。",
+      "location": "雅利洛-Ⅵ-永冬岭"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（就在这里等待朗道姐弟吧……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "呼…这地方…可真冷。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "这个大家伙…就是星核拘束装置吗？前人居然掌握了如此复杂的科技，真是壮观……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "可可利亚大人…就是在此处战死的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "…呵。死得其所。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "该说说你想做什么了吧？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我还以为你是来吊唁的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希露瓦",
+              "text": "…大概吧。不过…我来这里的主要目的还是为了自己。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "我来这里，是为了完成一场「告别演出」——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "这历史性的一幕，还想请你们两个共同见证。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "场地不算好，设备也有些简陋…见谅啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "该上台了，姐姐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "看着我，可可利亚！千万别把目光移开……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "因为我啊——"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "希露瓦",
+          "text": "再也！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "希露瓦",
+          "text": "不会！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "希露瓦",
+          "text": "活在！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "希露瓦",
+          "text": "你的！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "希露瓦",
+          "text": "阴影中！！！"
+        },
+        {
+          "type": "narration",
+          "tone": "描述",
+          "text": "希露瓦砸碎了她与可可利亚一起制作的电吉他"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…痛快了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "哈，痛快。唯一的遗憾是看不到那家伙的表情……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "太可惜了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "好啦，该办的都办完了…开拓者，老弟——辛苦你们俩陪我折腾这么久。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希露瓦",
+      "text": "今晚…咱们就去老歌德那儿开个庆功宴吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "杰帕德",
+      "text": "…那必须你买单。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你回头看了一眼星核，转身离开"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "希露瓦已成为列车的访客，回到列车将有机会遇到希露瓦"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "杰帕德已成为列车的访客，回到列车将有机会遇到杰帕德"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（希露瓦）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "最近还好吗？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "希露瓦",
+                  "text": "嗯？怎么突然问这个？"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "希露瓦",
+                  "text": "…啊，你是说之前在永冬岭发生的事吧？"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "希露瓦",
+                  "text": "狠话也放了，吉他也砸了…我要是再不从阴影里走出来，那可就太不摇滚了——你说是吧？"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "希露瓦",
+                  "text": "家庭也好，友情也好…面对挫折，以前的我只知道逃避，从没考虑过该怎么从根本上解决问题。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "希露瓦",
+                  "text": "但现在不一样了——多亏了你和老弟的支持，我终于下定决心改变自己了。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "希露瓦",
+                  "text": "对于贝洛伯格这座城市来说，我掌握的知识还能派上不少用场。我要用自己的能力去多帮助周围的人，把逃离这里的念头暂且放一放。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "希露瓦",
+                  "text": "不过话说回来，我对于旅行的兴趣也不是装出来的——希望等到时机成熟的那天，我能和你们一起踏上「开拓」之旅！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（杰帕德）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "希露瓦最近有什么动向吗？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "杰帕德",
+                  "text": "还是老样子——整日守着她的机械屋，有订单时做工，没订单时就拉着佩拉和玲可一起排练。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "杰帕德",
+                  "text": "不过，自从去过永冬岭之后…我好像再没看过她脸上阴郁的表情了。想必她已经解开了自己的心结吧。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "杰帕德",
+                  "text": "这都多亏了你的帮助，开拓者。我在这里代姐姐向你表示感谢。"
+                },
+                {
+                  "type": "choice",
+                  "presentation": "dialogue",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "都是朋友嘛，应该的。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "杰帕德",
+                          "text": "谦虚也是一种美德——再加上你的勇气与慷慨…如果像你这样的人能为我们铁卫效力，那将是整个贝洛伯格莫大的荣誉。"
+                        },
+                        {
+                          "type": "dialogue",
+                          "speaker": "杰帕德",
+                          "text": "至于我个人…能交到你这样的朋友也倍感荣幸。"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "text": "让她做出改变的是你的陪伴。",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "杰帕德",
+                          "text": "…也许是这样吧。只要能看到她能恢复平日里坦率洒脱的模样，我也就放心了。"
+                        },
+                        {
+                          "type": "dialogue",
+                          "speaker": "杰帕德",
+                          "text": "总之，非常感谢你——能有你这样的朋友，我感到很荣幸。"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 3,
+                      "text": "看来你还是很在意自己姐姐的嘛～",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "杰帕德",
+                          "text": "…我没有。"
+                        },
+                        {
+                          "type": "dialogue",
+                          "speaker": "杰帕德",
+                          "text": "这只是身为手足亲人需要尽到的基本责任而已。"
+                        },
+                        {
+                          "type": "choice",
+                          "presentation": "dialogue",
+                          "options": [
+                            {
+                              "id": 1,
+                              "text": "你说是那就是。",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "杰帕德",
+                                  "text": "谢谢你的理解。"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "text": "别找借口啦。",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "杰帕德",
+                                  "text": "我…这……"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "杰帕德",
+                                  "text": "咳，我没找借口。"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "text": "你怎么这么别扭啊！",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "杰帕德",
+                                  "text": "你怎么和姐姐说一样的话…我到底哪里让人觉得别扭？"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dialogue",
+                          "speaker": "杰帕德",
+                          "text": "无论如何，我们姐弟二人都受了你不少照顾…能有你这样的朋友，我感到十分荣幸。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

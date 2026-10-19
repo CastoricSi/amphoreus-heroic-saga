@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "fetchedAt": "2026-10-18T21:41:37.611Z",
+  "sources": [
+    "https://wiki.biligame.com/sr/%E5%BC%80%E6%8B%93%E4%BB%BB%E5%8A%A1",
+    "https://wiki.biligame.com/sr/%E5%BC%80%E6%8B%93%E7%BB%AD%E9%97%BB",
+    "https://wiki.biligame.com/sr/%E5%90%8C%E8%A1%8C%E4%BB%BB%E5%8A%A1"
+  ],
+  "categories": {
+    "开拓任务": {
+      "records": 253,
+      "missions": 28,
+      "children": 225,
+      "indexedChildren": 225
+    },
+    "开拓续闻": {
+      "records": 71,
+      "missions": 9,
+      "children": 62,
+      "indexedChildren": 62
+    },
+    "同行任务": {
+      "records": 37,
+      "missions": 8,
+      "children": 29,
+      "indexedChildren": 29
+    }
+  },
+  "issues": []
+}

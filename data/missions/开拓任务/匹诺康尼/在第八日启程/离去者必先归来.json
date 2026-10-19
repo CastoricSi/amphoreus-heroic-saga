@@ -1,0 +1,1727 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "离去者必先归来",
+    "pageId": 15062,
+    "revisionId": 77463,
+    "parentRevisionId": 59868,
+    "revisionTimestamp": "2026-02-01T17:38:03Z",
+    "fetchedAt": "2026-09-28T00:17:10.016Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%A6%BB%E5%8E%BB%E8%80%85%E5%BF%85%E5%85%88%E5%BD%92%E6%9D%A5",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%A6%BB%E5%8E%BB%E8%80%85%E5%BF%85%E5%85%88%E5%BD%92%E6%9D%A5&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "离去者必先归来",
+    "region": "匹诺康尼",
+    "type": "开拓任务",
+    "version": "2.7",
+    "number": "02",
+    "series": "在第八日启程",
+    "description": "美梦之中，去而复返的人们就此相遇，而作为曾经的敌手，能否暂且和平共处，除了坦诚相待以外，还需要取决于同伴们的一致意见。",
+    "requirements": "完成任务所有醒来的人们",
+    "requiredLevel": "21",
+    "characters": [
+      "星期日",
+      "瓦尔特",
+      "三月七",
+      "翡翠"
+    ],
+    "relatedItems": [
+      "苏乐达瓶盖"
+    ],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "星琼",
+        "amount": "50"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "4"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "4"
+      },
+      {
+        "item": "信用点",
+        "amount": "60000"
+      }
+    ],
+    "previousMissions": [
+      "所有醒来的人们"
+    ],
+    "nextMissions": [
+      "幸存者名为不幸"
+    ],
+    "objectives": [
+      "前往艾迪恩公园",
+      "根据守则调查附近的异象",
+      "寻找扭曲的余音",
+      "对梦境进行调律",
+      "继续自己的回望之行",
+      "与瓦尔特一同去见见他的同伴"
+    ],
+    "synopsis": [
+      "星期日乔装归来，街头风声暗涌，各大家系议论昔日混乱与橡木家系失势。",
+      "猎犬设卡排查，万维克与星期日避开锋头，踏上追寻旧梦的归程。",
+      "星期日欲查清橡木余毒，不顾危险重回匹诺康尼，只为给过往画上句号。",
+      "公司未下达指令，星期日主动归来，只为独自承担过往罪责。",
+      "为偿还人情与探查旧事，星期日只身重返梦城匹诺康尼。",
+      "公园被封锁，猎犬家系称因星核余波。万维克凭身份获准进入调查。",
+      "星期日回忆童年治理公园往事，意识到秩序曾是混乱之源。",
+      "万维克违规则吃冰淇淋却无事，星期日察觉异状，怀疑秩序被扭曲。",
+      "两人尝试登台却被强制传送，验证了「非演职人员不得上台」的规则存在。",
+      "舞台规则会强制纠正违规者，万维克遭规则反噬，星期日认出秩序异变。",
+      "星期日决定追查扭曲源头，用违规则引发「纠正」行为，寻找异变根源。",
+      "两人发现扭蛋机禁止使用特定瓶盖，星期日推测需找到违规道具试验规则，",
+      "星期日用苜蓿币贿赂汽水狗，成功换得扭蛋机所需瓶盖，准备尝试违规则行为。",
+      "扭蛋机用攻击方式「纠正」违规行为，星期日确认秩序已严重异化。",
+      "万维克向「禁止丢垃圾」的垃圾桶投物，结果被返还垃圾，规则逻辑显然扭曲。",
+      "万维克投入物品获「垃圾」回馈，二人确认这是规则扭曲所致的荒诞逻辑。",
+      "二人找到秩序余音并清除，星期日用同谐力量将其调律，使梦境恢复平稳。",
+      "离开前，星期日望向公园回忆童年，感叹即便成长，自己仍未走出昔日困局。",
+      "在封锁路口遇瓦尔特，星期日保持伪装应对，最终选择绕行避开追查。",
+      "星期日被瓦尔特识破并压制，只得放弃隐瞒，准备坦白解释此行动机。",
+      "星期日讲述逃脱经过与回归理由，请求放行，瓦尔特决定全程监督同行。",
+      "星期日一行三人前往会合地点，星期日得知星穹列车尚未离开，是因接送一位特殊旅客。"
+    ],
+    "extra": {
+      "角色": "星期日",
+      "命路群像": "循此苦旅",
+      "相关成就": "通往群星的轨道#在应许与遗忘之间",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "正在切换至【星期日】视角…\n然而在这美梦之中，去而复返的不仅有客人，也有「主人」……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "数周后 匹诺康尼 黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隐夜鸫家系成员",
+      "text": "但要我说，制造混乱也是一种维稳的手段。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "有功夫闲聊，不如先干活吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隐夜鸫家系成员",
+      "text": "说是持续调查，但哪用得着啊，危险早都过去了，现在也只是做做样子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隐夜鸫家系成员",
+      "text": "就像你和我，家系和家系的合作突然频繁起来，不都是做给外人看的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "看来你知道不少内幕啊，那我倒好奇了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "所以消息是真是假？前阵子的动静真是橡木家系出了问题？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隐夜鸫家系成员",
+      "text": "这可难为我了，刚才不是说了吗？混乱也是一种维稳的手段。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隐夜鸫家系成员",
+      "text": "也不知是谁在推波助澜，外头同时传着十几种谣言，一条比一条离谱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "嗯，我也听过，像什么「公司策划了一切」的阴谋论，还有什么…混乱是被一场车祸终结的，乱七八糟。所以真相是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隐夜鸫家系成员",
+      "text": "真相恐怕早就被流言掩埋了。唯一能确定的，就是有人担了责任。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "你是说…前橡木家主？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隐夜鸫家系成员",
+      "text": "对，谐乐大典意外中断，他一个人背了大半锅。在那之后就没露过面。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隐夜鸫家系成员",
+      "text": "别说去向，连生死都没人讲得清，多吓人。说不定…就像曾经的黑布林家系一样，我们不知不觉见证了历史啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "可关于那位家主，我还知道另一种说法……"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "一名穿着华丽的人与一名皮皮西人走到了附近…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "这位客人，实在抱歉。筑梦师正在排查邻近路段，相关设施都停用了。麻烦您暂时绕行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "怎么回事，是星核的影响？匹诺康尼还能让人安心做梦么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隐夜鸫家系成员",
+      "text": "请放心。星核早就被封印了，这会儿只是在做例行排查，您也可以理解为加强安保。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "隐夜鸫家系成员",
+      "text": "守护每一位宾客的美梦，家族会为此竭尽全力。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风尘仆仆的过客",
+      "text": "原来如此，打扰二位了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "…咦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "抱歉，这位客人——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "我们是不是在哪见过？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风尘仆仆的过客",
+      "text": "是吗……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "风尘仆仆的过客",
+      "text": "何时何地呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "猎犬家系成员",
+      "text": "或许是我记错了，失礼了，请二位继续享受美梦吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "两名过客离开了猎犬的视线…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "你可真会惹是生非。那么多条路，偏偏往猎犬眼皮子底下钻。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "有你在，多半不会有问题。退一步说，即便「同谐」的伪装被人识破，我们也有办法逃离。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "多少替人考虑下啊，匹诺康尼的头号逃犯。光是和你站在一起，就够惹祸上身的了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "这也是我必须与你同行的理由。眼下，你是我在匹诺康尼唯一能仰赖的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "哼，唯一能仰赖的人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "那她呢？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "街边的电视播放着知更鸟的广告…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "至少她没有受到我的牵连。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "怎么，觉得很失望？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "为什么这么说？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "只是觉得比起安慰，你可能更需要打击。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "像你这样的人我见过太多。经历一场失败，就巴不得所有人都来数落一番，只有这样心里才能踏实。好像有人批评，犯的错就有机会弥补。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "但如果我真想伤害你，肯定会换另一种方式。比如…同情？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "你说得对，我无法反驳。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "她这会儿还在匹诺康尼吧，不去见见？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "不必了。既然你如此热衷于揣测我内心的想法，那应该不难明白……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "以「逃犯」的身份与她相见，我做不到。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往艾迪恩公园"
+    },
+    {
+      "type": "objective-description",
+      "text": "然而，在这场美梦之中，去而复返的，却也并非仅有客人——人们安心地谈论着他，只因故乡于重履此地的男人而言，如今几近死地。\n物是人非，在了解这里的近况时，务必小心谨慎。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "成，那咱们继续走吧，帮一位逃犯重返故地，真棒。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "两名猎犬。和之前的二人不同，他们看上去有要务在身。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "艾迪恩公园出什么事了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "喂——你就光顾着自己看了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "抱歉。我忘了你长得不高。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "真搞不明白，为什么我非得陪你走一遭。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我说过，除你以外我别无选择。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "况且，你我二人曾是水火不容的关系，让你受到牵连，不会有悖我的良心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "这话都讲得出，你确实没什么良心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "但即便如此，你也会偿还我的人情。毕竟我之于你，恩同再造。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "我了个…哪有人这么自夸的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "你被丢弃在荒野，行将就木的时候，是我为你指明生路，带你逃离死地。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "你也曾灵光尽失，不知前途，同样是我竭尽手段，保住了你在家族中的位置。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "行了行了，说起话来一套一套的。可还人情是一码事，送死是另一码。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "我是真不明白，为什么非得回匹诺康尼？公司给你派任务了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "「哦，你可以重获自由，但作为代价，必须与过去的家人为敌」——类似这样？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "很遗憾，那位慈玉女士没有给出任何指示。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翡翠",
+      "text": "走吧，你自由了，妄图超越本分的神选者。把自己的羽翼折断，到人间去，走在大地上，看看这人世真正的模样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我不会接受你们的施舍。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "翡翠",
+      "text": "我说过，这是一份交易，而且不需要你立刻回应。收获不在一朝一夕，我最擅长的事情就是等待。美梦还在继续，夜晚还长，你有的是时间慢慢考虑。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "她只留下意味深长的话语，便将自由交还给我。至于我能否偿付自由的代价……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "至少我得先知道代价为何物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "欠公司人情的多半没好下场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "但那也是以后的事了。凡清算皆需时日，如今，先让我行使这自由的权利吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "用来自投罗网？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "或是偿还旧事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "此去一别，便是永别。离开匹诺康尼前，我想再做一次回望。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "那你远远望一眼不就得了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "此行也有别的目的。尽管「哲学的胎儿」已经陨落，但匹诺康尼的「秩序」并非一日筑成，这美梦中恐怕还残留着橡木家系的影响。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "用不着这样美化自己，其余四大家系一样能解决问题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我知我罪，不应由他人为我的错误善后。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "那你也该知道，公司不会救你第二遍。要是再落到家族手里，你就彻底完了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "总有些旧习难以改变。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "领带应在正中线上，衬衣不得从马甲中露出，裤线必须笔直且对齐鞋头的朝向…人在出门前就该确保一切井然有序，绝不偏移。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "而在辞别故乡时，也应当如此。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "objective-description",
+      "text": "如今星期日折断羽翼，坠落于眼下的境地，深知奇迹并非行于云端，而是行于地面。而那宝贵自由的开端，他希望能借此让自己的道别井然有序。\n在万维克的帮助下向这场美梦辞别吧，尽管提出不合理的要求，欠下他的人情也没关系。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "可艾迪恩公园跟你有什么关系？创始人是你乔装打扮的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我没有那么年长。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "这只是个玩笑。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疲倦的猎犬家系成员",
+      "text": "抱歉，公园设施出了些故障，正在重新布设。请之后再来吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "很相似的说辞。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "哦，情况我大概了解，不用再汇报一遍了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疲倦的猎犬家系成员",
+      "text": "这位先生，您在说什么呢，我……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疲倦的猎犬家系成员",
+      "text": "…啊，万维克先生？我真是累迷糊了，竟然没认出您。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "我想了解下里头的状况，你应该不会为难吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疲倦的猎犬家系成员",
+      "text": "唉，也没什么好说的，猎犬自己都没查明白。大概是星核事件的余波吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "余波？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疲倦的猎犬家系成员",
+      "text": "这位是？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "算是我的部下，著名的加班狂人「工作日先生」。你不认识？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疲倦的猎犬家系成员",
+      "text": "…原来如此，失敬。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疲倦的猎犬家系成员",
+      "text": "说回公园，总而言之，附近出现了一些「绝对不能触犯的事」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "触犯了会怎样？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疲倦的猎犬家系成员",
+      "text": "很不可思议，会被纠正。用言语难以描述，您要亲自看看吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "行啊。那麻烦你看好入口，咱俩进去瞧瞧吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疲倦的猎犬家系成员",
+      "text": "请带上这份笔记吧。希望能帮上你们。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "你不必说那句话的，会显得我们十分可疑。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "哪句？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "「工作日先生」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "哼，陈述事实而已。我一直觉得这名字更适合你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "所以为什么要来这儿，你在这当过园长？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "也可以这么形容。那时我还是一个孩子，为成为橡木家系的「铎音」，在歌斐木先生门下学习。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "在一次平常的散步中，他临时起意，交予了我治理此地的权力。在他划定的方圆内，我的每一句话都将重如律法。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "现在想来，那或许是我第一次实践「秩序」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "你后来步步高升，看来是干得不赖咯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "恰恰相反，一片狼藉。所幸游客们只当那是一场狂欢，无人在意。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "这算什么，历练一下你？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "也许歌斐木先生是在以一种代价较小的方式，向我展现他的人生经验：规则不存在完美的范式。如果维系者不能维持自省，曾经高尚的决策也会日渐卑劣。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "就像此时此地，被扭曲过后的「秩序」余音…只会徒增混乱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "来看看笔记上都写了什么……"
+    },
+    {
+      "type": "fold",
+      "title": "艾迪恩公园调查守则",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "姑且先将我注意到的情况记录了下来，和其他人碰头之后，我会再梳理一遍。\n\n——除汉堡外的食物均不可食用，尤其是冰淇淋。\n\n——非演职人员请勿走上台前。\n\n——不可对鸟类态度恶劣。\n\n——垃圾桶里禁止丢垃圾。\n\n——体验游乐设施时，请勿使用惊梦剧团售卖的苏乐达瓶盖。\n\n——请勿在花坛附近倒立前进。"
+        },
+        {
+          "type": "narration",
+          "tone": "红",
+          "text": "请注意：没有被提及的行为仅仅是未经验证而已，并不代表它们很安全。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "根据守则调查附近的异象"
+    },
+    {
+      "type": "objective-description",
+      "text": "没有任何告别能一帆风顺——按照猎犬家系成员的说法，这里似乎发生了一些异常，并且，很可能与某种被扭曲过的余音有关…\n就让他们给万维克一个面子，进入艾迪恩公园调查此事吧。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "呃——「除汉堡外的食物均不可食用」？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（踏入花坛周围）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "万维克：「请勿在花坛附近倒立前进。」\n万维克：先不论猎犬是怎么发现这个事实的，感觉后果顶多也就是被翻回正面，要不你试试？我想看你倒立的样子。\n星期日：容我拒绝。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "「除汉堡外的食物均不可食用，尤其是冰淇淋」…该不会是你定的规矩吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我对甜品并无偏见，当初立下的法则也只是叫人们不要哄抢，依序拿取。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "违反了会怎么样？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "就像那位猎犬说的，会被纠正。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "我倒要试试看。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "等等……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "只一眨眼的工夫，面前的冰激凌消失了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "这不什么都没发生吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "不应该是这样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "我说什么来着，轮不到你出手，家族自己就能解决问题。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "下一条，去舞台边看看。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "「非演职人员请勿走上台前」——这条规矩倒是正常。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "也容易验证，你我二人都谈不上「演职人员」。试试看吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "尝试走上舞台"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "…咦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我们再试一次。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "再次尝试走上舞台"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "什么情况。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "「行错路的，便引他们回到正途」——看来这就是猎犬口中的「纠正」了，和我当年的做法如出一辙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "合着你小时候就这么铁腕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "…先等会儿。如果是以这种形式纠正，那我刚才吃掉的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我提醒过你的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "如同路边常见的醉汉一般，他从口中吐出了一道彩虹——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "啊…啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "感觉如何？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "我有点想杀了你……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "总之，既然艾迪恩公园的麻烦与我有关，就不能置之不理。不需要筑梦师，我来根除这些扭曲。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "你打算怎么做？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "并不复杂。任何扭曲都有根源，一旦显现便可追查。可以故意违背一些准则，只要我们能承担后果就行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "当浮现的余音试图将你我纠正时，我就能寻获它的所在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "然后，就用「调律」抚平梦境吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "objective-description",
+      "text": "这一点和现实世界极为相似——梦境开始向人们提出完全不合理的要求。\n尝试打破更多的规则，找到余音的来源。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "简单来说——现在，规则就是用来打破的？"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（与黄金公子对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "你似乎听到了什么…来自某处的轻响，像是鸟儿的鸣叫，又像是意识深处的幻听。\n于是你低下头——如你猜想的那样，这里什么都没有。\n毕竟，梦境中没有真正的鸟儿。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查位于酒吧外的灯柱）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "万维克",
+          "text": "「不可对鸟类态度恶劣。」"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "星期日",
+          "text": "看来也有些规则并未扭曲，这是我当时的原话。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "万维克",
+          "text": "因为你妹妹叫「知更鸟」？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "星期日",
+          "text": "是因为歌斐木先生。他常常在公园里停留，观察众生百态。于先生而言，这也是疲惫时休憩的方式。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "星期日",
+          "text": "我希望他不要受到惊扰。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（前往花坛附近）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "万维克",
+          "text": "「请勿在花坛附近倒立前进。」"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "万维克",
+          "text": "先不论猎犬是怎么发现这个事实的，感觉后果顶多也就是被翻回正面，要不你试试？我想看你倒立的样子。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "星期日",
+          "text": "容我拒绝。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "调查「黄金扭蛋机」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "「体验游乐设施时，请勿使用惊梦剧团售卖的苏乐达瓶盖。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "哪有惊梦剧团，躲起来了？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "气泡锂犬",
+      "text": "嗷呜——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "在这呢，还挺会藏的。来吧，第一步是从它手里买瓶盖。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "稍等。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "星期日将一些苜蓿币放在了气泡锂犬面前。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "气泡锂犬",
+      "text": "嗷嗷嗷呜——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "哎，我倒是听懂了，给你翻译翻译：「这点钱糊弄谁呢？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "星期日放上了更多的苜蓿币。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "如果这些还不够，就得劳烦你出手了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "出什么手？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "…你不会就这点钱吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我现在的身份是逃犯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "气泡锂犬",
+      "text": "嗷嗷——"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "惊梦剧团发出了短促的叫声，它向前凑了凑，将挂在身前的汽水瓶朝向两人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "看来够了，运气还行。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得物品苏乐达瓶盖"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "那我们试试看？就用这台扭蛋机。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "似乎无事发生…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "好像也没什么奇怪的。要不打开扭蛋看看。"
+    },
+    {
+      "type": "fold",
+      "title": "扭蛋机中的字条",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "你不该那么做。\n警告既已无用，惩戒定不可少。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "呃，应该不会这么蛮不讲理吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "喂喂喂…小心啊！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗并获胜"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "这根本不合理吧，它把扭蛋收回去不就行了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "也许让游乐设施不再是游乐设施，也是一种纠正的方式。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "这规矩怎么还玩文字游戏的……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "似乎还不够，再去别处看看吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "调查垃圾桶"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "「垃圾桶里禁止丢垃圾。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "太不讲道理了吧，这也是你订下的规矩？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我还是孩子时，也会对这种悖论感到好奇，想一探究竟。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "算了，我都不知道从什么角度笑话你。有什么适合丢进去的东西吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "随便试试。",
+          "content": [
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "投入任意物品均会获得一个好看的垃圾"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "万维克",
+              "text": "哦，有反应了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "万维克",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "万维克",
+              "text": "这是什么樵夫的垃圾桶吗？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "暂时没有。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（再次向垃圾桶扔垃圾）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "信用点、经典苏乐达、垃圾、钟表披萨（整张）",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "你尝试投入了一些东西，但它完全没有任何反应——小垃圾桶真有个性，成功引起了你的注意力。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "好看的垃圾",
+              "content": [
+                {
+                  "type": "narration",
+                  "tone": "描述",
+                  "text": "你将好看的垃圾放入了桶内以示重视，一转眼，桶中多出了更多好看的垃圾——真是聚宝盆原理的一种错误应用。"
+                },
+                {
+                  "type": "text",
+                  "text": "再次投入"
+                },
+                {
+                  "type": "narration",
+                  "tone": "描述",
+                  "text": "你放入了更多好看的垃圾，垃圾桶很高兴，向你默默致意，离开前，你莫名感到很有尊严。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "足够了，扭曲之处就在附近。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找扭曲的余音"
+    },
+    {
+      "type": "objective-description",
+      "text": "这一点和现实世界极为相似——梦境开始向人们提出完全不合理的要求。\n对梦境进行调律，消除艾迪恩公园被扭曲的余音吧。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "哦，出现了。该怎么说，和你还有几分像。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "让它就此消散吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "「为我示现，一如往常——凡具瞳孔之物，皆有均等的魂灵。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "还真有效果。公司该找个人盯着你的，就不怕你在匹诺康尼从头来过，再长出一双翅膀？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "只要我不能抛头露面，就没有产生威胁的可能。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "也对，你扮演的从来都是聚光灯下的角色，受人敬仰的精英、领袖。你上一次摔倒在泥地里是什么时候，是不是要追溯到童年了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "是六岁前的事了。我像个普通男孩一样尝试用耳羽飞翔，却摔倒在土坑里，险些折断了天环。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "我只想讽刺几句，你还真记得？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "失败的瞬间总是难忘，人之常情。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "会把这种事当作失败，恐怕也独你一人了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "对梦境进行调律"
+    },
+    {
+      "type": "objective-description",
+      "text": "细数往事，清除隐患，该离开艾迪恩公园了——回望，随后前进，人一生中能做的或许只有这两件事。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "又怎么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "只是回望。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "那里什么都没有。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "这正是故地重游的意义。在我眼中，一切都历历在目。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "年少的我在此处经历失败，为收拾残局疲于奔命。我本以为自己改变了许多，但现在看来仍是在原地打转。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "很高兴能以这种形式重温过去。走吧，这场告别还很漫长。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "接下来去哪？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "奥帝购物中心。不过那条路上也有猎犬，还是避开人流吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我无意冒犯，但二位最好不要接近那边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "怎么了这是？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "事态还不明朗，只是附近出现了一些异状，家族正在排查。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "…你还好么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我没事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "虽然「星核」风波已经平息，但别有用心之人未必就不存在了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "先生提醒得对，我们这就绕行。也请您多加小心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "请留步——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "虽说美梦是安全的，但也请注意往来的车辆。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "多谢。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "那男的不是一般人啊，刚才没被发现真是奇迹。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "星穹列车应该早就启程了，他为什么还在匹诺康尼？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "…我们不必为此调整行程，但务必要多加留心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "希望在我成为囚徒的这几天，匹诺康尼没有遇上新的麻烦。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续自己的回望之行"
+    },
+    {
+      "type": "objective-description",
+      "text": "或许他与人们同行已然太久，让人们对此有些生疏——当瓦尔特作为「敌人」站在面前时，绝对称得上可怕。\n寻找脱身的手段，继续自己的回望之行。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "动身吧。我们分开些走，保持几米距离。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "是我心怀侥幸了。能允许我解释几句吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "可以，但在那之前——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "将双手放在背后，用短句回答我的问题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "短句？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我得确保你的言语中没有暗含某种危险的吟诵。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我竟给各位留下了如此奇怪的印象么……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "请相信，我并非带着恶意重返故地，「秩序」也不可能再临匹诺康尼了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "在你使用过「同谐」的力量后，恐怕我很难轻信这番说辞。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "回答我的问题，你为何会出现在这里？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "要得到你的信任，想来我也只有一种选择。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "万维克，请出来吧。我们能仰赖的人多了一位。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "星期日向瓦尔特讲述了自己的经历，毫无保留……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "所以，是公司的人救了你？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "应当是家妹与他们达成了某种约定。而我能在匹诺康尼行动自如，则多亏了这位万维克的帮助。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "如您所见，我重返故乡只是为了和它道别。您是否愿意高抬贵手，给我一个不留遗憾的机会？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "保险起见，直到彻底离开匹诺康尼为止，你必须与我同行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "感激不尽。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我离开故乡时也同样匆忙，并非不能理解这种心情。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "但这只是我的个人意见。对于此事，我的伙伴们同样有知情的必要。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "星穹列车的其他成员也在匹诺康尼？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "跟我去见他们吧。你也一起。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万维克",
+      "text": "知道知道，这下热闹死了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与瓦尔特一同去见见他的同伴"
+    },
+    {
+      "type": "objective-description",
+      "text": "可惜，从瓦尔特面前脱身已然无望，和他一同去见见列车上的同伴，争取自由行动的时间。",
+      "location": "匹诺康尼-黄金的时刻"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我们到了。他们应该就在附近。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "瓦尔特先生，我有一事感到不解。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "盛会之星的风波已经平息，星穹列车本该再度踏上「开拓」之行。是什么让各位依旧在匹诺康尼停留？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "莫非在我之后，又有人掀起了风波？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "如果是，你会怎么做？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我似乎也没有提议的立场。愿听从各位无名客的判断。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "不用担心，匹诺康尼并无危险。我们仍未启程，只是因为一位特殊的「旅客」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "旅客？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "列车受人所托，要送一位搭车客返回故乡，我们只是在匹诺康尼短暂歇脚……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "嗯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "您说的客人，莫非就是这位女士？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "还是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "这些女士？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "这，不应该……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "杨叔，你总算来了——大事不妙啦！"
+    }
+  ],
+  "warnings": []
+}

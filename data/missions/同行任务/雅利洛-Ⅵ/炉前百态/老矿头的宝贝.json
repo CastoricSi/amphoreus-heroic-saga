@@ -1,0 +1,3615 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "老矿头的宝贝",
+    "pageId": 2941,
+    "revisionId": 34352,
+    "parentRevisionId": 9894,
+    "revisionTimestamp": "2024-03-17T10:53:40Z",
+    "fetchedAt": "2026-09-28T00:21:40.592Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E8%80%81%E7%9F%BF%E5%A4%B4%E7%9A%84%E5%AE%9D%E8%B4%9D",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E8%80%81%E7%9F%BF%E5%A4%B4%E7%9A%84%E5%AE%9D%E8%B4%9D&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "老矿头的宝贝",
+    "region": "雅利洛-Ⅵ-磐岩镇",
+    "type": "同行任务",
+    "version": "1.0",
+    "number": "01",
+    "series": "炉前百态",
+    "description": "你收到了尤利安的群发信息，他声称虎克遇到了什么麻烦。去找找他，看看情况如何吧。",
+    "requirements": "完成开拓任务躺在铁锈中",
+    "requiredLevel": "14",
+    "characters": [
+      "虎克",
+      "尤利安",
+      "费斯曼",
+      "娜塔莎"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "350"
+      },
+      {
+        "item": "星琼",
+        "amount": "60"
+      },
+      {
+        "item": "冒险记录",
+        "amount": "6"
+      },
+      {
+        "item": "冬城盾",
+        "amount": "200"
+      },
+      {
+        "item": "信用点",
+        "amount": "20000"
+      }
+    ],
+    "previousMissions": [],
+    "nextMissions": [
+      "小虎克的宝贝"
+    ],
+    "objectives": [
+      "和下层区的尤利安聊聊",
+      "前往大矿区，寻找虎克",
+      "前往诊所，向娜塔莎打听受伤情况",
+      "虎克好像有事找你，去问问看吧。",
+      "前往大矿区，与虎克会合",
+      "与在场的嫌疑人交流",
+      "与认为的嫌疑犯对质，找到真正的小偷",
+      "跟随虎克，和嫌疑人对峙",
+      "去磐岩镇，向巴列维咨询。",
+      "回到诊所，告诉费斯曼老爹发生了什么"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "虎克",
+      "相关成就": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "任务接取短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "尤利安",
+      "subtitle": "点此编辑个性签名这是啥",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "尤利安",
+          "contentType": "text",
+          "text": "喂，喂？有人吗？唔，这玩意该怎么用啊…「群发」是什么意思？"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "你哪位？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你哪位？"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "我教你用「红包」功能吧…",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "我教你用「红包」功能吧…"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "text": "这是付费功能，请转200信用点",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "这是付费功能，请转200信用点"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "尤利安",
+          "contentType": "text",
+          "text": "哇，居然真的有人回复，是真人吗？不管啦，告诉你吧，我是鼹鼠党的首席情报官尤利安，现在正在征集帮手！你要是有空的话，就来大矿区的入口附近找我吧！"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "和下层区的尤利安聊聊"
+    },
+    {
+      "type": "fold",
+      "title": "与尤利安对话（无语音）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "尤利安",
+          "text": "呣…「雪地跳跳糖」又吃完了……"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "嗨，尤利安！",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "尤利安",
+                  "text": "嗨，陌生人！"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你在做什么呀？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "尤利安",
+                  "text": "没什么，我只是……"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "尤利安",
+          "text": "…唔，你是谁？妈妈说过，我不能和陌生人说话。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "我们之前一起玩过捉迷藏…",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "尤利安",
+                  "text": "什么捉迷藏…？完全没印象。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你这不是已经说了嘛…",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "尤利安",
+                  "text": "…还不是大哥哥/大姐姐先来搭话的嘛。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "尤利安",
+          "text": "我说…大哥哥/大姐姐不会是认错人了吧？"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "难道真的是我认错了？",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "尤利安",
+                  "text": "当然啦，我才不是什么「千面尤利安」呢。"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "是漆黑的虎克大人让我来的…",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "尤利安",
+                  "text": "嗯？虎克老大？找我「千面尤利安」有什么事吗？"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "尤利安",
+          "text": "…啊！说漏嘴了！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "尤利安",
+          "text": "哼，算了，不和你开玩笑了。我就是尤利安，大哥哥/大姐姐没认错。找我有什么事嘛？"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你不是找我有要紧事吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尤利安",
+      "text": "你！就是你，别跑！你被鼹鼠党征用了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "虎克的小跟班…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "尤利安",
+              "text": "什么跟班，是二把手…等等，现在不是说这个的时候！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "会变装魔法的小朋友…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "尤利安",
+              "text": "嘿嘿，我「千面尤利安」的名号…等等，现在不是说这个的时候！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "…你哪位？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "尤利安",
+              "text": "鼹鼠党的二把手「千面尤——等等，现在不是说这个的时候！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尤利安",
+      "text": "大事不好了！虎克大人她，一个人带着洞洞机跑到大矿区里去了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尤利安",
+      "text": "而且还不让其他人一起跟过去，好像是有什么危险的事…你得替我们去看看！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她去矿区干嘛？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "尤利安",
+              "text": "费斯曼老爹就在矿区里，虎克大人好像是听说老爹出事了才冲进去的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "尤利安",
+              "text": "连洞洞机都带上了，不会是打算和流浪者干架吧……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "尤利安",
+              "text": "矿区里有很多坏人，娜塔莎姐姐说了，小孩子不能随便进去！你快替我们去看看！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "洞洞机？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "尤利安",
+              "text": "洞洞机就是洞洞机啊！只要虎克大人带着它，总免不了一场恶战……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "尤利安",
+              "text": "费斯曼老爹就在矿区里，虎克大人好像是听说老爹出事了才冲进去的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "尤利安",
+              "text": "矿区里有很多坏人，小孩子不能随便进去！你快替我们去看看！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "费斯曼老爹是谁？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尤利安",
+      "text": "就是虎克的老爹，也是鼹鼠党大家的老爹！费斯曼老爹对每个人都很好，总之就是个大好人！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好吧，不要担心，我马上过去。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你让我去我就去，岂不是很没…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "尤利安",
+              "text": "哎呀，人命关天！还计较什么呀！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "漆黑虎克大人的事就是我的事。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "尤利安",
+      "text": "拜托你了，快点吧！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往大矿区，寻找虎克"
+    },
+    {
+      "type": "objective-description",
+      "text": "你突然被鼹鼠党的二把手尤利安叫住，虎克的老爹好像出什么事儿了，而虎克需要你的帮助。\n鼹鼠党的小伙伴们总是将冒险夸大其词，但是这一次你感觉到，确实是发生了人命关天的事情。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "冷静，冷静！大家都是为了讨个生计，咱好好坐下来聊聊不好吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阴阳怪气的流浪者",
+      "text": "说得可真好听！我们把你当领队，你就这么对待我们？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "愤怒的流浪者",
+      "text": "吃里扒外的东西！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阴阳怪气的流浪者",
+      "text": "你把矿脉的消息卖给了那个疯婆子安东尼娜！明明是我们先…现在好了，我们还得反过来给那群家伙打工！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "愤怒的流浪者",
+      "text": "叛徒！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阴阳怪气的流浪者",
+      "text": "咋了，没话说了？你承认自己把秘密出卖给矿队了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "你们这些坏家伙！不准欺负老爹！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阴阳怪气的流浪者",
+      "text": "虎克小鬼？不不不，你搞反了，是你老爹有错在先。不信你自己问他！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "老爹…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "没错，是我告诉安东尼娜的…但这矿脉是我第一个发现的，我想怎么处置是我自己的自由！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阴阳怪气的流浪者",
+      "text": "嚯，了不起啊！可你不就是仗着手里那个「探测仪」吗？等我们把那玩意抢过来，看你还敢不敢嚣张！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "离、离我远点！我这都是为了大局着想，哪像你们成天就想着四处滋事？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阴阳怪气的流浪者",
+      "text": "依我看，你这老头就是欠教训。兄弟们，抄家伙！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "有虎克在，你们休想！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "鼹鼠大军在此，不得放肆！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我来了！全都住手！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "大家消消气，给我个面子…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "啊，是你！快，快来帮虎克的忙！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阴阳怪气的流浪者",
+      "text": "嘁，又来一个倒霉蛋？多你一个不多，都来尝尝本大爷的厉害！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗击败找事的流浪者"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "老爹，你受伤了没？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "咳、咳…一点擦伤而已。虎克呢？你还好吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "不用担心我！虎克有洞洞机，完全不怕受伤！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "那就好，那就好…这位小兄弟/小姑娘呢，有没有受伤？多谢你伸出援手……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不疼不痒。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "暂时还死不了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "费斯曼",
+              "text": "小兄弟/小姑娘可别逞强了，你这一身伤得及时处理。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我这一生也算光荣…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "费斯曼",
+              "text": "小兄弟/小姑娘别怕，你的伤势没那么严重。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "啊我想起来了…你就是娜塔莎提过的外来者吧？听说你们刚来就解决了矿山的冲突，没想到今天又被你救了……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "也没帮上什么大忙。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "费斯曼",
+              "text": "流浪者和矿队冲突也不是一天两天了…你能帮忙暂时调剂关系，大家已经很感激了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "救人是我的爱好。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "费斯曼",
+              "text": "喔，你真是高尚的年轻人！谢谢你！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我只是想打一架。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "费斯曼",
+              "text": "呵呵，不管是为什么吧…我很感激。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "老爹，我们赶紧去老巫婆的诊所吧，你好像伤得很重！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "可、可是…我的「矿脉探测器」被偷走了。要是不赶紧去找，恐怕就再也找不到了……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "快去诊所吧，别让虎克担心。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "仪器重要还是命重要？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "少废话，我说去你就去！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "…哎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "不过是件工具而已，丢了就丢了吧。回诊所，回诊所。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往诊所，向娜塔莎打听受伤情况"
+    },
+    {
+      "type": "objective-description",
+      "text": "一群流浪者发生了冲突，即使你出手制止，也已经为时已晚…费斯曼老爹怎么样了，得赶紧去诊所看看。\n虽然你没有搞清楚前因后果，但是你察觉到了费斯曼老爹始终为着虎克着想，那么他至少是一位好父亲。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "伤口已经基本处理好了。现在医疗物资紧张，这段时间不要再到处惹事儿了，听到了没？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "别假装没听见，我说的就是你——虎克。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "…虎克可没惹事，是坏家伙们先动的手！我们只是自卫，开拓者可以作证！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "虎克大人说的都对。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "你看吧！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "…你这样可是会把小孩子惯坏的。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "可不能惯着孩子…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "喂，你到底是站哪边的呀！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "你知道就好，可不能让这孩子由着性子来。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我不知道，与我无关。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "喂，你这个叛徒！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "…你这就把自己撇得一干二净啦。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "时间差不多了，我再说最后一次，虎克——再在外面惹事的话，我就要没收洞洞机了。听到了没？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "唔…虎克记住了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "鼹鼠党的老大就得说到做到才行。我还有病历要填，你们先聊着吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "多亏了你和娜塔莎医生啊…要不然我们父女俩多半要遭殃了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "到底发生了什么事？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "前些日子，我用矿脉探测器发现了一处地髓矿脉，然后把它的情报卖给了矿队工头安东尼娜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "那些流浪者听说了这事，就指责我是叛徒…他们觉得，既然我也是从别的矿区沦落至此的流浪者，理所当然就该跟他们站在一边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "当然了，矿队才不会承认这种说法。嗐，你说这事闹的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你一定靠矿脉的情报赚了不少。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "…没错，这可是相当值钱的情报。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这么干是有点儿不地道。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "你这么认为？我可不觉得自己欠流浪者什么人情。倒不如说，他们现在能有个落脚的地方，还不是多亏我当时向矿队求情……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "哎，我想什么呢？指望那帮混蛋懂得感恩……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "老爹，我们很缺钱嘛？为什么要这么做？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "傻孩子…老爹快干不动了，不知道还能陪你多久，总要为以后做做打算了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "被人说自私也好，背叛也好，这都不重要。重要的是，等我走了以后，虎克你也能靠着这笔钱照顾好自己，生活下去…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "老爹……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "算了，既然矿队的钱已经拿到了，我也没什么可抱怨的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "要说有什么可惜的，就是我的矿脉探测器不见了…那可真是个好宝贝啊。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "被人偷走了吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "费斯曼",
+              "text": "我猜也是。那设备是能探测地髓矿脉的古代遗物，非常稀有，我还没见过第二个。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "费斯曼",
+              "text": "可能是因为我常拿它寻找矿脉，结果被不怀好意的家伙盯上了吧？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "矿脉探测器是个什么玩意？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "费斯曼",
+              "text": "是我在矿坑里捡到的古代遗物，据说是以前的开采团专门拿来探测地髓矿脉的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "费斯曼",
+              "text": "可能是因为我常拿它寻找矿脉，结果被不怀好意的家伙盯上了吧？这么稀有的东西，被偷也是正常的……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "事到如今，我要探测器也没用了。多一事不如少一事，懒得再追究什么了…偷我东西的家伙，嗐，祝他好运吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（虎克好像在用眼神说：「到诊所外面去，虎克有话要说。」）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这就是会说话的眼睛吗？）"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "虎克好像有事找你，去问问看吧。"
+    },
+    {
+      "type": "objective-description",
+      "text": "虽然虎克什么都没有说，但是她那双会说话的大眼睛却毫无隐瞒，她需要你的帮助。\n不必深思，你马上就明白了，小姑娘是想要你帮忙和她一起找回老爹的宝贝，她一点儿都不甘心。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "…等等，虎克还有事想找你帮忙！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是费斯曼的事吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "没错！虎克觉得，事情不能就这么结了！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "包在我身上了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "…我还没说要干什么呢！不过，精神头很足，不愧是鼹鼠党的荣誉队员！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你还真不客气啊。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "鼹鼠党的原则是互帮互助！…拜托你了嘛。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "那个什么探测器，既然那是老爹的宝贝，虎克一定要帮他找回来！你会帮虎克的吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "提起帮忙我就来劲。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "只要虎克不惹事的话…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "我才不会帮你。",
+          "content": [
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "…然后你会一直问我。",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "…然后我会良心不安。",
+                  "content": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "太好了！我会在矿区避难所里等着你的，大哥哥/大姐姐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "…啊！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "知道了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "刚才你叫我什么？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "再见！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往大矿区，与虎克会合"
+    },
+    {
+      "type": "objective-description",
+      "text": "果不其然，虎克大人是想让你帮她找到老爹的宝贝。不过，在矿区里还能找到什么线索吗？\n看着虎克大人势在必得的样子，你似乎也觉得有了一些信心。这就是鼹鼠党老大的魅力吗？",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "太慢了！鼹鼠党荣誉队员开拓者，你应该比虎克先到才对！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "给你介绍一下，这位是老爹最信任的矿工，斯薇塔姐姐！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯薇塔",
+      "text": "不是这样的，费斯曼大叔对流浪者们都很信任，大家也都信任着大叔。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯薇塔",
+      "text": "但是经历了矿脉事件之后…避难所的气氛就变得微妙了起来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "虎克过来是找老爹的「矿脉探测器」的。听说有人把老爹的宝贝给偷走了，是真的吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯薇塔",
+      "text": "这…让我猜测的话，大概是真的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯薇塔",
+      "text": "矿山冲突结束之后，「地火」把避难所的人都集合了起来。为了确定伤员情况，还清点过一次人数，当时有四个人不在场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯薇塔",
+      "text": "我们回来以后，费斯曼大叔的探测器就不见了。我们翻遍了整个避难所也没有找到…我猜，小偷应该就在这四人之中。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那个时候避难所里没有别人。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "斯薇塔",
+              "text": "没错，避难所平时一直很熙攘，小偷很难找到机会下手。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "犯人挑错了时间。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "斯薇塔",
+              "text": "没错，嫌疑人的范围一下就缩小了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯薇塔",
+      "text": "流浪者也有流浪者的尊严，我们一定会把小偷给抓出来。不过……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "不过什么啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯薇塔",
+      "text": "其实，我之前已经委婉地问过那几个嫌疑人了…但他们都声称自己没偷过东西。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯薇塔",
+      "text": "当然啦，也不能指望真正的小偷能老老实实认罪，是吧？依我看，这四个人中肯定有一个在说谎。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "说谎的人就是真正的小偷。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "斯薇塔",
+              "text": "没错——大家都不想惹麻烦，没犯错何必说假话呢？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "就不能超过一个吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "斯薇塔",
+              "text": "我想…应该不会。问心无愧的人何必说谎呢？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "全部抓起来！逐个排查！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "斯薇塔",
+              "text": "我们这里谁都没有这样的权利随随便便将谁抓起来，大家都是流浪者。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "斯薇塔",
+              "text": "但是没有嫌疑的人应该不会说谎，这就足以帮助我们抓住小偷了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯薇塔",
+      "text": "这四个嫌疑人都在避难所里。你们如果有自信的话，不妨再去问问看——说不定这回能找到真正的犯人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "唔，大人可真是狡猾！虎克要一个一个问问看！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与在场的嫌疑人交流"
+    },
+    {
+      "type": "objective-description",
+      "text": "根据斯薇塔的说法，现场的嫌疑人有四位，会说谎的只有一位。而此刻还在说谎的人最可疑，不是吗？\n外表看似小孩，智慧也确实是小孩，名侦探虎克大人是不靠谱的…你才是真正做决断的人。",
+      "location": ""
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与裁缝交流"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "是你把老爹的探测器偷走了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "裁缝",
+      "text": "不是。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "裁缝",
+      "text": "我才不是小偷。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "真的吗？那你要老实回答我们几个问题！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "裁缝",
+      "text": "问吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "裁缝",
+      "text": "别耽误时间。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "案发当时你在干嘛？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "裁缝",
+              "text": "发呆。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "裁缝",
+              "text": "没有注意别的事。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你怎么看待费斯曼大叔？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "裁缝",
+              "text": "好人。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "裁缝",
+              "text": "不过爱贪小便宜。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你看到探测器了吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "裁缝",
+              "text": "没有。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "裁缝",
+              "text": "什么探测器？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "你这家伙，就不能好好说话嘛！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "裁缝",
+              "text": "怎么？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "裁缝",
+              "text": "我平时就这么说话。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "…虎克感觉，这个姐姐不是小偷。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "你的感觉准吗？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "…反正就是，老大才有的直觉！"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "现在还不能下断言。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "…虎克知道！"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（裁缝）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "裁缝",
+          "text": "走吧。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "裁缝",
+          "text": "我没偷什么探测器。"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与保姆交流"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "保姆",
+      "text": "咦，虎克？怎么了，找我有事吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "是你把老爹的探测器偷走了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "保姆",
+      "text": "唉，早知道会被怀疑，我就不在那个时候出门了…我真傻。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "别紧张，这是正常流程。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "心虚了？我看你就有问题。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "保姆",
+              "text": "怎、怎么会呢！我又没干什么坏事……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "你只要回答我们几个问题就好！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "保姆",
+      "text": "好…你们问吧。要是能帮我洗清嫌疑，那就太好了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "案发当时你在干嘛？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "保姆",
+              "text": "也没干什么特别的事，只是出去透了透气。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "保姆",
+              "text": "…完了完了，这个理由听着也太糟了！你不会因为这个就怀疑我吧？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你怎么看待费斯曼大叔？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "保姆",
+              "text": "费斯曼老爷子吗？他是个好人，虽然…呃，没什么。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "保姆",
+              "text": "…完了完了，我听上去是不是特别可疑？可我真的什么都没干，你们要相信我……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你看到探测器了吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "保姆",
+              "text": "探测器？没有，我什么都没看到，我什么都不知道……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "保姆",
+              "text": "你们问完了吗？能证明我是清白的了吗？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "先冷静点，等消息吧。",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "我心里有数了，你小心点儿。",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "保姆",
+              "text": "唉…就这么干等着，只会越来越焦虑啊……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（保姆）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "保姆",
+          "text": "不是我偷的，真的不是我……"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与小贩交流"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "是你把老爹的探测器偷走的嘛？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小贩",
+      "text": "什么，你凭什么诬赖我？叔叔我啊，要生气了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我觉得你很可疑。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "不要紧张，这只是正常的询问。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小贩",
+      "text": "你知道商人最重要的是什么吗？信誉！你们这样凭空污蔑，万一影响到了我的生意…那可是要负责任的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "唔…那，那你好好回答我们的问题，我再决定该不该信你！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "案发当时你在干嘛？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小贩",
+              "text": "我有权保持沉默。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你怎么看待费斯曼大叔？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小贩",
+              "text": "这个问题…我选择不发表意见。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你看到探测器了吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小贩",
+              "text": "我拒绝评论。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "唔…你这家伙！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克再给你一次机会，你看着洞洞机再好好想想！"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "虎克冷静，别吓着人家。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "小贩",
+                      "text": "区区小鬼还敢威胁叔叔我？你还早了几十年呢！"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "看着我的拳头，再好好想想。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "小贩",
+                      "text": "叔叔我什么大风大浪没见过，怎么会被你们这对大小流氓吓到？"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "小贩",
+              "text": "这样，来笔交易如何？只要一点点情报费，我就把自己掌握的信息告诉你们，保证童叟无欺！"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "成交。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "小贩",
+                      "text": "爽快！"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "小贩",
+                      "text": "叔叔我啊，就喜欢不还价的顾客，这叫格局！来，想问什么，尽管开口！"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "想都别想。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "小贩",
+                      "text": "没辙，那我只能继续行使沉默权了。你们看着办吧！"
+                    },
+                    {
+                      "type": "choice",
+                      "presentation": "dialogue",
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "行吧，我买你的情报。",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "小贩",
+                              "text": "聪明人办聪明事，叔叔我啊，就喜欢跟聪明人做生意！"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "text": "快说！不然我喊「地火」来了。",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "小贩",
+                              "text": "还想用「地火」来压我？说得好像我怕他们一样！"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "虎克",
+                              "text": "开拓者，我们把希儿姐姐叫过来，把他抓走！"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "小贩",
+                              "text": "啊？别别别，我就开个玩笑——行了，你们问吧，我说就是了！行行好，别叫「地火」过来！"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "案发当时你在干嘛？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "小贩",
+                      "text": "去镇上进货了，有什么奇怪的吗？我的进货时间一直都很规律，随便谁都能替我作证。当时我还在好奇，避难所的人都跑哪去了？"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "你怎么看待费斯曼大叔？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "小贩",
+                      "text": "大叔经常照顾我的生意，对我很和善，不过我跟他也说不上太熟。只说矿脉这事，他干得确实不地道。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "小贩",
+                      "text": "肥水不流外人田，睁眼闭眼大家都是邻居，他这么胳膊肘往外拐…不合适，真不合适！"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "你看到探测器了吗？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "小贩",
+                      "text": "绝对是那个厨子偷走的，千真万确。叔叔我啊，最注重信誉了，不会骗你们的。"
+                    },
+                    {
+                      "type": "choice",
+                      "presentation": "dialogue",
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "你怎么这么肯定？",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "小贩",
+                              "text": "干我这行就得学会察言观色，那厨子心术不正，我老早就看出来了——不信你问别人。"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "text": "感觉你还在骗我。",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "小贩",
+                              "text": "骗你我能捞着什么好处，等着「地火」半夜来敲我门么？"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "小贩",
+                              "text": "信我吧，那厨子心术不正，我老早就看出来了——不信你问别人。"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（小贩）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "小贩",
+          "text": "那厨子心术不正，费斯曼大叔的玩意绝对是他偷走的！"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与厨子交流"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "厨子",
+      "text": "哎哟哟，瞧瞧这二位，在这儿演侦探呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "说，是不是你把老爹的探测器偷走了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "厨子",
+      "text": "这小鬼！上来就给我扣一顶小偷的帽子，一看就是欠管教！我这人光明磊落，从来不干那小偷小摸的事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "哼，嘴上说说谁不会啊！你要是真的没偷东西，就乖乖回答我们的提问！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "厨子",
+      "text": "唷，小鬼脾气还挺冲？行，我就花两分钟听听你们想问什么。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "案发当时你在干嘛？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "厨子",
+              "text": "做饭啊，还能干嘛？这一身油烟味还带骗人的吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "厨子",
+              "text": "只能说时间不巧，我正好在那个时候去采购食材了——要不然谁想卷进这破事里来？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你怎么看待费斯曼大叔？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "厨子",
+              "text": "费斯曼老爷子对我还不赖，以前在铆钉镇的时候，他把整个矿队的伙食都包给我了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "厨子",
+              "text": "也是因为信得过他，我才跟着他跑来这片矿区。没成想他居然会独吞那笔横财……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "厨子",
+              "text": "嗐，毕竟矿脉是人家发现的，我也怪不得他。只能说，这么干不符合我一直以来对他的印象。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你看到探测器了吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "厨子",
+              "text": "嗯…不是我想当告密的小人啊，我把这秘密抖给你们，纯粹是看在费斯曼老爷子的面子上。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "厨子",
+              "text": "那边的保姆，我之前看见他偷偷进了费斯曼老爷子的帐篷，然后带着个箱子出来了。你们说，他是不是嫌疑最大？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "嫌疑大不大，你说了不算。",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "也可能是你在栽赃。",
+                  "content": []
+                },
+                {
+                  "id": 3,
+                  "text": "我相信你，但是我说了不算。",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "厨子",
+              "text": "哼，爱信不信，反正我知道的都已经告诉你们了。问完了就快走吧，我这还忙着呢。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（厨子）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "厨子",
+          "text": "都跟你说了，肯定就是那个保姆干的。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与虎克讨论谁是真正的嫌疑犯"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "啊…怎么办！虎克已经要晕了！你们还记得他们都说了什么吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯薇塔",
+      "text": "放心，我已经帮你们记下来了。记住，在这四个人里，应该只有真正的小偷会说谎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "斯薇塔",
+      "text": "厨子说是保姆干的，裁缝说不是她干的，小贩说是厨子干的，保姆说不是他干的。怎么样，你知道谁是犯人了吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "厨子。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "呣…虽然虎克也不知道为什么，但就暂且相信你的判断吧！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "走吧，我们去当面问问那个人！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "裁缝。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "呣…虽然虎克也不知道为什么，但就暂且相信你的判断吧！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "走吧，我们去当面问问那个人！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "小贩。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "呣…虽然虎克也不知道为什么，但就暂且相信你的判断吧！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "走吧，我们去当面问问那个人！"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "保姆。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "呣…虽然虎克也不知道为什么，但就暂且相信你的判断吧！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "走吧，我们去当面问问那个人！"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "虎克大人是什么建议呢？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "我觉得最可疑还是厨子还有小贩。虎克的直觉一向很准，真正的犯人肯定是他们中的一个。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "你要是选错了也没有关系，万能的虎克大人还会有一百种方法找到真正的犯人。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "斯薇塔",
+              "text": "没错，除了推理，我们还有别的办法能够找到真正的小偷。眼前就让我们先分析他们到底说了什么吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "斯薇塔",
+              "text": "厨子说是保姆干的，裁缝说不是她干的，小贩说是厨子干的，保姆说不是他干的。怎么样，你知道谁是犯人了吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tabs",
+      "tabs": [
+        {
+          "id": 1,
+          "title": "选择厨子为嫌疑人",
+          "content": [
+            {
+              "type": "section",
+              "level": 3,
+              "title": "与厨子对质，找到真正的小偷"
+            },
+            {
+              "type": "objective-description",
+              "text": "你已经做出了清晰的判断，接下来就是要去验证它。跟紧虎克，别让真正的犯人逃走了。\n你早就怀疑那个厨子对你撒谎了，还想栽赃别人，真是坏心眼啊。",
+              "location": ""
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "咦！厨子呢，那个厨子跑哪里去了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "路过的流浪者",
+              "text": "我看他慌慌张张地跑到外面去了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "啊，那家伙肯定是心虚了！会跑到哪里去呢……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "大概是急着去销赃吧。",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "这不就是畏罪潜逃吗？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "啊，对了！在来矿区之前，虎克还在路上看到了桑博叔叔…这件事会不会跟他有关系啊？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "绝对和他有关系！",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "虎克来带路，桑博叔叔应该就在那个方向！"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "他就是个行走的麻烦…",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "虎克来带路，桑博叔叔应该就在那个方向！"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "桑博应该是清白的！",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "开拓者",
+                      "text": "要是这么想就太天真了。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "选择裁缝为嫌疑人",
+          "content": [
+            {
+              "type": "section",
+              "level": 3,
+              "title": "与裁缝对质，找到真正的小偷"
+            },
+            {
+              "type": "objective-description",
+              "text": "你已经做出了自己的判断，接下来就是要去验证它。跟紧虎克，别让真正的犯人逃走了。\n你也不清楚裁缝是否就是真正的小偷，",
+              "location": ""
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克知道了，偷走老爹探测器的犯人就是你！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "裁缝",
+              "text": "不对。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "不对？怎么不对，你倒是说说看啊！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "裁缝",
+              "text": "脑子。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "裁缝",
+              "text": "你们得动动脑子。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "她好像坚决否认呢…要不，我们再想想？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "假设裁缝在说谎…",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "假如姐姐说了谎，那么姐姐就是小偷。然后，厨子和小贩的证言就会相互矛盾……"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "开拓者，这到底是怎么回事啊？"
+                    },
+                    {
+                      "type": "choice",
+                      "presentation": "dialogue",
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "…犯人可能另有其人。",
+                          "content": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "喂！你到底靠不靠谱啊？"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "算了算了，我们再去找找犯人的线索吧！"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "确实是我弄错了…",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "喂！你到底靠不靠谱啊？"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "算了算了，我们再去找找犯人的线索吧！"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "level": 3,
+              "title": "去调查脉矿探测器失踪的地点"
+            },
+            {
+              "type": "objective-description",
+              "text": "尽管推理不太顺利，但是现场还会留下追踪犯人的线索，只要你好好调查，一定会有结果的。\n找出真相的方法虽然各有不同，但终将抵达事件的真相——绕远路就是你的捷径。",
+              "location": ""
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "我们去老爹存放探测器的地方找找，说不定还能找到些线索。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "调查货架"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "费斯曼使用的十字镐。原本应该是退休的年纪，但是为了生计，费斯曼还是会和流浪者一起到矿道里做工。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "调查帐篷"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "这是费斯曼在避难所里临时借用的帐篷，看得出有翻动过的痕迹，地上似乎掉落了一个货箱标签。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "这是物资箱子上的标签…虎克知道那些箱子堆在哪里！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "就在那个方向，我们赶紧去看看吧！"
+            },
+            {
+              "type": "section",
+              "level": 3,
+              "title": "根据标签的信息，找到物资箱子"
+            },
+            {
+              "type": "objective-description",
+              "text": "马虎的犯人在盗取矿脉探测器的时候遗落了货箱标签，而虎克知道这些物资箱子在哪里。\n你已经感觉到你们离真正的犯人越来越近…早知道这么顺利，一开始就应该来调查失窃地点。",
+              "location": ""
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "刚才的标签，对应的应该就是这个箱子！等一下——虎克好像闻到了什么味道！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "是调味料的气味！你闻闻，这个味道，好像盐烧洞螈……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "这和犯人有关吗 ？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "一般人身上会有这么明显的气味吗？"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "我饿了。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "找到犯人之前，不许饿！"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "怎么办，小偷好像把老爹的宝贝带走了…这根断掉的探针，好像就是探测器上的！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "老爹的宝贝…不会已经被卖掉了吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "小偷到底会去哪呢？唔…虎克虎克，再努力想想……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "大概是急着去销赃吧。",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "应该还没有跑出大矿区。",
+                  "content": []
+                },
+                {
+                  "id": 3,
+                  "text": "也许已经畏罪自尽…",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "啊，对了！在来矿区之前，虎克还在路上看到了桑博叔叔…这件事会不会跟他有关系啊？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "绝对和他有关系！",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "你早说这个名字我都不用查了。",
+                  "content": []
+                },
+                {
+                  "id": 3,
+                  "text": "我相信桑博是清白的！",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "开拓者",
+                      "text": "…实在没有底气这么说啊。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克来带路，桑博叔叔应该就在那个方向！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "选择小贩为嫌疑人",
+          "content": [
+            {
+              "type": "section",
+              "level": 3,
+              "title": "与小贩对质，找到真正的小偷"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克知道了，偷走老爹探测器的犯人就是你！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "小贩",
+              "text": "有没有搞错啊…你们推理了半天，结果就这？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "啊？你的意思是…我们搞错了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "小贩",
+              "text": "叔叔我啊，都把真相告诉你们了！就这水平还想做侦探？还是回去过家家吧！"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "话不用说得这么绝吧。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "小贩",
+                      "text": "叔叔我呀，都告诉你了，小偷就是厨子！就算你问我一百遍，小偷就是厨子！"
+                    },
+                    {
+                      "type": "choice",
+                      "presentation": "dialogue",
+                      "options": [
+                        {
+                          "id": 1,
+                          "text": "你只是在嘴硬吧？",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "小贩",
+                              "text": "哈？！你这么不愿意承认自己搞错了吗？你懂不懂什么叫推理啊！"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "虎克",
+                              "text": "你等着，虎克接下来就去找到证据，到时候你就会向虎克求饶了！"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "小贩",
+                              "text": "行啊，那你们快去找吧！"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "text": "难道真的不是你？",
+                          "content": [
+                            {
+                              "type": "dialogue",
+                              "speaker": "小贩",
+                              "text": "当然不是叔叔我了！"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "虎克",
+                              "text": "喂，你怎么动摇了？我们再去找找证据，让他向虎克求饶吧！"
+                            },
+                            {
+                              "type": "dialogue",
+                              "speaker": "小贩",
+                              "text": "还向你求饶，不可能，你去找吧，你找到就明白了。"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "我确实弄错了，对不起。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "小贩",
+                      "text": "我才不会骗你们，小偷就是厨子，就是厨子，就是厨子！"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "呣呣呣…我们还是再去找找吧，看看还有没有其他线索。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "level": 3,
+              "title": "去调查脉矿探测器失踪的地点"
+            },
+            {
+              "type": "objective-description",
+              "text": "尽管推理不太顺利，但是现场还会留下追踪犯人的线索，只要你好好调查，一定会有结果的。\n找出真相的方法虽然各有不同，但终将抵达事件的真相——绕远路就是你的捷径。",
+              "location": ""
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "我们去老爹存放探测器的地方找找，说不定还能找到些线索。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "调查货架"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "费斯曼使用的十字镐。原本应该是退休的年纪，但是为了生计，费斯曼还是会和流浪者一起到矿道里做工。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "调查帐篷"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "这是费斯曼在避难所里临时借用的帐篷，看得出有翻动过的痕迹，地上似乎掉落了一个货箱标签。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "这是物资箱子上的标签…虎克知道那些箱子堆在哪里！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "就在那个方向，我们赶紧去看看吧！"
+            },
+            {
+              "type": "section",
+              "level": 3,
+              "title": "根据标签的信息，找到物资箱子"
+            },
+            {
+              "type": "objective-description",
+              "text": "马虎的犯人在盗取矿脉探测器的时候遗落了货箱标签，而虎克知道这些物资箱子在哪里。\n你已经感觉到你们离真正的犯人越来越近…早知道这么顺利，一开始就应该来调查失窃地点。",
+              "location": ""
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "刚才的标签，对应的应该就是这个箱子！等一下——虎克好像闻到了什么味道！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "是调味料的气味！你闻闻，这个味道，好像盐烧洞螈……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "这和犯人有关吗 ？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "一般人身上会有这么明显的气味吗？"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "我饿了。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "找到犯人之前，不许饿！"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "怎么办，小偷好像把老爹的宝贝带走了…这根断掉的探针，好像就是探测器上的！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "老爹的宝贝…不会已经被卖掉了吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "小偷到底会去哪呢？唔…虎克虎克，再努力想想……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "大概是急着去销赃吧。",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "应该还没有跑出大矿区。",
+                  "content": []
+                },
+                {
+                  "id": 3,
+                  "text": "也许已经畏罪自尽…",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "啊，对了！在来矿区之前，虎克还在路上看到了桑博叔叔…这件事会不会跟他有关系啊？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "绝对和他有关系！",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "你早说这个名字我都不用查了。",
+                  "content": []
+                },
+                {
+                  "id": 3,
+                  "text": "我相信桑博是清白的！",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "开拓者",
+                      "text": "…实在没有底气这么说啊。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克来带路，桑博叔叔应该就在那个方向！"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "选择保姆为嫌疑人",
+          "content": [
+            {
+              "type": "section",
+              "level": 3,
+              "title": "与保姆对质，找到真正的小偷"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克知道了，偷走老爹探测器的犯人就是你！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "保姆",
+              "text": "冤枉啊，我没偷东西啊！呜呜呜…早知道会被你们怀疑，我就不该在那个时候回到避难所；我要是不回到避难所……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "要哭就到「地火」那去哭吧。",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "保姆",
+              "text": "真的不是我干的，我什么都不知道啊！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "保姆",
+              "text": "你们…你们是不是觉得我好欺负，所以才这么对我！呜……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "你从帐篷里拿走了什么？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "保姆",
+                      "text": "帐、帐篷？我从来没接近过费斯曼老爷子的帐篷啊……"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "无关个人，这是推理的结果。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "保姆",
+                      "text": "推理…结果错了，算什么推理嘛！"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "保姆",
+              "text": "求求你们了，我这辈子连爸妈的零花钱都没偷过，可不要冤枉好人啊……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "呣…也许小偷真的不是他，虎克觉得不像……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "你在质疑我的推理？",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "我的推理好像有点儿问题…",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "你想呀！斯薇塔姐姐说了，应该只有真正的小偷会对我们说谎。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "如果犯人真的是保姆哥哥的话，那他和小贩两个人的证言就都是假的了！"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "是我错了……",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "之前怎么没见你这么机灵？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "可恶，大人真不靠谱！走，我们去找找别的线索！"
+            },
+            {
+              "type": "section",
+              "level": 3,
+              "title": "去调查脉矿探测器失踪的地点"
+            },
+            {
+              "type": "objective-description",
+              "text": "尽管推理不太顺利，但是现场还会留下追踪犯人的线索，只要你好好调查，一定会有结果的。\n找出真相的方法虽然各有不同，但终将抵达事件的真相——绕远路就是你的捷径。",
+              "location": ""
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "我们去老爹存放探测器的地方找找，说不定还能找到些线索。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "调查货架"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "费斯曼使用的十字镐。原本应该是退休的年纪，但是为了生计，费斯曼还是会和流浪者一起到矿道里做工。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "调查帐篷"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "这是费斯曼在避难所里临时借用的帐篷，看得出有翻动过的痕迹，地上似乎掉落了一个货箱标签。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "这是物资箱子上的标签…虎克知道那些箱子堆在哪里！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "就在那个方向，我们赶紧去看看吧！"
+            },
+            {
+              "type": "section",
+              "level": 3,
+              "title": "根据标签的信息，找到物资箱子"
+            },
+            {
+              "type": "objective-description",
+              "text": "马虎的犯人在盗取矿脉探测器的时候遗落了货箱标签，而虎克知道这些物资箱子在哪里。\n你已经感觉到你们离真正的犯人越来越近…早知道这么顺利，一开始就应该来调查失窃地点。",
+              "location": ""
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "刚才的标签，对应的应该就是这个箱子！等一下——虎克好像闻到了什么味道！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "是调味料的气味！你闻闻，这个味道，好像盐烧洞螈……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "这和犯人有关吗 ？",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "一般人身上会有这么明显的气味吗？"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "我饿了。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "虎克",
+                      "text": "找到犯人之前，不许饿！"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "怎么办，小偷好像把老爹的宝贝带走了…这根断掉的探针，好像就是探测器上的！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "老爹的宝贝…不会已经被卖掉了吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "小偷到底会去哪呢？唔…虎克虎克，再努力想想……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "大概是急着去销赃吧。",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "应该还没有跑出大矿区。",
+                  "content": []
+                },
+                {
+                  "id": 3,
+                  "text": "也许已经畏罪自尽…",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "啊，对了！在来矿区之前，虎克还在路上看到了桑博叔叔…这件事会不会跟他有关系啊？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "绝对和他有关系！",
+                  "content": []
+                },
+                {
+                  "id": 2,
+                  "text": "你早说这个名字我都不用查了。",
+                  "content": []
+                },
+                {
+                  "id": 3,
+                  "text": "我相信桑博是清白的！",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "开拓者",
+                      "text": "…实在没有底气这么说啊。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "虎克来带路，桑博叔叔应该就在那个方向！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随虎克，和嫌疑人对峙"
+    },
+    {
+      "type": "objective-description",
+      "text": "你已经做出了自己的判断，接下来就是要去验证它。跟紧虎克，别让真正的犯人逃走了。\n你也不清楚自己的判断是否正确，但在寻找真相的路上，不能因为犹豫就止步不前。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "桑博叔叔总是去诊所找娜塔莎姐姐，虎克还以为他是生了什么大病呢！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "如果他和小偷是一帮的…那他也是坏家伙！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "找到桑博…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "哥们儿，你当真？这玩意可不多见啊，你真愿意这个价格卖我？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "厨子",
+      "text": "不是，你这家伙，废话怎么这么多？要还是不要，你赶紧给个准数！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "你们两个，都别想逃！漆黑的虎克大人到了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "桑博，你在这儿干嘛？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "不就是做点小生意嘛，干嘛这么大惊小怪的？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "那家伙是小偷，他想销赃！",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "哎哟，便宜没好货，我就知道你这玩意来头有问题！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "那家伙是小偷，他想销赃！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "哎哟，便宜没好货，我就知道你这玩意来头有问题！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "住口！先让我打你一顿！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "桑博",
+              "text": "等会儿！有话好说！是不是这货的来路有问题？跟我无关啊——"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "事先说好，我和这货可不是一伙的啊，你别误会——虎克小妹妹，你别拿那玩意指着我啊，怪吓人的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "厨子",
+      "text": "喂，你这家伙，翻脸怎么比翻书还快？！说好的长期生意——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "你——就是你把老爹的宝贝偷走的，洞洞机绝对不会饶了你！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "厨子",
+      "text": "这…这都要怪费斯曼那个老头！就凭他有我手里的这玩意，就一个人发横财…这根本不公平！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "呃，那个…气氛好像有点紧张啊，要不我先撤了？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这不是你偷窃的理由。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "厨子",
+              "text": "你跟我讲什么大道理？下层都到这个地步了，不靠偷不靠抢，我们这群人还能混得下去吗？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "费斯曼有充分的原因…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "厨子",
+              "text": "我管他有什么苦衷！下层都到这个地步了，不靠偷不靠抢，我们这群人还能混得下去吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "厨子",
+      "text": "哼，反正现在宝物在我手上——你们有种就抢回去啊！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "得给你点苦头尝尝。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "好啊，我们这就抢回去！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "居然有人敢挑衅我们…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "洞洞机，要准备上咯！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "厨子",
+      "text": "你们…别以为我会怕你们！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗并击败厨子"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "哈，刚才还很嚣张，结果就这点实力嘛！快，把探测器拿过来给虎克看看！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "糟…糟了！老爹的宝贝…坏了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "人生总是伴着意外，要习惯…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "可是…可是……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "还能修好吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "嘿，这时候就要轮到桑博登场了啊！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你还在呢？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "当然在！你和虎克小妹妹战斗时的英姿，我可是一秒都不想错过啊，嘿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "告诉你们吧，磐岩镇有个叫「矿灯」巴列维的家伙，是个鉴定商。他表面自称不再鉴定古代遗物了，但其实背地里还在做高价回收的生意。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "我看你们这件宝贝价值不菲，不如去敲打敲打他，碰碰运气。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "教你们一招——先在他面前装作要低价脱手的样子，等他兴冲冲地帮你修好了宝贝，再告诉他你们反悔了，想自己留着。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "这种商业模式就叫「小便宜一次占个够」，怎么样？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "「矿灯」巴列维…我知道了！谢谢你，桑博叔叔。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "开拓者，我们这就回镇上找他吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "桑博",
+      "text": "好走不送！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "去磐岩镇，向巴列维咨询。"
+    },
+    {
+      "type": "objective-description",
+      "text": "桑博给了你一个好建议，就是问一问下层区最懂古代遗物的鉴定专家的意见。也许探测器还能抢救一下。\n尽管你很怀疑巴列维作为古代遗物专家的实力，不过这里也没有比他更懂的人了。",
+      "location": ""
+    },
+    {
+      "type": "fold",
+      "title": "与巴列维对话（无语音）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "巴列维",
+          "text": "「矿灯」已经停止鉴定服务了，详情都在公告上面，请您挪步……"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "鉴定？鉴定什么？",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "公告？什么公告？",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "speaker": "巴列维",
+          "text": "…你们是来故意捣乱的吗？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "巴列维",
+          "text": "嗯？等会儿…你们是从「外面」来的吧？你们的事，大街小巷都传遍了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "巴列维",
+          "text": "哈哈，难怪你们不认识我。我刚才的态度多有冒犯，你们别介意啊！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "巴列维",
+          "text": "我叫巴列维，是古代遗物鉴定的专家，这里认识我的人都叫我「矿灯」。幸会幸会。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "巴列维",
+          "text": "总之，本「矿灯」巴列维即日起停止一切鉴定服务——说来话长，我这有份公告，你拿去自己看吧。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "巴列维",
+          "text": "还是说你有别的什么事？"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "想让你看看这个探测器。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "巴列维",
+      "text": "我早就不鉴定古代遗物了，除非这探测器是什么稀罕的宝贝……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "就是这个！探针断掉了，还能修好吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "巴列维",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "巴列维",
+      "text": "哦哟哟，这还真是个稀罕货！让我仔细看看……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "仔细看看！一定要帮虎克修好它！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "巴列维",
+      "text": "这东西…我也算从业多年了，但还从来没见过这样的古代遗物。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "巴列维",
+      "text": "依我看，这玩意多半是修不好了。不过毕竟是个难得一见的宝贝，就算坏了，我还是可以出高价回收。怎么样，你们考虑一下？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你这鉴定靠谱吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "巴列维",
+              "text": "这探测器的探针都没了，就像是没了眼睛耳朵，现在就是堆破烂，一点实用价值都没有。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "巴列维",
+              "text": "我愿意给这玩意开价，已经算是对你们仁至义尽了。到底卖不卖，你给我个准！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你再多讲讲，我是打算出手的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "巴列维",
+              "text": "这探测器的探针都没了，就像是没了眼睛耳朵，根本没有人会买这些破烂。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "巴列维",
+              "text": "过了我这村儿，你也没有别的店儿能卖了。别犹豫了，我给你开个好价格。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "虎克老大，我们回去吧。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "要不还是让费斯曼决定吧。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "奸商！我们是不会卖的。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "好吧，我们回去找老爹……"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "回到诊所，告诉费斯曼老爹发生了什么"
+    },
+    {
+      "type": "objective-description",
+      "text": "探测器虽然没能修好，但它还是应该物归原主…你注意到虎克大人失去了平时的活力，好像对自己很失望。\n你知道小姑娘为了找回探测器前前后后的努力，但是她将意料之外的损坏归罪于自己办案不利，你并不同意。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "你跑哪去了？我还正打算找你呢，虎克。走吧，回家，老爹给你做盐焗岩居蟹。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "怎么了，这孩子？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "从刚才开始就一直这样…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "费斯曼",
+              "text": "你们刚才干什么去了？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我们找到了矿脉探测器。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "费斯曼",
+              "text": "探测器？哦…是我之前弄丢的那件吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "虎克和开拓者帮老爹抓到了偷东西的小偷！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "但是老爹的探测器…已经坏掉了。都怪虎克没有早点找到，不然……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "果然是被人偷走了啊…你没有受伤吧，虎克？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "虎克没事！老爹，你快看看这探测器还能用吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "唔…地髓探针已经坏掉了，这东西怕是已经运转不了了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "对不起，老爹，虎克什么也没做到……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "为啥要跟我道歉？谢谢你为老爹费这么多心，虎克。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "可是，老爹的宝贝…呜呜——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "别哭，虎克！老爹的宝贝一直都在，从来都没丢过，更没有坏过。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "诶？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "的确是一件很可爱的宝贝。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "啊？连你都知道是什么吗！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这宝贝还会哭呢。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虎克",
+              "text": "会…会哭？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "老爹靠着探测器找到了很多矿脉，也帮矿队省掉了不少开支。从这个角度看，它确实称得上是个好东西。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "但归根到底，探测器也就是一件工具而已。真正的宝贝…对于拥有它的人来说，一定有着不可替代的意义。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "虎克…没太听明白。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "哈哈哈，算了算了，都怪老爹说了些奇怪的话。总有一天你会明白的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "那老爹说的宝贝……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "费斯曼",
+      "text": "完完整整，还活蹦乱跳的，你放心好了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "老爹——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虎克",
+      "text": "开拓者，不准看虎克哭的样子，快出去！"
+    }
+  ],
+  "warnings": []
+}

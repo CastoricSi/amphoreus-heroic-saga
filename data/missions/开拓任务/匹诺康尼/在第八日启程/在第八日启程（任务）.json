@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "在第八日启程（任务）",
+    "pageId": 15069,
+    "revisionId": 77467,
+    "parentRevisionId": 53415,
+    "revisionTimestamp": "2026-02-01T17:44:26Z",
+    "fetchedAt": "2026-09-28T00:17:15.989Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%9C%A8%E7%AC%AC%E5%85%AB%E6%97%A5%E5%90%AF%E7%A8%8B%EF%BC%88%E4%BB%BB%E5%8A%A1%EF%BC%89",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%9C%A8%E7%AC%AC%E5%85%AB%E6%97%A5%E5%90%AF%E7%A8%8B%EF%BC%88%E4%BB%BB%E5%8A%A1%EF%BC%89&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "在第八日启程",
+    "region": "匹诺康尼",
+    "type": "开拓任务",
+    "version": "2.7",
+    "number": "06",
+    "series": "在第八日启程",
+    "description": "星期日希望登上星穹列车暂且同行，继续他追寻乐园的苦行——虽说已有预料，但这件事还是需要和大家好好商量才是。",
+    "requirements": "完成任务听离别轻唱重逢",
+    "requiredLevel": "21",
+    "characters": [
+      "星期日",
+      "瓦尔特",
+      "姬子",
+      "三月七",
+      "丹恒",
+      "艾丝妲",
+      "黑塔",
+      "大黑塔"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "500"
+      },
+      {
+        "item": "星琼",
+        "amount": "30"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "6"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "6"
+      },
+      {
+        "item": "信用点",
+        "amount": "60000"
+      }
+    ],
+    "previousMissions": [
+      "听离别轻唱重逢"
+    ],
+    "nextMissions": [],
+    "objectives": [],
+    "synopsis": [
+      "大家就星期日是否能加入星穹列车展开讨论，并交由你决定他是否加入星穹列车。星期日承诺将共赴前路，履行责任，追寻答案。",
+      "艾丝妲与科员们撤离空间站，一场危险实验即将开始。黑塔以真身觐见博识尊，向其发问：「何为『神性』？」"
+    ],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一段时间后……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "这就是他前来这里的原因。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "星期日先生希望能与列车同行。显然，我不该自行决定此事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "但如果你不支持，就不会带他回来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "瓦尔特，我相信你的判断。只要人愿意共赴前程，列车的车门理应为他敞开。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "不过这次情况特殊，在做出决定前，开拓者，我想先听听你的意见。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "姬子",
+              "text": "嗯，在这场交锋中，你和他是最直接的对手。你的想法尤为重要。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我想听大家的意见。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "姬子",
+              "text": "可是在这场交锋中，你和他是最直接的对手。你的想法尤为重要。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "没什么好说的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "姬子",
+              "text": "是么？可你脸上明明写着许多心思啊，都说出来吧，你的想法尤为重要。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "从过去的对手那里，我才能习得最宝贵的经验。请畅所欲言。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你是个高尚的人。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "无论如何，我认可你是个高尚的人。你心中常怀怜悯，即使立场相对，我也无法否认这点。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你总是想要控制一切。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "你是个完美主义者，总想控制一切，包括自己。但离开匹诺康尼后，前方就只剩下「未知」了，换种生活方式，对大家都好。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你辜负了许多人的信任。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "你知道我要说什么，你辜负了许多人的信任，甚至包括最重要的家人。别忘记这件事。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我认可你的理念。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "至于你的理想，我相信它能以另一种更正确的形式实现。七休日…虽然只是个比喻，但我很期待那一天。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "别对人类太悲观。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "也许你对人性的看法是悲观的，但「开拓」不一样，我们踏上这条路，首先得学会「相信」。你也得做到。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你的梦想不切实际。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "有梦想是件好事，但飞得太高，脱离了实际，就不会有好结果。我无法接受你为了一个缥缈的愿望，就把所有人拉进自己的世界里。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们可以成为朋友。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "总之，世事无常，昨天的敌人也可以是今天的朋友……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你是位可敬的对手。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "总之，在我并不漫长的「开拓」中，你称得上是一位令人难忘的对手……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我的看法和杨叔不同…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "总之，我的观点和杨叔不同……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "当你有机会做出选择的时候，不要让自己后悔。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "他可以加入星穹列车。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "欢迎加入星穹列车。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "我也赞同。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "都说洗白弱三分，应该没问题吧！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "谢谢各位包容，感激不尽。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "也许某一天，我会在旅途中找到所寻的答案，离开这里。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "但在那之前，我定会履行同伴的职责，尽心尽力。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我总算不是老幺了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "来吧，这样你就是新的老幺了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "他还没正式加入啦！只是搭个车，没人能撼动你的地位。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "我也没意见。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "谢谢各位包容，感激不尽。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "也许某一天，我会在旅途中找到所寻的答案，离开这里。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "但在那之前，我定会履行同伴的职责，尽心尽力。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "还是听听大家的意见。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我没有别的话想说了，交给大家定夺吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "我也没意见。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "都说洗白弱三分，应该没问题吧！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "谢谢各位包容，感激不尽。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "也许某一天，我会在旅途中找到所寻的答案，离开这里。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "但在那之前，我同样会履行乘客的职责，尽心尽力。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "我会一直盯着你的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "做好准备，我会一直盯着你。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "我也会帮忙。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "应该没问题吧，都说洗白弱三分嘛。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "谢谢各位包容，感激不尽。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "也许某一天，我会在旅途中找到所寻的答案，离开这里。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "但在那之前，我同样会履行乘客的职责，尽心尽力。"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "无论如何，我无法接受。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我没法欺骗自己，也许我们更适合做萍水相逢的过客，而不是同道。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "这也是理所当然。既然如此，我会在列车离开阿斯德纳后，自行寻找一处合适的站点离去，不给各位添麻烦。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "星期日",
+              "text": "而在那之前，我同样会履行乘客的职责，愿尽绵薄之力。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "呃…看来也没办法了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "这期间，我会看好他的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "…看来是有结论了呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "稍后，也把这件事告诉列车长吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "既然我们在匹诺康尼的事了结了，按原计划，差不多该准备跃迁了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "嗯，但在出发前，我还想尝试联络下黑塔女士。此前请她帮忙调查翁法罗斯，即便没有结果，也不能不打招呼就一走了之。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "「尝试」是什么意思？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "可能是星际网络出了点问题，我刚才联络了几次空间站，都没有回应。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "先别担心，那毕竟是天才的地盘，反物质军团都拿它没办法……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "也许只是黑塔女士又有了什么动作吧。"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "不，还差那么一点。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "艾丝妲",
+          "text": "走吧，该离开空间站了。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "似乎在黑塔的要求下，空间站的所有研究人员被要求离开空间站…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "黑塔",
+          "text": "的确，这只是没人会知道的微小波澜……\","
+        },
+        {
+          "type": "dialogue",
+          "speaker": "黑塔",
+          "text": "而你也一定明白，对于天才而言\","
+        },
+        {
+          "type": "dialogue",
+          "speaker": "黑塔",
+          "text": "提问的重要性，甚至超过解答。\","
+        },
+        {
+          "type": "dialogue",
+          "speaker": "黑塔",
+          "text": "所谓「魔法」也有其原理，\","
+        },
+        {
+          "type": "dialogue",
+          "speaker": "黑塔",
+          "text": "世上不存在不可解的问题。\","
+        },
+        {
+          "type": "dialogue",
+          "speaker": "黑塔",
+          "text": "那么……\","
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "…而后，用尽空间站能源的黑塔向「智识」星神提出了一个问题…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "大黑塔",
+          "text": "无所不知的存在——\","
+        },
+        {
+          "type": "dialogue",
+          "speaker": "大黑塔",
+          "text": "我向你发问——\","
+        },
+        {
+          "type": "dialogue",
+          "speaker": "大黑塔",
+          "text": "—何为「神性」？"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "忘归人已成为列车的访客，回到列车将有机会遇到忘归人"
+    }
+  ],
+  "warnings": []
+}

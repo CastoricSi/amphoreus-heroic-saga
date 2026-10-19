@@ -1,0 +1,1349 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "无私的基因",
+    "pageId": 41436,
+    "revisionId": 104231,
+    "parentRevisionId": 104230,
+    "revisionTimestamp": "2026-10-11T05:32:57Z",
+    "fetchedAt": "2026-10-18T21:41:48.985Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%97%A0%E7%A7%81%E7%9A%84%E5%9F%BA%E5%9B%A0",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%97%A0%E7%A7%81%E7%9A%84%E5%9F%BA%E5%9B%A0&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "无私的基因",
+    "region": "二相乐园",
+    "type": "开拓任务",
+    "version": "4.6",
+    "number": "03",
+    "series": "月升之前，与兽共舞",
+    "description": "",
+    "requirements": "完成任务知识、沉默、擦肩而过",
+    "requiredLevel": "",
+    "characters": [
+      "银狼",
+      "真珠",
+      "绘世",
+      "朽叶",
+      "不死途",
+      "「旁白」",
+      "亚婆离"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "星琼",
+        "amount": "80"
+      },
+      {
+        "item": "里程",
+        "amount": "500"
+      },
+      {
+        "item": "信用点",
+        "amount": "60000"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "5"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "5"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "400"
+      }
+    ],
+    "previousMissions": [
+      "知识、沉默、擦肩而过"
+    ],
+    "nextMissions": [
+      "人造天堂，脑髓地狱"
+    ],
+    "objectives": [
+      "前往珠星大厦，继续冒险",
+      "前往生研院，继续冒险",
+      "骇入生产线",
+      "搜查关于古兽源质的线索",
+      "看看朽叶有什么发现"
+    ],
+    "synopsis": [],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往珠星大厦，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "在出发前往千星城之前，不死途和朽叶曾从真珠那里接下一项秘密任务。然而，对于如何执行这项任务，侦探与治安官却各有主张……",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "死者，凶手，再加一个侦探……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你不是在比喻，对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "绘世女士，我想请教您一个问题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "若要摧毁一幅未完成的画作，一劳永逸的方法是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "烧掉它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "很彻底，但如果画纸不可破坏呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "那就让绘师再也无法执笔。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "没错。「贪饕武器化」是一项危险的计划，可我的职责是保护它的{{「画纸」|二相乐园}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "逻辑：我只能另辟蹊径，在{{「颜料」|古兽源质}}和{{「绘师」|亚婆离}}二者间择其一。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我的结论是：杀死亚婆离。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "啧，你是真珠吗，还是哪个愚者冒名顶替？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "隔着好几个恒星系，直取公司主管人头，萨姆都不敢吹这种牛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "更何况，你身在二相乐园。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我无法亲自下场，所以亚婆离的死不是必然。在目前变量下，概率是：92.7%"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "…你说这话的语气，平淡得像是在炒股。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "而执行这项任务的人，就是你口中的「凶手」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "朽叶，异常防御部治安官。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "…关于「新告死魔」和「绝灭大君」，我们已经聊得差不多了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "接下来，不妨再多聊聊你吧，治安官。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "…看来，你对我早有防备。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "渡画泉隐施工期间，我在无量塔旧宅的墙缝里找到了一幅画像。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "画像描绘了某位无量塔在梦中遇见的恶兽巫女。与大腹便便的侍从们不同，这名巫女身材纤瘦，穿着黑衣，形似人类女子。而她的样貌……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "…与我一致，对么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "那位无量塔族人算是我的朋友。我教她在风化诅咒面前释放兽性、直面欲望……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "可惜，危险的兽，是会被人类围剿的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "你要把我控制起来吗？凭你的手段，未必做不到。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "不。至少就任治安官的这十几年里，你恪尽职守。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "我只是好奇，你为什么要加入异常防御部？又为什么专程前来警示我们？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "很简单。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "因为我喜欢{{人类|食物}}。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "此前，她找到我，提出要介入本届幻月游戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "于是我顺水推舟，在众多可能性中，选了一条对我们最有利的路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "是对「你」最有利吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "现在我知道三流侦探是干嘛的了，你拿他当保险栓，好控制一头披着人皮的野兽。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "你就不怕他也被一口咬死？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "不死途以身囚兽，仙舟为他打造的「困兽钉」是少数能对抗古兽的力量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "但我选择他，不仅仅因为能力。更重要的是：所有谒者中，只有他的行为逻辑可以预测。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "前游侠首领，体内住着一头狼，心里守着一套公义。他的目标直接、明确，顾全大局——这不是假设，而是我得出的结论。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "在我的计划中，可预测的正义，胜过一切变量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "银狼",
+      "text": "说得好听，不还是在利用他？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "把最合适的人，放在最合适的位置上。定义：我相信他。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "绘世",
+      "text": "那你自己呢？整个计划中，你打算扮演什么角色？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "笔锋至此，已经不需要我再行动了。我选择留在这里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "现在，他们应该抵达生研院了。目前变量下，亚婆离死亡的概率是：95.4%。我只需看好那剩下的4.6%……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "然后，为这幅画点上最后一笔。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往生研院，继续冒险"
+    },
+    {
+      "type": "notice",
+      "tone": "黄色",
+      "text": "正在切换至【不死途】的视角……\n趁着无人监视之机，不死途悄然潜入生研院内部的幻造种生产区域……"
+    },
+    {
+      "type": "objective-description",
+      "text": "在出发前往千星城之前，不死途和朽叶曾从真珠那里接下一项秘密任务。然而，对于如何执行这项任务，侦探与治安官却各有主张……",
+      "location": ""
+    },
+    {
+      "type": "text",
+      "text": "「公司最贵盒饭VS最便宜盒饭！究竟是漫天要价，还是物超所值！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "咳，朽叶小姐，你的耳机漏音了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "抱歉，我突然觉得很饿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "来之前我们不是刚吃过吗——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "算了。下次潜伏时，记得把手机静音。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "她们/他们应该走远了，行动吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "出发前，我想确认一件事：真珠给你的任务是什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "我以为你知道。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "我知道，但没听你说过。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "我负责掩护你，查清亚婆离的底细，找出被她藏匿的古兽源质。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "然后，要么回收，要么摧毁，剩下的自行判断。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "「自行判断」，我想问的就是这个。如果有无辜的人挡在路上呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "我们对「无辜」的定义未必一致，我是治安官，而你是侦探……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "何况你还有面具下的身份，一名巡海游侠。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "原来这事人人都知道了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "老白，我说过你没必要跟着。留在外头，当个照应多好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "不死途先生，我好歹也当过几十年游侠。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "古兽源质的臭味…我太熟悉了，沾上它的人，没几个能恢复原样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "我能确信，它就在这生产线底下。你们两个下去，未必能全身而退。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "你是想重新商量计划，还是劝我们打道回府？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "都不是。我和不死途先生一样，只是想知道……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "万一事情出了差错，朽叶小姐会怎么选。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "我会完成任务。还有其他选项吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "放轻松些，大侦探，不是还有你吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "更何况，真珠也给我们准备了帮手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司狼",
+      "text": "「你好，请支持公司，一切献给琥珀王！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "盗版银狼，还活着呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司狼",
+      "text": "「我是伟大真珠女士的私人智能体。任务：骇入生产线。预计时间：两分五十二秒。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "真珠竟然敢把它留在身边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "不奇怪，她都打算量产了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "说罢，她先行离去。三人组走进黑暗前，经典的沉默笼罩现场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "所有重要的话都已经说完，剩下的只有脚步声，和内心的疑问。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "…不死途先生，我们在想同一件事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "如果摘下面具，我仍是巡海游侠……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "那么朽叶小姐，你又是什么？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "骇入生产线"
+    },
+    {
+      "type": "objective-description",
+      "text": "调查记录归档：\n形形色色的心愿尽数扭曲，轧制成整齐划一的欲望狰狞。\n摇篮盛满上一个黄昏的嘶吼与喑哑，将其编织为金色的英雄梦。\n——「旁白」",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "光鲜亮丽的外壳下面，总有见不得光的脏东西。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "想点开心的，至少情况比翁瓦克乐观。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "不，老白…翁瓦克是一场实验，是一个疯子在地下室里鼓捣，要把全宇宙变成猴子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "但这里是一条「生产线」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "七十八个「灯塔」，七十八头…古兽，人们把这些怪物当英雄供着，相信他们，崇拜他们……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "甚至连「灯塔」自己都不知道。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "就算他知道，又有什么用？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "分头查。生产记录、原料来源、任何蛛丝马迹都别放过。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "弄清古兽源质的下落，才有资格谈论助人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "她现在比你更像一个侦探。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "…我知道。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "搜查关于古兽源质的线索"
+    },
+    {
+      "type": "objective-description",
+      "text": "调查记录归档：\n形形色色的心愿尽数扭曲，轧制成整齐划一的欲望狰狞。\n摇篮盛满上一个黄昏的嘶吼与喑哑，将其编织为金色的英雄梦。\n——「旁白」",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "看看这个，《论遗传态知识：古兽信息结构的系统发生学阐释》。时间戳：琥珀历2145纪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "又是个老妖怪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "这标题，你能看懂？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "我只能看懂「2145」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「一直以来，人类在向外索求知识，沿着可知域的边界不停探索。但所有人都忽略了：知识还有另一条向内的、更古老的道路。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「天才们试图控制知识的终点。而另一侧，琥珀纪的开端、乃至黄昏战争以前的起点，早在星神诞生、太初智种的时代之前，古兽已经盘踞在那里。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "内容倒是不难理解。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「古兽对宇宙的理解不以文字和图像传递，而是刻录在遗传编码中。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「这些体形超越星云、以群星为食的生命，超脱了狭隘的人智，在吞噬和演化中传承着非人的知识。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「只要加以解析，将之复原，我们就能窥见黄昏战争前，连星神都未曾见证的宇宙始源。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "非人的知识？这女人…疯了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「可惜，庸众院驳回了我的申请，甚至撤走了我查阅文献的权限。他们玷污了学会『知识当如货币般流通』的信条。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「我听说，有位年轻的天才和我持有相似的观点。因此，我并不孤独。我将这次失败陈列在此，静待它有朝一日成为胜利的碑铭。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "难怪她离开学会，自立门派。公司有资金，有技术……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "还有更低的道德标准，允许她为所欲为。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「记录：『能人』研究猿编号F-106，神经适应性测试通过……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「很好，现在试试『邀请函』能否送达。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "能人F-106",
+      "text": "「呵，用我学生的尸体当电话——有趣，有趣极了！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「毕竟常规的通讯您总是不接，我只好用点特殊手段，博士。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "原始博士？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "能人F-106",
+      "text": "「杀我的猴，毁我的实验室，你要什么？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「古兽源质。未经降解的、足量的活性样本。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "能人F-106",
+      "text": "「你想用它做什么？泡茶？还是注射进自己的脊椎，体验变成一座肉山的滋味？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「提取遗传编码中的『记忆』。我要那些在血脉里传递了亿万年的知识，它们比最古老的文字更真实。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "能人F-106",
+      "text": "「然后呢？成为行走的古兽辞典？源质会撕碎你的意识，只需一瞬间。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「个体或许无法承受，但『公司』可以。数十万星系、亿万员工、无限信用点构成的巨兽…它不懂恐惧，不知疲倦，只遵循一条指令：将『不可能』变成『可量产』。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "能人F-106",
+      "text": "「……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "能人F-106",
+      "text": "「继续说。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「您损失的，我百倍奉还。活体实验场、基因样本、还有巡海游侠的弱点…我都可以提供。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "能人F-106",
+      "text": "「……………」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "能人F-106",
+      "text": "「翁瓦克，西斯腾古树的根系下埋着一具遗骸，你要的古兽源质就在那儿。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「我需要坐标和提取方案。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "能人F-106",
+      "text": "「树被某个星神的仪式封印了，地表有翁瓦克人看守。你要解决的不止是技术问题。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「我会解决的。您只需要在收到第一批重建资源后，把源质送到我指定的星系。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "能人F-106",
+      "text": "「成交。不过亚婆离——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「嗯？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "能人F-106",
+      "text": "「以防你不知道，你撬动半个公司去追求的东西，恰恰是阮·梅当年随手拆解，又随手丢下的课题。你是在嫉妒她么？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「这就不用你操心了。交易成立。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "翁瓦克……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "真是好一笔血债。你的，我的，所有人的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "「记录：人科人属，实验体λ-032的基因样本，经清洁重组后，克隆达3904代……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "听着就头晕，还是别打扰她了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "附近没线索了，看看另一位「侦探」有什么发现？"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "看看朽叶有什么发现"
+    },
+    {
+      "type": "objective-description",
+      "text": "调查记录归档：\n残忍的实验令侦探联想到另一桩罪案，一桩我们永远不会忘却的罪案。\n古兽，灵长，泯灭良知的疯子将人性付之一炬，余烬中必有贯穿眉心的子弹。\n——「旁白」",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "你这边情况如何？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "几千份实验日志，和人体研究有关，堆满了术语和专有名词。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "现代科学总会变着法子惩罚每一个不好学的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "但现代科学又能巧妙地弥补这一点。公司狼，替我做个总结。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司狼",
+      "text": "「收到，一切献给琥珀王！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "…真替那姑娘感到悲哀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司狼",
+      "text": "「正在解析2329篇日志……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「兼容测试全部失败——我不得不求助▀▄▄▜（——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「学会已是囊中之物——我找到了『完美进化学派』的构想——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "「通过植入丰饶血肉——二相乐园的幻造种——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司狼",
+      "text": "「读完了。已建立三个知识标签，您想从哪个开始？」"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "「古兽源质」",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "古兽源质到底是什么东西？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "公司狼",
+              "text": "「从上下文推测，是一种从古兽遗骸中提取的、具有遗传信息活性的原生质，是古兽智慧的记录载体。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "可古兽都是尸体，亚婆离要怎么解读这些知识？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "公司狼",
+              "text": "「她选择使用生物处理器，包括人类志愿者、基因改造灵长类、人造脑神经组织。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "公司狼",
+              "text": "「但测试全都失败了。最后一次尝试，案例仅输出了4.2秒清晰意识，就变成了肉块。」"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "返回上方提问，可继续选择尚未选择的问题"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "「完美进化学派」",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「旁白」",
+              "text": "「完美进化学派」…那是学派战争时代的化石了吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "公司狼",
+              "text": "「正确。该学派早已名存实亡。日志中出现的人名『马库斯·安塔利』是最后的传人。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "嗯…？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "公司狼",
+              "text": "「学派的核心构想是『完美学者』：一种拥有无限寿命，能解析任意知识结构的生命。这与亚婆离的目标不谋而合。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "公司狼",
+              "text": "「日志原文引用：『以丰饶血肉为基底，生命将获得近乎无限的环境耐受力、进化潜力与智慧延展性，这将成为古兽源质的完美容器。』」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "所以，她试图把「完美学者」改造成实验工具？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "公司狼",
+              "text": "「答对了。第441次实验批注显示：『若兽的知识无法被理解，便要调整解读它的方法，我需要一具足够强韧，介于古兽和人类之间的躯壳。』」"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "返回上方提问，可继续选择尚未选择的问题"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "「二相乐园与幻造种」",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "所以，事态又是怎么扯上二相乐园和幻造种的？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "公司狼",
+              "text": "「日志显示，亚婆离的研究经历多次失败，陷入停滞。直到市场开拓部发现了名为哈托彼亚的星球，实验才正式重启。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "公司狼",
+              "text": "「在哈托彼亚，亚婆离观察到被称为「幻造种」的生命。她认为这种具备实体、又受意识影响的生物是『理想的神经界面材料』。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「旁白」",
+              "text": "所以，她把目标对准了二相乐园？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "公司狼",
+              "text": "「回答正确。日志中有大量连号文档被删除了。从留下的标签反推内容：亚婆离在十五年前启动了对愿力的研究。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "公司狼",
+              "text": "「五年前，该研究获得重大突破：丰饶血肉、古兽源质和幻造生命，经由一场实验达成了完美融合。」"
+            },
+            {
+              "type": "narration",
+              "tone": "灰",
+              "text": "返回上方提问，可继续选择尚未选择的问题"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "到此为止吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "到此为止吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "全部串起来了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "大侦探要开始推理了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "亚婆离是个丧失人性的学者，她把古兽的知识当作毕生课题。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "为了得到古兽源质，她勾结原始博士入侵翁瓦克，致使一千一百五十二名巡海游侠身死、退化，当地住民全数灭绝。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「旁白」",
+              "text": "没想到，返祖实验背后另有其人。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "后来，她如法炮制，在二相乐园开展实验，十五年前的「研究」只有一种解释——"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "血涂游戏。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "五年前的重大突破，也符合「告死魔」被处死的时间。当时公司接管了所有资料，包括他的遗体。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "并且，被一同带回千星城的，还有哈托彼亚的古兽源质。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "这早就不是科研了，是一场彻头彻尾的亵渎。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "而我所说的，也不是推理，是「宣判」。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "一切兜兜转转，终于串成了环：「告死魔案」的始作俑者，正是亚婆离。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "…没想到，这趟千星城之旅，还破获了一桩旧案。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "朽叶",
+              "text": "侦探的工作到此结束。至于翻案和定罪，就交给治安官吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "翻案和定罪？不……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "不死途",
+              "text": "应该是「复仇」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往生研院，继续冒险"
+    },
+    {
+      "type": "objective-description",
+      "text": "调查记录归档：\n残忍的实验令侦探联想到另一桩罪案，一桩我们永远不会忘却的罪案。\n古兽，灵长，泯灭良知的疯子将人性付之一炬，余烬中必有贯穿眉心的子弹。\n——「旁白」",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "寻找二代告死魔时，你问过我这样一句话。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "「你会阻止我吗，还是袖手旁观？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "现在，我会告诉你——动手吧。做你最擅长的事情。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "我本以为，你会克制到底。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "想不到，一关系到私仇私怨，你的治安官面具就戴不住了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "要「复仇」的人不止我们，还有你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "自始至终，你把古兽源质挂在嘴边——因为某种意义上，那是你先祖的遗骸。而亚婆离不知廉耻从你眼皮底下盗走了它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "重申，根据《灵物保护法（第5版）》第八条规定……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "…什么声音？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "唉，算了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "既然你们知道了——那我就不演了——白白消耗热量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "复仇？不错。但除此之外——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "我比你想得克制多了——我真的——很饿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "你们有没有想过，被足以吸引奥博洛斯的源质四面包围，这对于古兽后裔来说，有多么折磨吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "现在，一起去杀了亚婆离吧。你完成复仇，我满足食欲，皆大欢喜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "我会复仇，但不是现在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "亚婆离把自己改造成千星城的「人造幻月」，这意味着她一死，千星城的本地幻造种都得陪葬。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "但是——这个难题，我不在乎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "如果你真的不在乎，你就不会在人类社会担任十几年的治安官了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "那你打算怎么做——阻止我吗，还是袖手旁观？——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "取决于你的下一步行动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "虽然不想打破气氛……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "但二位没有发现，生产线停转了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "停转？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "源质的输送…停止了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "而且，你们看……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「公司狼」",
+      "text": "「警告，警告——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「公司狼」",
+      "text": "「供给亚婆离女士的源质注入值——读数异常！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "…为时已晚了啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "全部串起来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "大侦探要开始推理了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "亚婆离是个丧失人性的学者，她把古兽的知识当作毕生课题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "为了得到古兽源质，她勾结原始博士入侵翁瓦克，致使一千一百五十二名巡海游侠身死、退化，当地住民全数灭绝。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「旁白」",
+      "text": "没想到，返祖实验背后另有其人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "后来，她如法炮制，在二相乐园开展实验，十五年前的「研究」只有一种解释——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "血涂游戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "五年前的重大突破，也符合「告死魔」被处死的时间。当时公司接管了所有资料，包括他的遗体。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "并且，被一同带回千星城的，还有哈托彼亚的古兽源质。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "这早就不是科研了，是一场彻头彻尾的亵渎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "而我所说的，也不是推理，是「宣判」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "一切兜兜转转，终于串成了环：「告死魔案」的始作俑者，正是亚婆离。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "…没想到，这趟千星城之旅，还破获了一桩旧案。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "朽叶",
+      "text": "侦探的工作到此结束。至于翻案和定罪，就交给治安官吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "翻案和定罪？不……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "不死途",
+      "text": "应该是「复仇」。"
+    }
+  ],
+  "warnings": []
+}

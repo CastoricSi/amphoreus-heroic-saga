@@ -1,0 +1,1437 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "不要钱挑战•第三日",
+    "pageId": 40959,
+    "revisionId": 102170,
+    "parentRevisionId": 102116,
+    "revisionTimestamp": "2026-09-06T05:54:00Z",
+    "fetchedAt": "2026-09-28T00:21:31.545Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E4%B8%8D%E8%A6%81%E9%92%B1%E6%8C%91%E6%88%98%E2%80%A2%E7%AC%AC%E4%B8%89%E6%97%A5",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E4%B8%8D%E8%A6%81%E9%92%B1%E6%8C%91%E6%88%98%E2%80%A2%E7%AC%AC%E4%B8%89%E6%97%A5&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "不要钱挑战·第三日",
+    "region": "千星城",
+    "type": "开拓续闻",
+    "version": "4.5",
+    "number": "04",
+    "series": "亏成首富，从不要钱开始",
+    "description": "「不要钱挑战」第三天，你在私人拍卖会上与砂金默契合作，将所有拍品全部拍下，并将「不要钱挑战」剩下的钱全部花光了。",
+    "requirements": "完成任务不要钱挑战·第二日",
+    "requiredLevel": "21",
+    "characters": [
+      "小勤",
+      "砂金",
+      "知更鸟"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "星琼",
+        "amount": "50"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "4"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "4"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "160"
+      },
+      {
+        "item": "信用点",
+        "amount": "50000"
+      }
+    ],
+    "previousMissions": [
+      "不要钱挑战·第二日"
+    ],
+    "nextMissions": [
+      "不要钱挑战·结算日"
+    ],
+    "objectives": [
+      "与小勤对话，迎接第三日的挑战",
+      "前往私人拍卖会",
+      "与拍卖师对话，准备入场",
+      "进入拍卖会场，等待开始",
+      "积极参与拍卖，花光剩下的钱！"
+    ],
+    "synopsis": [
+      "「不要钱挑战」进入第三天，成败就在私人拍卖会上了。你与小勤携带邀请函前往拍卖会场。",
+      "砂金在拍卖会场与你重逢，询问你的竞拍意向。知更鸟表示你是她的竞拍代理人，不方便透露意向。砂金送给你们一枚幸运筹码。",
+      "你和知更鸟提交邀请函，小勤则因无邀请函而被拒绝入场。为避免过早暴露竞拍意图，你决定将所有藏品全部拍下。",
+      "演播厅内空间变化，一处布置好的房间出现在你们面前。拍卖师请各位贵宾入场。",
+      "拍卖会场内禁止私下沟通。在与砂金的竞价中，你以27亿信用点拍下1号拍品——错版银河战力党卡牌套组。",
+      "知更鸟担心与砂金的竞价会抬高拍卖难度，但你表示这正合你意，钱不是问题。按照拍品清单，下一件拍品是「琥珀王的原谅」。",
+      "对于2号拍品，砂金没有展现出先前的竞价力度，最终你仅以8亿成交。拍卖间歇，幸运筹码传来信息，砂金邀请你们用「同谐」的能力聊聊。",
+      "砂金坦言自己参加了大禽的「买买买挑战」，必须七天内在千星城买下一张特殊清单上的所有东西，其中包含「歌斐木的遗音」。砂金愿意放弃他的挑战，配合你抬价来助你清空账户，但是请求你们挑战成功后将这件拍品交给他，砂金要用它去揭开一个秘密。你和知更鸟同意提议。",
+      "「歌斐木的遗音」拍卖开始，在你与砂金的配合下，报价一路上涨到60亿信用点。",
+      "砂金走到你面前，佯作震怒，给出他的最终报价：70亿。你轻描淡写地给出74亿报价，成功拍下「歌斐木的遗音」。"
+    ],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "大禽严选·私人收藏拍品清单",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与小勤对话，迎接第三日的挑战"
+    },
+    {
+      "type": "objective-description",
+      "text": "不要钱挑战，还有最后一天，还有最后一天，还有最后一天！\n重复了三次，希望时间的紧迫，能够调动起你的紧张感。\n今天，要在拍卖会上决胜负了！",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "第三日，星际和平娱乐总部「指针塔」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "老板，今天是最后一天，「不要钱挑战」的成败就在私人拍卖会上了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "您带着邀请函吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我好像弄丢了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "小勤",
+              "text": "老板！可以锐评一下吗？"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "请讲！",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "小勤",
+                      "text": "花钱不积极，思想有问题！"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "憋着！",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "小勤",
+                      "text": "滋，滋滋滋……"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "带着呢，走吧！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我带着呢，走吧！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往私人拍卖会"
+    },
+    {
+      "type": "objective-description",
+      "text": "多亏了知更鸟给的拍卖会邀请函，才有了这「一口气花光所有钱」的绝佳机会。\n去抬高价格，然后花光所有的钱吧！\n\n「在拍卖会上，你永远不知道你出的报价是不是最好的…但你可以知道自己是不是最贵的。」",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "开拓者！好巧。我就知道这种拍卖会，肯定能碰见老朋友。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "等一下，你也是来竞拍的？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "好帅气的一身装扮！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "砂金",
+              "text": "能得到你的赞美，看来我们的品味相当一致。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "总不会是来散步的吧。对了，你看上什么了？我很好奇是什么好东西，能让你专程跑一趟。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "现在我们是暂时的「敌人」…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我其实打算把这里全买下来。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "别这么警惕嘛。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "这场拍卖会的邀请函可不好拿，来的也都是行家，如果你真有中意的，作为朋友，我很乐意帮你拍下来。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我自己可以买。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "下次再让你买。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "你有想买的吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你想要什么？作为朋友，我也很乐意帮你一起拍下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "哈哈，老板这么大气？那我可要好好想想了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "砂金先生，你好，许久不见。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "开拓者是我的「代理人」，他/她不方便透露我的意向。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "又一位老朋友…我明白了，两位是有备而来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "大禽先生的私人拍卖会即将开始——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "两位稍等…记得这枚幸运筹码吗？说不定今天能用得上。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这不是小型发信器吗…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "砂金",
+              "text": "嘘……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "幸运筹码？我不记得了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "砂金",
+              "text": "你会想起来的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "祝你们好运。希望我们都能拍下各自心仪的东西。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与拍卖师对话，准备入场"
+    },
+    {
+      "type": "objective-description",
+      "text": "多亏了知更鸟给的拍卖会邀请函，才有了这「一口气花光所有钱」的绝佳机会。\n去抬高价格，然后花光所有的钱吧！\n\n「在拍卖会上，你永远不知道你出的报价是不是最好的…但你可以知道自己是不是最贵的。」",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "请各位到这边来。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "您好，请出示邀请函。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（提交邀请函）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "知更鸟小姐，代理人开拓者…已确认，您的号码为1号。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "但这位智械朋友……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "小勤",
+      "text": "我只负责付款…出门在外，该花的要花，该省的也要花。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "包在我身上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "这是拍品清单，可以提前看一下。"
+    },
+    {
+      "type": "fold",
+      "title": "大禽严选·私人收藏拍品清单",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "拍卖会名称：大禽严选·私人收藏专场\n\n货币单位：信用点\n\n编号：001\n\n拍品名称：错版「银河战力党」卡牌套组\n\n拍品描述：\n\n含四张孤品卡牌：「瑕蝶」、「蝶遐」、「逆蝶」、「假碟」。\n\n因印刷模板错位，牌面名称与图案严重不符，被专业认证机构评价为「不会再有的银河孤品」。防伪壳封装，壳面有轻微划痕。\n\n起拍价：1000万\n\n估价区间：2000万 - 4000万\n\n编号：002\n\n拍品名称：「琥珀王的原谅」\n\n拍品描述：\n\n星际和平公司，琥珀2000纪年「新千纪」年会特等奖授权证书，含路易斯·弗莱明全息签名，可无条件免一次重大过失，编号2000-001，品相完好。\n\n起拍价：5亿\n\n估价区间：7亿 - 12亿\n\n编号：003\n\n拍品名称：歌斐木遗音\n\n拍品描述：\n\n匹诺康尼「梦主」歌斐木遗留的八音盒。藏品由神秘委托人提供，起拍价也由委托人指定：「对于识货的人来说，八音盒中包含的秘密远高于起拍价」。品相完好。\n\n起拍价：9亿\n\n估价区间：12亿 - 18亿\n\n编号：004\n\n拍品名称：思绪同步凝胶·初代\n\n拍品描述：\n\n著名剧集《这片银河不需要肥皂剧》中消除误会的神奇道具「你懂我的·口香糖」原型。通过咀嚼思绪同步凝胶，迅速得到前一位咀嚼者一时间的所思所想。拍品已被咀嚼过，据称是天才俱乐部成员，真实性无法保证。\n\n起拍价：500万\n\n估价区间：800万 - 1200万\n\n……"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "别忘了我们的竞拍策略，避免过早暴露意图——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "想要藏起一片{{树叶|歌斐木的遗音}}，就要将它藏进一片森林……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我将应拍尽拍。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "大禽本人看来并未到场，但他一定会时刻关注这里的动向。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "会场已准备就绪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "各位贵宾，请入场。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "进入拍卖会场，等待开始"
+    },
+    {
+      "type": "objective-description",
+      "text": "多亏了知更鸟给的拍卖会邀请函，才有了这「一口气花光所有钱」的绝佳机会。\n去抬高价格，然后花光所有的钱吧！\n既然砂金来了，能不能让他装作假竞标人，帮你哄抬价格呢？好吧，要是真这么做也太反常了……\n\n「在拍卖会上，你永远不知道你出的报价是不是最好的…但你可以知道自己是不是最贵的。」",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "积极参与拍卖，花光剩下的钱！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "诸位尊贵的来宾，欢迎莅临大禽先生的私人拍卖会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "今天很荣幸能与各位齐聚于此，共同见证每一件藏品的归属！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "竞拍开始前，请允许我重申两条基本规则：第一，我们鼓励理性、有序的竞价。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "请遵循{{阶梯原则|加价幅度随价格递增}}，任何以极端报价扰乱秩序的行为，主办方均保留干预的权利。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "第二，为确保拍卖公正，场内严禁任何形式的私下沟通。我们杜绝一切意图操纵价格的行为，一经发现，相关人士将被即刻请离现场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "愿诸位都能得偿所愿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "现在，拍卖正式开始！请看……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "1号拍品，是大禽先生收藏的错版银河战力党卡牌套组，包含四张银河孤品：「瑕蝶」、「蝶遐」、「逆蝶」以及「假碟」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "起拍价，1千万信用点。现在，开始竞拍！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（到底谁会想要这个？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "6号嘉宾，2千万。4号嘉宾，5千万！1亿，还有吗？1亿5千万！还有没有想往上加的？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（这也加得太慢了…）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（5亿应该不过分吧…）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "5亿信用点！来自1号嘉宾！本场第一次大幅加价——5亿，还有吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "7亿！7号嘉宾加入竞逐！10亿！还有高手吗？10亿一次！7号嘉宾……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "12亿！！我还能听到比12亿更高的吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "能。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（好想喊100亿…）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "15亿！这是多爱银河战力党啊？！哦！7号嘉宾更爱——18亿！1号嘉宾您还爱吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "1号嘉宾27亿！别太爱了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "有意思……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "7号嘉宾，全场目光都在您身上了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "7号退出！27亿一次！27亿两次！27亿——成交！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "下件拍品会在3分钟后继续。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "你的钱包…还好么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "小意思。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "虽然我有心理准备，但亲眼看到这样的数字还是…没想到现在你不仅财力惊人，花钱的魄力也如此惊人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "砂金似乎是有意和你竞价，无形中抬高了拍卖难度……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "还想求求他多抬抬价。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "哼～我怕他跟不上我。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "只要他继续加价，就正合我意。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "我看看下件商品是…「琥珀王的原谅」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "…砂金一定会出手吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "2号拍品，星际和平公司琥珀2000纪年会特等奖——「琥珀王的原谅」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "嘉宾们",
+      "text": "*议论纷纷的声音*"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "大家很激动，很好——传说中的「全公司员工梦想TOP3」，是真实存在的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "无论是在职场闯下滔天大祸，还是给公司造成了巨额损失…只要你是正式员工且在职满一年，凭此物即可获得仅有一次的「原谅」，免去所有追责索赔。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "嘉宾们",
+      "text": "*跃跃欲试的声音*"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "起拍价5亿信用点，竞拍开始！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这砂金能不动心？）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "3号，5亿1千万。11号，5亿3千万，还能更高吗？5亿5千万，还有吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "在座竟然没有公司员工？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（我先来！）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "1号嘉宾，6亿。您甚至不是公司的员工，6亿还有没有更高的？5号，6亿5千万。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "1号嘉宾，7亿。7亿一次，7亿两次…真的没有更高了吗——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（求求砂金大师抬抬价了……）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（投去期待的眼神）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（投去哀怨的眼神）",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "（投去犀利的眼神）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（砂金快看我看我…砂…金…加价啊砂金！）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "我看到了，7亿5千万。1号嘉宾立刻示意8亿。7号嘉宾您可真稳得住，加到10亿吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（再次尝试给砂金使个眼色）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（用玄学向砂金发送意念波）",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "（用索命的眼神死死盯着他）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "8亿一次！8亿两次！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "7号嘉宾——哦？！拱手相让。8亿成交！恭喜琥珀王原谅1号嘉宾！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "…应委托方要求，后续拍品将稍作调整。下一件拍品会在10分钟后继续。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "诸位稍作休息，并请遵守{{竞拍礼仪|「严禁私下交流」}}。"
+    },
+    {
+      "type": "text",
+      "text": "砂金送你的「幸运筹码」正在震动……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（取出筹码，仔细查看）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（按住筹码，不许它动）",
+          "content": [
+            {
+              "type": "text",
+              "text": "按不住。不过……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "筹码背面浮现一行小字——\n「试试『同谐』的小技巧，我们聊聊~」"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（简要告知知更鸟）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "没想到他一开始就打算「作弊」…先听听他要说什么吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "知更鸟进行「同谐」的调律"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "现在可以畅所欲言了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "你们终于发现幸运的小字了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（狠狠质问砂金）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "刚才为什么不跟着抬价？你的公司归属感呢？石心十人团魂呢？太可疑了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "倒是你为什么要拍公司福利？不觉得自己更可疑吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（试图辩解）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…我、我在为将来多一条出路做打算。但你呢？你宁愿花20亿买张牌。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "首先，是四张。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "其次，我是牌佬。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "其实，我也是。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "…你们俩能不能进入正题？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "看在都是老熟人的份上，咱们也别互相演了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "之前的纯属个人兴趣，我真正关注的东西在后面……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "让我猜猜，你是不是也一样？或者说，是知更鸟小姐也一样？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "虽然不知道你指的是什么，但我们并不打算拱手相让。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "别紧张，我绝无恶意，只是来提个醒，你的心思太明显，全写在脸上了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "为高价兴奋，为低价失落，既不像我认识的那个你，也不像来买东西的，而是来花钱的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "你在参加大禽的挑战，对吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这么明显的吗？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我不是我没有！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "我回答不了啊。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "要不是我也参加了大禽的游戏，恐怕不会这么快就联想到。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…你也是？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "没错，但我参加的是「买买买挑战」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "规则很简单：七天内，在千星城买下一张特殊「购物清单」上的所有东西。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "这些东西不仅贵，而且非常稀有。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "说出来不要紧吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "事到如今，已经没有隐瞒的必要了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我参加的是「不要钱挑战」。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "三天内，在千星城花光200亿信用点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "…这也太多了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "这个时间，这个地点…今天是你挑战的最后一天，而拍卖会也是最后的机会，对吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你真的全是靠猜吗？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "跟聪明人说话就是没隐私。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "难道…砂金先生的「买买买挑战」中，*恰好*也包含了「歌斐木的遗音」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "不错，这完全是大禽设计的陷阱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "我们两个人中，必会有一方承担失败的惩罚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "大禽不怕你们彼此认识提前沟通吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "所以挑战规则里明令禁止透露挑战内容。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "但大禽怎么知道我会委托开拓者呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "「歌斐木的遗音」出现在千星城的消息，恐怕是大禽故意放出来的…"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "哎，这个大禽怎么这么坏呀？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "没有所有人都幸福的结局吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "但现在管不了那么多了，刚才拍卖师已经收到了信号——下件拍品恐怕就是「歌斐木的遗音」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "你靠它花钱，知更鸟小姐需要它的内容，而我要用它去揭开一个秘密——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "所以我想提出一个交易。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "我帮你抬价，确保你的挑战成功。完事之后，两位可否将它交给我？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我一个人说了不算。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "问问知更鸟的意见。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "但是…这意味着砂金先生的挑战会失败对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "不过是赔一笔钱而已，对我来说不算大事。再说了，就算我强行拍下来，有你们在，价格也绝对不会低。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "等我挑战成功，会分一部分钱帮你减轻负担。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "谢谢，有你这句话就够了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "知更鸟",
+      "text": "我也同意砂金先生的提议…开拓者，你还剩多少钱要花？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "还有74亿……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "请注意，拍卖会即将继续！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "来吧，{{开拓者|朋友}}。接下来，就是我们即兴表演的时间了！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "非常遗憾地告知各位，应主办方要求，下件拍品将是本场最后一件。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "它并非是大禽先生本人的收藏，而是来自一名神秘委托人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "「歌斐木的遗音」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "关于它，我们知之甚少——但未知，往往蕴藏着不可估量的价值。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "它的价值，将由在座诸位共同定义。起拍价，9亿信用点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "9亿5千万。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "7号嘉宾率先出价——原来您是在等这一件！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "噢？大家都看向了1号买家，那么1号买家对这件拍品的兴趣是……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（展示一个神秘微笑）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（高深莫测地摇摇头）",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "（抬头看天我听不见）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "各位，机会这不就来了？6号，9亿8千万…8号，10亿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "7号嘉宾，12亿！12亿还有更高吗？1号嘉宾还不出手吗？您刚才的气势呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（先按照计划）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（继续装高手）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "12号，13亿。哦，后排还有要加到14亿的。7号嘉宾，15亿？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "稍等！我们接到一通远程电话委托——16亿！7号嘉宾立刻回应…18亿！志在必得啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "…等等，电话委托再次报价，20亿！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（高调地举手）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（低调地举牌）",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "（到我表演了）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "25亿！我们的1号嘉宾终于入场！7号嘉宾…30亿！电话委托又来了，35亿！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "1号嘉宾，我明白，41亿。电话委托，43亿！7号嘉宾您的表情…要加到46亿！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（装作愤怒地举手）",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "（装作犹豫地举手）",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "（装傻一样地举手）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "50亿！！电话委托…掉线了。7号嘉宾呢？5、55亿！！看来1号和7号已经杠上了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "（眼神示意，开始压轴表演）",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "6、60亿！！1号嘉宾！！！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "1号，我已经忍了你很久了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "7号，我也忍你很久了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "这个破八音盒能卖60亿，你是不是疯了，还是说…你根本是在故意搞我？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "…那、那个…两位请、请注意…竞拍礼仪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金&开拓者",
+      "text": "闭嘴！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "好的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "我赌你根本拿不出这么多钱！我最后再出一次价，如果你还能跟，东西归你，我不加了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "我出70亿！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "七…七十？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我出74亿！！！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "七——十——四——亿！！！7号嘉宾您……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "74亿一次…74亿两次……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "砂金",
+      "text": "…啧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "拍卖师",
+      "text": "74亿——成交！恭喜1号嘉宾！！！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "嘉宾们",
+      "text": "*鼓掌吹口哨的声音*"
+    },
+    {
+      "type": "text",
+      "text": "拍卖会结束后，开拓者完成了所有支付，知更鸟带走了「歌斐木的遗音」，开拓者与砂金也「一拍两散」。"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "躺在铁锈中",
+    "pageId": 2487,
+    "revisionId": 77292,
+    "parentRevisionId": 34398,
+    "revisionTimestamp": "2026-01-18T19:15:09Z",
+    "fetchedAt": "2026-09-28T00:15:11.169Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E8%BA%BA%E5%9C%A8%E9%93%81%E9%94%88%E4%B8%AD",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E8%BA%BA%E5%9C%A8%E9%93%81%E9%94%88%E4%B8%AD&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "躺在铁锈中",
+    "region": "雅利洛-Ⅵ-磐岩镇",
+    "type": "开拓任务",
+    "version": "1.0",
+    "number": "11",
+    "series": "于枯索的冬夜里",
+    "description": "你们最终达成一致：将止痛剂分一半给克拉拉，让她带回去治疗流浪者。\n尽管娜塔莎不像是会因为这种事大发雷霆的人，但你的心里还是有些愧疚和不安——\n娜塔莎究竟会对此作何反应？恐怕只有亲自问问她才能知道了。",
+    "requirements": "完成已故去的必如雪崩再来",
+    "requiredLevel": "14",
+    "characters": [
+      "娜塔莎",
+      "希儿",
+      "布洛妮娅",
+      "三月七",
+      "丹恒",
+      "奥列格"
+    ],
+    "relatedItems": [
+      "一箱钢板和绷带",
+      "一箱医用酒精",
+      "一箱特制止痛剂"
+    ],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "200"
+      },
+      {
+        "item": "冒险记录",
+        "amount": "5"
+      },
+      {
+        "item": "信用点",
+        "amount": "8000"
+      },
+      {
+        "item": "娜塔莎",
+        "amount": "1"
+      }
+    ],
+    "previousMissions": [
+      "已故去的必如雪崩再来"
+    ],
+    "nextMissions": [
+      "腐烂或燃烧"
+    ],
+    "objectives": [
+      "向娜塔莎交付物资",
+      "与同伴及奥列格会合"
+    ],
+    "synopsis": [
+      "你与奥列格交谈。为寻找星核线索与解除矿区封锁，你们达成会见史瓦罗的共识。「地火」希望作为外来者的你们有机会说动史瓦罗。"
+    ]
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向娜塔莎交付物资"
+    },
+    {
+      "type": "objective-description",
+      "text": "你们最终达成一致：将止痛剂分一半给克拉拉，让她带回去治疗流浪者。\n尽管娜塔莎不像是会因为这种事大发雷霆的人，但你的心里还是有些愧疚和不安——\n娜塔莎究竟会对此作何反应？恐怕只有亲自问问她才能知道了。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "娜塔！我们回来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "不愧是希儿，永远都这么准时。怎么样，你们找到能用的物资了吗？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "提交道具一箱钢板和绷带、一箱医用酒精、一箱特制止痛剂…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "我来看看…钢板、纱布、止痛剂、医用酒精……太好了，需要的物资都齐全了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "就是止痛剂的分量稍微少了些，储藏室那边出了什么情况吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "分给了克拉拉一些。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "…克拉拉？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "被怪物毁掉了一些。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希儿",
+              "text": "喂，用不着说谎，娜塔不会因为这种事埋怨咱们的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "希儿",
+              "text": "是克拉拉，她比我们先一步到了储藏室。止痛剂我们跟她平分了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "那孩子的话，我大概明白…她是想照顾受伤的流浪者吧？克拉拉一直很善良……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "我认为你们做了正确的决定。不过这么一来，我得好好规划下用药的剂量了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "不怕，有我帮你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "嘿…不用啦，诊所交给我就好。你们三个还有更重要的事要做吧？奥列格——还有那两位小伙伴，他们正等着呢。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "都快忘了还有这俩人了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "布洛妮娅",
+              "text": "原来你们三个关系没那么好啊？我还以为是生死之交呢。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "哈哈，布洛妮娅真可爱呢。开拓者明显是在开玩笑，对吧？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "走之前忘了跟他们打招呼了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "娜塔莎",
+              "text": "倒也没太大关系，我看那两个孩子精神得很呢。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "奥列格大叔是想谈谈史瓦罗的事吧？我们得走了，不好意思，娜塔——伤员就麻烦你啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "娜塔莎",
+      "text": "放心吧，祝你们顺利啊。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得角色娜塔莎"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与同伴及奥列格会合"
+    },
+    {
+      "type": "objective-description",
+      "text": "娜塔莎告诉你，三月七和丹恒正和「地火」首领奥列格在一起。看来在你离开的时间里，你的同伴也在有条不紊地进行着各自的工作——\n至少，他们这次没有丢下你跑去和小朋友捉迷藏，或者是去拳馆赚外快…\n总之，现在就出发与同伴会合，看看他们的工作成果如何吧。",
+      "location": ""
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "呵……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "怎么，这就困了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "你不累吗？一晚上没休息了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "我的最高纪录可是六天不合眼，你还得加把劲啊。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "见到同伴和奥列格…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "嘿！他们总算回来啦。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "没打招呼就消失了，抱歉。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "哈，这有什么，不打招呼就消失的纪录保持者在这儿呢！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "不知道你骄傲什么。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "别担心，我毫发无损。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "…呃，我没担心你。要说的话，我也是担心布洛妮娅呀。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "你明明担心得坐立不安。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "哈哈哈，这下人都齐了，那我就直入主题——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "关于你们上次说的「星核」，还有在上层区的遭遇，这两位年轻人又从头帮我捋了一遍。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "上次见到可可利亚，她还是个做派强势的小丫头…没想到当上守护者以后……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "只能说，我对你们的遭遇表示同情。放心吧，「地火」不会干背后捅刀子的事儿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "虽然你们的计划跟矿工喝醉以后的胡言乱语差不多，但至少指了条路。下层人早已无路可走，事已至此，我宁愿在你们身上赌一把。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "放心吧大叔，我们会证明你没信错人！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "也不是矿工喝醉以后的胡言乱语。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "好！那就把目光放得现实一点儿，你们几个想知道「星核」的下落，而我们「地火」想解除下层区的封锁——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "也就是说，我们的目标都是史瓦罗。不解决那个「大佬」，后面的东西都是废话。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "没错，我们去打倒史瓦罗！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "先礼后兵，还是先考虑和平沟通吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "奥列格",
+              "text": "你俩说的都有道理，我们当然想尽量和平解决问题，避免损失。但是假如情况有变，那我们也得时刻做好使用武力的准备。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "得想办法让他站在我们一边。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "希儿",
+              "text": "哼，他是个机器人，听得懂什么？直接砍翻那坨废铁最快了！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "奥列格",
+              "text": "没错，我们得做好两手准备。能和平解决问题当然最好，但假如情况有变，也得时刻做好使用武力的准备。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "「地火」多次尝试跟史瓦罗接触。但每次都被拒之门外，那家伙压根不打算跟我们对话。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "以我们的实力，来硬的风险极大。史瓦罗的机器人不怕牺牲，我却不想拿下层百姓的命冒险。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "但现在不一样了，你们的到来让史瓦罗也承认「出现外来变量」，事情发生了变化，我虽然不清楚原委——但也许你们有机会说动他。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "那是最好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "哈哈哈哈！瞧咱们这小算盘打的？想得是真美呵。唉，等你们真到了史瓦罗的地盘就懂了，这地下从来就没有那么顺利的事儿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "怎么说，铁卫丫头？我们这一圈人里，就你没有必须跟史瓦罗死磕到底的理由。我倒想听听你的打算。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "布洛妮娅",
+      "text": "下层区也是贝洛伯格的一部分，如果史瓦罗的存在威胁到了这里的居民，我当然站在你们这一边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "哈哈哈，很好！不愧是要接过守护者担子的姑娘，觉悟很高啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "既然我们统一战线，就没必要再耽搁了。走吧，我安排了向导带你们去找史瓦罗。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你不一起来吗？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "那「地火」在干嘛？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "「地火」一向跟史瓦罗交恶，跟着你们只怕引起误会，帮了倒忙。我们会在不远处待命，如果事态不对，「地火」立刻赶到。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "奥列格",
+      "text": "希儿，再带外来者朋友一程吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "希儿",
+      "text": "交给我吧，头儿。"
+    }
+  ],
+  "warnings": []
+}

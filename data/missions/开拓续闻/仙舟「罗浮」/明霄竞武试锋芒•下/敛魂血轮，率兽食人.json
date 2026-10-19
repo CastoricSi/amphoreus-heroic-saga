@@ -1,0 +1,461 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "敛魂血轮，率兽食人",
+    "pageId": 13859,
+    "revisionId": 48452,
+    "parentRevisionId": 44328,
+    "revisionTimestamp": "2024-12-16T12:04:45Z",
+    "fetchedAt": "2026-09-28T00:20:44.377Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%95%9B%E9%AD%82%E8%A1%80%E8%BD%AE%EF%BC%8C%E7%8E%87%E5%85%BD%E9%A3%9F%E4%BA%BA",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%95%9B%E9%AD%82%E8%A1%80%E8%BD%AE%EF%BC%8C%E7%8E%87%E5%85%BD%E9%A3%9F%E4%BA%BA&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "敛魂血轮，率兽食人",
+    "region": "仙舟「罗浮」",
+    "type": "开拓续闻",
+    "version": "2.5",
+    "number": "06",
+    "series": "明霄竞武试锋芒·下",
+    "description": "随着呼雷下达宣战的豪言，潜迹于街巷间的步离狼卒展开了猎杀。猎狼的猎人该如何面对狡诈凶兽的围猎？",
+    "requirements": "完成任务竞武云巅，孺子问剑",
+    "requiredLevel": "21",
+    "characters": [
+      "飞霄",
+      "彦卿",
+      "貊泽"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "200"
+      },
+      {
+        "item": "星琼",
+        "amount": "30"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "2"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "2"
+      },
+      {
+        "item": "信用点",
+        "amount": "20000"
+      }
+    ],
+    "previousMissions": [
+      "竞武云巅，孺子问剑"
+    ],
+    "nextMissions": [
+      "天击长驱，镇绥无虞"
+    ],
+    "objectives": [
+      "寻找貊泽的位置"
+    ],
+    "synopsis": [],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "长乐天…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "报告将军，队伍已各就其位。天舶司对星槎航道的管制也全部完成。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "让所有机巧鸟动起来，扫描每个打算出入港口的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "时刻戒备，一旦有可疑的异动，要在最短的时间内对其进行压制，避免事态扩散。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "是！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "彦卿，开拓者，随我来。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找貊泽的位置"
+    },
+    {
+      "type": "objective-description",
+      "text": "在释放诱饵后，天击将军真正的追猎开始了。云骑军锁定呼雷的所在，开赴长乐天。而呼雷所宣告的袭击也即将开始。",
+      "location": "仙舟「罗浮」-长乐天"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "貊泽的信号就在附近。但是在一刻之前，他断开了联系……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "莫非……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "他会没事的。云骑，搜索目标！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "都给我退开……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是貊泽…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "将军，看那儿…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "等等，别靠近。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "将军…我失手了。那条疯狗把我留在了这儿，是要向你……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "宣战。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神色不善的狐人",
+      "text": "是啊，我可是一直强忍着撕开他喉咙的冲动。毕竟，呼雷大人命我们留在此处，就是想看看……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神色不善的狐人",
+      "text": "你这位大名鼎鼎的天击将军，步离人的死敌，有没有能耐陪他一同进行…这场狩猎游戏？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "步离人现出原形…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "狩猎可不是什么游戏。它是一场你死我活的战争，准备好受死了吧？孽物！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "步离人",
+      "text": "贱畜，受死！受死！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "省省力气，给我收声！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "步离人",
+      "text": "别得意…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "步离人",
+      "text": "战首为你们准备了…一条死路…"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得胜利"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "貊泽，你没事吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "我…没能救回椒丘。呼雷比我想像得更狡诈，也更难对付。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "说说看，他打算怎么向我宣战…是单枪匹马的决斗？还是交换人质？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "呼雷计划袭击罗浮仙舟上的闹市。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "你说什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "这怎么可能？就算还有潜伏的步离人伪装者没能揪出来，呼雷这一行也不过数十人，他打算同时袭击罗浮仙舟的闹市？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "这才是那家伙的底牌。呼雷的体内潜藏着步离人之间世代传承的寿瘟祸迹。我亲眼看见他将一个狐人转变成了步离狼卒……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "这就是呼雷的「宣战」。他的血…能让狐人迅速扭曲变形、陷入疯狂，他将自己的血交给了手下，想在罗浮各处散布，掀起恐慌！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "也就是说到处都会发生袭击？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "飞霄",
+              "text": "想以一己之力「包围」我们…还真是个出人意料的怪物。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "赶快疏散所有狐人吧！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "立刻联系天舶司和云骑，启动通行禁令，要求所有的狐人闭门不出。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "在看到敌人下战书的那一刻，就意味着对方已经开始行动了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "貊泽",
+      "text": "可是…一旦呼雷制造的恐慌蔓延开来——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "还记得我告诉你们的吗？狩猎，应当考虑猎物的所想，而不是一味追逐猎物的踪迹。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "呼雷想要的就是罗浮上所有人陷入恐慌，他想看我们自乱阵脚，用有限的人力在罗浮每一寸土地上捕风捉影，寻找袭击到来的征兆，最后筋疲力尽。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "就像曜青人宴饮时爱玩的游戏：用几个碗盖住一样物什，移来换去，最后要你猜猜东西藏在哪个碗底下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "但在我看来，这些都不过是障眼法——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "无论呼雷做什么，都没法改变一个事实：他被困在了罗浮仙舟上。想要逃离此处，唯一的办法就是寻到船只。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "他唯一能看到的船…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "只剩下天空中的竞锋舰了？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "眼下…他唯一能看到的船，只有天空中的竞锋舰了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "对他而言，那上面有数不清的人质。那里会是最理想的去处，也是我们最后的战场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "可如果我们猜错了…他去了别处，又或者就像他所说的——他的爪牙会带上狼血在各处感染狐人掀起混乱…我们又该怎么办？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "难道我们要放弃那些「可能性更小」的地方吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "这就是你在剑术之外要学的另一课：「权衡」和「取舍」，我们永远在扪心自问却又永远无解的问题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "在做出决定前，我们要杀死内心的犹豫；在做出决定后，我们要和悔恨缠斗。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "我们可能会选错方向，令无辜的战友白白牺牲；我们可能猜对了敌人的动向，却错估了对手的实力，折戟败北……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "但犹豫不前比犯错更加致命。无论如何，我们都要作出决定。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "各位，听我命令。我会坐镇星槎海，疏散人群，应对所有可能到来的袭击。我会倾全力迎战，确保地面的安全。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "{{开拓者|无名客}}，请你像建木重生时那样，助仙舟一臂之力。我要拜托你和貊泽在这儿搜寻椒丘的下落。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "交给我吧！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "将军，请将竞锋舰的安全交给我！我本该出现在擂台上，现在我也必须重新回到竞锋舰上去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "如果呼雷袭击了竞锋舰…彦卿骁卫，请你务必尽力困住他，直到我赶来为止。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "将军应当对我有信心。若他敢登上竞锋舰，彦卿以手中之剑起誓，绝不让他逃离！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "随着云骑开赴各处，封锁与排查迅速展开。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "此时，在长乐天，云骑正列阵待命……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "诸位！在仙舟的疆域上，步离人竟然狂妄地向我们发起挑战，放言要血洗仙舟的闹市街巷！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "我们的身后，是手无寸铁的仙舟百姓和迢迢而来的旅客。试问，身为云骑军人，我们能让步离人的计划得逞吗？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑军",
+      "text": "绝不允许！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "随时戒备！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "呼叫星槎海，所有云骑全面戒备，防范步离人的袭击！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空的通讯",
+      "text": "飞霄，星槎海各处巷道中都有狼形生物在高速移动——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "飞霄",
+      "text": "撑住，我马上就到！"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,1586 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "重逢啊，笑泪相拥的约定",
+    "pageId": 24078,
+    "revisionId": 77812,
+    "parentRevisionId": 70640,
+    "revisionTimestamp": "2026-02-12T19:23:28Z",
+    "fetchedAt": "2026-09-28T00:18:49.062Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E9%87%8D%E9%80%A2%E5%95%8A%EF%BC%8C%E7%AC%91%E6%B3%AA%E7%9B%B8%E6%8B%A5%E7%9A%84%E7%BA%A6%E5%AE%9A",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E9%87%8D%E9%80%A2%E5%95%8A%EF%BC%8C%E7%AC%91%E6%B3%AA%E7%9B%B8%E6%8B%A5%E7%9A%84%E7%BA%A6%E5%AE%9A&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "重逢啊，笑泪相拥的约定",
+    "region": "翁法罗斯",
+    "type": "开拓任务",
+    "version": "3.6",
+    "number": "08",
+    "series": "于长夜重返大地",
+    "description": "与「长夜月」的交涉并不顺利，在千钧一发之际，三月的相机成功将「长夜月」拖入到哀丽秘榭的记忆迷宫中。小三月也得以与长夜月有一番面对面的交谈，「长夜月」将继续沉睡，而三月七得以醒来，并与你们再次重逢。",
+    "requirements": "完成任务大墓啊，深藏轮回的秘密",
+    "requiredLevel": "21",
+    "characters": [
+      "长夜月",
+      "三月七",
+      "昔涟",
+      "丹恒",
+      "大黑塔",
+      "黑天鹅",
+      "星期日"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "星琼",
+        "amount": "50"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "4"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "4"
+      },
+      {
+        "item": "无序秘酿",
+        "amount": "160"
+      },
+      {
+        "item": "信用点",
+        "amount": "50000"
+      }
+    ],
+    "previousMissions": [
+      "大墓啊，深藏轮回的秘密"
+    ],
+    "nextMissions": [
+      "诸神啊，奏响创世的凯歌"
+    ],
+    "objectives": [
+      "与长夜月交谈",
+      "前往水边，寻找三月七"
+    ],
+    "synopsis": [
+      "识刻锚失效，长夜月隔离你和丹恒，质疑你们的「开拓」精神。迷迷再次出现并将长夜月禁锢，请你用三月七的相机为长夜月拍照。",
+      "在拍照之后，长夜月被拖入哀丽秘榭。三月七的精魄曾藏匿于此，并在你为欧洛尼斯拍照时钻入相机中，自此陪你走过在翁法罗斯的漫长旅程。藉由昔涟的讲述，三月七找回了曾在星间旅行的记忆。三月七告诫长夜月，无名客不应替别人做出决定。",
+      "三月七向长夜月展示由精魄变成的手账，其内容由相机中的照片构成。这就是「记忆」，也是三月七一路以来的「开拓」。",
+      "跃迁前夜，三月七向你和丹恒分享在贝洛伯格取得的纪念品笔记本。三月七希望你们好好练习拍照技术，而她会将照片记录在手账上。",
+      "以藏在相机里的形式，三月七与你们一路走到了现在。探索，了解，建立，连结，在名为「翁法罗斯」的英雄之旅中，也写下「三月七」的名字。",
+      "昔涟向长夜月解释翁法罗斯在这一世遭遇的巨大变数——刻律德菈曾献上一位半神的性命，改写了一条「律法」。",
+      "刻律德菈牺牲自己，为最后的「再创世」添加了一道规则：若遇异常，立即剔除所有外来因素，铸就「毁灭」。长夜月经过权衡，同意交还记忆。",
+      "在星期日的调律帮助下，你与丹恒来到哀丽秘榭。三月七此刻就在这片忆域中。",
+      "你与丹恒看到「长夜月」的背影，心存警惕。然而对方却接上了你与丹恒交流的暗号：「观隅反三，君命无二，凭城借一。」",
+      "「长夜月」缓缓转身，露出令你再熟悉不过的温暖笑容。终于，你与丹恒找回了星间同行的好伙伴——三月七。",
+      "你与丹恒、三月七分享着重逢的喜悦，约好一起继续「开拓」。与此同时，长夜月最后一次行使「忘却」，将「无漏净子」从三月七的记忆中抹去。"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#于是，金色的血流淌而出、通往群星的轨道#你永远不会独行",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "——该结束了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "把「三月七」还给我们，停止这场无意义的争端。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你还要旁观到什么时候？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "无名客从来都是自己上阵。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "别想多了。我只是需要一点时间，来解决不必要的麻烦……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "天才们编写的密钥——现在已经失效了哦♭"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "先来玩个游戏吧，亲爱的开拓者？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "放心，用不了多长时间。只是一道简单的选择题，A或者B。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "我能理解，将黄金裔们当作演算的数据，对你而言太过困难。那不妨先假设他们是活生生的人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "现在，银河将要面临一场空前的浩劫，你的选择关乎无数星球的存亡。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "一边是与你同舟共济的伙伴：他们竭力抗争，争取到1%的胜算。但如果选择那1%，无论结果如何，都将伴随巨大的牺牲。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "另一边，则是一个简单的按钮：「忘却」会烧尽他们存在的痕迹，你对这段旅途全部的记忆。但它能令酝酿中的灾祸骤停，让宇宙免于「毁灭」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "对于你要做出的决定，被牺牲的人们将完全知情，不掺杂任何隐瞒或欺骗……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "告诉我，你会如何选择？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "别想用电车难题糊弄我。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "过时的话题，没必要讨论！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "凭什么只有1%？",
+          "content": []
+        },
+        {
+          "id": 4,
+          "text": "你偷换的概念可不止一条。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "你说得对。这个选择没有意义，也不重要。唯一有趣的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "是做出选择的人数。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "与此同时，我向丹恒提出了同样的问题。答案无关紧要，让我瞧瞧——「开拓」的精神，是否真如你们声称的那般一心同体。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "现在，证明给我看吧？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "等一下——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "昔涟？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "激动人心的「英雄救美」…再度上演！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "还觉得自己能做什么吗，粉色的小忆灵？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "除了还算伶俐的口齿，你有什么能和我抗衡的武器？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "可别把人家看扁了呀？除了口才和魅力——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "「——激起往昔的涟漪！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "这是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "关键时刻，我们才不会滔滔不绝呢！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "大意是你的软肋，长夜月。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这些忆灵是？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "不讲武德，干得好啊！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "快，开拓者！拿上这个——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "按下快门！人家——坚持不了太久！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "拍你吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "昔涟",
+              "text": "怎么可能！当然是…「长夜月」小姐！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "拍她吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "昔涟",
+              "text": "对、对好焦再拍！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "没时间解释了——快！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "干得好，开拓者！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "接下来，就交给「我们」吧！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与长夜月交谈"
+    },
+    {
+      "type": "objective-description",
+      "text": "说起来，长夜月已经帮了三月七很多了…她究竟是敌是友，或许最好的方式是面对面谈谈。",
+      "location": "翁法罗斯-相机里的世界"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "这里是，用某人的「记忆」制成的光锥……？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "啊，还有谐乐盘绕其中。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "看来，有人在我看不见的角落付出了许多努力呀……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "又见面了，天真的「我」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "虽然知道你是诚心诚意在夸我……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "但「天真」这两个字，还是还给你吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "欢迎来到哀丽秘榭，{{永夜之帷|岁月之泰坦}}包围的小村庄。现在，这道回忆也属于你……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "以彼之道，还治彼身。我以故乡为灵感打造的「迷宫」，长夜月小姐，希望你喜欢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "悟性很高呢，小忆灵。但只凭你和「同谐」的小鸟——想困住我，多少有些勉强了呀？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "所以，和我说说吧，「你」又在其中发挥了什么作用？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "是啊，真没想到…另一个「我」居然强得这么不像话……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "还好还好，至少在「头脑」方面，咱还算占了上风！本姑娘的绝妙计策，完全超出你的想象。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "喔…是那个时候？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "在你我易换身体的瞬间，你用稍纵即逝的最后一丝心识……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "将{{自己|空无的精魄}}藏进了泰坦的帷幕啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "呀，怎么一下子就被猜出来了…真没悬念！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "但我的计划可一点也不脆弱！没人比我更懂开拓者和丹恒。既然约好了，他俩就不会食言——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "无论史书、日记，还是留影石机，都是「记忆」绝佳的触媒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "没错！当我听见开拓者按下快门的声音，就算精神只留下一点点残余……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "也会「咻」地一下，自己钻进相机里去！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "可这样看来，巧合的成分…是不是还挺大的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "怎么会！既然说了要给我拍照，开拓者肯定会在翁法罗斯四处按下快门。我总有机会等到他/她。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "你确实很了解他/她呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "「长夜月」小姐，以我现学现卖的本事，想困住你当然不现实。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "但如果「三月七」也在场，局面就不一样了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "因为你无论如何都无法忽视她，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "可以，那让我拭目以待。绕了这么远的路，你接下来打算怎么做？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "首先，我要谢谢你保护了开拓者和丹恒。但后来，你做的事就太过火了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "趁一切还来得及，我必须让你回心转意才行！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "有一件事的确令我困惑……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "在献出一切「记忆」，化作空无的精魄后，你是如何找回自我的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "看来你也不是全知全能嘛？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "答案很简单：这一路上，「我」一直沉睡在相机里，陪着开拓者走完了全程。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "而这一世，在他/她和昔涟讲述星际旅行的时候，那些与列车同行的回忆也钻入了我的脑海……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "虽然还远远称不上「完整的三月七」，但用来和你对峙…这些「记忆」足够了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "…呵。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "所以，前因后果你都知道，对吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "那就说说看吧，你有信心说服我的理由。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "理由什么的，不是再简单不过了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "哪怕只是透过镜头，我也知道，发生在翁法罗斯的爱、恨、挣扎，跟活生生的人没有区别。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "话题又绕回了原点呢，我已经让开拓者做过一次选择了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "天秤两端的配重，相差太过悬殊。在「毁灭」的威胁面前，追求两全其美…只会两害得兼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "可是，在提出这个问题前……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "你有想过吗？我们…有什么资格替别人做出决定呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "假如银河是一座更大的奥赫玛，里头住着一位「凯撒」，那她也许可以替所有人做主，称量天秤两端的重量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "但别忘了，我们只是一群「无名客」——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "就算被人口口声声「救世主」、「救世主」地叫着，我相信开拓者也没有忘记过……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "「开拓」的意义是「探索、了解、建立、连结」，是与无数世界同行，而不是高高在上的「拯救银河」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "所以，别想用什么「牺牲在所难免」来绑架我，列车组对这些毫无根据的指责是免疫的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "况且——我只是打个比方——只要黑塔女士愿意，她随时可以掏出虚数武器，把这台「权杖」炸个灰飞烟灭。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "用你的话说，跟一位绝灭大君可能造成的威胁相比，区区几个无名客的命又算得上什么呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "但她没有这么做，而你，也不会同意这件事，对吧？我早就发现了，你也有一项致命的弱点……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "那就是「我」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "明明拥有这么蛮不讲理的力量，却还是遵守了对我的承诺。我只能认为……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "你所有行动的「原动力」，只是为了让「我」能继续旅行下去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "呵……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "你好像，确实没有那么天真呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "既然如此，我可以向你证明。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "不是替别人——而是替「自己」给出回答。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "来——抱着它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "空无的精魄……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "细究的话，现在它才算是我的本体。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "构成它的记忆，全部来自相机中的照片，也就是我一路以来的「开拓」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "我醒着的时候，你一直都在沉睡。泛泛而谈，在你听来多半没有实感……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "所以现在，我带你重新回忆一遍吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "精魄，变成了一本手账？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "没错，这就是「记忆」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "你不清楚它存在于哪里，也不知道留下的是哪些。但在最需要它的时候，那些改变过你心灵的力量……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "一定会再度浮现。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "跃迁仙舟「罗浮」前夜 星穹列车"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…怎么样，开拓者？第一次「开拓」之旅，感觉如何？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "很有趣。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "以后还是得注意安全。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哎呀，丹恒老师，咱们今晚是来给开拓者庆祝的，就别说这种扫兴话啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "别听他吓唬人。跟你讲，本姑娘也算半个「开拓」专家——跟着咱走，准没事～"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你管这趟叫「没事」吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那、那还不是因为网上只能搜到七百年前的攻略！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "看来…你们去过很多地方了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那是当然：热夜之都、凯尔萨斯星、泰科铵…掰掰手指，这该是我的第六站啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "纪念品都在房间里呢，不过没来得及收拾。回头整理好了，再给你好好炫耀吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "看——贝洛伯格的笔记本，我特地问布洛妮娅要的纪念品！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "她给咱们准备了好些礼物呢：地髓原矿、大守护者奖章…不过，我只要了这个小本本。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "它有什么特别的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "先前几次「开拓」，去的尽是些高科技世界——别说纸书了，就连全息投影都算老古董。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "雅利洛就很不一样，看着大家用纸笔记录生活，我才明白为什么会有人还在坚持制作手账。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "就像「书法」。深藏于人心底的感动，只有靠这种看似吃力不讨好的方式才能唤醒。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "丹恒老师…还真是心有猛虎，细嗅蔷薇！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "但咱也这么想的。相机只能拍下瞬间的{{风景|「记忆」}}，但要把那些切片连缀成人生，还是得靠{{自己的双手|「开拓」}}才行……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "简单来说，光拍照不行，相片总要有个地方供人展示嘛~"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "有照片墙还不够吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "都说了不一样。而且，这个小本本是咱和开拓者第一次共同「开拓」的纪念品！意义可就更重大了，嘿嘿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这么说来，下一站就是传说中大名鼎鼎的「盛会之星」，匹诺康尼……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "到时候，我可要使劲拉着你们合影，把储存卡都塞满！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我没意见。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "还有——以后要是哪一站，咱忙别的下不了车，这台照相机就交给你们了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我可不想错过任何一次「开拓」——你们得好好练习技术，争取拍得有我八成好，听到没？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "当时，我也只是半开玩笑。没想到才过两站，咱就真的缺席了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "独自度过的那97天，可把我紧张得不行，以为这辈子都要交代在这儿了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "还好，本姑娘胆大心细、足智多谋，才没落在开拓者和丹恒身后……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "以藏在相机里的形式？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "那怎么啦？那也算是「开拓」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "「照相机才是我的本体」——这句玩笑话，这次不就成真了嘛？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "虽然是很不方便啦：遇见危险没法出手；有人说怪话没法吐槽；看见开拓者拍烂片，我甚至都没法控制快门……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "但无论如何，我还是和他们一路走到了现在——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "{{和大家一起认识这个濒毁却美丽的世界，为逐火之旅夺得第一枚火种——|「探索」}}"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "{{和新的伙伴相遇，又与新的伙伴离别——|「了解」}}"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "{{继承大家的决心，将其带向他们为之牺牲了一切，却又无缘看见的未来——|「建立」}}"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "{{直到和这个世界的命运融为一体，改写注定走向悲剧的结局，和所有人一起重返真正的星空——|「连结」}}"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "只有这样，我才能在这场名为「翁法罗斯」的英雄之旅中……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "在这场前所未有的伟大「开拓」中，也写下「三月七」的名字！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "第 33550336 次永劫回归 光历4932年"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "征讨艾格勒前 某日"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "看来，我们在翁法罗斯的「开拓」，也要临近尾声了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "趁还有时间，一起挑挑吧？给三月做手账的素材。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "啊！这个必须得有——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这…你什么时候拍的，储存卡不是满了么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "不是还有手机吗？怕了吧，好玩到不行的「豹豹碰碰大作战」幽灵头号种子选手——豹子头·丹恒？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…我不同意，但你请便。我只是觉得，手账还是该以记录风土人情为主。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "奥赫玛、悬锋城、树庭…这几张都不错。不得不说，你的技术快赶上三月了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "不愧是我！啊对了，这张如何：{{永夜之帷，欧洛尼斯|岁月之泰坦}}，藏在迷雾背后的泰坦…够震撼吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这是真迷雾…还是你手抖导致的重影？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "哎呀，当时那场面多紧张，我只能抓拍，有就不错了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "咦…？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "刚才，是不是有什么声音？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "…三月七？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "兴许是照片捕捉到了一丝「岁月」的神力，给你重放了回忆中的幻听。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "呃…行吧，那咱们继续……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "要是三月在，肯定能提供不少好点子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "嗯……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "他们就这么你一言我一语，商量了好几个小时。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "就像在争玩什么游戏，怎么背着帕姆从餐车偷夜宵，谁来洗姬子姐姐的咖啡杯——就像列车上的每一个夜晚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "他们一直都在我身边。没人知道我被遗忘的过去，也没人会心有芥蒂。因为……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我们无法回到过去，做出更好的选择。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "但至少，我们会在未来做得更好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "你说，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "我没有忘记，你第一次换上这身衣服，看向镜子的那天。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "你的眼睛很清澈。当一切过去，我希望镜子映出的，依旧是那双眼眸。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "看吧，你也很天真啊。总是希望镜子映出最美的一面……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "可是你又不愿相信镜中的自己，如果总是想要替我扛下所有……那咱可真要变成花瓶，永远等不来主场啦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "是啊，我完全能理解，三月七。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "我只拥有「你」的记忆，而你…一直是「我」想被世界看见的样子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "能从你口中听见这句话，我已经心满意足了呀。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "动之以情的部分，我做到了。至于晓之以理……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "就麻烦昔涟姑娘啦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "我在呢。终于轮到人家了呀？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "长夜月小姐，你的目光一直紧盯着自己的目标，恐怕都没有意识到……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "这一世，翁法罗斯出现了一个巨大的变数。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刻律德菈",
+      "text": "翁法罗斯濒临毁灭，已容不下无意义的争辩。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "刻律德菈",
+      "text": "为了这场救世之战，我要倾覆的「律法」只有一条，要献上的半神也只有一位——"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "凯撒以自己的性命为代价，为最后的「再创世」添加了一道规则：如此，刻律德菈才能确保翁法罗斯不会成为银河对垒的牺牲品——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "就算只能以铁墓的形式，这个世界也能如她所想那样，自立于星间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "…哦？有意思，她要怎么做？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "很简单：「如果『再创世』过程中发生任何异常，立即剔除所有外来因素——无论『记忆』，还是『开拓』——十二枚火种将以最纯粹的『毁灭』完成最后的『再创世』。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "孤注一掷么…狠毒的凯撒，莫非她早就察觉到了「记忆」在暗中布局？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "你骗过了所有人，她更不可能知道你的计划。修改这条律令只是出于保险：防止星穹列车和天才们在她陨落后背叛翁法罗斯。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "但现在，如果你执意要这么做，银河无疑会落入最糟糕的结局……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "{{开拓者|伙伴}}、丹恒，还有三月七，都将与权杖合为一体，坠入「毁灭」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "呵……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "你…一直都知道？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "嗯。但我还是决定，要先和你把心里话说开才行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "即便内在是一片「长夜」，我也不会害怕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "因为此行的终点是群星，我相信，前方的风景足以将昨天照亮。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "谢谢你的…溺爱。但现在，请安心把它交给我吧。无论是我的过去，还是那道「忘却」的执念……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "它们都能帮助我，变得比开拓者和丹恒更强！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "成为你旅途上的一道阻碍，我很抱歉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "别道歉呀，「长夜月」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "我们本就是同一面镜子映出的表里，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "所以，当我们告别分裂，合二为一……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "「记忆」只会变得更加美丽。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "感激不尽，星期日先生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "她们…就在这片忆域中么？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "相信三月七和昔涟。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "嗯，但不能放松警惕。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "千万不能放松警惕。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "嗯，相信三月七和昔涟吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "走吧，去找到她们。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往水边，寻找三月七"
+    },
+    {
+      "type": "objective-description",
+      "text": "小三月到底会怎么样…坐在那里的，究竟是小三月，还是长夜月？",
+      "location": "翁法罗斯-相机里的世界"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这里，安静得有些异常……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "三月七不在……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」？",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "准备好。这一次，决不能给她任何机会……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "观隅反三……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "君命无二……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "凭城……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」？",
+      "text": "借一？"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "三月？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "当然是我啦。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "好久不见。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "三月，欢迎回家！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "嗯，我回来啦。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "终于……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "终于，能和你们说上话了呀！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是你保护了我们…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "你拯救了我们，三月。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "真的吗？那…真是太好了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "「长夜月」…她消失了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "她…已经回到长夜中沉睡啦。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "你保护了我们，三月。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "别哭啊，再哭我要讲笑话了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "这种场合，怎么可能忍得住嘛！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "你保护了我们，三月。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "咱明明都想好了那么多重逢的方式…本来准备趁你们不注意，在后面偷袭，一人肩膀拍一下，再各给一个脑瓜崩……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "还要大声说：「怎么让我等了那么久！不知道要走快一点嘛？」"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "无论如何，我们都会重逢。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "不许这么正经…！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "明明…是我们先来的…呜呜…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "你…你怎么也！再这样的话…眼泪…会止不住！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我…真的好开心……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我和开拓者都知道了，这一路上…你一直就在我们身边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "这场「开拓」，有你在才算完整。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我们不止要一起开拓未来，拯救世界……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "还要一起回到列车，走向下一站。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "——嗯，在完成这场「开拓」以后，手拉手一起回家！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "「新的生命若要萌芽，它的种子须是死的」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "三月七，在你告别过去，从六相冰中诞生的时候……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "你想过，该映出一个怎样的自己吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "如今，我无意代你做出选择，因为你已决定自己的下一站。所以，让我最后一次行使「忘却」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "让「无漏净子」这个名字，从你脑海中褪去吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "我只拥有「你」的记忆，是为保护你而存在的执念。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "所以，我唯独能确信：流光忆庭是你的敌人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "「记忆」的命途，绝不止于世人表面的理解。而在这场破碎的阴谋中……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "我绝对不能，让你成为下一个牺牲品。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "来日若有需要，就随时唤醒「我」的力量吧。必要的时候也可以决绝一些，去吞噬、烧毁那些烦心的障碍……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "代我在黑暗中「开拓」，一如既往……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "{{「忘却」|「神秘」}}会守望你的来路，如长夜般隐秘，永远安宁♭。"
+    }
+  ],
+  "warnings": []
+}

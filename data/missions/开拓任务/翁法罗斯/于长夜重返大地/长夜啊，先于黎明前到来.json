@@ -1,0 +1,1137 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "长夜啊，先于黎明前到来",
+    "pageId": 24041,
+    "revisionId": 77805,
+    "parentRevisionId": 69542,
+    "revisionTimestamp": "2026-02-12T19:20:26Z",
+    "fetchedAt": "2026-09-28T00:18:38.578Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E9%95%BF%E5%A4%9C%E5%95%8A%EF%BC%8C%E5%85%88%E4%BA%8E%E9%BB%8E%E6%98%8E%E5%89%8D%E5%88%B0%E6%9D%A5",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E9%95%BF%E5%A4%9C%E5%95%8A%EF%BC%8C%E5%85%88%E4%BA%8E%E9%BB%8E%E6%98%8E%E5%89%8D%E5%88%B0%E6%9D%A5&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "长夜啊，先于黎明前到来",
+    "region": "翁法罗斯",
+    "type": "开拓任务",
+    "version": "3.6",
+    "number": "01",
+    "series": "于长夜重返大地",
+    "description": "你与海瑟音告别决心完成「再创世」之际，意识到了这是「长夜月」意欲窃夺创世成果的陷阱，她希望你来选择哪些记忆被留下，哪些被忘却…原来，三月七早就在你和丹恒到达翁法罗斯之前就已经到达这里，在苦苦开拓无果后，为了保护你和丹恒，三月七主动放弃了「记忆」，将自己的身与心都交给了「长夜月」。",
+    "requirements": "完成任务囚人啊，踏过日影见沧溟",
+    "requiredLevel": "21",
+    "characters": [
+      "长夜月",
+      "海瑟音",
+      "昔涟",
+      "来古士",
+      "那刻夏",
+      "螺丝咕姆",
+      "黑塔",
+      "赛飞儿",
+      "三月七",
+      "「长夜」"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "200"
+      },
+      {
+        "item": "星琼",
+        "amount": "50"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "4"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "4"
+      },
+      {
+        "item": "无序秘酿",
+        "amount": "160"
+      },
+      {
+        "item": "信用点",
+        "amount": "50000"
+      }
+    ],
+    "previousMissions": [
+      "囚人啊，踏过日影见沧溟"
+    ],
+    "nextMissions": [
+      "归途啊，近在咫尺难抵达"
+    ],
+    "objectives": [
+      "继续「开拓」之旅"
+    ],
+    "synopsis": [
+      "在创世涡心，你将「负世」的火种归还。不过，你总感觉有些违和感——似乎无人知晓「岁月」的火种何时被归还。",
+      "藉由炼金术式，那刻夏得以融入来古士的意识中，翻阅其知识库。来古士称这场谈判即将被「记忆」介入，而昔涟已于不知何时消失。",
+      "「长夜月」现身创世涡心，自称是三月七燃尽记忆后的映影。「岁月」火种其实从未被归还，长夜月将其藏于你身，以此助她来到创世涡心。为对抗铁墓，长夜月想要过滤你的记忆，剔除其中杂质，来创造一个无瑕的「翁法罗斯」。",
+      "进入翁法罗斯后，三月七以迷因状态走遍世界。为寻求保护你和丹恒的方法，三月七向长夜月献出她的全部记忆。",
+      "「长夜」接受三月七所献出的全部记忆，化身为长夜月。"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#聆听我，甜蜜的黑暗",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "fold",
+      "title": "前情提要",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "在哀丽秘榭，我与昔涟相遇，并联系到了螺丝咕姆和黑塔。他们指出必须在新的世界循环中取得「负世」的火种，但来古士将成为我们的阻碍，要依靠「律法」的力量与之抗衡。\n我们回到了第一次逐火之旅的时代，与曾经的逐火英雄们相识，包括掌权的「律法」黄金裔刻律德菈，以及为她效命的「海洋」黄金裔海瑟音。\n要点亮「律法」，必须先战胜封锁涡心的法吉娜。但在战前的宴会中，我们却发现来古士已与掌权的刻律德菈达成合作。我在争执中被驱逐至世界之外，刻律德菈也因此与来古士决裂。\n在黑塔的提示下，我得到了流光忆庭的帮助，离开了来古士的囚笼。而在命途空间中，与三月七样貌相同的神秘来客「长夜月」带来了「负世」的火种，并将我送回了翁法罗斯。\n在我离去的时间里，翁法罗斯的历史流逝千年。昔涟在荒废的奥赫玛城留下了过往的记忆：黄金裔与来古士进行了漫长的战争，付出了巨大的牺牲，为我铺就了再创世的道路。\n在斯缇科西亚的幻象中，我得知了海瑟音的故事与第一次逐火之旅的过往。在海中守候的海瑟音带我来到了涡心，而来古士也就此现身，揭露了真身——天才俱乐部#1，赞达尔。\n我与海瑟音难以抗衡赞达尔的力量，但天才们与昔涟及时出手，依靠「记忆」的力量令他退场。我成功扭转了再创世，减缓了铁墓诞生的进程，但似乎也有另一股势力蠢蠢欲动……"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "继续「开拓」之旅"
+    },
+    {
+      "type": "objective-description",
+      "text": "接过逐火之旅同伴的成果，承担起「负世」的职责，在海瑟音的见证下，完成「再创世」……\n不出意外的话，这便是此世旅途的终点。",
+      "location": "翁法罗斯-创世涡心"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "时间回到不久前，你归还了「负世」火种以后……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（终于走到了这里。交还这枚火种，由我成为「负世」的半神，就能终结翁法罗斯悲剧的轮回……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这一次「再创世」，就是和铁墓决战的舞台。）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（不过，总觉得有种违和感……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "虽然这一世，翁法罗斯没有「岁月」的半神，但「岁月」始终站在人类这边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "然后，就用这枚被「记忆」祝福的火种，回应他们的期许，开拓未来吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（奇怪，好像谁都没有提起过……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（「岁月」的火种……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "海瑟音",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（是什么时候归还的？）"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "当你们将忆质用作与我抗衡的手段，何不设想这样一种可能性……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "「记忆」和祂的孩子们，也将趁虚而入，抵达战场？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "你想说，流光忆庭也会来蹚这趟浑水？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "求之不得。要是忆者们能扰乱你的「毁灭」实验，我一定会为他们鼓掌的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "但你心知肚明，他们做不到。相反，窃忆者会成为你们的阻碍。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "忆者们觊觎翁法罗斯的秘密，正如他们觊觎每一位天才的知识。在星神的对垒中，「记忆」从来不是「智识」的盟友。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "但祂也绝不会是「毁灭」的盟友。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "现在，在「开拓」身后，正有众多银河势力将目光投向翁法罗斯。他们秉持的理念各不相同，但在共同的敌人面前，生存的意志会将人们团结。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "你又如何能确信，这些势力没有怀着自己的目的，企图为「列神之战」抢占先机？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "战争早已开始了，螺丝咕姆。四条命途会将银河推向终结，而「毁灭」只是其中之一。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "波尔卡看见了这道涟漪，她无法阻止，便创立第IX机关；原始博士也已采取行动，但他选错了盟友，只能与野兽为伍。至于两位无机帝皇……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "他们本可以登上「毁灭」的王座，却囿于星神算计，成了「智识」的囚徒。很有趣，二世身为血肉之躯，却自我认知为无机生命，猜猜看，是谁的阴谋？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "我们无意与阁下闲谈叙旧。逻辑：拖延时间，更证明你束手无策。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "呵呵…「束手无策」。是啊，回首过去，它始终是「赞达尔」人生的常态。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "但也正因如此，耐心才会成为鄙人最强有力的武器。我已经等待了很久，还可以等待更久。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "切勿质疑…一位已死之人跨越上千个琥珀纪的决心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "…也对，这样下去没完没了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "俱乐部的人个个特立独行，我们也没打算靠说服「打开」你的思维。既然辩论陷入僵局……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "就该轮到我出场了，对么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "阿那克萨戈拉斯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "…喔，原来如此。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "没错，这就是和聪明人打交道的好处，不必多费口舌，答案正如你所想——"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "回忆当初的计划"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "把计划告诉海瑟音，让她也加入战局。我会提前将自己炼成贤者之石，写入术式……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "届时，她要将我打碎，将尘砂撒入涡心的海洋。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "赛飞儿",
+      "text": "所以，你的术式到底有什么效果？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "这可是剧目的最高潮，怎能轻易泄底？"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "结束回忆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "要折磨一个安提基色拉人，我有一万种方法。而在开拓者经历的那段逐火之旅中，前世的我已经给出了最优解。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "就像泰坦寄宿在我脑内，我也可以藉由炼金，与你的化身熔合为一。不试不知道，真是精彩极了，竟能像翻书一般观览天才的知识库……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "然后，在最合适的时机登台，用真理结束一场漫长的辩论。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "就像我每次都能让台下的观众哑口无言。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "…你在数据的洪流中，蛰伏了上百年时光？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "那刻夏",
+      "text": "这片宇宙值得我投入这么多时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "多么荒谬，又令人称奇。竟能绕过「智识」的监视，在世界内部暗中布局。看来我对实验的判断，还是出现了一丝纰漏……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "喔，也许漏洞不止一处？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "黑塔",
+      "text": "「不止一处」？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "是我低估了「记忆」的手段。这场谈判，马上就要被第三者介入了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "各位还没意识到吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「赞达尔」",
+      "text": "从刚才起，我们是否都遗忘了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "螺丝咕姆",
+      "text": "昔涟小姐，她消失了？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "我本以为，就这么等候在忆域的角落，不会有人察觉……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "果然瞒不过你呀，亲爱的开拓者。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你…究竟是谁？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "看来对我这位不速之客，你已经不那么惊讶了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "三月七，我很想你…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "看来对我这位不速之客，你已经不那么惊讶了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "满是怀念的表情呢。但，我不是「她」喔？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你窃取了我的记忆？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "看来对我这位不速之客，你已经不那么惊讶了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "我不会做这种事，绝对不会。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "现在，只有你能看见我。为了不被打扰，我只存在于你的认知中。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "该谈谈你的事了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "你想问的，是「三月七」的事吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "可以。我喜欢直奔主题，就来谈谈你最该知道的一件事……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "三月七，她在哪里？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "她…不在哪里。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "看来，你还没做好最坏的打算呀。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你究竟有什么目的？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "时间不等人，开拓者。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "与其被细枝末节缠住，不妨先听听你最该知道的一件事。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "你的同伴「三月七」，已经不复存在了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不复…存在？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "没错，不复存在。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你把话说清楚！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "呵…和她预料的一样。你一旦得知真相，肯定会急得失了方寸。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我凭什么相信你？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "呵…和她预料的一样。你一旦得知真相，肯定会急得失了方寸。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "早在你和丹恒来到翁法罗斯前，「三月七」就先一步进入了这个世界。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "为了保护你们，她拥抱了「记忆」命途。如同迷雾中的烛火，将自己耗尽。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "而我，就是那烛光映出的影子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "一直以来，我潜藏在「岁月」的罅隙。要欺瞒一位天才并不简单。但我可以做到。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "现在，再来解开你的另一重疑虑吧：这一世的「岁月」火种，是由谁归还的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "答案很简单……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "这件事，从来没有发生过。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "「岁月」火种…没有被归还？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "果然，是你篡改了人们的记忆…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "我相信，敏锐的开拓者一定能察觉到端倪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "当「再创世」无法顺利进行，你就会回想起我们的初遇。借此，我便能开启「记忆」的信道，抵达这里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "谢谢你将它带到世界尽头，不愧是「三月七」信赖的同伴。现在……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "我要收下「岁月」的神权了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不惜欺骗所有人，为什么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "我在乎的事物不多，只有「三月七」和她珍视的伙伴。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "「岁月」的神权于你何用？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "我只关心三月七的安危！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "我说过，她已不复存在。但你还有机会弥补。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "神权并不重要。重要的是，我要以此介入世界的运转。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "「再创世」的原理，你已经很清楚了吧？以负世者的「记忆」为蓝本，开启下一世代的演算。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "这一不可动摇的实验机制，正是天才们对抗铁墓的关键。而现在，我要再为其增添一点小小的助力……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "让我过滤你的记忆，留下合适的种子，剔除其余所有。如此，我们便能完成一场空前绝后的「再创世」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "这不会花上太久，只需跟我一同步入感官之雨。我会告诉你，谁该被遗忘，谁该被铭记。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "以你的「记忆」为质料，我会重新编纂世界的因果，令一个无瑕的「翁法罗斯」从混沌中诞生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "这场战役关乎银河的命运，不是么？这是唯一的万全之法，它一定能战胜「毁灭」，为「开拓」写下浓墨重彩的一笔。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "不可能，我无法信任你。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "我不意外。但此刻，我不需要这份信任。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "谁会被遗忘？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "凡人、缺陷者、失败的英雄…他们无法滋养世界，只会成为「记忆」的杂质。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "他们也不该被遗忘。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "「长夜月」",
+                      "text": "可是被遗忘才是生命的常态。宇宙是一片堆满弃物的生荒地，偶有琳琅，但无人捡拾。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "「长夜月」",
+                      "text": "而且，这也是三月七所希望的喔。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "这么做与来古士毫无区别。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "「长夜月」",
+                      "text": "当然。要与一位天才相抗，你必须站在同样的高度。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "「长夜月」",
+                      "text": "而且，这也是三月七所希望的喔。"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "这么做与来古士毫无区别。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "当然。要与一位天才相抗，你必须站在同样的高度。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "而且，这也是三月七所希望的喔。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "你不是三月七，把她还回来！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "的确，我不是「她」。但我们的心灵紧密相邻。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "「长夜月」",
+              "text": "而且，这也是三月七所希望的喔。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "「新的生命若要萌芽，它的种子须是死的。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "在消失前，「三月七」向我许下心愿。她唯一的愿望，就是「开拓」的旅途能一直继续下去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "而这个单纯的愿望，我一定会替她实现。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你是在扭曲她的愿望！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "「开拓者，发生了什么？你的意识…突然变得好遥远？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "我向你承诺，星穹列车一定能在那新世界中重逢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "来吧，{{开拓者|亲爱的}}。沉入「忘却」的海洋，成为我的客人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "我们可以有很多、很多私人时间，而你无法拒绝我的邀请。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "因为这片忆潮正来自你的同伴「三月七」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜月」",
+      "text": "是她最深不见底的「记忆」。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "似乎是久远的记忆"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "其实，也没那么吃惊啦，毕竟我早就见过你了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "就在列车上，某个纯美骑士不请自来的那一晚……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你也是这样，一声不吭就出现了。见「宇宙幻觉之夜」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "呵，这样啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "那你还记得，距离自己进入翁法罗斯，已经过去了多久么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这也太强人所难了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "97天。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "你用97天走遍了世界的每一个角落，很遗憾……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "没有任何人能看见你，你也无法干涉任何人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "就像忆者们脱化肉身，化作迷因。如今的你…是一个无人知晓的幽灵。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "可我不能什么都不做，这个世界…太过恐怖。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者和丹恒已经启程了，也许下一秒，星穹列车就会出现在天边……"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "三月七脑海中闪过众多无人生还的场景…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "然后，成为新的牺牲者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "……"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "踏入记忆之门前，昔涟的劝告…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "昔涟",
+      "text": "漫长的时光里，我只能眼睁睁看着人们走进记忆之门。那些人看不见我，也听不见我的呼唤。天外之音总会给出安全的承诺，但我从没见过有人平安归来……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "他们，都是被诱导到这里的人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "和列车组不一样，这些人的「记忆」遭到了篡改。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "好残忍，是窃忆者干的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "我不知道。我只拥有「你」的记忆。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "他们都没能突破{{天空的封锁|防火墙}}。翁法罗斯默默无闻的原因，恐怕也有它自身的危险性吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "所以，回到最初的话题……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我们长得一模一样，你肯定知道些什么，对吧？比如我的身世，隐藏的力量……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "告诉我，要怎么做，才能保护开拓者和丹恒？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "在谈论方法前，你可曾掂量过「代价」二字的分量？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "「代价」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这句话，应该我来说才对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "…哦？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你藏在我的记忆里，从来不肯现身。只在我陷入危机时才愿意出现……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "是因为你也不想被忆庭的监视者发现，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这里没有别人，你帮我，我就帮你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "…好。我可以为这潭死水投下一枚石子，激起破局的涟漪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "只是这「石子」必须由你亲手磨砺，它需要「你」全部的记忆。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "然后，我会变成什么样子？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "可能化作引路的光，也可能化作熄灭的火。此后，你是否还是现在的「你」，我无法保证。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "你的内在是一片「长夜」。即便是我，也只能窥见冰山一角。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "如果这是唯一的办法，我没有理由拒绝。更何况……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "幕后的始作俑者，已经快要找到我们了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "来古士",
+      "text": "「很遗憾，误入此地的女士，我不能再放任你恣意妄为了。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "果然，他看不见你哎。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "或者，是他看清了你我的本质。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "来古士",
+      "text": "「流光忆庭的手段，不值一提。倒是你，是用什么方法突破了终极协议？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "看来，没有从容商议的时间了呀……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "有些机会，一旦错过便不复存在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那就来吧，献出「我」全部的记忆……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「三月七」",
+      "text": "投下这枚石子，让世间的一切……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "「长夜」",
+      "text": "被「忘却」的浪潮吞没吧。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "「长夜」",
+          "text": "好啊。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "「长夜」",
+          "text": "我答应你。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "「长夜」",
+          "text": "被冰封的是谎言，被遗忘的才是真相。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "红色的水母包裹着三月七，吸收着她献出的全部记忆"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "长夜月",
+          "text": "现在……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "长夜月",
+          "text": "为这个世界带去真正的「长夜」吧♭"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

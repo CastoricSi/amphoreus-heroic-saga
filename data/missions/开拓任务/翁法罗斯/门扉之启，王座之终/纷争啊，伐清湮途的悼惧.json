@@ -1,0 +1,1718 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "纷争啊，伐清湮途的悼惧",
+    "pageId": 16674,
+    "revisionId": 77764,
+    "parentRevisionId": 59972,
+    "revisionTimestamp": "2026-02-12T18:43:06Z",
+    "fetchedAt": "2026-09-28T00:17:42.829Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%BA%B7%E4%BA%89%E5%95%8A%EF%BC%8C%E4%BC%90%E6%B8%85%E6%B9%AE%E9%80%94%E7%9A%84%E6%82%BC%E6%83%A7",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%BA%B7%E4%BA%89%E5%95%8A%EF%BC%8C%E4%BC%90%E6%B8%85%E6%B9%AE%E9%80%94%E7%9A%84%E6%82%BC%E6%83%A7&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "纷争啊，伐清湮途的悼惧",
+    "region": "翁法罗斯",
+    "type": "开拓任务",
+    "version": "3.1",
+    "number": "01",
+    "series": "门扉之启，王座之终",
+    "description": "距离白厄进入创世涡心挑战「纷争」试炼已过去很长时间，在等待中试炼突生变故。情急之下，你们介入试炼，将为心魔所困的白厄救出。白厄的火种试炼失败，意味着承载尼卡多利神权的重任落到了唯一的悬锋王储——黄金裔万敌的身上。但纵然身为「纷争」的正统继承人，万敌却对接过神权表现出了怪异的犹疑与抗拒，似乎悬锋的荣耀反而成为了他的心魔。",
+    "requirements": "完成任务魔女的科学剩宴",
+    "requiredLevel": "21",
+    "characters": [
+      "丹恒",
+      "白厄",
+      "阿格莱雅",
+      "遐蝶",
+      "万敌",
+      "缇宝"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "300"
+      },
+      {
+        "item": "星琼",
+        "amount": "40"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "3"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "3"
+      },
+      {
+        "item": "仙馔秘酿",
+        "amount": "120"
+      },
+      {
+        "item": "信用点",
+        "amount": "40000"
+      }
+    ],
+    "previousMissions": [
+      "英雄啊，且握住那枚火种"
+    ],
+    "nextMissions": [
+      "荣耀啊，不忍卒饮的鸩酒"
+    ],
+    "objectives": [
+      "在创世涡心等待白厄",
+      "与阿格莱雅交谈，介入试炼",
+      "寻找白厄和丹恒",
+      "跟随追逃的战士，调查骚动",
+      "查看哈托努斯的状况",
+      "循战吼声找到「纷争」的源头",
+      "返回私人浴宫，与丹恒梳理现状"
+    ],
+    "synopsis": [
+      "缇宁探听到，白厄在试炼中遇到了危险。阿格莱雅启动备用计划，你与万敌、丹恒介入试炼拯救白厄，遐蝶在涡心负责接应。",
+      "阿格莱雅念颂祷言，再度开启「纷争」的试炼仪式。神性的回响唤你踏上前来。",
+      "你进入试炼，发现自己身处尸骸遍地的奥赫玛，万敌在你身后出现，提醒你这只是试炼的影子。丹恒似乎不在附近，你与万敌结伴行动。",
+      "你与万敌看到奥赫玛士兵正与悬锋难民交战，落单的帕狄卡斯力战不敌而亡。疯狂的奥赫玛士兵并未收手，转而向你和万敌发动攻击。",
+      "万敌认识被击败的奥赫玛士兵，感慨其在「纷争」的试炼中被杀意捏造成这般扭曲模样。万敌看了一眼倒下的帕狄卡斯，但并未言语。",
+      "你与万敌遇到大工匠哈托努斯。哈托努斯将悬锋印戒扔给万敌，令其离开奥赫玛。一道狭长的阴影破空而来，击散哈托努斯的幻影。",
+      "你与丹恒会合，在一番试探后，终于确认彼此的伙伴身份。「纷争」的试炼会让挑战者看见自己的过往，你们循着厮杀声前去寻找白厄。",
+      "你们遭遇「纷争」的化身，得知白厄在试炼中战败身陨。为争夺白厄的灵魂，万敌与泰坦对峙，其与「纷争」的旧怨被揭开：万敌母亲为保护其子而与悬锋先王决死角斗，而后万敌弑父夺得王权却放弃悬锋王位。「纷争」泰坦讥讽万敌逃避宿命，预言其弑神之后必将登神。",
+      "万敌与众多纷争眷属血战，突然听到你的提醒。回身之际，白厄挥着大剑骤然袭来。",
+      "你们成功将白厄带回。你得知「黑潮」是自纷争世起出现的灾厄现象，受其影响者将丧失理性，变得扭曲狰狞，连泰坦也无法幸免。",
+      "你与丹恒总结翁法罗斯的现状，认为世界的「封闭」一定另有隐情。黑潮未必与星核有关，你们需要深入调查这种神秘的灾厄现象。"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#歌唱他的愤怒",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "fold",
+      "title": "前情提要",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "被三重命途缠绕的神秘天体于忆者之镜中映现——那是「开拓」的下一站目的地，「永恒之地」翁法罗斯。\n但降落的过程不算顺利，绝处逢生后，开拓小队结识了当地的「黄金裔」英雄，并从他们口中得知，支撑世界的泰坦诸神正在腐坏，翁法罗斯的大地遍布伤痕。\n在最后的「圣城」奥赫玛，二人历经波折，取得了黄金裔领袖阿格莱雅的信任。面对来自迷雾之外的威胁，众人决定合力讨伐「纷争」泰坦尼卡多利。\n为彻底摧毁尼卡多利的正身，众人计划潜入往日的悬锋城捞取真相。在命运重渊的尽头，开拓者谒见「岁月」泰坦欧洛尼斯，神差鬼使间接受了浮黎的瞥视。\n在新伙伴迷迷的协助下，众人将尼卡多利的神性拼凑完整，于决战中夺取了泰坦的火种。终于，在圣地创世涡心，年轻的英雄白厄迎来了自己的试炼……"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在创世涡心等待白厄"
+    },
+    {
+      "type": "objective-description",
+      "text": "距离白厄进入创世涡心挑战「纷争」试炼已过去很长时间，众黄金裔对此都不禁心生不安。",
+      "location": "翁法罗斯-创世涡心"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…阿格莱雅，恕我直言。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "这场试炼，太过漫长了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "别慌，相信白厄。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "是啊，都好久了…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "感觉过去四十二天了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "…你怎么得出这么精确的数字的？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "吾师，你对此有何见解？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "涡心的流向，难以捉摸。只有只言片语，和遥远的战吼……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "是白厄的声音吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "不知道，很难听清……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "…啊、啊啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "缇宁大人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "小白的声音…断掉了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "缇宁",
+      "text": "试炼里的东西，就像太阳一样…他要被烧焦了…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "还是到了这一步啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "怎么说？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "准备好，迈德漠斯。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这是要做什么？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "万敌",
+              "text": "备用计划——一旦发生变故，我们就把他揪出来。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "得中止试炼。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "万敌",
+              "text": "不错，是时候执行备用计划了。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你们要放弃白厄了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "万敌",
+              "text": "怎么可能。即便火种意义非凡，拿那个男人的性命来祭祀泰坦也太过可笑。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "阿格莱雅，按照约定，我来介入试炼，救出你们的「救世主」……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…但也仅此而已。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "当然，眼下我不会苛求更多。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "哼，不错。那么，为做好万全准备，希望两位异乡的勇士也能助我一臂之力。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "这…恐怕不妥。火种试炼比寻常仪式复杂得多，若错估作业之理，或逆行，或歪曲，后果不堪设想……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "两位贵客没有为逐火之旅出生入死的义务，还是由我和万敌阁下同行吧。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "没事的，交给我们吧。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "说得对，我不想掺和。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "机会难得…火种事关翁法罗斯的世界本质，我们还是一探究竟为好。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "不能大家一起进去吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "万敌",
+              "text": "不行，必须有人待在外面接应。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "情势危急，又事关白厄的性命，无名客自然当仁不让。我们该怎么做？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "随我一同踏入试炼，找到那家伙，阿格莱雅的金丝会指引我们回到现实……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "前提是，你我得在{{尼卡多利|纷争之泰坦}}的怒火下保全自我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "遐蝶，如有变数，优先确保他俩的安全——我自有办法杀出一条生路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "…遵命。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "那就出发吧。感谢两位英勇奉献，由我——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "——吹响先攻的号角。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（遐蝶）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "遐蝶",
+          "text": "但愿…各位平安无事。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（缇宁）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "缇宁",
+          "text": "杂乱的声音…挥之不去……"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（丹恒）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "丹恒",
+          "text": "做好准备，我们也上灵水盆前吧。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与阿格莱雅交谈，介入试炼"
+    },
+    {
+      "type": "objective-description",
+      "text": "白厄的火种试炼突生变故，情急之下，我们决定与遐蝶、万敌一同介入试炼，将可能遭遇危险的白厄救出。",
+      "location": "翁法罗斯-创世涡心"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "愿那战士安然无恙。若做好准备，我便代缇宁为各位主持仪式了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "出发吧。",
+          "content": [
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "进入拓境探游「纷争」之试炼"
+            },
+            {
+              "type": "note",
+              "tone": "蓝色",
+              "text": "尼卡多利，颁赐者，千军首，天谴之矛！我们应让他们自行争战，「纷争」当会决定荣誉的得主。",
+              "context": "介绍"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "再等一下。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "阿格莱雅",
+              "text": "没关系，做好万全准备才是上策。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "天外的援军，高贵的战士，开拓者与丹恒——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "敬请合上双目，屏住呼吸……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "其人曾令此世命运与诸多挑战者，一同免于「纷争」扼杀……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "其人将深入神性的试炼，证明摧锋陷坚之志，诚如神谕所示……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "「纷争」为锤，斗士为砧，炽热与冲击为其刻留伤疤，而半神从中崛起……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「那么，上前来吧——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「——不应存于此世的灵魂，待锻造的战士。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「随我穿走迷雾与战火，直面斗士心中，至深恐惧之物——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「以尔勇力，推走黑暗，重现普射的阳光——令迷途的诸位战勇，明晰归乡的远途。」"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（这……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "怎么，感到错愕么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "凡有「纷争」，必有杀戮…{{尼卡多利|纷争之泰坦}}的试炼是这惨状也不足为奇。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这是…你做的？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "万敌",
+              "text": "我方才说了，这只是试炼的影子。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "出发吧，去找白厄。",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "就你一个？丹恒呢？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "你那位同伴似乎不在附近…我们先走。但愿他平安。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找白厄和丹恒"
+    },
+    {
+      "type": "objective-description",
+      "text": "我丹恒，后同与开拓者他们失散在这片幻境中。据开拓者所说，他/她看到了万敌心中的恐惧：那是来自悬锋一族以血铺就的的荣耀……",
+      "location": "翁法罗斯-「纷争」之试炼"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "「心中至深恐惧之物」…那男人最畏惧的，竟是这副景色？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疯狂的奥赫玛士兵",
+      "text": "你逃不掉的，悬锋的狗蝇！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "留神。空气中的铁锈味极其浓烈。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随追逃的战士，调查骚动"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疯狂的奥赫玛士兵",
+      "text": "野蛮人！告诉我你的名字，好让你那可悲的命运作我酒宴上的谈资！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕狄卡斯",
+      "text": "我名为帕狄卡斯…前来为我同胞复仇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "悬锋人…在和奥赫玛人交战？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疯狂的奥赫玛士兵",
+      "text": "哈哈…帕狄卡斯！就连牲口待宰时的哀嚎都要比这名字更动听。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕狄卡斯",
+      "text": "随你怎么说，下贱的奥赫玛人……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕狄卡斯",
+      "text": "「宁战死，毋荣归」——悬锋精神将永远捍卫我！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疯狂的奥赫玛士兵",
+      "text": "愚蠢的野蛮人，既然你急着寻死，我就成全你！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "立即出手，阻止士兵。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "疯狂的奥赫玛士兵",
+              "text": "你是…呵，野狗的首领竟自己送上门了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "疯狂的奥赫玛士兵",
+              "text": "可惜，太晚了！你们挡不住圣城的兵锋——就先拿你这可悲的臣子祭旗！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕狄卡斯",
+              "text": "啊…啊……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕狄卡斯",
+              "text": "{{迈德漠斯|万敌}}…王啊……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕狄卡斯",
+              "text": "为我…复仇吧…！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "万敌",
+              "text": "这是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "疯狂的奥赫玛士兵",
+              "text": "下一个，就是你！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "静观其变，等待试炼。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "万敌",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "疯狂的奥赫玛士兵",
+              "text": "死吧，猪猡——！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕狄卡斯",
+              "text": "啊…啊……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕狄卡斯",
+              "text": "{{迈德漠斯|万敌}}…王啊……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕狄卡斯",
+              "text": "为何要将我们…弃置于异邦的屠刀下？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "万敌",
+              "text": "这是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "疯狂的奥赫玛士兵",
+              "text": "你是…呵，野狗的首领竟自己送上门了！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "疯狂的奥赫玛士兵",
+              "text": "既然悬锋人都急着送死——那我就给你个痛快！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疯狂的奥赫玛士兵",
+      "text": "*身体扭曲的崩裂声*"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疯狂的奥赫玛士兵",
+      "text": "懦弱的王啊…去死吧…！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "这深不见底的杀意…是{{尼卡多利|纷争之泰坦}}的怒火啊。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得胜利"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…荒唐透顶。我认得这奥赫玛人，他是个磊落的战士，却被「纷争」捏造成了这般扭曲模样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "还有这聒噪的声音…它响起时，心中的杀意便难以遏制。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "白厄一定是被这战吼冲昏头脑，迷失了自我…哼，没用的家伙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "他是谁？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你的表情很凝重啊…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…没什么，走吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "呃啊…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "这声音…是哈托努斯？"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（与路旁的战士对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "如痴如醉的战士",
+          "text": "哈…哈哈……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "如痴如醉的战士",
+          "text": "{{尼卡多利|纷争之泰坦}}…这就是我为您献上的祭品……"
+        },
+        {
+          "type": "text",
+          "text": "此人沉浸于杀戮的狂热中，对你熟视无睹。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（与路旁的战士对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "狂热的悬锋人",
+          "text": "来吧，懦夫！{{尼卡多利|纷争之泰坦}}将给我力量，随我一同血战至死亡的疆界！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "渴血的奥赫玛人",
+          "text": "哼，口气不小…可悲的狗鼠，和你们那懦弱的王有得一拼！"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（与路旁的战士对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "濒死的奥赫玛人",
+          "text": "……"
+        },
+        {
+          "type": "text",
+          "text": "此人膀肘上的筋腱遭锋快的铜枪扎裂，垂着断臂，如破溃的酒壶般碎落在路边。\n随着魂息离去，黑暗蒙住了此人的双眼。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看哈托努斯的状况"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "迈德漠斯，你是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "破坏一切，卑劣的王…来取我性命，终于？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "我不会问这一切因何而起，也不会如你所说，伤你分毫。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "我只要你告诉我，白厄身在何处？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "这一切，你心知肚明。滚出去，我们的土地，可恨的{{歌耳戈|悬锋建城者}}之子！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "哈托努斯，我无意加害你！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "羞辱我，不必——滚出去，滚出奥赫玛！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "滚吧！你们的王权，带上！悬锋的印戒，享受染血的荣光，你们自己！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "这…母亲的印戒？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "又来了，我就知道…！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "哈托努斯",
+      "text": "哈！终于发狂，可憎的狗蝇。一同毁灭吧，与你们的疯王，在那战场的旋涡中！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "够了，闭嘴！你根本不是哈托努斯——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "——小心！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一道狭长的阴影破空而来，贯穿了哈托努斯的幻影……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…好身手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒？",
+      "text": "彼此彼此。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你是丹恒…本人吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒？",
+              "text": "同样的问题，回敬给你——"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这次是丹恒的幻影吗……",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "万敌",
+              "text": "等等。他的气息不同，十分沉静。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒？",
+              "text": "不错，看来还能沟通。那边的灰发战士，回答我——"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒？",
+      "text": "——我在鳞渊境开海前，你对我说的最后一句话是什么?"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "「开海」…？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这我哪记得？！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒？",
+              "text": "不像演的，看来是本人。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你要不还是一枪钉死我吧…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒？",
+              "text": "不像演的，看来是本人。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "……",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒？",
+              "text": "答对了，记性不错。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "万敌",
+              "text": "…？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "终于找到你们了…不容易。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "是本人啊。你此前经历了什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "只是遇见了些前尘影事，不提也罢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "意思是，你也看见了自己的过往？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "哼…「纷争」的试炼竟如此恶毒啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你想到什么了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "恐怕，这试炼不属于某一个人…而是一片供所有挑战者与妄念厮杀的疆场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "方才，我也见到一位故人…可白厄从未与他结识。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "呵…听起来算不得坏事。这倒意味着，我们定能在这里找到白厄了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "但愿这片战场没有想象中那么辽阔……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…先循着厮杀声的源头前进吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "循战吼声找到「纷争」的源头"
+    },
+    {
+      "type": "objective-description",
+      "text": "经过一番战斗，我们在试炼幻境中会合，并循着厮杀声寻找纷争的源头，或许白厄就在那里。",
+      "location": "翁法罗斯-「纷争」之试炼"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "耳边的战吼…似乎越来越喧嚣了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "哈托努斯，连你也……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我有种预感……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "尽管不属于白厄…但这片战场另有主宰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "哼…我同意。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "呵，果不其然。这里就是战吼的源头……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…{{尼卡多利|纷争之泰坦}}试炼真正的门户。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "怎么了，两位？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那位战士，之前见过…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "是格奈乌斯，尼卡多利的化身…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "虽然未曾打过照面，但我也感受到了。毫无疑问，那是只属于「纷争」的杀意……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "{{尼卡多利|纷争之泰坦}}本尊——这片战场的主宰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「呵，迈德漠斯…你诚然是个目光闪亮的勇士。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "你认得我？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「渎神的王贵，我当然认得你。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「我还明白：你们是为那白发战士的魂灵而来。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "那就好说了。把那个窝囊的剑士交出来，让我们尽快结束这场闹剧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「我拒绝。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「方才一路走来，我认可诸位的勇力。但既然你们妄图践踏败者的尊严，我就无法坐视不理。」"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "看来一场恶战在所难免了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "看在同行过的份上，行行好吧…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "落败之人…难道他没能战胜试炼么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「他面对内心至深的恐惧，战斗得十分勇敢，在凶猛的杀戮中战败身陨。所以，我将他接入身后这片沙场中，赐他与勇气、坚韧和牺牲相配的荣耀。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「想带走他？可以：拿上铜枪，上前来证明自己的信念与他相配……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「至于不打算流血的懦夫…现在就滚出我的视线。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "哼，我对你这可悲疯王的高见不感兴趣……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "但既然你想一战，那就来吧，泰坦——让我再度以死运为你合拢双眼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「不错！你那高尚的母亲也曾用手中长枪，让我领教过同样的气魄。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…别提她的名字。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「为什么？她为捍卫你的尊严，明知自己将死于毒计，却仍向悬锋先王发起角斗。难道你想说，这一切都不过是她空自劳苦么？」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "她的悲剧，正出自你手——「纷争」的化身——你有何面目谈起她的过去？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "够了，别扯这些没用的。身为「纷争」之神，何不以剑明志，让我们速战速决！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「呵！你的恨意了然于色，迈德漠斯，这些话想必刺痛了你的心胸。但也正因此，我终于明白了……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「这就是你弑父夺得王权，却任凭印戒沉入冥海，不愿延续悬锋荣光的理由……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「这就是你陨灭纷争之泰坦，却拒绝火种，延续『纷争』的理由……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「命运的弃儿，我倒要看看你有没有这个能耐——看看你能否亲手熄灭{{自己的宿命|「纷争」}}。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "我一定会撕开你的胸膛，泰坦…正如我对先王所做的那样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「哈哈哈，既然你想重蹈覆辙，那就来吧：点燃你恐惧的烈焰，踏上沙场，鏖战至『纷争』的疆界，吞噬我；或迷失其中，让自己战死的遗体得到烤慰！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「但记住了，迈德漠斯：{{歌耳戈|悬锋建城者}}之子，必将浴血代冠——」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「当你破开我的胸膛，那也正是你登神之时——悬锋的继业者啊，我向你致敬！」"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「那白发的战士，明知力不能敌，也凭其勇力厮杀至最后一刻……」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「你呢，迈德漠斯？你的杀意足以与命运相配么？！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「向我证明，你称得上这力量！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "悲鸣、嘶号……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "悬锋诸王，这就是你们渴望的力量么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「为了公平，权赐你『纷争』之血一用吧！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "躁动的力量…难以遏制……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "神性的回响",
+      "text": "「在恐惧中抛却凡躯吧，悬锋之王！」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "聒噪…！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得胜利"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "小心！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "一名敌人正欲从万敌身后偷袭，但白厄从敌人身后冲出，手中长剑似要刺入万敌胸中…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "但被万敌侧身躲过…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "万敌",
+          "text": "找到你了…！"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一段时间后……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…我尽力了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "火种的试炼…还真是险象环生。但愿白厄安然无恙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "不必担心。他的魂息尚显平稳，只消静养片刻，镇定心神，便能恢复如初。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "内心至深的恐惧…白厄阁下，想必是在试炼中看见了自己的过去，还有那倾覆于黑潮下的故乡了吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "…想来也别无其他可能性。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这黑潮有那么可怕吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "来到翁法罗斯后已多次听人提及，能否请各位展开讲讲，这「黑潮」究竟是？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "如果是心魔，战胜不了也正常。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "来到翁法罗斯后已多次听人提及，能否请各位展开讲讲，这「黑潮」究竟是？"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "好像听格奈乌斯提起过…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "遐蝶",
+              "text": "没错，他愿意将火种交给黄金裔…也是寄希望于我们能继续肩负起抗击黑潮的重任。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "能否请各位展开讲讲，这「黑潮」究竟是？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "是让翁法罗斯众生陷入疯狂的元凶之一。自纷争世起，此种不可名状之物便如同瘟疫，随{{灾厄三泰坦|死亡、纷争与诡计}}一同降临大地……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "我们不知它的源头从何而来，反而发觉它如同包围陆地的大海一般，持续进逼着尚且安宁却已然狭小的土地。也正因此，它才得名为「黑潮」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "凡受其影响者无不变得扭曲狰狞，理性丧失，人性泯灭，化为无血无泪的野兽。而这并非凡人独有的厄运，就连泰坦诸神也无法幸免。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "根据格奈乌斯的说法，{{尼卡多利|纷争之泰坦}}虽是灾厄的化身之一，却也肩负着抵御黑潮的使命……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "遐蝶",
+      "text": "或许，这也是另一个原因…让白厄阁下会义无反顾地投入「纷争」的试炼。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "而现在，我们必须另寻他法，尝试点燃「纷争」了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "说吧，阿格莱雅，下一步怎么走？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "你知道，这不取决于我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "万敌，你身为悬锋的继业者，自然明白：若只是在「纷争」的疆场上取胜，对你们而言易如反掌……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "但神明职责的重量，终究只能由一人背负。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "阿格莱雅",
+      "text": "将世界推入死雾的是鲁莽和犹疑，而非悬置的神性。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "万敌",
+      "text": "……"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查白厄所在的房间）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "白厄因在「纷争」试炼中落败，心智深受泰坦侵蚀，距恢复如初还需些许时日…就让失意的英雄稍息片刻吧。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "返回私人浴宫，与丹恒梳理现状"
+    },
+    {
+      "type": "objective-description",
+      "text": "将白厄安顿好后，我与开拓者回到浴宫稍作休整。关于翁法罗斯世界的现状，我们也做了一些自己的判断与总结。",
+      "location": "翁法罗斯-「永恒圣城」奥赫玛"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "黑潮……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "「不可名状」、「不知源头」…这些关键词组合在一起，你会想到什么？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "星核？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "不错，这是一种可能性。再回想下翁法罗斯的特征——一个「陷入永夜」、「与世隔绝」且「遭到不知名力量蚕食」的世界……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "星神？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "不错，这是一种可能性。再回想下翁法罗斯的特征——一个「陷入永夜」、「与世隔绝」且「遭到不知名力量蚕食」的世界……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "呃…古兽？银河超巨大章鱼？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "这倒是个未曾设想的假说…不过依我见，古兽已在寰宇间销声匿迹近百余纪元，他们是罪魁祸首的概率微乎其微。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "再回想下翁法罗斯的特征吧——这是一个「陷入永夜」、「与世隔绝」且「遭到不知名力量蚕食」的世界……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我先前就很在意，种种迹象表明，翁法罗斯绝不是一个从未接触过宇宙的世界。无论是泰坦的降生，还是黑潮来袭…都难以用文明的自然发展解释。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "它如今的「封闭」一定另有隐情。只是，如果原因也是万界之癌…有些直接或间接的迹象还未得到印证。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "星核之声？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "想到一起去了。依经验来看，你体内的星核应该能与同类产生共鸣。但目前还未出现这种征兆。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "反物质军团？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "想到一起去了。依经验来看，遭到星核污染的世界，多少都与「毁灭」有点关系。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "星核猎手？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "想到一起去了。依经验来看，凡有星核的世界，必定能见到星核猎手出没。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "不仅如此，还有其他疑点悬而未决。直觉告诉我，恐怕没那么简单……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "匹诺康尼的历史也证明了，一个世界的样貌未必是一条命途作用的结果。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "无所谓，「开拓」会打十个。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "哎…有气势是好事。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这大抵也是一种全明星吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "呵…另一种意义上的匹诺康尼啊。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "没准是阿基维利自产自销呢。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "我想…就连虚构史学家也不敢轻易采用这种设定。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "事已至此，边走边看吧。就把黑潮当作一个突破口，{{尼卡多利|纷争之泰坦}}既已陨落，受其压制的力量也必将开始反扑……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "看来…我们的「开拓」之旅，意义愈发重大了啊。"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,3880 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "因为我已触碰过天空",
+    "pageId": 4716,
+    "revisionId": 49588,
+    "parentRevisionId": 41762,
+    "revisionTimestamp": "2025-01-11T06:27:53Z",
+    "fetchedAt": "2026-09-28T00:22:08.916Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E5%9B%A0%E4%B8%BA%E6%88%91%E5%B7%B2%E8%A7%A6%E7%A2%B0%E8%BF%87%E5%A4%A9%E7%A9%BA",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E5%9B%A0%E4%B8%BA%E6%88%91%E5%B7%B2%E8%A7%A6%E7%A2%B0%E8%BF%87%E5%A4%A9%E7%A9%BA&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "因为我已触碰过天空",
+    "region": "仙舟「罗浮」",
+    "type": "同行任务",
+    "version": "1.2",
+    "number": "04",
+    "series": "无尽形寿",
+    "description": "想要进一步了解驭空的过去，果然还是应该去司辰宫找找看。陪晴霓到处找找吧，她在这里见证的过去，也许会改变她的人生。",
+    "requirements": "完成开拓任务有龙矫矫，其渊渺渺，且在场景「迥星港」阅读指定短信后开放。",
+    "requiredLevel": "34",
+    "characters": [
+      "驭空",
+      "晴霓"
+    ],
+    "relatedItems": [
+      "晴霓的回忆",
+      "神矢余烬",
+      "景元的回忆",
+      "驭空的交换日记",
+      "采翼的交换日记"
+    ],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "450"
+      },
+      {
+        "item": "星琼",
+        "amount": "100"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "10"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "10"
+      },
+      {
+        "item": "家族颂歌",
+        "amount": "6"
+      },
+      {
+        "item": "《襟怀玉界》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "100000"
+      }
+    ],
+    "previousMissions": [
+      ""
+    ],
+    "nextMissions": [
+      ""
+    ],
+    "objectives": [
+      "在迴星港与瓦尔特汇合",
+      "操纵机巧鸟寻找遇难者",
+      "前往被困者处实施救援",
+      "前往司辰宫，接受驭空的谢意前往",
+      "离开司辰宫",
+      "陪晴霓在街上散散心",
+      "前往迴星港，寻找驭空的遗失物",
+      "前往神策府，向景元询问驭空的过去",
+      "前往司辰宫，与晴霓汇合",
+      "在术算机中寻找驭空的私人档案位置",
+      "寻找与驭空过去有关的资料",
+      "与瓦尔特汇合",
+      "陪晴霓一起和驭空谈谈"
+    ],
+    "synopsis": [],
+    "extra": {
+      "角色": "驭空、瓦尔特",
+      "相关成就": "与你同行的回忆#折翼纸鸢与高飞的鸟",
+      "相关书籍": "",
+      "领取地点": "完成开拓任务有龙矫矫，其渊渺渺后首次回到「迥星港」将自动触发任务短信。"
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "任务接取短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "夕葵",
+      "subtitle": "我，准时下班。",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "夕葵",
+          "contentType": "text",
+          "text": "开拓者？你现在是身在迴星港吗",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "是，我在迴星港",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "对的，我在迴星港，正好来这边办点事"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "夕葵",
+                  "contentType": "text",
+                  "text": "太好了",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "你怎么知道的！",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你怎么知道的！夕葵小姐不会在跟踪我吧！"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "夕葵",
+                  "contentType": "text",
+                  "text": "抱歉，现在不是开玩笑的时候",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "夕葵",
+          "contentType": "text",
+          "text": "我这边通过机巧鸟系统看到了你在附近",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "夕葵",
+          "contentType": "text",
+          "text": "现在有个要紧事请你帮帮忙，非常紧急",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "夕葵",
+          "contentType": "text",
+          "text": "半个时辰之前，长乐天上空的天穹出了故障，应该也是建木生发造成的阴阳相感",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "夕葵",
+          "contentType": "text",
+          "text": "技术细节很复杂，这里不多说。总之是有一个片区出现了严重问题，眼看着就要爆炸",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "夕葵",
+          "contentType": "text",
+          "text": "现在整个罗浮都还没从混乱中完全恢复，匀不出人手来抢险，好在天舶司有个文员，跳上一艘星槎就飞到了天穹上，进行了紧急抢险",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "夕葵",
+          "contentType": "text",
+          "text": "但那艘星槎在抢险过程中也出了故障（可能也是阴阳相感的影响），在迴星港上空失联，推测是迫降或者坠毁了",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "夕葵",
+          "contentType": "text",
+          "text": "我已经迅速通知云骑来增援了",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "夕葵",
+          "contentType": "text",
+          "text": "但这种事故，晚一秒就是晚一些生还的可能，拜托你们先去找一下",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "「你们」？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "「你们」？还有谁也在这里吗？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "夕葵",
+                  "contentType": "text",
+                  "text": "嗯，瓦尔特先生也在这附近",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "夕葵",
+                  "contentType": "text",
+                  "text": "我也联系过他了",
+                  "acknowledged": true
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "坠毁在哪里？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "这艘星槎坠毁在哪里？"
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "夕葵",
+                  "contentType": "text",
+                  "text": "我这里也还在搜索",
+                  "acknowledged": true
+                },
+                {
+                  "type": "message",
+                  "side": "left",
+                  "speaker": "夕葵",
+                  "contentType": "text",
+                  "text": "你的同伴，瓦尔特先生也在附近，我也联系过他了",
+                  "acknowledged": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "夕葵",
+          "contentType": "text",
+          "text": "总之，在迴星港找一个制高点，用机巧鸟找找看吧，拜托你们了",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "夕葵",
+          "contentType": "text",
+          "text": "另外…这位文员身份比较特殊",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "夕葵",
+          "contentType": "text",
+          "text": "恳请二位尽己所能保全她的性命",
+          "acknowledged": true
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在迴星港与瓦尔特汇合"
+    },
+    {
+      "type": "objective-description",
+      "text": "天舶司发来消息，说迴星港发生了星槎坠毁的事故，希望你能帮忙救助遇难者。瓦尔特似乎也在附近，抓紧时间和他汇合，搜救遇难者吧。",
+      "location": "仙舟「罗浮」-迴星港"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "开拓者，远处似乎能看到有地方在冒烟。这是夕葵小姐派来的机巧鸟，用它飞上去看看吧。情况紧急，我们得抓紧时间确认坠机位置。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "接入机巧鸟",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "栖木信号连接中…"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "操纵机巧鸟寻找遇难者"
+    },
+    {
+      "type": "objective-description",
+      "text": "迴星港地形复杂，靠人力搜索颇为困难。幸好，天舶司借给了你们一只机巧鸟，只要用它居高临下地搜索，一定可以很快找到遇难飞行士的位置。",
+      "location": "仙舟「罗浮」-迴星港"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（退出搜救后重新与瓦尔特对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "现在不是闲聊的时候。救人要紧。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "接入机巧鸟",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "一会再说吧",
+              "content": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（识别失事的星槎）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "找到失事地点了…看来飞行士并不在里面。太好了。如果是在失事前逃了出去，那现在人应该还在附近。"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "找到被困的飞行士"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "找到了。那应该就是夕葵小姐拜托我们救的人。她被孽物困住了，咱们得加紧脚步。开拓者，你也要注意安全。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往被困者处实施救援"
+    },
+    {
+      "type": "objective-description",
+      "text": "你找到了遇难的飞行士。此时她正被困在一群孽物之间，情况万分危急。快去救人吧。",
+      "location": "仙舟「罗浮」-迴星港"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "喂！这里很危险！你们快走，快去天舶司叫人来救我，就说晴霓遇到危险了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "别担心，我们很强。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "晴霓小姐不必担心，我们经历过比这更危险的情况。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "区区孽物，何谈危险？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "晴霓小姐不必担心，我们经历过比这更危险的情况。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "那好，一会儿见。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "不，开拓者，现在搬救兵肯定来不及了。晴霓小姐不必担心，正是天舶司的人派我们前来救急的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗，击败丰饶灵兽·娄金"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "怪物实在是太多了… 开拓者，我们再坚持一下。不出意外的话，云骑应该也快到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "你们快跑吧！这些怪物一时半刻爬不上来！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "晴霓小姐，别说傻话。我们不会丢下你的。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们不会丢下你的！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "区区几个孽物，瞧不起谁呢？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "开拓者，不要盲目自信，这很危险。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "杨叔，咱们先撤吧…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "再坚持一下，我知道你能做到的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "辛苦两位撑持了，让我来助你们一臂之力！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "就在你们和怪物僵持之时，驭空带领云骑军前来支援…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "云骑！列阵！准备接战！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "晴霓，再坚持一下！我们这就来救你！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "击败丰饶灵兽·娄金"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "text": "肃清了附近的孽物之后，云骑将被困的少女救了下来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "没想到天舶司的司舵会亲赴现场处理这么危险的事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "我本来应当坐镇司辰宫批阅公文。但晴霓以身犯险，贪功冒进，甚至要惊动贵客周护她的安全。我这个做母亲的怎么还能坐得住？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "母亲…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "原来如此…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "晴霓！还不向二位恩公道谢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "谢谢二位恩公……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "不，晴霓小姐不必多礼，只是举手之劳罢了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这种事比扫垃圾还简单。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "驭空",
+              "text": "不愧是星穹列车上的开拓者啊，气度不凡！虽然比喻有些奇特……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "多亏驭空大人及时出现。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "驭空",
+              "text": "不敢当。这本就是天舶司分内之事，却让二位英雄以身犯险。我实在惭愧。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "我寻思我也没做什么…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "驭空",
+              "text": "不必谦虚。两位为仙舟以身犯险，这一切我都看在眼中。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "这一次多亏了二位英雄，晴霓才能安然无恙。我的感激之情难以言表。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "这样吧，接下来请二位来司辰宫稍坐，我们饮茶小叙一番…一是奉上香茗当做答谢，二是与两位英雄交个朋友。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我们也想在仙舟多多增进了解，结交朋友。能有这样的机会，也是我们的荣幸。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "那么，我们就先行告辞了。因为晴霓的胡闹，给二位带来了这么多麻烦，请容我再次向二位英雄道歉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "您又是这样，都不问事情的来龙去脉，就先骂我一顿……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "当时的情况很紧急！只有我有那个技术……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "但你答应过我的，晴霓！…这件事咱们回家再说。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "抱歉，让二位见笑了。之后见。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "驭空带着晴霓离开了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "真没想到，驭空还有这样的一面……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你是说当妈的一面？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "…开拓者，你观察的角度总是那么…独特。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "确实，如果光看外表，谁也没法想象仙舟长生种活了几倍于我们的人生。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "只有在面对晴霓小姐这样的亲人时，驭空表露出的烦恼和关心才会让人意识到她同时也是某人的母亲。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "感觉杨叔很能体会这种心情…",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "是啊，毕竟我也曾是个操心孩子课业、还有明天给他做些什么菜的老父亲。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你是说善战的一面？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "是啊…我本以为天舶司的主事者是长袖善舞的商人，就像那个小狐女一样。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "但从刚才的战斗能看得出来，驭空是个经验老到的战士。她弯弓的时机，目标的选择，全都无可挑剔。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "司舵亲自上阵，除了救回女儿之外，恐怕也是找到了难得的机会一试身手。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "杨叔一副深有感触的样子。",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "让你笑话了。我曾经在故乡悠闲度日了许久，久到几乎忘了自己曾经战斗过。自从登上列车后，沉睡许久的热情也渐渐回来了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "不过有件事我不太明白。晴霓虽然擅自开走星槎抢险，但毕竟有功劳在前。可驭空刚才对她的态度，却像是另有隐情……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "不说这些，咱们还是早点到司辰宫比较好。别让驭空等我们。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "也不必提前到吧…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "咱们是客人，客人有客人要守的规矩。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "出发！去司辰宫！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "开拓者，进了司辰宫可不能突然这么拔高声线说话。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "咱们是去和天舶司的司舵喝茶，不是去朋友家玩。在外交场合，说话做事都要更加得体庄重些。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "好了，时间不早了，咱们出发吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往司辰宫，接受驭空的谢意前往"
+    },
+    {
+      "type": "objective-description",
+      "text": "你和瓦尔特救下的女孩，似乎是驭空的女儿。为表谢意，驭空希望你们能去司辰宫和她喝一杯茶。此前和驭空打交道时，氛围难免都有些尴尬，现在总算有机会平心静气的喝杯茶了…至少你和瓦尔特都是这样希望的。",
+      "location": "仙舟「罗浮」-星槎海中枢"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你和瓦尔特刚走进司辰宫就听到了激烈的争吵声…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "你为什么就是不肯听我的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "因为这是我自己的人生！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们走向驭空，争吵声越来越大…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "…您明明知道我有这个天赋！我可以成为罗浮最棒的飞行士，就像您一样！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "天赋？要是没有那两个异邦人，你现在已经死了。偷走星槎，飞上天的那一刻很快乐吧？被孽物包围时呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "那一刻你有没有想过，要是你不在了，我会是什么样的心情？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "多少人想在天舶司混一份清闲的文职？你答应过我，会有始有终做好它。现在你不仅违背了天舶司的规制，还违背了我们母女的约定。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "妈妈，我说了很多遍，那是情势所迫！我想帮您，想帮天舶司一次，我不想只是坐在桌前每天面对写不完的文件！我不适合干那个……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "考斗舰飞行士的时候，我的分数是最高的。他们夸我是不亚于您的天才，都说我不愧是您的女儿，令人羡慕……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "可他们都不知道，我是偷着去考的，因为如果被您知道了，您绝不会允许！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "偷着去考？当时我要是说个「不」字，你以为你能走进考场，坐上斗舰？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "至于「天才」，别在我跟前提起这两个字。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "我不明白，你为什么一定要成为飞行士！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "我也想不通，您为什么就是不明白……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "这世上任何人都能做斗舰飞行士，唯独司舵的女儿不能！怎么会有这么荒唐的事！您自己不愿意再飞，也不该捆住我啊！我不是你养在笼子里的鸟儿！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "晴霓转身跑开…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "晴霓！你要去干什么！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "让二位见笑了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "真不好意思，我们出现得不是时候。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "真对不起…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "驭空",
+              "text": "与两位无关，是我不分场合，失仪了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "杨叔，都说了晚些再来…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "的确，是我疏忽了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "驭空",
+              "text": "与两位无关，是我不分场合，失仪了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我们无意窥探驭空司舵的隐私。不过，如果您有什么苦恼我们能帮上忙的，还请不要客气。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "不过是些家事罢了，两位刚才应该听到只言片语了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "晴霓这孩子一心想成为斗舰飞行士，可我没有允许，我让她好好做一个文员。这可能显得我很专断，但是，一想起她被怪物困住那一幕，我就后怕得尾巴打战……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "说来可笑。丰饶联军也好，活化的星球也罢，什么样的绝境我都曾目睹过，本以为自己是个不知害怕为何物的人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "和你们一同战斗时，我才明白，原来这世上真有能让我感到恐惧的事…抱歉，谈这些糟心事打扰了客人的雅兴。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "今日请来二位，是为了加深与列车的了解，切莫让这些琐事扫了兴致。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "作为赔罪，我为二位准备了茶点，请来品品这上好的鳞渊春！"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "虽然遭遇了尴尬的开场，但这番会面你们与驭空倒也谈的尽兴。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "能和遍行星海的无名客谈天，真是受益匪浅。这些礼物，是为感谢你们救下小女准备的，请不要推辞。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我听天舶司的人说起过，驭空大人是罗浮数一数二的飞行士，云骑军中的王牌，上一回瞧见您挽弓的模样，便知道传言不假。希望未来能再有幸目睹您驾驭星槎的神技。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "司舵公务繁忙，我们也不便叨扰。希望以后还有机会和您多多交流。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "恐怕要让瓦尔特先生失望了。天空，已经不再适合我了。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（驭空）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "驭空",
+          "text": "看来开拓者谈兴不减。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "驭空",
+          "text": "似乎每次与你们见面，都伴随着意外。希望下次能在更合适的气氛下与星穹列车的各位见面。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "离开司辰宫"
+    },
+    {
+      "type": "objective-description",
+      "text": "就像被什么人下了什么奇怪的诅咒那样，星穹列车乘员和驭空的会面似乎总会陷入某种尴尬的情境。你和瓦尔特不想被卷入别人的家事，还是先离开司辰宫吧。希望下次和驭空见面，气氛能和平一些……",
+      "location": "仙舟「罗浮」-星槎海中枢"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "离开司辰宫后你们一眼就看见了守在门口的晴霓…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "二位！请留步！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "本来应该再次感谢二位恩公的救命之恩…但这一回又让你们看了笑话，真是非常抱歉……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "亲子关系嘛…理解，理解。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "看来恩公也遇到过类似的事情吗？真是太好了！不是不是，我的意思是，终于给我遇上了一个有共鸣的人。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你不该那么和母亲讲话。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "恩公也这么说吗…我、我当然知道这样激烈地表达只会带来反效果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "我已经过了及笄礼，是个成年人了，我有实现梦想的自由吧！可是妈妈却还是把我当个孩子看，把我笼在她的翅膀下。好像离开了她，我就一刻也活不下去一样。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "咳，晴霓小姐，这是你的家务事，我不便置喙。但是，我可以说些亲身体验——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "为人父母是会让一个人变得顽固的。要改变岩石，恐怕还得水滴日复一日地耐心琢磨。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "所以，晴霓小姐与其像今天这样爆发，不如耐心用行动来证明，自己可以照顾好自己？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这我就插不上话了…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "家庭教育这题，只有杨叔会做…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "其实我妈是个通情达理的人。可一谈到飞行的话题，她就变得不可理喻了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "藏起我的星槎玩具，把呆在港口数飞船的我拉走，逼着我坐在桌案前读书。虽然我费尽心思最后进了天舶司，结果在她的安排下，我却干起了文职。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "唉，每天走过宣夜大街，抬头看那些自由自在划过天空的飞行器，心里就空落落的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "不好意思啊，肚子里也是。刚看到我妈招待你们的那什么茶点，味道好不好啊？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "嗯！这浓郁的味道不可思议…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "别硬撑了，一口解千愁。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "唉，今天闹了这么一阵，都气饱了，啥也没吃上。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "不如这样，我妈招待了各位上好的茶点，我也不能没什么表示。我带两位逛逛星槎海，尝尝罗浮本地最有名的小吃！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "陪晴霓在街上散散心"
+    },
+    {
+      "type": "objective-description",
+      "text": "你和瓦尔特再次遇到了驭空的女儿——晴霓。她刚和母亲大吵了一架，心情非常不好。陪她散散心吧，毕竟替人排忧解难也是星穹列车的宗旨。",
+      "location": "仙舟「罗浮」-星槎海中枢"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "晴霓带你们来到了一台售货机前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "到了！仙舟罗浮最地道的小吃…其实是饮料啦！就在这个自动售货机里。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "真是有够简陋的招待…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "对不起！我一个坐办公室的，实在请不起你们吃大餐。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "又是茶？司辰宫里喝很多啦？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "不不，这次是风味特产。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "你看这个，苏打豆汁？？，一人来一罐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "虽然这个东西的味道也许有些独特，但我超喜欢喝。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "让我来尝尝这个。嗯，味道令人怀念。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "唔，您的家乡也出产类似的风味饮料吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "不，这一口让我想起了刚登上列车时…艰难吞下姬子泡的咖啡…食道受伤的感觉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "开拓者，怎么样？你还喝得惯吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好喝，太好喝了！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "哇，第一次见到能痛饮苏打豆汁的异邦人！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "哕…味道可怕…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "我第一次喝也被呛到了。但是再多喝几口，就有种说不清道不明的滋味盘旋在唇齿间，突然就爱上了这豆汁的怪味儿。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "这是报酬？是报仇吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "对、对不起！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "唉，自己喜欢的东西，果然并不是每个人都能接受的呀，就像飞行一样……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "喝不下可千万别勉强了。咱们到别处去看看吧，我知道星槎海有个地方特别适合观赏星槎。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们来到了星槎海的港口…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "其实人生就是这样的，没人清楚打开豆汁罐子前，自己会是喜欢还是讨厌。独一无二的体验往往就藏在这种带有风险的抉择里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "哈，瓦尔特先生和我妈真是不一样。她总和我说：「一旦踏上天空就无法回头了，飞行士可是和死亡共舞的。」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "我知道她是对的，我知道斗舰飞行士是劳累又危险的工作。可我还是想在星间飞行，在辽阔的银河中为仙舟联盟而战……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "晴霓小姐为什么会执着于这个梦想呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "你们知道狐人的「试儿」习俗吗？就是在孩子出生不久，在她周围摆上一圈代表未来命运的物品。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "抓住玉兆，多半意味着孩子将来会成为卜者；抓住刀剑，那么成为战士建功立业指日可待；抓住星槎玩具……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "就会成为玩具推销员？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "什么呀都是…是预示孩子会走上飞行士的道路。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "就会成为星槎飞行士？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "你猜的一点儿也没错。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "莫非你选了星槎？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "不，不是我。是我那天才无双的妈妈。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "妈妈小时候选中了星槎，她果然展现出了极高的飞行天赋。才刚成年，就被景元将军招进了云骑军，成为了一名斗舰飞行士。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "妈妈创造过无数奇迹…她曾在步离人密集的防空火力中，如同箭矢穿过暴雨般畅行无阻，一连击坠三艘兽舰。她还是天舶司竞速纪录，击坠数纪录的保持者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "作为驭空大人的女儿，我很自豪。打从懂事起，我就希望未来能像她那样成为传奇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "可以想象。父母总是孩子最初的英雄，而英雄的形象往往会影响孩子的一生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "虽然这些故事都不是她讲给我听的。打从第三次丰饶民战争结束后到现在，她再也没有登上过星槎，甚至绝口不提自己的战绩。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "小时候我有样学样偷开星槎，实验各种极限操作…事实证明我的确像她一样有天赋，因为我不但活了下来，还停得很稳。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "当时，我被拎到妈妈面前的时候，还开心地向她炫耀，以为她会哈哈大笑摸着我脑袋说不愧是我的女儿。结果，唉，我从没见过她表情这么可怕…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "我承认，未成年人驾驶星槎，该打。只是，妈妈当时似乎不仅是为这事愤怒，而是为我以她为榜样这件事而愤怒，为我有和她一样的天赋而愤怒。我一直想不通为什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "父母不想让孩子涉险。驭空大人的心思，我想我能理解。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "可是…飞行，是我唯一想做的事情。因为我已经触碰过天空了。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "晴霓收到了一条短信，皱着眉头地读了起来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "刚才…妈妈的秘书，夕葵小姐给我发短信…说之前在搭救我时，妈妈有一个随身的挂饰遗落在了迴星港……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "夕葵小姐建议我，将那个挂饰找回来还给妈妈，也借此修复一下和她的关系。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "遗落在迴星港吗？嗯…那我们陪你走一遭，一起找找看吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "这样劳烦二位，真的合适吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们列车的宗旨就是乐于助人。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "正是如此。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "二位恩公对我真是太好了，下次一定要请你们吃很多好吃的！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "就当是回报你的苏打豆汁了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "对、对不起，别提豆汁了！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品晴霓的回忆"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往迴星港，寻找驭空的遗失物"
+    },
+    {
+      "type": "objective-description",
+      "text": "之前驭空急匆匆地赶来救援晴霓，结果似乎将什么东西遗落在了迴星港。陪晴霓把她找回来吧，现在她俩之间关系紧张，也许这能成为母女二人破冰的关键。",
+      "location": "仙舟「罗浮」-迴星港"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "和孽物战斗时一片混乱，妈妈的东西应该就丢在了附近。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "晴霓小姐知道那个挂饰什么样吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "我想想…应该是一个方方正正的小物件？我记得她一直贴身带着这样一个挂饰。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "开拓者，看来到你的专业领域了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我的专业领域不是战斗吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "你当然是个优秀的战士，但你敏锐的观察力更加令我叹服。无论宝箱藏得有多深，你都能把它找出来。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "难道还有人比你开拓者更擅长从满地的杂物中找到一个不起眼的挂饰吗？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我的专业领域不是解谜吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "从满地的杂物中找到一个不起眼的挂饰，这不正是一种解谜吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "无论宝箱藏得有多深，你都能把它找出来。你敏锐的观察力总是令我叹服，这件事交给你来做，我绝对放心。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "在下/本小姐，正是谛听！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "你敏锐的观察力总是令我叹服，这件事交给你来做，我是绝对放心的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "操纵机巧鸟寻找驭空的遗失物"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（识别瓷瓶）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "晴霓",
+          "text": "开拓者，别开玩笑了。都说了是个挂饰。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "晴霓",
+          "text": "我妈怎么会把这样一个东西「贴身携带」呢！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "但这瓷瓶本身倒是很精致漂亮，这款式应该是「仙兽祥瑞纹」吧？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "晴霓",
+          "text": "瓦尔特先生真是博学多识！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "我也是现学现卖罢了。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（识别鸟笼）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "晴霓",
+          "text": "鸟笼啊…突然想起，永狩原有一种鸟，有着漂亮的羽翼，但无法被人驯养。因为只要将它们关在笼中，它们便活不了多久。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "晴霓",
+          "text": "触碰过天空的鸟，是没办法在笼中生活的。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（识别阵刀）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "阵刀？这不会也是之前遗落的东西吧？当时也来了不少云骑。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "晴霓",
+          "text": "不，这个只是模型…应该是拍摄幻戏要用的道具吧？"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（识别香炉）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "这应该不是驭空司舵遗落的东西，实在太大了。"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "识别遗落的挂饰"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "这是妈妈一直贴身携带的挂饰，但我以前从没注意到，里面还藏了个小东西……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "这是…巡猎的徽记？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "现代艺术？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "护身符？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "搞不太懂…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "这是飞行士会挂在星槎舱室里用来祈求飞行好运的小东西。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "这一定是驭空司舵相当珍重的东西。晴霓小姐，我们送你回去，请你亲自将它还给令堂吧。也借此契机，和她好好聊聊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "不，我想等一下再回去。在此之前，有件事希望二位恩公能帮我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "如果是让我们帮你劝说令堂，这恐怕有些困难。清官难断家务事，我们终究是外人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "您误会了，我只是…想知道母亲究竟在想什么。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "是什么让一名天才飞行士，一个明明热爱飞行的人变成了这样？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "母亲将这件圣物留在身上，显然还怀念着自己的飞行生涯。可她却不肯再飞行了，甚至不让我成为斗舰飞行士，到底是为什么呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "也许我们可以旁敲侧击，问问知情人士。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "去问问景元？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "嗯…神策府将军公务繁忙，我们未必见得到他，但有试一试的价值。驭空司舵是他一手提拔上来的，那些往事他大概比谁都清楚。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "去天舶司问问？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "如果是司舵本人不愿提及的事情，天舶司的人们即使知情，恐怕也不愿轻易说出口吧。我倒是觉得，可以先去问问景元将军。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "驭空司舵是他一手提拔上来的，那些往事他大概比谁都清楚。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "谁是知情人士？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "不如先去问问景元将军吧。神策府将军公务繁忙，我们未必见得到他，但有试一试的价值。驭空司舵是他一手提拔上来的，那些往事他大概比谁都清楚。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "景元将军？直接去问他合适吗…哦，也对，二位本来就是将军的贵客…但即使如此，这也太给二位添麻烦了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "没关系。如果能弄清楚驭空司舵不再愿意飞行的原因，大概也就能弄清楚她不愿意让晴霓小姐成为斗舰飞行士的原因了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "虽然在这件事上，我们没办法直接帮到你，但也许能间接帮你找出一道说服令堂的突破口。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "交给我们吧！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "嗯，交给我们吧。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "感觉和景元也没那么熟…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "没关系，景元将军是个心胸宽广的人。我们为了一个年轻人的未来去叨扰他，他大概也不会怪罪。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "那就…有劳二位恩公了…我再去星槎海随便逛逛，暂时还不是很想回到天舶司……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品神矢余烬"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往神策府，向景元询问驭空的过去"
+    },
+    {
+      "type": "objective-description",
+      "text": "不知不觉中，你和瓦尔特还是被卷进了驭空的家事。晴霓想更了解母亲的过去，所以想找个知情者问问。思来想去，似乎景元将军就是最合适的人选了。",
+      "location": "仙舟「罗浮」-长乐天"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "瓦尔特先生，还有开拓者？二位这次来神策府，是有什么事情要办吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "并不是什么特别要紧的事，只是…想了解一下驭空司舵。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "驭空的事？我听说了，天舶司中有位文员开星槎抢险，结果自己遇到了危险，幸有两位异邦人仗义搭救，才保全了性命。我要代表罗浮感谢你们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "驭空少见地大发雷霆，连我神策府这厢都能听到些动静。所以二位这是卷入了那对母女之间的麻烦事了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我听说驭空司舵曾是个了不起的飞行士，但却拒绝了她女儿步上同样的道路……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "这样的问题，只有当事人亲口回答才有意义。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "当然了，你们来此也是因为驭空司舵对这么做的理由绝口不提。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "如果是为了解答晴霓小姐的好奇心，我们不妨将话题放得更遥远一些？对于身为飞行士的驭空，你们想了解什么呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "提交物品晴霓的回忆",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "晴霓告诉了你们这些吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "真怀念啊，当年那个被云骑军控诉超速飞行，抓到我面前的狐人小姑娘，现在已经是和我平起平坐的司舵大人了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "如果我告诉当年的自己：「这个小姑娘以后会成为老成持重的司舵。」恐怕自己怎么也不会信的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "当年的驭空绝不是如今这般模样，案牍劳形，枯坐书斋。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "她的性子像烈火，像停不下来的风。要说谁能稍稍让她安静片刻…只有那位战友了。"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "战友？",
+                  "content": []
+                }
+              ]
+            },
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "是啊，体积较大的斗舰，需要飞行士两两成对合作。一人掌舵飞行，另一人操控武器。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "王牌飞行士的传奇，也需要王牌武备士来成全。和驭空搭档的那个女孩名叫采翼。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "无论是驱驾斗舰，还是执掌火力，采翼都像一把冰刀，干脆利落，毫无多余的情绪。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "真难想象，性格这样极端的两个人竟然能合作无间。如果没有那场重创了仙舟空军的战役的话……"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "提交物品神矢余烬"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "提交物品神矢余烬",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "这是…帝弓司命的圣物？诸位从何处得到这东西的？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "在驭空随身的挂饰里。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "这件圣物一直存放在驭空司舵随身携带的挂饰中，晴霓小姐暂时交给了我们。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "晴霓给我们的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "这件圣物一直存放在驭空司舵随身携带的挂饰中，晴霓小姐暂时交给了我们。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "…路上捡来的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "景元",
+              "text": "哪条路上捡来的？下次我也去找找。这种品相的圣物，在市面上至少值两万巡镝。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "他/她开玩笑的。这件圣物一直存放在驭空司舵随身携带的挂饰中，晴霓小姐暂时交给了我们。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "她想借着这件东西，打听驭空大人当年的经历，还有…她不再飞行的理由。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "这件圣物并不是普通的工艺品，它可算得上是铭记血泪的见证。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "诸位对仙舟巡猎星海之事耳熟能详。但一定甚少听闻「丰饶民战争」。在仙舟清除不死孽物的同时，丰饶孽物的联军也多次突破战线，将仙舟逼入危境。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "三十年前，曜青与方壶两座仙舟受到敌人的围攻。即使在联盟与丰饶之民漫长的战争史中，那场空战也称得上是最为惨烈的战役之一。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "面对数倍于自己的丰饶孽物，近百万斗舰飞行士殊死搏斗，活着离开战场的，不足十万。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "而在这场失利战役的尾声，若不是帝弓司命示现降临，用倾天光矢摧毁了丰饶孽物的攻势，罗浮今日是否还能继续航行，也难说得很。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "铸成这些圣物的材料，便是帝弓神矢在战场上留下的「余烬」。对那些幸存者来说，其中掺杂着故友的鲜血，敌人的灰烬，还有自己的回忆……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "驭空，就是这场战役的幸存者。而她最好的朋友采翼，埋骨异乡，再也没能回来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我没有其他问题了，多谢将军。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "驭空司舵不愿再飞行的心结，我不便揣测，也不想撕开她的旧伤。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "没有人能轻易抛下自己的过去。驭空和采翼是出生入死的挚友，她一定留有关于两人过去的一些回忆。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "这话本不该由我说出口，但对晴霓来说，她有权知道过去的事情，因为这些过去开始左右她的未来了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "多谢了，将军。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "有劳将军，用这样的琐事占用你的时间，真是抱歉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "瓦尔特先生说笑了，这是关乎这对母女互相理解的事情，又怎么能算是小事呢？要我说，神策府里的文山会海才是小事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "那么，我们就先告辞了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "开拓者，咱们走吧。去星槎海找找晴霓。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品景元的回忆"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（景元）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "景元",
+          "text": "怎么？还有什么事吗？"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "还有一些问题…",
+              "content": [
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "晴霓告诉了你们这些吗？"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "真怀念啊，当年那个被云骑军控诉超速飞行，抓到我面前的狐人小姑娘，现在已经是和我平起平坐的司舵大人了。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "如果我告诉当年的自己：「这个小姑娘以后会成为老成持重的司舵。」恐怕自己怎么也不会信的。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "当年的驭空绝不是如今这般模样，案牍劳形，枯坐书斋。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "她的性子像烈火，像停不下来的风。要说谁能稍稍让她安静片刻…只有那位战友了。"
+                },
+                {
+                  "type": "choice",
+                  "presentation": "dialogue",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "战友？",
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "是啊，体积较大的斗舰，需要飞行士两两成对合作。一人掌舵飞行，另一人操控武器。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "王牌飞行士的传奇，也需要王牌武备士来成全。和驭空搭档的那个女孩名叫采翼。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "无论是驱驾斗舰，还是执掌火力，采翼都像一把冰刀，干脆利落，毫无多余的情绪。"
+                },
+                {
+                  "type": "dialogue",
+                  "speaker": "景元",
+                  "text": "真难想象，性格这样极端的两个人竟然能合作无间。如果没有那场重创了仙舟空军的战役的话……"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "没事了。",
+              "content": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往司辰宫，与晴霓汇合"
+    },
+    {
+      "type": "objective-description",
+      "text": "从景元将军口中，你们知晓了驭空的过去。也许她自始至终都很害怕，自己的女儿会重蹈挚友的覆辙。无论如何，将这个故事带给晴霓，让她自己做判断吧。",
+      "location": "仙舟「罗浮」-星槎海中枢"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们离开神策府后收到了晴霓的短信…"
+    },
+    {
+      "type": "message-thread",
+      "title": "晴霓",
+      "subtitle": "瞬间横跨这辽阔的宇宙",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "晴霓",
+          "contentType": "text",
+          "text": "开拓者，请问您在景元将军那边有什么收获吗？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "晴霓",
+          "contentType": "text",
+          "text": "夕葵说妈妈有事不在，所以我现在回天舶司了",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "晴霓",
+          "contentType": "text",
+          "text": "如果有什么收获，能过来和我汇合吗？",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "晴霓",
+          "contentType": "text",
+          "text": "我想和天舶司的同事们尽可能打听一下…但又不知道怎么开口……",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "你认识采翼吗？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你认识采翼吗？据说是令堂以前最好的朋友"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "他提到采翼…",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "景元提到了一个叫「采翼」的人，说你和她很熟悉"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "晴霓",
+          "contentType": "text",
+          "text": "……",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "晴霓",
+          "contentType": "text",
+          "text": "我其实隐约猜到，会有些关联",
+          "acknowledged": true
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "晴霓",
+          "contentType": "text",
+          "text": "短信里说不清，见面聊吧",
+          "acknowledged": true
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "稍后见",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "稍后见"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "一会儿见",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "一会儿见"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们到了司辰宫，与晴霓汇合…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "你们来啦。我妈好像…心情不太好，去外面散心了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "心情不太好？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "嗯…应该是因为我吧……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "翘班了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "我妈可不是不负责任的人。她肯定是把工作安排妥帖后才去翘班的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "你们母女可真像啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "是啊，每次吵完架，我们都会跑出去散心。只不过，我去星槎海的一边，她去星槎海的另一边…这样可以避免吵完架后立刻见面。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "有点可爱…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "真的吗？我倒是觉得挺傻的。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "有点幼稚…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "是啊，是很幼稚。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "有点傻…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "是啊，是挺傻的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "说回正题…二位从景元将军那里知道了些什么吗？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "向晴霓转述了景元提供的信息。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "驭空司舵从没向你提起过这些吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "我很想知道关于她的事，但她总是扯开话题，要不就是装作没听见。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "我大概也能猜到，妈妈过去经历的某些事，是一道永远无法愈合的伤疤。所以，在懂事之后，我就再也没有问出口。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "她害怕你重蹈挚友的覆辙…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "是啊，驭空自此之后不愿飞行，也不愿你飞行的原因，恐怕正在于此。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "天才也有幸运和不幸之分…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "是啊，驭空并不想你背负她的虚名。何况在生死战场上，人的天赋和名声其实并无意义。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "你是说，她想起自己失去挚友的伤痛，所以才不肯让我飞行。我越有天赋，她就越是害怕，害怕我重蹈覆辙？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "我不敢妄言令堂的想法，晴霓小姐还是应该亲自和她谈谈。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "嗯…瓦尔特先生说得对。在此之前，我还有些事要确认。景元将军所说的「过去」，应该就存放在司辰宫的某个档案柜里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "我曾经看到过她将某些东西珍而重之地放入案牍库归档，唔，像是日记之类的文件。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "晴霓小姐还记得这份日记被存放在哪里吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "隐约有些印象。但天舶司归档内容众多，能不能请二位恩公和我一起找找看……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "作为外客翻找天舶司的档案…实在有失礼貌。晴霓小姐，我们只能负责陪同，查找的事情还请你自己动手。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "是我欠考虑了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在术算机中寻找驭空的私人档案位置"
+    },
+    {
+      "type": "objective-description",
+      "text": "想要进一步了解驭空的过去，果然还是应该去司辰宫找找看。陪晴霓到处找找吧，她在这里见证的过去，也许会改变她的人生。",
+      "location": "仙舟「罗浮」-星槎海中枢-司辰宫"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查正在摸鱼的职员）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "正在摸鱼的天舶司职员",
+          "text": "呃…你们在看什么？我可没在摸鱼，我在用帝垣琼玉训练术算机的运算能力…我…我这可是正经事！绝对不是在打牌！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "…抱歉，打扰了。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查正在运行系统的术算机）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "这台术算机正在运行一个航路模拟系统，系统显示还需要两个时辰，就能模拟出罗浮到科德莱浮游城的航路。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "瓦尔特",
+          "text": "这上面看起来正在运行很重要的程序。还是别乱动这台术算机了。"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查正在释放怨念的职员）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "正在释放怨念的天舶司职员",
+          "text": "我爱工作。我爱加班。我爱工作。我爱加班。我爱工作。我爱加班。我爱工作。我爱加班。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "晴霓",
+          "text": "呃…还是不要打扰她了……"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（调查一台已有所属之人的术算机）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "这台术算机的桌面图片是一行飘逸的书法字：「岩明工位，闲人勿动。」"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "晴霓",
+          "text": "岩明先生一板一眼的，可不好惹，咱们还是换一台术算机好了。"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "在你们的不懈努力之下，终于找到了一台可用的术算机…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "这台确实可以用！好的…唔…我查查，历代司舵的私人档案归档于…找到了。我们过去看看吧。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "寻找与驭空过去有关的资料"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们来到了档案柜前…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "应该就是这里了。我看看…找到了！这就是妈妈的日记。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "晴霓小姐，这是令堂的私人日记，我想我们不该看的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "其实没关系吧…都是几十年前的东西了，对你们异邦人来说，大半辈子都过去了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "不，我还是觉得…我不该看。开拓者，你在这里陪着晴霓小姐吧，我在旁边等你们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "哎…好吧。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "瓦尔特离开了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "其实真的没什么。我印象里，就只是一些对飞行士生活的感慨。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "杨叔比较讲究。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "完全理解。瓦尔特先生一看就是这样的人，有一套坚定的原则，并且绝不会越线。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我也不该看…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "别啊，算我求您了，和我一起看吧。总要有个人帮我出出主意吧。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "咱们一起读一读吧，也许能从日记里找到些什么。"
+    },
+    {
+      "type": "fold",
+      "title": "驭空的交换日记",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "……\n\n采翼，咱们两个要成搭档了！\n\n虽说你我认识了这么久，但当初开着星槎在城里非法竞速的时候，咱俩可是对手关系！现如今要我们老老实实坐在一起，生死与共、肝胆相照，我还真不习惯。\n\n当然，我主要是不习惯和竞速时的手下败将同舟共济，但没辙，军令如山嘛。嘿嘿。\n\n不开玩笑了。我还是很期待和你一起飞行的。\n\n也不知道什么时候才会接到战斗任务。不知道你是怎么想的，但我是觉得，现在咱们俩空有一身本领，却不能上阵杀敌，实在是憋得慌。\n\n那些丰饶民时不时就要袭扰边境，偶尔还会听闻他们又残害了哪个无辜的星球，每当我听到这些消息，都觉得满腔怒火无处发泄…不过现在好了，等过一段时间，我们就能开着斗舰去给他们点颜色瞧瞧了。\n\n不过坦白讲，对现在的日子，我也是知足的。毕竟…咱们私下里说，真正吸引我的可从来不是那些荡涤妖寇的大义名分。真正吸引我的只是飞行本身。\n\n你看，在洞天外的宇宙中飞行，与我早已习惯的星槎竞速是不同的…宇宙中四下无依，甚至没有上下之分，斗舰孤零零地挂在空中，像大洋中心的夜航船。此时你没办法依靠任何人，只能信赖自己的技艺，和自己驾驶的斗舰。\n\n总听人说，这种感觉叫做「孤独」。可我却更愿意称之为「自由」。\n\n所以对我而言，能够在宇宙中飞行，就已经足够好了。而如果能和你一起共享这份甘美的「自由」，那可真是好上加好。\n\n……\n\n采翼，我不知道该说些什么才能安慰你。你总是这样，无论遇到什么糟糕的事，都会摆出一副不需要人关心的坚强模样，然后说一些不合时宜的玩笑话。\n\n但我们相处了一百多年，彼此之间早已心照相交。你曾说过，一件事如果对我而言是不愉快的，那你也绝不会舒服。其实我也是如此。\n\n此刻我觉得像是有人在用生锈的钝刀剜我的心。我实在是难以想象你在承受多么巨大的伤痛。\n\n说来滑稽，我似乎从来没给过广渊好脸色。每次你抛下我，和他一起出任务，我都觉得心里不是滋味。尤其是看到你们打情骂俏、如胶似漆，腻得像一大盆只有肥油的红烧肉时，我都忍不住要甩给他一个不屑的冷脸。\n\n但广渊真是一个很好的人。我对他那样失礼，他却总是对我展现善意。事到如今回想起来，实在觉得自己是个不识好歹的人。\n\n唉…他可真了不起，只用两个人就拖住了敌人的几十艘舰艇。这可不是靠勇气和觉悟就能做到的，还需要卓绝的技巧和过人的才能。\n\n我都能想象得出来，在最后时刻，他那张令人不快的俊俏脸庞上表现出了怎么样的坚毅和专注。我猜想那就是你当初爱上他的原因。\n\n我都能想象得出来，在最后时刻，他心里有多自豪。那时他一定没有恐惧，也没有绝望，只有自豪。\n\n所以你也不该悲伤，你该为他自豪。我们都应该。\n\n……\n\n采翼，我最近心里有很多负面情绪，但又不能讲给其他在前线的战士。既然你现在在后方休养，就宣泄给你好了。\n\n虽然事到如今才说这种话，显得我有点迟钝…但的确是直到最近，我才恍然醒悟——原来我正身处一场这样残酷的战争。\n\n空战不像陆战，虽然都是生死一瞬，但却难得见到残肢断臂，以至于我在直觉上有些误判了这场战争的残酷性。直到最近，战况越来越不利，血淋淋的现实才以一种温和的方式不容置疑地呈现在我面前。\n\n今天坐在一起吃饭的人，明天就不见了。今天夸奖过的新兵，明天就不见了。今天与我争执过的长官，明天就不见了。今天和我相互鼓励过的地面部队，明天就不见了。\n\n到了这个份上，我已经不敢和任何人产生情感上的连接了。说不定明天这人就死了，说不定明天我就死了，说不定明天我们都死了。\n\n我以为经历得多了，我就麻木了。但我还是难以应对每天接踵而来的噩耗。\n\n不过，我不后悔。每当我感到痛苦时，又会同时感到，成为斗舰飞行士是我人生中最正确的决定。\n\n如果我不是斗舰飞行士，我就只能默默承受痛苦。可我是斗舰飞行士，我可以飞行，我可以战斗，我可以试着去摧毁那痛苦的根源。因为我是斗舰飞行士，所以我还有能够做到、能够改变的事。\n\n另：不要用广渊想的名字，实在是太难听了！名字可是要跟着小孩一辈子的大事！采用我的方案吧，那可是我认认真真翻了好几天诗集才想出来的。\n\n……\n\n采翼，我有很多话想和你说，很多很多话。\n\n你死之后，他们要给我授勋。坦率地说，我觉得这很可笑。\n\n照常理来说，没有人会给天灾人祸的幸存者授勋，以表彰获勋者竟然可以幸运地活下来。可是天舶司会。他们给我授勋，说我是英雄飞行士，唯一的原因就是我足够幸运，从那场灾难般的战役中幸存了下来。\n\n如果你也这么幸运，我们现在就可以一起获勋了。授勋仪式之后，我们两个再跑到金人巷去，一边小酌两杯一边嘲笑他们的荒谬。\n\n可惜，你运气不够好。我们没有这个机会了。\n\n我突然觉得很怀念。怀念起我们驾驶着星槎在罗浮空中肆意穿行的好时光。那时候我们多快活，没有生死存亡的威胁，也不必承担巡猎的使命。洞天中的整片天空都是我们的，只有你与我，抬头是明灭闪烁的洞天穹顶，低头是人烟阜盛的万家灯火，回头是穷追不舍的地衡司执事。\n\n那时候我们多快活。我好想和你永远留在那时。\n\n……"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品驭空的交换日记"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你和晴霓看完驭空的日记后，岩明出现在了你们身后…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "你们干什么呢？司舵的宝贝闺女带着个外人在这里东摸摸西摸摸，像什么样子？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "你们手里拿的是什么？我看看…驭空大人的…日记？！好大的胆子啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "驭空大人的私人日记你也敢翻？还带着人家的闺女一起翻？帝弓在上，你们这可真是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "岩明先生，您先消消气…我们这么做是有原因的……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "晴霓将事情的来龙去脉讲给了岩明。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "事情的经过我了解了…晴霓啊，驭空大人不让你做飞行士，我知道你心有不甘，可她也有她的顾虑……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "岩明先生，您说的我都明白。但是事到如今，比起自己能否成为斗舰飞行士，我更想知道妈妈经历了什么……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "我想知道是什么将她从那位天才飞行士，变成了现在的驭空司舵。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "我在这里也有些年月了，有什么想知道的，你们不妨直接问我吧…别到处乱翻了，这习惯不好。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "提交物品神矢余烬",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "岩明",
+              "text": "这件圣物…如果我没记错，是驭空大人一直随身携带的那件吧？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "岩明",
+              "text": "我听说过，那场战役能安然结束，全都仰赖帝弓的庇佑。如果驭空大人始终还带着那枚飞行士的挂件，那么也许她其实也一直都眷恋着天空……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "如果妈妈还眷恋天空，她又为什么不再飞行了呢？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "岩明",
+              "text": "可能是因为采翼的离去，对她的打击太过沉重。这事儿你也不该问我，问你妈妈去。"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "继续提交物品，直到提交景元的回忆"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "提交物品景元的回忆",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "提交物品驭空的交换日记",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "岩明",
+              "text": "不。这不是我该看的东西，别拿给我看……"
+            },
+            {
+              "type": "choice",
+              "presentation": "dialogue",
+              "options": [
+                {
+                  "id": 1,
+                  "text": "看看又不会少块肉。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "岩明",
+                      "text": "瞧你这话说的…吃鞋垫子还不会少块肉呢，你吃吗？"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "岩明",
+                      "text": "还是问点别的吧，问点我能回答的。"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "text": "那算了，我们聊点别的。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "岩明",
+                      "text": "嗯…问点别的吧，问点我能回答的。"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "text": "驭空不会知道的。",
+                  "content": [
+                    {
+                      "type": "dialogue",
+                      "speaker": "岩明",
+                      "text": "她确实不会知道，但是君子要慎独。"
+                    },
+                    {
+                      "type": "dialogue",
+                      "speaker": "岩明",
+                      "text": "还是问点别的吧，问点我能回答的。"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "继续提交物品，直到提交景元的回忆"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "采翼小姐吗…我记得她。采翼可是当时数一数二的武备士，想和她同飞的人数不胜数。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "她的丈夫，广渊先生则是个飞行士。夫妻共同驾驶斗舰，真是令人羡慕得紧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "不过要说和她最合拍，也是最常搭档的，还得是你母亲。她们二人出击的次数，连广渊先生也屈居其后。尤其是在广渊先生阵亡后，采翼几乎不和你母亲以外的人搭档。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "唉，可惜，没过多久采翼也不在了。飞行士的人生便是这样，没人知道这一次飞行会不会是最后一次。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "采翼的死，对驭空大人的打击很大。那场战役后，她没有按惯例那样上交采翼的遗物，而是留在自己身边，时不时拿出来翻看。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "没想到岩明先生还挺八卦的…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "岩明",
+              "text": "什么话。作为仙舟人，我唯一的长处就是活得够久，能见证的东西要比那些朝生暮死的狐人飞行士更多。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "岩明",
+              "text": "唉，到头来，那些了不起的天才都走啦。我唯一能做的也就是回忆回忆，让别人不要那么快忘了她们。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你怎么那么关注驭空啊？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "岩明",
+              "text": "呃，那个…作为下属关心上级的心理健康有这么难理解吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "岩明",
+              "text": "她要是不高兴，我能快活得起来吗？我是说，她要是不高兴，我的职场生涯能快活得起来吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "采翼小姐的遗物，究竟放在了哪里呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "无论如何，谢谢你告诉了我们这些，岩明先生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "没关系…这毕竟是对你而言相当重要的事……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "我知道，接下来你们肯定要去翻驭空大人的办公桌了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "晴霓，我其实很明白你的心情。我会当做什么都不知道地离开——在领导隐私曝光的时刻不在场，这也是咱职场人最基本的素养了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "你可千万别跟你妈提起今天见过我！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "我懂。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "谢谢岩明先生！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你是天舶司保安？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "岩明",
+              "text": "保护公共财产和公共秩序，这是每个仙舟人民应尽的责任。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "算你识相。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "岩明",
+              "text": "倒霉孩子，我那是懒得跟你计较。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "岩明",
+      "text": "你们赶紧去吧。过一会儿，驭空大人就该回来了。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（岩明）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "岩明",
+          "text": "嗯？你们还有什么事吗？驭空大人可快要回来了啊。"
+        },
+        {
+          "type": "choice",
+          "presentation": "dialogue",
+          "options": [
+            {
+              "id": 1,
+              "text": "还有些事想问…",
+              "content": [
+                {
+                  "type": "choice",
+                  "presentation": "dialogue",
+                  "options": [
+                    {
+                      "id": 1,
+                      "text": "提交物品神矢余烬",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "岩明",
+                          "text": "这件圣物…如果我没记错，是驭空大人一直随身携带的那件吧？"
+                        },
+                        {
+                          "type": "dialogue",
+                          "speaker": "岩明",
+                          "text": "我听说过，那场战役能安然结束，全都仰赖帝弓的庇佑。如果驭空大人始终还带着那枚飞行士的挂件，那么也许她其实也一直都眷恋着天空……"
+                        },
+                        {
+                          "type": "dialogue",
+                          "speaker": "晴霓",
+                          "text": "如果妈妈还眷恋天空，她又为什么不再飞行了呢？"
+                        },
+                        {
+                          "type": "dialogue",
+                          "speaker": "岩明",
+                          "text": "可能是因为采翼的离去，对她的打击太过沉重。这事儿你也不该问我，问你妈妈去。"
+                        }
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "text": "提交物品驭空的交换日记",
+                      "content": [
+                        {
+                          "type": "dialogue",
+                          "speaker": "岩明",
+                          "text": "不。这不是我该看的东西，别拿给我看……"
+                        },
+                        {
+                          "type": "choice",
+                          "presentation": "dialogue",
+                          "options": [
+                            {
+                              "id": 1,
+                              "text": "看看又不会少块肉。",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "岩明",
+                                  "text": "瞧你这话说的…吃鞋垫子还不会少块肉呢，你吃吗？"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "岩明",
+                                  "text": "还是问点别的吧，问点我能回答的。"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 2,
+                              "text": "那算了，我们聊点别的。",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "岩明",
+                                  "text": "嗯…问点别的吧，问点我能回答的。"
+                                }
+                              ]
+                            },
+                            {
+                              "id": 3,
+                              "text": "驭空不会知道的。",
+                              "content": [
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "岩明",
+                                  "text": "她确实不会知道，但是君子要慎独。"
+                                },
+                                {
+                                  "type": "dialogue",
+                                  "speaker": "岩明",
+                                  "text": "还是问点别的吧，问点我能回答的。"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "没事了。",
+              "content": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "调查驭空的办公桌"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "我妈在办公桌里放了很多东西，咱们得找找。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这桌子里哪有地方放东西？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "暗格藏在哪儿了…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "这就是仙舟科技吗…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "这款办公桌的卖点就是这样啊。极简的设计配合超大容量的暗格，很多文职人员都用这一款。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "桌子的左边、右边和桌面下边各有一个暗格，要先看哪个呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "左边。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "纸鸢…一些私人书信…还有一本《厌作人间语》。原来妈妈平时喜欢这种小说，还以为她会看更加「豪迈」的东西。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "不过我们要找的东西似乎不在这里。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "桌子的左边、右边和桌面下边各有一个暗格，要先看哪个呢？"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "重复剧情选项"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "右边。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "里面有个展阅诶，搞不好是我们要找的东西。啊！这是…阵亡将士的档案…妈妈将他们每个人的信息，放在自己手边。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "从小到大，每次我们的飞行士从战场上凯旋，母亲总会提醒我：「永远不要忘记胜利的代价。」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "不过我们要找的东西似乎不在这里。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "桌子的左边、右边和桌面下边各有一个暗格，要先看哪个呢？"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "重复剧情选项"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "下边。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "…找到了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "这本册子倒是和妈妈那本日记形制很像。不过看起来，应该是采翼小姐的日记……"
+            },
+            {
+              "type": "fold",
+              "title": "采翼的交换日记",
+              "collapsed": true,
+              "content": [
+                {
+                  "type": "text",
+                  "text": "……\n\n驭空，能有机会和你并肩作战，我真得很开心。\n\n分组名单发下来的时候，我紧张到不敢打开展阅查看，生怕我们两人不能被分到一起。倒不是舍不得你，只是你这火一般的性子，要是将你交与别人，我可真是放心不下。\n\n等以后到了战场上，你可不要像现在这样，总凭着一腔热血去蛮干，做事前多想想后果…算了，不说这些了，免得你又埋怨我说话像个老干部。总而言之，我们要齐心协力，发挥各自的特长，在广袤的天空中写下属于我们自己的传奇。\n\n期待和你一起搏击长空，期待到有些难以入眠。\n\n……\n\n驭空，别哭了。不必难过。\n\n真是的，死的是我老公，你怎么哭得比我还伤心。打了这么多年的仗，你还是这么感情充沛，真羡慕你。\n\n斗舰飞行士本就是九死一生，既然选择了这条路，就要做好心理准备。重要的并非我们能否侥幸活下来，而是我们能否活出飞行士的人生价值。\n\n广渊和他的搭档，两个人一艘斗舰，拖住了步离人的一整支编队。他们是作为英雄牺牲的，对我而言，这就已经足够了。\n\n以前我听人说，人生最大的幸福是能选择自己如何死去。从这个角度来讲，为了仙舟联盟…不，为了全银河的黎民苍生，戎马一生最终战死沙场——广渊大概也算是幸福的。\n\n当然，你还是不要获得这种幸福了，给我老老实实再活个两百年然后老死在病床上吧。\n\n……\n\n驭空，好久不见。我还在后方休我的产假，一切都安好。\n\n现在战况胶着，你一定很忙碌。但是方便的时候，请你抽空写一下交换日记，以便我知道你还平安…而且我还憋了一肚子话想和你讲。\n\n首先和你报告一件事，我已经决定好给孩子起什么名字了。\n\n广渊生前其实嘱托过，如果是男孩就起名叫「飞龙」，如果是女孩就起名叫「飞凤」。但这个人的文学造诣和永狩原里的猴子差不多，再怎么死者为大，也绝不能按照他的心意毁了我女儿的人生。\n\n所以思来想去，我最终决定采用你的方案，给孩子起名叫「晴霓」。\n\n「月营开射圃，霜旆拂晴霓。」真难得你还能翻出诗词做典故，我还以为你心里只有斗舰呢。\n\n你不要太想我。等我再休养几个月，安顿好晴霓，就会尽快归队的。晴霓还这么小，我就要丢下她去打仗了…怎么说呢，我还真是不称职的母亲。\n\n然而我也很清楚，前线并不乐观，步离人势如破竹。媒体在尽可能地阻止恐慌蔓延，但现在整个罗浮都弥漫着不安的气息。\n\n不过，我相信仙舟联盟一定可以胜利。我相信像你我这样的战士，一定可以将那些丰饶民赶回老家。\n\n期待我们再次并肩作战。\n\n……\n\n驭空，明天我们将会赶赴一个残酷的战场。\n\n所以今晚，有些事情我必须嘱托给你。（这大概有些不吉利，但没办法，谁叫我们以前从来没相互嘱托过这些事呢？）\n\n如果你活下来了，而我没有，请好好照顾晴霓。像照顾自己的女儿那样照顾她。我知道，你一定会这么做的。我的全部存款都交予你，请当做晴霓的抚养费。\n\n无论晴霓想成为什么样的人，都请全力支持她。商人、诗人、街头艺人，无论她想做什么都可以。但唯独不可以做斗舰飞行士。\n\n请允许我擅自和你立下一个约定：不要让晴霓成为斗舰飞行士。\n\n刚入伍时，你曾在交换日记里写道——斗舰孤零零地挂在空中，像大洋中心的夜航船。…总听人说，这种感觉叫做「孤独」。可我却更愿意称之为「自由」。\n\n我特别喜欢这一段。因为我也是这么想的。\n\n但是已经够了，「孤独」也好，「自由」也罢，你我都已经尝够了。答应我，别让那孩子触碰天空。\n\n……"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "所以，我是被妈妈收养的孩子？而这位采翼小姐…才是我的母亲？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "虽然内心隐隐约约预感，但真的得知这些，我还是有种像是在做梦一样的感觉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "「别让那孩子触碰天空…」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "这就是妈妈拒绝让我成为斗舰飞行士的理由吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "其实我早猜到了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "难怪小时候我问妈妈，爸爸在哪儿时，她回答我，我是从迴星港的星槎流水线上种出来的……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "我当时想，骗小孩子都这么不上心，还疑心她是夸我继承了她的天赋。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "她不想失去另一个采翼…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "对于飞行士来说，载回同伴，是起飞前最重要的誓言。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "妈妈没能载回同伴，她只能遵守这个誓言，不让另一个采翼出现。对她来说，我不仅仅是她的女儿，也是她能为采翼履行的最后责任。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "我…我从没想过自己的梦想会让她如此为难。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "不知为什么，翻完这册日记，我突然觉得和她亲近了很多。虽然意外知道了我们不是血脉相连的母女，但我比过去更了解她了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "开拓者，能请您再陪我一次吗，我想和妈妈好好谈谈。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "没问题。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "太好了，谢谢您！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "可这是你的家事…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "没关系…我也并不需要您帮我做什么…只希望您能和瓦尔特先生站在一旁，替我壮壮胆吧……"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "真能说服她吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "晴霓",
+              "text": "我想做最后一次努力。如果即使这样，妈妈都不同意的话…那我也只好甘愿做一个天舶司的文员了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "获得物品采翼的交换日记"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与瓦尔特汇合"
+    },
+    {
+      "type": "objective-description",
+      "text": "晴霓已经知道了那些她想知道的故事，而其中很多，是驭空不想让她知道的。现在，她该为自己的人生做出选择了。正如星核猎手的老朋友曾对你说过的那样：「当你有机会做出选择的时候，不要让自己后悔。」",
+      "location": "仙舟「罗浮」-星槎海中枢"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "事情都办完了？怎么样，还顺利吗？"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你给瓦尔特转述了刚才发生的事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "…明白了。那我们陪你去找驭空司舵吧……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "不过…虽然我们都很希望能帮到你，但在与令堂交涉时，于情于理，我和开拓者都是不能直接插手的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "嗯，没关系，我完全理解。况且二位恩公就算只是在我身边站着，就已经可以给我莫大的勇气了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "陪晴霓一起和驭空谈谈"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "妈妈心情不好时，就会去一个能看到玉界门的地方散心。她现在应该还在那里，我们过去找她吧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "妈妈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "晴霓？怎么瓦尔特先生和开拓者也在这里？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "晴霓小姐为人热情，带我们去星槎海游览了一番。在路上听说她想和驭空司舵重归于好，又有些羞怯，于是便冒昧地陪她一起来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "小女为人幼稚，让二位多费心了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "妈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "行了，天色也不早了，有什么话，回家再说吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "其实…我有事情想和您谈谈。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "无论如何，我都想成为斗舰飞行士。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "这件事，我们已经谈过很多次了。不行就是不行。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "可是…可是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "晴霓小姐似乎有些犹豫。这种时候，就需要你这样的同辈人推她一把了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（说是不该插手，但杨叔还是按捺不住啊…那么该帮晴霓提起哪件事呢？）"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "提交物品晴霓的回忆",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "（在晴霓的回忆中，驭空似乎一直对斗舰飞行士的生涯讳莫如深，也不希望晴霓和自己走上同样的道路…这是为什么呢？）"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "（但这似乎不是现在该提出的话题。）"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "重新提交物品，直到提交采翼的交换日记"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "提交物品神矢余烬",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "（这件圣物似乎可以证明驭空对「巡猎」的虔信…晴霓认为这代表驭空对斗舰飞行士的生涯尚怀眷恋。）"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "（但这似乎不是现在该提出的话题。）"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "重新提交物品，直到提交采翼的交换日记"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "提交物品景元的回忆",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "（晴霓的生母采翼是驭空一生的挚友。她在那场惨烈的战役中牺牲后，驭空收养了她的女儿。也许这段不堪回首的往事正是驭空的心结。）"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "（但这似乎不是现在该提出的话题。）"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "重新提交物品，直到提交采翼的交换日记"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "提交物品驭空的交换日记",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "（看得出来，驭空在那场惨烈的战役之后，承受了巨大的痛苦。难道她正是因此才不愿让晴霓成为斗舰飞行士的吗？）"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "（但这似乎不是现在该提出的话题。）"
+            },
+            {
+              "type": "narration",
+              "tone": "描述",
+              "text": "重新提交物品，直到提交采翼的交换日记"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "提交物品采翼的交换日记",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "这是…采翼的日记？这东西怎么会在……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "我明白了。晴霓…对不起，我不能支持你的愿望，因为我已对另外一人发过誓言。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "我不奢望你的原谅，但只希望…你能听听我的辩解。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "妈，您在说什么？我们是母女，又怎么谈得上「原谅」和「辩解」？无论您说什么，我都愿意听……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "我曾和你一样，对天空怀有憧憬。我知道那是什么感受…在宇宙中航行，四周皆是辽阔的空无，远方尽是难以想象的奇观。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "在星海之间像一叶孤舟似的漂游，一些人称之为「孤独」，但我们更愿意称之为「自由」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "采翼也是这样的人。我们从小便是好友，驾驶着星槎到处惹是生非，直到被人抓到景元将军面前。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "不久后，我们就成了天舶司最为精锐的斗舰飞行士。那生活谈不上轻松，甚至称得上残酷——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "你永远不会知道身边的朋友能否返航，当然，也不会知道你自己能否返航。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "但对我来说，那是我人生中最为美好的回忆。抛洒热血、搏击长空、荡涤妖邪、匡扶正义，狐人的一生如此短暂，难道不正应为这样光荣的事业而燃烧吗？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "驭空的回忆一幕幕呈现…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "今天宙域晴朗！正是适合飞行的好天气！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "采翼",
+      "text": "这次是去打步离人的主力舰队，还是别那么激动，稍微冷静些吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "怎么？休了一年产假，技巧迟钝了？没有自信了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "采翼",
+      "text": "去你的吧。我看你是太久没机会和我一起飞行，现在才这么激动的。是不是想我想得不得了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "是啊，想死你了。没有你伴航，总觉得银河都小了一圈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "说起来，采翼…我真的没想到你还会回来…开斗舰对你而言就这么有吸引力吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "采翼",
+      "text": "那可太有吸引力了…又苦又累钱又少，天天把脑袋绑在裤腰带上，一年到头也回不了几次罗浮……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "采翼",
+      "text": "可如果让我再选一次，我还是会成为斗舰飞行士……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "采翼",
+      "text": "因为我已经触碰过天空了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "大脑是个奇怪的器官。活了两百多年，我早已忘记了大多数闲谈…但惟有那段无聊的闲谈，我清楚地记得每一句。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "因为那是我和采翼的最后一次闲谈。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "驭空回忆起了与采翼分别的那一幕……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "采翼…坚持住…采翼，采翼，睁开眼睛，采翼……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "采翼",
+      "text": "谢谢你，我度过了很好的一生…但别让晴霓走上这条道路，别让她…成为斗舰飞行士……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "采翼！那是你的女儿，有什么话你去自己和她说！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "救援马上就到了，你睁开眼睛！晴霓还在等你！广渊已经死了，晴霓不能再失去你了！给我醒过来啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "采翼！采翼！采翼…采翼……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "当我从燃烧着熊熊烈火的星槎残骸中爬出，看到的是那颗无血无泪的星球未经大气修饰的天空。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "那是我见过的最美的天空，可我只感到难以忍受的悲伤。我只能像只该死的蚂蚁匍匐在大地上，眼巴巴地望着它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "在梦里，我死在了那天。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "这是我第一次听您谈起这些事……但是，妈妈，我已经不是懵懂的孩子了。成为斗舰飞行士是一条残酷的道路，这我早有准备……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "但我不会因此而退缩，我并不害怕自己和她走上同样的道路…如果牺牲能换来仙舟上黎民苍生的幸福，那我甘愿慨然赴死！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "你真的很像采翼。所以这些年来，你越是优秀，我就越是恐惧。我知道你早就准备好了…但是，我一直都还没准备好……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "你知道吗？那些残酷的事情从未击倒我。我、采翼，还有你的生父广渊，在入伍之初，我们心中就早有准备。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "可你知道，那场夺走了采翼…夺走了几十万战友的战役…我们最终是如何取得胜利的吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "是…帝弓司命的神矢……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "是啊！帝弓司命的浩荡神恩，只用一击就荡平了那群孽物！可仅只为了阻挡它们的前进，我们就付出了几十万条生命的代价！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "如果对于帝弓司命来说，碾碎那些敌人如同呼吸般简单…那么，我们的牺牲又算什么呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "在星神的伟力之下，凡人的牺牲，都像是笑话一样…什么都不是…什么都不是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "妈妈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "但是，我不该因为自己的恐惧，就替别人下决定…即使那个人是我的女儿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "我粗暴地干涉了你人生的选择。对不起，这是我身为母亲的失职。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "妈妈…不必道歉，真的不必道歉……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "明天，我会去帮你办理手续。你会先从一个地勤人员做起，正如我和采翼当年那样。我相信…你会成为一个了不起的斗舰飞行士。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "啊？真的吗！谢谢妈妈！谢谢妈妈！谢谢妈妈！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "我担心你走向我的道路，更担心你走向采翼的道路。但既然这是你的选择…我便愿意全力支持你，直到你后悔为止。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "妈妈…我还有最后一个小要求……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "说来听听吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "我想…和您一起飞行一次……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "嗯…这就不了吧。我不会再飞了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "晴霓",
+      "text": "这…为什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "驭空",
+      "text": "因为我已经触碰过天空了。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（驭空&晴霓)",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "晴霓站在母亲身边，静静地凝望着那个让她满怀热情的地方。\n驭空静静地凝望着那个曾让她满怀热情，又让她失去了一切的地方。\n还是不要打扰她们了。"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "驭空已成为列车的访客，回到列车将有机会遇到驭空"
+    }
+  ],
+  "warnings": []
+}

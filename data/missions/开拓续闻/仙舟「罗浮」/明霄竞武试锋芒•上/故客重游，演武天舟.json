@@ -1,0 +1,1547 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "故客重游，演武天舟",
+    "pageId": 13197,
+    "revisionId": 79611,
+    "parentRevisionId": 47826,
+    "revisionTimestamp": "2026-02-27T08:42:27Z",
+    "fetchedAt": "2026-09-28T00:20:22.643Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E6%95%85%E5%AE%A2%E9%87%8D%E6%B8%B8%EF%BC%8C%E6%BC%94%E6%AD%A6%E5%A4%A9%E8%88%9F",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E6%95%85%E5%AE%A2%E9%87%8D%E6%B8%B8%EF%BC%8C%E6%BC%94%E6%AD%A6%E5%A4%A9%E8%88%9F&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "故客重游，演武天舟",
+    "region": "仙舟「罗浮」",
+    "type": "开拓续闻",
+    "version": "2.4",
+    "number": "01",
+    "series": "明霄竞武试锋芒·上",
+    "description": "在尚未踏入下一站旅程前，列车接到了来自罗浮仙舟的通讯，景元向暂无去向的众人发出邀请，参加演武仪典。",
+    "requirements": "开拓等级≥21级\n\n※建议完成开拓任务「仙舟『罗浮』」-「安灵布奠，天清路远」后体验本内容。",
+    "requiredLevel": "21",
+    "characters": [
+      "姬子",
+      "景元",
+      "瓦尔特",
+      "三月七",
+      "丹恒",
+      "彦卿",
+      "云璃"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "400"
+      },
+      {
+        "item": "星琼",
+        "amount": "50"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "4"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "5"
+      },
+      {
+        "item": "信用点",
+        "amount": "30000"
+      }
+    ],
+    "previousMissions": [
+      ""
+    ],
+    "nextMissions": [
+      "衔令来使，真意难识"
+    ],
+    "objectives": [
+      "接收来自仙舟的通讯",
+      "（可选）与瓦尔特、姬子讨论旅行计划",
+      "与三月七、丹恒讨论旅行计划",
+      "在人群中寻找彦卿",
+      "与彦卿再度见面",
+      "与彦卿交谈，询问状况",
+      "陪同彦卿向在场云骑询问状况"
+    ],
+    "synopsis": [],
+    "extra": {
+      "相关成就": "",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "接收来自仙舟的通讯"
+    },
+    {
+      "type": "objective-description",
+      "text": "在尚未踏入下一站旅程前，列车接到了来自罗浮仙舟的通讯，景元向暂无去向的众人发出邀请，参加演武仪典。",
+      "location": "星穹列车-观景车厢"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "系统",
+      "text": "您有一条跨星际通讯信息，请及时查收。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "喔？唔……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "怎么了，帕姆？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "列车刚刚收到了一条从罗浮仙舟发来的消息，从摘要来看，似乎会和接下来的行程计划有冲突。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "景元的投影出现在车厢里…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "许久不见了，星穹列车的朋友们，不知各位的开拓之旅是否顺利？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "景元",
+      "text": "近日罗浮仙舟即将举行庆礼「星天演武」仪典。诸位曾帮助罗浮弭平灾厄，是仙舟联盟的好朋友。在此景元代表神策府诚邀诸位莅临观礼，请诸位务必拨冗赏光。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "还真是热闹啊，才从家族的「谐乐大典」中抽身，这么快就有了新的邀请。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "开拓，就是快乐。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "这么一想，咱们「开拓之旅」就要变成了到处吃吃喝喝玩玩的「快落之旅」。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "帕姆",
+              "text": "快…落？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "是啊，吃吃喝喝玩玩，一路快速堕落的「快落」。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "对「盛会」都有心理创伤了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "咱也一样！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "还有还有，连赶两场「盛会」活动，是不是显得有些不务正业了？列车的正事该是恢复星图和航路数据，顺带做些严肃的科考工作吧？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "那就让三月留下维护列车？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我、我可没说不想去。我是很喜欢凑热闹的啦…只是希望下一个凑热闹的地方不要再冒出个什么星期五、星期六来跟我们作对。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "罗浮仙舟才度过了危机，举办演武仪典也是在对外彰显自己和平安全的状态。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "去匹诺康尼之前大家也是这么说的！「在『家族』的保护下不会有任何危险～」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "倒也不必杯弓蛇影。演武仪典不似「谐乐大典」那样隐藏了诸多秘密。它只是为纪念帝弓与云骑对抗丰饶孽物，拯救仙舟的壮举而设的节庆罢了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "典礼前后除去星槎巡航的演出外，不过是些比武斗剑的竞赛。和我们去看过的泰科铵机动球没什么区别。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "姬子，你觉得如何？按照列车目前的状况，我们接受了黑天鹅女士的提议，应该安排一次去翁法罗斯的「开拓之旅」，补充燃料。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "时间倒也不算紧迫。这次「开拓之旅」情况特殊，在去往下一站前，列车也应做好补给、支援方面的准备。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "正巧有黑塔女士牵线，我本打算在启程前为天才俱乐部#81阮·梅女士从「金伦加深域」带回一具古兽遗骸，做些人情交换。不过这么一算，至少需要几周时间才能返航。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "喔，那就是…去不成罗浮啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "小三月，维系关系，这就是成年人生活所必须支付的小小代价。既然罗浮仙舟发出了邀请，那么作为朋友，星穹列车也理当赴约。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "我打算这么安排：帕姆会将所有人先送往罗浮。之后，我和瓦尔特先生则继续前往完成与阮·梅的约定。开拓者、三月和丹恒三人则可以作为列车观礼的代表出席仪典。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "开拓者，丹恒，没问题吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那分组就这么定了！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "瓦尔特",
+              "text": "看起来大家都没什么异议。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "我要玩古兽化石！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "姬子姐和杨叔可是去正经搞科研呢！古兽化石哪有看演武斗剑好玩？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "再说了，就属你在罗浮朋友多，你不去我都不知道该去哪玩！你得带路啊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "帕姆",
+      "text": "既然各位乘客已经达成一致了，那我们就准备跃迁前往仙舟「罗浮」了帕。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "（可选）与瓦尔特、姬子讨论旅行计划"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "瓦尔特",
+      "text": "「金伦加深域」…她想从那儿找到什么呢？目前所有关于古兽的研究只是证明了我们对这种生命一无所知……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "一无所知，这才是天才会出手的领域。科学要做的就是从无知的帷幕上挑破一个孔……"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "两个成年人的交谈中充斥着复杂的术语，从「假定型天体生物化学」到「跨维度演化论」，车厢中充满了沉闷费解的空气。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "两位，一路顺风。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "早点回来啊。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "开拓者，别太想我们喔。要是看到什么有趣的古兽化石，我会带上几块作为伴手礼送给你的。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与三月七、丹恒讨论旅行计划"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "姬子姐真是懂人心啊。嘻嘻，在古兽化石和演武仪典之间，还是后者听起来比较有意思。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "对了…丹恒，这次去罗浮，你会跟我们一块儿下车走走的吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "放你和开拓者两个在罗浮上乱逛？我可不放心。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "而且瓦尔特先生说的没错，建木灾异刚刚平息，无论是长生种还是短生种都对灾难心有余悸。景元选在此时举办演武仪典，显然是为了对外彰显罗浮的安定。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "既然他发出邀请，于情于理，我都应该去看看老朋友。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "跃迁结束后，你们再次来到仙舟「罗浮」…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "故地重游，本姑娘内心真是颇有一番感慨……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "下面请听三月七诗朗诵…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "也没有到要为此情此景吟诗的地步啦！只是想到上一回抵达仙舟时的波折和惊悚……"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "什么感慨，说来听听？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "也不是什么了不得的诗情画意啦，只是想到上一回抵达仙舟时的波折和惊悚……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这一回咱们既没有被人半胁迫半诱骗，也不是为了追捕什么通缉犯，更不是从卸货码头登陆，如此一帆风顺……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "真是难得啊！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "难得啊！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "难得啊。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "如此容易满足，我们好可怜啊…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "没办法，这就是无名客的宿命吧。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "求求你别乌鸦嘴了…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "我这是美好的祝愿，你这才叫乌鸦嘴吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "收到了彦卿的短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "彦卿",
+      "subtitle": "今天工造司上新了么？没有",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "彦卿",
+          "contentType": "text",
+          "text": "开拓者，我看到天舶司发来了通知，列车已经完成了接驳"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "彦卿",
+          "contentType": "text",
+          "text": "所以，你们抵达罗浮了吗？"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "刚到星槎海！",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "人在罗浮，刚到星槎海"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "消息灵通啊！",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "你消息灵通啊！"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "彦卿",
+          "contentType": "text",
+          "text": "将军安排我在星槎海迎接各位，一会儿见面聊"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "在人群中寻找彦卿"
+    },
+    {
+      "type": "objective-description",
+      "text": "抵达罗浮，迎面而来是星槎渡口人满为患的景象。",
+      "location": "仙舟「罗浮」-星槎海中枢"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "星槎海有这么热闹吗？今天人真是格外多啊！都快听不清彼此说话了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "彦卿说，将军派他来接咱们，可他人在哪儿呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我们去织机前面等他吧。那是码头上最显眼的地标。"
+    },
+    {
+      "type": "fold",
+      "title": "待机文本",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "路人甲：听说其他将军也会来…\n\n路人乙：我早知道了…\n\n路人乙：曜青和朱明的人陆续到了不少。"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "text",
+          "text": "蓝衣服女孩：我爸爸已经订好了票…\n\n蓝衣服女孩：我都等不及咧！\n\n红衣服男孩：帮我向彦卿大人要个签名吧…\n\n蓝衣服女孩：签什么呢？\n\n红衣服男孩：加强自己！"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "text",
+          "text": "天舶司职员：整个天舶司都连轴转了\n\n地衡司职员：地衡司这边也没差。\n\n另一女职员：希望来的游客都能满意吧…"
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "text",
+          "text": "女路人甲：来罗浮的游客变多了…\n\n女路人乙：演武仪典听说邀请了不少外宾…\n\n女路人甲：将军为此准备了很久啊"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "皮皮西游客",
+      "text": "三位，三位，请留步！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那两个人是不是在叫我们啊？看打扮…像是匹诺康尼人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "皮皮西游客",
+      "text": "不知你们几位是不是熟悉罗浮仙舟的情况？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "略知一二。请问有什么事吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "智械游客",
+      "text": "我们俩来自匹诺康尼，也许你听说过这个地方？这次来到仙舟，是为了采集一些有趣的梦境素材。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "巧了，我们刚从那儿离开。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "智械游客",
+      "text": "那就太好了，你们知道在这「罗浮」之上，有什么值得一去的景点吗？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "那你可问对人了！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "那是！我们仨可是仙舟通！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "这应该问本地人吧？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "皮皮西游客",
+              "text": "我们问了啊！但本地人都回答说：「罗浮的景点有啥好去的，都没意思！」"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "智械游客",
+              "text": "也可以理解。如果有人问我：「匹诺康尼都有什么值得去的景点呢？」我恐怕也会一时语塞。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "皮皮西游客",
+              "text": "所以这种事还是要问其他游客啦！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这段时间来的游客，多半会去参观演武仪典。我们几个就是为此而来的啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "皮皮西游客",
+      "text": "我当然知道演武仪典的。但这仪典的擂台不是还没开放吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "智械游客",
+      "text": "我听说这一次的演武擂台，是拿罗浮退役的巨型斗舰改装而成的。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "比一般的星槎还大？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "智械游客",
+              "text": "那还用说！这可是巨型斗舰，肯定比民用的星槎大多了！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "比「晖长石号」还大？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "智械游客",
+              "text": "那多半是「晖长石号」更大吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "皮皮西游客",
+      "text": "不过咱现在只能等到几周后演武仪典开幕，才有机会登舰了。在此之前，我们俩也不能耽误工作——所以才问你们，有什么比较值得一去的景点？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "智械游客",
+      "text": "我们希望能找到那种，在匹诺康尼的日常梦境中难得一见的特殊体验。我们的客户最喜欢这种梦泡了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，这里你最熟，快给他们出出主意吧～"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "去金人巷吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "这是个不错的主意。金人巷的人间烟火气，在「盛会之星」上难得一见。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "皮皮西游客",
+              "text": "人间烟火气啊…确实，现在我们这些客户啊，尝遍了惊险刺激的梦境。也许反而是这类接地气的内容能让他们找回感动。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "智械游客",
+              "text": "感谢三位的指点，我们这就去金人巷采风。也许过两天，我们会在那里再度相遇。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "去绥园吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "对对对，去绥园！那里可是罗浮著名的灵异圣地，到处都飘着些调皮的小鬼火，可有意思了！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "智械游客",
+              "text": "灵异？我不太喜欢恐怖题材…不过，我们的客户一定会喜欢。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "皮皮西游客",
+              "text": "听起来确实有点意思。那我们就去你们说的「绥园」啦～之后咱也许能在绥园再见！"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "去鳞渊境吧。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "这倒是个好主意。梦境中尽是些恒常不变的人造景观，但这鳞渊境却是「自然」侵蚀「人造」而缔造的独特风景。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "智械游客",
+              "text": "这个好，我最喜欢自然风光了。那我们就先去鳞渊境吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "皮皮西游客",
+              "text": "我有点担心，自然风光相关的梦泡会不会有些过时…不过无妨，我们去看看吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "智械游客",
+              "text": "再见，也许这几天我们会在鳞渊境再相遇。"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "去爬上建木之巅吧！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "喂！不要乱给别人出这种会被抓起来的馊主意啦！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "智械游客",
+              "text": "哈哈…你真有意思。还是给我们提供些更靠谱的建议吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "皮皮西游客",
+              "text": "…等一下。这个主意未必是个馊主意。富贵险中求啊！走吧，我们去爬树！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "智械游客",
+              "text": "你跑慢点，等我一下。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "喂！别走的那么快！喂…至少出了事别把我们供出来啊！唉，他们不会惹出什么事端吧…真令人不安。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "你们看，彦卿似乎已经到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "真的诶！我们赶紧去找他汇合吧！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与彦卿再度见面"
+    },
+    {
+      "type": "objective-description",
+      "text": "你们与彦卿虽然分别不久，但却依稀有了错觉，这小子似乎应该可能是有那么些长高了。",
+      "location": "仙舟「罗浮」-星槎海中枢"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "各位！我瞧见你们了。这边！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "各位，好久不见了啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "虽然感觉距离咱们上次离开也没过多久，但彦卿你是不是……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "怎么啦，三月小姐？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "都说只要一不留神，小娃娃会突然长成熟人也认不出的样子来。彦卿，你是不是…长高了一点儿？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我们才离开了几个月时间。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "好久不见，彦卿！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "好久不见！"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "好久不见。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "哎，丹恒先生也来了啊。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "让各位久等了。演武仪典在即，星槎海又是罗浮的交通枢纽，我光是从人群中找人就花了不少时间。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "确实，你长高了！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "真的吗？将军一直还担心我个子长不高呢。我一直劝他安心。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "让各位久等了。演武仪典在即，星槎海又是罗浮的交通枢纽，我光是从人群中找人就花了不少时间。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "（警觉地捏一捏彦卿的脸颊）",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "唉？开拓者，你干嘛？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "抱歉，连续几站的冒险让我养成了警惕的习惯，每个地方第一个出现迎接我们的人，都要当心。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "对我也这么警惕？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "要知道，上一次来仙舟，第一个迎接我们的可是……"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "彦卿明白了，警惕点好。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "说真的，这是我第一次在罗浮上见到这么热闹的景象。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我原本还有些担心，建木危机刚刚过去，举行演武仪典是否有些仓促。但看看现在的星槎海，将军选择的时机是恰当的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "嗯，这些往来行人里不仅有其他洞天的居民，还有像三位这样远道而来的客人。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "演武仪典召开在即，星槎海的客流吞吐连上了几个台阶。云骑的安全工作也比过去忙上了好几倍。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "将军说了，想要让罗浮从灾后重整旗鼓，恰恰需要这场演武仪典。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "彰显武德、安稳民心、提振士气，还能借仪典之机邀请友邦客人来访，促成贸易与和平。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "说起来，联盟对本次仪典还挺重视的，「朱明」和「曜青」两座仙舟都派遣使者来贺了！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "朱明仙舟？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "是啊，不知开拓者是否听过它「千星锻炉」的名头，云骑军的军器技术十之五六都由它提供。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "朱明仙舟一直以能工巧匠著称，听说朱明的怀炎将军自己就是工匠中的翘楚。啊…要是能有幸得到他亲手锻造的宝剑，我怕是做梦都要笑醒了。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "曜青仙舟？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "嗯，曜青仙舟是联盟巡猎孽物的锋镝，常年在外征战四方。虽说同属联盟，但我对那里知道的也不算多。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "只听天舶司的驭空大人说，曜青发来的战报上回回「大捷」，令人印象深刻。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "听说曜青的飞霄将军年纪轻轻，却勇冠三军。云骑军里同僚们将她传得神乎其神，说她一身西瓜般的腱子肉，一拳下去便能轰碎十来头孽物…也不知是真是假。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "…还真想见识见识她的身手啊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "对了彦卿，下一步咱们该去哪？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "啊，你瞧我光杵在这儿拉拉杂杂说了一大堆。将军唤我接各位去司辰宫小坐，他也很久没见各位了，想听你们聊聊列车的近况呢。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "一谈到自己感兴趣的事物，这小大人就露出了孩子气的一面，嘿嘿。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "要这么说来，你们俩还挺像的。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "丹恒",
+              "text": "确实。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "他真可爱。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "确实。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "（激烈的嘶吼）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士兵",
+      "text": "各单位迅速集结！注意保护人群。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "刚刚还说街上的安全工作不容闪失，怎么就有事情发生了。抱歉各位，我得先去探探情况。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "真是怕什么来什么。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你和三月一样言出法随。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "说什么呢！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "我们和你一起去。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "人来人往的码头上竟出现了狼型生物…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "保护好人群，我来对付他。"
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "步离人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "为何会在这儿出现步离人？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "休得猖狂！"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得胜利"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "不好！"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "正在这危机之时，一名手持大剑的赤脚少女突然出现，抢先一步化解了危机…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "多谢姑娘出手相助，"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "？？？",
+          "text": "糟糕，没时间闲聊了…"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "少女似乎对彦卿的剑格外感兴趣，却似乎另有要事，将彦卿的剑一并带走…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "能否把剑还给…"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与彦卿交谈，询问状况"
+    },
+    {
+      "type": "objective-description",
+      "text": "纷乱的渡口，被押解运送的犯人逃脱，少年剑士霜锋出鞘，却被人捷足先登。",
+      "location": "仙舟「罗浮」-星槎海中枢"
+    },
+    {
+      "type": "fold",
+      "title": "待机文本",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "站着的云骑：你没事吧？\n\n捂着头的云骑：人没事…脑袋有事。\n\n站着的云骑：我们也算是协同作战了…\n\n捂着头的云骑：毕竟脑袋也是武器的一种…"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "等等，我的剑！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "还是先办正事要紧。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "事出突然，要耽搁几位一会儿工夫了。容我探问一下刚才到底是什么情况。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "陪同彦卿向在场云骑询问状况"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星际和平公司员工",
+      "text": "仙舟的朋友，你们虽然救了我们，我们是很感激。但连我们带货物也一块扣押，这是不是就有些不像话了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "我们收到命令，在查清袭击事件前因后果之前，必须暂时扣押贵方的货物进行检查。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "只要事后各方手续勘验完成，我们会连人带货一起放行的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星际和平公司员工",
+      "text": "这批货物压根就不是运往罗浮的，还是公司的专利科技，你们凭什么「检查」啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑士卒",
+      "text": "按照流程，任何抵达罗浮的货物都必须经过检查。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星际和平公司员工",
+      "text": "我们也不算入港啊！我们是遭遇了步离人的袭击，才不得不来罗浮的港口避难啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "看起来，他们会争论很久。像这样吵不出个结果的纠纷，咱们还是不要卷入为妙。"
+    },
+    {
+      "type": "fold",
+      "title": "待机文本",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "星际和平公司员工：你们凭什么扣押舰船？\n\n云骑士卒：照章办事罢了"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "继续陪同彦卿向在场云骑询问状况"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "谁是负责这支队伍的长官？我需要个解释。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑队长",
+      "text": "是我…抱歉，我们一时看守失察，都是我的责任。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "来，说说吧，演武仪典召开在即，罗浮的一切以安全稳定为上。为什么在星槎海会出现步离囚犯？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "按照流程，危险重犯应当收押在星槎中，全程不落地送往幽囚狱。是谁允许押解犯人的船停靠在客运码头的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "怪不得这位队长，是朱明使节舰太过热心了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "你又是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "在下路君，巡防卫队的值守武官。多谢彦卿骁卫出手相助。事起仓促，绝非这位队长的过错。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路君",
+      "text": "公司途径罗浮中转的运输船在即将抵达之际遭到了步离人的袭击。朱明的使节舰出手相助，击溃了这股步离劫匪并收押在船舱里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "在罗浮航行的宙域，公司的舰船，被步离人打劫，而朱明的使节救了他们？这案情听起来真复杂……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路君",
+      "text": "属下也是百思不得其解。朱明的使节舰按规矩，停靠在客船码头，将这群犯人移交罗浮这边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路君",
+      "text": "您也知道，这些日子来，数不清的外客涌入罗浮，星槎航道压力陡增。还没等来押解的星槎与航道管制，步离人狂徒便狗急跳墙了。于是有了方才您看到的一幕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "云骑队长",
+      "text": "我们会尽快将这些人犯送往幽囚狱的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "如此看来，确实有事急从权之处。我会将此事呈报给地衡司的治安厅，让他们配合善后。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "（也许该听听当事人打算如何善后处理，也方便神策府了解情况。）"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "云骑军安抚了人群，随即散去，长街再度恢复了平静。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "彦卿，你真是越来越有大人的模样了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "三月小姐，你就别损我啦。演武仪典前仙舟的安全就像一根紧绷的弦，看似平静，但只要稍稍一拨就有余波动荡不休。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "咱们刚才收拾的那些…呃，那些家伙到底是什么来头啊？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "是狗头人吧！",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "这些狼首怪物，唤作步离人，是与仙舟长久为敌的丰饶孽物。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "你叫他们步离人？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "没错。这些狼首怪物，唤作步离人，是与仙舟长久为敌的丰饶孽物。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "长久以来，步离人势力众多，血腥掠夺和奴役着众多世界，其祸害比起寰宇虫灾也不遑多让。三十年前，联盟还曾和他们大战一场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "这些年里，他们的活动渐渐不再像往日那般猖獗了。谁能想到……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "按刚才那个武官所说，他们是在靠近罗浮的宙域袭击了公司的舰船？如此明目张胆的袭击，真是古怪。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "我也觉得奇怪，看起来公司和他们结仇不小啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "闲话不提，该办正事了，将军要我接各位去司辰宫。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "彦卿本想再和你们几位多聊聊天，唉，但有些事时时刻刻都让人放心不下……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "「放心不下」？莫非是追捕步离人…需要咱们帮忙吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "不用不用，一点小事罢了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "那个…刚刚出现的那个姑娘…把我的剑顺走了。我打算去地衡司报个失物案，看看能不能找回……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哈哈哈哈，人家应该也不是故意的啦！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "云骑出了事也要报警吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "也许人家就没走远，不再找找吗？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "报案吧，场面肯定很精彩…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "彦卿",
+              "text": "求你别说了，是我一时失察。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "彦卿",
+      "text": "快走吧，咱们别让将军久等了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "别担心，有这样身手的女孩不多见，应该没那么难找。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你们与彦卿离开后…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路君",
+      "text": "会带来麻烦的家伙还真不少啊……"
+    },
+    {
+      "type": "fold",
+      "title": "待机文本（路君&云骑士卒）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "云骑士卒：这些家伙真是可怕…\n\n路君：将犯人解往幽囚狱"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（路君）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "路君",
+          "text": "我和弟兄们会尽快将这群劫匪送进幽囚狱，善后工作也在进行，彦卿骁卫请勿担心。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "彦卿",
+          "text": "有劳了。你是…巡防卫队的武官？看起来似乎面生的很……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "路君",
+          "text": "哪儿的话，将军侍卫又怎么会记得我这样的小小角色。在下刚刚随出征部队返抵罗浮，因为仪典召开前的安全工作，被临时调派至此。"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

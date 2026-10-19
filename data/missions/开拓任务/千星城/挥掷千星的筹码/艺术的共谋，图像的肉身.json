@@ -1,0 +1,2967 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "艺术的共谋，图像的肉身",
+    "pageId": 40934,
+    "revisionId": 102448,
+    "parentRevisionId": 102078,
+    "revisionTimestamp": "2026-09-16T23:22:03Z",
+    "fetchedAt": "2026-09-28T00:20:03.688Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E8%89%BA%E6%9C%AF%E7%9A%84%E5%85%B1%E8%B0%8B%EF%BC%8C%E5%9B%BE%E5%83%8F%E7%9A%84%E8%82%89%E8%BA%AB",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E8%89%BA%E6%9C%AF%E7%9A%84%E5%85%B1%E8%B0%8B%EF%BC%8C%E5%9B%BE%E5%83%8F%E7%9A%84%E8%82%89%E8%BA%AB&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "艺术的共谋，图像的肉身",
+    "region": "千星城",
+    "type": "开拓任务",
+    "version": "4.5",
+    "number": "04",
+    "series": "挥掷千星的筹码",
+    "description": "舆论攻势奏效，你受邀参加「泛银河贸易峰会」，但这只是一场拖延时间的骗局。在指针塔内杀出重围后，你以掷出归寂的骰相威胁，将千星城的所有目光汇聚于你身上，并成功取得与在田会谈的机会。",
+    "requirements": "完成任务关于他人的痛苦",
+    "requiredLevel": "21",
+    "characters": [
+      "虚照",
+      "三月七",
+      "普狸策",
+      "幻太子",
+      "佛狸",
+      "叽米"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "300"
+      },
+      {
+        "item": "星琼",
+        "amount": "40"
+      },
+      {
+        "item": "漫游指南",
+        "amount": "2"
+      },
+      {
+        "item": "遗失晶块",
+        "amount": "2"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "120"
+      },
+      {
+        "item": "《全民造浪》",
+        "amount": "1"
+      },
+      {
+        "item": "《燃烧吧，生命》",
+        "amount": "1"
+      },
+      {
+        "item": "《后窗》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "30000"
+      }
+    ],
+    "previousMissions": [
+      "关于他人的痛苦"
+    ],
+    "nextMissions": [
+      "神话哲学与公正游戏"
+    ],
+    "objectives": [
+      "进入指针塔",
+      "咨询一下前台",
+      "前往B7-03办公室",
+      "前往全景大厅",
+      "与主持人对话",
+      "出席「泛银河贸易峰会」",
+      "前往《走近星穹》演播厅",
+      "向工作人员询问情况",
+      "查看声音的来源",
+      "逃出演播厅",
+      "杀出环形办公室",
+      "回到全景大厅",
+      "击败公司的安保部队",
+      "与肯尼斯对话"
+    ],
+    "synopsis": [
+      "在灯塔出示特别通行许可后，深瞳机器人欢迎你们进入指针塔。关于翡翠预定的办公室，灯塔建议你们和前台打个招呼。/在指针塔，你将拦路的深瞳机器人直接打爆，灯塔认为你干得漂亮。关于翡翠预定的办公室，灯塔建议你们和前台打个招呼。",
+      "前台职员表示，翡翠预定的办公室已被市场开拓部临时锁定。虚照拿出宝乐思·梅丽的市场开拓部高级顾问工牌，让前台临时解锁了另一间办公室，有效期24个系统时。",
+      "来到办公室，你对虚照不停变化的身份感到怀疑，追问其真实身份。狸猫们突然出现，赶着帮你炒作「兽蜕危机」的劲爆新闻。",
+      "在虚照的指导下，狸猫们撰写出浮夸抓人的报道文章，将「危险」抛到千星城的每一双眼睛前。",
+      "报道发出不久，叽米就向你发来通讯。叽米表示，公司高层决定在全景大厅为你增设一场特别对话，你可以面向最有影响力的听众发声。",
+      "「泛银河贸易峰会」的主持人伊安奇向你介绍，参会的有公司高层和其他星系的贸易大使，你的讲述有机会让董事们再次考虑如何选择。",
+      "在峰会上，你陈述二相乐园的现状，反对「兽蜕武器化」，与塔拉梵、亚婆离展开激烈辩驳。最终，在田宣布支持「入画」方案。",
+      "主持人伊安奇恭喜你得偿所愿，提议你趁着峰会休息期间，前往《走近星穹》的演播间向银河观众们分享峰会的实况。",
+      "在演播间里采访你的并非叽米，而是吉米仔。对方面对灾难时的荒诞不禁引起你的警觉，你质问吉米仔，是谁派它来的？",
+      "收到在田支持「入画」的消息后，虚照让狸猫们搜索相关资讯，发现全景大厅今日处于封闭维护状态。所谓「峰会」，只是一场拖住你的表演。虚照让三月七原地留守，自己带上归寂的骰冲出房间。",
+      "你戳穿吉米仔的欺骗，在逼问之下得知叽米被关在某个演播间里。整个演播厅和全景大厅的出口都被封锁，根本无法打开。",
+      "你找到被绑架的叽米。叽米为受胁迫而欺骗你的行为抱歉，并为你指出下班的快速通道。",
+      "在虚照的帮助下，你逃出到办公区。大量的职员与安保士兵向你们迫近，虚照唤出银狼的数据切片，助你杀出重围。",
+      "杀出办公区后，虚照把归寂的骰交给你。为了迫使高高在上的大佬们现身，一颗绝灭大君的脑袋将胜过远在天边的兽蜕威胁。",
+      "你与虚照回到全景大厅，职员们正在对先前的演戏窃窃私语。你怒斥主持人伊安奇，要求对方立刻将所有镜头对准你。",
+      "你展示归寂的骰，宣称要抛掷它来为千星城带来随机的「毁灭」。赶来支援的灯塔抵达会场，奉命向你动手。",
+      "众多灯塔将你与虚照包围，你高举起手中的骰子。千钧一发之际，肯尼斯出现并阻止了对峙。「在田先生愿意和你们谈谈。」",
+      "肯尼斯邀请你与虚照前往「空声院」，于在田的私人府邸决定二相乐园的未来。肯尼斯以琥珀王的神体起誓，接下来的会面绝无任何事先排演的剧本。"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#重版出来！、通往群星的轨道#开拓者不掷骰子",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "进入指针塔"
+    },
+    {
+      "type": "objective-description",
+      "text": "经过一段不算漫长的接驳里程，「摆渡车」停靠在指针塔入口。\n在灯塔的同行下，一路平安无事。",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "广播",
+      "text": "即将到达指针塔入口，请耐心等候。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "广播",
+      "text": "认证完成，即将进入指针塔。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "站稳了，穿过这条隧道，我们就算到地方了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "灯塔先生真的要陪同我们进指针塔？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "抱歉，持有特许通行权限的是我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "我可得好好把你们这些贵客礼送到目的地，才算完成任务。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "平时在天上飞来飞去，还是头一回体验上班族的交通工具。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "各位要是不想聊的话，我就保持安静。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "远远看去只是一根「指针」，走进了才发现里面的空间好大！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "这儿少说得有十几万人每天忙忙碌碌进进出出。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "深瞳",
+      "text": "检测到非员工进入工作区域。请停止移动，配合扫描。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "深瞳",
+      "text": "身份确认…治安官「灯塔」…受邀无名客开拓者、三月七…以及…不明身份无业人士……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "什么叫无业人士？是在逃拖稿漫画家！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "深瞳",
+      "text": "可疑目标，呼叫——呼叫安保部队。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "又来了？公司的流程到底有完没完啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "特别通行许可，代码54266。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "深瞳",
+      "text": "许可确认。欢迎进入指针塔，请勿违背公司工作守则。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "好了，我的任务到此结束了。你们接下来打算干什么来着？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "翡翠女士说，她给我们安排了一间办公室。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "那就去跟前台打个招呼吧，报上翡翠女士的名号就行了——不过前提是，这回没有哪位大佬给你们使绊子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "祝好运，我得继续巡逻了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "再见了，灯塔先生。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（如果提前击碎深瞳监视器）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "灯塔",
+          "text": "干得漂亮，我早看这些*文明千星*监视器不爽了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "灯塔",
+          "text": "没事儿，他们奈何不了你们，最多只是恨恨地把赔偿费记在战投的名下。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "灯塔",
+          "text": "听好了，*文明千星*眼球怪，我这儿有特别通行许可，代码54266。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "灯塔",
+          "text": "不管你们听不听得懂，给你们一个建议——别惹这些星穹列车的客人。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "灯塔",
+          "text": "好了，我的任务到此结束了。你们接下来打算干什么来着？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "虚照",
+          "text": "翡翠女士说，她给我们安排了一间办公室。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "灯塔",
+          "text": "那就去跟前台打个招呼吧，报上翡翠女士的名号就行了——不过前提是，这回没有哪位大佬给你们使绊子。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "灯塔",
+          "text": "祝好运，我得继续巡逻了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "虚照",
+          "text": "再见了，灯塔先生。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "咨询一下前台"
+    },
+    {
+      "type": "objective-description",
+      "text": "将你们带入指针塔内部后，结束了护送任务的大英雄向你们道别。\n关于翡翠预定的会议室，先咨询一下前台吧。",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "前台职员",
+      "text": "故障申报请去D区。访客预约请先在线填写表格并等待至少三个工作日。物品遗失请联络安保处分机114。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "你好，我们是战略投资部的翡翠女士邀请的客人，她说有为我们预留办公室。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "前台职员",
+      "text": "好的，您稍等……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "前台职员",
+      "text": "翡翠女士的客人…啊，查到了。G-892区临时办公室，权限代码……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "前台职员",
+      "text": "呃，系统显示该办公室的访问权限刚刚被「市场开拓部」以紧急调试名义临时锁定了，需要部长级以上授权才能解除。这…恐怕需要一些时间协调。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "…市场开拓部？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "哈哈，我怎么一点也不奇怪耶？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "什么叫临时锁定？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "前台职员",
+              "text": "是这样的…该办公空间触发了跨部门资产协同复用协议的紧急排程。当前处于市场开拓部主导的敏捷性资源预占状态。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "你说的话我每个字都能听明白，但连起来完全不知道什么意思。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "需要多少时间协调？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "前台职员",
+              "text": "时间的话…我看看，24个系统时。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "三月七",
+              "text": "24个系统时？！咱们剩下的时间连四个系统时都不到了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "这就是公司啊，真是朴实无华的职场斗争技巧啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "可是这也太可笑了吧！只是占用一个办公室，就能间接毁掉一个世界的未来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "看来，只能拜托翡翠再给咱们——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "时间不多，咱们千辛万苦来到这儿，可不能就这么停下了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "试试这个吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "员工编号 IPC-MDD-GL3-1545，姓名：宝乐思·梅丽。隶属「市场开拓部」，银河大乐透事务组，三级项目顾问。权限应该还在休眠期，我想激活它。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "前台职员",
+      "text": "宝乐思…梅丽？等等，你是那位…大乐透小姐？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "是女神，大乐透女神！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "听好了，小笨蛋。援引《内部资源紧急调用规定》第7条，跨事业部协作期间，原部门三级以上员工，可申请将临时场地协调优先级调至最高。现在，试试看。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "前台职员",
+      "text": "…条款验证通过！系统已临时授权。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "前台职员",
+      "text": "正在为您强制解锁B7-03办公室的使用权限，请稍候…好了！这是您的临时通行许可，有效期24个系统时。欢迎…呃，欢迎回来，宝乐思女士？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "24个系统时？绰绰有余。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "还愣着干什么？走啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这…这也可以？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你真的是宝乐思·梅丽吗？不会吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "这只是我打过的众多份工中…不值一提的一份罢了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往B7-03办公室"
+    },
+    {
+      "type": "objective-description",
+      "text": "不愧是虚…宝乐思·梅丽女士，轻而易举地就做到了普通员工做不到的事情！\n日程会议室已更新，接下来就换个地方说话吧。",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "可是…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我知道你们有许多问题，但走廊里可不是聊天的好地方，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "来这边走。B7-03是吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "哼哼，故地重游，轻车熟路。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这电梯…太久了吧？这儿到底有多少层啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "指针塔的最高层数是六千六百二十二层…真不明白为什么要建的这么高。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "B7-03，应该就是这里了吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我的天，居然是个可怜的杂物间。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "终于，咱们有了个落脚的好地方。那么两位，是先开战前会议……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "还是将自己满腹的问题问出口来呢？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "所以，你到底是谁？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "虚照，好好交代一下。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "在一切开始前，我有个问题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "打从第一次见到你，你的身份就在不停变化：狸狸通信的社长、珠星的员工、拖稿漫画家…现在，你又成了星际和平公司的大乐透女神——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "所以，虚照小姐，你到底是谁？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "在回答这个问题前，我也想问问两位：你们，愿意相信我的，对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你看起来…应该是个好人吧。不过，你要是不把问题交代清楚，我和开拓者也很难相信一个总是藏着秘密的朋友啦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "哈哈，「好人卡」…小三月，这可是我这辈子收到过的最大褒奖了。没关系，相信的心，就是魔法——既然你们愿意信我，我也不该隐瞒你们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我的身份确实有点多，我这人呢，看起来也不是那么可靠。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "但每一个「我」都货真价实，如假包换。我很高兴这些身份总能在关键时刻帮上朋友的忙。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "唉，小浣熊，有些心里话，我想…也是时候该告诉你了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "普狸策",
+      "text": "社长大人、黑心社长！听那位星期日先生说，有劲爆大新闻要炒——我们立刻就赶来哩。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "…劲爆的大新闻？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "啊对了！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "事不宜迟，现在就得行动！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "虚照，你刚才说什么心里话…？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "不，没什么，还是等等再聊关于我的事情吧！毕竟一说起来，拉拉杂杂一长串，可花时间了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "咱们还是先聊聊二相乐园性命攸关的正事吧！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "关于如何见到在田，我和星期日有个主意。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "你将自己与肯尼斯·在田的遭遇，以及自己的想法说了出来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "嗯哼，所以，你想把「二相乐园兽蜕危机」的消息闹大，好让主张武器化的那一派被舆论裹挟？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我做梦也没想到《狸狸周刊》居然要发展跨星际业务。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "那还等什么呢？现在就把这条消息捅给整个千星城的读者吧——"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一段时间后，狸猫记者们摆开电脑，准备了起来。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "普狸策",
+      "text": "这可是独家中的独家，劲爆中的劲爆哩！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "幻太子",
+      "text": "哔啵！真、真的要把「公司高层想把一颗星球做成武器」这种事…发出去吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佛狸",
+      "text": "说不定…小狸明天就被装进快递箱丢进黑洞里呶？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "听好了，小笨蛋们。不抓紧把这么大的料发出去，咱们在二相乐园的报社就要被怪物吃进黑洞了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "还记得我教你们的写稿原则吗？不要把新闻写成干巴巴的纪实报告，标题要耸人听闻，要和读者的生活密切相关。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "普狸策",
+      "text": "《惊！公司高层密会：是拯救星球？还是将它改造成终极兵器！》，这样哩？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "没错。但重点不是指责黑幕，而是把「危险」抛到每一双眼睛前。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "要让他们知道，在二相乐园之后，他们生活的世界也会面临同样的危险。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "幻太子",
+      "text": "副标题——「独家内幕：星穹列车亲历披露，更大的阴影正在逼近千星城！」"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "记得加上投票选项。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "也要让读者参与互动。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佛狸",
+      "text": "懂了！咱们还可以在文章里放上「你支持『入画救援』还是『武器化改造』？」之类的投票问题。互动性拉满呶！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "不错。除了小狸子们浮夸抓人的文章之外，还需要你亲自上镜拍几张，加强消息的可信度。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我们争取在最短的时间里，让这条消息，像反有机方程一样感染千星城的每一个社交和新闻平台。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "普狸策&幻太子&佛狸",
+      "text": "就交给我们啵！为了新闻自由…也为了不让咱们老家变成一发大炮仗！"
+    },
+    {
+      "type": "fold",
+      "title": "贪饕兽蜕苏醒！公司高层密会——是拯救星球？还是将它改造成终极兵器？",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "独家内幕：星穹列车亲历披露，阴影正在逼近千星城！\n\n！！千星城的各位朋友们，\n\n此时此刻，位于失魂星域的二相乐园正在遭受灭顶之灾！！\n\n古兽贪饕的「兽蜕」正在苏醒，\n\n二相乐园将在接下来的数个系统时内被彻底吞噬。\n\n然而，这一关乎千万生命的消息，至今仍被公司高层重重封锁！\n\n究其原因，公司部分决策者正倾向于放弃救援，转向「兽蜕武器化」方案——\n\n这将意味着二相乐园的彻底毁灭！\n\n狸狸通信谨代表社长和二相乐园的民众发问：\n\n如果连公司所承诺的「乐园」都可被暗中牺牲，那诸位泛银河贸易体系成员所处的世界又将如何自处？\n\n朋友们，请动动手，在评论区为『入画救援』投上一票！\n\n让公司看到来自每一个民众的心声与力量！"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "消息放出去了！狸猫们已经拿出了他们全部的推广预算，在全平台买了顶流广告位和话题推送。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "接下来唯一需要等待的是发酵时间。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们还剩多少时间？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "咱们最缺的也正是时间。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "只剩下三个系统时了。如果在那之前……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "好啦，朋友们，不要焦虑地盯着时钟。这里可是星际和平娱乐的所在地哎。一个系统时，足够让一条消息从小小一点火花烧成一场燎原大火！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "以咱们之前遇到的重重阻挠，我真的很难放心——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "你说，公司的舆论风险部门会不会立刻行动起来，灭咱们的口呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "普狸策",
+      "text": "三月小姐，求求你不要再说哩…因为…好像已经被你说中哩！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "唉？这么快！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "幻太子",
+      "text": "哔啵！检测到了数据异常！各大平台的初始点击和转发数据原本都在直线飙升！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "幻太子",
+      "text": "但、但是！所有相关的讨论话题，全都没能冲上热搜榜！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "佛狸",
+      "text": "就像有一堵看不见的墙！很明显，公司的大手发力呶！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "看来战投也指望不上了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我真没招了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "怎么，这就陷入绝望了？你们忘了？千星城里可不止有公司的员工，也不是所有员工都是被公司大手摁住的提线木偶。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "算法和推送当然很关键，但是，当一条新闻关系到所有人安危、甚至可能动摇整个宇宙时，它的传播可不止依赖算法和推送。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "说到底信息传播的最终载体，终归还是人类——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "恐惧、好奇、求证欲…这些东西会在茶水间、在餐厅、在通勤的列车上，通过最古老也最有效的方式——口耳相传——野蛮生长！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "公司能捂住热搜，能限流推送，但它捂不住每一条私下的通讯，也挡不住每个人心里那点「万一呢」的嘀咕。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我们要做的，就是确保这第一簇火星够亮，够真！这一点，小狸子们已经办到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那，接下来我们要怎么做啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "这个问题，应该由公司自己来回答。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "毕竟，火，已经点着了。该怎么灭火，是他们的问题。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我猜，最体面，也是最稳妥的方式，应该是主动来找信息的源头争取合作吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "瞧瞧，我说什么来着——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "叽米",
+      "text": "咳…{{开拓者|开拓者大人}}，还有三月七小姐！你们好啊！是我，老叽啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "叽米",
+      "text": "你们刚刚发布的震撼大新闻，上面的人已经看到了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "他们怎么说？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "叽米",
+              "text": "这个…态度当然是很重视！非常重视！"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "谁看到了？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "叽米",
+              "text": "拜托，老朋友，你懂，当然是「上面的」某位大佬。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "叽米",
+      "text": "所以，他们决定在指针塔的全景大厅，为你临时增设一场特别对话环节！想亲耳听听你讲述二相乐园的真实状况，还有你的诉求。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "叽米",
+      "text": "这可是千载难逢的机会！公司的高层、甚至其他星系的商业代表都会在场！你可以直接面向最有影响力的听众发声！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "叽米",
+      "text": "老叽我呀，也做好准备，在会谈结束后对你进行一期特别采访了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "叽米",
+      "text": "你…会来的，对吧！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "当然。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我们会参加的。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（三月七&虚照）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "三月七",
+          "text": "好耶！咱们的努力发声，终于有用了！"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "虚照",
+          "text": "哼哼，怎么样，我说的没错吧？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "叽米把时间和地点发来了，我得准备准备。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往全景大厅"
+    },
+    {
+      "type": "objective-description",
+      "text": "「兽蜕危机」的舆论造势初见成效。叽米代表公司高层，邀请你前往全景大厅，参与一场特别对话。\n这或许是打动在田的一次难得契机，来之不易，务必把握。",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "开拓者，这就要走了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "事不宜迟，我这就得出发了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "加油！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "全景大厅…应该就在这附近了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我真的能顺利说服那些大佬么…市场开拓部的人又会是什么反应？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "算了，不胡思乱想了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "好多屏幕…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "欢迎你，开拓者。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与主持人对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "初次见面，鄙人伊安奇，是星际和平公司董事会的助理，也是「泛银河贸易峰会」的主持人之一。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "你在个人媒体上发布的新闻，在整座千星城都引发了轩然大波。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "我受董事委托，特别增设一场讨论会，邀请您前来畅所欲言。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我要对这些人讲话？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "都有谁参与讨论？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "伊安奇",
+              "text": "一些公司高层，还有从其他星系赶来的贸易大使。"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "哪一位董事？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "伊安奇",
+              "text": "每一位，先生/小姐。我代表着他们的意志。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我…要同时对这么多人讲话吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "不必紧张。他们中大部分人仅仅是旁听者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "他们都很关注二相乐园与「贪饕」兽蜕的消息，您的回答可以让所有人了解到如今的事态。公司董事们也会再次考虑做出自己的选择。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "如果你准备就绪，请随我一同前往中央平台。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "出席「泛银河贸易峰会」"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "请抓住大家投来的视线，好好利用它。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "泰科铵的使节",
+      "text": "我们这次的参会议题是…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "泰科铵的使节",
+      "text": "降低泰科铵人在公司的消费税率。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "泰科铵的使节",
+      "text": "但这次二相乐园的事节外生枝…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "泰科铵的使节",
+      "text": "哎，估计得下次再议了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "人才激励部秘书",
+      "text": "也不知道是谁拉的会…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "人才激励部秘书",
+      "text": "和扎扎德先生的日程冲突了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "战略投资部职员",
+      "text": "战投部的老大也要缺席了…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "战略投资部职员",
+      "text": "听说因为真珠的缘故，得避避嫌。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "请安静，诸位。二相乐园的使者，星穹列车的无名客开拓者，已到场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "现下，除去扎扎德、钻石两位因日程冲突等意外状况缺席，公司七大部门的主管均已远程接入「泛银河贸易峰会」会场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "根据会前收到的消息，本次讨论的议题为：对二相乐园兽蜕危机的问询与表态。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "（别慌，抓住机会，把诉求传达给这些公司高管……）"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "关于前情，各位想必都从新闻里看到了。我以星穹列车的荣誉担保我所说一切均为事实。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我来到这里，也是为此刻依旧奋战于二相乐园的所有人，传达请求——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我希望能召请「存护」的力量，令二相乐园再度封存入画，拖延兽蜕突破的时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我希望手握投票权的主管们，能为二相乐园的未来考虑，也为所有在场使节们的世界考虑。"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疤眼夫人",
+      "text": "先说说吧，兽蜕在二相乐园封印了上千年，为何突然失控？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "因为绝灭大君的阴谋…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "因为幻月游戏中断…",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "因为镇压仪式未能完成…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "二相乐园所举行的「幻月游戏」，是「欢愉」星神用于镇压兽蜕的仪式。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "很遗憾，尽管我们全力阻止，但绝灭大君，归寂成功干扰了仪式。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "塔拉梵",
+      "text": "我很理解你的焦虑，但我怀疑你在危言耸听。你说，十二小时后，二相乐园所在的失魂星域就要彻底毁灭？有确切数据支撑？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "…没有。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "这是真珠女士的预测。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…我不是研究古兽的专家。我得到的结论来自战略投资部的真珠女士的测算。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "作为二相乐园的管理者，她的结论应该是可信的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "塔拉梵",
+      "text": "很遗憾，她和你都不是专家。我要明确指出，「贪饕」已经死去很久很久了。按照你们的说法，所谓的二相乐园也不过是它的尸块之一。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "塔拉梵",
+      "text": "技术研发部的评估认为：公司的尖端技术完全有能力控制这块星神残骸的活动…甚至把它变成我们最有力的武器。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "塔拉梵",
+      "text": "至于上面的人，不过是些连带损失罢了…做生意，哪儿有不赔的。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你们要放弃同事？！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "公司的存护精神呢？！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "塔拉梵先生，你到底在说什么？采用技术研发部的提案，不就意味着放弃真珠女士…还有幸存的人吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "二相乐园难道不是公司贸易体的一部分？公司宣扬的「存护」精神呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你这么说，就是在所有贸易大使的面前公开宣称：公司会对受其庇护的、与其签下盟约的星球遭灾视而不见。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "各位大使，当你们的世界遭灾时，你们敢信任眼前这位公司高层吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "塔拉梵",
+      "text": "哈哈，少来煽动情绪。这些人当然不敢相信，他们也不会相信。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "塔拉梵",
+      "text": "他们是来做生意的，他们是来出售自己故乡的人力、资源和技术的，他们是来用星球的血换天文数字的钱的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "塔拉梵",
+      "text": "加入贸易体的每个世界都有自己要承担的风险——虫群、反有机方程、步离人…公司会对盟友给予有限的支持，但公司不是喂奶把屎的保姆！"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "疤眼夫人",
+      "text": "咳…过了，塔拉梵。你看你，都当到董事了，怎么还没在筑材物流部当司机的时候懂事？"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "笑够了吗？一群蠢货。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "兽蜕武器化是目前经技术验证最有效的危机解决方案，没有之一。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "星穹列车的代表，你应该很清楚，战略投资部的提案有一个致命的弱点：二相乐园封印入画只是为危机按下暂停键，而不是彻底根除。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "当封印彻底失控时，石心十人碎上十颗基石也争取不来一秒的喘息时间。届时，战投和列车又打算如何应对？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "兽蜕武器化就万无一失吗？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "的确，我还没有更好的方案…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "事发突然，我的确没有更成熟的想法。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "但如果能延缓危机，我们还有时间去考虑最佳方案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "无论有没有替代方案，我都要问——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "驱使星神的碎片当作武器，真的没有任何风险吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "风险？风险当然存在。但这是概率问题。你不会想让我当堂解释技术细节吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你只要承认风险就行了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你根本不知道自己在做什么。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "是的，概率问题。你们或许觉得那是「小数点后几位的概率」等于不存在。但你们面对过真正能玩弄概率的敌人吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我面对过。绝灭大君归寂，他能让本该命中的攻击落空，能让万分之一的灾难变成必然。你们以为风险可控，但在他——或者类似的高等存在的面前，只是自以为是的幻觉。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你们当然可以对概率视而不见，你们也可以铁了心按下「武器化」的按钮。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "但是，你们真的准备好承受这「概率」反过来吞噬你们的那一刻吗？"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "很有道理。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "关于二相乐园的问题，我要知道的已经够了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "议论纷纷的声音",
+      "text": "看来在田先生是支持二相乐园入画的方案了？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "所以，您有结论了？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "我支持「入画」…就是这样。"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "人才激励部秘书",
+      "text": "可惜扎扎德和钻石没来，真精彩啊……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "传统项目部成员",
+      "text": "我猜他们早猜到了这场讨论的结局。"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "一片嘈杂的议论中，「泛银河贸易峰会」告一段落。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "恭喜你得偿所愿，开拓者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "咱们已经讨论得够久了，接下来是休息时间。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "事情竟然这么顺利。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "进程有点超乎想象。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "在田先生…竟然被说服了？我以为还得再多花上一点工夫。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "我非常理解，在某些时刻，一桩决定生死的大事竟与一粒浮尘的重量相似，尘埃落定之前，人们总会时时浮起不安。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "但事实上，您在为正确的主张奔走，也如愿令它向前推进了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "对了，还记得您的老朋友叽米吗？他也在全程关注着这场峰会，趁着休息期间，也许您可以去《走近星穹》的演播间，向观众们分享分享峰会的实况。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "叽米向我发出过邀约…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "确实，我答应过叽米，要在峰会结束后去录制节目。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "舆论场如战场，抢占先机非常有必要。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "《走近星穹》的传播受众不止面向千星城，更面向整个银河，不失为一个借助它发声，利用媒体影响力倒逼公司作出决策的好机会。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "我们脚下的环岛平台有三个方向，通往指针塔内的不同功能分区，《走近星穹》的演播间在那边。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "您要去的话，操作这个旋转按钮，就能畅通无阻了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往《走近星穹》演播厅"
+    },
+    {
+      "type": "objective-description",
+      "text": "「泛银河贸易峰会」圆满落幕，在田最终决定支持「入画」，一切进展顺利，水到渠成。\n果然，只要能在在田面前发声，事情就已经成功了一半。\n接下来，就按照与叽米的约定，去参加《走近星穹》的采访吧。",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "在出发前，应该把好消息告诉三月他们。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "可别让她们担心了。"
+    },
+    {
+      "type": "message-thread",
+      "title": "三月七",
+      "subtitle": "今天也是三月七~",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "滴滴！你那边情况怎么样啦？"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "三月！好消息！在田松口了！"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "在田支持入画！",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "距离成功很近了！",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "他表示愿意投「入画」一票"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "真的吗！"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "太好了！我这就告诉虚照老师！"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "终于，可以松口气了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "接下来去接受叽米的采访吧…可别让他久等了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "向工作人员询问情况"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "演播厅到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "似乎…没什么人啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "现场员工",
+      "text": "你就是开拓者吗？你好啊！看起来，峰会的谈话应该结束了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "现场员工",
+      "text": "来接受《走近星穹》的采访？喔对对对！主持人应该很快就到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "现场员工",
+      "text": "这样吧，在采访开始前，您先在演播厅坐坐。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "现场员工",
+      "text": "瞧见那个操控装置了吧？按一下，演播间会自动升上来的。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这应该是《走近星穹》的演播间了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这儿到底有多少个节目的演播间啊……？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "很高兴见到你！开拓者！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "这次《走进星穹》的节目由我代班主持了，你可以叫我吉米仔。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "叽米不来了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "这不是…因为您爆出了那个大新闻，他有许多大人物要采访，时间紧任务重，您务必理解理解。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "要不咱们这就开始节目录制？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "他/她，是星穹列车的无名客，拯救了翁法洛斯的英雄——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "而今，为了深陷危机的…二相乐园？他/她勇闯千星城，在一场名流云集的「泛银河贸易峰会」上慷慨陈词！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "他/她的声量会如何影响这场峰会的走向？二相乐园的命运将去往何方？观众朋友们，让我们有请今天《走进星穹》的嘉宾——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "第一个问题：「贪饕」的兽蜕到底在二相乐园造成了什么样的影响？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "我听说战略投资部在那儿进行了大量的重建工作！这是不是意味着所有的投资都打了水漂？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我们应该聊聊人的事？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "先关心那儿的居民吧？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "说的很有道理！不管那儿情况如何，至少有一点是明确的，养老相关的投资铁定打水漂了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "要问为什么？世界末日当然会影响人们的寿命预期，做养老的品牌肯定没前景啦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这又是在干嘛？请你严肃一点。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "啊…我的主持经验里，一场节目全程没有笑声，是最可怕的车祸现场啊！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这不是个搞笑节目！",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你真是叽米派来的吗？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我们在谈论一个世界的存亡危机。这根本不是《走近星穹》的节目风格…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "叽米真的会把主持的任务交给你这样的鸟吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…告诉我，到底是谁派你来的？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "objective-description",
+      "text": "「泛银河贸易峰会」圆满落幕？然而全景大厅之外的迹象表明，这不过是又一档精心设计、盛情出演的真人秀……",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "与此同时……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "虚照老师！好消息！开拓者那边传信来了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "那位在田老先生被说动了，他会投「入画」一票！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "…事情发展得这么顺利？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "这…不好吗？拜托，你不要学我啦。我真心不想再充当什么乌鸦嘴角色了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "那好吧，小三月。真是可喜可贺呢！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "狸猫们！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "普狸策",
+      "text": "吓死个狸哩！黑心社长，不要突然大声喧哗呀！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "小笨蛋们，立刻去网络上抓取一下「峰会」、「星穹列车」、「二相乐园」这些关键字的搜索量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "哎？这是要做什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "以我在公司工作的经验，无论长多少个心眼子都没错的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "他们邀请了{{开拓者|小浣熊}}参与峰会陈情，就算不对外公开投票结论，也没法挡住外部好奇者们对相关信息的搜索量。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "幻太子",
+      "text": "哔、哔啵！这、这几个关键词，完全没有搜索波动！搜索量低得可怜。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "…啊这，我有种不祥的预感。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "对了，让我看看今天的会议预约排程——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "好家伙！全景大厅今天的预定记录…显示是「内部设备维护，全天封闭」 ！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "什么叫全天封闭？开拓者不是要去那儿开会吗？啊——我明白了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "真有你的，奥斯瓦尔多…竟敢在魔术师面前玩弄把戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "普狸策",
+      "text": "魔术？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "嗯，一场精心设计、成本高昂的…商业魔术。目的不是解决问题，而是拖延时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "用一场逼真的「高层辩论」，拖住我们的「主角」，让他/她以为希望就在眼前，从而安静地等待结果。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "哈…哈哈哈哈！精彩！太精彩了！我差点以为，这场戏要无聊地演到世界毁灭了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "可恶，你这个坏老骰！你都知道？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "看聪明人一步步踩进显而易见的陷阱，可比单纯的毁灭有趣多了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "那么，现在你们还剩多少时间，来为这出闹剧写下一个不那么难堪的结局？一个小时？还是炸弹即将引爆的倒计时？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "我得立刻把消息发给开拓者！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "三月七",
+      "text": "虚照老师，你要去哪儿？我跟你一起走。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "不，小三月，你留下。市场开拓部的人眼下说不定正紧盯着这个房间的出入情况。我不是列车组的一员，没那么受关注。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "何况…我还有宝乐思·梅丽的工卡，出入比你更方便！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "啊，对了。归寂先生，既然你这么喜欢旁观，不如亲自下场，看看这场由你间接开启的闹剧，会如何在你眼前彻底脱轨。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "描述",
+      "text": "此时，在《走近星穹》演播间里……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "嘿嘿…您的脸色突然变得好差呀，是太疲劳了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你们…竟然合起伙来骗我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "糟糕！任务失败了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "必须…尽可能拖住他/她…不然就会像叽米先生那样……"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "叽米在哪？还活着吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "吉米仔",
+              "text": "听说，他后悔打了那个电话…想联系你。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "吉米仔",
+              "text": "所以保安们把他关在了某个演播间里。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "是奥斯瓦尔多指使你的？",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "你这点工资，赔上命，值吗？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "你好好算算，每个月这点工资，玩什么命啊！"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "对、对不起，我招！我都招！我只是市场开拓部的一个小职员！他们说我只要在这儿把您拖上一段时间，就能升职加薪！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你可以滚了。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "吉米仔",
+      "text": "其实…咱俩谁也走不了。他们把整个演播间，还有通往全景大厅的通道全都上了锁，时间不到，根本不会解开……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "好吧，既然你们搭好了舞台。那也该轮到我登台砸场子了。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "查看声音的来源"
+    },
+    {
+      "type": "objective-description",
+      "text": "演播厅与全景大厅的所有出口均已被封锁，即使看穿真相，你也难以逃离此地。\n似乎听到了某种声音，会是什么呢？",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "唔…唔唔唔……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "叽米？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "叽米",
+      "text": "开拓者？别、别过来！我不想让你看到我最狼狈的样子。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "叽米",
+      "text": "真对不起，呜呜呜，明知道他们让我打电话是为了骗取你的信任——我、我还是打了！我真是一只没骨气的软骨鸡！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "知道错了还不晚…",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "有什么法子离开这儿？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "他们把门锁了，有办法离开这儿吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "叽米",
+      "text": "老叽我知道！有一条下班的快速通道，就在演播间的角落里！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "叽米",
+      "text": "找到了吗？我给你两个密码，用上它们，然后顺着那条道，能从全景大厅的背后穿过去。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "叽米",
+      "text": "你快走吧！不要管我，老叽我，我能靠自己挣脱囚牢！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你多保重。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（再次对话）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "叽米",
+          "text": "快走吧！注意安全，安全第一，听到了吗？"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "逃出演播厅"
+    },
+    {
+      "type": "objective-description",
+      "text": "演播厅与全景大厅的所有出口均已被封锁，即使看穿真相，你也难以逃离此地。\n叽米为你指出下班的秘密通道，这是眼下唯一的出路。",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这个甜甜圈又是什么玩意？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "重力似乎会随着这个圆圈变化..."
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "不知道跳到另一个气泡里会发生什么？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这里是…刚刚的大厅？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "呼叫「主角」，呼叫「主角」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "虚照老师？你来干什么？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我会帮你把门锁的权限都打开…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "咱们在下一个房间会合。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你怎么做到的…算了，不重要了"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "公司的安保措施可真够烂的。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "闲聊的员工"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "讥讽的男声",
+      "text": "我觉得你的「疤眼夫人」演得还挺像的，有那股刻薄劲了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "嘲笑的女声",
+      "text": "那还是「塔拉梵」更胜一筹，不知道筑材物流部会不会给你寄律师函……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "另一对闲聊的员工"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "模糊的女声",
+      "text": "开拓者应该回不来了吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "模糊的女声",
+      "text": "算算时间，我们的任务应该完成了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "模糊的男声",
+      "text": "还是小心为妙，把戏做足了再说。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "抵达出口"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "低级、但有效的骗术。"
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "以下部分属于任务「身份与抵抗，游戏与警察」"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "杀出环形办公室"
+    },
+    {
+      "type": "objective-description",
+      "text": "关卡载入中……\n……\n载入完成。\n关卡名：决战牛马镇！\n难度：非常简单。\n主题：星际和平娱乐工区。\n核心机制：没有豆子，全是敌人。\n通关条件：在四分钟内抵达出口。\n通关提示：杀！杀！！杀！！！",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这…又是哪里？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司职员",
+      "text": "…我靠！到底是谁把他/她放出来的？！按计划不是说好至少拖他/她一个系统时的吗？门锁呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司职员",
+      "text": "我查查通行权限…锁，被打开了？！谁干的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "是我，我干的。有人送了我一个小小的数据切片——说能搞定许多麻烦。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "星核猎手的数据，厉害吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司职员",
+      "text": "你是…星核猎手？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "啊不，我是你们的同事。我，宝乐思·梅丽！你们没听说过吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司职员",
+      "text": "宝乐思…那都是得快五十年前的人了啊？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司职员",
+      "text": "别废话了！快叫安保部队，快点！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "安保士兵",
+      "text": "我…我们要对无名客动手？他们不是战投的合作对象吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司职员",
+      "text": "废什么话？你的责任只有一条：听从命令开火！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "这么多人？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "没关系，一起上吧！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你们的戏杀青了，接下来，该是我的好戏了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "稍安勿躁，「主角」，现在还没到你的高光时刻呢——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "像这种小鱼小虾，就交给胃口好的家伙让它一口吞下吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司职员",
+      "text": "这，这又是什么玩意儿？！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "为了阻拦你回到全景大厅，这些公司职员不惜组成人肉阵线，好，那就掏出吃豆人，和他们速战速决！决战到底！",
+      "context": "决战牛马镇"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "公司狼",
+      "text": "「你好，请支持公司，一切献给琥珀王！」"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "别挡路！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "滚！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "安保士兵",
+      "text": "救、救命！无名客疯了——！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "偶尔翘个班吧，有益于生命健康！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "好，全部解决了！"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "虽说一路杀过来很解气，但我们要解决的问题依然还在……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "说到底，会上的假货们不过是一群声量不大，也起不到什么决定性作用的杂鱼，主导这场闹剧的奥斯瓦尔多也还隐匿在幕后，不打算现身。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "不能再让他…或是其他高高在上的大佬们无休止地拖延时间了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "所以，我们怎么逼他们现身？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "接下来，要让董事注意到我们。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "虚照老师，你有什么好主意？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我注意到你们收藏了一个危险的战利品，别怪我自作主张，我把它给带来了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你是说…归寂的骰？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "喔？需要我做什么？杀光他们，还是…让他们倾家荡产？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "瞧瞧，一颗绝灭大君的脑袋，还会开口说话。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "这可比远在天边，就要突破封印的兽蜕，震撼他们全家一百倍了吧！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这个主意…我喜欢！"
+    },
+    {
+      "type": "note",
+      "tone": "蓝色",
+      "text": "以上部分属于任务「身份与抵抗，游戏与警察」"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "回到全景大厅"
+    },
+    {
+      "type": "objective-description",
+      "text": "闹剧该结束了，时间所剩无几。在部长会议作出最终决策之前，你必须取得向在田直接陈情的机会。\n如果私人会见被层层阻挠，那就让千星城所有的目光都汇聚到你身上。",
+      "location": "千星城-指针塔"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "人才激励部秘书？",
+      "text": "…「高管们」都提前下线了啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "人才激励部秘书？",
+      "text": "开拓者一走，任务也算是完成了。剩下的就看冒牌主持人能拖他/她多久了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "战略投资部职员？",
+      "text": "说句题外话，你们觉不觉得，其实我也挺有潜力扮演「塔拉梵」的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "战略投资部职员？",
+      "text": "在老吃家这方面，我有自信不输给真正的塔拉梵先生，嗝~哈哈哈……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "人才激励部秘书？",
+      "text": "好了！别贫嘴了，要是被人传出去，你明天就要卷铺盖走人！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "战略投资部职员？",
+      "text": "伊安奇先生许诺过我们：这场峰会里发生的对话，不会流传到全景大厅之外任何人的耳朵里。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "哎呀，是吗？他们就这么自信？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "骗局和闹剧都该结束了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "结束这可笑的扮演吧！",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "惊愕的众人",
+      "text": "开拓者？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "惊愕的众人",
+      "text": "开拓者怎么回来了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "王八蛋伊安奇！我知道你做得到——立刻将所有镜头对准我！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我要我的脸，立刻出现在千星城的每一块屏幕上！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "开拓者先生/小姐，请不要这么激动。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我本想通过冷静和平的方式来表达我的诉求，但回应我的只有戏弄和羞辱。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "假如「二相乐园即将毁灭」的新闻，离你们的生活实在太远，让你们提不起兴趣。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "那这个呢？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "一位绝灭大君的头！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "它每次转动，都会给一个世界带来无法估量的变数和挑战。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "要试试吗？这场灾难会降临到你、你…还是你们所有人身上？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "……我听说，星穹列车的乘员都是光荣正义的无名客。你不会这么做的……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "对吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "就算你想逞凶，我们还有一位保护千星城的超级英雄。我已经呼叫了灯塔…他会来救我们的！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "可怜啊，看来你们既不理解绝灭大君的力量…也不知道该如何体面地对待一位真正的英雄。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "真正的英雄根本不会托着炸弹叫嚣着要炸了这里！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "…又见面了，开拓者。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "真遗憾。我这次接到的，是「不惜一切代价，排除会场威胁」的最高指令。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "我知道，我不是你的对手。但，这是我的职责，也是我穿着这身动力甲的…唯一理由——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "我得维持千星城的和平，因为我是荣誉治安官，灯塔！"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我绝不会退让的。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "…和平？千星城什么时候拥有过和平了？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "我听过一个笑话：「存护」只是伪装，克里珀早就堕落了，公司是信奉「贪饕」的派系。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "而今天，百闻不如一见，原来它根本不是什么笑话……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "就在千星城的底下，也沉睡着一头「贪饕」古兽啊！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "泰科铵的使节？",
+      "text": "那东西在说什么浑话？？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "不要慌乱，绝灭大君不可能进入千星城！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "动手！灯塔！把他们全部拿下！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "击败公司的安保部队"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "进入战斗"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "灯塔",
+      "text": "呼叫灯塔部队集结！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你们真是让我忍无可忍！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "既然你们对我的警告充耳不闻…"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "获得胜利"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "准备好面对风险了吗？"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "动力甲部队准备开火"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "机器人",
+          "text": "可以了。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "机器人",
+          "text": "在田先生想邀请两位谈谈。"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "与肯尼斯对话"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "真是…真是一场好戏啊，伊安奇。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "伊安奇",
+      "text": "肯尼斯…先生？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "开拓者，虚照女士…呃，也许我还是称呼你宝乐思·梅丽女士为好。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "我以充分的「尊重」迎接二位，请随我乘坐电梯，前往「空声院」。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "那里是在田先生的私人府邸，安全，清净，他将在那里决定二相乐园未来的去向。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你们打算开演第二场戏？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "我真想放手让骰子落地…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "肯尼斯",
+              "text": "我完全理解您的愤怒与不信任。易地而处，我的反应恐怕会更激烈。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "肯尼斯",
+              "text": "所有参与此事的人都将受到最严厉的惩罚，我保证。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "请允许我郑重澄清——以琥珀王的神体起誓，接下来的会面，绝无任何事先排演的剧本。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "父亲他已知晓了这里的「动静」，希望与二位见一见面。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "呵，果然得先拆了戏台，把屋顶掀开，才能上达天听啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "带路吧，管家先生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "请跟我来。"
+    },
+    {
+      "type": "fold",
+      "title": "额外对话（伊安奇）",
+      "collapsed": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "伊安奇面如死灰，参与峰会的演员们则噤若寒蝉，全身颤抖如筛糠。\n看起来，他们还在畏惧不知真假的绝灭大君。也实在没想到，今日的一出戏剧会演变成自己的职场生涯…也许是人生的灾难。"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,1414 @@
+{
+  "schemaVersion": 1,
+  "game": "崩坏：星穹铁道",
+  "source": {
+    "wiki": "BWiki 崩坏：星穹铁道",
+    "title": "神话哲学与公正游戏",
+    "pageId": 40950,
+    "revisionId": 102447,
+    "parentRevisionId": 102171,
+    "revisionTimestamp": "2026-09-16T23:21:30Z",
+    "fetchedAt": "2026-09-28T00:20:05.108Z",
+    "pageUrl": "https://wiki.biligame.com/sr/%E7%A5%9E%E8%AF%9D%E5%93%B2%E5%AD%A6%E4%B8%8E%E5%85%AC%E6%AD%A3%E6%B8%B8%E6%88%8F",
+    "editUrl": "https://wiki.biligame.com/sr/index.php?title=%E7%A5%9E%E8%AF%9D%E5%93%B2%E5%AD%A6%E4%B8%8E%E5%85%AC%E6%AD%A3%E6%B8%B8%E6%88%8F&action=edit",
+    "apiUrl": "https://wiki.biligame.com/sr/api.php"
+  },
+  "mission": {
+    "name": "神话哲学与公正游戏",
+    "region": "千星城",
+    "type": "开拓任务",
+    "version": "4.5",
+    "number": "05",
+    "series": "挥掷千星的筹码",
+    "description": "你提议重启「幻月游戏」，用「欢愉」的权柄镇伏兽蜕。在路易斯·弗莱明的授意下，在田投出支持「入画」的一票，二相乐园得以保全。危机暂时平息后，虚照向你坦白她的真实身份——「欢愉」星神阿哈。",
+    "requirements": "完成任务艺术的共谋，图像的肉身",
+    "requiredLevel": "21",
+    "characters": [
+      "虚照",
+      "姬子"
+    ],
+    "relatedItems": [],
+    "rewards": [
+      {
+        "item": "里程",
+        "amount": "200"
+      },
+      {
+        "item": "星琼",
+        "amount": "30"
+      },
+      {
+        "item": "提纯以太",
+        "amount": "4"
+      },
+      {
+        "item": "乐园纪念币",
+        "amount": "80"
+      },
+      {
+        "item": "《絮语》",
+        "amount": "1"
+      },
+      {
+        "item": "《噤声》",
+        "amount": "1"
+      },
+      {
+        "item": "信用点",
+        "amount": "30000"
+      }
+    ],
+    "previousMissions": [
+      "艺术的共谋，图像的肉身"
+    ],
+    "nextMissions": [],
+    "objectives": [
+      "跟随肯尼斯，前往空声院",
+      "跟随肯尼斯，前去会见在田",
+      "前往倒悬餐厅，赴虚照的约"
+    ],
+    "synopsis": [
+      "肯尼斯带领你们来到「云顶」空声院的入口。从那里望去，千星城一览无余，全公司也只有七人有资格享用那番风景。",
+      "距离投票只剩不到一个系统时，你得到了与在田直接交流的机会。在田对目前的两个方案都不满意，但你在千星城的一系列行为让他认为，你有能力给他第三个方案。无关权利斗争，你直截了当提出：重启「幻月游戏」，用「欢愉」的权柄直接镇伏兽蜕，而这需要二相乐园存在。一分钟结束后，在田请董事长做出决定。",
+      "路易斯·弗莱明称呼虚照为老朋友，并询问她的想法，虚照同意「阿基维利」的主意。在弗莱明的授意下，在田投出支持「入画」的一票。",
+      "公司的决策牵动了克里珀的目光，在「存护」的瞥视下，二相乐园被重新封入画中，迫在眉睫的危机解除。「哈托彼亚，将会存留。」",
+      "二相乐园的地震平息、触手退却，真珠宣告画界仪式复现成功。通讯恢复，星期日请二相乐园的各位做好准备，最后的幻月游戏将要开启。",
+      "真珠收到朽叶的来讯。朽叶将和不死途前往生研院，如果亚婆离染指了她不该触碰的一切，朽叶将杀死亚婆离。",
+      "离去之前，在田请你把归寂的骰留下。随后，亚婆离向肯尼斯索要这枚骰子，称要将「奥博洛斯的知识」吃干抹净。",
+      "危机告一段落，你有很多问题想问虚照。至少现在，时间足够你们找个合适的角落，坐下来慢慢说。在那之前，你有很多消息要回应。",
+      "虚照通过服务机器人录下请柬，她在倒悬餐厅订了一桌位置，邀请你前来赴约。在那里，她会毫无保留地道出一切。",
+      "漫画家只是一个伪装，于倒悬餐厅的落地窗前，虚照向你坦白真实身份。「你也可以叫我…阿哈。」",
+      "这场演出献给你，亲爱的观众。不知你是否从中得到了少许欢愉？如果没有…那就对了。因为最盛大的剧目，现在才要开演。",
+      "我，幻乐主，悲悼之人，一切「确定性」的凶手，一切「戏剧性」的赝主。最初的愚者，也是最初的伶人。亲爱的观众，群星沉默不语。但我说：要有笑声。"
+    ],
+    "extra": {
+      "相关成就": "通往群星的轨道#第二次入画、通往群星的轨道#啊哈！阿哈？",
+      "相关书籍": "",
+      "领取地点": ""
+    }
+  },
+  "content": [
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随肯尼斯，前往空声院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "这里是……？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "「云顶」空声院的入口。景色不错吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "从那里望去，千星城一览无余，毫无秘密。有资格享用那番风景的人可不多——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "放眼全公司，也只有七人可以。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "爬得这么高…",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "站这么高，不怕摔下来的时候粉身碎骨？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "肯尼斯",
+              "text": "若是站得不高，便会被踩在泥里。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "肯尼斯",
+              "text": "比起在泥泞中被无声碾碎，更多人宁愿赌一个登顶的机会——至少在空中，还能看到不一样的风景。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "看来今天要多一人了。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "虚照",
+              "text": "是两人，还有我！虽然是沾了你的光。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "肯尼斯",
+              "text": "不必这么快下判断。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "肯尼斯",
+              "text": "「享用」还是「被享用」，在上桌前，多数人都看不清自己。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "两位，站到台座上吧，若是感到一点头重脚轻，请不要惊慌。"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "跟随肯尼斯，前去会见在田"
+    },
+    {
+      "type": "objective-description",
+      "text": "「云顶」之上，是千星城众生仰望的权力之巅。寰宇诸多世界的命运曾被陈列在公司部长们的谈判桌上，如今，二相乐园亦是其中之一。\n天平已然校准，而你，唯有孤注一掷。",
+      "location": "千星城-空声院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我…被吸上天了？"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "我们到了。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "一个人也没有。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你在对谁说话？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "父亲，我把人带到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "让他们过来吧。然后，你可以退下了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "接下来的谈话，孩子不必在场。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "还有少儿不宜的事？但不巧，我们赶时间。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "距离你投出至关重要的一票，只剩不到一个系统时了。在田先生，一刻千金啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "你应该给自己配一块好表，梅丽小姐。时间不是绰绰有余吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "路易斯·弗莱明做决定只需要60秒，这事人尽皆知。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "可你不是路易斯·弗莱明，而人人也都知道……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "老在田做出的决定，连董事长都改变不了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "不错。年轻人都觉得，哈托彼亚一案无需再作讨论。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "但我持保留意见，因为对目前的两个方案都不满意。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "…都不满意？",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "奥斯瓦尔多有能力，有野心，但还是个孩子，想法稚嫩了些。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "「钻石」…心思远比外表成熟，可成熟过头，有时也是坏事。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "我的职责是为公司选拔继任者，他们俩资历尚浅，还拿不走我这一票。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "所以，开拓者，我需要第三个方案。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "第三个方案？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "从你踏入千星城起，我就一直在观察你，看你竭尽所能为自己奔走、呼喊，像极了创业时期的弗莱明。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "接下来，我会给你一分钟时间。你尽可讲述自己的故事，只要它足够精彩，就有机会赢得我的支持。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "这样一来，老在田就不用被迫二选一，而你也能得到自己想要的。可谓双赢。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "开什么玩笑，还在权力斗争？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "都这种时候了，还在玩你的权力游戏？"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "无论如何，我需要你这一票。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "开拓者",
+              "text": "我不管公司有什么逻辑，我需要你手里这一票……"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "听好了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我不讲故事，故事只是语言的游戏，它阻止不了「兽」口迫在眉睫的威胁。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "如果你认为「入画」只是拖延时间；又忌惮「武器化」的风险……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "我就给你第三个方案。"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "回忆姬子之前的想法"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "列神之战初见端倪。我想，这也是公司在此处布局多年的原因。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "看到幻月满盈时，我更确信了这点。觐见星神的仪式，无论真伪，都有可能成为左右银河命运的契机。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "但重要的是，你们应当作出自己的决定。比如…是否，以及如何投身这场盛大的游戏。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "从何处来，就往何处去……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "以谒者的身份，我将重启「幻月游戏」！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "然后汇聚愿力，觐见阿哈，用「欢愉」的权柄镇伏兽蜕，就像无数个琥珀纪前那样——人们曾经能做到，现在也一定可以。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "而这一切，需要二相乐园存在。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "你又怎么知道，喜怒无常的阿哈会如你所愿？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "同样的话还给你。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "你又凭什么笃定，阿哈不会站在我这边？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "呵，也对。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "我没和星神打过交道，没有发言权。不过，要做决定的人也不是我。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "而是，路易斯·弗莱明。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "一分钟结束了。董事长，请您做出决定。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路易斯·弗莱明",
+      "text": "多少个琥珀纪过去了……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路易斯·弗莱明",
+      "text": "老朋友，你回来了？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "老朋友？我？",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "你在对谁说话？难道…",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路易斯·弗莱明",
+      "text": "无论你现在是什么身份——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路易斯·弗莱明",
+      "text": "只要当事人认可这位年轻人的主张，公司便会全力相助。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路易斯·弗莱明",
+      "text": "所以——告诉我，你是怎么想的？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "？？？",
+      "text": "我怎么想，还用问吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "哪一次，我反对过「阿基维利」的主意？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "答案是「同意」！谜底就在谜面上，我站哪边，显而易见。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路易斯·弗莱明",
+      "text": "那么，一如既往，我会祝你们好运。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "路易斯·弗莱明",
+      "text": "在田。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "是，先生。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "以琥珀王授予我等的神圣权力，传统项目部作出决定——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "这一票投给星穹列车，将二相乐园封存入画，重启幻月游戏。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "在田",
+          "text": "如此，决议已毕。「存护」的天旨必得彰显。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "在田",
+          "text": "哈托彼亚，将会存留。"
+        },
+        {
+          "type": "narration",
+          "tone": "灰",
+          "text": "与此同时，二相乐园…"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "真珠",
+          "text": "诸位，他/她不负所托，完成了请愿。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "真珠",
+          "text": "那么，我将引导「存护」之力降临。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "绘世",
+          "text": "我将全力绘画，重现神迹。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "银狼",
+          "text": "我嘛…我居然要和公司合作。唉，算了。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "二相乐园内…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "士兵",
+      "text": "姬子女士！是时候撤退了——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "…不，也许不用去酒馆了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "从刚才开始，持续不断的地震…平息了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "丹恒",
+      "text": "从地缝里涌出的触手也消失了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "姬子",
+      "text": "是开拓者…他们做到了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "真珠",
+      "text": "很高兴向您传达捷报：画界仪式复现成功。二相乐园度过了最危险的时刻。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "士兵们",
+      "text": "真的吗？！所以，危机结束了吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "各位，星穹列车已经…抵达哈托彼亚的晶壁外围…车厢将作为中转站…连接二相乐园与千星城的通信……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "我带来了开拓者的问候…和下一阶段的目标……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "星期日",
+      "text": "做好准备…最后的幻月游戏…要开启了。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "与此同时，真珠收到了朽叶的短信"
+    },
+    {
+      "type": "message-thread",
+      "title": "朽叶",
+      "subtitle": "",
+      "owner": "真珠",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "朽叶",
+          "contentType": "text",
+          "text": "一切已经准备妥当，接下来我会和侦探前往目标的所在地"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "朽叶",
+          "contentType": "text",
+          "text": "你说那个地方…「生命科学研究院」？"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "真珠",
+          "contentType": "text",
+          "text": "没错。"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "真珠",
+          "contentType": "text",
+          "text": "我已将我所知的一切坦诚告知了你们。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "朽叶",
+          "contentType": "text",
+          "text": "如果一切属实，如果亚婆离染指了她不该触碰的一切"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "朽叶",
+          "contentType": "text",
+          "text": "我会杀死她"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "objective-description",
+      "text": "星际和平公司的决定牵引了克里珀的目光。在「存护」的瞥视下，二相乐园肆虐的「兽蜕」得到压制，最终再度入画。\n「一切献给琥珀王。」",
+      "location": "千星城-空声院"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "如你们所愿，琥珀王守护了哈托彼亚。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "相信二位还有私事要谈，我不多打扰了。但在离去前，公司还有一个请求。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "请把那枚「骰子」留下。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "一位大君的头颅太过危险，需要找个地方妥善收容。"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你的要求太多了。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "也好，免得他还有阴谋。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "照他说的做吧，老先生值得信任。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "而且，我猜你现在一定有很多问题……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "要解开这些困惑，也不适合有第三者在场，多破坏气氛啊。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "开拓者走了。他/她说的一切，会发生吗？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "他/她会做到的。他/她必须做到。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "哦？这屋子里怎么充满了阴谋的气息？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "归寂的骰",
+      "text": "难道，有人在桌子底下偷偷做了其他交易？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "时移势易，公司是不似当年的支援队了，但也不是「毁灭」的走卒能诋毁的。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "你在指针塔的指控，的确勾起了某些人的兴趣。不是别人，正是当事人——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "在田",
+      "text": "你口中的「千星城古兽」，她来了。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "肯尼斯",
+      "text": "您想要这颗骰子做什么，亚婆离女士？"
+    },
+    {
+      "type": "text",
+      "text": "……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "我嘛，我想要什么，你们还猜不到？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "把它交给灯塔，送去生研院，我来亲自操刀，处理这颗装满了阴谋论的脑袋……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "亚婆离",
+      "text": "将「奥博洛斯的知识」——吃干抹净。"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "narration",
+      "tone": "灰",
+      "text": "你和虚照离开空声院…"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "嗯——这天大的难关，总算是有了喘息的机会。终于可以休息一下了！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "——虽然很想这么说，但你应该不会放过我吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "我有很多问题要问你。",
+          "content": []
+        },
+        {
+          "id": 2,
+          "text": "到底怎么回事，我完全混乱了！",
+          "content": []
+        },
+        {
+          "id": 3,
+          "text": "我早就看出来了，等你自己坦白。",
+          "content": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "放心，至少这会儿，我们有很多时间，足够找个合适的角落，坐下来慢慢说。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "但在那之前，你可是办成了一桩大事，肯定有数不清的人来问候道贺。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "还是，先接电话吧？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "……"
+    },
+    {
+      "type": "message-thread",
+      "title": "星穹列车一家人",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "帕姆",
+          "contentType": "text",
+          "text": "列车已顺利返航，正在连接信号。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "星期日",
+          "contentType": "text",
+          "text": "@开拓者 我已抵达二相乐园。很高兴看到你也成功了。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "啊！信号连上了！大家有没有事啊？@所有人 说句话！"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "姬子",
+          "contentType": "text",
+          "text": "@开拓者 一切平安，谢谢你这一路奔波"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "丹恒",
+          "contentType": "text",
+          "text": "@开拓者 辛苦了，做得好。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "瓦尔特",
+          "contentType": "text",
+          "text": "@开拓者 大家都平安无事，不用担心。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "太好了太好了太好了太好了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "三月七",
+          "contentType": "text",
+          "text": "@开拓者 别装酷了，你也吱一声！"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "吱吱吱吱吱吱吱",
+              "content": []
+            },
+            {
+              "id": 2,
+              "text": "我好想你们！",
+              "content": []
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "谢谢大家坚持到现在"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "我好想你们！"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "message-thread",
+      "title": "银狼、刃、开拓者的群聊",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "银狼",
+          "contentType": "text",
+          "text": "别的就不多说了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "银狼",
+          "contentType": "text",
+          "text": "多谢你把事办成了，刃也这么说"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "生分了！",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "也谢谢你们"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "别客气，都是为了银河！",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "太客气了，都是为了银河！"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "银狼",
+          "contentType": "text",
+          "text": "有人说过你官腔越来越重了吗？"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "银狼",
+          "contentType": "text",
+          "text": "@刃 你也说句话"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "刃",
+          "contentType": "text",
+          "text": "谢了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "银狼",
+          "contentType": "text",
+          "text": "害羞什么啊你，多说几句"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "刃",
+          "contentType": "text",
+          "text": "几句"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "银狼",
+          "contentType": "text",
+          "text": "……"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "银狼",
+          "contentType": "text",
+          "text": "都给他急得开玩笑了"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "银狼",
+          "contentType": "text",
+          "text": "对了，开拓者，启程时赠送你的那份礼物，已经耗尽了"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "星核？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "星核？"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "怎么了？",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "怎么了？"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "银狼",
+          "contentType": "text",
+          "text": "艾利欧本以为能拖得更久，没想到却是在这一站……"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "银狼",
+          "contentType": "text",
+          "text": "但代价会是什么呢？"
+        },
+        {
+          "type": "choice",
+          "presentation": "message",
+          "options": [
+            {
+              "id": 1,
+              "text": "走一步看一步吧",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "我会走一步看一步的，别担心"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "text": "……",
+              "content": [
+                {
+                  "type": "message",
+                  "side": "right",
+                  "speaker": "开拓者",
+                  "contentType": "text",
+                  "text": "别担心，没事的"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "银狼",
+          "contentType": "text",
+          "text": "不管了，有事记得呼叫本狼尊"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "message-thread",
+      "title": "翡翠、真珠、开拓者的群聊",
+      "subtitle": "",
+      "owner": "开拓者",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "真珠",
+          "contentType": "text",
+          "text": "开拓者 ，画界仪式已完成。感谢你为二相乐园争取到的时间。"
+        },
+        {
+          "type": "message",
+          "side": "right",
+          "speaker": "开拓者",
+          "contentType": "text",
+          "text": "重启幻月游戏的准备就拜托你了。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "真珠",
+          "contentType": "text",
+          "text": "请放心，我必定照应周全。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "真珠",
+          "contentType": "text",
+          "text": "@翡翠 开拓者 与平民在千星城的行程，有劳费心了。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "翡翠",
+          "contentType": "sticker",
+          "sticker": "16-05",
+          "file": "聊天表情-16-05.png",
+          "asset": "assets/sr-images/聊天表情-16-05.png"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "真珠",
+          "contentType": "text",
+          "text": "@开拓者  我听说虚照老师也帮了不少忙。"
+        },
+        {
+          "type": "message",
+          "side": "left",
+          "speaker": "真珠",
+          "contentType": "text",
+          "text": "请代为转达我的感激，以及等一切尘埃落定后的…催稿。"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "呵，「虚照老师」，最后还是绕回了你……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "…人呢？！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "大意了！那家伙不会逃跑了吧？"
+    },
+    {
+      "type": "choice",
+      "presentation": "dialogue",
+      "options": [
+        {
+          "id": 1,
+          "text": "你好？",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "服务机器人",
+              "text": "您好。"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "吓我一跳。",
+          "content": [
+            {
+              "type": "dialogue",
+              "speaker": "服务机器人",
+              "text": "很抱歉，吓了您一跳。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "服务机器人",
+      "text": "我谨代客户「虚照女士」，为您传达今晚的邀约，下面，播放录音请柬——"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "嗨！开拓者，真不好意思，每次想开口和你聊聊我的身份，就会有阴差阳错的小插曲发生，也许，这就是我的命吧。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "看你回消息忙得不亦乐乎，我心说，还是别打扰这份胜利的喜悦了。但你心中的问题，必须有个郑重、得体的回答。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "所以，我在 「倒悬」餐厅订了一个位置。那里视野不错，甜点也还算可口。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "总有些故事，适合在尘埃落定、杯盏交错的时候慢慢讲述。我会在那里，毫无保留地道出一切。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "记得准时赴约喔！"
+    },
+    {
+      "type": "section",
+      "level": 3,
+      "title": "前往倒悬餐厅，赴虚照的约"
+    },
+    {
+      "type": "objective-description",
+      "text": "故事告一段落，小浣熊，终于到了我们的私人时间。\n有件事情瞒了你很久，久到，也许你已经猜到了……",
+      "location": "千星城-千星城中心城区"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "真会吊人胃口……"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "开拓者",
+      "text": "虚照应该就在这儿。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我就知道，你会来的。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "开拓者",
+          "text": "所以，你想说什么？"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "虚照",
+          "text": "我不是有意要瞒着你的。"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "虚照",
+          "text": "但漫画家只是一个伪装……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "虚照",
+          "text": "关于我的真实身份……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "虚照",
+          "text": "你也可以叫我……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "虚照",
+          "text": "…阿哈。"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "这场演出献给你，亲爱的观众。不知你是否从中得到了少许欢愉？"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "如果没有……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "嘘——那就对了。因为最盛大的剧目，现在才要开演。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "那是一段不堪回首的往事，是我年轻不懂事时走过的弯路。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "与众神纠缠不清的，桃红与血红交融的岁月，回想起来…简直是场噩梦！"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "但现在，为了全宇宙，还有你，我愿意揭下自己的面具……"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "我，幻乐主，悲悼之人，一切「确定性」的凶手，一切「戏剧性」的赝主。"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "虚照",
+      "text": "最初的愚者，也是最初的伶人。"
+    },
+    {
+      "type": "fold",
+      "title": "过场动画",
+      "collapsed": false,
+      "content": [
+        {
+          "type": "dialogue",
+          "speaker": "虚照",
+          "text": "亲爱的观众，群星沉默不语……"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "虚照",
+          "text": "但我说：要有笑声。"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

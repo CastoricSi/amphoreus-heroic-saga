@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "mode": "update",
+  "sourceIndex": "data/missions.json",
+  "startedAt": "2026-10-18T21:41:45.065Z",
+  "finishedAt": "2026-10-18T21:41:53.193Z",
+  "uniquePages": 5,
+  "indexReferences": 5,
+  "pages": [
+    {
+      "name": "剧场及其复象",
+      "actualTitle": "剧场及其复象",
+      "link": "https://wiki.biligame.com/sr/%E5%89%A7%E5%9C%BA%E5%8F%8A%E5%85%B6%E5%A4%8D%E8%B1%A1",
+      "sourceFile": "missions/开拓任务/千星城/月升之前，与兽共舞/剧场及其复象.wiki",
+      "dataFile": "missions/开拓任务/千星城/月升之前，与兽共舞/剧场及其复象.json",
+      "references": [
+        {
+          "category": "开拓任务",
+          "location": "千星城",
+          "series": "月升之前，与兽共舞",
+          "name": "剧场及其复象"
+        }
+      ],
+      "revisionId": 104163,
+      "status": "warning",
+      "issues": [
+        "选项模板 56 个，但 JSON choice 节点 15 个",
+        "仍有 2 个未分类模板节点"
+      ],
+      "nodeTypes": {
+        "section": 12,
+        "objective-description": 7,
+        "dialogue": 181,
+        "choice": 15,
+        "template": 2,
+        "text": 6,
+        "divider": 10,
+        "fold": 4
+      },
+      "templateNames": {
+        "提示": 1,
+        "任务": 1,
+        "图标": 6,
+        "颜色": 16,
+        "任务描述": 7,
+        "剧情选项": 56,
+        "#tag:tabber": 4,
+        "!": 48,
+        "注音": 12,
+        "折叠": 4
+      }
+    },
+    {
+      "name": "知识、沉默、擦肩而过",
+      "actualTitle": "知识、沉默、擦肩而过",
+      "link": "https://wiki.biligame.com/sr/%E7%9F%A5%E8%AF%86%E3%80%81%E6%B2%89%E9%BB%98%E3%80%81%E6%93%A6%E8%82%A9%E8%80%8C%E8%BF%87",
+      "sourceFile": "missions/开拓任务/千星城/月升之前，与兽共舞/知识、沉默、擦肩而过.wiki",
+      "dataFile": "missions/开拓任务/千星城/月升之前，与兽共舞/知识、沉默、擦肩而过.json",
+      "references": [
+        {
+          "category": "开拓任务",
+          "location": "千星城",
+          "series": "月升之前，与兽共舞",
+          "name": "知识、沉默、擦肩而过"
+        }
+      ],
+      "revisionId": 104165,
+      "status": "warning",
+      "issues": [
+        "仍有 1 个未分类模板节点"
+      ],
+      "nodeTypes": {
+        "section": 15,
+        "objective-description": 15,
+        "dialogue": 344,
+        "choice": 30,
+        "divider": 11,
+        "text": 9,
+        "narration": 3,
+        "template": 1
+      },
+      "templateNames": {
+        "提示": 1,
+        "任务": 1,
+        "图标": 6,
+        "任务描述": 15,
+        "颜色": 13,
+        "剧情选项": 30,
+        "#tag:tabber": 1,
+        "!": 4,
+        "注音": 1
+      }
+    },
+    {
+      "name": "无私的基因",
+      "actualTitle": "无私的基因",
+      "link": "https://wiki.biligame.com/sr/%E6%97%A0%E7%A7%81%E7%9A%84%E5%9F%BA%E5%9B%A0",
+      "sourceFile": "missions/开拓任务/千星城/月升之前，与兽共舞/无私的基因.wiki",
+      "dataFile": "missions/开拓任务/千星城/月升之前，与兽共舞/无私的基因.json",
+      "references": [
+        {
+          "category": "开拓任务",
+          "location": "千星城",
+          "series": "月升之前，与兽共舞",
+          "name": "无私的基因"
+        }
+      ],
+      "revisionId": 104231,
+      "status": "ok",
+      "issues": [],
+      "nodeTypes": {
+        "section": 6,
+        "objective-description": 6,
+        "dialogue": 230,
+        "notice": 1,
+        "text": 1,
+        "choice": 1,
+        "narration": 3
+      },
+      "templateNames": {
+        "提示": 1,
+        "任务": 1,
+        "图标": 6,
+        "任务描述": 6,
+        "注音": 4,
+        "颜色": 17,
+        "提示消息": 1,
+        "剧情选项": 1
+      }
+    },
+    {
+      "name": "人造天堂，脑髓地狱",
+      "actualTitle": "人造天堂，脑髓地狱",
+      "link": "https://wiki.biligame.com/sr/%E4%BA%BA%E9%80%A0%E5%A4%A9%E5%A0%82%EF%BC%8C%E8%84%91%E9%AB%93%E5%9C%B0%E7%8B%B1",
+      "sourceFile": "missions/开拓任务/千星城/月升之前，与兽共舞/人造天堂，脑髓地狱.wiki",
+      "dataFile": "missions/开拓任务/千星城/月升之前，与兽共舞/人造天堂，脑髓地狱.json",
+      "references": [
+        {
+          "category": "开拓任务",
+          "location": "千星城",
+          "series": "月升之前，与兽共舞",
+          "name": "人造天堂，脑髓地狱"
+        }
+      ],
+      "revisionId": 104445,
+      "status": "ok",
+      "issues": [],
+      "nodeTypes": {
+        "section": 7,
+        "objective-description": 7,
+        "dialogue": 263,
+        "choice": 8,
+        "divider": 3,
+        "fold": 2,
+        "narration": 8
+      },
+      "templateNames": {
+        "提示": 1,
+        "任务": 1,
+        "图标": 7,
+        "任务描述": 7,
+        "剧情选项": 8,
+        "颜色": 19,
+        "注音": 5,
+        "折叠": 2
+      }
+    },
+    {
+      "name": "狩猎愉快",
+      "actualTitle": "狩猎愉快",
+      "link": "https://wiki.biligame.com/sr/%E7%8B%A9%E7%8C%8E%E6%84%89%E5%BF%AB",
+      "sourceFile": "missions/开拓任务/千星城/月升之前，与兽共舞/狩猎愉快.wiki",
+      "dataFile": "missions/开拓任务/千星城/月升之前，与兽共舞/狩猎愉快.json",
+      "references": [
+        {
+          "category": "开拓任务",
+          "location": "千星城",
+          "series": "月升之前，与兽共舞",
+          "name": "狩猎愉快"
+        }
+      ],
+      "revisionId": 104168,
+      "status": "ok",
+      "issues": [],
+      "nodeTypes": {
+        "section": 11,
+        "objective-description": 10,
+        "dialogue": 285,
+        "choice": 17,
+        "divider": 4,
+        "text": 1,
+        "narration": 2,
+        "fold": 4
+      },
+      "templateNames": {
+        "提示": 1,
+        "任务": 1,
+        "图标": 6,
+        "任务描述": 10,
+        "剧情选项": 17,
+        "颜色": 13,
+        "折叠": 4,
+        "注音": 4
+      }
+    }
+  ],
+  "totals": {
+    "warning": 2,
+    "ok": 3
+  }
+}
