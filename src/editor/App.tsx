@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Badge, Button, ContextMenu, IconButton, MenuButton, Tooltip, type MenuEntry, type MenuItem } from "./ui";
-import { IconArrowBackUp, IconArrowForwardUp, IconBooks, IconListTree, IconSettings, IconX } from "./ui/icons";
+import { IconArrowBackUp, IconArrowForwardUp, IconArrowLeft, IconListTree, IconSettings, IconX } from "./ui/icons";
 import { newNodeTemplates, nodeLabel, nodeLabels } from "./content/node-config";
 import { SourceContentCard } from "./content/ReadOnlyContent";
 import { ScriptBlockView } from "./content/ScriptBlockView";
@@ -13,7 +13,6 @@ import { ImagePickerDialog } from "./components/ImagePickerDialog";
 import { ImportDialog, type ImportMode } from "./components/ImportDialog";
 import { MissionContentTocOverlay, type MissionContentHeading } from "./components/MissionContentTocOverlay";
 import { MissionPager } from "./components/MissionPager";
-import { SideOverlay } from "./components/SideOverlay";
 import { MissionBrowser, type MissionBrowserProps } from "./components/MissionBrowser";
 import { ScreenplayLibrary } from "./components/ScreenplayLibrary";
 import { ScreenplayMetaPanel } from "./components/ScreenplayMetaPanel";
@@ -121,7 +120,7 @@ function App() {
 	const [searchMatches, setSearchMatches] = useState<ScriptTextMatch[]>([]);
 	const [searchMatchIndex, setSearchMatchIndex] = useState(0);
 	const [editorFocusMode, setEditorFocusMode] = useState(false);
-	const [missionTocOpen, setMissionTocOpen] = useState(false);
+	const [lastMissionFile, setLastMissionFile] = useState<string>();
 	const [missionContentTocOpen, setMissionContentTocOpen] = useState(false);
 	const [titleNavigatorOpen, setTitleNavigatorOpen] = useState(true);
 	const [settingsOpen, setSettingsOpen] = useState(false);
@@ -276,11 +275,6 @@ function App() {
 				setMissionContentTocOpen(false);
 				return;
 			}
-			if (event.key === "Escape" && missionTocOpen) {
-				event.preventDefault();
-				setMissionTocOpen(false);
-				return;
-			}
 			if (event.key === "Escape" && (multiSelectMode || selectedBlockId)) {
 				event.preventDefault();
 				const target = event.target as HTMLElement | null;
@@ -333,7 +327,7 @@ function App() {
 		}
 		window.addEventListener("keydown", keyDown); window.addEventListener("keyup", keyUp);
 		return () => { window.removeEventListener("keydown", keyDown); window.removeEventListener("keyup", keyUp); };
-	}, [missionContentTocOpen, missionTocOpen, multiSelectMode, saveCurrentDocument, selectedBlockId, selectedNodePath]);
+	}, [missionContentTocOpen, multiSelectMode, saveCurrentDocument, selectedBlockId, selectedNodePath]);
 
 	async function refreshScreenplays() { setScreenplays(await requestJson<ScreenplaySummary[]>("/editor-api/screenplays")); }
 	function syncHistorySize() { setHistorySize({ undo: undoStack.current.length, redo: redoStack.current.length }); }
@@ -388,10 +382,8 @@ function App() {
 	}
 	function exitMultiSelect() { setMultiSelectMode(false); setMultiSelected([]); multiSelectionChanged.current = false; scriptSelectionAnchor.current = null; }
 	function toggleEditorFocusMode() {
-		const next = !editorFocusMode;
-		setEditorFocusMode(next);
-		if (next) setTitleNavigatorOpen(true);
-		else setMissionTocOpen(false);
+		if (!editorFocusMode) setTitleNavigatorOpen(true);
+		setEditorFocusMode(!editorFocusMode);
 	}
 	function navigateToScriptTitle(entry: ScriptTitleEntry) {
 		const block = document?.blocks.find((candidate) => candidate.id === entry.blockId);
@@ -403,19 +395,22 @@ function App() {
 	}
 
 	async function openMission(mission: MissionRef) {
-		setSelectedMission(mission); setMissionDocument(null); setSelectedSource(new Set()); setMissionContentTocOpen(false); selectionAnchor.current = null; setError("");
+		setSelectedMission(mission); setLastMissionFile(mission.dataFile); setMissionDocument(null); setSelectedSource(new Set()); setMissionContentTocOpen(false); selectionAnchor.current = null; setError("");
 		try {
 			const loaded = await requestJson<MissionDocument>(`/editor-api/mission?path=${encodeURIComponent(mission.dataFile)}`);
 			setMissionDocument(loaded);
 		}
 		catch (reason) { setError(reason instanceof Error ? reason.message : String(reason)); }
 	}
+	// Back to the mission list; the mission just viewed stays highlighted there.
+	function closeMission() {
+		setSelectedMission(null); setMissionDocument(null); setSelectedSource(new Set()); setMissionContentTocOpen(false); selectionAnchor.current = null;
+	}
 	function openMissionHeading(heading: MissionContentHeading) {
 		window.document.getElementById(sourceNodeDomId(heading.path))?.scrollIntoView({ block: "start", behavior: "smooth" });
 	}
 	async function openSelectedBlockSource() {
 		if (!selectedSourceMission) return;
-		setEditorFocusMode(false);
 		setCategoryFilter(selectedSourceMission.category);
 		setLocationFilter("");
 		await openMission(selectedSourceMission);
@@ -728,7 +723,7 @@ function App() {
 
 	const missionBrowserProps: Omit<MissionBrowserProps, "onOpen"> = {
 		groups: missionGroups,
-		selectedFile: selectedMission?.dataFile,
+		selectedFile: lastMissionFile,
 		search: missionFilter,
 		category: categoryFilter,
 		location: locationFilter,
@@ -745,21 +740,23 @@ function App() {
 			<ContextMenu position={contextMenu} items={scriptContextItems} onClose={closeContextMenu} />
 			<SettingsDialog opened={settingsOpen} runner={scriptRunner} onClose={() => setSettingsOpen(false)} />
 			<ImagePickerDialog mode={imagePickerMode} search={imageSearch} assets={filteredImageAssets} total={imageAssets.length} loading={imageLoading} onClose={() => setImagePickerMode(null)} onSearchChange={setImageSearch} onChoose={chooseImage} />
-			<header className="topbar"><div className="brand"><div><h1>剧本编辑器</h1><p>星穹铁道任务素材 · 剧本编排工作台</p></div></div><div className="topbar-actions"><Button variant={editorFocusMode ? "filled" : "light"} size="sm" onClick={toggleEditorFocusMode}>{editorFocusMode ? "退出专注模式" : "专注模式"}</Button><div className={`save-indicator ${saveState}`} title="每 10 秒自动保存；按 Ctrl+S 可立即保存"><span />{!activeFile ? "未打开剧本" : saveState === "saving" ? "正在保存…" : saveState === "error" ? "保存失败" : dirty ? "等待自动保存" : "已保存到本地"}</div><Tooltip label="设置"><IconButton aria-label="打开设置" size="md" aria-pressed={settingsOpen} onClick={() => setSettingsOpen(true)}><IconSettings /></IconButton></Tooltip></div></header>
+			<aside className="app-sidebar">
+				<div className="app-panel">
+					<div className="brand"><h1>剧本编辑器</h1><p>星穹铁道任务素材 · 剧本编排工作台</p></div>
+					<div className={`save-indicator ${saveState}`} title="每 10 秒自动保存；按 Ctrl+S 可立即保存"><span />{!activeFile ? "未打开剧本" : saveState === "saving" ? "正在保存…" : saveState === "error" ? "保存失败" : dirty ? "等待自动保存" : "已保存到本地"}</div>
+					<div className="app-panel-actions"><Button variant={editorFocusMode ? "filled" : "light"} size="sm" onClick={toggleEditorFocusMode}>{editorFocusMode ? "退出专注模式" : "专注模式"}</Button><Tooltip label="设置"><IconButton aria-label="打开设置" size="md" aria-pressed={settingsOpen} onClick={() => setSettingsOpen(true)}><IconSettings /></IconButton></Tooltip></div>
+				</div>
+			</aside>
 			{error ? <div className="error-banner"><span>{error}</span><Button variant="subtle" color="red" size="xs" onClick={() => setError("")}>关闭</Button></div> : null}
 			<main className="workspace">
 				<section className="source-pane">
-					<aside className="mission-sidebar">
-						<div className="pane-heading"><h2>任务资料库</h2><Badge color="blue" size="sm">{filteredMissions.length}</Badge></div>
-						<MissionBrowser {...missionBrowserProps} onOpen={(mission) => void openMission(mission)} />
-					</aside>
 					<div className="source-preview">
 						{selectedMission ? <>
 							<header className="preview-header">
+								<IconButton className="back-to-library" size="lg" aria-label="返回任务列表" title="返回任务列表" onClick={closeMission}><IconArrowLeft size={19} /></IconButton>
 								<div className="preview-heading"><span className="eyebrow">{selectedMission.category} / {selectedMission.location}</span><h2>{selectedMission.name}</h2><p>{selectedMission.series}</p></div>
 								<div className="preview-header-side"><div className="preview-navigation">
-									<Tooltip label="当前任务内容目录"><IconButton className="mission-toc-trigger" aria-label="打开当前任务内容目录" variant={missionContentTocOpen ? "light" : "outline"} color="blue" size="md" aria-pressed={missionContentTocOpen} onClick={() => { setMissionTocOpen(false); setMissionContentTocOpen((current) => !current); }}><IconListTree /></IconButton></Tooltip>
-									{editorFocusMode ? <Tooltip label="浏览全部任务"><IconButton className="mission-toc-trigger" aria-label="打开完整任务目录" variant={missionTocOpen ? "light" : "outline"} color="blue" size="md" aria-pressed={missionTocOpen} onClick={() => { setMissionContentTocOpen(false); setMissionTocOpen((current) => !current); }}><IconBooks /></IconButton></Tooltip> : null}
+									<Tooltip label="当前任务内容目录"><IconButton className="mission-toc-trigger" aria-label="打开当前任务内容目录" variant={missionContentTocOpen ? "light" : "outline"} color="blue" size="md" aria-pressed={missionContentTocOpen} onClick={() => setMissionContentTocOpen((current) => !current)}><IconListTree /></IconButton></Tooltip>
 								</div></div>
 							</header>
 							<div className="selection-toolbar">
@@ -772,8 +769,10 @@ function App() {
 							<div className="source-cards">{missionDocument?.content.map((node, nodeIndex) => <SourceContentCard key={nodeIndex} node={node} path={[nodeIndex]} selected={selectedSource} onToggle={toggleSource} />)}</div>
 							<MissionPager previous={previousMission} next={nextMission} position={selectedMissionPosition} total={filteredMissions.length} onOpen={(mission) => void openMission(mission)} />
 							<MissionContentTocOverlay opened={missionContentTocOpen} missionName={selectedMission.name} headings={missionHeadings} onClose={() => setMissionContentTocOpen(false)} onOpen={openMissionHeading} />
-							<SideOverlay opened={missionTocOpen} title="任务目录" count={filteredMissions.length} className="mission-toc" onClose={() => setMissionTocOpen(false)}><MissionBrowser {...missionBrowserProps} onOpen={(mission) => { setMissionTocOpen(false); void openMission(mission); }} /></SideOverlay>
-						</> : <div className="empty-state"><span>←</span><h2>选择一个任务</h2><p>任务资料保持只读；选择所需内容后，可加入右侧剧本并独立编辑。</p></div>}
+						</> : <div className="mission-library">
+							<header className="library-header"><h2>任务资料库</h2><Badge color="blue" size="lg">{filteredMissions.length} 个任务</Badge></header>
+							<MissionBrowser {...missionBrowserProps} onOpen={(mission) => void openMission(mission)} />
+						</div>}
 					</div>
 				</section>
 				<section className="script-pane">

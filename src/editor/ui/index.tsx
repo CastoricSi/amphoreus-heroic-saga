@@ -1,5 +1,5 @@
 import { useEffect, useId, useLayoutEffect, useRef, useState, type ComponentPropsWithRef, type CSSProperties, type HTMLAttributes, type InputHTMLAttributes, type KeyboardEvent, type ReactElement, type ReactNode, type TextareaHTMLAttributes } from "react";
-import { IconChevronDown, IconX } from "./icons";
+import { IconCheck, IconChevronDown, IconX } from "./icons";
 import "./ui.css";
 
 export type UiColor = "default" | "blue" | "gray" | "orange" | "teal" | "red";
@@ -47,13 +47,60 @@ export function Textarea({ className = "", ...props }: TextareaHTMLAttributes<HT
 
 interface SelectProps { className?: string; value: string; data: Array<{ value: string; label: string }>; onChange: (value: string) => void; leftSection?: ReactNode; "aria-label"?: string }
 
+/** Dropdown whose option list uses the same popover menu styling as the editor's other menus. */
 export function Select({ className = "", value, data, onChange, leftSection, ...props }: SelectProps) {
+	const listId = useId();
+	const trigger = useRef<HTMLButtonElement>(null);
+	const list = useRef<HTMLDivElement>(null);
+	const [open, setOpen] = useState(false);
+	const selected = data.find((item) => item.value === value);
+
+	useEffect(() => {
+		const element = list.current;
+		if (!element) return;
+		const position = (event: Event) => {
+			if ((event as ToggleEvent).newState !== "open" || !trigger.current) return;
+			const rect = trigger.current.getBoundingClientRect();
+			element.style.top = `${rect.bottom + 4}px`;
+			element.style.left = `${rect.left}px`;
+			element.style.minWidth = `${rect.width}px`;
+			element.style.maxHeight = `${Math.max(160, Math.min(320, window.innerHeight - rect.bottom - 12))}px`;
+		};
+		const sync = (event: Event) => {
+			const opened = (event as ToggleEvent).newState === "open";
+			setOpen(opened);
+			if (opened) element.querySelector<HTMLElement>('[aria-selected="true"]')?.focus({ preventScroll: false });
+		};
+		element.addEventListener("beforetoggle", position);
+		element.addEventListener("toggle", sync);
+		return () => { element.removeEventListener("beforetoggle", position); element.removeEventListener("toggle", sync); };
+	}, []);
+
+	const choose = (next: string) => {
+		list.current?.hidePopover();
+		trigger.current?.focus();
+		if (next !== value) onChange(next);
+	};
+	const moveFocus = (event: KeyboardEvent<HTMLDivElement>) => {
+		const options = [...(list.current?.querySelectorAll<HTMLElement>('[role="option"]') ?? [])];
+		const index = options.indexOf(window.document.activeElement as HTMLElement);
+		const next = event.key === "ArrowDown" ? index + 1 : event.key === "ArrowUp" ? index - 1 : event.key === "Home" ? 0 : event.key === "End" ? options.length - 1 : null;
+		if (next === null) return;
+		event.preventDefault();
+		options[Math.max(0, Math.min(options.length - 1, next))]?.focus();
+	};
+
 	return <div className={`ui-select ${leftSection ? "has-leading" : ""} ${className}`}>
 		{leftSection ? <span className="ui-input-leading">{leftSection}</span> : null}
-		<select className="ui-field" value={value} aria-label={props["aria-label"]} onChange={(event) => onChange(event.target.value)}>
-			{data.map((item) => <option key={item.value || "__all__"} value={item.value}>{item.label}</option>)}
-		</select>
+		<button ref={trigger} type="button" className="ui-field ui-select-trigger" popoverTarget={listId} aria-haspopup="listbox" aria-expanded={open} aria-label={props["aria-label"]} onKeyDown={(event) => { if (event.key === "ArrowDown" || event.key === "ArrowUp") { event.preventDefault(); list.current?.showPopover(); } }}>
+			<span>{selected?.label ?? ""}</span>
+		</button>
 		<IconChevronDown className="ui-select-chevron" size={13} />
+		<div ref={list} id={listId} popover="auto" role="listbox" aria-label={props["aria-label"]} className="ui-menu ui-select-menu" onKeyDown={moveFocus}>
+			{data.map((item) => <button key={item.value || "__all__"} type="button" role="option" aria-selected={item.value === value} className="ui-menu-item" onClick={() => choose(item.value)}>
+				<span>{item.label}</span>{item.value === value ? <IconCheck className="ui-select-check" size={13} /> : null}
+			</button>)}
+		</div>
 	</div>;
 }
 

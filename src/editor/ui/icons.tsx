@@ -13,6 +13,7 @@ export const IconArrowBackUp = createIcon(["M9 14l-4 -4l4 -4", "M5 10h11a4 4 0 1
 export const IconArrowForwardUp = createIcon(["M15 14l4 -4l-4 -4", "M19 10h-11a4 4 0 1 0 0 8h1"]);
 export const IconArrowLeft = createIcon(["M5 12l14 0", "M5 12l6 6", "M5 12l6 -6"]);
 export const IconBooks = createIcon(["M5 5a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -14", "M9 5a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -14", "M5 8h4", "M9 16h4", "M13.803 4.56l2.184 -.53c.562 -.135 1.133 .19 1.282 .732l3.695 13.418a1.02 1.02 0 0 1 -.634 1.219l-.133 .041l-2.184 .53c-.562 .135 -1.133 -.19 -1.282 -.732l-3.695 -13.418a1.02 1.02 0 0 1 .634 -1.219l.133 -.041", "M14 9l4 -1", "M16 16l3.923 -.98"]);
+export const IconCheck = createIcon(["M5 12l5 5l10 -10"]);
 export const IconChevronDown = createIcon(["M6 9l6 6l6 -6"]);
 export const IconChevronLeft = createIcon(["M15 6l-6 6l6 6"]);
 export const IconChevronRight = createIcon(["M9 6l6 6l-6 6"]);
