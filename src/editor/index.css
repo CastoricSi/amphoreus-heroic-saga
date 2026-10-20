@@ -10,7 +10,7 @@
 
 	/* Dark theme tokens. Every stylesheet reads colors from here; the accent is the violet of the background art. */
 	--app-bg: #0e0e13;
-	--pane: rgb(20 20 28 / .4);
+	--pane: rgb(20 20 28 / .6);
 	--surface: #1c1c26;
 	--surface-card: #21212c;
 	--surface-subtle: rgb(255 255 255 / .025);
@@ -34,13 +34,12 @@
 	--warning: #f2c36b;
 	--success: #6fd3a0;
 	/*
-	 * Glass panels (the app panel and the two editor panes), lit from the top left:
-	 * an edge that is brightest at the top-left corner and picks up a violet reflection at the bottom right,
-	 * a faint sheen across the top, and a dark outline + soft drop shadow + violet ambient glow outside.
+	 * Glass panels (the app panel and the two editor panes): an even light rim, a faint sheen across the top,
+	 * and outside it a thin dark outline, a soft drop shadow and a gentle white glow.
 	 */
-	--pane-edge: linear-gradient(155deg, rgb(255 255 255 / .42) 0%, rgb(255 255 255 / .12) 18%, rgb(255 255 255 / .05) 45%, rgb(169 155 255 / .14) 80%, rgb(200 190 255 / .3) 100%);
-	--pane-sheen: linear-gradient(180deg, rgb(255 255 255 / .07), rgb(255 255 255 / .015) 90px, transparent 160px);
-	--pane-shadow: 0 0 0 1px rgb(0 0 0 / .45), 0 24px 60px -18px rgb(0 0 0 / .7), 0 0 44px -10px rgb(169 155 255 / .22);
+	--pane-border: rgb(255 255 255 / .13);
+	--pane-sheen: linear-gradient(180deg, rgb(255 255 255 / .05), transparent 140px);
+	--pane-shadow: 0 0 0 1px rgb(0 0 0 / .4), 0 18px 44px -16px rgb(0 0 0 / .65), 0 0 26px rgb(255 255 255 / .06);
 	/* Editor-wide corner radius. Change this single value to retheme every non-circular surface. */
 	--radius: 8px;
 }

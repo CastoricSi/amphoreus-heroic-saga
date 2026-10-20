@@ -2,82 +2,58 @@
 
 .app-shell {
 	/*
-	 * Left column: the app panel (title, save state, focus mode, settings) above the figure from the artwork.
-	 * It always shows; it grows into whatever width the editor does not need (about 1100px), up to 340px.
+	 * One background for the whole window, scaled to the window height. The figure in the artwork spans
+	 * x 245–820 of the 2500×1080 image; the image is shifted so that band starts 12px from the left edge.
+	 * The left column (app panel above the figure) is as wide as the figure, as long as the editor keeps
+	 * about 1100px; on narrower windows the right part of the figure goes behind the source pane.
 	 */
-	--stage-width: clamp(220px, calc(100vw - 1100px), 340px);
+	--art-scale: calc(100vh / 1080);
+	--stage-width: clamp(220px, min(calc(100vw - 1100px), calc(575 * var(--art-scale) + 24px)), 600px);
 	display: grid;
 	height: 100vh;
 	grid-template-columns: var(--stage-width) minmax(0, 1fr);
 	grid-template-rows: auto minmax(0, 1fr);
 	color: var(--text);
-	background: var(--app-bg);
-}
-/* Behind the panes: the stage side of the artwork, laid out in the editor column only so the figure is not repeated. */
-.app-shell::before {
-	grid-column: 2;
-	grid-row: 1 / -1;
-	background: url("./assets/editor-background.jpg") right center / cover no-repeat;
-	-webkit-mask-image: linear-gradient(to right, transparent, #000 120px);
-	mask-image: linear-gradient(to right, transparent, #000 120px);
-	content: "";
+	background: var(--app-bg) url("./assets/editor-background.jpg") calc(12px - 245 * var(--art-scale)) top / auto 100% no-repeat;
 }
 .error-banner { grid-column: 2; grid-row: 1; }
 .workspace { grid-column: 2; grid-row: 2; }
 
-/*
- * The figure occupies x 250–810 of the 2500×1080 artwork. Scale the image so that 560px band fills the column
- * width, shift it left by 250 artwork pixels, and stand it on the bottom edge; fade the top and right edge.
- */
 .app-sidebar {
-	--figure-scale: calc(var(--stage-width) / 560);
 	position: relative;
 	grid-column: 1;
 	grid-row: 1 / -1;
 	min-height: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
 	padding: 12px;
-	overflow: hidden;
 }
-.app-sidebar::before {
-	position: absolute;
-	inset: 0;
-	background: url("./assets/editor-background.jpg") no-repeat;
-	background-position: calc(var(--figure-scale) * -250) bottom;
-	background-size: calc(var(--figure-scale) * 2500) auto;
-	-webkit-mask-image: linear-gradient(to right, #000 78%, transparent), linear-gradient(to bottom, transparent, #000 22%);
-	-webkit-mask-composite: source-in;
-	mask-image: linear-gradient(to right, #000 78%, transparent), linear-gradient(to bottom, transparent, #000 22%);
-	mask-composite: intersect;
-	pointer-events: none;
-	content: "";
-}
+/* A single compact row (wrapping on narrow columns) so the panel stays above the top of the figure's halo. */
 .app-panel {
 	position: relative;
 	z-index: 1;
-	display: grid;
-	gap: 12px;
-	padding: 14px;
-}
-.brand h1 { color: var(--text-strong); font-size: 18px; font-weight: 720; letter-spacing: -.01em; }
-.brand p { margin-top: 2px; color: var(--text-muted); font-size: 10px; }
-.app-panel-actions { display: flex; align-items: center; gap: 6px; }
-.app-panel-actions > .ui-button { flex: 1; }
-
-.save-indicator {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
-	gap: 7px;
-	padding: 5px 9px;
-	border: 1px solid var(--border);
-	border-radius: var(--radius);
-	color: var(--text-muted);
-	background: rgb(255 255 255 / .05);
-	font-size: 10px;
+	gap: 8px 10px;
+	padding: 10px 12px;
 }
-.save-indicator > span { width: 6px; height: 6px; border-radius: 50%; background: var(--text-faint); }
-.save-indicator.saved > span { background: var(--success); box-shadow: 0 0 0 3px rgb(111 211 160 / .15); }
-.save-indicator.saving > span { background: var(--warning); animation: save-pulse 1s infinite; }
-.save-indicator.error > span { background: var(--danger); }
+.app-icon { width: 40px; height: 40px; flex: 0 0 40px; object-fit: contain; filter: drop-shadow(0 2px 6px rgb(0 0 0 / .45)); }
+.brand { min-width: 0; flex: 1 1 110px; }
+.brand h1 { overflow: hidden; color: var(--text-strong); font-size: 16px; font-weight: 720; letter-spacing: -.01em; text-overflow: ellipsis; white-space: nowrap; }
+.brand p { margin-top: 1px; overflow: hidden; color: var(--text-muted); font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
+.app-panel-actions { display: flex; flex: 0 0 auto; align-items: center; gap: 6px; }
+
+/* Save state as a single round icon; the tooltip carries the wording. */
+.save-status { display: grid; width: 26px; height: 26px; flex: 0 0 26px; place-items: center; border-radius: 50%; color: var(--text-faint); background: rgb(255 255 255 / .05); transition: color var(--ui-motion-standard), background-color var(--ui-motion-standard); }
+.save-status svg { width: 14px; height: 14px; }
+.save-status-dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.save-status[data-state="saved"] { color: var(--success); background: rgb(111 211 160 / .12); }
+.save-status[data-state="pending"] { color: var(--warning); background: rgb(242 195 107 / .1); }
+.save-status[data-state="saving"] { color: var(--warning); background: rgb(242 195 107 / .14); }
+.save-status[data-state="saving"] .save-status-dot { animation: save-pulse 1s infinite; }
+.save-status[data-state="error"] { color: var(--danger); background: var(--danger-soft); }
 @keyframes save-pulse { 50% { opacity: .3; } }
 
 .error-banner {
@@ -111,32 +87,21 @@
 	overflow: hidden;
 }
 
-/* Glass panels (lighting tokens: --pane-* in index.css). Each is the single translucent layer over the artwork. */
-.app-panel, .source-pane, .script-pane {
+/* Glass panels (tokens: --pane-* in index.css), including the settings panel. Each is the single translucent layer over the artwork. */
+.app-panel, .source-pane, .script-pane, .settings-panel {
+	border: 1px solid var(--pane-border);
 	border-radius: var(--radius);
 	background: var(--pane-sheen), var(--pane);
 	box-shadow: var(--pane-shadow);
 	backdrop-filter: blur(10px) saturate(1.2);
 }
-/* The lit edge: a 1px gradient ring drawn above the content, so headers and toolbars never cover it. */
-:is(.app-panel, .source-pane, .script-pane)::after {
-	position: absolute;
-	z-index: 5;
-	inset: 0;
-	padding: 1px;
-	border-radius: inherit;
-	background: var(--pane-edge);
-	-webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-	-webkit-mask-composite: xor;
-	mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
-	pointer-events: none;
-	content: "";
-}
 
 /* Mission library: shown in the source pane while no mission is open. */
 .mission-library { min-height: 0; height: 100%; display: flex; flex-direction: column; }
 .mission-browser { min-height: 0; display: flex; flex: 1; flex-direction: column; padding: 10px 12px 0; }
-.mission-browser-filters { display: grid; grid-template-columns: minmax(0, 1fr) 150px 170px; gap: 6px; margin-bottom: 10px; }
+.mission-browser-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.mission-browser-filters > * { flex: 1 1 140px; }
+.mission-browser-filters > :first-child { flex: 2 1 220px; }
 .mission-list { min-height: 0; flex: 1; overflow: auto; margin-right: -8px; padding: 0 8px 16px 0; }
 .mission-series { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 1px 6px; }
 .mission-series > h4 { grid-column: 1 / -1; }
@@ -371,7 +336,7 @@
 	white-space: nowrap;
 }
 .script-status-bar strong { flex: 0 0 auto; color: var(--accent); font-size: 10px; }
-.script-status-source { min-width: 0; flex: 1; overflow-x: auto; padding-bottom: 1px; scrollbar-width: thin; }
+.script-status-source { min-width: 0; flex: 1; overflow: hidden; color: var(--text); font-variant-numeric: tabular-nums; text-align: center; text-overflow: ellipsis; white-space: nowrap; }
 .script-status-source-button { flex: 0 0 auto; }
 
 .image-picker { display: grid; gap: 8px; }
@@ -424,22 +389,42 @@
 .empty-script p { max-width: 300px; margin: 0; font-size: 11px; line-height: 1.7; }
 .empty-script { min-height: 300px; }
 
-/* Focus mode: the source pane narrows so the screenplay gets most of the width. */
-.app-shell.is-editor-focus .workspace { grid-template-columns: minmax(360px, 33%) minmax(640px, 67%); }
 
-.settings-dialog { display: grid; gap: 14px; }
-.settings-section > h3, .script-output > header > h3 { color: var(--text); font-size: 12px; font-weight: 650; }
-.script-list { display: grid; gap: 6px; margin-top: 8px; list-style: none; }
-.script-list > li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 9px 11px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface-raised); }
+
+/* Settings: opened by the toggle in the app panel, fills the rest of the sidebar over the figure. */
+.settings-panel { position: relative; z-index: 1; min-height: 0; display: flex; flex: 1; flex-direction: column; overflow: hidden; animation: settings-in 180ms var(--ui-ease-standard); }
+@keyframes settings-in { from { opacity: 0; transform: translateY(-6px); } }
+.settings-panel-body { min-height: 0; display: grid; flex: 1; align-content: start; gap: 18px; overflow: auto; padding: 14px 12px; }
+
+/* Dashboard: one card style for the stats, the category breakdown, the data scripts and their output. */
+.dash-section { display: grid; gap: 8px; }
+.dash-section > h3 { padding: 0 2px; color: var(--text-muted); font-size: 11px; font-weight: 650; letter-spacing: .04em; }
+.dash-card { min-width: 0; padding: 11px 12px; border: 1px solid var(--border); border-radius: var(--radius); background: rgb(255 255 255 / .04); }
+/* Two columns at most (a 2×2 block), one column when the sidebar is too narrow for two 130px cards. */
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(max(130px, calc((100% - 8px) / 2)), 1fr)); gap: 8px; }
+.stat-card { display: grid; gap: 2px; }
+.stat-label { color: var(--text-muted); font-size: 11px; }
+.stat-value { color: var(--text-strong); font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -.01em; line-height: 1.2; }
+.stat-detail { overflow: hidden; color: var(--text-muted); font-size: 10.5px; text-overflow: ellipsis; white-space: nowrap; }
+.category-card { display: grid; gap: 6px; }
+.category-card ul { display: grid; gap: 4px; list-style: none; }
+.category-card li { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 3px 0; border-top: 1px solid var(--border); font-size: 12px; }
+.category-card li:first-child { border-top: 0; }
+.category-card li > strong { color: var(--text-strong); font-weight: 650; font-variant-numeric: tabular-nums; }
+.script-list { display: grid; gap: 8px; list-style: none; }
+.script-list > li { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 12px; }
+.script-list > li > div { min-width: 0; flex: 1 1 180px; }
 .script-list strong { color: var(--text-strong); font-size: 12px; font-weight: 650; }
 .script-list p { margin-top: 2px; color: var(--text-muted); font-size: 10.5px; line-height: 1.5; }
-.script-output > header { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.script-output { display: grid; gap: 8px; }
+.script-output > header { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.script-output > header > strong { color: var(--text-strong); font-size: 12px; font-weight: 650; }
 .script-output > header > .ui-button { margin-left: auto; }
 .script-output-status { padding: 1px 7px; border-radius: 999px; font-size: 10px; }
 .script-output-status.is-running { color: var(--warning); background: rgb(242 195 107 / .12); }
 .script-output-status.is-success { color: var(--success); background: rgb(111 211 160 / .12); }
 .script-output-status.is-error { color: var(--danger); background: var(--danger-soft); }
-.script-output > pre { height: min(46vh, 420px); overflow: auto; padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--radius); color: #d7dde5; background: #0b0b10; font-family: Consolas, "Cascadia Mono", "Microsoft YaHei", monospace; font-size: 11px; line-height: 1.55; white-space: pre-wrap; overflow-wrap: anywhere; }
+.script-output > pre { height: min(36vh, 320px); overflow: auto; padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--radius); color: #d7dde5; background: #0b0b10; font-family: Consolas, "Cascadia Mono", "Microsoft YaHei", monospace; font-size: 11px; line-height: 1.55; white-space: pre-wrap; overflow-wrap: anywhere; }
 
 .delete-notice { min-height: 32px; display: flex; flex: 0 0 auto; align-items: center; gap: 6px; padding: 3px 8px 3px 13px; border-bottom: 1px solid rgb(255 138 128 / .25); color: #ffb0a8; background: rgb(255 138 128 / .1); font-size: 11px; animation: delete-notice-in 160ms ease-out; }
 .delete-notice > span { margin-right: auto; }

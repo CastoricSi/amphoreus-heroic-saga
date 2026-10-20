@@ -9,6 +9,7 @@ function createIcon(paths: string[]) {
 	};
 }
 
+export const IconAlertCircle = createIcon(["M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0", "M12 8v4", "M12 16h.01"]);
 export const IconArrowBackUp = createIcon(["M9 14l-4 -4l4 -4", "M5 10h11a4 4 0 1 1 0 8h-1"]);
 export const IconArrowForwardUp = createIcon(["M15 14l4 -4l-4 -4", "M19 10h-11a4 4 0 1 0 0 8h1"]);
 export const IconArrowLeft = createIcon(["M5 12l14 0", "M5 12l6 6", "M5 12l6 -6"]);

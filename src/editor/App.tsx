@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Badge, Button, ContextMenu, IconButton, MenuButton, Tooltip, type MenuEntry, type MenuItem } from "./ui";
-import { IconArrowBackUp, IconArrowForwardUp, IconArrowLeft, IconListTree, IconSettings, IconX } from "./ui/icons";
+import { IconAlertCircle, IconArrowBackUp, IconArrowForwardUp, IconArrowLeft, IconCheck, IconListTree, IconSettings, IconX } from "./ui/icons";
 import { newNodeTemplates, nodeLabel, nodeLabels } from "./content/node-config";
 import { SourceContentCard } from "./content/ReadOnlyContent";
 import { ScriptBlockView } from "./content/ScriptBlockView";
@@ -16,7 +16,8 @@ import { MissionPager } from "./components/MissionPager";
 import { MissionBrowser, type MissionBrowserProps } from "./components/MissionBrowser";
 import { ScreenplayLibrary } from "./components/ScreenplayLibrary";
 import { ScreenplayMetaPanel } from "./components/ScreenplayMetaPanel";
-import { SettingsDialog } from "./components/SettingsDialog";
+import { SettingsPanel } from "./components/SettingsPanel";
+import appIcon from "./assets/app-icon.webp";
 import { useScriptRunner } from "./components/useScriptRunner";
 import "./content/content.css";
 import "./App.css";
@@ -48,7 +49,26 @@ function collectMissionHeadings(content: JsonNode[]) {
 		: []);
 }
 
+/**
+ * "{mission} b12.o2.1": the block's position in its mission (1-based), then one segment per level below it —
+ * a content child as its number, a choice option as o{n}, a tab as t{n} — followed by the selected node's
+ * position inside the screenplay block.
+ */
 function scriptBlockSourceLabel(block: ScriptBlock, nodePath: number[]) {
+	if (!block.source) return "自定义内容";
+	const segments = [`b${block.source.contentIndex + 1}`];
+	const path = block.source.contentPath ?? [];
+	for (let index = 0; index < path.length; index += 1) {
+		const key = path[index];
+		const position = typeof path[index + 1] === "number" ? Number(path[index + 1]) + 1 : null;
+		if (typeof key === "string" && position !== null) { segments.push(key === "options" ? `o${position}` : key === "tabs" ? `t${position}` : String(position)); index += 1; }
+	}
+	segments.push(...nodePath.map((position) => String(position + 1)));
+	return `${block.source.mission} ${segments.join(".")}`;
+}
+
+// Full origin, kept for the status bar tooltip.
+function scriptBlockSourceDetail(block: ScriptBlock, nodePath: number[]) {
 	if (!block.source) return "自定义内容";
 	const originalPath = block.source.contentPath?.length ? `.${block.source.contentPath.join(".")}` : "";
 	const currentPath = nodePath.length ? ` · 当前层级：${nodePath.join(".")}` : "";
@@ -119,7 +139,6 @@ function App() {
 	const [searchMode, setSearchMode] = useState<SearchMode | null>(null);
 	const [searchMatches, setSearchMatches] = useState<ScriptTextMatch[]>([]);
 	const [searchMatchIndex, setSearchMatchIndex] = useState(0);
-	const [editorFocusMode, setEditorFocusMode] = useState(false);
 	const [lastMissionFile, setLastMissionFile] = useState<string>();
 	const [missionContentTocOpen, setMissionContentTocOpen] = useState(false);
 	const [titleNavigatorOpen, setTitleNavigatorOpen] = useState(true);
@@ -270,6 +289,11 @@ function App() {
 	useEffect(() => {
 		function keyDown(event: KeyboardEvent) {
 			if ((event.target as HTMLElement | null)?.closest("dialog[open]") || window.document.querySelector(".ui-menu:popover-open")) return;
+			if (event.key === "Escape" && settingsOpen) {
+				event.preventDefault();
+				setSettingsOpen(false);
+				return;
+			}
 			if (event.key === "Escape" && missionContentTocOpen) {
 				event.preventDefault();
 				setMissionContentTocOpen(false);
@@ -327,7 +351,7 @@ function App() {
 		}
 		window.addEventListener("keydown", keyDown); window.addEventListener("keyup", keyUp);
 		return () => { window.removeEventListener("keydown", keyDown); window.removeEventListener("keyup", keyUp); };
-	}, [missionContentTocOpen, multiSelectMode, saveCurrentDocument, selectedBlockId, selectedNodePath]);
+	}, [missionContentTocOpen, settingsOpen, multiSelectMode, saveCurrentDocument, selectedBlockId, selectedNodePath]);
 
 	async function refreshScreenplays() { setScreenplays(await requestJson<ScreenplaySummary[]>("/editor-api/screenplays")); }
 	function syncHistorySize() { setHistorySize({ undo: undoStack.current.length, redo: redoStack.current.length }); }
@@ -381,10 +405,6 @@ function App() {
 		if (!dialogueCursor || !sameScriptAddress(dialogueCursor.address, address)) setDialogueCursor({ address, offset });
 	}
 	function exitMultiSelect() { setMultiSelectMode(false); setMultiSelected([]); multiSelectionChanged.current = false; scriptSelectionAnchor.current = null; }
-	function toggleEditorFocusMode() {
-		if (!editorFocusMode) setTitleNavigatorOpen(true);
-		setEditorFocusMode(!editorFocusMode);
-	}
 	function navigateToScriptTitle(entry: ScriptTitleEntry) {
 		const block = document?.blocks.find((candidate) => candidate.id === entry.blockId);
 		if (!block) return;
@@ -721,6 +741,9 @@ function App() {
 	];
 	const closeContextMenu = useCallback(() => setContextMenu(null), []);
 
+	const saveStatus = !activeFile ? "idle" : saveState === "saving" ? "saving" : saveState === "error" ? "error" : dirty ? "pending" : "saved";
+	const saveStatusLabel = { idle: "未打开剧本", saving: "正在保存…", error: "保存失败", pending: "等待自动保存", saved: "已保存到本地" }[saveStatus];
+
 	const missionBrowserProps: Omit<MissionBrowserProps, "onOpen"> = {
 		groups: missionGroups,
 		selectedFile: lastMissionFile,
@@ -735,17 +758,20 @@ function App() {
 	};
 
 	return (
-		<div className={`app-shell ${editorFocusMode ? "is-editor-focus" : ""}`}>
+		<div className="app-shell">
 			<ImportDialog opened={importOpened} mode={importMode} text={importText} loading={importLoading} onClose={() => setImportOpened(false)} onModeChange={setImportMode} onTextChange={setImportText} onImportPlain={importScriptLines} onImportSrt={importSrt} onImportSource={() => void importWikitext()} />
 			<ContextMenu position={contextMenu} items={scriptContextItems} onClose={closeContextMenu} />
-			<SettingsDialog opened={settingsOpen} runner={scriptRunner} onClose={() => setSettingsOpen(false)} />
 			<ImagePickerDialog mode={imagePickerMode} search={imageSearch} assets={filteredImageAssets} total={imageAssets.length} loading={imageLoading} onClose={() => setImagePickerMode(null)} onSearchChange={setImageSearch} onChoose={chooseImage} />
 			<aside className="app-sidebar">
 				<div className="app-panel">
+					<img className="app-icon" src={appIcon} alt="" />
 					<div className="brand"><h1>剧本编辑器</h1><p>星穹铁道任务素材 · 剧本编排工作台</p></div>
-					<div className={`save-indicator ${saveState}`} title="每 10 秒自动保存；按 Ctrl+S 可立即保存"><span />{!activeFile ? "未打开剧本" : saveState === "saving" ? "正在保存…" : saveState === "error" ? "保存失败" : dirty ? "等待自动保存" : "已保存到本地"}</div>
-					<div className="app-panel-actions"><Button variant={editorFocusMode ? "filled" : "light"} size="sm" onClick={toggleEditorFocusMode}>{editorFocusMode ? "退出专注模式" : "专注模式"}</Button><Tooltip label="设置"><IconButton aria-label="打开设置" size="md" aria-pressed={settingsOpen} onClick={() => setSettingsOpen(true)}><IconSettings /></IconButton></Tooltip></div>
+					<div className="app-panel-actions">
+						<Tooltip label={`${saveStatusLabel} · 每 10 秒自动保存，Ctrl+S 立即保存`}><span className="save-status" data-state={saveStatus} role="status" aria-label={saveStatusLabel}>{saveStatus === "saved" ? <IconCheck /> : saveStatus === "error" ? <IconAlertCircle /> : <span className="save-status-dot" />}</span></Tooltip>
+						<Tooltip label={settingsOpen ? "收起设置" : "设置"}><IconButton aria-label="设置" size="md" variant={settingsOpen ? "light" : "subtle"} color={settingsOpen ? "blue" : "gray"} aria-pressed={settingsOpen} onClick={() => setSettingsOpen((current) => !current)}><IconSettings /></IconButton></Tooltip>
+					</div>
 				</div>
+				{settingsOpen ? <SettingsPanel runner={scriptRunner} /> : null}
 			</aside>
 			{error ? <div className="error-banner"><span>{error}</span><Button variant="subtle" color="red" size="xs" onClick={() => setError("")}>关闭</Button></div> : null}
 			<main className="workspace">
@@ -796,7 +822,7 @@ function App() {
 						{deleteNotice ? <div className="delete-notice" role="status"><span>已删除 {deleteNotice} 个内容块</span><Button variant="subtle" color="red" size="xs" onClick={undo}>撤销</Button><IconButton aria-label="关闭提示" color="red" size="xs" onClick={() => setDeleteNotice(null)}><IconX /></IconButton></div> : null}
 							{searchMode ? <div className="script-search-bar"><strong>{searchMode === "gender" ? "性别指代检查" : "主角称谓查找"}</strong><span className="script-search-term">{activeSearchMatch ? `“${activeSearchMatch.term}”` : "没有找到匹配内容"}</span><span className="script-search-count">{searchMatches.length ? `${normalizedSearchIndex + 1} / ${searchMatches.length}` : "0 / 0"}</span><Button variant="subtle" size="xs" onClick={() => navigateScriptSearch(-1)}>上一个</Button><Button variant="subtle" size="xs" onClick={() => navigateScriptSearch(1)}>下一个</Button>{searchMode === "gender" ? <Button size="xs" disabled={!activeSearchMatch?.replacement} onClick={replaceCurrentGenderMatch}>替换为“{activeSearchMatch?.replacement ?? "—"}”</Button> : null}<Button variant="subtle" color="gray" size="xs" onClick={() => { setSearchMode(null); setSearchMatches([]); setSearchMatchIndex(0); }}>关闭</Button></div> : null}
 						<div className="script-blocks">{document.blocks.length ? document.blocks.map((block) => <ScriptBlockView key={block.id} block={block} selectedAddresses={activeScriptSelection} editableAddress={editableAddress} activeMatch={activeSearchMatch} onSelect={handleScriptSelect} onChange={(path, node) => updateBlockNode(block.id, path, node, `edit:${block.id}:${path.join(".")}`)} onDrop={moveScriptNode} onDialogueCursor={recordDialogueCursor} onContextMenu={openBlockContextMenu} />) : <div className="empty-script"><span>＋</span><h3>这个剧本还是空的</h3><p>从左侧加入任务内容，或通过上方工具栏插入内容。</p></div>}</div>
-						<footer className="script-status-bar">{multiSelectMode ? <><strong>多选模式</strong><span>已选择 {multiSelected.length} 个同级内容块</span></> : selectedBlock && selectedNode ? <><strong>类型：{nodeLabel(selectedNode)}</strong><span className="script-status-source">来源：{scriptBlockSourceLabel(selectedBlock, selectedNodePath)}</span><Button className="script-status-source-button" variant="subtle" size="xs" disabled={!selectedSourceMission} onClick={() => void openSelectedBlockSource()}>转到来源任务</Button></> : <span>未选择内容</span>}</footer>
+						<footer className="script-status-bar">{multiSelectMode ? <><strong>多选模式</strong><span>已选择 {multiSelected.length} 个同级内容块</span></> : selectedBlock && selectedNode ? <><strong>类型：{nodeLabel(selectedNode)}</strong><span className="script-status-source" title={scriptBlockSourceDetail(selectedBlock, selectedNodePath)}>{scriptBlockSourceLabel(selectedBlock, selectedNodePath)}</span><Button className="script-status-source-button" variant="subtle" size="xs" disabled={!selectedSourceMission} onClick={() => void openSelectedBlockSource()}>转到来源任务</Button></> : <span>未选择内容</span>}</footer>
 							</div>
 						</div>
 					</div> : <ScreenplayLibrary screenplays={screenplays} draggedName={draggedScreenplay} onCreate={() => void createScreenplay()} onOpen={(name) => void openScreenplay(name)} onDragStart={setDraggedScreenplay} onDragEnd={() => setDraggedScreenplay(null)} onReorder={(from, to) => void reorderScreenplayList(from, to)} />}

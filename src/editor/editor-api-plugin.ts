@@ -143,6 +143,46 @@ async function listScreenplays() {
 	return items.sort((a, b) => a.id.localeCompare(b.id) || a.name.localeCompare(b.name));
 }
 
+async function readJsonOrNull(filePath: string) {
+	try { return JSON.parse(await fs.readFile(filePath, "utf8")) as JsonRecord; }
+	catch (error) { if ((error as NodeJS.ErrnoException).code === "ENOENT") return null; throw error; }
+}
+
+/** Numbers for the overview panel: missions (by category), series, locations, screenplays, images, last index fetch. */
+async function collectStats() {
+	const [index, indexReport, screenplays, images] = await Promise.all([
+		readJsonOrNull(path.join(dataRoot, "missions.json")),
+		readJsonOrNull(path.join(dataRoot, "mission-index-report.json")),
+		listScreenplays(),
+		listImageAssets(),
+	]);
+	const categories: Array<{ name: string; missions: number }> = [];
+	const locations = new Set<string>();
+	let series = 0;
+	for (const [category, byLocation] of Object.entries(index ?? {})) {
+		let missions = 0;
+		for (const [location, seriesList] of Object.entries(byLocation as Record<string, JsonRecord[]>)) {
+			locations.add(location);
+			for (const entry of seriesList) {
+				series += 1;
+				const children = Array.isArray(entry.children) && entry.children.length ? entry.children as JsonRecord[] : [entry];
+				missions += children.filter((child) => typeof child.dataFile === "string").length;
+			}
+		}
+		categories.push({ name: category, missions });
+	}
+	return {
+		missions: categories.reduce((sum, category) => sum + category.missions, 0),
+		categories,
+		series,
+		locations: locations.size,
+		screenplays: screenplays.length,
+		screenplayCharacters: screenplays.reduce((sum, item) => sum + item.characterCount, 0),
+		images: images.length,
+		indexFetchedAt: typeof indexReport?.fetchedAt === "string" ? indexReport.fetchedAt : null,
+	};
+}
+
 async function listImageAssets() {
 	const manifest = JSON.parse(await fs.readFile(imageManifestPath, "utf8")) as JsonRecord;
 	const files = manifest.files && typeof manifest.files === "object" ? manifest.files as Record<string, JsonRecord> : {};
@@ -245,6 +285,11 @@ async function handleRequest(request: IncomingMessage, response: ServerResponse)
 
 	if (request.method === "GET" && pathname === "/editor-api/screenplays") {
 		sendJson(response, 200, await listScreenplays());
+		return;
+	}
+
+	if (request.method === "GET" && pathname === "/editor-api/stats") {
+		sendJson(response, 200, await collectStats());
 		return;
 	}
 
