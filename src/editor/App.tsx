@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Badge, Button, ContextMenu, IconButton, MenuButton, Tooltip, type MenuEntry, type MenuItem } from "./ui";
-import { IconAlertCircle, IconArrowBackUp, IconArrowForwardUp, IconArrowLeft, IconCheck, IconListTree, IconSettings, IconX } from "./ui/icons";
+import { Button, Dialog, IconButton, Menu, NavItem, Tag, Tooltip, useTheme, type ThemeChoice } from "sityle";
+import { ContextMenu, type MenuEntry, type MenuItem } from "./ui";
+import { IconAlertCircle, IconArrowBackUp, IconArrowForwardUp, IconArrowLeft, IconCheck, IconChevronDown, IconDeviceDesktop, IconListTree, IconMaximize, IconMinimize, IconMoon, IconSettings, IconSun, IconX } from "./ui/icons";
 import { newNodeTemplates, nodeLabel, nodeLabels } from "./content/node-config";
 import { SourceContentCard } from "./content/ReadOnlyContent";
 import { ScriptBlockView } from "./content/ScriptBlockView";
@@ -32,6 +33,14 @@ interface HistoryEntry {
 	selection: ScriptNodeAddress | null;
 }
 
+/** The two panes: the mission viewer (source material) and the screenplay editor. */
+type Pane = "viewer" | "editor";
+
+const themeChoices: Array<{ value: ThemeChoice; label: string; icon: typeof IconSun }> = [
+	{ value: "light", label: "宣纸（浅色）", icon: IconSun },
+	{ value: "dark", label: "浓墨（深色）", icon: IconMoon },
+	{ value: "system", label: "跟随系统", icon: IconDeviceDesktop },
+];
 
 function collectScriptTitles(blocks: ScriptBlock[]) {
 	const entries: ScriptTitleEntry[] = [];
@@ -143,6 +152,9 @@ function App() {
 	const [missionContentTocOpen, setMissionContentTocOpen] = useState(false);
 	const [titleNavigatorOpen, setTitleNavigatorOpen] = useState(true);
 	const [settingsOpen, setSettingsOpen] = useState(false);
+	// The pane stretched over the whole workspace (the other one is squeezed out), or null for side by side.
+	const [expandedPane, setExpandedPane] = useState<Pane | null>(null);
+	const theme = useTheme();
 	const [historySize, setHistorySize] = useState({ undo: 0, redo: 0 });
 	const [deleteNotice, setDeleteNotice] = useState<number | null>(null);
 	const [contextMenu, setContextMenu] = useState<{ x: number; y: number } | null>(null);
@@ -288,12 +300,8 @@ function App() {
 
 	useEffect(() => {
 		function keyDown(event: KeyboardEvent) {
-			if ((event.target as HTMLElement | null)?.closest("dialog[open]") || window.document.querySelector(".ui-menu:popover-open")) return;
-			if (event.key === "Escape" && settingsOpen) {
-				event.preventDefault();
-				setSettingsOpen(false);
-				return;
-			}
+			// sityle dialogs and menus handle their own keys (Escape closes them, not the selection).
+			if (window.document.querySelector('[role="dialog"][aria-modal="true"], .si-menu')) return;
 			if (event.key === "Escape" && missionContentTocOpen) {
 				event.preventDefault();
 				setMissionContentTocOpen(false);
@@ -351,7 +359,7 @@ function App() {
 		}
 		window.addEventListener("keydown", keyDown); window.addEventListener("keyup", keyUp);
 		return () => { window.removeEventListener("keydown", keyDown); window.removeEventListener("keyup", keyUp); };
-	}, [missionContentTocOpen, settingsOpen, multiSelectMode, saveCurrentDocument, selectedBlockId, selectedNodePath]);
+	}, [missionContentTocOpen, multiSelectMode, saveCurrentDocument, selectedBlockId, selectedNodePath]);
 
 	async function refreshScreenplays() { setScreenplays(await requestJson<ScreenplaySummary[]>("/editor-api/screenplays")); }
 	function syncHistorySize() { setHistorySize({ undo: undoStack.current.length, redo: redoStack.current.length }); }
@@ -757,72 +765,84 @@ function App() {
 		onLocationChange: setLocationFilter,
 	};
 
+	const ThemeIcon = themeChoices.find((choice) => choice.value === theme.choice)?.icon ?? IconDeviceDesktop;
+	const paneState = (pane: Pane) => expandedPane === null ? "split" : expandedPane === pane ? "expanded" : "collapsed";
+	const expandToggle = (pane: Pane) => {
+		const expanded = expandedPane === pane;
+		const label = expanded ? "恢复并排显示" : pane === "viewer" ? "展开任务查看器" : "展开剧本编辑器";
+		return <IconButton className="pane-expand-button" label={label} active={expanded} aria-expanded={expanded} onClick={() => setExpandedPane(expanded ? null : pane)}>{expanded ? <IconMinimize /> : <IconMaximize />}</IconButton>;
+	};
+
 	return (
 		<div className="app-shell">
 			<ImportDialog opened={importOpened} mode={importMode} text={importText} loading={importLoading} onClose={() => setImportOpened(false)} onModeChange={setImportMode} onTextChange={setImportText} onImportPlain={importScriptLines} onImportSrt={importSrt} onImportSource={() => void importWikitext()} />
 			<ContextMenu position={contextMenu} items={scriptContextItems} onClose={closeContextMenu} />
 			<ImagePickerDialog mode={imagePickerMode} search={imageSearch} assets={filteredImageAssets} total={imageAssets.length} loading={imageLoading} onClose={() => setImagePickerMode(null)} onSearchChange={setImageSearch} onChoose={chooseImage} />
-			<aside className="app-sidebar">
-				<div className="app-panel">
-					<img className="app-icon" src={appIcon} alt="" />
-					<div className="brand"><h1>剧本编辑器</h1><p>星穹铁道任务素材 · 剧本编排工作台</p></div>
-					<div className="app-panel-actions">
-						<Tooltip label={`${saveStatusLabel} · 每 10 秒自动保存，Ctrl+S 立即保存`}><span className="save-status" data-state={saveStatus} role="status" aria-label={saveStatusLabel}>{saveStatus === "saved" ? <IconCheck /> : saveStatus === "error" ? <IconAlertCircle /> : <span className="save-status-dot" />}</span></Tooltip>
-						<Tooltip label={settingsOpen ? "收起设置" : "设置"}><IconButton aria-label="设置" size="md" variant={settingsOpen ? "light" : "subtle"} color={settingsOpen ? "blue" : "gray"} aria-pressed={settingsOpen} onClick={() => setSettingsOpen((current) => !current)}><IconSettings /></IconButton></Tooltip>
-					</div>
-				</div>
-				{settingsOpen ? <SettingsPanel runner={scriptRunner} /> : null}
-			</aside>
-			{error ? <div className="error-banner"><span>{error}</span><Button variant="subtle" color="red" size="xs" onClick={() => setError("")}>关闭</Button></div> : null}
-			<main className="workspace">
-				<section className="source-pane">
+			<Dialog open={settingsOpen} onClose={() => setSettingsOpen(false)} title="设置" wide className="editor-dialog is-lg"><SettingsPanel runner={scriptRunner} /></Dialog>
+			{error ? <div className="error-banner" role="alert"><IconAlertCircle /><span>{error}</span><Button variant="light" tone="danger" size="sm" onClick={() => setError("")}>关闭</Button></div> : null}
+			<main className="workspace" data-expanded={expandedPane ?? undefined}>
+				<section className="source-pane" data-pane-state={paneState("viewer")} aria-label="任务查看器" inert={expandedPane === "editor" || undefined}>
+					<header className="pane-bar">
+						<img className="app-icon" src={appIcon} alt="" />
+						<h1 className="pane-title">任务查看器</h1>
+						<span className="pane-subtitle">星穹铁道任务素材</span>
+						<div className="pane-bar-actions">{expandToggle("viewer")}</div>
+					</header>
 					<div className="source-preview">
 						{selectedMission ? <>
 							<header className="preview-header">
-								<IconButton className="back-to-library" size="lg" aria-label="返回任务列表" title="返回任务列表" onClick={closeMission}><IconArrowLeft size={19} /></IconButton>
+								<IconButton className="back-to-library" label="返回任务列表" onClick={closeMission}><IconArrowLeft size={19} /></IconButton>
 								<div className="preview-heading"><span className="eyebrow">{selectedMission.category} / {selectedMission.location}</span><h2>{selectedMission.name}</h2><p>{selectedMission.series}</p></div>
-								<div className="preview-header-side"><div className="preview-navigation">
-									<Tooltip label="当前任务内容目录"><IconButton className="mission-toc-trigger" aria-label="打开当前任务内容目录" variant={missionContentTocOpen ? "light" : "outline"} color="blue" size="md" aria-pressed={missionContentTocOpen} onClick={() => setMissionContentTocOpen((current) => !current)}><IconListTree /></IconButton></Tooltip>
-								</div></div>
+								<div className="preview-header-side"><IconButton className="mission-toc-trigger" label="当前任务内容目录" active={missionContentTocOpen} onClick={() => setMissionContentTocOpen((current) => !current)}><IconListTree /></IconButton></div>
 							</header>
 							<div className="selection-toolbar">
-								<Button variant="subtle" size="xs" onClick={() => { setSelectedSource(new Set(sourcePaths.map(pathKey))); selectionAnchor.current = null; }}>全选内容</Button>
-								<Button variant="subtle" color="gray" size="xs" onClick={() => { setSelectedSource(new Set()); selectionAnchor.current = null; }}>清除选择</Button>
+								<Button variant="light" size="sm" onClick={() => { setSelectedSource(new Set(sourcePaths.map(pathKey))); selectionAnchor.current = null; }}>全选内容</Button>
+								<Button variant="ghost" size="sm" onClick={() => { setSelectedSource(new Set()); selectionAnchor.current = null; }}>清除选择</Button>
 								<span className="selection-toolbar-divider" />
-								<Button variant="subtle" size="xs" disabled={!document || selectedSource.size === 0} onClick={() => appendSource(sourcePaths.filter((path) => selectedSource.has(pathKey(path))), "end")}>追加到剧本 {selectedSource.size ? `(${selectedSource.size})` : ""}</Button>
-								<Button size="xs" disabled={!document || selectedSource.size === 0 || !selectedNode} onClick={() => appendSource(sourcePaths.filter((path) => selectedSource.has(pathKey(path))), "below")}>插入到所选内容后 {selectedSource.size ? `(${selectedSource.size})` : ""}</Button>
+								<Button variant="flat" size="sm" disabled={!document || selectedSource.size === 0} onClick={() => appendSource(sourcePaths.filter((path) => selectedSource.has(pathKey(path))), "end")}>追加到剧本 {selectedSource.size ? `(${selectedSource.size})` : ""}</Button>
+								<Button size="sm" disabled={!document || selectedSource.size === 0 || !selectedNode} onClick={() => appendSource(sourcePaths.filter((path) => selectedSource.has(pathKey(path))), "below")}>插入到所选内容后 {selectedSource.size ? `(${selectedSource.size})` : ""}</Button>
 							</div>
 							<div className="source-cards">{missionDocument?.content.map((node, nodeIndex) => <SourceContentCard key={nodeIndex} node={node} path={[nodeIndex]} selected={selectedSource} onToggle={toggleSource} />)}</div>
 							<MissionPager previous={previousMission} next={nextMission} position={selectedMissionPosition} total={filteredMissions.length} onOpen={(mission) => void openMission(mission)} />
 							<MissionContentTocOverlay opened={missionContentTocOpen} missionName={selectedMission.name} headings={missionHeadings} onClose={() => setMissionContentTocOpen(false)} onOpen={openMissionHeading} />
 						</> : <div className="mission-library">
-							<header className="library-header"><h2>任务资料库</h2><Badge color="blue" size="lg">{filteredMissions.length} 个任务</Badge></header>
+							<header className="library-header"><h2>任务资料库</h2><Tag tone="azure">{filteredMissions.length} 个任务</Tag></header>
 							<MissionBrowser {...missionBrowserProps} onOpen={(mission) => void openMission(mission)} />
 						</div>}
 					</div>
 				</section>
-				<section className="script-pane">
+				<section className="script-pane" data-pane-state={paneState("editor")} aria-label="剧本编辑器" inert={expandedPane === "viewer" || undefined}>
+					<header className="pane-bar">
+						<h1 className="pane-title">剧本编辑器</h1>
+						<span className="pane-subtitle">剧本编排工作台</span>
+						<div className="pane-bar-actions">
+							<Tooltip content={`${saveStatusLabel} · 每 10 秒自动保存，Ctrl+S 立即保存`}><span className="save-status" data-state={saveStatus} role="status" aria-label={saveStatusLabel} tabIndex={0}>{saveStatus === "saved" ? <IconCheck /> : saveStatus === "error" ? <IconAlertCircle /> : <span className="save-status-dot" />}<span>{saveStatusLabel}</span></span></Tooltip>
+							<Menu label="主题" align="end" trigger={(props) => <button {...props} type="button" className="si-iconbtn" aria-label={`主题：${themeChoices.find((choice) => choice.value === theme.choice)?.label ?? ""}`} title="主题"><ThemeIcon /></button>} items={themeChoices.map((choice) => ({ label: choice.label, icon: <choice.icon />, onSelect: () => theme.setChoice(choice.value), textValue: choice.label }))} />
+							<IconButton label="设置与数据工具" active={settingsOpen} onClick={() => setSettingsOpen(true)}><IconSettings /></IconButton>
+							{expandToggle("editor")}
+						</div>
+					</header>
 					{document ? <div className="script-editor">
 						<ScreenplayMetaPanel document={document} characters={screenplayCharacters ?? document.characters} activeFile={activeFile} onBack={() => void closeScreenplay()} onTitleChange={(value) => mutateDocument((current) => ({ ...current, title: value }), "meta:title")} onChapterChange={(value) => mutateDocument((current) => ({ ...current, chapter: value }), "meta:chapter")} onCharacterHiddenChange={setCharacterHidden} onDelete={() => void deleteScreenplay()} />
 						<div className={`script-editor-workspace ${titleNavigatorOpen ? "has-title-navigator" : ""}`}>
-							<aside className="script-title-navigator" aria-hidden={!titleNavigatorOpen} inert={!titleNavigatorOpen ? true : undefined}><header className="script-title-navigator-heading"><span>章节目录</span><small>{scriptTitles.length} 个章节标题</small></header><nav>{scriptTitles.length ? scriptTitles.map((entry) => <Button key={`${entry.blockId}-${entry.path.join("-")}`} variant="subtle" color="gray" size="sm" className={selectedBlockId === entry.blockId && sameNumberPath(selectedNodePath, entry.path) ? "is-active" : ""} style={{ paddingLeft: `${12 + Math.min(entry.depth, 4) * 12}px` }} onClick={() => navigateToScriptTitle(entry)} title={entry.title}>{entry.title}</Button>) : <p>当前剧本没有章节标题</p>}</nav></aside>
+							<aside className="script-title-navigator" aria-hidden={!titleNavigatorOpen} inert={!titleNavigatorOpen ? true : undefined}><header className="script-title-navigator-heading"><span>章节目录</span><small>{scriptTitles.length} 个章节标题</small></header><nav>{scriptTitles.length ? scriptTitles.map((entry) => <NavItem key={`${entry.blockId}-${entry.path.join("-")}`} current={selectedBlockId === entry.blockId && sameNumberPath(selectedNodePath, entry.path)} style={{ paddingLeft: `${10 + Math.min(entry.depth, 4) * 12}px` }} onClick={() => navigateToScriptTitle(entry)} title={entry.title} label={entry.title} />) : <p>当前剧本没有章节标题</p>}</nav></aside>
 							<div className="script-editor-main">
-						<div className={`block-toolbar ${multiSelectMode ? "is-multi-select" : ""}`}>
-							<div className="block-toolbar-actions toolbar-main-actions">
-								<div className="toolbar-action-group is-navigation"><Tooltip label={titleNavigatorOpen ? "关闭章节目录" : "打开章节目录"}><IconButton variant={titleNavigatorOpen ? "light" : "subtle"} color="blue" size="md" aria-label={titleNavigatorOpen ? "关闭章节目录" : "打开章节目录"} aria-pressed={titleNavigatorOpen} onClick={() => setTitleNavigatorOpen((current) => !current)}><IconListTree size={16} /></IconButton></Tooltip></div>
-								<div className="toolbar-action-group"><Tooltip label="撤销（Ctrl+Z）"><IconButton size="sm" color="default" aria-label="撤销" disabled={!historySize.undo} onClick={undo}><IconArrowBackUp /></IconButton></Tooltip><Tooltip label="重做（Ctrl+Y）"><IconButton size="sm" color="default" aria-label="重做" disabled={!historySize.redo} onClick={redo}><IconArrowForwardUp /></IconButton></Tooltip></div>
-								<div className="toolbar-action-group"><span className="toolbar-group-label">插入</span><Button variant="subtle" size="sm" onClick={() => insertScriptNode("dialogue")}>对话</Button><Button variant="subtle" size="sm" onClick={() => insertScriptNode("narration")}>叙述</Button><Button variant="subtle" size="sm" onClick={() => insertScriptNode("section")}>章节标题</Button><Button variant="subtle" size="sm" onClick={() => insertScriptNode("divider")}>分割线</Button><Button variant="subtle" size="sm" onClick={() => insertScriptNode("text")}>普通文本</Button><Button variant="subtle" size="sm" onClick={() => insertScriptNode("note")}>编辑注释</Button><Button variant="subtle" size="sm" onClick={() => insertScriptNode("fold")}>折叠内容</Button></div>
-								<div className="toolbar-action-group"><span className="toolbar-group-label">格式</span><Tooltip label="为选中的文字添加或移除删除线：{{~~文字~~}}"><Button className="strike-format-button" variant="subtle" size="sm" disabled={multiSelectMode || !editableAddress} onMouseDown={(event) => event.preventDefault()} onClick={toggleStrikeOnSelection}>删除线</Button></Tooltip></div>
-								<div className="toolbar-action-group"><span className="toolbar-group-label">导入</span><Button variant="subtle" size="sm" onClick={() => setImportOpened(true)}>批量导入</Button></div>
-								<div className="toolbar-action-group"><span className="toolbar-group-label">图片</span><Button variant="subtle" size="sm" onClick={() => void openImagePicker("add")}>插入图片</Button></div>
-								<div className="toolbar-action-group"><span className="toolbar-group-label">工具</span><MenuButton label="批量工具" align="end" active={Boolean(searchMode)} items={[{ label: "统一主角名为“穹”", onClick: convertTrailblazerSpeakers }, { label: "检查性别指代", onClick: () => toggleScriptSearch("gender") }, { label: "查找主角称谓", onClick: () => toggleScriptSearch("trailblazer-reference") }]} /></div>
-							</div>
-							{multiSelectMode ? <div className="toolbar-selection multi-selection-status"><Badge variant="filled" color="blue" size="sm">多选</Badge><span>{multiSelected.length ? `已选择 ${multiSelected.length} 个同级内容块` : "点击内容块开始选择"} · Esc 退出</span></div> : <span className="toolbar-hint">右键内容块查看更多操作 · Shift 多选 · Delete 删除</span>}
-						</div>
-						{deleteNotice ? <div className="delete-notice" role="status"><span>已删除 {deleteNotice} 个内容块</span><Button variant="subtle" color="red" size="xs" onClick={undo}>撤销</Button><IconButton aria-label="关闭提示" color="red" size="xs" onClick={() => setDeleteNotice(null)}><IconX /></IconButton></div> : null}
-							{searchMode ? <div className="script-search-bar"><strong>{searchMode === "gender" ? "性别指代检查" : "主角称谓查找"}</strong><span className="script-search-term">{activeSearchMatch ? `“${activeSearchMatch.term}”` : "没有找到匹配内容"}</span><span className="script-search-count">{searchMatches.length ? `${normalizedSearchIndex + 1} / ${searchMatches.length}` : "0 / 0"}</span><Button variant="subtle" size="xs" onClick={() => navigateScriptSearch(-1)}>上一个</Button><Button variant="subtle" size="xs" onClick={() => navigateScriptSearch(1)}>下一个</Button>{searchMode === "gender" ? <Button size="xs" disabled={!activeSearchMatch?.replacement} onClick={replaceCurrentGenderMatch}>替换为“{activeSearchMatch?.replacement ?? "—"}”</Button> : null}<Button variant="subtle" color="gray" size="xs" onClick={() => { setSearchMode(null); setSearchMatches([]); setSearchMatchIndex(0); }}>关闭</Button></div> : null}
-						<div className="script-blocks">{document.blocks.length ? document.blocks.map((block) => <ScriptBlockView key={block.id} block={block} selectedAddresses={activeScriptSelection} editableAddress={editableAddress} activeMatch={activeSearchMatch} onSelect={handleScriptSelect} onChange={(path, node) => updateBlockNode(block.id, path, node, `edit:${block.id}:${path.join(".")}`)} onDrop={moveScriptNode} onDialogueCursor={recordDialogueCursor} onContextMenu={openBlockContextMenu} />) : <div className="empty-script"><span>＋</span><h3>这个剧本还是空的</h3><p>从左侧加入任务内容，或通过上方工具栏插入内容。</p></div>}</div>
-						<footer className="script-status-bar">{multiSelectMode ? <><strong>多选模式</strong><span>已选择 {multiSelected.length} 个同级内容块</span></> : selectedBlock && selectedNode ? <><strong>类型：{nodeLabel(selectedNode)}</strong><span className="script-status-source" title={scriptBlockSourceDetail(selectedBlock, selectedNodePath)}>{scriptBlockSourceLabel(selectedBlock, selectedNodePath)}</span><Button className="script-status-source-button" variant="subtle" size="xs" disabled={!selectedSourceMission} onClick={() => void openSelectedBlockSource()}>转到来源任务</Button></> : <span>未选择内容</span>}</footer>
+								<div className={`block-toolbar ${multiSelectMode ? "is-multi-select" : ""}`}>
+									<div className="block-toolbar-actions toolbar-main-actions">
+										<div className="toolbar-action-group is-navigation"><IconButton label={titleNavigatorOpen ? "关闭章节目录" : "打开章节目录"} active={titleNavigatorOpen} onClick={() => setTitleNavigatorOpen((current) => !current)}><IconListTree /></IconButton></div>
+										<div className="toolbar-action-group"><IconButton label="撤销（Ctrl+Z）" disabled={!historySize.undo} onClick={undo}><IconArrowBackUp /></IconButton><IconButton label="重做（Ctrl+Y）" disabled={!historySize.redo} onClick={redo}><IconArrowForwardUp /></IconButton></div>
+										<div className="toolbar-action-group"><span className="toolbar-group-label">插入</span><Button variant="ghost" size="sm" onClick={() => insertScriptNode("dialogue")}>对话</Button><Button variant="ghost" size="sm" onClick={() => insertScriptNode("narration")}>叙述</Button><Button variant="ghost" size="sm" onClick={() => insertScriptNode("section")}>章节标题</Button><Button variant="ghost" size="sm" onClick={() => insertScriptNode("divider")}>分割线</Button><Button variant="ghost" size="sm" onClick={() => insertScriptNode("text")}>普通文本</Button><Button variant="ghost" size="sm" onClick={() => insertScriptNode("note")}>编辑注释</Button><Button variant="ghost" size="sm" onClick={() => insertScriptNode("fold")}>折叠内容</Button></div>
+										<div className="toolbar-action-group"><span className="toolbar-group-label">格式</span><Tooltip content="为选中的文字添加或移除删除线：{{~~文字~~}}"><Button className="strike-format-button" variant="ghost" size="sm" disabled={multiSelectMode || !editableAddress} onMouseDown={(event) => event.preventDefault()} onClick={toggleStrikeOnSelection}>删除线</Button></Tooltip></div>
+										<div className="toolbar-action-group"><span className="toolbar-group-label">导入</span><Button variant="ghost" size="sm" onClick={() => setImportOpened(true)}>批量导入</Button></div>
+										<div className="toolbar-action-group"><span className="toolbar-group-label">图片</span><Button variant="ghost" size="sm" onClick={() => void openImagePicker("add")}>插入图片</Button></div>
+										<div className="toolbar-action-group"><span className="toolbar-group-label">工具</span><Menu label="批量工具" align="end" trigger={(props) => <Button {...props} variant={searchMode ? "flat" : "ghost"} size="sm">批量工具<IconChevronDown size={13} /></Button>} items={[{ label: "统一主角名为“穹”", onSelect: convertTrailblazerSpeakers }, { label: "检查性别指代", onSelect: () => toggleScriptSearch("gender") }, { label: "查找主角称谓", onSelect: () => toggleScriptSearch("trailblazer-reference") }]} /></div>
+									</div>
+									{multiSelectMode ? <div className="toolbar-selection multi-selection-status"><Tag>多选</Tag><span>{multiSelected.length ? `已选择 ${multiSelected.length} 个同级内容块` : "点击内容块开始选择"} · Esc 退出</span></div> : <span className="toolbar-hint">右键内容块查看更多操作 · Shift 多选 · Delete 删除</span>}
+								</div>
+								{deleteNotice ? <div className="delete-notice" role="status"><span>已删除 {deleteNotice} 个内容块</span><Button variant="light" tone="danger" size="sm" onClick={undo}>撤销</Button><IconButton label="关闭提示" onClick={() => setDeleteNotice(null)}><IconX /></IconButton></div> : null}
+								{searchMode ? <div className="script-search-bar"><strong>{searchMode === "gender" ? "性别指代检查" : "主角称谓查找"}</strong><span className="script-search-term">{activeSearchMatch ? `“${activeSearchMatch.term}”` : "没有找到匹配内容"}</span><span className="script-search-count">{searchMatches.length ? `${normalizedSearchIndex + 1} / ${searchMatches.length}` : "0 / 0"}</span><Button variant="ghost" size="sm" onClick={() => navigateScriptSearch(-1)}>上一个</Button><Button variant="ghost" size="sm" onClick={() => navigateScriptSearch(1)}>下一个</Button>{searchMode === "gender" ? <Button size="sm" disabled={!activeSearchMatch?.replacement} onClick={replaceCurrentGenderMatch}>替换为“{activeSearchMatch?.replacement ?? "—"}”</Button> : null}<Button variant="ghost" size="sm" onClick={() => { setSearchMode(null); setSearchMatches([]); setSearchMatchIndex(0); }}>关闭</Button></div> : null}
+								<div className="script-blocks">{document.blocks.length ? document.blocks.map((block) => <ScriptBlockView key={block.id} block={block} selectedAddresses={activeScriptSelection} editableAddress={editableAddress} activeMatch={activeSearchMatch} onSelect={handleScriptSelect} onChange={(path, node) => updateBlockNode(block.id, path, node, `edit:${block.id}:${path.join(".")}`)} onDrop={moveScriptNode} onDialogueCursor={recordDialogueCursor} onContextMenu={openBlockContextMenu} />) : <div className="empty-script"><span>＋</span><h3>这个剧本还是空的</h3><p>从任务查看器加入任务内容，或通过上方工具栏插入内容。</p></div>}</div>
+								<footer className="script-status-bar">{multiSelectMode ? <><strong>多选模式</strong><span>已选择 {multiSelected.length} 个同级内容块</span></> : selectedBlock && selectedNode ? <><strong>类型：{nodeLabel(selectedNode)}</strong><span className="script-status-source" title={scriptBlockSourceDetail(selectedBlock, selectedNodePath)}>{scriptBlockSourceLabel(selectedBlock, selectedNodePath)}</span><Button className="script-status-source-button" variant="light" size="sm" disabled={!selectedSourceMission} onClick={() => void openSelectedBlockSource()}>转到来源任务</Button></> : <span>未选择内容</span>}</footer>
 							</div>
 						</div>
 					</div> : <ScreenplayLibrary screenplays={screenplays} draggedName={draggedScreenplay} onCreate={() => void createScreenplay()} onOpen={(name) => void openScreenplay(name)} onDragStart={setDraggedScreenplay} onDragEnd={() => setDraggedScreenplay(null)} onReorder={(from, to) => void reorderScreenplayList(from, to)} />}

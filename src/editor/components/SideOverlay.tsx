@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { Badge, IconButton } from "../ui";
+import { IconButton, Tag } from "sityle";
 import { IconX } from "../ui/icons";
 
 interface SideOverlayProps {
@@ -16,7 +16,7 @@ export function SideOverlay({ opened, title, count, className = "", onClose, chi
 	if (!opened) return null;
 	return <div className="side-overlay-backdrop" onClick={onClose}>
 		<aside className={`side-overlay ${className}`} role="dialog" aria-label={title} onClick={(event) => event.stopPropagation()}>
-			<header><div><strong>{title}</strong>{count === undefined ? null : <Badge color="blue" size="xs">{count}</Badge>}</div><IconButton aria-label={`关闭${title}`} size="sm" onClick={onClose}><IconX /></IconButton></header>
+			<header><div><strong>{title}</strong>{count === undefined ? null : <Tag tone="azure">{count}</Tag>}</div><IconButton label={`关闭${title}`} onClick={onClose}><IconX /></IconButton></header>
 			{children}
 		</aside>
 	</div>;

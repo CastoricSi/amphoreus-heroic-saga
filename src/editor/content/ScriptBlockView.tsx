@@ -1,5 +1,5 @@
 import { useState, type DragEvent, type MouseEvent } from "react";
-import { IconButton } from "../ui";
+import { InlineIconButton } from "../ui";
 import { BufferedInput } from "../ui/BufferedFields";
 import { IconCopy, IconGripVertical, IconLanguageHiragana } from "../ui/icons";
 import { CollapsibleContent } from "./CollapsibleContent";
@@ -63,10 +63,10 @@ function ScriptHierarchyNode({ blockId, node, path, level, selectedAddresses, ed
 		event.dataTransfer.effectAllowed = "move";
 		event.dataTransfer.setData("application/x-castorice-block", JSON.stringify(address));
 	};
-	const dragHandle = <IconButton className="block-drag-handle" size="xs" draggable aria-label="拖动内容块" title="拖动内容块" onPointerDown={(event) => event.stopPropagation()} onClick={(event) => event.stopPropagation()} onDragStart={startDrag}><IconGripVertical size={12} /></IconButton>;
+	const dragHandle = <InlineIconButton className="block-drag-handle" draggable label="拖动内容块" onPointerDown={(event) => event.stopPropagation()} onClick={(event) => event.stopPropagation()} onDragStart={startDrag}><IconGripVertical size={12} /></InlineIconButton>;
 	const dialogueText = node.type === "dialogue" ? String(node.text ?? "") : "";
 	const annotations = dialogueText ? collectRubyAnnotations(dialogueText) : [];
-	const dialogueCopyActions = node.type === "dialogue" ? <div className={`dialogue-copy-actions${annotations.length ? " has-annotations" : ""}`} onPointerDown={(event) => event.stopPropagation()} onClick={(event) => event.stopPropagation()}>{annotations.length ? <IconButton className="annotation-copy-button" size="xs" aria-label="复制本段全部注音" title="复制全部注音" onClick={() => void copyToClipboard(annotations.join(" "))}><IconLanguageHiragana size={11} /></IconButton> : null}<IconButton size="xs" aria-label="复制对话文本" title="复制对话文本" onClick={() => void copyToClipboard(plainRubyText(dialogueText))}><IconCopy size={11} /></IconButton></div> : null;
+	const dialogueCopyActions = node.type === "dialogue" ? <div className={`dialogue-copy-actions${annotations.length ? " has-annotations" : ""}`} onPointerDown={(event) => event.stopPropagation()} onClick={(event) => event.stopPropagation()}>{annotations.length ? <InlineIconButton className="annotation-copy-button" label="复制本段全部注音" onClick={() => void copyToClipboard(annotations.join(" "))}><IconLanguageHiragana size={11} /></InlineIconButton> : null}<InlineIconButton label="复制对话文本" onClick={() => void copyToClipboard(plainRubyText(dialogueText))}><IconCopy size={11} /></InlineIconButton></div> : null;
 	const wrapperClass = `script-view-block script-level-${level} ${path.length ? "is-nested" : "is-root"} ${isContainer ? "is-container" : "is-leaf-block"} ${selected ? "is-selected" : ""} ${isActiveMatch ? "is-search-match" : ""} ${dragOver ? isContainer ? "is-drop-target" : "is-insert-target" : ""}`;
 
 	if (isContainer) {

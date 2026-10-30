@@ -1,5 +1,5 @@
 import { useState, type MouseEvent } from "react";
-import { IconButton } from "../ui";
+import { InlineIconButton } from "../ui";
 import { IconX } from "../ui/icons";
 import { CollapsibleContent } from "./CollapsibleContent";
 import { HighlightedRichText, InlineRubyText } from "./RichText";
@@ -32,7 +32,7 @@ export function ReadOnlyContent({ node, path, selected, onToggle, depth = 0, hig
 	const treeHasSelection = checked || allDescendants.some((descendant) => selected.has(pathKey(descendant)));
 	const selectTree = allDescendants.length ? (event: MouseEvent) => { event.stopPropagation(); onToggle(path, allDescendants, { forceSelect: true }); } : undefined;
 	const clearTree = allDescendants.length ? (event: MouseEvent) => { event.stopPropagation(); onToggle(path, allDescendants, { forceDeselect: true }); } : undefined;
-	const clearButton = clearTree ? <IconButton className="clear-tree-button" size="sm" disabled={!treeHasSelection} aria-label={`清除${nodeLabel(node)}及全部子项的选择`} title="清除此块的全部选择" onClick={clearTree} onDoubleClick={(event) => event.stopPropagation()}><IconX size={13} /></IconButton> : null;
+	const clearButton = clearTree ? <InlineIconButton className="clear-tree-button" disabled={!treeHasSelection} label={`清除${nodeLabel(node)}及全部子项的选择`} onClick={clearTree} onDoubleClick={(event) => event.stopPropagation()}><IconX size={13} /></InlineIconButton> : null;
 
 	if (type === "fold" || type === "message-thread") {
 		const isMessageThread = type === "message-thread";
@@ -49,7 +49,7 @@ export function ReadOnlyContent({ node, path, selected, onToggle, depth = 0, hig
 				const optionDescendants = optionChildren.flatMap((child, childIndex) => { const childPath = [...optionPath, "content", childIndex] as NodePath; return [childPath, ...descendantNodePaths(child, childPath)]; });
 				const optionChecked = selected.has(pathKey(optionPath));
 				const optionTreeSelected = optionChecked || optionDescendants.some((descendant) => selected.has(pathKey(descendant)));
-				return <section className={`read-choice-option ${optionChecked ? "is-selected" : ""}`} key={optionIndex}><header className="selectable-row" onClick={(event) => onToggle(optionPath, [], { shiftKey: event.shiftKey, additive: event.ctrlKey || event.metaKey })} onDoubleClick={(event) => { event.stopPropagation(); onToggle(optionPath, optionDescendants, { forceSelect: true }); }}><span>{optionIndex + 1}</span><strong><InlineRubyText text={String(option.text ?? "未命名选项")} /></strong><IconButton className="clear-tree-button" size="sm" disabled={!optionTreeSelected} aria-label={`清除选项：${String(option.text ?? "未命名选项")}及全部回应的选择`} title="清除此分支的全部选择" onClick={(event) => { event.stopPropagation(); onToggle(optionPath, optionDescendants, { forceDeselect: true }); }} onDoubleClick={(event) => event.stopPropagation()}><IconX size={13} /></IconButton></header><div className="read-node-children">{optionChildren.map((child, childIndex) => <ReadOnlyContent key={childIndex} node={child} path={[...optionPath, "content", childIndex]} selected={selected} onToggle={onToggle} depth={depth + 1} />)}</div></section>;
+				return <section className={`read-choice-option ${optionChecked ? "is-selected" : ""}`} key={optionIndex}><header className="selectable-row" onClick={(event) => onToggle(optionPath, [], { shiftKey: event.shiftKey, additive: event.ctrlKey || event.metaKey })} onDoubleClick={(event) => { event.stopPropagation(); onToggle(optionPath, optionDescendants, { forceSelect: true }); }}><span>{optionIndex + 1}</span><strong><InlineRubyText text={String(option.text ?? "未命名选项")} /></strong><InlineIconButton className="clear-tree-button" disabled={!optionTreeSelected} label={`清除选项：${String(option.text ?? "未命名选项")}及全部回应的选择`} onClick={(event) => { event.stopPropagation(); onToggle(optionPath, optionDescendants, { forceDeselect: true }); }} onDoubleClick={(event) => event.stopPropagation()}><IconX size={13} /></InlineIconButton></header><div className="read-node-children">{optionChildren.map((child, childIndex) => <ReadOnlyContent key={childIndex} node={child} path={[...optionPath, "content", childIndex]} selected={selected} onToggle={onToggle} depth={depth + 1} />)}</div></section>;
 			})}
 		</div></div>;
 	}

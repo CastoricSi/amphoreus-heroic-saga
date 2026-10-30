@@ -1,4 +1,4 @@
-import { Button, Modal, TextInput } from "../ui";
+import { Dialog, SearchField } from "sityle";
 import { editorAssetUrl } from "../content/tree";
 import type { ImageAsset } from "../content/types";
 
@@ -14,12 +14,12 @@ interface ImagePickerDialogProps {
 }
 
 export function ImagePickerDialog({ mode, search, assets, total, loading, onClose, onSearchChange, onChoose }: ImagePickerDialogProps) {
-	return <Modal opened={mode !== null} onClose={onClose} title={mode === "replace" ? "更改图片" : "添加图片"} size="xl">
+	return <Dialog open={mode !== null} onClose={onClose} title={mode === "replace" ? "更改图片" : "添加图片"} wide className="editor-dialog is-xl">
 		<div className="image-picker">
-			<TextInput data-autofocus placeholder="搜索已下载的图片" value={search} onChange={(event) => onSearchChange(event.currentTarget.value)} />
+			<SearchField label="搜索已下载的图片" placeholder="搜索已下载的图片" value={search} onChange={onSearchChange} />
 			<div className="image-picker-summary">{loading ? "正在读取图片…" : `${assets.length} / ${total} 张图片`}</div>
-			<div className="image-picker-grid">{assets.map((image) => <Button variant="outline" color="gray" key={image.asset} onClick={() => onChoose(image)} title={image.file}><img src={editorAssetUrl(image.asset)} alt={image.file} loading="lazy" /><span>{image.file}</span></Button>)}</div>
+			<div className="image-picker-grid">{assets.map((image) => <button type="button" className="image-picker-item" key={image.asset} onClick={() => onChoose(image)} title={image.file}><img src={editorAssetUrl(image.asset)} alt={image.file} loading="lazy" /><span>{image.file}</span></button>)}</div>
 			{!loading && !assets.length ? <p className="image-picker-empty">没有匹配的已下载图片。</p> : null}
 		</div>
-	</Modal>;
+	</Dialog>;
 }
