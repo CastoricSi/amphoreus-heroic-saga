@@ -11,13 +11,13 @@ import { collectNodePaths, isAncestorPath, nodeAtPath, pathKey, sourceNodeDomId 
 import type { BootstrapResponse, ImageAsset, JsonNode, MissionDocument, MissionIndex, MissionRef, NodePath, ScreenplayDocument, ScreenplaySummary, ScriptBlock, ScriptItem, ScriptNodeAddress, ScriptTextMatch, ScriptTitleEntry, SearchMode, SelectionModifiers } from "./content/types";
 import { ImagePickerDialog } from "./components/ImagePickerDialog";
 import { ImportDialog, type ImportMode } from "./components/ImportDialog";
-import { MissionContentTocOverlay, type MissionContentHeading } from "./components/MissionContentTocOverlay";
+import { MissionTocColumn, MissionTocMenu, type MissionContentHeading } from "./components/MissionToc";
 import { MissionPager } from "./components/MissionPager";
 import { MissionBrowser, type MissionBrowserProps } from "./components/MissionBrowser";
 import { ScreenplayLibrary } from "./components/ScreenplayLibrary";
 import { ScreenplayMetaPanel } from "./components/ScreenplayMetaPanel";
 import { SettingsPanel } from "./components/SettingsPanel";
-import appIcon from "./assets/app-icon.webp";
+import { useElementWidth } from "./components/useElementWidth";
 import { useScriptRunner } from "./components/useScriptRunner";
 import "./content/content.css";
 import "./App.css";
@@ -37,6 +37,14 @@ type Pane = "viewer" | "editor";
 
 /** One action row of a menu (sityle's MenuEntry minus the divider). */
 type MenuAction = Exclude<MenuEntry, "divider">;
+
+/**
+ * How the viewer lays itself out, from its own width: one column (the list, or the open mission),
+ * the mission list beside the mission, or the list, the mission's table of contents and the mission.
+ */
+type ViewerLayout = "single" | "list" | "full";
+const VIEWER_LIST_WIDTH = 760;
+const VIEWER_FULL_WIDTH = 1080;
 
 const themeChoices: Array<{ value: ThemeChoice; label: string; icon: typeof IconSun }> = [
 	{ value: "light", label: "宣纸（浅色）", icon: IconSun },
@@ -151,7 +159,9 @@ function App() {
 	const [searchMatches, setSearchMatches] = useState<ScriptTextMatch[]>([]);
 	const [searchMatchIndex, setSearchMatchIndex] = useState(0);
 	const [lastMissionFile, setLastMissionFile] = useState<string>();
-	const [missionContentTocOpen, setMissionContentTocOpen] = useState(false);
+	const [activeHeading, setActiveHeading] = useState<string | null>(null);
+	const [viewerRef, viewerWidth] = useElementWidth<HTMLDivElement>();
+	const sourceCardsRef = useRef<HTMLDivElement>(null);
 	const [titleNavigatorOpen, setTitleNavigatorOpen] = useState(true);
 	const [settingsOpen, setSettingsOpen] = useState(false);
 	// The pane stretched over the whole workspace (the other one is squeezed out), or null for side by side.
@@ -304,11 +314,6 @@ function App() {
 		function keyDown(event: KeyboardEvent) {
 			// sityle dialogs and menus handle their own keys (Escape closes them, not the selection).
 			if (window.document.querySelector('[role="dialog"][aria-modal="true"], .si-menu')) return;
-			if (event.key === "Escape" && missionContentTocOpen) {
-				event.preventDefault();
-				setMissionContentTocOpen(false);
-				return;
-			}
 			if (event.key === "Escape" && (multiSelectMode || selectedBlockId)) {
 				event.preventDefault();
 				const target = event.target as HTMLElement | null;
@@ -361,7 +366,7 @@ function App() {
 		}
 		window.addEventListener("keydown", keyDown); window.addEventListener("keyup", keyUp);
 		return () => { window.removeEventListener("keydown", keyDown); window.removeEventListener("keyup", keyUp); };
-	}, [missionContentTocOpen, multiSelectMode, saveCurrentDocument, selectedBlockId, selectedNodePath]);
+	}, [multiSelectMode, saveCurrentDocument, selectedBlockId, selectedNodePath]);
 
 	async function refreshScreenplays() { setScreenplays(await requestJson<ScreenplaySummary[]>("/editor-api/screenplays")); }
 	function syncHistorySize() { setHistorySize({ undo: undoStack.current.length, redo: redoStack.current.length }); }
@@ -425,7 +430,7 @@ function App() {
 	}
 
 	async function openMission(mission: MissionRef) {
-		setSelectedMission(mission); setLastMissionFile(mission.dataFile); setMissionDocument(null); setSelectedSource(new Set()); setMissionContentTocOpen(false); selectionAnchor.current = null; setError("");
+		setSelectedMission(mission); setLastMissionFile(mission.dataFile); setMissionDocument(null); setSelectedSource(new Set()); setActiveHeading(null); selectionAnchor.current = null; setError("");
 		try {
 			const loaded = await requestJson<MissionDocument>(`/editor-api/mission?path=${encodeURIComponent(mission.dataFile)}`);
 			setMissionDocument(loaded);
@@ -434,10 +439,25 @@ function App() {
 	}
 	// Back to the mission list; the mission just viewed stays highlighted there.
 	function closeMission() {
-		setSelectedMission(null); setMissionDocument(null); setSelectedSource(new Set()); setMissionContentTocOpen(false); selectionAnchor.current = null;
+		setSelectedMission(null); setMissionDocument(null); setSelectedSource(new Set()); setActiveHeading(null); selectionAnchor.current = null;
 	}
 	function openMissionHeading(heading: MissionContentHeading) {
+		setActiveHeading(pathKey(heading.path));
 		window.document.getElementById(sourceNodeDomId(heading.path))?.scrollIntoView({ block: "start", behavior: "smooth" });
+	}
+	// The table of contents follows reading: the last heading that has scrolled past the top of the content.
+	function syncActiveHeading() {
+		const box = sourceCardsRef.current;
+		if (!box) return;
+		const line = box.getBoundingClientRect().top + 48;
+		let current: string | null = null;
+		for (const heading of missionHeadings) {
+			const element = window.document.getElementById(sourceNodeDomId(heading.path));
+			if (!element) continue;
+			if (element.getBoundingClientRect().top > line) break;
+			current = pathKey(heading.path);
+		}
+		setActiveHeading(current);
 	}
 	async function openSelectedBlockSource() {
 		if (!selectedSourceMission) return;
@@ -768,6 +788,7 @@ function App() {
 	};
 
 	const ThemeIcon = themeChoices.find((choice) => choice.value === theme.choice)?.icon ?? IconDeviceDesktop;
+	const viewerLayout: ViewerLayout = viewerWidth >= VIEWER_FULL_WIDTH ? "full" : viewerWidth >= VIEWER_LIST_WIDTH ? "list" : "single";
 	const paneState = (pane: Pane) => expandedPane === null ? "split" : expandedPane === pane ? "expanded" : "collapsed";
 	const expandToggle = (pane: Pane) => {
 		const expanded = expandedPane === pane;
@@ -785,17 +806,21 @@ function App() {
 			<main className="workspace" data-expanded={expandedPane ?? undefined}>
 				<section className="source-pane" data-pane-state={paneState("viewer")} aria-label="任务查看器" inert={expandedPane === "editor" || undefined}>
 					<header className="pane-bar">
-						<img className="app-icon" src={appIcon} alt="" />
 						<h1 className="pane-title">任务查看器</h1>
 						<span className="pane-subtitle">星穹铁道任务素材</span>
 						<div className="pane-bar-actions">{expandToggle("viewer")}</div>
 					</header>
-					<div className="source-preview">
-						{selectedMission ? <>
+					<div ref={viewerRef} className="viewer" data-layout={viewerLayout}>
+						{viewerLayout !== "single" || !selectedMission ? <aside className="viewer-library">
+							<header className="library-header"><h2>任务资料库</h2><Tag tone="azure">{filteredMissions.length} 个任务</Tag></header>
+							<MissionBrowser {...missionBrowserProps} onOpen={(mission) => void openMission(mission)} />
+						</aside> : null}
+						{viewerLayout === "full" && selectedMission ? <MissionTocColumn headings={missionHeadings} active={activeHeading} onOpen={openMissionHeading} /> : null}
+						{selectedMission ? <div className="source-preview">
 							<header className="preview-header">
-								<IconButton className="back-to-library" label="返回任务列表" onClick={closeMission}><IconArrowLeft size={19} /></IconButton>
+								{viewerLayout === "single" ? <IconButton className="back-to-library" label="返回任务列表" onClick={closeMission}><IconArrowLeft size={19} /></IconButton> : null}
 								<div className="preview-heading"><span className="eyebrow">{selectedMission.category} / {selectedMission.location}</span><h2>{selectedMission.name}</h2><p>{selectedMission.series}</p></div>
-								<div className="preview-header-side"><IconButton className="mission-toc-trigger" label="当前任务内容目录" active={missionContentTocOpen} onClick={() => setMissionContentTocOpen((current) => !current)}><IconListTree /></IconButton></div>
+								{viewerLayout !== "full" ? <div className="preview-header-side"><MissionTocMenu headings={missionHeadings} onOpen={openMissionHeading} /></div> : null}
 							</header>
 							<div className="selection-toolbar">
 								<Button variant="light" size="sm" onClick={() => { setSelectedSource(new Set(sourcePaths.map(pathKey))); selectionAnchor.current = null; }}>全选内容</Button>
@@ -804,13 +829,9 @@ function App() {
 								<Button variant="flat" size="sm" disabled={!document || selectedSource.size === 0} onClick={() => appendSource(sourcePaths.filter((path) => selectedSource.has(pathKey(path))), "end")}>追加到剧本 {selectedSource.size ? `(${selectedSource.size})` : ""}</Button>
 								<Button size="sm" disabled={!document || selectedSource.size === 0 || !selectedNode} onClick={() => appendSource(sourcePaths.filter((path) => selectedSource.has(pathKey(path))), "below")}>插入到所选内容后 {selectedSource.size ? `(${selectedSource.size})` : ""}</Button>
 							</div>
-							<div className="source-cards">{missionDocument?.content.map((node, nodeIndex) => <SourceContentCard key={nodeIndex} node={node} path={[nodeIndex]} selected={selectedSource} onToggle={toggleSource} />)}</div>
+							<div ref={sourceCardsRef} className="source-cards" onScroll={syncActiveHeading}>{missionDocument?.content.map((node, nodeIndex) => <SourceContentCard key={nodeIndex} node={node} path={[nodeIndex]} selected={selectedSource} onToggle={toggleSource} />)}</div>
 							<MissionPager previous={previousMission} next={nextMission} position={selectedMissionPosition} total={filteredMissions.length} onOpen={(mission) => void openMission(mission)} />
-							<MissionContentTocOverlay opened={missionContentTocOpen} missionName={selectedMission.name} headings={missionHeadings} onClose={() => setMissionContentTocOpen(false)} onOpen={openMissionHeading} />
-						</> : <div className="mission-library">
-							<header className="library-header"><h2>任务资料库</h2><Tag tone="azure">{filteredMissions.length} 个任务</Tag></header>
-							<MissionBrowser {...missionBrowserProps} onOpen={(mission) => void openMission(mission)} />
-						</div>}
+						</div> : viewerLayout !== "single" ? <div className="source-preview viewer-empty"><div className="empty-script"><span>❖</span><h3>选择一个任务</h3><p>在左侧的任务资料库里点一个任务，它的内容会显示在这里。</p></div></div> : null}
 					</div>
 				</section>
 				<section className="script-pane" data-pane-state={paneState("editor")} aria-label="剧本编辑器" inert={expandedPane === "viewer" || undefined}>
@@ -819,7 +840,7 @@ function App() {
 						<span className="pane-subtitle">剧本编排工作台</span>
 						<div className="pane-bar-actions">
 							<Tooltip content={`${saveStatusLabel} · 每 10 秒自动保存，Ctrl+S 立即保存`}><span className="save-status" data-state={saveStatus} role="status" aria-label={saveStatusLabel} tabIndex={0}>{saveStatus === "saved" ? <IconCheck /> : saveStatus === "error" ? <IconAlertCircle /> : <span className="save-status-dot" />}<span>{saveStatusLabel}</span></span></Tooltip>
-							<Menu label="主题" align="end" trigger={(props) => <button {...props} type="button" className="si-iconbtn" aria-label={`主题：${themeChoices.find((choice) => choice.value === theme.choice)?.label ?? ""}`} title="主题"><ThemeIcon /></button>} items={themeChoices.map((choice) => ({ label: choice.label, icon: <choice.icon />, onSelect: () => theme.setChoice(choice.value), textValue: choice.label }))} />
+							<Menu label="主题" align="end" trigger={(props) => <IconButton {...props} label={`主题：${themeChoices.find((choice) => choice.value === theme.choice)?.label ?? ""}`}><ThemeIcon /></IconButton>} items={themeChoices.map((choice) => ({ label: choice.label, icon: <choice.icon />, onSelect: () => theme.setChoice(choice.value), textValue: choice.label }))} />
 							<IconButton label="设置与数据工具" active={settingsOpen} onClick={() => setSettingsOpen(true)}><IconSettings /></IconButton>
 							{expandToggle("editor")}
 						</div>

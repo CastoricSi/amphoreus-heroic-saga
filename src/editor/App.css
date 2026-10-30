@@ -72,7 +72,6 @@
 	padding: 0 var(--si-space-2) 0 var(--si-space-4);
 	border-bottom: 1px solid var(--si-line);
 }
-.app-icon { width: 26px; height: 26px; flex: none; object-fit: contain; }
 .pane-title { flex: none; color: var(--si-ink); font: 400 1.375rem/1 var(--si-font-brush); letter-spacing: 0.04em; white-space: nowrap; }
 .pane-subtitle { min-width: 0; overflow: hidden; color: var(--si-ink-3); font: var(--si-type-caption); text-overflow: ellipsis; white-space: nowrap; }
 .pane-bar-actions { display: flex; flex: none; align-items: center; gap: 2px; margin-left: auto; }
@@ -101,16 +100,40 @@
 @keyframes save-pulse { 50% { opacity: .3; } }
 
 /* Mission library: shown in the viewer while no mission is open. */
-.source-preview { position: relative; min-width: 0; min-height: 0; display: flex; flex: 1; flex-direction: column; }
-.mission-library { min-height: 0; height: 100%; display: flex; flex-direction: column; }
-.mission-browser { min-height: 0; display: flex; flex: 1; flex-direction: column; padding: var(--si-space-3) var(--si-space-3) 0; }
-.mission-browser-filters { display: flex; flex-wrap: wrap; gap: var(--si-space-2); margin-bottom: var(--si-space-3); padding: var(--si-ring); }
-.mission-browser-filters > * { flex: 1 1 150px; }
-.mission-browser-filters > :first-child { flex: 2 1 220px; }
-.mission-browser-filters select.si-input { font: var(--si-type-body-sm); }
-.mission-list { min-height: 0; flex: 1; overflow: auto; margin-right: calc(-1 * var(--si-space-2)); padding: 0 var(--si-space-2) var(--si-space-4) 0; }
-.mission-location + .mission-location { margin-top: var(--si-space-3); padding-top: var(--si-space-3); border-top: 1px solid var(--si-line); }
-.mission-location > h3 { margin: 0 8px 4px; overflow: hidden; color: var(--si-ink-3); font: var(--si-type-caption); letter-spacing: 0.06em; text-overflow: ellipsis; white-space: nowrap; }
+/*
+ * The viewer lays itself out from its own width (App: viewerLayout): one column (the mission list, or
+ * the open mission); the list beside the mission; or the list, the mission's contents and the mission.
+ */
+.viewer { min-height: 0; display: grid; flex: 1; grid-template-columns: minmax(0, 1fr); }
+.viewer[data-layout="list"], .viewer[data-layout="full"] { grid-template-columns: 320px minmax(0, 1fr); }
+.viewer[data-layout="full"]:has(> .viewer-toc) { grid-template-columns: 320px 220px minmax(0, 1fr); }
+.viewer-library, .viewer-toc { min-width: 0; min-height: 0; display: flex; flex-direction: column; }
+.viewer:not([data-layout="single"]) > .viewer-library, .viewer-toc { border-right: 1px solid var(--si-line); background: var(--ed-inset); }
+.viewer-column-header { display: flex; min-height: 64px; flex: none; align-items: center; justify-content: space-between; gap: var(--si-space-2); padding: var(--si-space-3) var(--si-space-4); border-bottom: 1px solid var(--si-line); }
+.viewer-column-header h2 { font: var(--si-type-h4); }
+.viewer-column-header small { color: var(--si-ink-3); font: var(--si-type-caption); }
+.viewer-toc-list { min-height: 0; display: grid; flex: 1; align-content: start; gap: 1px; overflow: auto; padding: var(--si-space-2); }
+.viewer-toc-list .si-nav { height: auto; min-height: 32px; padding-block: 6px; font: var(--si-type-body-sm); }
+.viewer-toc-list .si-nav-label { white-space: normal; text-overflow: clip; contain: none; }
+.viewer-toc-list > p { margin: var(--si-space-4) var(--si-space-2); color: var(--si-ink-3); font: var(--si-type-caption); }
+.mission-toc-menu { max-width: min(360px, calc(100vw - 16px)); }
+
+.source-preview { position: relative; min-width: 0; min-height: 0; display: flex; flex-direction: column; }
+.viewer-empty .empty-script { flex: 1; }
+
+/* Mission library: filters, then location → series → missions. Missions fill as many columns as fit. */
+.mission-browser { min-height: 0; display: flex; flex: 1; flex-direction: column; }
+.mission-browser-filters { display: flex; flex-wrap: wrap; align-items: center; gap: var(--si-space-2); padding: var(--si-space-3); border-bottom: 1px solid var(--si-line); }
+.mission-browser-filters > .si-search { flex: 1 1 100%; }
+.mission-browser-filters > .mission-category { flex: none; }
+/* In a column the category switch takes the whole row, its segments sharing it evenly. */
+.viewer:not([data-layout="single"]) .mission-browser-filters > .mission-category { flex: 1 1 100%; }
+.viewer:not([data-layout="single"]) .mission-category button { flex: 1; justify-content: center; padding-inline: 6px; }
+.mission-browser-filters > .si-field { flex: 1 1 180px; min-width: 0; }
+.mission-list { min-height: 0; flex: 1; overflow: auto; padding: 0 var(--si-space-2) var(--si-space-4); }
+.mission-location > h3 { position: sticky; z-index: 1; top: 0; margin: 0 calc(-1 * var(--si-space-2)); padding: var(--si-space-3) var(--si-space-4) var(--si-space-1); overflow: hidden; color: var(--si-ink-3); background: var(--si-paper-raised); font: var(--si-type-caption); letter-spacing: 0.06em; text-overflow: ellipsis; white-space: nowrap; }
+.viewer:not([data-layout="single"]) .mission-location > h3 { background: color-mix(in srgb, var(--si-paper-sunk) 55%, var(--si-paper-raised)); }
+.mission-location + .mission-location > h3 { border-top: 1px solid var(--si-line); }
 .mission-series { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0 var(--si-space-1); }
 .mission-series + .mission-series { margin-top: var(--si-space-2); }
 .mission-series > h4 { grid-column: 1 / -1; padding: 4px 8px 2px; overflow: hidden; color: var(--si-ink); font: 700 0.8125rem/1.4 var(--si-font-heading); text-overflow: ellipsis; white-space: nowrap; }
@@ -165,19 +188,6 @@
 .mission-pager-copy strong, .mission-pager-copy small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .mission-pager-copy strong { color: var(--si-ink); font: var(--si-type-label); }
 .mission-pager-copy small { color: var(--si-ink-3); font: var(--si-type-caption); }
-
-/* Side overlay (the mission's table of contents), over the right edge of the viewer. */
-.side-overlay-backdrop { position: absolute; z-index: 20; inset: 0; display: flex; justify-content: flex-end; padding: var(--si-space-2); background: var(--si-scrim); animation: overlay-fade var(--si-t-base) var(--si-ease-out); }
-.side-overlay { width: min(320px, calc(100% - 24px)); min-height: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: var(--si-r-lg); background: var(--si-paper-raised); box-shadow: var(--si-e3); animation: overlay-slide var(--si-t-slow) var(--si-ease-out); }
-@keyframes overlay-fade { from { opacity: 0; } }
-@keyframes overlay-slide { from { opacity: 0; transform: translateX(18px); } }
-.side-overlay > header { display: flex; min-height: 48px; align-items: center; justify-content: space-between; gap: var(--si-space-2); padding: var(--si-space-1) var(--si-space-1) var(--si-space-1) var(--si-space-4); border-bottom: 1px solid var(--si-line); }
-.side-overlay > header > div { display: flex; align-items: center; gap: var(--si-space-2); }
-.side-overlay > header strong { font: var(--si-type-h4); }
-.mission-content-toc-name { padding: var(--si-space-2) var(--si-space-4); overflow: hidden; border-bottom: 1px solid var(--si-line); color: var(--si-ink-3); font: var(--si-type-caption); text-overflow: ellipsis; white-space: nowrap; }
-.mission-content-toc > nav { min-height: 0; display: flex; flex: 1; flex-direction: column; gap: 1px; overflow: auto; padding: var(--si-space-2); }
-.mission-content-toc > nav > p { margin: var(--si-space-6) var(--si-space-2); color: var(--si-ink-3); font: var(--si-type-body-sm); text-align: center; }
-.mission-content-toc .si-nav { height: 32px; flex: none; font: var(--si-type-body-sm); }
 
 /* Screenplay editor. */
 .script-editor, .script-editor-main { min-width: 0; min-height: 0; display: flex; flex-direction: column; }
