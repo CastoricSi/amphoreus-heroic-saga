@@ -805,22 +805,17 @@ function App() {
 			{error ? <div className="error-banner" role="alert"><IconAlertCircle /><span>{error}</span><Button variant="light" tone="danger" size="sm" onClick={() => setError("")}>关闭</Button></div> : null}
 			<main className="workspace" data-expanded={expandedPane ?? undefined}>
 				<section className="source-pane" data-pane-state={paneState("viewer")} aria-label="任务查看器" inert={expandedPane === "editor" || undefined}>
-					<header className="pane-bar">
-						<h1 className="pane-title">任务查看器</h1>
-						<span className="pane-subtitle">星穹铁道任务素材</span>
-						<div className="pane-bar-actions">{expandToggle("viewer")}</div>
-					</header>
 					<div ref={viewerRef} className="viewer" data-layout={viewerLayout}>
 						{viewerLayout !== "single" || !selectedMission ? <aside className="viewer-library">
-							<header className="library-header"><h2>任务资料库</h2><Tag tone="azure">{filteredMissions.length} 个任务</Tag></header>
+							<header className="library-header"><h2>任务资料库</h2>{expandToggle("viewer")}</header>
 							<MissionBrowser {...missionBrowserProps} onOpen={(mission) => void openMission(mission)} />
 						</aside> : null}
 						{viewerLayout === "full" && selectedMission ? <MissionTocColumn headings={missionHeadings} active={activeHeading} onOpen={openMissionHeading} /> : null}
 						{selectedMission ? <div className="source-preview">
 							<header className="preview-header">
 								{viewerLayout === "single" ? <IconButton className="back-to-library" label="返回任务列表" onClick={closeMission}><IconArrowLeft size={19} /></IconButton> : null}
-								<div className="preview-heading"><span className="eyebrow">{selectedMission.category} / {selectedMission.location}</span><h2>{selectedMission.name}</h2><p>{selectedMission.series}</p></div>
-								{viewerLayout !== "full" ? <div className="preview-header-side"><MissionTocMenu headings={missionHeadings} onOpen={openMissionHeading} /></div> : null}
+								<div className="preview-heading"><span className="eyebrow">{selectedMission.category} / {selectedMission.location}・{selectedMission.series}</span><h2>{selectedMission.name}</h2></div>
+								{viewerLayout !== "full" ? <div className="preview-header-side"><MissionTocMenu headings={missionHeadings} onOpen={openMissionHeading} />{viewerLayout === "single" ? expandToggle("viewer") : null}</div> : null}
 							</header>
 							<div className="selection-toolbar">
 								<Button variant="light" size="sm" onClick={() => { setSelectedSource(new Set(sourcePaths.map(pathKey))); selectionAnchor.current = null; }}>全选内容</Button>

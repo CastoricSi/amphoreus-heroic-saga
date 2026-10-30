@@ -49,10 +49,14 @@
 }
 .read-node.is-leaf > .read-node-line { border-color: transparent; color: var(--node-text, var(--si-ink)); background: transparent; }
 .read-node.is-leaf > .read-node-line:hover { background: var(--ed-hover); }
-.read-node.is-selected > .read-node-line,
-.read-node.is-selected > .read-node-heading,
 .read-node.is-leaf.is-selected > .read-node-line,
 .read-node.is-leaf.is-selected > .read-node-line:hover { color: var(--si-ink); background: var(--ed-selected); box-shadow: inset 0 0 0 1px var(--ed-selected-line); }
+/*
+ * A selected container (fold, branches, a line with children) is outlined by its own rounded border:
+ * an outline on its header would be clipped at the container's corners. The header only takes the tint.
+ */
+.read-node.is-selected:not(.is-leaf) { border-color: var(--ed-selected-line); box-shadow: 0 0 0 1px var(--ed-selected-line); }
+.read-node.is-selected:not(.is-leaf) > :is(.read-node-line, .read-node-heading) { color: var(--si-ink); background: var(--ed-selected); }
 .read-node-dialogue.is-leaf > .read-node-line .read-speaker { color: var(--si-ink); }
 .read-node-objective-description.is-leaf > .read-node-line { padding: 7px 10px; border-color: color-mix(in srgb, var(--node-accent) 35%, transparent); background: var(--si-cinnabar-soft); }
 .read-node-objective-description.is-leaf > .read-node-line:hover { border-color: color-mix(in srgb, var(--node-accent) 55%, transparent); background: var(--si-cinnabar-soft); }
@@ -113,7 +117,8 @@
 .read-node-choice.choice-branches-only { border: 0; background: transparent; box-shadow: none; }
 .read-node-choice.choice-branches-only > .read-choice-list { padding: 0; background: transparent; }
 .read-choice-option { --option-accent: light-dark(#7a5a9e, #b59bd8); overflow: hidden; border: 1px solid color-mix(in srgb, var(--option-accent) 30%, transparent); border-radius: var(--si-r-md); background: var(--si-paper-raised); box-shadow: var(--si-e1); }
-.read-choice-option.is-selected > header { background: var(--ed-selected); box-shadow: inset 0 0 0 1px var(--ed-selected-line); }
+.read-choice-option.is-selected { border-color: var(--ed-selected-line); box-shadow: 0 0 0 1px var(--ed-selected-line); }
+.read-choice-option.is-selected > header { background: var(--ed-selected); }
 .read-choice-option > header { display: grid; grid-template-columns: 20px minmax(0, 1fr) 26px; align-items: center; gap: 6px; min-height: 34px; padding: 4px 6px 4px 8px; color: var(--si-ink); background: color-mix(in srgb, var(--option-accent) 12%, transparent); }
 .read-choice-option > header > span { display: grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; color: var(--si-on-color); background: var(--option-accent); font: 700 0.6875rem/1 var(--si-font-sans); }
 .read-choice-option > header > strong { min-width: 0; font: var(--si-type-label); font-weight: 700; overflow-wrap: anywhere; }

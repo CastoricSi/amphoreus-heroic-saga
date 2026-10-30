@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { NavItem, SearchField, Segmented, SelectField } from "sityle";
+import { NavItem, SearchField, SelectField } from "sityle";
 import type { MissionRef } from "../content/types";
 
 export interface MissionGroup {
@@ -29,8 +29,8 @@ export function MissionBrowser({ groups, selectedFile, search, category, locatio
 	return <div className="mission-browser">
 		<div className="mission-browser-filters">
 			<SearchField label="搜索任务" placeholder="搜索任务、系列或地点" value={search} onChange={onSearchChange} />
-			<Segmented label="任务种类" className="mission-category" value={category} onChange={onCategoryChange} options={[{ value: "", label: "全部" }, ...categories.map((item) => ({ value: item, label: item }))]} />
-			<SelectField label="地点" value={location} onChange={onLocationChange} options={[{ value: "", label: "所有地点" }, ...locations.map((item) => ({ value: item, label: item }))]} />
+			<SelectField plain label="任务种类" value={category} onChange={onCategoryChange} options={[{ value: "", label: "全部种类" }, ...categories.map((item) => ({ value: item, label: item }))]} />
+			<SelectField plain label="地点" value={location} onChange={onLocationChange} options={[{ value: "", label: "全部地点" }, ...locations.map((item) => ({ value: item, label: item }))]} />
 		</div>
 		<nav ref={list} className="mission-list" aria-label="任务列表">{groups.length ? groups.map((group) => <section className="mission-location" key={group.location}>
 			<h3>{group.location}</h3>

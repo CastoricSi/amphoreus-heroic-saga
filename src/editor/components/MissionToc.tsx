@@ -20,7 +20,7 @@ export function MissionTocColumn({ headings, active, onOpen }: MissionTocProps) 
 	return <nav className="viewer-toc" aria-label="任务内容目录">
 		<header className="viewer-column-header"><h2>目录</h2><small>{headings.length} 节</small></header>
 		<div className="viewer-toc-list">{headings.length
-			? headings.map((heading) => <NavItem key={pathKey(heading.path)} current={active === pathKey(heading.path)} title={heading.title} label={heading.title} onClick={() => onOpen(heading)} />)
+			? headings.map((heading) => <NavItem wrap key={pathKey(heading.path)} current={active === pathKey(heading.path)} title={heading.title} label={heading.title} onClick={() => onOpen(heading)} />)
 			: <p>这个任务没有分节标题</p>}</div>
 	</nav>;
 }

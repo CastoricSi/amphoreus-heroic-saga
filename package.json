@@ -16,7 +16,7 @@
 		"motion": "^14.8.0",
 		"react": "19.2.1",
 		"react-dom": "19.2.1",
-		"sityle": "https://github.com/CastoricSi/sityle/releases/download/v1.1.0/sityle-1.1.0.tgz"
+		"sityle": "https://github.com/CastoricSi/sityle/releases/download/v1.2.0/sityle-1.2.0.tgz"
 	},
 	"devDependencies": {
 		"@cloudflare/vite-plugin": "1.52.1",
