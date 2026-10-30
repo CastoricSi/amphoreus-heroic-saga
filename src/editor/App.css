@@ -385,8 +385,3 @@
 .script-output-status.is-success { color: var(--si-jade-text); background: var(--si-jade-soft); }
 .script-output-status.is-error { color: var(--si-cinnabar-text); background: var(--si-cinnabar-soft); }
 .script-output > pre { height: min(36vh, 320px); margin: 0; overflow: auto; padding: var(--si-space-3); border-radius: var(--si-r-sm); color: var(--si-ink); background: var(--si-paper-sunk); font: 400 0.75rem/1.6 var(--si-font-mono); white-space: pre-wrap; overflow-wrap: anywhere; }
-
-/* The right-click menu: sityle's menu panel, placed at the pointer. */
-.context-menu { min-width: 200px; }
-.context-menu .si-menu-item { padding: 7px 10px; font-size: 0.8125rem; }
-.context-menu-heading { padding: 6px 10px 2px; color: var(--si-ink-3); font: var(--si-type-caption); }

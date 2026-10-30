@@ -1,4 +1,5 @@
 import { useState, type DragEvent, type MouseEvent } from "react";
+import { contextMenuPoint, type ContextMenuPoint } from "sityle";
 import { InlineIconButton } from "../ui";
 import { BufferedInput } from "../ui/BufferedFields";
 import { IconCopy, IconGripVertical, IconLanguageHiragana } from "../ui/icons";
@@ -26,7 +27,7 @@ interface ScriptHierarchyNodeProps {
 	onChange: (path: number[], node: JsonNode) => void;
 	onDrop: (target: ScriptNodeAddress, dragged: ScriptNodeAddress, nest: boolean) => void;
 	onDialogueCursor: (address: ScriptNodeAddress, offset: number) => void;
-	onContextMenu: (address: ScriptNodeAddress, position: { x: number; y: number }) => void;
+	onContextMenu: (address: ScriptNodeAddress, position: ContextMenuPoint) => void;
 }
 
 function ScriptHierarchyNode({ blockId, node, path, level, selectedAddresses, editableAddress, activeMatch, onSelect, onChange, onDrop, onDialogueCursor, onContextMenu }: ScriptHierarchyNodeProps) {
@@ -50,7 +51,7 @@ function ScriptHierarchyNode({ blockId, node, path, level, selectedAddresses, ed
 		const target = event.target;
 		if ((target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement) && target.selectionStart !== target.selectionEnd) return;
 		event.preventDefault();
-		onContextMenu(address, { x: event.clientX, y: event.clientY });
+		onContextMenu(address, contextMenuPoint(event));
 	};
 	const handleDrop = (event: DragEvent) => {
 		event.preventDefault();

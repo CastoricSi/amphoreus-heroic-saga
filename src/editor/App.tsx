@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Button, Dialog, IconButton, Menu, NavItem, Tag, Tooltip, useTheme, type ThemeChoice } from "sityle";
-import { ContextMenu, type MenuEntry, type MenuItem } from "./ui";
+import { Button, ContextMenu, Dialog, IconButton, Menu, NavItem, Tag, Tooltip, useTheme, type ContextMenuEntry, type ContextMenuPoint, type MenuEntry, type ThemeChoice } from "sityle";
 import { IconAlertCircle, IconArrowBackUp, IconArrowForwardUp, IconArrowLeft, IconCheck, IconChevronDown, IconDeviceDesktop, IconListTree, IconMaximize, IconMinimize, IconMoon, IconSettings, IconSun, IconX } from "./ui/icons";
 import { newNodeTemplates, nodeLabel, nodeLabels } from "./content/node-config";
 import { SourceContentCard } from "./content/ReadOnlyContent";
@@ -35,6 +34,9 @@ interface HistoryEntry {
 
 /** The two panes: the mission viewer (source material) and the screenplay editor. */
 type Pane = "viewer" | "editor";
+
+/** One action row of a menu (sityle's MenuEntry minus the divider). */
+type MenuAction = Exclude<MenuEntry, "divider">;
 
 const themeChoices: Array<{ value: ThemeChoice; label: string; icon: typeof IconSun }> = [
 	{ value: "light", label: "宣纸（浅色）", icon: IconSun },
@@ -157,7 +159,7 @@ function App() {
 	const theme = useTheme();
 	const [historySize, setHistorySize] = useState({ undo: 0, redo: 0 });
 	const [deleteNotice, setDeleteNotice] = useState<number | null>(null);
-	const [contextMenu, setContextMenu] = useState<{ x: number; y: number } | null>(null);
+	const [contextMenu, setContextMenu] = useState<ContextMenuPoint | null>(null);
 	const [dirty, setDirty] = useState(false);
 	const [saveState, setSaveState] = useState<"idle" | "saving" | "saved" | "error">("idle");
 	const [error, setError] = useState("");
@@ -689,7 +691,7 @@ function App() {
 		return true;
 	}
 	// Right-clicking outside the current selection selects that block first, like a file manager.
-	function openBlockContextMenu(address: ScriptNodeAddress, position: { x: number; y: number }) {
+	function openBlockContextMenu(address: ScriptNodeAddress, position: ContextMenuPoint) {
 		if (!activeScriptSelection.some((candidate) => sameScriptAddress(candidate, address))) {
 			exitMultiSelect(); setDialogueCursor(null);
 			setSelectedBlockId(address.blockId); setSelectedNodePath(address.path);
@@ -725,27 +727,27 @@ function App() {
 
 	const singleSelection = activeScriptSelection.length === 1;
 	const contextActions = ([
-		canFoldSelection && { label: "创建折叠组", onClick: foldSelectedNodes },
-		singleSelection && isContainerNode(selectedNode) && { label: "拆散内容组", onClick: dissolveSelectedFold },
-		canMergeDialogues && { label: "合并对话", onClick: mergeSelectedDialogues },
-		singleSelection && selectedNode?.type === "dialogue" && { label: "在光标处拆分对话", shortcut: "Ctrl+K", disabled: !canSplitDialogue, onClick: () => { splitSelectedDialogue(); } },
-		singleSelection && selectedNode?.type === "image" && { label: "替换图片…", onClick: () => void openImagePicker("replace") },
-	] as Array<MenuItem | false>).filter((item): item is MenuItem => Boolean(item));
+		canFoldSelection && { label: "创建折叠组", onSelect: foldSelectedNodes },
+		singleSelection && isContainerNode(selectedNode) && { label: "拆散内容组", onSelect: dissolveSelectedFold },
+		canMergeDialogues && { label: "合并对话", onSelect: mergeSelectedDialogues },
+		singleSelection && selectedNode?.type === "dialogue" && { label: "在光标处拆分对话", kbd: "Ctrl+K", disabled: !canSplitDialogue, onSelect: () => { splitSelectedDialogue(); } },
+		singleSelection && selectedNode?.type === "image" && { label: "替换图片…", onSelect: () => void openImagePicker("replace") },
+	] as Array<MenuAction | false>).filter((item): item is MenuAction => Boolean(item));
 	const selectedNodes = document ? activeScriptSelection.map((address) => nodeAtAddress(document, address)) : [];
-	const convertActions: MenuItem[] = [
+	const convertActions: MenuAction[] = [
 		...(selectedNodes.length && selectedNodes.every(isConvertibleTextNode)
-			? convertibleTextTypes.filter((type) => !selectedNodes.every((node) => node?.type === type)).map((type) => ({ label: nodeLabels[type], onClick: () => { applyOperation((current) => convertTextNodes(current, activeScriptSelection, type)); } }))
+			? convertibleTextTypes.filter((type) => !selectedNodes.every((node) => node?.type === type)).map((type) => ({ label: nodeLabels[type], onSelect: () => { applyOperation((current) => convertTextNodes(current, activeScriptSelection, type)); } }))
 			: []),
-		...(singleSelection && selectedNode?.type === "fold" ? [{ label: nodeLabels["message-thread"], onClick: convertSelectedFoldToMessageThread }] : []),
-		...(singleSelection && selectedNode?.type === "message-thread" ? [{ label: nodeLabels.fold, onClick: () => { applyOperation((current) => messageThreadToFold(current, activeScriptSelection[0])); } }] : []),
+		...(singleSelection && selectedNode?.type === "fold" ? [{ label: nodeLabels["message-thread"], onSelect: convertSelectedFoldToMessageThread }] : []),
+		...(singleSelection && selectedNode?.type === "message-thread" ? [{ label: nodeLabels.fold, onSelect: () => { applyOperation((current) => messageThreadToFold(current, activeScriptSelection[0])); } }] : []),
 	];
-	const scriptContextItems: MenuEntry[] = [
-		{ label: "剪切", shortcut: "Ctrl+X", onClick: () => { cutSelectedBlocks(); } },
-		{ label: "粘贴到后面", shortcut: "Ctrl+V", disabled: !singleSelection || !cutBlocksRef.current.length, onClick: () => { pasteCutBlocks(); } },
-		...(contextActions.length ? ["separator" as const, ...contextActions] : []),
-		...(convertActions.length ? ["separator" as const, { heading: "转换为" }, ...convertActions] : []),
-		"separator",
-		{ label: activeScriptSelection.length > 1 ? `删除 ${activeScriptSelection.length} 个内容块` : "删除", shortcut: "Delete", danger: true, onClick: () => { deleteSelectedNode(); } },
+	const scriptContextItems: ContextMenuEntry[] = [
+		{ label: "剪切", kbd: "Ctrl+X", onSelect: () => { cutSelectedBlocks(); } },
+		{ label: "粘贴到后面", kbd: "Ctrl+V", disabled: !singleSelection || !cutBlocksRef.current.length, onSelect: () => { pasteCutBlocks(); } },
+		...(contextActions.length ? ["divider" as const, ...contextActions] : []),
+		...(convertActions.length ? ["divider" as const, { heading: "转换为" }, ...convertActions] : []),
+		"divider",
+		{ label: activeScriptSelection.length > 1 ? `删除 ${activeScriptSelection.length} 个内容块` : "删除", kbd: "Delete", danger: true, onSelect: () => { deleteSelectedNode(); } },
 	];
 	const closeContextMenu = useCallback(() => setContextMenu(null), []);
 
@@ -776,7 +778,7 @@ function App() {
 	return (
 		<div className="app-shell">
 			<ImportDialog opened={importOpened} mode={importMode} text={importText} loading={importLoading} onClose={() => setImportOpened(false)} onModeChange={setImportMode} onTextChange={setImportText} onImportPlain={importScriptLines} onImportSrt={importSrt} onImportSource={() => void importWikitext()} />
-			<ContextMenu position={contextMenu} items={scriptContextItems} onClose={closeContextMenu} />
+			<ContextMenu label="内容块操作" at={contextMenu} items={scriptContextItems} onClose={closeContextMenu} />
 			<ImagePickerDialog mode={imagePickerMode} search={imageSearch} assets={filteredImageAssets} total={imageAssets.length} loading={imageLoading} onClose={() => setImagePickerMode(null)} onSearchChange={setImageSearch} onChoose={chooseImage} />
 			<Dialog open={settingsOpen} onClose={() => setSettingsOpen(false)} title="设置" wide className="editor-dialog is-lg"><SettingsPanel runner={scriptRunner} /></Dialog>
 			{error ? <div className="error-banner" role="alert"><IconAlertCircle /><span>{error}</span><Button variant="light" tone="danger" size="sm" onClick={() => setError("")}>关闭</Button></div> : null}
