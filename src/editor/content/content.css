@@ -3,6 +3,17 @@
  * (--node-accent) and a text colour (--node-text) as light-dark() pairs drawn from the 丹青
  * pigments; tinted backgrounds and borders are mixed from the accent.
  */
+/*
+ * Long missions and screenplays have hundreds of blocks: those off screen are not laid out or painted
+ * (content-visibility: auto), each keeping the height it last had (contain-intrinsic-size: auto) so
+ * the scrollbar stays steady. Their paint containment clips what a block draws outside itself, so
+ * nothing in a block reaches past its edges (see .is-insert-target below).
+ */
+.source-cards > .source-card,
+.script-blocks > .script-view-block {
+	content-visibility: auto;
+	contain-intrinsic-size: auto 32px;
+}
 .source-card { margin: 0 0 2px; }
 .read-node {
 	--node-accent: var(--si-ink-3);
@@ -140,7 +151,7 @@
 .script-view-block.is-search-match, .script-view-block.is-search-match:hover { border-color: var(--ed-match-line); background: var(--ed-match); box-shadow: 0 0 0 3px color-mix(in srgb, var(--si-gold) 18%, transparent); }
 .script-view-block.is-drop-target { border-color: var(--si-jade); background: var(--ed-selected); box-shadow: 0 0 0 3px color-mix(in srgb, var(--si-jade) 22%, transparent), var(--si-e2); }
 .script-view-block.is-insert-target, .script-view-block.is-insert-target:hover { border-color: transparent; box-shadow: none; }
-.script-view-block.is-insert-target::before { position: absolute; z-index: 8; top: -3px; right: 0; left: 0; height: 3px; border-radius: 2px; background: var(--si-jade); box-shadow: 0 0 0 1px var(--si-paper-raised); content: ""; pointer-events: none; }
+.script-view-block.is-insert-target::before { position: absolute; z-index: 8; top: 0; right: 0; left: 0; height: 3px; border-radius: 2px; background: var(--si-jade); box-shadow: 0 0 0 1px var(--si-paper-raised); content: ""; pointer-events: none; }
 .script-view-block.is-drop-target > .read-node { opacity: .72; }
 .script-view-block > .read-node { grid-column: 2; min-width: 0; }
 .script-view-block.is-container > .read-node { grid-column: 1; }

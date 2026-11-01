@@ -1,8 +1,11 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
+import { flushSync } from "react-dom";
 
 /**
  * The content width of an element, kept up to date while it resizes (0 until it is first measured).
- * Returns a callback ref, so an element that mounts later (or is replaced) is measured too.
+ * Returns a callback ref, so an element that mounts later (or is replaced) is measured too, and
+ * `measure()`, which reads the width right away and renders with it synchronously: for a layout change
+ * that has to be complete in one go (a view transition's "after" snapshot).
  */
 export function useElementWidth<T extends HTMLElement>() {
 	const [element, setElement] = useState<T | null>(null);
@@ -14,5 +17,8 @@ export function useElementWidth<T extends HTMLElement>() {
 		observer.observe(element);
 		return () => observer.disconnect();
 	}, [element]);
-	return [setElement, width] as const;
+	const measure = useCallback(() => {
+		if (element) flushSync(() => setWidth(element.clientWidth));
+	}, [element]);
+	return [setElement, width, measure] as const;
 }

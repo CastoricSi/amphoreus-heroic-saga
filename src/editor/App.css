@@ -1,7 +1,8 @@
 /*
  * Layout and editor chrome, on sityle tokens only. Two panes side by side: the mission viewer
  * (.source-pane) and the screenplay editor (.script-pane). Either one can stretch over the whole
- * workspace: it keeps its look and grows wider while the other is squeezed out.
+ * workspace: it keeps its look and grows wider while the other is squeezed out. That move is a view
+ * transition (App: setExpanded), not a width animation: see "Expanding a pane" below.
  */
 .app-shell {
 	display: grid;
@@ -24,7 +25,7 @@
 .error-banner > svg { width: 16px; height: 16px; flex: none; }
 .error-banner > span { flex: 1; min-width: 0; }
 
-/* Workspace: the two panes. grid-template-columns animates, so expanding slides the divider across. */
+/* Workspace: the two panes side by side, or one of them over the whole width. */
 .workspace {
 	--viewer: 42fr;
 	--editor: 58fr;
@@ -34,9 +35,6 @@
 	grid-template-columns: minmax(0, var(--viewer)) minmax(0, var(--editor));
 	column-gap: var(--ed-pane-gap);
 	padding: var(--ed-pane-gap);
-	transition:
-		grid-template-columns var(--si-t-slow) var(--si-ease-out),
-		column-gap var(--si-t-slow) var(--si-ease-out);
 }
 .workspace[data-expanded="viewer"] { --viewer: 1fr; --editor: 0fr; column-gap: 0; }
 .workspace[data-expanded="editor"] { --viewer: 0fr; --editor: 1fr; column-gap: 0; }
@@ -52,15 +50,57 @@
 	border-radius: var(--si-r-lg);
 	background: var(--si-paper-raised);
 	box-shadow: var(--si-e2);
-	transition:
-		opacity var(--si-t-base) var(--si-ease-out),
-		border-color var(--si-t-base);
 }
-/* Squeezed out: it keeps its layout (no reflow while it narrows) and fades away. */
-.source-pane[data-pane-state="collapsed"], .script-pane[data-pane-state="collapsed"] { border-color: transparent; box-shadow: none; opacity: 0; pointer-events: none; }
+.source-pane { view-transition-name: viewer-pane; }
+.script-pane { view-transition-name: editor-pane; }
 .source-pane > *, .script-pane > * { min-width: 0; }
-.source-pane[data-pane-state="collapsed"] > *, .script-pane[data-pane-state="collapsed"] > * { min-width: 480px; }
-.source-pane[data-pane-state="collapsed"] { align-items: flex-end; }
+/*
+ * Squeezed out: zero wide, and its content isn't laid out at all (content-visibility: hidden keeps
+ * its state, scroll positions included). At zero width every line of a long mission would otherwise
+ * wrap to a character each: a very tall, very costly layout for something nobody sees.
+ */
+.source-pane[data-pane-state="collapsed"], .script-pane[data-pane-state="collapsed"] { border-color: transparent; box-shadow: none; content-visibility: hidden; }
+
+/*
+ * Expanding a pane. The browser snapshots both panes, the new layout is made once, and each pane's
+ * box (::view-transition-group) moves and resizes from the old place to the new one on the compositor:
+ * no reflow on any frame. The group itself is drawn as the pane's card (paper, rounded corners,
+ * shadow); the snapshots inside are not stretched but shown at their own size from the top left and
+ * clipped by the card, the old one fading into the new one.
+ */
+::view-transition-group(viewer-pane),
+::view-transition-group(editor-pane) {
+	animation-duration: var(--si-t-slow);
+	animation-timing-function: var(--si-ease-out);
+	border-radius: var(--si-r-lg);
+	background: var(--si-paper-raised);
+	box-shadow: var(--si-e2);
+}
+::view-transition-image-pair(viewer-pane),
+::view-transition-image-pair(editor-pane) {
+	overflow: clip;
+	border-radius: var(--si-r-lg);
+}
+::view-transition-old(viewer-pane),
+::view-transition-new(viewer-pane),
+::view-transition-old(editor-pane),
+::view-transition-new(editor-pane) {
+	width: 100%;
+	height: 100%;
+	object-fit: none;
+	object-position: left top;
+	animation-duration: var(--si-t-base);
+}
+/* The old picture leaves faster than the new one arrives: two different layouts barely overlap. */
+::view-transition-old(viewer-pane),
+::view-transition-old(editor-pane) {
+	animation-duration: var(--si-t-quick);
+}
+/* The page behind the panes doesn't change: no cross-fade of the whole window. */
+::view-transition-old(root),
+::view-transition-new(root) {
+	animation: none;
+}
 
 /* Save state: a dot / icon plus its wording; the tooltip has the details. */
 .save-status {

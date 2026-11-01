@@ -1,4 +1,4 @@
-import { useState, type MouseEvent } from "react";
+import { memo, useState, type MouseEvent } from "react";
 import { InlineIconButton } from "../ui";
 import { IconX } from "../ui/icons";
 import { CollapsibleContent } from "./CollapsibleContent";
@@ -73,3 +73,18 @@ export function ReadOnlyContent({ node, path, selected, onToggle, depth = 0, hig
 export function SourceContentCard(props: ReadOnlyContentProps) {
 	return <div id={sourceNodeDomId(props.path)} className="source-card"><ReadOnlyContent {...props} /></div>;
 }
+
+interface SourceCardListProps {
+	nodes: JsonNode[];
+	selected: Set<string>;
+	onToggle: ReadOnlyContentProps["onToggle"];
+}
+
+/**
+ * A mission's content, one card per top-level node. Memoized: it re-renders only when the mission, the
+ * selection or the handler changes, not whenever the app around it does (expanding a pane, typing in the
+ * screenplay). Hand it a stable onToggle.
+ */
+export const SourceCardList = memo(function SourceCardList({ nodes, selected, onToggle }: SourceCardListProps) {
+	return nodes.map((node, index) => <SourceContentCard key={index} node={node} path={[index]} selected={selected} onToggle={onToggle} />);
+});

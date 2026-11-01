@@ -1,13 +1,16 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { flushSync } from "react-dom";
 import { Button, ConfirmDialog, ContextMenu, Dialog, IconButton, Menu, Tooltip, useTheme, type ContextMenuEntry, type ContextMenuPoint, type MenuEntry, type ThemeChoice } from "sityle";
 import { IconAlertCircle, IconArrowBackUp, IconArrowForwardUp, IconArrowLeft, IconCheck, IconChevronDown, IconDeviceDesktop, IconDots, IconFileImport, IconListTree, IconMaximize, IconMinimize, IconMoon, IconPhoto, IconPlus, IconSettings, IconSun, IconTrash, IconX } from "./ui/icons";
 import { newNodeTemplates, nodeLabel, nodeLabels } from "./content/node-config";
-import { SourceContentCard } from "./content/ReadOnlyContent";
-import { ScriptBlockView } from "./content/ScriptBlockView";
+import { SourceCardList } from "./content/ReadOnlyContent";
+import { ScriptBlockList } from "./content/ScriptBlockView";
+import { useStableCallback } from "./components/useStableCallback";
 import { collectScriptTextMatches, expandChoiceOption, expandDialogueChoices, findMessageOwner, flattenMissions, nestedNodeAtPath, replaceDialogueSpeaker, sameNumberPath, sameScriptAddress, scriptNodeDomId, scriptSiblingGroup, syncScreenplayCharacters, toMessageThread } from "./content/screenplay-model";
 import { strikeMarkerBody, wrapStrikeMarker } from "./content/rich-text-utils";
 import { convertTextNodes, convertibleTextTypes, cutSiblings, dissolveContainer, isContainerNode, isConvertibleTextNode, messageThreadToFold, foldSiblings, insertItems, mergeDialogues, moveNode, removeSiblings, siblingRange, splitDialogue, nodeAtAddress, updateNodeAt, type OperationResult } from "./content/screenplay-ops";
 import { collectNodePaths, isAncestorPath, nodeAtPath, pathKey, sourceNodeDomId } from "./content/tree";
+import { revealElement } from "./content/reveal";
 import type { BootstrapResponse, ImageAsset, JsonNode, MissionDocument, MissionIndex, MissionRef, NodePath, ScreenplayDocument, ScreenplaySummary, ScriptBlock, ScriptItem, ScriptNodeAddress, ScriptTextMatch, ScriptTitleEntry, SearchMode, SelectionModifiers } from "./content/types";
 import { ImagePickerDialog } from "./components/ImagePickerDialog";
 import { ImportDialog, type ImportMode } from "./components/ImportDialog";
@@ -174,12 +177,12 @@ function App() {
 	const [searchMatchIndex, setSearchMatchIndex] = useState(0);
 	const [lastMissionFile, setLastMissionFile] = useState<string>();
 	const [activeHeading, setActiveHeading] = useState<string | null>(null);
-	const [viewerRef, viewerWidth] = useElementWidth<HTMLDivElement>();
+	const [viewerRef, viewerWidth, measureViewer] = useElementWidth<HTMLDivElement>();
 	const sourceCardsRef = useRef<HTMLDivElement>(null);
 	const [titleNavigatorOpen, setTitleNavigatorOpen] = useState(true);
 	const [settingsOpen, setSettingsOpen] = useState(false);
 	const [deleteOpen, setDeleteOpen] = useState(false);
-	const [editorMainRef, editorMainWidth] = useElementWidth<HTMLDivElement>();
+	const [editorMainRef, editorMainWidth, measureEditorMain] = useElementWidth<HTMLDivElement>();
 	// The pane stretched over the whole workspace (the other one is squeezed out), or null for side by side.
 	const [expandedPane, setExpandedPane] = useState<Pane | null>(null);
 	const theme = useTheme();
@@ -248,8 +251,9 @@ function App() {
 		const needle = imageSearch.trim().toLowerCase();
 		return needle ? imageAssets.filter((image) => image.file.toLowerCase().includes(needle)) : imageAssets;
 	}, [imageAssets, imageSearch]);
-	const activeScriptSelection = multiSelectMode ? multiSelected : selectedBlockId ? [{ blockId: selectedBlockId, path: selectedNodePath }] : [];
-	const editableAddress = !multiSelectMode && selectedBlockId ? { blockId: selectedBlockId, path: selectedNodePath } : null;
+	// Memoized: they are props of the memoized block list, which then re-renders only when they change.
+	const activeScriptSelection = useMemo(() => multiSelectMode ? multiSelected : selectedBlockId ? [{ blockId: selectedBlockId, path: selectedNodePath }] : [], [multiSelectMode, multiSelected, selectedBlockId, selectedNodePath]);
+	const editableAddress = useMemo(() => !multiSelectMode && selectedBlockId ? { blockId: selectedBlockId, path: selectedNodePath } : null, [multiSelectMode, selectedBlockId, selectedNodePath]);
 	const canFoldSelection = activeScriptSelection.length > 1 && activeScriptSelection.every((address) => scriptSiblingGroup(address) === scriptSiblingGroup(activeScriptSelection[0]));
 	const mergeCandidates = document ? activeScriptSelection.map((address) => {
 		const blockIndex = document.blocks.findIndex((block) => block.id === address.blockId);
@@ -316,7 +320,7 @@ function App() {
 
 	useEffect(() => {
 		if (!activeSearchMatch) return;
-		const frame = window.requestAnimationFrame(() => window.document.querySelector<HTMLElement>('[data-search-active="true"]')?.scrollIntoView({ block: "center", behavior: "smooth" }));
+		const frame = window.requestAnimationFrame(() => { const match = window.document.querySelector<HTMLElement>('[data-search-active="true"]'); if (match) revealElement(match, "center"); });
 		return () => window.cancelAnimationFrame(frame);
 	}, [activeSearchMatch]);
 
@@ -442,7 +446,7 @@ function App() {
 		const expanded = expandFoldsAlongPath(block.node, entry.path);
 		if (expanded !== block.node) updateBlockNode(block.id, [], expanded);
 		exitMultiSelect(); setDialogueCursor(null); setSelectedBlockId(entry.blockId); setSelectedNodePath(entry.path);
-		window.setTimeout(() => window.document.getElementById(scriptNodeDomId(entry))?.scrollIntoView({ block: "center", behavior: "smooth" }), 0);
+		window.setTimeout(() => { const target = window.document.getElementById(scriptNodeDomId(entry)); if (target) revealElement(target, "center"); }, 0);
 	}
 
 	async function openMission(mission: MissionRef) {
@@ -459,7 +463,8 @@ function App() {
 	}
 	function openMissionHeading(heading: MissionContentHeading) {
 		setActiveHeading(pathKey(heading.path));
-		window.document.getElementById(sourceNodeDomId(heading.path))?.scrollIntoView({ block: "start", behavior: "smooth" });
+		const target = window.document.getElementById(sourceNodeDomId(heading.path));
+		if (target) revealElement(target, "start");
 	}
 	// The table of contents follows reading: the last heading that has scrolled past the top of the content.
 	function syncActiveHeading() {
@@ -803,6 +808,16 @@ function App() {
 		onLocationChange: setLocationFilter,
 	};
 
+	// Stable handlers for the memoized content lists (they always call the latest functions above).
+	const stableToggleSource = useStableCallback(toggleSource);
+	const blockHandlers = {
+		select: useStableCallback(handleScriptSelect),
+		change: useStableCallback((blockId: string, path: number[], node: JsonNode) => updateBlockNode(blockId, path, node, `edit:${blockId}:${path.join(".")}`)),
+		drop: useStableCallback(moveScriptNode),
+		cursor: useStableCallback(recordDialogueCursor),
+		contextMenu: useStableCallback(openBlockContextMenu),
+	};
+
 	// The editor's own menu (⋯): settings, theme and, with a screenplay open, deleting it.
 	const editorMenu = <Menu label="编辑器菜单" align="end" trigger={(props) => <IconButton {...props} label="更多"><IconDots /></IconButton>} items={[
 		{ label: "设置与数据工具…", icon: <IconSettings />, onSelect: () => setSettingsOpen(true) },
@@ -814,10 +829,27 @@ function App() {
 	const menuInserts = insertableNodes.slice(inlineInserts.length);
 	const viewerLayout: ViewerLayout = viewerWidth >= VIEWER_FULL_WIDTH ? "full" : viewerWidth >= VIEWER_LIST_WIDTH ? "list" : "single";
 	const paneState = (pane: Pane) => expandedPane === null ? "split" : expandedPane === pane ? "expanded" : "collapsed";
+	/*
+	 * Expanding a pane changes both panes' widths, and reflowing thousands of content blocks on every
+	 * frame of a width animation is what made it stutter. Instead the switch is a view transition: the
+	 * browser snapshots both panes, the new layout is made once (state, then the widths the panes lay
+	 * themselves out by), and the snapshots move to the new places on the compositor (App.css,
+	 * ::view-transition-*). Without view transitions, or with reduced motion, it switches at once.
+	 */
+	function setExpanded(next: Pane | null) {
+		const apply = () => {
+			flushSync(() => setExpandedPane(next));
+			measureViewer();
+			measureEditorMain();
+		};
+		const reduced = window.document.documentElement.getAttribute("data-si-motion") === "reduce";
+		if (!window.document.startViewTransition || reduced) apply();
+		else window.document.startViewTransition(apply);
+	}
 	const expandToggle = (pane: Pane) => {
 		const expanded = expandedPane === pane;
 		const label = expanded ? "恢复并排显示" : pane === "viewer" ? "展开任务查看器" : "展开剧本编辑器";
-		return <IconButton className="pane-expand-button" label={label} active={expanded} aria-expanded={expanded} onClick={() => setExpandedPane(expanded ? null : pane)}>{expanded ? <IconMinimize /> : <IconMaximize />}</IconButton>;
+		return <IconButton className="pane-expand-button" label={label} active={expanded} aria-expanded={expanded} onClick={() => setExpanded(expanded ? null : pane)}>{expanded ? <IconMinimize /> : <IconMaximize />}</IconButton>;
 	};
 
 	return (
@@ -849,7 +881,7 @@ function App() {
 								<Button variant="flat" size="sm" disabled={!document || selectedSource.size === 0} onClick={() => appendSource(sourcePaths.filter((path) => selectedSource.has(pathKey(path))), "end")}>追加到剧本 {selectedSource.size ? `(${selectedSource.size})` : ""}</Button>
 								<Button size="sm" disabled={!document || selectedSource.size === 0 || !selectedNode} onClick={() => appendSource(sourcePaths.filter((path) => selectedSource.has(pathKey(path))), "below")}>插入到所选内容后 {selectedSource.size ? `(${selectedSource.size})` : ""}</Button>
 							</div>
-							<div ref={sourceCardsRef} className="source-cards" onScroll={syncActiveHeading}>{missionDocument?.content.map((node, nodeIndex) => <SourceContentCard key={nodeIndex} node={node} path={[nodeIndex]} selected={selectedSource} onToggle={toggleSource} />)}</div>
+							<div ref={sourceCardsRef} className="source-cards" onScroll={syncActiveHeading}>{missionDocument ? <SourceCardList nodes={missionDocument.content} selected={selectedSource} onToggle={stableToggleSource} /> : null}</div>
 							<MissionPager previous={previousMission} next={nextMission} position={selectedMissionPosition} total={filteredMissions.length} onOpen={(mission) => void openMission(mission)} />
 						</div> : viewerLayout !== "single" ? <div className="source-preview viewer-empty"><div className="empty-script"><span>❖</span><h3>选择一个任务</h3><p>在左侧的任务资料库里点一个任务，它的内容会显示在这里。</p></div></div> : null}
 					</div>
@@ -880,7 +912,7 @@ function App() {
 								</div>
 								{deleteNotice ? <div className="delete-notice" role="status"><span>已删除 {deleteNotice} 个内容块</span><Button variant="light" tone="danger" size="sm" onClick={undo}>撤销</Button><IconButton label="关闭提示" onClick={() => setDeleteNotice(null)}><IconX /></IconButton></div> : null}
 								{searchMode ? <div className="script-search-bar"><strong>{searchMode === "gender" ? "性别指代检查" : "主角称谓查找"}</strong><span className="script-search-term">{activeSearchMatch ? `“${activeSearchMatch.term}”` : "没有找到匹配内容"}</span><span className="script-search-count">{searchMatches.length ? `${normalizedSearchIndex + 1} / ${searchMatches.length}` : "0 / 0"}</span><Button variant="ghost" size="sm" onClick={() => navigateScriptSearch(-1)}>上一个</Button><Button variant="ghost" size="sm" onClick={() => navigateScriptSearch(1)}>下一个</Button>{searchMode === "gender" ? <Button size="sm" disabled={!activeSearchMatch?.replacement} onClick={replaceCurrentGenderMatch}>替换为“{activeSearchMatch?.replacement ?? "—"}”</Button> : null}<Button variant="ghost" size="sm" onClick={() => { setSearchMode(null); setSearchMatches([]); setSearchMatchIndex(0); }}>关闭</Button></div> : null}
-								<div className="script-blocks">{document.blocks.length ? document.blocks.map((block) => <ScriptBlockView key={block.id} block={block} selectedAddresses={activeScriptSelection} editableAddress={editableAddress} activeMatch={activeSearchMatch} onSelect={handleScriptSelect} onChange={(path, node) => updateBlockNode(block.id, path, node, `edit:${block.id}:${path.join(".")}`)} onDrop={moveScriptNode} onDialogueCursor={recordDialogueCursor} onContextMenu={openBlockContextMenu} />) : <div className="empty-script"><span>＋</span><h3>这个剧本还是空的</h3><p>从任务查看器加入任务内容，或用上方工具栏插入内容。</p></div>}</div>
+								<div className="script-blocks">{document.blocks.length ? <ScriptBlockList blocks={document.blocks} selectedAddresses={activeScriptSelection} editableAddress={editableAddress} activeMatch={activeSearchMatch} onSelect={blockHandlers.select} onChange={blockHandlers.change} onDrop={blockHandlers.drop} onDialogueCursor={blockHandlers.cursor} onContextMenu={blockHandlers.contextMenu} /> : <div className="empty-script"><span>＋</span><h3>这个剧本还是空的</h3><p>从任务查看器加入任务内容，或用上方工具栏插入内容。</p></div>}</div>
 								<footer className="script-status-bar" data-mode={multiSelectMode ? "multi" : undefined}>
 									{multiSelectMode
 										? <><strong>多选</strong><span className="script-status-text">{multiSelected.length ? `已选择 ${multiSelected.length} 个同级内容块` : "点击内容块开始选择"} · Esc 退出</span></>

@@ -1,4 +1,4 @@
-import { useState, type DragEvent, type MouseEvent } from "react";
+import { memo, useState, type DragEvent, type MouseEvent } from "react";
 import { contextMenuPoint, type ContextMenuPoint } from "sityle";
 import { InlineIconButton } from "../ui";
 import { BufferedInput } from "../ui/BufferedFields";
@@ -89,3 +89,16 @@ function ScriptHierarchyNode({ blockId, node, path, level, selectedAddresses, ed
 export function ScriptBlockView({ block, selectedAddresses, editableAddress, activeMatch, onSelect, onChange, onDrop, onDialogueCursor, onContextMenu }: Omit<ScriptHierarchyNodeProps, "blockId" | "node" | "path" | "level"> & { block: ScriptBlock }) {
 	return <ScriptHierarchyNode blockId={block.id} node={block.node} path={[]} level={1} selectedAddresses={selectedAddresses} editableAddress={editableAddress} activeMatch={activeMatch} onSelect={onSelect} onChange={onChange} onDrop={onDrop} onDialogueCursor={onDialogueCursor} onContextMenu={onContextMenu} />;
 }
+
+type ScriptBlockListProps = Omit<ScriptHierarchyNodeProps, "blockId" | "node" | "path" | "level" | "onChange"> & {
+	blocks: ScriptBlock[];
+	onChange: (blockId: string, path: number[], node: JsonNode) => void;
+};
+
+/**
+ * The screenplay's blocks. Memoized like SourceCardList: it re-renders when the blocks, the selection or
+ * the search match change, not for unrelated app state. Hand it stable handlers.
+ */
+export const ScriptBlockList = memo(function ScriptBlockList({ blocks, onChange, ...props }: ScriptBlockListProps) {
+	return blocks.map((block) => <ScriptBlockView key={block.id} block={block} {...props} onChange={(path, node) => onChange(block.id, path, node)} />);
+});
