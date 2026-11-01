@@ -36,10 +36,10 @@ function useBufferedText(value: string, onValueChange: (value: string) => void) 
 
 export function BufferedInput({ value, onValueChange, onBlur, onKeyDown, className = "", ...props }: BufferedInputProps) {
 	const buffered = useBufferedText(value, onValueChange);
-	return <input {...props} className={`ui-field ui-input ${className}`} value={buffered.draft} onChange={(event) => buffered.change(event.target.value)} onBlur={(event) => { buffered.commit(event.currentTarget.value); onBlur?.(event); }} onKeyDown={(event) => { if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "s") buffered.commit(event.currentTarget.value); onKeyDown?.(event); }} />;
+	return <input {...props} className={className} value={buffered.draft} onChange={(event) => buffered.change(event.target.value)} onBlur={(event) => { buffered.commit(event.currentTarget.value); onBlur?.(event); }} onKeyDown={(event) => { if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "s") buffered.commit(event.currentTarget.value); onKeyDown?.(event); }} />;
 }
 
 export function BufferedTextarea({ value, onValueChange, onBlur, onKeyDown, className = "", ...props }: BufferedTextareaProps) {
 	const buffered = useBufferedText(value, onValueChange);
-	return <textarea {...props} className={`ui-field ${className}`} value={buffered.draft} onChange={(event) => buffered.change(event.target.value)} onBlur={(event) => { buffered.commit(event.currentTarget.value); onBlur?.(event); }} onKeyDown={(event) => { if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "s") buffered.commit(event.currentTarget.value); onKeyDown?.(event); }} />;
+	return <textarea {...props} className={className} value={buffered.draft} onChange={(event) => buffered.change(event.target.value)} onBlur={(event) => { buffered.commit(event.currentTarget.value); onBlur?.(event); }} onKeyDown={(event) => { if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "s") buffered.commit(event.currentTarget.value); onKeyDown?.(event); }} />;
 }

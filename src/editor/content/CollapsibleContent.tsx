@@ -1,5 +1,5 @@
 import type { MouseEventHandler, PointerEventHandler, ReactNode } from "react";
-import { IconButton } from "../ui";
+import { InlineIconButton } from "../ui";
 import { IconChevronDown } from "../ui/icons";
 
 interface CollapsibleContentProps {
@@ -42,17 +42,16 @@ export function CollapsibleContent({
 		<div className={`read-node-heading ${headingClassName}`} onClick={onHeadingClick} onDoubleClick={onHeadingDoubleClick}>
 			{leadingActions}
 			{heading}
-			<IconButton
+			<InlineIconButton
 				className="fold-toggle-button"
-				aria-label={actionLabel}
-				title={actionLabel}
+				label={actionLabel}
 				aria-expanded={!collapsed}
 				onPointerDown={(event) => { event.stopPropagation(); onTogglePointerDown?.(event); }}
 				onClick={(event) => { event.stopPropagation(); onCollapsedChange(!collapsed); }}
 				onDoubleClick={(event) => event.stopPropagation()}
 			>
 				<IconChevronDown className="fold-toggle-icon" />
-			</IconButton>
+			</InlineIconButton>
 			{trailingActions}
 		</div>
 		<div className="collapsible-content-region" inert={collapsed || undefined}>
